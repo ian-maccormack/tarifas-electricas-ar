@@ -372,3 +372,147 @@ def p_edesal(text, sheets=None, **_):
     t = sheet_table(sheets or [], "Tarifa 1-R Residencial", r"Tarifa 1-R:", r"Tarifa 1-G", dec=".", header_re=r"Cargo Fijo")
     return {"vigencia": None, "tablas": [t],
             "comparable": comparable([t], (r"^T1R-1", 0), (r"^T1R-1", 2), "T1R-1, 'Cuadro Resolución' (primera tabla)")}
+
+
+def _chunks(line):
+    return [(m.start(), m.end(), m.group(0)) for m in re.finditer(r"\S+(?: \S+)*", line)]
+
+
+def _nearest(cols, pos):
+    return min(range(len(cols)), key=lambda i: abs((cols[i][0] + cols[i][1]) / 2 - pos))
+
+
+NUM_ES = re.compile(r"-?\d[\d.]*,\d+")
+
+
+@parser("edelar")
+def p_edelar(text, **_):
+    """Values are mapped to columns by horizontal position; a row is kept only when every
+    number lands in a distinct column (tiered sub-rows without a label are skipped)."""
+    tablas, t, cols, tipos, pending, held = [], None, None, {}, None, None
+
+    def add(label, unit, found):
+        idx = [_nearest(cols, (a + b) / 2) for a, b, _ in found]
+        if len(set(idx)) != len(idx):
+            return
+        vals = [None] * len(cols)
+        for i, (_, _, s) in zip(idx, found):
+            vals[i] = parse_num(s, ",")
+        keep = t["_keep"]
+        t["filas"].append({"grupo": None, "concepto": label, "unidad": unit,
+                           "valores": [vals[i] for i in keep],
+                           "columnas": [f"{cols[i][2]} ({tipos[i]})" if i in tipos else cols[i][2] for i in keep]})
+
+    for raw in text.splitlines():
+        if held and raw.strip():
+            label, unit, _, found = held
+            held = None
+            m2 = re.match(r"^(\S.*?)\s{2,}(\$/\S+)\s*$", raw)
+            if m2 and m2.group(2) == unit:
+                # one value printed between two label rows: the PDF does not say which row it belongs to
+                add(f"{label} / {squeeze(m2.group(1))} (un solo valor entre ambas filas del PDF)", unit, found)
+                continue
+            add(label, unit, found)
+        codes = [c for c in _chunks(raw) if re.fullmatch(r"T\d+-[A-Z]+\d*(-[A-Z0-9]+)?", c[2])]
+        if codes and len(codes) == len(_chunks(raw)) - (1 if "PEQUEÑAS" in raw else 0):
+            keep = [i for i, c in enumerate(codes) if c[2].startswith("T1-R")]
+            if not keep:
+                break
+            cols, tipos, pending = codes, {}, None
+            pref = re.match(r"T1-R[A-Z]?\d?", codes[keep[0]][2]).group(0)
+            t = {"titulo": f"{pref} — Tarifa Residencial", "filas": [], "_keep": keep}
+            tablas.append(t)
+            continue
+        if not cols:
+            continue
+        if "Tipo usuario" in raw:
+            for a, b, s in _chunks(raw):
+                if s != "Tipo usuario":
+                    tipos[_nearest(cols, (a + b) / 2)] = s
+            continue
+        found = [(m.start(), m.end(), m.group(0)) for m in NUM_ES.finditer(raw)]
+        m = re.match(r"^(\S.*?)\s{2,}(\$/\S+)", raw)
+        if m:
+            pending = None
+            if not found:
+                pending = (squeeze(m.group(1)), m.group(2))
+                continue
+            label, unit = squeeze(m.group(1)), m.group(2)
+        elif pending and found and not re.search(r"[A-Za-z]", raw):
+            label, unit = pending
+            pending = None
+            held = (label, unit, raw, found)
+            continue
+        else:
+            if raw.strip():
+                pending = None
+            continue
+        add(label, unit, found)
+    for x in tablas:
+        x.pop("_keep", None)
+    return {"vigencia": find(r"CUADRO TARIFARIO DE APLICACI[ÓO]N A LOS USUARIOS\s+(\S.*?20\d\d)", text),
+            "tablas": tablas,
+            "comparable": comparable(tablas, None, (r"^Cargo Variable$", 0, None),
+                                     "T1-R1 sin subsidio (< 200 kWh/mes)")}
+
+
+@parser("ejsed")
+def p_ejsed(text, **_):
+    """Two side-by-side columns of TDI categories (sistemas dispersos)."""
+    lines = text.splitlines()
+    first = next((ln for ln in lines if ln.count("ENPAD") == 2), None)
+    if not first:
+        raise ValueError("no se encontró la grilla TDI")
+    split = first.index("ENPAD", first.index("ENPAD") + 1) - 10
+    rx = re.compile(r"(ENPAD|Cargo Fijo|Cargo Variable|Tarifa Plena|Tarifa Usuario Final|Subsidio)\s+(\S+)\s+\$?\s*(-?[\d.]+,\d+)")
+    blocks, cur = [], None
+    for ln in lines:
+        hits = list(rx.finditer(ln))
+        if any(h.group(1) == "ENPAD" for h in hits):
+            cur = [{"label": "", "rows": []}, {"label": "", "rows": []}]
+            blocks.append(cur)
+        if cur is None:
+            continue
+        for h in hits:
+            cur[0 if h.start() < split else 1]["rows"].append((h.group(1), h.group(2), parse_num(h.group(3), ",")))
+        for m in re.finditer(r"TDI-\d+|_\d{3}\b", ln):
+            cur[0 if m.start() < split else 1]["label"] += m.group(0)
+    filas = []
+    for b in blocks:
+        for side in b:
+            for c, u, v in side["rows"]:
+                filas.append({"grupo": side["label"] or None, "concepto": c, "unidad": u, "valores": [v], "columnas": None})
+    filas.sort(key=lambda f: (f["grupo"] or "") if f["grupo"] else "")
+    return {"vigencia": squeeze((find(r"(Para el per[ií]odo comprendido[^\n]*\n[^\n]*)", text) or "").replace("TARIFARIO", "")) or None,
+            "tablas": [{"titulo": "Tarifas TDI (sistemas dispersos)", "filas": filas}]}
+
+
+@parser("emsa")
+def p_emsa(text, **_):
+    sub = section(text, r"CUADRO TARIFARIO N[ºo°] 654\s+Vigente", r"2\.a1|COMERCIAL")
+    row = re.compile(r"(Primeros|Siguientes|Excedente de)\s+(\d+)\s*KWH\s+(\d[\d.]*,\d+)(?:\s+(\d[\d.]*,\d+))?\s*$", re.I)
+    blocks = []
+    for ln in sub.splitlines():
+        m = row.search(ln)
+        rest = ln[:m.start()] if m else ln
+        if m and m.group(1).lower() == "primeros":
+            blocks.append({"label": [], "rows": [], "cuota": None})
+        if not blocks:
+            continue
+        b = blocks[-1]
+        rest = re.sub(r"Categor[ií]a\s+\d+", "", rest).strip()
+        if rest and not re.search(r"Vigente|CUADRO|Hoja|ANEXO|TARIFA|SUMINISTRO|CATEGORIA", rest):
+            b["label"].append(rest)
+        if m:
+            b["rows"].append((f"{m.group(1)} {m.group(2)} kWh", parse_num(m.group(3), ",")))
+            if m.group(4):
+                b["cuota"] = parse_num(m.group(4), ",")
+    filas = []
+    for b in blocks:
+        g = squeeze(" ".join(b["label"])) or None
+        filas.append({"grupo": g, "concepto": "Cuota de servicio", "unidad": None, "valores": [b["cuota"]], "columnas": None})
+        filas += [{"grupo": g, "concepto": c, "unidad": "Neto kWh", "valores": [v], "columnas": None} for c, v in b["rows"]]
+    t = {"titulo": "Cuadro Tarifario Nº 654 (Anexo I) — Categoría 1 Residencial", "filas": filas}
+    return {"vigencia": find(r"(Vigente a partir del Per[ií]odo \d\d/20\d\d)", text), "tablas": [t],
+            "comparable": comparable([t], (r"^Cuota de servicio$", 0, r"500 kwh"), (r"^Primeros 30", 0, r"500 kwh"),
+                                     "Residencial hasta 500 kWh/mes; primeros 30 kWh. El cuadro no indica la unidad de la cuota de servicio")}

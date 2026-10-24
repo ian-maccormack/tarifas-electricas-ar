@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T16:29:39+00:00",
+ "generado": "2026-10-24T17:00:28+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -7123,7 +7123,7 @@
    "nombre": "Empresa Jujeña de Sistemas Energéticos Dispersos S.A.",
    "provincia": "Jujuy",
    "nota": "",
-   "estado": "documento",
+   "estado": "ok",
    "documento": {
     "url": "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
     "titulo": "CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
@@ -7134,12 +7134,666 @@
     "bytes": 800109,
     "via": "URL conocida"
    },
-   "vigencia": null,
-   "tablas": [],
+   "vigencia": "Para el período comprendido entre el 1° de mayo al 31 de octubre 2026",
+   "tablas": [
+    {
+     "titulo": "Tarifas TDI (sistemas dispersos)",
+     "filas": [
+      {
+       "grupo": "TDI-004",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        3.75
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-004",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-004",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-004",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        37381.8028
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-004",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        2201.4672
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-004",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        7.5
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        39583.27
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        4402.9344
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-007",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        11.25
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        41784.7372
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        6604.4015
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-011",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        15.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        43986.2043
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        8805.8687
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-015",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        22.5
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        48389.1387
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        13208.8031
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-022_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        24.75
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        49710.019
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        14529.6834
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-025_220TDI-007TDI-011TDI-015TDI-022_220TDI-025_220TDI-030_220TDI-045_220TDI-090_220TDI-180_220TDI-225_220TDI-260_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        30.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        52792.073
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        17611.7374
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-030_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        45.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        61597.9417
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        26417.6061
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-045_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        90.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        88015.5478
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        52835.2122
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-090_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        180.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        14850.7601
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        105670.4244
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-180_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        225.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        167268.3662
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        132088.0305
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-225_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "ENPAD",
+       "unidad": "kWh/mes",
+       "valores": [
+        262.5
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        587.0579
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "Tarifa Plena",
+       "unidad": "$/mes",
+       "valores": [
+        189283.0379
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "Tarifa Usuario Final",
+       "unidad": "$/Usu",
+       "valores": [
+        154102.7023
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "TDI-260_220",
+       "concepto": "Subsidio",
+       "unidad": "$/Usu",
+       "valores": [
+        35180.3356
+       ],
+       "columnas": null
+      }
+     ]
+    }
+   ],
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:29:39+00:00",
+   "verificado": "2026-10-24T17:00:28+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -7964,7 +8618,7 @@
    "nombre": "Empresa Distribuidora de Electricidad de La Rioja S.A.",
    "provincia": "La Rioja",
    "nota": "",
-   "estado": "documento",
+   "estado": "ok",
    "documento": {
     "url": "https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf",
     "titulo": "Cuadro tarifario vigente (EDELAR)",
@@ -7975,13 +8629,545 @@
     "bytes": 469433,
     "via": "búsqueda automática"
    },
-   "vigencia": null,
-   "tablas": [],
+   "vigencia": "ABRIL 2026",
+   "tablas": [
+    {
+     "titulo": "T1-R1 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía / Cargo Fijo c/ cmo de energía (un solo valor entre ambas filas del PDF)",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956,
+        null,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Subsidio Estado Nacional",
+       "unidad": "$/kWh",
+       "valores": [
+        0.0,
+        null,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Sin consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Con consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Cargo Variable por Energia",
+       "unidad": "$/kWh",
+       "valores": [
+        0.0,
+        null,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-R1-NS (Sin Subsidio)",
+        "T1-R1-ZM (Zona Muy Calida)",
+        "T1-R1-ZC (Zona Calida)",
+        "T1-R1-ZR (Zona Resto)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "T1-R2 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía / Cargo Fijo c/ cmo de energía (un solo valor entre ambas filas del PDF)",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        null,
+        176.9956,
+        176.9956,
+        176.9956
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Subsidio Estado Nacional",
+       "unidad": "$/kWh",
+       "valores": [
+        null,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Sin consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Con consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Cargo Variable por Energia",
+       "unidad": "$/kWh",
+       "valores": [
+        null,
+        -26.5493,
+        -26.5493,
+        -26.5493
+       ],
+       "columnas": [
+        "T1-R2-NS (Sin Subsidio)",
+        "T1-R2-ZM (Zona Muy Calida)",
+        "T1-R2-ZC (Zona Calida)",
+        "T1-R2-ZR (Zona Resto)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "T1-R3 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía / Cargo Fijo c/ cmo de energía (un solo valor entre ambas filas del PDF)",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-R3-NS (Sin Subsidio)",
+        "T1-R3-ZM (Zona Muy Calida)",
+        "T1-R3-ZC (Zona Calida)",
+        "T1-R3-ZR (Zona Resto)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "T1-RE1 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        27.8196,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Subsidio Estado Nacional",
+       "unidad": "$/kWh",
+       "valores": [
+        0.0,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Sin consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        -2124.71,
+        -2124.71,
+        -2124.71
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Con consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        -2124.71,
+        -2124.71,
+        -2124.71
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Cargo Variable por Energia",
+       "unidad": "$/kWh",
+       "valores": [
+        -27.8196,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RE10 (Residencial Tarifa Electrodependiente)",
+        "T1-RE20 (Residencial Tarifa Electrodependiente)",
+        "T1-RE30 (Residencial Tarifa Electrodependiente)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "T1-RU1 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía / Cargo Fijo c/ cmo de energía (un solo valor entre ambas filas del PDF)",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Subsidio Estado Nacional",
+       "unidad": "$/kWh",
+       "valores": [
+        -87.965,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Sin consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        2007.43,
+        7792.59,
+        17710.1
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Con consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        2007.43,
+        7792.59,
+        17710.1
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Cargo Variable por Energia",
+       "unidad": "$/kWh",
+       "valores": [
+        -89.0306,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RU10 (Residencial Tarifa AUH)",
+        "T1-RU20 (Residencial Tarifa AUH)",
+        "T1-RU30 (Residencial Tarifa AUH)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "T1-RM1 — Tarifa Residencial",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo s/ cmo de energía / Cargo Fijo c/ cmo de energía (un solo valor entre ambas filas del PDF)",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71,
+        2124.71,
+        2124.71
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Subsidio Estado Nacional",
+       "unidad": "$/kWh",
+       "valores": [
+        -87.965,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Sin consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        2007.43,
+        7792.59,
+        17710.1
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Con consumo de Energia",
+       "unidad": "$/mes",
+       "valores": [
+        2007.43,
+        7792.59,
+        17710.1
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "F.E.P Cargo Fijo:Cargo Variable por Energia",
+       "unidad": "$/kWh",
+       "valores": [
+        -89.0306,
+        null,
+        null
+       ],
+       "columnas": [
+        "T1-RM10 (Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM20 (Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima)",
+        "T1-RM30"
+       ]
+      }
+     ]
+    }
+   ],
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-24T16:29:39+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T17:00:28+00:00",
+   "comparable": {
+    "cargo_fijo": null,
+    "cargo_variable": {
+     "valor": 176.9956,
+     "unidad": "$/kWh",
+     "concepto": "Cargo Variable",
+     "grupo": null,
+     "columna": "T1-R1-NS (Sin Subsidio)"
+    },
+    "nota": "T1-R1 sin subsidio (< 200 kWh/mes)"
+   },
    "texto": true,
    "escaneado": false,
    "archivo_nacional": {
@@ -8280,7 +9466,7 @@
    "nombre": "Energía de Misiones S.A.",
    "provincia": "Misiones",
    "nota": "",
-   "estado": "documento",
+   "estado": "ok",
    "documento": {
     "url": "https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf",
     "titulo": "Vigente a partir del 08/2026 – Cuadros Tarifarios N°649-654-655-656-657-658.",
@@ -8291,13 +9477,305 @@
     "bytes": 621083,
     "via": "búsqueda automática"
    },
-   "vigencia": null,
-   "tablas": [],
+   "vigencia": "Vigente a partir del Período 08/2026",
+   "tablas": [
+    {
+     "titulo": "Cuadro Tarifario Nº 654 (Anexo I) — Categoría 1 Residencial",
+     "filas": [
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Cuota de servicio",
+       "unidad": null,
+       "valores": [
+        2309.1
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Primeros 30 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        272.997
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Siguientes 90 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        272.997
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Siguientes 80 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        276.333
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Siguientes 200 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        278.926
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+       "concepto": "Siguientes 100 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        278.926
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Cuota de servicio",
+       "unidad": null,
+       "valores": [
+        2309.1
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Primeros 30 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        274.643
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Siguientes 90 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        274.643
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Siguientes 80 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        279.066
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Siguientes 200 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        279.984
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        279.984
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 700 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        279.984
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Cuota de servicio",
+       "unidad": null,
+       "valores": [
+        2640.9
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Primeros 30 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        275.593
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 90 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        275.593
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 80 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        280.08
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 200 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        280.965
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        280.965
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        280.965
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL hasta 1400 kwh-mes",
+       "concepto": "Siguientes 700 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        280.965
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Cuota de servicio",
+       "unidad": null,
+       "valores": [
+        2640.9
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Primeros 30 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        277.522
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 90 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        277.522
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 80 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        282.137
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 200 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        283.132
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        283.132
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 150 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        283.132
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Siguientes 700 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        283.132
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "RESIDENCIAL mayor a 1400 kwh-mes",
+       "concepto": "Excedente de 1400 kWh",
+       "unidad": "Neto kWh",
+       "valores": [
+        283.132
+       ],
+       "columnas": null
+      }
+     ]
+    }
+   ],
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-24T16:29:39+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T17:00:28+00:00",
+   "comparable": {
+    "cargo_fijo": {
+     "valor": 2309.1,
+     "unidad": null,
+     "concepto": "Cuota de servicio",
+     "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 272.997,
+     "unidad": "Neto kWh",
+     "concepto": "Primeros 30 kWh",
+     "grupo": "RESIDENCIAL hasta 500 kwh-mes",
+     "columna": null
+    },
+    "nota": "Residencial hasta 500 kWh/mes; primeros 30 kWh. El cuadro no indica la unidad de la cuota de servicio"
+   },
    "texto": true,
    "escaneado": false,
    "archivo_nacional": {
@@ -8911,7 +10389,7 @@
    "empresa": "EDESA",
    "nombre": "Empresa Distribuidora de Electricidad de Salta S.A.",
    "provincia": "Salta",
-   "nota": "",
+   "nota": "El PDF usa fuentes sin mapa de caracteres: el texto extraído es ilegible, por eso no se publican valores.",
    "estado": "documento",
    "documento": {
     "url": "https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf",
@@ -8928,7 +10406,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:29:39+00:00",
+   "verificado": "2026-10-24T17:00:28+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
