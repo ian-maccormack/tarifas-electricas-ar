@@ -150,6 +150,19 @@ def page_latest(page, url_re, text_re=None, exclude_re=None):
     return disc
 
 
+def wp_media(site, search, url_re):
+    """WordPress sites often unlink older pages; the media API lists every uploaded PDF by date."""
+    def disc():
+        api = f"{site}/wp-json/wp/v2/media?search={search}&per_page=30&orderby=date&mime_type=application/pdf"
+        items = [m for m in fetch(api).json() if re.search(url_re, m.get("source_url", ""), re.I)]
+        if not items:
+            raise LookupError(f"sin PDFs '{search}' en {site}")
+        m = max(items, key=lambda m: m["date"])
+        return {"url": m["source_url"], "titulo": m["source_url"].rsplit("/", 1)[-1], "pagina": api,
+                "publicado": m["date"][:10]}
+    return disc
+
+
 S = []
 
 
@@ -168,7 +181,7 @@ src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A. (en el listado: 
 src("edea", "EDEA", "Empresa Distribuidora de Energía Atlántica S.A.", "Buenos Aires",
     page_latest("https://www.edeaweb.com.ar/cuadro-tarifario/", r"/uploads/.*\.pdf$"), se="edea")
 src("edelap", "EDELAP", "Empresa Distribuidora La Plata S.A.", "Buenos Aires",
-    page_latest("https://www.edelap.com.ar/tarifas/", r"/uploads/.*(CT|cuadro|tarif).*\.pdf$"), se="edelap",
+    wp_media("https://www.edelap.com.ar", "tarifario", r"/uploads/.*cuadro-tarifario.*\.pdf$"), se="edelap",
     known="https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf")
 src("eden", "EDEN", "Empresa Distribuidora de Energía Norte S.A.", "Buenos Aires",
     None, se="eden", nota="El regulador provincial (OCEBA) no responde desde el servidor del scraper.")
