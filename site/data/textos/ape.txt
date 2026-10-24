@@ -1,0 +1,1334 @@
+##### Archivo: 2025_12_APE(1).xlsx
+=== Hoja: diciembre 25 ===
+ANEXO - RESOLUCIÓN S.E.y M.  Nº / 25 - CUADRO TARIFARIO
+CUADRO DE PRECIOS DE VENTA |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA DE ENERGÍA DE LA ADMINISTRACIÓN PROVINCIAL DE ENERGÍA A LAS COOPERATIVAS CONCESIONARIAS DEL SERVICIO
+Vigencia: A partir de la facturación del período diciembre de 2025.      pag. 1 / 1
+Importes por mes y por demandas de energía, netos de cargos e impuestos.
+(1) | Precio de Compra al MEM sin subsidio
+(2) | Valor Agregado de Subtransmisión de la Administración Provincial de Energía
+(3) | Cargos Transporte y Otros del Mercado Eléctrico Mayorista (MEM).
+(4) | Precio Estabilizado Servicios Asociados
+(5) | Precio Generación Térmica Realicó
+(6) | Subsidio Estado Nacional
+(7) | Bonificación
+(8) | Precio de Venta Total a Cooperativas: (1) + (2) + (3) + (4)+ (5) - (6) - (7)
+Código | Demanda |  | Tipo de Demanda | Importe $/MWh
+ |  |  |  | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8)
+T1R | Residenciales Nivel 1 |  | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de "Mayores Ingresos" según Decreto 332/2022. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 5649 | 0 | 105500.5013
+ | Residenciales Nivel 2 hasta 350 kWh |  | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de "Menores Ingresos" según Decreto 332/2022, hasta 350 kWh. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 5649 | 55068.55 | 50431.9513
+ | Residenciales Nivel 2 excedente |  | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de "Menores Ingresos" según Decreto 332/2022, que exceden 350 kWh. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 5649 | 0 | 105500.5013
+ | Residenciales Nivel 3 hasta 250 kWh |  | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de  "Ingresos Medios" según Decreto 332/2022, hasta 250 kWh. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 5649 | 42363.5 | 63137.0013
+ | Residenciales Nivel 3 excedente |  | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de  "Ingresos Medios" según Decreto 332/2022, que exceden los 250 kWh. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 5649 | 0 | 105500.5013
+T1 y T2 | Demandas < o = 10 kW |  | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en las Categorías Comerciales, Industriales, Oficiales, Asociaciones Civiles, Rurales 5kVA., Rurales 10kVA. | 70553 | 11807.5013 | 6354 | 4927 | 3062 | 0 | 0 | 96703.5013
+ | Demandas > 10 kW y < 300 kW |  | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en las Categorías Comerciales, Industriales, Rurales >=16 kVA,  Grandes Usuarios con Potencias mayores o iguales a 50 kW y menores a 300 kW, Riego Agrícola con Potencias menores de 300 kW. y otros. | 70553 | 11807.5013 | 6354 | 4927 | 3062 | 0 | 0 | 96703.5013
+T2AP | Alumbrado Público |  | Demanda de energía destinada a los consumos mensuales de la categoría Alumbrado Público. | 70553 | 11807.5013 | 6354 | 4927 | 3062 | 0 | 0 | 96703.5013
+T3 | Demandas > o = 300 kW Organismos Públicos Salud/Educación |  | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en la Categoría Grandes Usuarios con Potencias mayores o iguales a 300 kW,  que sean Organismos y Entes Públicos que presten los Servicios Públicos de Salud y Educación. | 68474 | 11807.5013 | 6339 | 4927 | 3062 |  | 0 | 94609.5013
+T3 | Demandas > o = 300 kW |  | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en la Categoría Grandes Usuarios con Potencias mayores o iguales a 300 kW, Riego Agrícola con Potencias mayores o iguales a 300 kW. | 68474 | 11807.5013 | 6339 | 4927 | 3062 |  | 0 | 94609.5013
+T1R Tarifa Electrode-pendiente | Residencial  < 10 kW con Tarifa Electrodependiente |  | Demanda de energía destinada a los consumos mensuales de usuarios encuadrados en la Categoría Residencial  con Tarifa Electrodependiente. | 84898 | 11807.5013 | 6455 | 4927 | 3062 | 99342 | 0 | 11807.5013
+Bomberos Voluntarios | Tarifa Bomberos Voluntarios |  | Demanda de energía destinada a los consumos mensuales de usuarios  con Tarifa "Entidades integrantes del Sistema Nacional de Bomberos Voluntarios". | 70553 | 0 | 6354 | 4927 | 3062 | 84896 | 0 | 0
+ANEXO - RESOLUCIÓN S.E.y M.  Nº  / 25 - CUADRO TARIFARIO
+##### Archivo: 2025_12_APE.xlsx
+=== Hoja: Anexo I   ===
+ANEXO I- RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO |  |  |  |  |  |  |  |  |  |  | 1
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA |  |  |  |  |  |  |  |  |  |  | 1
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN. |  |  |  |  |  |  |  |  |  | RECORDAR QUE EN TODOS LOS CARGOS FIJOS ESTA EL MONTO DEL AUMENTO NO DADO EN LA CATEGORIA ALUMBRADO PUBLICO EN VAD
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos. |  |  |  |  |  |  |  |  |  | CUANDO SE DECIDA NO CONGELAR MAS EL VAD DE ALUMBRADO PUBLICO HAY QUE SACARLO DE LOS CARGOS FIJOS
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 1/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 1 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 2188.68 |  |  | 2188.68
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 3898.22 |  |  | 3898.22
+ | Fondo Cooperativo Compensador | $/mes | 140.44 |  |  | 140.44
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7804.65 |  |  | 7804.65
+ | Fondo Cooperativo Compensador | $/mes | 294.93 |  |  | 294.93
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 |  |  | 1782.84
+ | Cargo por Potencia | $/mes | 18053.28 |  |  | 18053.28
+ | Fondo Cooperativo Compensador | $/mes | 617.93 |  |  | 617.93
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  |  | 28.18
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  |  | 40.34
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  |  | 55.76
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  |  | 82.69
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 2/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 1 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 |  |  | 1935.97
+ | Cargo por Potencia | $/mes | 29625.07 |  |  | 29625.07
+ | Fondo Cooperativo Compensador | $/mes | 1123.53 |  |  | 1123.53
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  |  | 28.9
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  |  | 41.98
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  |  | 58.89
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  |  | 88.49
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 |  |  | 2409
+ | Cargo por Potencia | $/mes | 75502.26 |  |  | 75502.26
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  | 2752.62
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  |  | 33.64
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  |  | 49.89
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  |  | 70.96
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  |  | 107.46
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 2180.24 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 3872.94 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 3/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 350 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1R1-2 | Consumos mayores a 350 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 6.504318 | 0 | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 |  |  | 1782.84
+ | Cargo por Potencia | $/mes | 17985.87 |  |  | 17985.87
+ | Fondo Cooperativo Compensador | $/mes | 505.59 |  |  | 505.59
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 6.504318 | 0 | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  |  | 28.18
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  |  | 40.34
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  |  | 55.76
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  |  | 82.69
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 |  |  | 1935.97
+ | Cargo por Potencia | $/mes | 29574.51 |  |  | 29574.51
+ | Fondo Cooperativo Compensador | $/mes | 1039.25 |  |  | 1039.25
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 6.504318 | 0 | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  |  | 28.9
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  |  | 41.98
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  |  | 58.89
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  |  | 88.49
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 4/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 |  |  | 2409
+ | Cargo por Potencia | $/mes | 74710.17 |  |  | 74710.17
+ | Fondo Cooperativo Compensador | $/mes | 1432.49 |  |  | 1432.49
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 6.504318 | 0 | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  |  | 33.64
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  |  | 49.89
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  |  | 70.96
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  |  | 107.46
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 2180.24 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 3872.94 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 250 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 5/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos mayores a 250 kWh/mes y menores o iguales a 400 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1R1-2 | Consumos mayores a 400 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7804.65 |  |  | 7804.65
+ | Fondo Cooperativo Compensador | $/mes | 294.93 |  |  | 294.93
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 |  |  | 1782.84
+ | Cargo por Potencia | $/mes | 18053.28 |  |  | 18053.28
+ | Fondo Cooperativo Compensador | $/mes | 617.93 |  |  | 617.93
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  |  | 28.18
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  |  | 40.34
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  |  | 55.76
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  |  | 82.69
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 |  |  | 1935.97
+ | Cargo por Potencia | $/mes | 29625.07 |  |  | 29625.07
+ | Fondo Cooperativo Compensador | $/mes | 1123.53 |  |  | 1123.53
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  |  | 28.9
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  |  | 41.98
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  |  | 58.89
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  |  | 88.49
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 6/16
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 |  |  | 2409
+ | Cargo por Potencia | $/mes | 75502.26 |  |  | 75502.26
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  | 2752.62
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 6.504318 | 48.777778 | 72.22077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 6.504318 |  | 120.998548
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  |  | 33.64
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  |  | 49.89
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  |  | 70.96
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  |  | 107.46
+T2AP         CATEGORÍA ALUMBRADO PÚBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+ | Costo Compra de Energía |  | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 30.88 |  |  | 30.88
+T1NRC        CATEGORÍA COMERCIALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 102/08 Art. 5º
+T1NR1C | Consumos menores o iguales a 60 kWh/mes
+ | Cargo Fijo | $/mes | 2622.8 |  |  | 2622.8 | 4.7173
+ | Cargo por Potencia | $/mes | 1264.14 |  |  | 1264.14
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 37.84 |  |  | 37.84
+T1NR1C | Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 2622.8 |  |  | 2622.8
+ | Cargo por Potencia | $/mes | 13438.98 |  |  | 13438.98
+ | Fondo Cooperativo Compensador | $/mes | 631.99 |  |  | 631.99
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 60 kWh | $/kWh | 37.84 |  |  | 37.84
+ | VAD excedente de 60 kWh | $/kWh | 52.27 |  |  | 52.27
+T1NR2C | Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 2756.07 |  |  | 2756.07
+ | Cargo por Potencia | $/mes | 79600.26 |  |  | 79600.26
+ | Fondo Cooperativo Compensador | $/mes | 1685.27 |  |  | 1685.27
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 60 kWh | $/kWh | 40.84 |  |  | 40.84
+ | VAD excedente de 60 kWh | $/kWh | 55.99 |  |  | 55.99
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 7/16
+T1NRC        CATEGORÍA COMERCIALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 102/08 Art. 5º
+T2C | Consumos mayores a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 2708.33 |  |  | 2708.33
+ | Cargo por Potencia | $/mes | 175009.87 |  |  | 175009.87
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  | 2752.62
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 60 kWh | $/kWh | 34.32 |  |  | 34.32
+ | VAD mayores a 60 y hasta 4000 kWh | $/kWh | 49.48 |  |  | 49.48
+ | VAD excedente de 4000 kWh | $/kWh | 40.84 |  |  | 40.84
+T1NRI         CATEGORÍA INDUSTRIALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 5º
+T1NR1I | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 3379.48 |  |  | 3379.48
+ | Cargo por Potencia | $/mes | 15818.78 |  |  | 15818.78
+ | Fondo Cooperativo Compensador | $/mes | 842.64 |  |  | 842.64
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 68.28 |  |  | 68.28 | 0.055
+T1NR2I | Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 3551.73 |  |  | 3551.73
+ | Cargo por Potencia | $/mes | 90675.87 |  |  | 90675.87
+ | Fondo Cooperativo Compensador | $/mes | 2808.8 |  |  | 2808.8
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 69.69 |  |  | 69.69 | 0.055
+T2I | Consumos mayores a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 3543.9 |  |  | 3543.9
+ | Cargo por Potencia | $/mes | 265093.13 |  |  | 265093.13
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 4000 kWh | $/kWh | 66.08 |  |  | 66.08 | 0.055
+ | VAD excedente de 4000 kWh | $/kWh | 58.53 |  |  | 58.53 | 0.055
+T1NRAC         CATEGORÍA ASOCIACIONES CIVILES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 6º
+T1NR1AC | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1664.41 |  |  | 1664.41
+ | Cargo por Potencia | $/mes | 8281.71 |  |  | 8281.71
+ | Fondo Cooperativo Compensador | $/mes | 280.88 |  |  | 280.88
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 43.61 |  |  | 43.61 | 0.0694
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 8/16
+T1NRAC         CATEGORÍA ASOCIACIONES CIVILES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 6º
+T1NR2AC | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1748.5 |  |  | 1748.5
+ | Cargo por Potencia | $/mes | 86770.47 |  |  | 86770.47
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 46.77 |  |  | 46.77 | 0.0694
+T1NREBP         CATEGORÍA ENTIDADES DE BIEN PUBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1NR1EBP-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 2180.24 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+T1NR1EBP-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 3872.94 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+T1NR1EBP-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 350 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 9/16
+T1NREBP         CATEGORÍA ENTIDADES DE BIEN PUBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1NR1EBP-2 | Consumos mayores a 350 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 |  |  | 1517.32
+ | Cargo por Potencia | $/mes | 7720.37 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  |  | 65.75
+T1NR1EBP-3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 |  |  | 1782.84
+ | Cargo por Potencia | $/mes | 17985.87 |  |  | 17985.87
+ | Fondo Cooperativo Compensador | $/mes | 505.59 |  |  | 505.59
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  |  | 28.18
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  |  | 40.34
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  |  | 55.76
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  |  | 82.69
+T1NR1EBP-4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 |  |  | 1935.97
+ | Cargo por Potencia | $/mes | 29574.51 |  |  | 29574.51
+ | Fondo Cooperativo Compensador | $/mes | 1039.25 |  |  | 1039.25
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  |  | 28.9
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  |  | 41.98
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  |  | 58.89
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  |  | 88.49
+T1NR1EBP-5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 |  |  | 2409
+ | Cargo por Potencia | $/mes | 74710.17 |  |  | 74710.17
+ | Fondo Cooperativo Compensador | $/mes | 1432.49 |  |  | 1432.49
+ | Costo Compra de Energía | $/kWh | 127.502866 | 6.504318 | 63.406505 | 57.592042
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  |  | 33.64
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  |  | 49.89
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  |  | 70.96
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  |  | 107.46
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 10/16
+T1NRBV | CATEGORÍA ENTIDAD INTEGRANTE DEL SISTEMA NACIONAL DE BOMBEROS VOLUNTARIOS | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Aplicación Ley Nº 3377 Bomberos | Precio de Venta Máximo Subsidiado
+T1NR1BV | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1664.41 |  |  | 1664.41
+ | Cargo por Potencia | $/mes | 8281.7 |  |  | 8281.7
+ | Fondo Cooperativo Compensador | $/mes | 280.88 |  |  | 280.88
+ | Costo Compra de Energía | $/kWh | 110.86959 | 97.750554 | 13.119446 | -0.00041
+ | VAD Cooperativa | $/kWh | 43.61 |  |  | 43.61
+T1NR2BV | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1748.5 |  |  | 1748.5
+ | Cargo por Potencia | $/mes | 86770.47 |  |  | 86770.47
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 97.750554 | 13.119446 | -0.00041
+ | VAD Cooperativa | $/kWh | 46.77 |  |  | 46.77
+T1NRO         CATEGORÍA OFICIALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR1OF | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 4191.9 |  |  | 4191.9
+ | Cargo por Potencia | $/mes | 14668.09 |  |  | 14668.09
+ | Fondo Cooperativo Compensador | $/mes | 561.75 |  |  | 561.75
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 69.19 |  |  | 69.19
+T1NR2OF | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 4405.93 |  |  | 4405.93
+ | Cargo por Potencia | $/mes | 159497.12 |  |  | 159497.12
+ | Fondo Cooperativo Compensador | $/mes | 5617.58 |  |  | 5617.58
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD Cooperativa | $/kWh | 73.79 |  |  | 73.79
+TRU         CATEGORÍA RURALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 102/08 Art. 5º | Subsidio Disp. APE Nº 100/08 Art. 3º | Subsidio Disp. APE Nº 100/08 P. Lecheros
+ | Usuarios con transformadores de 5 kVA
+T1NR1RU | Consumos menores o iguales a 200 kWh/mes
+ | Cargo Fijo transformador 5 kVA | $/mes | 7814.89 |  |  | 7814.89 | 16.6018
+ | Cargo por Potencia | $/mes | 14106.35 |  |  | 14106.35
+ | Fondo Cooperativo Compensador | $/mes | 561.75 |  |  | 561.75
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 200 kWh | $/kWh | 67.57 |  |  | 67.57 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5 | 33.2857
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 11/ 16
+TRU         CATEGORÍA RURALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 102/08 Art. 5º | Subsidio Disp. APE Nº 100/08 Art. 3º | Subsidio Disp. APE Nº 100/08 P. Lecheros
+T1NR1RU | Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes
+ | Cargo Fijo transformador 5 kVA | $/mes | 7814.89 |  |  | 7814.89
+ | Cargo por Potencia | $/mes | 14611.93 |  |  | 14611.93
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 2000 kWh | $/kWh | 67.57 |  |  | 67.57 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5
+T1NR2RU | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo transformador 5 kVA | $/mes | 8215.49 |  |  | 8215.49
+ | Cargo por Potencia | $/mes | 14611.93 |  |  | 14611.93
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 2000 kWh | $/kWh | 72.19 |  |  | 72.19 |  | 0.05 | 0.085
+ | VAD excedente de 2000 kWh | $/kWh | 62.14 |  |  | 62.14 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5
+ | Usuarios con transformadores de 10 kVA
+T1NR1RU | Consumos menores o iguales a 200 kWh/mes
+ | Cargo Fijo transformador 10 kVA | $/mes | 13058.83 |  |  | 13058.83 | 27.79
+ | Cargo por Potencia | $/mes | 20414.64 |  |  | 20414.64
+ | Fondo Cooperativo Compensador | $/mes | 674.11 |  |  | 674.11
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 200 kWh | $/kWh | 65.31 |  |  | 65.31 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5 | 33.2857
+T1NR1-2RU | Consumos mayores a 200 kWh/mes
+ | Cargo Fijo transformador 10 kVA | $/mes | 13058.83 |  |  | 13058.83
+ | Cargo por Potencia | $/mes | 20937.06 |  |  | 20937.06
+ | Fondo Cooperativo Compensador | $/mes | 1544.85 |  |  | 1544.85
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 2000 kWh | $/kWh | 65.31 |  |  | 65.31 |  | 0.05 | 0.085
+ | VAD excedente de 2000 kWh | $/kWh | 55.37 |  |  | 55.37 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 12/16
+TRU         CATEGORÍA RURALES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 102/08 Art. 5º | Subsidio Disp. APE Nº 100/08 Art. 3º | Subsidio Disp. APE Nº 100/08 P. Lecheros
+ | Usuarios con transformadores mayores a 10 kVA
+T2RU | Consumos menores o iguales a 200 kWh/mes
+ | Cargo Fijo transformador 16 kVA | $/mes | 15379.21 |  |  | 15379.21 | 32.7432
+ | Cargo Fijo transformador 25 kVA | $/mes | 17703.32 |  |  | 17703.32 | 37.7
+ | Cargo Fijo transformador 40 kVA | $/mes | 20373.23 |  |  | 20373.23 | 43.4
+ | Cargo Fijo transformador 63 kVA | $/mes | 22306.21 |  |  | 22306.21 | 47.52
+ | Cargo Fijo transformador mayor a 63 kVA | $/mes | 28796.76 |  |  | 28796.76 | 61.37
+ | Cargo por Potencia transformador 16 kVA | $/mes | 26413.37 |  |  | 26413.37
+ | Cargo por Potencia transformador 25 kVA | $/mes | 39379.09 |  |  | 39379.09
+ | Cargo por Potencia transformador 40 kVA | $/mes | 53517.28 |  |  | 53517.28
+ | Cargo por Potencia transformador 63 kVA | $/mes | 65310.63 |  |  | 65310.63
+ | Cargo por Potencia transformador mayor a 63 kVA | $/mes | 79347.78 |  |  | 79347.78
+ | Fondo Cooperativo Compensador transformador 16 kVA | $/mes | 983.07 |  |  | 983.07
+ | Fondo Cooperativo Compensador transformador 25 kVA | $/mes | 1404.38 |  |  | 1404.38
+ | Fondo Cooperativo Compensador transformador 40 kVA | $/mes | 1853.81 |  |  | 1853.81
+ | Fondo Cooperativo Compensador transformador 63 kVA | $/mes | 2247.02 |  |  | 2247.02
+ | Fondo Cooperativo Compensador transformador mayor a 63 kVA | $/mes | 2527.91 |  |  | 2527.91
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 200 kWh | $/kWh | 65.31 |  |  | 65.31 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5 | 33.2857
+T2RU | Consumos mayores a 200 kWh/mes
+ | Cargo Fijo transformador 16 kVA | $/mes | 15379.21 |  |  | 15379.21
+ | Cargo Fijo transformador 25 kVA | $/mes | 17703.32 |  |  | 17703.32
+ | Cargo Fijo transformador 40 kVA | $/mes | 20373.23 |  |  | 20373.23
+ | Cargo Fijo transformador 63 kVA | $/mes | 22306.21 |  |  | 22306.21
+ | Cargo Fijo transformador mayor a 63 kVA | $/mes | 28796.76 |  |  | 28796.76
+ | Cargo por Potencia transformador 16 kVA | $/mes | 26834.69 |  |  | 26834.69
+ | Cargo por Potencia transformador 25 kVA | $/mes | 39631.88 |  |  | 39631.88
+ | Cargo por Potencia transformador 40 kVA | $/mes | 53584.69 |  |  | 53584.69
+ | Cargo por Potencia transformador 63 kVA | $/mes | 65394.91 |  |  | 65394.91
+ | Cargo por Potencia transformador mayor a 63 kVA | $/mes | 79432.04 |  |  | 79432.04
+ | Fondo Cooperativo Compensador transformador 16 kVA | $/mes | 1685.27 |  |  | 1685.27
+ | Fondo Cooperativo Compensador transformador 25 kVA | $/mes | 1825.71 |  |  | 1825.71
+ | Fondo Cooperativo Compensador transformador 40 kVA | $/mes | 1966.16 |  |  | 1966.16
+ | Fondo Cooperativo Compensador transformador 63 kVA | $/mes | 2387.48 |  |  | 2387.48
+ | Fondo Cooperativo Compensador transformador mayor a 63 kVA | $/mes | 2668.33 |  |  | 2668.33
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 2000 kWh | $/kWh | 65.31 |  |  | 65.31 |  | 0.05 | 0.085
+ | VAD excedente de 2000 kWh | $/kWh | 55.37 |  |  | 55.37 |  | 0.05 | 0.085
+ | Cargo Fijo Servicio Rural Optimizado | $/mes | 15231.5 |  |  | 15231.5
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 13/16
+TGUBT         CATEGORÍA GRANDES USUARIOS en baja tensión |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 5º
+T2GUBT | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 2203.6 |  |  | 2203.6
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 100 kWh/kW | $/kWh | 35.82 |  |  | 35.82 | 0.044
+ | VAD siguientes 200 kWh/kW | $/kWh | 32.95 |  |  | 32.95 | 0.044
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.29 |  |  | 25.29 | 0.044
+T3GUBT | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 |  |  | 148978
+ | Cargo por potencia | $/kW | 2754.18 |  |  | 2754.18
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 37.89 |  |  | 37.89 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 34.68 |  |  | 34.68 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.07 |  |  | 25.07 | 0.031
+T3GUBT | Potencias contratadas mayores o iguales a 3000 kW
+ | Cargo Fijo | $/mes | 351807.03 |  |  | 351807.03
+ | Cargo por potencia | $/kW | 2754.18 |  |  | 2754.18
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 37.89 |  |  | 37.89
+ | VAD siguientes 200 kWh/kW | $/kWh | 34.68 |  |  | 34.68
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.07 |  |  | 25.07
+T3GUBT-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 |  |  | 148978
+ | Cargo por potencia | $/kW | 2754.18 |  |  | 2754.18
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 37.89 |  |  | 37.89 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 34.68 |  |  | 34.68 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.07 |  |  | 25.07 | 0.031
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 14/16
+TGU13         CATEGORÍA GRANDES USUARIOS en 13,2 kV |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 5º
+T2GU13 | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 2040.55 |  |  | 2040.55
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 100 kWh/kW | $/kWh | 32.66 |  |  | 32.66 | 0.044
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.06 |  |  | 30.06 | 0.044
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.76 |  |  | 22.76 | 0.044
+T3GU13 | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 |  |  | 148978
+ | Cargo por potencia | $/kW | 2550.24 |  |  | 2550.24
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 33.88 |  |  | 33.88 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.87 |  |  | 30.87 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.2 |  |  | 22.2 | 0.031
+T3GU13 | Potencias contratadas mayores o iguales a 3000 kW
+ | Cargo Fijo | $/mes | 351807.03 |  |  | 351807.03
+ | Cargo por potencia | $/kW | 2550.24 |  |  | 2550.24
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 33.88 |  |  | 33.88
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.87 |  |  | 30.87
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.2 |  |  | 22.2
+T3GU13-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 |  |  | 148978
+ | Cargo por potencia | $/kW | 2550.24 |  |  | 2550.24
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 33.88 |  |  | 33.88 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.87 |  |  | 30.87 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.2 |  |  | 22.2 | 0.031
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 15/16
+TGU33        CATEGORÍA GRANDES USUARIOS en 33 kV |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 125/09 Art. 5º
+T2GU33 | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 1836.52 |  |  | 1836.52
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD primeros 100 kWh/kW | $/kWh | 28.75 |  |  | 28.75 | 0.044
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 |  |  | 26.45 | 0.044
+ | VAD excedente de 300 kWh/kW | $/kWh | 19.89 |  |  | 19.89 | 0.044
+T3GU33 | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 152348.55 |  |  | 152348.55
+ | Cargo por potencia | $/kW | 2295.15 |  |  | 2295.15
+ | Fondo Cooperativo Compensador | $/mes | 14043.94 |  |  | 14043.94
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 29.18 |  |  | 29.18 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 |  |  | 26.45 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 18.45 |  |  | 18.45 | 0.031
+T3GU33 | Potencias contratadas mayores o iguales a 3000 kW
+ | Cargo Fijo | $/mes | 355177.58 |  |  | 355177.58
+ | Cargo por potencia | $/kW | 2295.15 |  |  | 2295.15
+ | Fondo Cooperativo Compensador | $/mes | 14043.94 |  |  | 14043.94
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 29.18 |  |  | 29.18
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 |  |  | 26.45
+ | VAD excedente de 300 kWh/kW | $/kWh | 18.45 |  |  | 18.45
+T3GU33-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 |  |  | 148978
+ | Cargo por potencia | $/kW | 2295.15 |  |  | 2295.15
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD primeros 100 kWh/kW | $/kWh | 29.18 |  |  | 29.18 | 0.031
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 |  |  | 26.45 | 0.031
+ | VAD excedente de 300 kWh/kW | $/kWh | 18.45 |  |  | 18.45 | 0.031
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 16/16
+TRA        CATEGORÍA RIEGO AGRÍCOLA |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado | Subsidio Disp. APE Nº 100/08 Art. 3º
+T2RA | Potencias menores a 300 kW
+ | VAD por energía en:
+ | Cargo Fijo | $/mes | 39762.18 |  |  | 39762.18
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0 |  | 110.86959
+ | VAD horas pico                  18 a 23 hs | $/kWh | 24.18 |  |  | 24.18 | 0.0342
+ | VAD horas valle                 23 a  5 hs | $/kWh | 20.37 |  |  | 20.37 | 0.0297
+ | VAD horas resto                  5 a 18 hs | $/kWh | 21.03 |  |  | 21.03 | 0.0307
+ | VAD por potencia en:
+ | Horas pico                      18 a 23 hs | $/kW | 2209.14 |  |  | 2209.14 | 1.602
+ | Horas fuera de pico             23 a 18 hs | $/kW | 1296.22 |  |  | 1296.22 | 0.94
+T3RA | Potencias mayores o iguales a 300 kW
+ | VAD por energía en:
+ | Cargo Fijo | $/mes | 152348.55 |  |  | 152348.55
+ | Fondo Cooperativo Compensador | $/mes | 14043.94 |  |  | 14043.94
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0 |  | 99.604778
+ | VAD horas pico                  18 a 23 hs | $/kWh | 19.76 |  |  | 19.76 | 0.0342
+ | VAD horas valle                 23 a  5 hs | $/kWh | 15.19 |  |  | 15.19 | 0.0297
+ | VAD horas resto                  5 a 18 hs | $/kWh | 16.27 |  |  | 16.27 | 0.0307
+ | VAD por potencia en:
+ | Horas pico                            18 a 23 hs | $/kW | 2475.18 |  |  | 2475.18 | 1.602
+ | Horas fuera de pico             23 a 18 hs | $/kW | 1452.11 |  |  | 1452.11 | 0.94
+ANEXO I - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+=== Hoja: Anexo II  ===
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO |  |  |  |  |  |  |  |  |  |  | 1.09
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA |  |  |  |  |  |  |  |  |  |  | 1.09
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 1/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 1 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo Por Potencia | $/mes | 2188.68 | 0 |  |  | 2188.68
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo Por Potencia | $/mes | 3898.22 | 0 |  |  | 3898.22
+ | Fondo Cooperativo Compensador | $/mes | 140.44 |  |  |  | 140.44
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo Por Potencia | $/mes | 7804.65 | 0 |  |  | 7804.65
+ | Fondo Cooperativo Compensador | $/mes | 294.93 |  |  |  | 294.93
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 | 16.49 |  |  | 1766.35
+ | Cargo Por Potencia | $/mes | 18053.28 | 0 |  |  | 18053.28
+ | Fondo Cooperativo Compensador | $/mes | 617.93 |  |  |  | 617.93
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.18 | 0.38 |  |  | 27.8
+ | VAD siguientes 60 kWh | $/kWh | 40.34 | 0.53 |  |  | 39.81
+ | VAD siguientes 100 kWh | $/kWh | 55.76 | 0.71 |  |  | 55.05
+ | VAD excedente de 220 kWh | $/kWh | 82.69 | 1.04 |  |  | 81.65
+ANEXO II  - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 2/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 1 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 | 17.94 |  |  | 1918.03
+ | Cargo Por Potencia | $/mes | 29625.07 | 0 |  |  | 29625.07
+ | Fondo Cooperativo Compensador | $/mes | 1123.53 |  |  |  | 1123.53
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.9 | 0.4 |  |  | 28.5
+ | VAD siguientes 60 kWh | $/kWh | 41.98 | 0.56 |  |  | 41.42
+ | VAD siguientes 100 kWh | $/kWh | 58.89 | 0.76 |  |  | 58.13
+ | VAD excedente de 220 kWh | $/kWh | 88.49 | 1.12 |  |  | 87.37
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 | 22.4 |  |  | 2386.6
+ | Cargo Por Potencia | $/mes | 75502.26 | 0 |  |  | 75502.26
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  |  | 2752.62
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 33.64 | 0.48 |  |  | 33.16
+ | VAD siguientes 60 kWh | $/kWh | 49.89 | 0.67 |  |  | 49.22
+ | VAD siguientes 100 kWh | $/kWh | 70.96 | 0.93 |  |  | 70.03
+ | VAD excedente de 220 kWh | $/kWh | 107.46 | 1.37 |  |  | 106.09
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 2180.24 | 0 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 3872.94 | 0 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ANEXO II  - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 3/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 350 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1R1-2 | Consumos mayores a 350 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  |  | 154.51
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 | 16.49 |  |  | 1766.35
+ | Cargo por Potencia | $/mes | 17985.87 | 0 |  |  | 17985.87
+ | Fondo Cooperativo Compensador | $/mes | 505.59 |  |  |  | 505.59
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.18 | 0.38 |  |  | 27.8
+ | VAD siguientes 60 kWh | $/kWh | 40.34 | 0.53 |  |  | 39.81
+ | VAD siguientes 100 kWh | $/kWh | 55.76 | 0.71 |  |  | 55.05
+ | VAD excedente de 220 kWh | $/kWh | 82.69 | 1.04 |  |  | 81.65
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.99 | 17.94 |  |  | 1918.05
+ | Cargo por Potencia | $/mes | 29574.51 | 0 |  |  | 29574.51
+ | Fondo Cooperativo Compensador | $/mes | 1039.25 |  |  |  | 1039.25
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.9 | 0.4 |  |  | 28.5
+ | VAD siguientes 60 kWh | $/kWh | 41.98 | 0.56 |  |  | 41.42
+ | VAD siguientes 100 kWh | $/kWh | 58.89 | 0.76 |  |  | 58.13
+ | VAD excedente de 220 kWh | $/kWh | 88.49 | 1.12 |  |  | 87.37
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 4/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 2 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 | 22.4 |  |  | 2386.6
+ | Cargo por Potencia | $/mes | 74710.17 | 0 |  |  | 74710.17
+ | Fondo Cooperativo Compensador | $/mes | 1432.49 |  |  |  | 1432.49
+ | Costo Compra de Energía primeros 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | Costo Compra de Energía excedente de 350 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 33.64 | 0.48 |  |  | 33.16
+ | VAD siguientes 60 kWh | $/kWh | 49.89 | 0.67 |  |  | 49.22
+ | VAD siguientes 100 kWh | $/kWh | 70.96 | 0.93 |  |  | 70.03
+ | VAD excedente de 220 kWh | $/kWh | 107.46 | 1.37 |  |  | 106.09
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 2180.24 | 0 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+T1R1-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 3872.94 | 0 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+T1R1-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 250 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 | 0 |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 5/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R1-2 | Consumos mayores a 250 kWh/mes y menores o iguales a 400 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 | 0 |  |  | 154.51
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1R1-2 | Consumos mayores a 400 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7804.65 | 0 |  |  | 7804.65
+ | Fondo Cooperativo Compensador | $/mes | 294.93 |  |  |  | 294.93
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1R3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 | 16.49 |  |  | 1766.35
+ | Cargo por Potencia | $/mes | 18053.28 | 0 |  |  | 18053.28
+ | Fondo Cooperativo Compensador | $/mes | 617.93 | 0 |  |  | 617.93
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.18 | 0.38 |  |  | 27.8
+ | VAD siguientes 60 kWh | $/kWh | 40.34 | 0.53 |  |  | 39.81
+ | VAD siguientes 100 kWh | $/kWh | 55.76 | 0.71 |  |  | 55.05
+ | VAD excedente de 220 kWh | $/kWh | 82.69 | 1.04 |  |  | 81.65
+T1R4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 | 17.94 |  |  | 1918.03
+ | Cargo por Potencia | $/mes | 29625.07 | 0 |  |  | 29625.07
+ | Fondo Cooperativo Compensador | $/mes | 1123.53 |  |  |  | 1123.53
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 28.9 | 0.4 |  |  | 28.5
+ | VAD siguientes 60 kWh | $/kWh | 41.98 | 0.56 |  |  | 41.42
+ | VAD siguientes 100 kWh | $/kWh | 58.89 | 0.76 |  |  | 58.13
+ | VAD excedente de 220 kWh | $/kWh | 88.49 | 1.12 |  |  | 87.37
+ANEXO II  - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 6/14
+T1R         CATEGORÍA RESIDENCIALES- NIVEL 3 |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 | 22.4 |  |  | 2386.6
+ | Cargo por Potencia | $/mes | 75502.26 | 0 |  |  | 75502.26
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  |  | 2752.62
+ | Costo Compra de Energía primeros 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 | 48.777778 | 72.16077
+ | Costo Compra de Energía excedente de 250 kWh | $/kWh | 127.502866 | 0.06 | 6.504318 |  | 120.938548
+ | VAD primeros 60 kWh | $/kWh | 33.64 | 0.48 |  |  | 33.16
+ | VAD siguientes 60 kWh | $/kWh | 49.89 | 0.67 |  |  | 49.22
+ | VAD siguientes 100 kWh | $/kWh | 70.96 | 0.93 |  |  | 70.03
+ | VAD excedente de 220 kWh | $/kWh | 107.46 | 1.37 |  |  | 106.09
+T2AP         CATEGORÍA ALUMBRADO PÚBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 30.88 | 0.23 |  |  | 30.65
+T1NRC         CATEGORÍA COMERCIALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR1C | Consumos menores o iguales a 60 kWh/mes
+ | Cargo Fijo | $/mes | 2622.8 | 24.42 |  |  | 2598.38
+ | Cargo Por Potencia | $/mes | 1264.14 | 0 |  |  | 1264.14
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 37.84 | 0.48 |  |  | 37.36
+T1NR1C | Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 2622.8 | 24.42 |  |  | 2598.38
+ | Cargo Por Potencia | $/mes | 13438.98 | 0 |  |  | 13438.98
+ | Fondo Cooperativo Compensador | $/mes | 646.02 |  |  |  | 646.02
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 60 kWh | $/kWh | 37.84 | 0.48 |  |  | 37.36
+ | VAD excedente de 60 kWh | $/kWh | 52.27 | 0.66 |  |  | 51.61
+T1NR2C | Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 2756.07 | 25.67 |  |  | 2730.4
+ | Cargo Por Potencia | $/mes | 79600.26 | 0 |  |  | 79600.26
+ | Fondo Cooperativo Compensador | $/mes | 1685.27 |  |  |  | 1685.27
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 60 kWh | $/kWh | 40.84 | 0.53 |  |  | 40.31
+ | VAD excedente de 60 kWh | $/kWh | 55.99 | 0.71 |  |  | 55.28
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 7/14
+T1NRC         CATEGORÍA COMERCIALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T2C | Consumos mayores a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 2708.33 | 25.22 |  |  | 2683.11
+ | Cargo Por Potencia | $/mes | 175009.87 | 0 |  |  | 175009.87
+ | Fondo Cooperativo Compensador | $/mes | 2752.62 |  |  |  | 2752.62
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 60 kWh | $/kWh | 34.32 | 0.43 |  |  | 33.89
+ | VAD mayores a 60 y hasta 4000 kWh | $/kWh | 49.48 | 0.61 |  |  | 48.87
+ | VAD excedente de 4000 kWh | $/kWh | 40.84 | 0.51 |  |  | 40.33
+T1NRI         CATEGORÍA INDUSTRIALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR1I | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 3379.48 | 31.55 |  |  | 3347.93
+ | Cargo Por Potencia | $/mes | 15818.78 | 0 |  |  | 15818.78
+ | Fondo Cooperativo Compensador | $/mes | 842.64 |  |  |  | 842.64
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 68.28 | 0.85 |  |  | 67.43
+T1NR2I | Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 3551.73 | 33.18 |  |  | 3518.55
+ | Cargo Por Potencia | $/mes | 90675.87 | 0 |  |  | 90675.87
+ | Fondo Cooperativo Compensador | $/mes | 2808.8 |  |  |  | 2808.8
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 69.75 | 0.87 |  |  | 68.88
+T2I | Consumos mayores a 4000 kWh/mes
+ | Cargo Fijo | $/mes | 3543.9 | 33.11 |  |  | 3510.79
+ | Cargo Por Potencia | $/mes | 265093.13 | 0 |  |  | 265093.13
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 4000 kWh | $/kWh | 66.08 | 0.81 |  |  | 65.27
+ | VAD excedente de 4000 kWh | $/kWh | 58.53 | 0.72 |  |  | 57.81
+T1NRAC         CATEGORÍA ASOCIACIONES CIVILES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR1AC | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1664.41 | 19.94 |  |  | 1644.47
+ | Cargo Por Potencia | $/mes | 8281.71 | 0 |  |  | 8281.71
+ | Fondo Cooperativo Compensador | $/mes | 280.88 |  |  |  | 280.88
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 43.61 | 0.66 |  |  | 42.95
+ANEXO II- RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 8/14
+T1NRAC         CATEGORÍA ASOCIACIONES CIVILES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR2AC | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1748.5 | 20.97 |  |  | 1727.53
+ | Cargo Por Potencia | $/mes | 86770.47 | 0 |  |  | 86770.47
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 46.77 | 0.71 |  |  | 46.06
+T1NREBP         CATEGORÍA ENTIDADES DE BIEN PUBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1NR1EBP-2 | Consumos menores o iguales a 120 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 2180.24 | 0 |  |  | 2180.24
+ | Fondo Cooperativo Compensador | $/mes | 70.23 |  |  |  | 70.23
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+T1NR1EBP-2 | Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 3872.94 | 0 |  |  | 3872.94
+ | Fondo Cooperativo Compensador | $/mes | 98.31 |  |  |  | 98.31
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+T1NR1EBP-2 | Consumos mayores a 220 kWh/mes y menores o iguales a 350 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 9/14
+T1NREBP         CATEGORÍA ENTIDADES DE BIEN PUBLICO |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Bonificación | Precio de Venta Máximo Subsidiado
+T1NR1EBP-2 | Consumos mayores a 350 kWh/mes y menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1517.32 | 13.99 |  |  | 1503.33
+ | Cargo por Potencia | $/mes | 7720.37 | 0 |  |  | 7720.37
+ | Fondo Cooperativo Compensador | $/mes | 154.51 |  |  |  | 154.51
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 19.34 | 0.24 |  |  | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 | 0.37 |  |  | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 | 0.53 |  |  | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 | 0.8 |  |  | 64.95
+T1NR1EBP-3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1782.84 | 16.49 |  |  | 1766.35
+ | Cargo por Potencia | $/mes | 17985.87 | 0 |  |  | 17985.87
+ | Fondo Cooperativo Compensador | $/mes | 505.59 |  |  |  | 505.59
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 28.18 | 0.38 |  |  | 27.8
+ | VAD siguientes 60 kWh | $/kWh | 40.34 | 0.53 |  |  | 39.81
+ | VAD siguientes 100 kWh | $/kWh | 55.76 | 0.71 |  |  | 55.05
+ | VAD excedente de 220 kWh | $/kWh | 82.69 | 1.04 |  |  | 81.65
+T1NR1EBP-4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1935.97 | 17.94 |  |  | 1918.03
+ | Cargo por Potencia | $/mes | 29574.51 | 0 |  |  | 29574.51
+ | Fondo Cooperativo Compensador | $/mes | 1039.25 |  |  |  | 1039.25
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 28.9 | 0.4 |  |  | 28.5
+ | VAD siguientes 60 kWh | $/kWh | 41.98 | 0.56 |  |  | 41.42
+ | VAD siguientes 100 kWh | $/kWh | 58.89 | 0.76 |  |  | 58.13
+ | VAD excedente de 220 kWh | $/kWh | 88.49 | 1.12 |  |  | 87.37
+T1NR1EBP-5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2409 | 22.4 |  |  | 2386.6
+ | Cargo por Potencia | $/mes | 74710.17 | 0 |  |  | 74710.17
+ | Fondo Cooperativo Compensador | $/mes | 1432.49 |  |  |  | 1432.49
+ | Costo Compra de Energía | $/kWh | 127.502866 | 0.06 | 6.504318 | 63.406505 | 57.532042
+ | VAD primeros 60 kWh | $/kWh | 33.64 | 0.48 |  |  | 33.16
+ | VAD siguientes 60 kWh | $/kWh | 49.89 | 0.67 |  |  | 49.22
+ | VAD siguientes 100 kWh | $/kWh | 70.96 | 0.93 |  |  | 70.03
+ | VAD excedente de 220 kWh | $/kWh | 107.46 | 1.37 |  |  | 106.09
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 10/14
+T1NRBV | CATEGORÍA ENTIDAD INTEGRANTE DEL SISTEMA NACIONAL DE BOMBEROS VOLUNTARIOS | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional | Aplicación Ley Nº 3377 Bomberos | Precio de Venta Máximo Subsidiado
+T1NR1BV | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1664.41 | 19.94 |  | 1644.47 | 0
+ | Cargo por Potencia | $/mes | 8281.71 | 0 |  | 8281.71 | 0
+ | Fondo Cooperativo Compensador | $/mes | 280.88 |  |  | 280.88 | 0
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 97.750554 | 13.059446 | -0.00041
+ | VAD Consumo | $/kWh | 43.61 | 0.66 |  | 42.95 | 0
+T1NR2BV | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 1748.5 | 20.97 |  | 1727.53 | 0
+ | Cargo por Potencia | $/mes | 86770.49 | 0 |  | 86770.49 | 0
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  | 1404.38 | 0
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 97.750554 | 13.059446 | -0.00041
+ | VAD Consumo | $/kWh | 46.77 | 0.71 |  | 46.06 | 0
+T1NRO         CATEGORÍA OFICIALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR1OF | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 4191.9 | 39.22 |  |  | 4152.68
+ | Cargo Por Potencia | $/mes | 14668.09 | 0 |  |  | 14668.09
+ | Fondo Cooperativo Compensador | $/mes | 561.75 |  |  |  | 561.75
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 69.19 | 0.86 |  |  | 68.33
+T1NR2OF | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo | $/mes | 4405.94 | 41.24 |  |  | 4364.7
+ | Cargo Por Potencia | $/mes | 159497.12 | 0 |  |  | 159497.12
+ | Fondo Cooperativo Compensador | $/mes | 5617.58 |  |  |  | 5617.58
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD Consumo | $/kWh | 73.79 | 0.92 |  |  | 72.87
+TRU         CATEGORÍA RURALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+ | Usuarios con transformadores de 5 kVA
+T1NR1RU | Consumos menores a 2000 kWh/mes
+ | Cargo Fijo transformador 5 kVA | $/mes | 7814.89 | 73.4 |  |  | 7741.49
+ | Cargo Por Potencia | $/mes | 14106.35 | 0 |  |  | 14106.35
+ | Fondo Cooperativo Compensador | $/mes | 561.75 |  |  |  | 561.75
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 2000 kWh | $/kWh | 67.57 | 0.84 |  |  | 66.73
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 11/14
+TRU         CATEGORÍA RURALES |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T1NR2RU | Consumos mayores o iguales a 2000 kWh/mes
+ | Cargo Fijo transformador 5 kVA | $/mes | 8215.49 | 77.18 |  |  | 8138.31
+ | Cargo Por Potencia | $/mes | 14611.93 | 0 |  |  | 14611.93
+ | Fondo Cooperativo Compensador | $/mes | 1404.38 |  |  |  | 1404.38
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 2000 kWh | $/kWh | 72.19 | 0.91 |  |  | 71.28
+ | VAD excedente de 2000 kWh | $/kWh | 62.14 | 0.78 |  |  | 61.36
+T1NR1-2RU | Usuarios con transformadores de 10 kVA
+ | Cargo Fijo transformador 10 kVA | $/mes | 13058.83 | 122.87 |  |  | 12935.96
+ | Cargo Por Potencia | $/mes | 20414.64 | 0 |  |  | 20414.64
+ | Fondo Cooperativo Compensador | $/mes | 674.11 |  |  |  | 674.11
+ | Costo Compra de Energía primeros | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 2000 kWh | $/kWh | 65.31 | 0.8 |  |  | 64.51
+ | VAD excedente de 2000 kWh | $/kWh | 55.37 | 0.68 |  |  | 54.69
+T2RU | Usuarios con transformadores mayores a 10 kVA
+ | Cargo Fijo transformador 16 kVA | $/mes | 15379.21 | 144.76 |  |  | 15234.45
+ | Cargo Fijo transformador 25 kVA | $/mes | 17703.31 | 166.69 |  |  | 17536.62
+ | Cargo Fijo transformador 40 kVA | $/mes | 20373.23 | 191.88 |  |  | 20181.35
+ | Cargo Fijo transformador 63 kVA | $/mes | 22306.21 | 210.11 |  |  | 22096.1
+ | Cargo Fijo transformador mayor a 63 kVA | $/mes | 28796.76 | 271.34 |  |  | 28525.42
+ | Cargo Por Potencia transformador 16 kVA | $/mes | 26378.61 | 0 |  |  | 26378.61
+ | Cargo Por Potencia transformador 25 kVA | $/mes | 39344.33 | 0 |  |  | 39344.33
+ | Cargo Por Potencia transformador 40 kVA | $/mes | 53482.51 | 0 |  |  | 53482.51
+ | Cargo Por Potencia transformador 63 kVA | $/mes | 65275.83 | 0 |  |  | 65275.83
+ | Cargo por Potencia transformador mayor a 63 kVA | $/mes | 79397.27 | 0 |  |  | 79397.27
+ | Fondo Cooperativo Compensador 16 kVA | $/mes | 983.07 |  |  |  | 983.07
+ | Fondo Cooperativo Compensador 25 kVA | $/mes | 1404.38 |  |  |  | 1404.38
+ | Fondo Cooperativo Compensador 40 kVA | $/mes | 1853.81 |  |  |  | 1853.81
+ | Fondo Cooperativo Compensador 63 kVA | $/mes | 2247.02 |  |  |  | 2247.02
+ | Fondo Cooperativo Compensador mayor a 63 kVA | $/mes | 2668.33 |  |  |  | 2668.33
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 2000 kWh | $/kWh | 65.31 | 0.8 |  |  | 64.51
+ | VAD excedente de 2000 kWh | $/kWh | 55.37 | 0.68 |  |  | 54.69
+ANEXO II- RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 12/14
+TGUBT         CATEGORÍA GRANDES USUARIOS en baja tensión |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T2GUBT | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 | 0 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 2203.6 | 23.09 |  |  | 2180.51
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 100 kWh/kW | $/kWh | 35.82 | 0.44 |  |  | 35.38
+ | VAD siguientes 200 kWh/kW | $/kWh | 32.95 | 0.41 |  |  | 32.54
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.29 | 0.32 |  |  | 24.97
+T3GUBT | Potencias contratadas mayores o iguales a 300 kW
+ | Cargo Fijo | $/mes | 148978 | 0 |  |  | 148978
+ | Cargo por potencia | $/kW | 2754.18 | 28.86 |  |  | 2725.32
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 37.89 | 0.46 |  |  | 37.43
+ | VAD siguientes 200 kWh/kW | $/kWh | 34.68 | 0.42 |  |  | 34.26
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.07 | 0.3 |  |  | 24.77
+T3GUBT-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 | 0 |  |  | 148978
+ | Cargo por potencia | $/kW | 2754.18 | 28.86 |  |  | 2725.32
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 37.89 | 0.46 |  |  | 37.43
+ | VAD siguientes 200 kWh/kW | $/kWh | 34.68 | 0.42 |  |  | 34.26
+ | VAD excedente de 300 kWh/kW | $/kWh | 25.07 | 0.3 |  |  | 24.77
+TGU13         CATEGORÍA GRANDES USUARIOS en 13,2 kV |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T2GU13 | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 | 0 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 2040.55 | 21.38 |  |  | 2019.17
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 100 kWh/kW | $/kWh | 32.66 | 0.41 |  |  | 32.25
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.06 | 0.38 |  |  | 29.68
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.76 | 0.29 |  |  | 22.47
+ANEXO II- RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 13/14
+TGU13         CATEGORÍA GRANDES USUARIOS en 13,2 kV |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T3GU13 | Potencias contratadas mayores o iguales a 300 kW
+ | Cargo Fijo | $/mes | 148978 | 0 |  |  | 148978
+ | Cargo por potencia | $/kW | 2550.24 | 26.72 |  |  | 2523.52
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 33.88 | 0.41 |  |  | 33.47
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.87 | 0.37 |  |  | 30.5
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.2 | 0.27 |  |  | 21.93
+T3GU13-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 | 0 |  |  | 148978
+ | Cargo por potencia | $/kW | 2550.24 | 26.72 |  |  | 2523.52
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 33.88 | 0.41 |  |  | 33.47
+ | VAD siguientes 200 kWh/kW | $/kWh | 30.87 | 0.37 |  |  | 30.5
+ | VAD excedente de 300 kWh/kW | $/kWh | 22.2 | 0.27 |  |  | 21.93
+TGU33        CATEGORÍA GRANDES USUARIOS en 33 kV |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T2GU33 | Potencias contratadas mayores a 50 kW y menores a 300 kW
+ | Cargo Fijo | $/mes | 39762.18 | 0 |  |  | 39762.18
+ | Cargo por potencia | $/kW | 1836.52 | 19.24 |  |  | 1817.28
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD primeros 100 kWh/kW | $/kWh | 28.75 | 0.36 |  |  | 28.39
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 | 0.33 |  |  | 26.12
+ | VAD excedente de 300 kWh/kW | $/kWh | 19.89 | 0.25 |  |  | 19.64
+T3GU33 | Potencias contratadas mayores o iguales a 300 kW
+ | Cargo Fijo | $/mes | 152348.55 | 0 |  |  | 152348.55
+ | Cargo por potencia | $/kW | 2295.15 | 24.05 |  |  | 2271.1
+ | Fondo Cooperativo Compensador | $/mes | 14043.94 |  |  |  | 14043.94
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 29.18 | 0.35 |  |  | 28.83
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 | 0.32 |  |  | 26.13
+ | VAD excedente de 300 kWh/kW | $/kWh | 18.45 | 0.22 |  |  | 18.23
+ANEXO II  - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre 2025.      pag. 14/14
+TGU33        CATEGORÍA GRANDES USUARIOS en 33 kV |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T3GU33-OP SALUD/EDUC. | Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW
+ | Cargo Fijo | $/mes | 148978 | 0 |  |  | 148978
+ | Cargo por potencia | $/kW | 2295.15 | 24.05 |  |  | 2271.1
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD primeros 100 kWh/kW | $/kWh | 29.18 | 0.35 |  |  | 28.83
+ | VAD siguientes 200 kWh/kW | $/kWh | 26.45 | 0.32 |  |  | 26.13
+ | VAD excedente de 300 kWh/kW | $/kWh | 18.45 | 0.22 |  |  | 18.23
+TRA        CATEGORÍA RIEGO AGRÍCOLA |  | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+T2RA | Potencias menores a 300 kW
+ | VAD por energía en:
+ | Cargo Fijo | $/mes | 39762.18 | 0 |  |  | 39762.18
+ | Fondo Cooperativo Compensador | $/mes | 8426.36 |  |  |  | 8426.36
+ | Costo Compra de Energía | $/kWh | 110.86959 | 0.06 | 0 |  | 110.80959
+ | VAD horas pico                  18 a 23 hs | $/kWh | 24.18 | 0.3 |  |  | 23.88
+ | VAD horas valle                 23 a  5 hs | $/kWh | 20.37 | 0.26 |  |  | 20.11
+ | VAD horas resto                  5 a 18 hs | $/kWh | 21.03 | 0.27 |  |  | 20.76
+ | VAD por potencia en:
+ | Horas pico                      18 a 23 hs | $/kW | 2209.14 | 22.26 |  |  | 2186.88
+ | Horas fuera de pico             23 a 18 hs | $/kW | 1296.22 | 13.06 |  |  | 1283.16
+T3RA | Potencias mayores o iguales a 300 kW
+ | VAD por energía en:
+ | Cargo Fijo | $/mes | 152348.55 | 0 |  |  | 152348.55
+ | Fondo Cooperativo Compensador | $/mes | 14043.94 |  |  |  | 14043.94
+ | Costo Compra de Energía | $/kWh | 99.604778 | 0.06 | 0 |  | 99.544778
+ | VAD horas pico                  18 a 23 hs | $/kWh | 19.76 | 0.24 |  |  | 19.52
+ | VAD horas valle                 23 a  5 hs | $/kWh | 15.19 | 0.18 |  |  | 15.01
+ | VAD horas resto                  5 a 18 hs | $/kWh | 16.27 | 0.2 |  |  | 16.07
+ | VAD por potencia en:
+ | Horas pico                      18 a 23 hs | $/kW | 2475.18 | 24.94 |  |  | 2450.24
+ | Horas fuera de pico             23 a 18 hs | $/kW | 1452.11 | 14.63 |  |  | 1437.48
+TRD        CATEGORÍA RURAL DISPERSO | CATEGORÍA USUARIOS INDIVIDUALES DEL MERCADO RURAL DISPERSO | Unidad | Precio de Venta Máximo | Subsidio Zona no Concesionada | Subsidio Estado Nacional |  | Precio de Venta Máximo Subsidiado
+ | Cargo Fijo | $/mes | 6118.73 | 41 |  |  | 6077.73
+ANEXO II - RESOLUCION S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+=== Hoja: Anexo III ===
+ANEXO III - Resolución S.E.y M. Nº  / 25 - CUADRO TARIFARIO |  |  |  |  |  |  |  |  |  |  | 1
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA |  |  |  |  |  |  |  |  |  |  | 1
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN LA FACTURACIÓN A USUARIOS FINALES Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre de 2025.      pag. 1 / 1
+T1RED | CATEGORÍA RESIDENCIALES - TARIFA ELECTRODEPENDIENTES | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Precio de Venta Máximo Subsidiado
+T1RED1-2 | Consumos menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1567.87 |  | 1567.87
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 13.119446
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  | 19.34
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  | 29.69
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  | 42.9
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  | 65.75
+T1RED3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1833.39 |  | 1833.39
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 13.119446
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  | 28.18
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  | 40.34
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  | 55.76
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  | 82.69
+T1RED4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1986.54 |  | 1986.54
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 13.119446
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  | 28.9
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  | 41.98
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  | 58.89
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  | 88.49
+T1RED5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2459.56 |  | 2459.56
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 13.119446
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  | 33.64
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  | 49.89
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  | 70.96
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  | 107.46
+ANEXO III - Resolución S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+=== Hoja: Anexo IV ===
+ANEXO IV - Resolución S.E.y M. Nº  / 25 - CUADRO TARIFARIO |  |  |  |  |  |  |  |  |  |  | 1
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA |  |  |  |  |  |  |  |  |  |  | 1
+PRECIOS DE VENTA MÁXIMOS AUTORIZADOS EN FACTURACIÓN A USUARIOS FINALES ZONA NO CONCESIONADA Y SUBSIDIOS DE APLICACIÓN.
+Valores mensuales por Categoría de Usuarios, netos de cargos e impuestos.
+Con vigencia a partir de la facturación del período diciembre de 2025      pag. 1 / 1
+T1RED        CATEGORÍA RESIDENCIALES- TARIFA ELECTRODEPENDIENTES |  | Unidad | Precio de Venta Máximo | Subsidio Estado Nacional | Subsidio Zona no Concesionada | Precio de Venta Máximo Subsidiado
+T1RED1-2 | Consumos menores o iguales a 500 kWh/mes
+ | Cargo Fijo | $/mes | 1567.87 |  | 13.99 | 1553.88
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 0.06 | 13.059446
+ | VAD primeros 60 kWh | $/kWh | 19.34 |  | 0.24 | 19.1
+ | VAD siguientes 60 kWh | $/kWh | 29.69 |  | 0.37 | 29.32
+ | VAD siguientes 100 kWh | $/kWh | 42.9 |  | 0.53 | 42.37
+ | VAD excedente de 220 kWh | $/kWh | 65.75 |  | 0.8 | 64.95
+T1RED3 | Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes
+ | Cargo Fijo | $/mes | 1833.39 |  | 16.49 | 1816.9
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 0.06 | 13.059446
+ | VAD primeros 60 kWh | $/kWh | 28.18 |  | 0.38 | 27.8
+ | VAD siguientes 60 kWh | $/kWh | 40.34 |  | 0.53 | 39.81
+ | VAD siguientes 100 kWh | $/kWh | 55.76 |  | 0.71 | 55.05
+ | VAD excedente de 220 kWh | $/kWh | 82.69 |  | 1.04 | 81.65
+T1RED4 | Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 1986.54 |  | 17.94 | 1968.6
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 0.06 | 13.059446
+ | VAD primeros 60 kWh | $/kWh | 28.9 |  | 0.4 | 28.5
+ | VAD siguientes 60 kWh | $/kWh | 41.98 |  | 0.56 | 41.42
+ | VAD siguientes 100 kWh | $/kWh | 58.89 |  | 0.76 | 58.13
+ | VAD excedente de 220 kWh | $/kWh | 88.49 |  | 1.12 | 87.37
+T1R5 | Consumos mayores a 1400 kWh/mes
+ | Cargo Fijo | $/mes | 2459.56 |  | 22.4 | 2437.16
+ | Fondo Cooperativo Compensador | $/mes | 84.26 |  |  | 84.26
+ | Costo Compra de Energía | $/kWh | 127.502866 | 114.38342 | 0.06 | 13.059446
+ | VAD primeros 60 kWh | $/kWh | 33.64 |  | 0.48 | 33.16
+ | VAD siguientes 60 kWh | $/kWh | 49.89 |  | 0.67 | 49.22
+ | VAD siguientes 100 kWh | $/kWh | 70.96 |  | 0.93 | 70.03
+ | VAD excedente de 220 kWh | $/kWh | 107.46 |  | 1.37 | 106.09
+ANEXO IV - Resolución S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+=== Hoja: Anexo V ===
+ANEXO V - Resolución S.E.y M. Nº  / 25 - CUADRO TARIFARIO
+SERVICIO DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+PRECIOS DE COMPRA DE ENERGÍA DE LAS  PRESTADORAS  A LOS USUARIOS GENERADORES
+Vigencia: | A partir de la facturación del período de diciembre 2025
+Importes por unidad de energía entregada al sistema, netos de cargos e impuestos.     pag. 1 / 1
+Código | Demanda | Tipo de Demanda asociada |  | Unidad | Tarifa de inyección
+Ti1R | Residenciales Nivel 1 | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de "Mayores Ingresos" según Decreto 332/2022 |  | $/kWh | 93.693
+ | Residenciales Nivel 2 | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de "Menores Ingresos" según Decreto 332/2022 |  | $/kWh | 38.62445
+ | Residenciales Nivel 3 | Demanda de energía destinada a los consumos mensuales de los usuarios y usuarias  encuadrados en las Categorías Residenciales  de  "Ingresos Medios" según Decreto 332/2022 |  | $/kWh | 51.3295
+T1 y T2 | Demandas < o = 10 kW | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en las Categorías Comerciales, Industriales, Oficiales, Asociaciones Civiles, Rurales 5kVA., Rurales 10kVA. y otros.- |  | $/kWh | 84.896
+ | Demandas > 10 kW y < 300 kW | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en las Categorías Comerciales, Industriales, Rurales >=16 kVA,  Grandes Usuarios con Potencias mayores o iguales a 50 kW y menores a 300 kW y Riego Agrícola con Potencias menores de 300 kW |  | $/kWh | 84.896
+T3a | Demandas > o = 300 kW Organismos Públicos Salud/Educación | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en la Categoría Grandes Usuarios con Potencias mayores o iguales a 300 kW,  que sean Organismos y Entes Públicos que presten los Servicios Públicos de Salud y Educación.- |  | $/kWh | 82.802
+Ti3b | Demandas > o = 300 kW | Demanda de energía destinada a los consumos mensuales de los usuarios encuadrados en las Categorías: Grandes Usuarios con Potencias mayores o iguales a 300 kW, Riego Agrícola con Potencias mayores o iguales a 300 kW.- |  | $/kWh | 82.802
+TiUGC | Usuarios generadores colectivos cuyos cotitulares no están asociados a un único tipo de demanda.- |  |  | $/kWh | 75.704745
+ANEXO V - Resolución S.E.y M. Nº / 25 - CUADRO TARIFARIO

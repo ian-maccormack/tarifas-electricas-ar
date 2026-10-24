@@ -1,0 +1,141 @@
+                                           CUADRO TARIFARIO - OCTUBRE 2026
+                                           Aplicación Resolución N° 297-SUSEPU-2026, en su Articulo 1°, y Resoluciones Secretaría de Energía de la Nación N° 222, 225 y 272/2026
+
+
+TARIFAS T1 - PEQUEÑAS DEMANDAS
+                                                                                                    SEF          SEF                                                                               CARGOS PLENOS
+                                                                                                                                                                                                                                          SUBSIDIO
+                                                                  CARGOS PLENOS                    Resto      Zona Cálida                                                                                                                PROVINCIAL                   SEF
+                                                                              Cargo por Cargo por               Cargo por                        T1 - TARIFA SOCIAL
+             T1 - SERVICIOS RESIDENCIALES                           Cargo por Consumo Consumo                   Consumo                                                                             Cargo por Cargo por                        Cargo por Cargo por
+                                                        Cargo Fijo                                                                                                                      Cargo Fijo Uso de Red Consumo              Cargo Fijo Uso de Red Consumo
+                                                                   Uso de Red de Energía de Energía             de Energía                                                                                    de Energía                                 de Energía
+                     Consumo                             $/mes       $/kWh     $/kWh       $/kWh                  $/kWh                                 Consumo                          $/mes       $/kWh      $/kWh               $/mes       $/kWh      $/kWh
+   R1     Primeros 150 kWh/mes                            5.116        95,2480     157,9956      -104,1526      -104,1526        TS1     Primeros 150 kWh/mes                             5.116         95,2480         157,9956      -5.116       -23,8120      -104,1526
+   R2 Mayor a 150 y menor o igual a 200 kWh/mes           6.058        96,8062     158,1019      -104,2323      -104,2323        TS2     Mayor a 150 y menor o igual a 200 kWh/mes        6.058         96,8062         158,1019      -6.058       -14,5210      -104,2323
+ R2 - bis Mayor a 200 y menor o igual a 300 kWh/mes       6.058        96,8062     158,1019          -               -         TS2 - bis Mayor a 200 y menor o igual a 300 kWh/mes        6.058         96,8062         158,1019      -6.058       -14,5210             -
+   R3 Mayor a 300 y menor o igual a 500 kWh/mes           10.180       98,1696     158,0033          -               -
+   R4 Mayor a 500 y menor o igual a 700 kWh/mes           22.226       100,0706    157,9103          -               -                                                                                                           SUBSIDIO                 SUBSIDIO
+         Mayor a 700 y menor o igual a 1400 kWh/mes                                                                                                                                      CARGOS PLENOS                                                    NACIONAL
+   R5                                                     33.501       101,8901    157,8779          -               -                                                                                                          PROVINCIAL                (Ley N° 27.351)
+   R6    Mayor a 1400 y menor o igual a 4800 kWh/mes      58.654       105,5339    157,9093          -               -                  T1 - ELECTRODEPENDIENTES
+   R7    Mayores a 4800 kWh/mes                           93.847       107,3535    157,9093          -               -                                                                      Cargo por Cargo por                        Cargo por           Cargo por
+                                                                                                                                                                                Cargo Fijo Uso de Red Consumo              Cargo Fijo Uso de Red           Consumo
+ La Resolución SE N.º 272/2026 sustituye el Anexo I de la Resolución SE N.º 13/2026, estableciendo                                                                                                    de Energía                                           de Energía
+ para octubre de 2026 un tope de consumo de 200 kWh/mes, sin distinción de zona bioambiental.                                                     Consumo                        $/mes        $/kWh     $/kWh                $/mes        $/kWh              $/kWh
+                                                                                                                                 RE               Todo el consumo                28.154      95,2480  157,9956              -28.154      -95,2480          -157,9956
+
+                                                                     CARGOS PLENOS                             SEF                                                                                  CARGOS PLENOS
+                                                                                                                                                                                                                                                         Cargo por
+            T1 - SERVICIOS COMUNITARIOS                               Cargo por Cargo por                  Cargo por                     T1 - TARIFA ALUMBRADO PÚBLICO                                                       Cargo por
+                                                          Cargo Fijo Uso de Red Consumo                     Consumo                                                                               Cargo Fijo                Uso de Red                   Consumo
+                                                                                de Energía                 de Energía                                                                                                                                    de Energía
+                        Consumo                            $/mes        $/kWh     $/kWh                      $/kWh                                                                                 $/mes                       $/kWh                       $/kWh
+                                                                                                                                                         AP 1
+    RC      Todo el consumo                                112.616     92,8341  157,9093                   -104,0879                                                                               0                          104,6376                    192,2182
+
+
+
+                                                                                 CARGOS PLENOS                                                                                                                 CARGOS PLENOS                                    SEF
+                                                                                                             Cargo por                    T1 - TARIFA GENERAL - CLUBES DE                                                              Cargo por           Cargo por
+          T1 - TARIFA GENERAL                                                        Cargo por                                                                                                                     Cargo por
+                                                             Cargo Fijo                                      Consumo                      BARRIO Y PUEBLO                                    Cargo Fijo                                Consumo             Consumo
+                                                                                    Uso de Red               de Energía                                                                                           Uso de Red          de Energía           de Energía
+                      Consumo                                 $/mes                   $/kWh                    $/kWh                                    Consumo                               $/mes                 $/kWh              $/kWh                  $/kWh
+  G1      Primeros 350 kWh/mes                                11.929                 86,9631                  192,7409         GCBYP1     Primeros 350 kWh/mes                                11.929               86,9631            192,7409              -129,7568
+  G2      Mayor a 350 y menor o igual a 500 kWh/mes           14.077                 88,2054                  192,4736         GCBYP2     Mayor a 350 y menor o igual a 500 kWh/mes           14.077               88,2054            192,4736              -129,5433
+  G3      Mayor a 500 y menor o igual a 1000 kWh/mes          22.796                 90,6150                  192,4692         GCBYP3 Mayor a 500 y menor o igual a 1000 kWh/mes              22.796               90,6150            192,4692              -129,5389
+  G4      Mayor a 1000 y menor o igual a 2000 kWh/mes         45.510                 93,3928                  192,4131         GCBYP4 Mayor a 1000 y menor o igual a 2000 kWh/mes             45.509               93,3928            192,4131              -129,4949
+  G5      Mayor a 2000 y menor o igual a 4500 kWh/mes         102.344                96,0131                  192,4165         GCBYP5 Mayor a 2000 y menor o igual a 4500 kWh/mes             102.343              96,0131            192,4165              -129,4977
+  G6      Mayores a 4500 kWh/mes                              140.770               102,3869                  192,4165         GCBYP6 Mayores a 4500 kWh/mes                                  140.770              102,3869           192,4165              -129,4977
+
+
+
+TARIFA T2 - MEDIANAS DEMANDAS - POTENCIA MAYOR O IGUAL A 15KW Y MENOR A 50KW
+                                                                                                                                                                                  BONIFICACIONES
+                                                                                 CARGOS PLENOS
+                                                                                                                                                                               DECRETO NACIONAL 943/2025
+  MEDIANOS COMERCIOS, INDUSTRIAS
+  Y CLUBES DE BARRIO Y PUEBLO                                                                                                                                                Cargo por Consumo de Energía
+                                                                       Cargo por      Cargo por Consumo de Energía
+                                                        Cargo Fijo
+                                                                      Uso de Red
+                                                                                   horas punta horas resto       horas valle              horas punta                                 horas resto                                        horas valle
+                                                          $/mes          $/kW        $/kWh        $/kWh           $/kWh                      $/kWh                                        $/kWh                                            $/kWh
+                        T2                                114.185       26.108      196,3388     191,5834        190,4561                      -                                             -                                                -
+                     T2 CBYP                              117.308       26.108      196,3388     191,5834        190,4561                      -132,6304                                -128,8322                                        -127,9320
+
+
+                                                                                 CARGOS PLENOS                                                                                                                          CARGOS PLENOS
+
+  MEDIANAS DEMANDAS ESTACIONALES                                       Cargo por      Cargo por Consumo de Energía                        GRANDES USUARIOS DEL MEM                                          Cargo por        Cargo por Energía Transportada
+                                                        Cargo Fijo                                                                                                                          Cargo Fijo
+                                                                      Uso de Red                                                                                                                           Uso de Red
+                                                                                   horas punta horas resto       horas valle                                                                                              horas punta horas resto       horas valle
+                                                         $/mes     $/kW             $/kWh         $/kWh          $/kWh                                                                        $/mes             $/kW         $/kWh        $/kWh           $/kWh
+                    T2 E-T                               117.308 159,9846          196,3388      191,5834       190,4561                                   T2 PFTT                            117.308          26.108       28,8064      28,1087         27,9433
+                  T2 E-CyRA                              117.308 173,6219          196,3388      191,5834       190,4561
+
+
+TARIFA T3 BT - GRANDES DEMANDAS EN BAJA TENSIÓN - POTENCIA MAYOR O IGUAL A 50KW
+
+                                                                                 CARGOS PLENOS                                                                                                                           CARGOS PLENOS
+          COMERCIOS E INDUSTRIAS                                    Cargo por    Cargo por Consumo de Energía
+                                                        Cargo Fijo                                                                                 GUDI BAJA TENSIÓN                                        Cargo por         Cargo por Consumo de Energía
+                                                                   Uso de Red horas punta horas resto horas valle                                                                            Cargo Fijo
+                                                                                                                                                                                                           Uso de Red
+                                                                                                                                                                                                                            horas punta horas resto       horas valle
+                  Consumo                                $/mes          $/kW        $/kWh         $/kWh          $/kWh
+                                                                                                                                                         Consumo                              $/mes             $/kW         $/kWh    $/kWh               $/kWh
+  T3 BT   Menor a 300 kW                                 199.424       38.411      196,3388      191,5834       190,4561
+                                                                                                                                                   Menor a 300 kW                             199.424          38.411       196,3388 191,5834            190,4561
+  T3 BT   Mayor o igual a 300 kW                         199.424       38.411      217,2224      211,7287       210,4263               GUDI BT
+                                                                                                                                                   Mayor o igual a 300 kW                     199.424          38.411       217,2224 211,7287            210,4263
+T3 BT S&E Mayor o igual a 300 kW                         199.424       38.411      217,2224      211,7287       210,4263
+                                                                                 CARGOS PLENOS                                                                                                                           CARGOS PLENOS
+        GRANDES USUARIOS DEL MEM                                    Cargo por    Cargo por Energía Transportada                                                                                                               Cargo por Consumo de Energía
+                                                        Cargo Fijo                                                                                GUDI MEDIA TENSIÓN                                        Cargo por
+                                                                   Uso de Red horas punta horas resto horas valle                                                                            Cargo Fijo
+                                                                                                                                                                                                           Uso de Red
+                                                                                                                                                                                                                           horas punta horas resto        horas valle
+                 Consumo                                 $/mes           $/kW        $/kWh         $/kWh          $/kWh
+                                                                                                                                                         Consumo                              $/mes             $/kW          $/kWh    $/kWh              $/kWh
+          Menor a 300 kW                                 199.424        38.411      28,8064       28,1087        27,9433
+T3 BTPFTT                                                                                                                                          Menor a 300 kW                             328.464          21.271        176,3694 172,0977           171,0851
+          Mayor o igual a 300 kW                         199.424        38.411      31,8704       31,0643        30,8733              GUDI MT
+                                                                                                                                                   Mayor o igual a 300 kW                     328.464          21.271        195,1290 190,1941           189,0241
+                                                                                 CARGOS PLENOS                                    Para los usuarios GUDI con potencia registrada mensual mayor o igual a 300 kW, se aplicarán el Cargo Estabilizado y el Ajuste
+   GRANDES USUARIOS ESTACIONALES                                    Cargo por        Cargo por Consumo de Energía                 Complementario de Potencia, establecidos en la Resolución SE N° 976/2023.
+                                                        Cargo Fijo
+                                                                   Uso de Red
+                                                                                   horas punta horas resto      horas valle
+                    Consumo                             $/mes           $/kW        $/kWh         $/kWh          $/kWh                      USUARIO GENERADOR                               Energía Entregada a la Red                           $/kWh
+  T3 BTE     Menor a 300 kW                             199.424       113,9478     196,3388      191,5834       190,4561                                                            Sin beneficio del SEF                                      100,6320
+ T3 BTRA     Menor a 300 kW                             199.424       139,9469     196,3388      191,5834       190,4561                     Servicios Residenciales
+                                                                                                                                                                                    Beneficiarios del SEF                                       35,7765
+                                                                                                                                           Servicios No Residenciales               T1G - T2 - T3 menor a 300kW                                121,5400
+TARIFA T3 MT - GRANDES DEMANDAS EN MEDIA TENSIÓN - POTENCIA MAYOR O IGUAL A 50KW
+                                                                                                                                                         GUDI                       T3 Mayor o igual a 300 kW                                  138,2140
+                                                                                 CARGOS PLENOS
+                                                                                                                                       CARGOS POR DERECHOS DE CONEXIÓN
+            COMERCIO E INDUSTRIAS                                      Cargo por     Cargo por Consumo de Energía
+                                                        Cargo Fijo                                                                    Conexiones Comunes                                            Conexiones Especiales
+                                                                      Uso de Red
+                                                                                   horas punta horas resto      horas valle
+                                                                                                                                                                                      $                                                                   $
+                    Consumo                              $/mes          $/kW        $/kWh         $/kWh         $/kWh                  Aéreas Monofásicas Tarifa Social            35.698            Aéreas Monofásicas                                112.425
+  T3 MT      Menor a 300 kW                              328.464       21.271      176,3694      172,0977      171,0851                Aéreas Monofásicas                          42.836            Aéreas Trifásicas                                 198.123
+  T3 MT      Mayor o igual a 300 kW                      328.464       21.271      195,1290      190,1941      189,0241                Aéreas Trifásicas                           81.082            Subterráneas Monofásicas                          361.798
+                                                                                                                                       Subterráneas Monofásicas                   132.335            Subterráneas Trifásicas                           374.042
+                                                                                  CARGOS PLENOS                                        Subterráneas Trifásicas                    203.447
+         GRANDES USUARIOS DEL MEM                                   Cargo por        Cargo por Energía Transportada                    CARGOS POR SUSPENSIÓN Y REHABILITACIÓN DE SERVICIO
+                                                        Cargo Fijo
+                                                                   Uso de Red                                                         Conexiones Comunes y Especiales
+                                                                                   horas punta horas resto       horas valle                                                                                                                     $
+                Consumo                                 $/mes           $/kW         $/kWh        $/kWh           $/kWh               T1 Servicio Monofásico Tarifa Social                                                                     17.647
+                                                        328.464        21.271        8,8370       8,6230          8,5722              T1 Servicio Monofásico                                                                                   17.647
+          Menor a 300 kW
+T3 MTPFTT                                                                                                                             T1 Servicio Trifásico                                                                                    83.489
+          Mayor o igual a 300 kW                        328.464        21.271        9,7770       9,5297          9,4711
+                                                                                                                                      T2 - T3 - T4 - T5                                                                                        83.489
+

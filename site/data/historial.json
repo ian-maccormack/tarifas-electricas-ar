@@ -1,0 +1,245 @@
+[
+ {
+  "id": "edenor",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "d61d1535684ed1ca1b44579801bf9f1d92083f7f460a093cdbdd7eb86d12e00d",
+  "url": "https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument",
+  "titulo": "Cuadro Tarifario del 10-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edesur",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "d61d1535684ed1ca1b44579801bf9f1d92083f7f460a093cdbdd7eb86d12e00d",
+  "url": "https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument",
+  "titulo": "Cuadro Tarifario del 10-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edes",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+  "titulo": "Cuadro Tarifario del 11-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edea",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "ec62b06a19c4da5ecb537159ca7290e094daaaf5cee75076481826bcb13fd492",
+  "url": "https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf",
+  "titulo": "Cuadro Tarifario",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edelap",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "cfe48bf8c8876e8998bec8a55b49997c5891d187612fbe0aa6609ddd169ba814",
+  "url": "https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf",
+  "titulo": "EDELAP-CT-102-2026.pdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "eden",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+  "titulo": "Cuadro Tarifario del 11-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ecsapem",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "48919dfa88329e133a230376376cbe690b9476d79779fb1b4c4e4949da071ff3",
+  "url": "https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf",
+  "titulo": "Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "secheep",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "31a03bf071f687187b5771f4cc067290cf892d8854a48b2857a765378ec784f2",
+  "url": "https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf",
+  "titulo": "Anexo I y II Cuadros Tarifarios de aplicación y sin Subsidio - Septiembre y Octubre 2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "epec",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "2843f69f367408cd86e796637783a3fe87a1e11101bf36f348889cd3959fb7ba",
+  "url": "https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
+  "titulo": "cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "dpec",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "694c62c9e75519b72babd4b022d03e73f0f3b129c6cdc9b04493af2450fcebfd",
+  "url": "https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
+  "titulo": "CUADRO-TARIFARIO-108-Dpdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "enersa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "6c99f582975f6df460e84e51090fca2fcde265f2a7e6e258e2d1b8a21052b86c",
+  "url": "https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx",
+  "titulo": "cuadro-tarifario-noviembre-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "refsa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "7997e68ea711b1afa69a4807ea9a0cc057c14e4a9f7028a1f397a5b5d97024f5",
+  "url": "https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf",
+  "titulo": "2026 - Octubre (Resoluciónes  190/2026 )",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ejesa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "89d722758fac745cc87650fbbbd39166125d4726b476587f93cd61eae3ca2a94",
+  "url": "https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w=",
+  "titulo": "Cuadro Tarif. RES N°297/2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ejsed",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "71f5c23da512b22d361834ddf23c2357d64b4b8d49ceddf44383d0e2a42430c8",
+  "url": "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
+  "titulo": "CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ape",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "eff3d7b693da9da672fbc1e991b0ff47a60a008beb54fbf6b5ed22cf0d03cfb4",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
+  "titulo": "Cuadro Tarifario del 12-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edelar",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "859238fcc02ecc78607a21665956769885041ad2e426485d6df4f4745758d471",
+  "url": "https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf",
+  "titulo": "Cuadro tarifario vigente (EDELAR)",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edemsa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "2ac94b317b79f14adb4f89bbc095915104694ea7b7380677e8c5482b7981d867",
+  "url": "https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf",
+  "titulo": "CUADROS TARIFARIOS. Vigencia 01 Setiembre 2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edeste",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "2ac94b317b79f14adb4f89bbc095915104694ea7b7380677e8c5482b7981d867",
+  "url": "https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf",
+  "titulo": "CUADROS TARIFARIOS. Vigencia 01 Setiembre 2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "emsa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "1c8377c78e421233b0eae01ee64c9875e30a17ed519d058e91de76c62ad64195",
+  "url": "https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf",
+  "titulo": "Vigente a partir del 08/2026 – Cuadros Tarifarios N°649-654-655-656-657-658.",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "epen",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "b38f2e20b090ad1aa6342b9b9c353aab3e092c6caf30b5d6d526bf87c5918680",
+  "url": "https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf",
+  "titulo": "CT-consumos-08-2026-Final.pdf",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edersa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "76f4b374a4fd10357f4af403c087f9642929f8937b3ab4b09d391404637489f1",
+  "url": "https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf",
+  "titulo": "CT Octubre 2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edesa",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "db3b617cccfa6f18daf8fe09e4bca8357b8e7dd529671b38a34875239f10d3f4",
+  "url": "https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf",
+  "titulo": "– Resol. ENRESP N° 1770/26 – Cuadro Tarifario EDESA octubre 2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "esj",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "bb7afca8b02a8ec4392cd8e118e449c934f45078a7a6cfd6aca05015ae385099",
+  "url": "https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf",
+  "titulo": "01/09/2026 al 30/09/2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edesal",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "56f7a8b36c26d340ddea2e1f91970f3d7c5a69d545a930b405680652f09c0a23",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx",
+  "titulo": "Cuadro Tarifario del 06-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edese",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "2cc80440c31bae106804c048a47e0d2c104774e023ffa5b13aebb70abe4ee1fc",
+  "url": "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
+  "titulo": "Cuadro tarifario vigente (EDESE)",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "dpe",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "1f9c6222c1a19a180ce33f01cad73485340bbbba8048c8195a0c188b1161384a",
+  "url": "https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf",
+  "titulo": "Res. DPE 559/2025 - Tarifa Consumo - Decreto Prov. 2489/24 - Res. SEN 334/25",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edet",
+  "detectado": "2026-10-24T16:20:06+00:00",
+  "sha256": "d0f7402206e681e2864d9ed5a7e813407aea5b793341351241f407379c38691a",
+  "url": "https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0=",
+  "titulo": "CUADRO TARIFARIO VIGENTE",
+  "vigencia": null,
+  "tablas": []
+ }
+]

@@ -1,0 +1,390 @@
+##### Archivo: 2025_11_DESA (1).pdf
+                                                                                   ANEXO 135 - CTT
+
+
+                                                                                                          Valores en $/kWh
+                                            A                        B                    C                D             E              F           G            H         I        J
+      ÁREA DE REFERENCIA /
+         DISTRIBUIDORA
+                                                            T1R y T4R (N2 <= 350
+                                  T1R y T4R (N1, N2 > 350                          T1G y T4NR, T2 y    T3BT > 300 T1EBP, TS(*), T5BT T3MT < 300 T3MT > 300
+                                                              kWh y N3 <= 250                                                                                   T5MT      T3AT     T5AT
+                                  kWh y N3 > 250 kWh)(1)                            T3BT < 300 kW         kW           y T6BT           kW         kW
+                                                                  kWh)(2)
+ATLÁNTICA                                           9,878                  4,202               9,411       3,560             1,686          4,276       3,123     1,249    2,188    0,313
+EDEA                                                9,878                  4,202               9,411       3,560             1,686          4,276       3,123     1,249    2,188    0,313
+NORTE                                              10,323                  4,650               9,855       4,003             2,132          4,276       3,123     1,249    2,188    0,313
+EDEN                                               10,323                  4,650               9,855       4,003             2,132          4,276       3,123     1,249    2,188    0,313
+RÍO DE LA PLATA                                    10,398                  4,720               9,930       4,080             1,722          4,758       3,602     1,249    2,667    0,313
+EDELAP                                             10,398                  4,720               9,930       4,080             1,722          4,758       3,602     1,249    2,667    0,313
+SUR                                                11,012                  5,103              10,528       4,430             2,479          4,453       3,254     1,300    2,280    0,404
+EDES                                               11,012                  5,103              10,528       4,430             2,479          4,453       3,254     1,300    2,280    0,404
+
+
+
+(*) CTT TS APLICABLE: A DEMANDA RESIDENCIAL CATEGORIZADA COMO TARIFA SOCIAL SEGMENTO NIVEL 1 - TS GRUPO 1, A DEMANDA RESIDENCIAL CATEGORIZADA COMO TARIFA SOCIAL
+SEG,ENTO NIVEL 2 - TS GRUPO 1, Y A DEMANDA RESIDENCIAL CATEGORIZADA COMO TARIFA SOCIAL SEGMENTO NIVEL 3 - TS GRUPO 1.
+
+
+
+
+                                                                                               IF-2025-41843351-GDEBA-GMOCEBA
+
+
+                                                                                               página 1 de 1
+
+##### Archivo: 2025_11_DESA (2).pdf
+                                                       ANEXO 134
+           VALORES DE LOS AGREGADOS TARIFARIOS CORRESPONDIENTES A EDELAP S.A. Y AL ÁREA RÍO DE LA PLATA
+
+
+
+CONCEPTO AT SOBRE CARGOS FIJOS Y                                                                     AT TOTAL S/C.
+                                        UNIDADES        TRANSMISION       GD           ACGD
+CARGOS POR POTENCIA                                                                                      FIJOS
+
+ATMFT1R1                           $/cargo fijo -mes       81,7891      19,0838        19,0838         119,9567
+ATMFT1R2                           $/cargo fijo -mes      184,0173      42,9372        42,9372         269,8917
+ATMFT1R3                           $/cargo fijo -mes      258,9922      60,4312        60,4312         379,8546
+ATMFT1R4                           $/cargo fijo -mes      299,8790      69,9716        69,9716         439,8222
+ATMFT1R5                           $/cargo fijo -mes      327,1393      76,3326        76,3326         479,8045
+ATMFT1R6                           $/cargo fijo -mes      729,2611      170,1607      170,1607        1.069,5825
+ATMFT1R7                           $/cargo fijo -mes     1.403,9872     327,5967      327,5967        2.059,1806
+ATMFT1R8                           $/cargo fijo -mes     1.472,1414     343,4995      343,4995        2.159,1404
+ATMFT1R9                           $/cargo fijo -mes     2.024,1985     472,3134      472,3134        2.968,8253
+ATMFT1G1                           $/cargo fijo -mes      306,6996      71,5633        71,5633         449,8262
+ATMFT1G2                           $/cargo fijo -mes     2.201,4029     513,6602      513,6602        3.228,7233
+ATMFT1G3                           $/cargo fijo -mes     6.086,2306    1.420,1205    1.420,1205       8.926,4716
+ATMFT2BT                           $/kW -mes              197,6500      46,1182        46,1182         289,8864
+ATMFCPPT3BT1                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3BT1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3MT1                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3MT1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3AT1                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3AT1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3BT2                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3BT2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3MT2                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3MT2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3AT2                       $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3AT2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFT2BTP                          $/kW -mes              197,6500      46,1182        46,1182         289,8864
+ATMFCPPT3BTP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3BTP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3MTP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3MTP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3ATP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3ATP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3BTP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3BTP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3MTP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3MTP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT3ATP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT3ATP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFT4R1                           $/cargo fijo -mes      184,0173      42,9372        42,9372         269,8917
+ATMFT4R2                           $/cargo fijo -mes      327,1393      76,3326        76,3326         479,8045
+ATMFT4R3                           $/cargo fijo -mes     1.403,9872     327,5967      327,5967        2.059,1806
+ATMFT4R4                           $/cargo fijo -mes     1.472,1414     343,4995      343,4995        2.159,1404
+ATMFT41_NR                         $/cargo fijo -mes      184,0173      42,9372        42,9372         269,8917
+ATMFT42_NR                         $/cargo fijo -mes      327,1393      76,3326        76,3326         479,8045
+ATMFT43_NR                         $/cargo fijo -mes     1.403,9872     327,5967      327,5967        2.059,1806
+ATMFT44_NR                         $/cargo fijo -mes     1.472,1414     343,4995      343,4995        2.159,1404
+ATMFT1R1S                          $/cargo fijo -mes       81,7891      19,0838        19,0838         119,9567
+ATMFT1R2S                          $/cargo fijo -mes      184,0173      42,9372        42,9372         269,8917
+ATMFT1R3S                          $/cargo fijo -mes      258,9922      60,4312        60,4312         379,8546
+ATMFT1R4S                          $/cargo fijo -mes      299,8790      69,9716        69,9716         439,8222
+ATMFT1R5S                          $/cargo fijo -mes      327,1393      76,3326        76,3326         479,8045
+ATMFT1R6S                          $/cargo fijo -mes      729,2611      170,1607      170,1607        1.069,5825
+ATMFT1R7S                          $/cargo fijo -mes     1.403,9872     327,5967      327,5967        2.059,1806
+ATMFT1R8S                          $/cargo fijo -mes     1.472,1414     343,4995      343,4995        2.159,1404
+ATMFT1R9S                          $/cargo fijo -mes     2.024,1985     472,3134      472,3134        2.968,8253
+ATMFT4R1S                          $/cargo fijo -mes      184,0173      42,9372        42,9372         269,8917
+ATMFT4R2S                          $/cargo fijo -mes      327,1393      76,3326        76,3326         479,8045
+ATMFT4R3S                          $/cargo fijo -mes     1.403,9872     327,5967      327,5967        2.059,1806
+ATMFT4R4S                          $/cargo fijo -mes     1.472,1414     343,4995      343,4995        2.159,1404
+ATMFT5MDT                          $/kW -mes               95,6625       0,0000         0,0000          95,6625
+ATMFCPPT5BTP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5BTP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT5MTP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5MTP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT5ATP1                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5ATP1                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT5BTP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5BTP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT5MTP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5MTP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPPT5ATP2                      $/kW -mes               0,0000        0,0000         0,0000          0,0000
+ATMFCPFPT5ATP2                     $/kW -mes               0,0000        0,0000         0,0000          0,0000
+
+
+
+
+                                                       IF-2025-41843175-GDEBA-GMOCEBA
+
+
+                                                       página 1 de 2
+CONCEPTO AT SOBRE CARGOS
+                                      Cargo AT           A-T         A-GD     A-ACGD   AT_TOTAL $/kWh
+VARIABLES
+
+T1r-cv1r                         ATCVR1T1               3,8988       1,3114   1,3114      6,5216
+T1r-cv2                          ATCVR2T1               5,7364       1,3121   1,3121      8,3606
+T1r-cv3                          ATCVR3T1               5,7364       1,3121   1,3121      8,3606
+T1r-cv4                          ATCVR4T1               10,5040      1,3114   1,3114      13,1268
+T1r-cv5                          ATCVR5T1               12,9489      1,3114   1,3114      15,5717
+T1r-cv6                          ATCVR6T1               15,3772      1,3114   1,3114      18,0000
+T1r-cv7                          ATCVR7T1               19,9362      1,3109   1,3109      22,5580
+T1r-cv8                          ATCVR8T1               19,9362      1,3109   1,3109      22,5580
+T1r-cv9                          ATCVR9T1               19,9362      1,3109   1,3109      22,5580
+T1G-cv1                          ATCVG1T1               20,3816      2,4357   2,4357      25,2530
+T1G-cv2                          ATCVG2T1               20,9089      2,4347   2,4347      25,7783
+T1G-cv3                          ATCVG3T1               20,9089      2,4347   2,4347      25,7783
+T1ap                             ATCVAPT1               8,5408       2,4347   2,4347      13,4102
+T2BT-cv                          ATCVT2                 7,3381       2,4366   2,4366      12,2113
+T3BT-cv1p                        ATCV1PT3BT             2,2503       2,4358   2,4358      7,1219
+T3BT-cv1r                        ATCV1RT3BT             2,2503       2,4358   2,4358      7,1219
+T3BT-cv1v                        ATCV1VT3BT             2,2503       2,4358   2,4358      7,1219
+T3BT-cv2p                        ATCV2PT3BT             3,0841       2,4366   2,4366      7,9573
+T3BT-cv2r                        ATCV2RT3BT             3,1488       2,4358   2,4358      8,0204
+T3BT-cv2v                        ATCV2VT3BT             3,1488       2,4358   2,4358      8,0204
+T3MT-cv1p                        ATCV1PT3MT             2,2503       2,4358   2,4358      7,1219
+T3MT-cv1r                        ATCV1RT3MT             2,2503       2,4358   2,4358      7,1219
+T3MT-cv1v                        ATCV1VT3MT             2,2503       2,4358   2,4358      7,1219
+T3MT-cv2p                        ATCV2PT3MT             3,0841       2,4366   2,4366      7,9573
+T3MT-cv2r                        ATCV2RT3MT             3,1488       2,4358   2,4358      8,0204
+T3MT-cv2v                        ATCV2VT3MT             3,1488       2,4358   2,4358      8,0204
+T3AT-cv1p                        ATCV1PT3AT             0,0000       0,0000   0,0000      0,0000
+T3AT-cv1r                        ATCV1RT3AT             0,0000       0,0000   0,0000      0,0000
+T3AT-cv1v                        ATCV1VT3AT             0,0000       0,0000   0,0000      0,0000
+T3AT-cv2p                        ATCV2PT3AT             0,0000       0,0000   0,0000      0,0000
+T3AT-cv2r                        ATCV2RT3AT             0,0000       0,0000   0,0000      0,0000
+T3AT-cv2v                        ATCV2VT3AT             0,0000       0,0000   0,0000      0,0000
+T4r-cv1                          ATCVR1T4               5,7364       1,3121   1,3121      8,3606
+T4r-cv2                          ATCVR2T4               12,9489      1,3114   1,3114      15,5717
+T4r-cv3                          ATCVR3T4               19,9362      1,3109   1,3109      22,5580
+T4r-cv4                          ATCVR4T4               19,9362      1,3109   1,3109      22,5580
+T4nr-cv1                         ATCVNR1T4              6,0996       0,7291   0,7291      7,5578
+T4nr-cv2                         ATCVNR2T4              12,8182      1,5322   1,5322      15,8826
+T4nr-cv3                         ATCVNR3T4              19,3282      2,3084   2,3084      23,9450
+T4nr-cv4                         ATCVNR4T4              19,3604      2,2545   2,2545      23,8694
+T1RS-cv1r                        ATCVR1T1S              3,8988       1,3114   1,3114      6,5216
+T1RS-cv2                         ATCVR2T1S              5,7364       1,3121   1,3121      8,3606
+T1RS-cv3                         ATCVR3T1S              5,7364       1,3121   1,3121      8,3606
+T1RS-cv4                         ATCVR4T1S              10,5040      1,3114   1,3114      13,1268
+T1RS-cv5                         ATCVR5T1S              12,9489      1,3114   1,3114      15,5717
+T1RS-cv6                         ATCVR6T1S              15,3772      1,3114   1,3114      18,0000
+T1RS-cv7                         ATCVR7T1S              19,9362      1,3109   1,3109      22,5580
+T1RS-cv8                         ATCVR8T1S              19,9362      1,3109   1,3109      22,5580
+T1RS-cv9                         ATCVR9T1S              19,9362      1,3109   1,3109      22,5580
+T4RS-cv1                         ATCVR1T4S              5,7364       1,3121   1,3121      8,3606
+T4RS-cv2                         ATCVR2T4S              12,9489      1,3114   1,3114      15,5717
+T4RS-cv3                         ATCVR3T4S              19,9362      1,3109   1,3109      22,5580
+T4RS-cv4                         ATCVR4T4S              19,9362      1,3109   1,3109      22,5580
+T5MDT-cv                         ATCVT5MD               4,0297       0,0000   0,0000      4,0297
+T5BT-cv1p                        ATCV1PT5BT             2,3502       0,0000   0,0000      2,3502
+T5BT-cv1r                        ATCV1RT5BT             2,3502       0,0000   0,0000      2,3502
+T5BT-cv1v                        ATCV1VT5BT             2,3502       0,0000   0,0000      2,3502
+T5BT-cv2p                        ATCV2PT5BT             2,6259       0,0000   0,0000      2,6259
+T5BT-cv2r                        ATCV2RT5BT             2,6467       0,0000   0,0000      2,6467
+T5BT-cv2v                        ATCV2VT5BT             2,6467       0,0000   0,0000      2,6467
+T5MT-cv1p                        ATCV1PT5MT             2,3502       0,0000   0,0000      2,3502
+T5MT-cv1r                        ATCV1RT5MT             2,3502       0,0000   0,0000      2,3502
+T5MT-cv1v                        ATCV1VT5MT             2,3502       0,0000   0,0000      2,3502
+T5MT-cv2p                        ATCV2PT5MT             2,6259       0,0000   0,0000      2,6259
+T5MT-cv2r                        ATCV2RT5MT             2,6467       0,0000   0,0000      2,6467
+T5MT-cv2v                        ATCV2VT5MT             2,6467       0,0000   0,0000      2,6467
+T5AT-cv1p                        ATCV1PT5AT             0,0000       0,0000   0,0000      0,0000
+T5AT-cv1r                        ATCV1RT5AT             0,0000       0,0000   0,0000      0,0000
+T5AT-cv1v                        ATCV1VT5AT             0,0000       0,0000   0,0000      0,0000
+T5AT-cv2p                        ATCV2PT5AT             0,0000       0,0000   0,0000      0,0000
+T5AT-cv2r                        ATCV2RT5AT             0,0000       0,0000   0,0000      0,0000
+T5AT-cv2v                        ATCV2VT5AT             0,0000       0,0000   0,0000      0,0000
+
+(*) LAS CATEGORIAS OTROS PRESTADORES NO POSEEN AGREGADO TARIFARIO.
+
+
+
+
+                                                    IF-2025-41843175-GDEBA-GMOCEBA
+
+
+                                                    página 2 de 2
+
+##### Archivo: 2025_11_DESA (3).pdf
+   ANEXO 133 - VALORES DE LOS AGREGADOS TARIFARIOS INCLUIDOS EN LOS CUADROS DE LOS
+                ANEXOS DE EDEA, EDEN Y EDES, ÁREA ATLÁNTICA, NORTE Y SUR.
+
+
+
+
+ CONCEPTO AT SOBRE CARGOS
+                                    UNIDADES      TRANSMISION       GD        ACGD      AT TOTAL S/C. FIJOS
+FIJOS Y CARGOS POR POTENCIA
+
+
+ATMFT1R1                      $/cargo fijo -mes     148,7548       34,7096   34,7096          218,1740
+ATMFT1R2                      $/cargo fijo -mes     290,4260       67,7661   67,7661          425,9582
+ATMFT1R3                      $/cargo fijo -mes     439,1814      102,4755   102,4755         644,1324
+ATMFT1R4                      $/cargo fijo -mes     573,7685      133,8797   133,8797         841,5279
+ATMFT1R5                      $/cargo fijo -mes     991,6992      231,3966   231,3966        1454,4924
+ATMFT1R6                      $/cargo fijo -mes    1678,8058      391,7208   391,7208        2462,2474
+ATMFT1R7                      $/cargo fijo -mes    2075,4848      484,2801   484,2801        3044,0450
+ATMFT1RE1                     $/cargo fijo -mes     148,7548       34,7096   34,7096          218,1740
+ATMFT1RE2                     $/cargo fijo -mes     290,4260       67,7661   67,7661          425,9582
+ATMFT1RE3                     $/cargo fijo -mes     439,1814      102,4755   102,4755         644,1324
+ATMFT1RE4                     $/cargo fijo -mes     573,7685      133,8797   133,8797         841,5279
+ATMFT1GBC                     $/cargo fijo -mes     573,7685      133,8797   133,8797         841,5279
+ATMFT1GAC1                    $/cargo fijo -mes    2075,4848      484,2801   484,2801        3044,0450
+ATMFT1GAC2                    $/cargo fijo -mes    3591,3684      837,9862   837,9862        5267,3408
+ATMFT1GE1                     $/cargo fijo -mes     573,7685      133,8797   133,8797         841,5279
+ATMFT1GE2                     $/cargo fijo -mes    2798,0093      652,8688   652,8688        4103,7469
+ATMFCPPT2BT                   $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT2BT                  $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFCPPT2MT                   $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT2MT                  $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFCPPT3BT1                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT3BT1                 $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFCPPT3BT2                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT3BT2                 $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFCPPT3MT1                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT3MT1                 $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFCPPT3MT2                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT3MT2                 $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFT41                       $/cargo fijo -mes     191,2561       44,6267   44,6267          280,5095
+ATMFT42                       $/cargo fijo -mes     566,6855      132,2264   132,2264         831,1383
+ATMFT43                       $/cargo fijo -mes     956,2819      223,1323   223,1323        1402,5465
+ATMFT44                       $/cargo fijo -mes    1204,2059      280,9816   280,9816        1766,1691
+ATMFT41_M                     $/cargo fijo -mes     191,2561       44,6267   44,6267          280,5095
+ATMFT42_M                     $/cargo fijo -mes     566,6855      132,2264   132,2264         831,1383
+ATMFT43_M                     $/cargo fijo -mes     956,2819      223,1323   223,1323        1402,5465
+ATMFT44_M                     $/cargo fijo -mes    1204,2059      280,9816   280,9816        1766,1691
+ATMFCPPT5BT1                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT5BT1                 $/kW -mes            109,7105        0,0000     0,0000          109,7105
+ATMFCPPT5BT2                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT5BT2                 $/kW -mes            109,7105        0,0000     0,0000          109,7105
+ATMFCPPT5MT1                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT5MT1                 $/kW -mes            109,7105        0,0000     0,0000          109,7105
+ATMFCPPT5MT2                  $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT5MT2                 $/kW -mes            109,7105        0,0000     0,0000          109,7105
+ATMFCPPT6BT                   $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT6BT                  $/kW -mes            109,7104        0,0000     0,0000          109,7104
+ATMFCPPT6MT                   $/kW -mes              0,0000        0,0000     0,0000           0,0000
+ATMFCPFPT6MT                  $/kW -mes            109,7104        0,0000     0,0000          109,7104
+ATMFCPFPCECF                  $/kW -mes            226,6742        52,8908   52,8908          332,4558
+ATMFT1R1S                     $/cargo fijo -mes     148,7548       34,7096   34,7096          218,1740
+ATMFT1R2S                     $/cargo fijo -mes     290,4260       67,7661   67,7661          425,9582
+ATMFT1R3S                     $/cargo fijo -mes     439,1814      102,4755   102,4755         644,1324
+ATMFT1R4S                     $/cargo fijo -mes     573,7685      133,8797   133,8797         841,5279
+ATMFT1R5S                     $/cargo fijo -mes     991,6992      231,3966   231,3966        1454,4924
+ATMFT1R6S                     $/cargo fijo -mes    1678,8058      391,7208   391,7208        2462,2474
+ATMFT1R7S                     $/cargo fijo -mes    2075,4848      484,2801   484,2801        3044,0450
+ATMFT41S                      $/cargo fijo -mes     191,2561       44,6267   44,6267          280,5095
+ATMFT42S                      $/cargo fijo -mes     566,6855      132,2264   132,2264         831,1383
+ATMFT43S                      $/cargo fijo -mes     956,2819      223,1323   223,1323        1402,5465
+ATMFT44S                      $/cargo fijo -mes    1204,2059      280,9816   280,9816        1766,1691
+ATMFT41S_M                    $/cargo fijo -mes     191,2561       44,6267   44,6267          280,5095
+ATMFT42S_M                    $/cargo fijo -mes     566,6855      132,2264   132,2264         831,1383
+ATMFT43S_M                    $/cargo fijo -mes     956,2819      223,1323   223,1323        1402,5465
+ATMFT44S_M                    $/cargo fijo -mes    1204,2059      280,9816   280,9816        1766,1691
+
+
+
+
+                                                                             IF-2025-41830501-GDEBA-GMOCEBA
+
+
+                                                                             página 1 de 2
+                     CONCEPTO AT SOBRE
+                                                   Cargo AT          A-T        A-GD          A-ACGD         AT_TOTAL $/kWh
+                      CARGOS VARIABLES
+
+
+                   T1-cv1                      ATCV1T1R               2,7133        0,9126          0,9126              4,5385
+                   T1-cv2                      ATCV2T1R               3,9896        0,9126          0,9126              5,8148
+                   T1-cv3                      ATCV3T1R               5,8546        0,9126          0,9126              7,6798
+                   T1-cv4                      ATCV4T1R               7,3093        0,9126          0,9126              9,1345
+                   T1-cv5                      ATCV5T1R               9,0089        0,9126          0,9126             10,8341
+                   T1-cv6                      ATCV6T1R              10,7014        0,9126          0,9126             12,5266
+                   T1-cv7                      ATCV7T1R              13,8753        0,9126          0,9126             15,7005
+                   T1re-cv1                    ATCV1T1RE              5,9935        0,9126          0,9126              7,8187
+                   T1re-cv2                    ATCV2T1RE              9,1739        0,9126          0,9126             10,9991
+                   T1re-cv3                    ATCV3T1RE             11,9115        0,9126          0,9126             13,7367
+                   T1re-cv4                    ATCV4T1RE             17,3606        0,9126          0,9126             19,1858
+                   T1gbc                       ATCVT1GBC             14,1731        1,6972          1,6972             17,5675
+                   T1gac-cv1                   ATCV1T1GAC            14,0378        1,6972          1,6972             17,4322
+                   T1gac-cv2                   ATCV2T1GAC            14,5420        1,6972          1,6972             17,9364
+                   T1ge-cv1                    ATCV1T1GE             14,0990        1,6972          1,6972             17,4934
+                   T1ge-cv2                    ATCV2T1GE             14,6648        1,6972          1,6972             18,0592
+                   T1ap                        ATCVT1AP               5,9321        1,6972          1,6972              9,3265
+                   T2BT-cvp                    ATCVPT2BT              5,0710        1,6972          1,6972              8,4654
+                   T2BT-cvfp                   ATCVFPT2BT             5,0959        1,6972          1,6972              8,4903
+                   T2MT-cvp                    ATCVPT2MT              5,0959        1,6972          1,6972              8,4903
+                   T2MT-cvfp                   ATCVFPT2MT             4,9976        1,6972          1,6972              8,3920
+                   T3BT-cv1p                   ATCV1PT3BT             1,5534        1,6972          1,6972              4,9478
+                   T3BT-cv1r                   ATCV1RT3BT             1,5534        1,6972          1,6972              4,9478
+                   T3BT-cv1v                   ATCV1VT3BT             1,5534        1,6972          1,6972              4,9478
+                   T3BT-cv2p                   ATCV2PT3BT             2,1316        1,6972          1,6972              5,5260
+                   T3BT-cv2r                   ATCV2RT3BT             2,1806        1,6972          1,6972              5,5750
+                   T3BT-cv2v                   ATCV2VT3BT             2,1806        1,6972          1,6972              5,5750
+                   T3MT-cv1p                   ATCV1PT3MT             1,5534        1,6972          1,6972              4,9478
+                   T3MT-cv1r                   ATCV1RT3MT             1,5534        1,6972          1,6972              4,9478
+                   T3MT-cv1v                   ATCV1VT3MT             1,5534        1,6972          1,6972              4,9478
+                   T3MT-cv2p                   ATCV2PT3MT             2,1316        1,6972          1,6972              5,5260
+                   T3MT-cv2r                   ATCV2RT3MT             2,1806        1,6972          1,6972              5,5750
+                   T3MT-cv2v                   ATCV2VT3MT             2,1806        1,6972          1,6972              5,5750
+                   T5BT-cv1p                   ATCV1PT5BT             1,6328        0,0000          0,0000              1,6328
+                   T5BT-cv1r                   ATCV1RT5BT             1,6328        0,0000          0,0000              1,6328
+                   T5BT-cv1v                   ATCV1VT5BT             1,6328        0,0000          0,0000              1,6328
+                   T5BT-cv2p                   ATCV2PT5BT             1,8236        0,0000          0,0000              1,8236
+                   T5BT-cv2r                   ATCV2RT5BT             1,8398        0,0000          0,0000              1,8398
+                   T5BT-cv2v                   ATCV2VT5BT             1,8398        0,0000          0,0000              1,8398
+                   T5MT-cv1p                   ATCV1PT5MT             1,6328        0,0000          0,0000              1,6328
+                   T5MT-cv1r                   ATCV1RT5MT             1,6328        0,0000          0,0000              1,6328
+                   T5MT-cv1v                   ATCV1VT5MT             1,6328        0,0000          0,0000              1,6328
+                   T5MT-cv2p                   ATCV2PT5MT             1,8236        0,0000          0,0000              1,8236
+                   T5MT-cv2r                   ATCV2RT5MT             1,8398        0,0000          0,0000              1,8398
+                   T5MT-cv2v                   ATCV2VT5MT             1,8398        0,0000          0,0000              1,8398
+                   T6BT-cvp                    ATCVPT6BT              3,2104        0,0000          0,0000              3,2104
+                   T6BT-cvfp                   ATCVFPT6BT             3,2104        0,0000          0,0000              3,2104
+                   T6BT-cvp                    ATCVPT6MT              3,2104        0,0000          0,0000              3,2104
+                   T6BT-cvfp                   ATCVFPT6MT             3,2104        0,0000          0,0000              3,2104
+                   T4-cv1                      ATCV1T4RP              5,3188        0,9126          0,9126              7,1440
+                   T4-cv2                      ATCV2T4RP              6,7208        0,9126          0,9126              8,5460
+                   T4-cv3                      ATCV3T4RP              8,0698        0,9126          0,9126              9,8950
+                   T4-cv4                      ATCV4T4RP             10,5365        0,9126          0,9126             12,3617
+                   T4-cv1                      ATCV1T4NRP             9,8928        1,6972          1,6972             13,2872
+                   T4-cv2                      ATCV2T4NRP            12,5002        1,6972          1,6972             15,8946
+                   T4-cv3                      ATCV3T4NRP            15,0094        1,6972          1,6972             18,4038
+                   T4-cv4                      ATCV4T4NRP            19,5969        1,6972          1,6972             22,9913
+                   T4-cv1                      ATCV1T4RM              5,5569        0,9126          0,9126              7,3821
+                   T4-cv2                      ATCV2T4RM              7,0183        0,9126          0,9126              8,8435
+                   T4-cv3                      ATCV3T4RM              8,4598        0,9126          0,9126             10,2850
+                   T4-cv4                      ATCV4T4RM             11,0257        0,9126          0,9126             12,8509
+                   T4-cv1                      ATCV1T4NRM            10,3351        1,6972          1,6972             13,7295
+                   T4-cv2                      ATCV2T4NRM            13,0538        1,6972          1,6972             16,4482
+                   T4-cv3                      ATCV3T4NRM            15,7354        1,6972          1,6972             19,1298
+                   T4-cv4                      ATCV4T4NRM            20,5072        1,6972          1,6972             23,9016
+                   T1RS-cv1                    ATCV1T1RS              2,7133        0,9126          0,9126              4,5385
+                   T1RS-cv2                    ATCV2T1RS              3,9896        0,9126          0,9126              5,8148
+                   T1RS-cv3                    ATCV3T1RS              5,8546        0,9126          0,9126              7,6798
+                   T1RS-cv4                    ATCV4T1RS              7,3093        0,9126          0,9126              9,1345
+                   T1RS-cv5                    ATCV5T1RS              9,0089        0,9126          0,9126             10,8341
+                   T1RS-cv6                    ATCV6T1RS             10,7014        0,9126          0,9126             12,5266
+                   T1RS-cv7                    ATCV7T1RS             13,8753        0,9126          0,9126             15,7005
+                   T4RS-cv1                    ATCV1T4RPS             5,3188        0,9126          0,9126              7,1440
+                   T4RS-cv2                    ATCV2T4RPS             6,7208        0,9126          0,9126              8,5460
+                   T4RS-cv3                    ATCV3T4RPS             8,0698        0,9126          0,9126              9,8950
+                   T4RS-cv4                    ATCV4T4RPS            10,5365        0,9126          0,9126             12,3617
+                   T4RS-cv1                    ATCV1T4RMS             5,5569        0,9126          0,9126              7,3821
+                   T4RS-cv2                    ATCV2T4RMS             7,0183        0,9126          0,9126              8,8435
+                   T4RS-cv3                    ATCV3T4RMS             8,4598        0,9126          0,9126             10,2850
+                   T4RS-cv4                    ATCV4T4RMS            11,0257        0,9126          0,9126             12,8509
+
+
+
+(*) LAS CATEGORIAS CORRESPONDIENTES A DISTRIBUIDORES MUNICIPALES EN T3 Y T5, NO POSEEN AGRREGADO TARIFARIO
+                                                                                                IF-2025-41830501-GDEBA-GMOCEBA
+
+
+                                                                                                página 2 de 2
+

@@ -1,0 +1,60 @@
+=== Hoja: Cuadro Tarifario Nuevo ===
+Cuadro Tarifario
+RESOLUCIÓN SE 109-2026
+RESOLUCIÓN CRPEE 184-2026
+Tarifa 1-R: Pequeñas Demandas Residenciales hasta 10kW
+Subtarifa | Bloque | Cuadro Resolución |  |  | Cuadro Resolución - Subsidio Resef
+ |  | Cargo Fijo | Cargo por Uso de la Red | Cargo Variable | Cargo Fijo | Cargo por Uso de la Red | Cargo Variable Primeros 300kWh | Cargo Variable Excedente
+ |  | $/Usuario mes | $/Usuario-mes | $/kWh | $/Usuario mes | $/Usuario-mes | $/kWh | $/kWh
+T1R-1 | Desde 0kWh hasta 160kWh | 5927.328 | 9896.3971 | 131.9797 | 3596.4512 | 9896.3971 | 66.5146 | 131.9797
+T1R-2 | Desde 161kWh hasta 200kWh | 9427.133 | 18001.2756 | 131.1073 | 5187.3318 | 18001.2756 | 65.59 | 131.1073
+T1R-3 | Desde 201kWh hasta 400kWh | 10497.6577 | 20480.406 | 129.0571 | 5673.9524 | 20480.406 | 63.592 | 129.0571
+T1R-4 | Desde 401kWh hasta 700kWh | 18217.8341 | 38358.8572 | 126.0125 | 9183.2563 | 38358.8572 | 60.5262 | 126.0125
+T1R-5 | Desde 701kWh hasta 1400kWh | 24502.4711 | 52912.8738 | 124.5803 | 12040.0175 | 52912.8738 | 59.1675 | 124.5803
+T1R-6 | Desde 1401kWh | 50227.3544 | 112486.7805 | 124.5803 | 23733.5886 | 112486.7805 | 59.1675 | 124.5803
+Tarifa 1-R: Pequeñas Demandas Residenciales hasta 10kW - Tarifa con Subsidio del Estado Provincial
+Subtarifa | Bloque | Cuadro Resolución |  |  | Cuadro Resolución - Subsidio Resef
+ |  | Cargo Fijo | Cargo por Uso de la Red | Cargo Variable | Cargo Fijo | Cargo por Uso de la Red | Cargo Variable Primeros 300kWh | Cargo Variable Excedente
+ |  | $/Usuario mes | $/Usuario-mes | $/kWh | $/Usuario mes | $/Usuario-mes | $/kWh | $/kWh
+T1R-1 | Desde 0kWh hasta 160kWh | 5927.328 | 9896.3971 | 131.9797 | 3596.4512 | 9396.3971 | 66.5146 | 131.9797
+T1R-2 | Desde 161kWh hasta 200kWh | 9427.133 | 18001.2756 | 131.1073 | 5187.3318 | 17501.2756 | 65.59 | 131.1073
+Tarifa 1-G: Pequeñas Demandas Generales hasta 10kW
+Subtarifa | Bloque | Cargo Fijo | Cargo por Uso de la Red | Cargo Variable
+ |  | $/Usuario mes | $/Usuario-mes | $/kWh
+T1G-1 | Desde 0kWh hasta 500kWh | 7556.765 | 27339.7225 | 155.8253
+T1G-2 | Desde 501kWh hasta 1000kWh | 17949.2575 | 75473.7704 | 156.798
+T1G-3 | Desde 1001kWh | 35356.797 | 156098.8308 | 159.2757
+Tarifa 1-AP: Pequeñas Demandas de Alumbrado Público
+Subtarifa | Bloque |  | Cargo Variable
+ |  |  | $/kWh
+T1-AP | Todos los consumos |  | 281.8491
+Tarifas T2 - Usuarios con Potencia mayor a 10kW |  | Usuarios de la Distribuidora <300kW |  |  |  |  |  |  |  |  |  | Usuarios de la Distribuidora >=300kW
+Concepto | Unidades | T2 BT | T2 BTSRG | T2 BTSRI | T2 MT13,2 | T2 MT13,2 Riego | T2 MT33G | T2 MT33G Riego | T2 MT33I | T2 AT |  | T2 BT | T2 BTSRG | T2 BTSRI | T2 MT13,2 | T2 MT13,2 Riego | T2 MT33G | T2 MT33G Riego | T2 MT33I | T2 AT
+Cargo Comercial | [$/Usuario- mes] | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 112516.602049 |  | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 112516.602049
+Cargo por Uso de la Red | [$/kW mes] | 20824.278775 | 18927.971939 | 16178.878843 | 18573.531816 | 18573.531816 | 15346.122893 | 15346.122893 | 13077.9895 | 6920.349048 |  | 20824.278775 | 18927.971939 | 16178.878843 | 18573.531816 | 18573.531816 | 15346.122893 | 15346.122893 | 13077.9895 | 6920.349048
+Cargo por Consumo Potencia | [$/kW mes] | 8859.217648 | 8251.64693 | 7897.394634 | 11238.074528 | 23509.275221 | 9044.423457 | 12358.21341 | 9762.050484 | 6932.760414 |  | 8859.217648 | 8251.64693 | 7897.394634 | 11238.074528 | 23509.275221 | 9044.423457 | 12358.21341 | 9762.050484 | 6932.760414
+Cargo por Consumo de Energía en hs.Pico | [$/kWh ] | 126.0977 | 119.5062 | 113.652 | 115.11 | 116.3121 | 111.4291 | 113.784 | 109.5885 | 109.7954 |  | 126.3397 | 119.7364 | 113.8771 | 115.3359 | 116.538 | 111.6514 | 114.0063 | 109.809 | 110.0093
+Cargo por Consumo de Energía en hs.Resto | [$/kWh ] | 122.6623 | 116.237 | 110.4567 | 111.9029 | 113.105 | 108.2724 | 110.6273 | 106.4577 | 106.7586 |  | 122.8959 | 116.4593 | 110.674 | 112.121 | 113.3231 | 108.487 | 110.842 | 106.6706 | 106.9651
+Cargo por Consumo de Energía en hs.Valle | [$/kWh ] | 121.0631 | 114.7152 | 108.9693 | 110.4101 | 111.6122 | 106.8031 | 109.158 | 105.0004 | 105.345 |  | 121.2919 | 114.933 | 109.1821 | 110.6237 | 111.8258 | 107.0133 | 109.3682 | 105.2089 | 105.5473
+Tarifas T2 - Usuarios con Potencia mayor a 10kW |  | Tarifa de Peaje <300kW |  |  |  |  |  |  |  |  |  | Tarifa de Peaje >= 300kW
+Concepto | Unidades | T2 BT | T2 BTSRG | T2 BTSRI | T2 MT13,2 | T2 MT13,2 Riego | T2 MT33G | T2 MT33G Riego | T2 MT33I | T2 AT |  | T2 BT | T2 BTSRG | T2 BTSRI | T2 MT13,2 | T2 MT13,2 Riego | T2 MT33G | T2 MT33G Riego | T2 MT33I | T2 AT
+Cargo Comercial | [$/Usuario- mes] | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 112516.602049 |  | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 29660.804159 | 112516.602049
+Cargo por Uso de la Red | [$/kW mes] | 20824.278775 | 18927.971939 | 16178.878843 | 18573.531816 | 18573.531816 | 15346.122893 | 15346.122893 | 13077.9895 | 6920.349048 |  | 20824.278775 | 18927.971939 | 16178.878843 | 18573.531816 | 18573.531816 | 15346.122893 | 15346.122893 | 13077.9895 | 6920.349048
+Cargo por Consumo Potencia | [$/kW mes] | 1270.600054 | 670.888654 | 631.40538 | 793.026068 | 1658.955727 | 529.995954 | 724.181385 | 611.34433 | 171.600922 |  | 1270.600054 | 670.888654 | 631.40538 | 793.026068 | 1658.955727 | 529.995954 | 724.181385 | 611.34433 | 171.600922
+Cargo por Consumo de Energía en hs.Pico | [$/kWh ] | 24.4445 | 17.853 | 11.9988 | 13.4568 | 14.6589 | 9.7759 | 12.1308 | 7.9353 | 8.1423 |  | 24.4777 | 17.8744 | 12.015 | 13.4739 | 14.676 | 9.7894 | 12.1443 | 7.947 | 8.1473
+Cargo por Consumo de Energía en hs.Resto | [$/kWh ] | 23.9743 | 17.549 | 11.7687 | 13.2149 | 14.417 | 9.5844 | 11.9393 | 7.7697 | 8.0706 |  | 24.0062 | 17.5696 | 11.7843 | 13.2314 | 14.4335 | 9.5974 | 11.9523 | 7.781 | 8.0755
+Cargo por Consumo de Energía en hs.Valle | [$/kWh ] | 23.7554 | 17.4075 | 11.6616 | 13.1023 | 14.3044 | 9.4953 | 11.8502 | 7.6926 | 8.0372 |  | 23.7867 | 17.4277 | 11.6769 | 13.1184 | 14.3205 | 9.508 | 11.8629 | 7.7036 | 8.042
+ |  | Conexión Nueva / Reconexión | Rehabilitación hasta 6 meses | Rehabilitación hasta 9 meses |  | Tarifa Usuarios Generadores
+Derechos de Conexión | Monofásica | 69344.226122 | 34672.113061 | 52008.169591 |  | Nivel de tension | Cargo Comercial $/usuario mes | Cargo de conexion $kW/mes | Cargo Conexion con firmeza $kW/mes
+ | Trifásica <10kW | 231147.420406 | 115573.710203 | 173360.565304 |  | MT13 | 29636.09067 | 985.730534 | 815.301928
+ | 10kW <= Trifásico <= 50kW | 693442.261217 | 346721.130609 | 520081.695913 |  | MT33 | 29636.09067 | 760.395032 | 628.925975
+ | 50kW < Trifásico <= 300kW | 1386884.522434 | 693442.261217 | 1040163.391826 |  | AT | 112422.853133 | 119.336894 | 95.469515
+ | Trifásico > 300kW | 3236063.885679 | 1618031.94284 | 2427047.91426
+Cargo por Energía Reactiva | T1
+Recargo por Cos Fi
+ entre 0.85 y 0,75 | 0.1
+ | T1
+Recargo por Cos Fi
+ menor a 0,75 | 0.2
+ | T2
+Recargo por cada centésimo de Tg Fi mayor que 0,62 por la energía reactiva en exceso del 62% de la energía activa | 0.015

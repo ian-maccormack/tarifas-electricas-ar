@@ -1,0 +1,337 @@
+                                                              REFSA
+                                                  RECURSOS Y ENERGIA FORMOSA S.A.
+                                                                  H. Gorleri 580 – Formosa CP (3.600)
+                                                                       Tel./Fax: (03704)-439800
+
+                                                                REFSA S.A. - CUADRO TARIFARIO
+                                          Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                      Según Precios Nacionales para el Período Agosto 2026
+
+                                                                        T1-R Uso Residencial
+                                        Tarifas        Tarifa RESIDENCIAL SIN SUBSIDIO (A)            Unidad      Importe
+                                        T.1-R1    Consumo Mensual Inferior o igual a 150 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes]         $ 1.799,90
+                                                                         Cargo Variable por Energía [$/kWh]      $ 208,2989
+                                        T.1-R2    Consumo Mensual Superior a 150 kWh e Inferior o Igual a 300 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes]         $ 1.970,90
+                                                                         Cargo Variable por Energía [$/kWh]      $ 208,6881
+                                       T.1-R3-1   Consumo Mensual Mayor a 300 kWh e Inferior o Igual a 500 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes]         $ 2.699,86
+                                                                         Cargo Variable por Energía [$/kWh]      $ 210,2448
+                                       T.1-R3-2   Consumo Mensual Mayor a 500 kWh e Inferior o Igual a 700 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes] $ 3.599,81
+                                                                         Cargo Variable por Energía [$/kWh]      $ 214,1363
+                                       T.1-R3-3   Consumo Mensual Mayor a 700 kWh e Inferior o Igual a 1400 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes] $ 5.399,71
+                                                                         Cargo Variable por Energía [$/kWh]      $ 214,5256
+                                       T.1-R3-4   Consumo Mensual Mayor a 1400 kWh
+                                                                   Cargo Fijo (Haya o no Consumo) [$/mes] $ 6.299,66
+                                                                         Cargo Variable por Energía [$/kWh]      $ 214,9147
+
+
+                                                               REFSA S.A. - CUADRO TARIFARIO
+                                          Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                      Según Precios Nacionales para el Período Agosto 2026
+
+                                                                       T1-RS
+                                                                       T1-RS Uso
+                                                                             Uso Residencial
+                                                                                 Residencial
+                                         Tarifas          Tarifa RESIDENCIAL CON SUBSIDIO (B)            Unidad      Importe
+                                       T.1-RS 1 (*) Consumo Mensual Inferior o igual a 150 kWh
+                                                                       Cargo Fijo (Haya o no Consumo) [$/mes]        $ 1.799,90
+                                                                            Cargo Variable por Energía [$/kWh]        $ 91,5251
+                                                     Consumo Mensual Superior a 150 kWh e Inferior o Igual a 300 kWh
+                                       T.1-RS 2 (*)                    Cargo Fijo (Haya o no Consumo) [$/mes]        $ 1.970,90
+                                                     Cargos Variables:      Cargo Variable por Energía [$/kWh]        $ 91,7975
+                                                     Consumo Mensual Mayor a 300 kWh e Inferior o Igual a 500 kWh
+                                                                       Cargo Fijo (Haya o no Consumo) [$/mes]        $ 2.699,86
+                                      T.1-RS 3-1 (*)
+                                                     Cargo Variable        Primeros 300 kWh (0 a 300) [$/kWh]         $ 92,8872
+                                                                                 Excedente de 300 kWh [$/kWh]       $ 190,5887
+                                                     Consumo Mensual Mayor a 500 kWh e Inferior o Igual a 700 kWh
+                                                                       Cargo Fijo (Haya o no Consumo) [$/mes]        $ 3.599,81
+                                      T.1-RS 3-2 (*)
+                                                     Cargos Variables:     Primeros 300 kWh (0 a 300) [$/kWh]         $ 95,6113
+                                                                                 Excedente de 300 kWh [$/kWh]       $ 193,3128
+                                                     Consumo Mensual Mayor a 700 kWh e Inferior o Igual a 1400 kWh
+                                                                       Cargo Fijo (Haya o no Consumo) [$/mes]        $ 5.399,71
+                                       T.1-RS 3-3
+                                                     Cargo Variable        Primeros 300 kWh (0 a 300) [$/kWh]       $ 111,4369
+                                                                                 Excedente de 300 kWh [$/kWh]       $ 214,5256
+                                                     Consumo Mensual Mayor a 1400 kWh
+                                                                       Cargo Fijo (Haya o no Consumo) [$/mes]        $ 6.299,66
+                                       T.1-RS 3-4
+                                                     Cargo Variable        Primeros 300 kWh (0 a 300) [$/kWh]       $ 111,8260
+                                                                                 Excedente de 300 kWh [$/kWh]       $ 214,9147
+
+
+
+
+A) USUARIO SIN SUBSIDIO según RÉGIMEN DE SEGMENTACIÓN DE SUBSIDIOS establecido en el DECRETO NACIONAL N° 943/25, el, los
+topes de consumo subsidiado establecidos por la Resolución N° 13/2026 de la SECRETARÍA DE ENERGÍA DE LA NACIÓN y la información
+suministrada por el REGISTRO DE SUBSIDIOS ENERGÉTICOS FOCALIZADOS (RASEF) bajo la órbita de la SECRETARÍA DE ENERGÍA DE
+LA NACIÓN sobre la base de las declaraciones juradas presentadas unilateralmente por los usuarios del servicio.
+B) USUARIO CON SUBSIDIO según RÉGIMEN DE SEGMENTACIÓN DE SUBSIDIOS establecido en el DECRETO NACIONAL N° 943/25, el,
+los topes de consumo subsidiado establecidos por la Resolución N° 13/2026 de la SECRETARÍA DE ENERGÍA DE LA NACIÓN y la información
+suministrada por el REGISTRO DE SUBSIDIOS ENERGÉTICOS FOCALIZADOS (RASEF) bajo la órbita de la SECRETARÍA DE ENERGÍA DE
+LA NACIÓN sobre la base de las declaraciones juradas presentadas unilateralmente por los usuarios del servicio.
+* Beneficiario del PROGRAMA SUBSIDIO PROVINCIAL ESFUERZO FORMOSEÑO, según Decreto Provincial N° 7/25 y modificatorias.
+                                                            REFSA
+                                                RECURSOS Y ENERGIA FORMOSA S.A.
+                                                               H. Gorleri 580 – Formosa CP (3.600)
+                                                                    Tel./Fax: (03704)-439800
+
+                                                           REFSA S.A. - CUADRO TARIFARIO
+                                     Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                 Según Precios Nacionales para el Período Agosto 2026
+
+                                                                   T1-R Uso Residencial
+                                   Tarifas     Tarifa RESIDENCIAL ELECTRODEPENDIENTE (C) Unidad                Importe
+                                  T.E. - R1    Consumo Mensual Inferior o igual a 150 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+                                  T.E - R2     Consumo Mensual Superior a 150 kWh e Inferior o Igual a 300 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+                                 T.E - R3-1    Consumo Mensual Mayor a 300 kWh e Inferior o Igual a 500 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+                                 T.E - R3-2    Consumo Mensual Mayor a 500 kWh e Inferior o Igual a 700 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+                                 T.E - R3-3    Consumo Mensual Mayor a 700 kWh e Inferior o Igual a 1400 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+                                 T. E - R3-4   Consumo Mensual Mayor a 1400 kWh
+                                                                Cargo Fijo (Haya o no Consumo) [$/mes]              $ 0,00
+                                                                      Cargo Variable por Energía [$/kWh]         $ 0,0000
+
+
+
+
+                                                          REFSA S.A. - CUADRO TARIFARIO
+                                    Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                Según Precios Nacionales para el Período Agosto 2026
+                                                                    T-G Uso General
+                                 Tarifas     Detalle Tarifa GENERAL                                Unidad    Importe
+                                             Consumo Mensual Inferior o igual a 800 KW-Hs
+                                 T.1-G1                         Cargo Fijo (Haya o no Consumo) [$/mes] $ 6.299,66
+                                                                      Cargo Variable por Energía [$/KW-Hs] $ 226,3394
+                                             Consumo Mensual Superior a 800 KWHs e Inferior o Igual a 2000 KWHs
+                                                                                      Cargo Fijo [$/mes] $ 8.999,52
+                                 T.1-G2
+                                             Cargos Variables:        Primeros 800 kWh (0a800) [$/KW-Hs] $ 227,1286
+                                                                              Excedente 800 kWh [$/KW-Hs] $ 227,1286
+                                             Consumo Mensual Mayor a 2000 KWHs
+                                                                                      Cargo Fijo [$/mes] $ 14.399,23
+                                 T.1-G3
+                                             Cargos Variables:        Primeros 800 kWh (0a800) [$/KW-Hs] $ 232,9051
+                                                                             Excedente 800 kWh [$/KW-Hs] $ 232,9051
+
+
+
+
+                                                            REFSA S.A. - CUADRO TARIFARIO
+                                  Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                  Según Precios Nacionales para el Período Agosto 2026
+                                                                T1-AP Alumbrado Público
+                                 Tarifas      Detalle Tarifa ALUMBRADO PÚBLICO                  Unidad        Importe
+                                              Suministro de Energía
+                                T.1-AP1
+                                                                 Cargo Variable por Energía [$/KW-Hs] $         242,3333
+
+
+
+
+(c) Según RÉGIMEN DE ELECTRO DEPENDIENTES establecido por las Resoluciones E.R.O.S.P. Nº 1.995/19 y E.R.O.S.P. Nº 1.742/22
+                             REFSA
+                 RECURSOS Y ENERGIA FORMOSA S.A.
+                                  H. Gorleri 580 – Formosa CP (3.600)
+                                       Tel./Fax: (03704)-439800
+
+
+
+
+                                REFSA S.A. - CUADRO TARIFARIO
+                         Para consumos efectuados a partir del 01/08/26
+                      Según Precios Nacionales para el Período Agosto 2026
+                                TARIFA 2 - MEDIANAS DEMANDAS
+  Tarifas    Detalle Tarifa MEDIANAS DEMANDAS                         Unidad    Importe
+                            Por Capacidad de Suministro Contratada [$/KW-Mes] $ 11.813,23
+    T.2      Cargos Variables:          Primeros 800 kWh (0a800) [$/KW-Hs] $ 161,4954
+                                               Excedente 800 kWh [$/KW-Hs] $ 161,4954
+
+
+
+
+                                   REFSA S.A. - CUADRO TARIFARIO
+                                        GRANDES DEMANDAS
+                             Para consumos efectuados a partir del 01/08/26
+                         Según Precios Nacionales para el Período Agosto 2026
+                              TARIFA 3 - GRANDES DEMANDAS < 300 KW
+Tarifas Detalle Tarifa GRANDES DEMANDAS                                           Unidad     Importe
+        Grandes Demandas En Baja Tensión <300 Kw
+                       Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]   $15.911,69
+                Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]    $ 5.548,42
+T3-BT1
+        Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]     $ 164,6867
+                                            Período Horas de Valle (Nocturnas) [$/KW-Hs]    $ 160,5899
+                                                      Período Horas Restantes [$/KW-Hs]     $ 161,0200
+        Grandes Demandas En Media Tensión <300Kw
+                       Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]   $ 6.986,57
+                Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]    $ 1.661,77
+T3-MT1
+        Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]     $ 135,4324
+                                            Período Horas de Valle (Nocturnas) [$/KW-Hs]    $ 132,0634
+                                                      Período Horas Restantes [$/KW-Hs]     $ 132,4170
+        Otros Distribuidores Provinciales en Media Tensión <300 Kw
+                       Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]   $13.094,73
+                Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]    $ 3.751,07
+T4-MT1
+        Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]     $ 135,4324
+                                            Período Horas de Valle (Nocturnas) [$/KW-Hs]    $ 132,0634
+                                                      Período Horas Restantes [$/KW-Hs]     $ 132,4170
+                            REFSA
+                RECURSOS Y ENERGIA FORMOSA S.A.
+                                  H. Gorleri 580 – Formosa CP (3.600)
+                                       Tel./Fax: (03704)-439800
+
+                                    REFSA S.A. - CUADRO TARIFARIO
+                                         GRANDES DEMANDAS
+                             Para consumos efectuados a partir del 01/08/26
+                          Según Precios Nacionales para el Período Agosto 2026
+                               TARIFA 3 - GRANDES DEMANDAS >=300 Kw
+Tarifas   Detalle Tarifa GRANDES DEMANDAS                                            Unidad          Importe
+          T3-BT2 Grandes Demandas En Baja Tensión >=300 Kw
+                        Por Capacidad de Suministro Contratada en Horas de Pico : [$/KW-Mes]       $ 15.977,78
+                 Por Capacidad de Suministro Contratada en Horas Fuera de Pico : [$/KW-Mes]        $ 5.548,42
+T3-BT2
+          Por Consumo de Energía :                      Período Horas de Punta : [$/KW-Hs]         $ 182,7234
+                                             Período Horas de Valle (Nocturnas) : [$/KW-Hs]        $ 178,0610
+                                                       Período Horas Restantes : [$/KW-Hs]         $ 178,5493
+          T3-MT2 Grandes Demandas En Media Tensión >=300Kw
+                        Por Capacidad de Suministro Contratada en Horas de Pico : [$/KW-Mes]       $ 6.441,27
+                 Por Capacidad de Suministro Contratada en Horas Fuera de Pico : [$/KW-Mes]        $ 1.661,77
+T3-MT2
+          Por Consumo de Energía :                      Período Horas de Punta : [$/KW-Hs]         $ 150,2651
+                                             Período Horas de Valle (Nocturnas) : [$/KW-Hs]        $ 146,4309
+                                                       Período Horas Restantes : [$/KW-Hs]         $ 146,8325
+          T4-MT2 Otros Distribuidores Provinciales en Media Tensión >=300 Kw
+                        Por Capacidad de Suministro Contratada en Horas de Pico : [$/KW-Mes]       $ 12.958,40
+                 Por Capacidad de Suministro Contratada en Horas Fuera de Pico : [$/KW-Mes]        $ 3.751,07
+T4-MT2
+          Por Consumo de Energía :                      Período Horas de Punta : [$/KW-Hs]         $ 150,2651
+                                             Período Horas de Valle (Nocturnas) : [$/KW-Hs]        $ 146,4309
+                                                       Período Horas Restantes : [$/KW-Hs]         $ 146,8325
+
+
+
+
+                                    REFSA S.A. - CUADRO TARIFARIO
+ GRANDES DEMANDAS Organismos y Entes Públicos que presten los Servicios Públicos de Salud y Educación
+                              Para consumos efectuados a partir del 01/08/26
+                           Según Precios Nacionales para el Período Agosto 2026
+                               TARIFA 3 - GRANDES DEMANDAS >=300 Kw
+Tarifas   Detalle Tarifa GRANDES DEMANDAS                                           Unidad          Importe
+          T3-BT2 Grandes Demandas En Baja Tensión >=300 Kw
+                         Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]    $ 15.977,78
+                  Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]     $ 5.548,42
+T3-BT2
+          Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]      $ 182,7234
+                                              Período Horas de Valle (Nocturnas) [$/KW-Hs]     $ 178,0610
+                                                        Período Horas Restantes [$/KW-Hs]      $ 178,5493
+          T3-MT2 Grandes Demandas En Media Tensión >=300Kw
+                         Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]    $    6.441,27
+                  Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]     $    1.661,77
+T3-MT2
+          Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]      $    150,2651
+                                              Período Horas de Valle (Nocturnas) [$/KW-Hs]     $    146,4309
+                                                        Período Horas Restantes [$/KW-Hs]      $    146,8325
+          T4-MT2 Otros Distribuidores Provinciales en Media Tensión >=300 Kw
+                         Por Capacidad de Suministro Contratada en Horas de Pico [$/KW-Mes]    $ 12.958,40
+                  Por Capacidad de Suministro Contratada en Horas Fuera de Pico [$/KW-Mes]     $ 3.751,07
+T4-MT2
+          Por Consumo de Energía :                       Período Horas de Punta [$/KW-Hs]      $ 150,2651
+                                              Período Horas de Valle (Nocturnas) [$/KW-Hs]     $ 146,4309
+                                                        Período Horas Restantes [$/KW-Hs]      $ 146,8325
+                            REFSA
+                RECURSOS Y ENERGIA FORMOSA S.A.
+                                 H. Gorleri 580 – Formosa CP (3.600)
+                                      Tel./Fax: (03704)-439800
+
+                                 REFSA S.A. - CUADRO TARIFARIO
+                                   Rehabilitación y Conexiones
+                                       A partir del 01/08/26
+
+
+                                    Servicio de Rehabilitación
+Por cada Servicio Interrumpido
+        Categoría                                                Unidad     Importe
+         T.1-R      Residenciales                                 [$]     $13.258,83
+         T.1-G      Usuario General                               [$]     $17.978,98
+         T.1-AP     Alumbrado Público                             [$]     $17.978,98
+           T.2      Medianas Demandas                             [$]     $42.462,36
+
+                                   Servicio de Conexión Nueva
+Conexión Común Monofásica
+        Categoría                                                Unidad     Importe
+         T.1-R      Residenciales                                 [$]     $33.124,35
+         T.1-G      Usuario General                               [$]     $33.124,35
+         T.1-AP     Alumbrado Público                             [$]     $33.124,35
+           T.2      Medianas Demandas                             [$]     $33.124,35
+
+Conexión Común Trifásica
+        Categoría                                                Unidad     Importe
+         T.1-R      Residenciales                                 [$]     $81.735,02
+         T.1-G      Usuario General                               [$]     $81.735,02
+         T.1-AP     Alumbrado Público                             [$]     $81.735,02
+           T.2      Medianas Demandas                             [$]     $81.735,02
+                                                            REFSA
+                                                RECURSOS Y ENERGIA FORMOSA S.A.
+                                                              H. Gorleri 580 – Formosa CP (3.600)
+                                                                   Tel./Fax: (03704)-439800
+
+
+
+                                                     REFSA S.A. - CUADRO TARIFARIO REFERENCIA
+                                      Para consumos efectuados a partir del 01/08/26 con demanda de Potencia < 10 KW
+                                                  Según Precios Nacionales para el Período Agosto 2026
+
+                                                                  T1-RS Uso Residencial
+                                    Tarifas       Tarifa RESIDENCIAL CON SUBSIDIO (B)           Unidad      Importe
+                                             Consumo Mensual Inferior o igual a 150 kWh
+                                   T.1-RS 1                    Cargo Fijo (Haya o no Consumo) [$/mes]       $ 1.799,90
+                                                                    Cargo Variable por Energía [$/kWh]     $ 105,2103
+                                             Consumo Mensual Superior a 150 kWh e Inferior o Igual a 300 kWh
+                                   T.1-RS 2                    Cargo Fijo (Haya o no Consumo) [$/mes]       $ 1.970,90
+                                                                    Cargo Variable por Energía [$/kWh]     $ 105,5995
+                                             Consumo Mensual Mayor a 300 kWh e Inferior o Igual a 500 kWh
+                                                               Cargo Fijo (Haya o no Consumo) [$/mes]       $ 2.699,86
+                                  T.1-RS 3-1
+                                                                   Primeros 300 kWh (0 a 300) [$/kWh]      $ 107,1562
+                                                                        Excedente de 300 kWh [$/kWh]       $ 210,2448
+                                             Consumo Mensual Mayor a 500 kWh e Inferior o Igual a 700 kWh
+                                                               Cargo Fijo (Haya o no Consumo) [$/mes]       $ 3.599,81
+                                  T.1-RS 3-2
+                                             Cargos Variables:     Primeros 300 kWh (0 a 300) [$/kWh]      $ 111,0477
+                                                                        Excedente de 300 kWh [$/kWh]       $ 214,1363
+                                             Consumo Mensual Mayor a 700 kWh e Inferior o Igual a 1400 kWh
+                                                               Cargo Fijo (Haya o no Consumo) [$/mes]       $ 5.399,71
+                                  T.1-RS 3-3
+                                             Cargo Variable        Primeros 300 kWh (0 a 300) [$/kWh]      $ 111,4369
+                                                                        Excedente de 300 kWh [$/kWh]       $ 214,5256
+                                             Consumo Mensual Mayor a 1400 kWh
+                                                               Cargo Fijo (Haya o no Consumo) [$/mes]       $ 6.299,66
+                                  T.1-RS 3-4
+                                             Cargo Variable        Primeros 300 kWh (0 a 300) [$/kWh]      $ 111,8260
+                                                                        Excedente de 300 kWh [$/kWh]       $ 214,9147
+
+
+
+
+ (B) USUARIO CON SUBSIDIO según RÉGIMEN DE SEGMENTACIÓN DE SUBSIDIOS establecido en el DECRETO NACIONAL N° 943/25, el,
+los topes de consumo subsidiado establecidos por la Resolución N° 13/2026 de la SECRETARÍA DE ENERGÍA DE LA NACIÓN y la información
+suministrada por el REGISTRO DE SUBSIDIOS ENERGÉTICOS FOCALIZADOS (RASEF) bajo la órbita de la SECRETARÍA DE ENERGÍA DE
+LA NACIÓN sobre la base de las declaraciones juradas presentadas unilateralmente por los usuarios del servicio.
+

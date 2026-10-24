@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuadros tarifarios eléctricos de Argentina</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Cuadros tarifarios eléctricos de Argentina</h1>
+  <p class="sub">Valores tomados de documentos oficiales (distribuidoras, entes reguladores, Boletín Oficial y Secretaría de Energía).
+    Si un valor no se pudo extraer y verificar, se deja <span class="empty">vacío</span>. Siempre revisá el documento original enlazado.</p>
+  <p class="meta" id="generado"></p>
+  <nav>
+    <button data-view="dist" class="active">Distribuidoras</button>
+    <button data-view="comp">Comparación</button>
+    <button data-view="hist">Historial</button>
+    <button data-view="about">Metodología</button>
+  </nav>
+</header>
+<main>
+  <section id="view-dist">
+    <div class="filters">
+      <select id="f-prov"><option value="">Todas las provincias</option></select>
+      <select id="f-estado">
+        <option value="">Todos los estados</option>
+        <option value="ok">Con valores extraídos</option>
+        <option value="documento">Solo documento oficial</option>
+        <option value="sin_datos">Sin fuente disponible</option>
+      </select>
+      <input id="f-q" type="search" placeholder="Buscar empresa o concepto (ej. EPEC, cargo fijo)">
+    </div>
+    <div id="summary" class="summary"></div>
+    <div id="list"></div>
+  </section>
+  <section id="view-comp" hidden>
+    <p class="note">Primer escalón residencial tal como figura en cada cuadro. Los valores <b>no se convierten</b>:
+      algunas distribuidoras facturan por mes y otras por bimestre, y cada una define sus escalones y subsidios. Ver la columna "Escalón / criterio".</p>
+    <div class="tablewrap"><table id="comp"></table></div>
+  </section>
+  <section id="view-hist" hidden>
+    <p class="note">Cada vez que cambia el documento oficial de una distribuidora (hash distinto) se registra una entrada.</p>
+    <div class="tablewrap"><table id="hist"></table></div>
+  </section>
+  <section id="view-about" hidden class="about">
+    <h2>Metodología</h2>
+    <ul>
+      <li>Un proceso automático (GitHub Actions, diario) busca el cuadro vigente de cada distribuidora en este orden: sitio de la distribuidora o ente regulador → URL conocida del último cuadro → archivo de la Secretaría de Energía de la Nación.</li>
+      <li>Se descarga el documento, se calcula su hash SHA-256 y se extrae el texto. Para un subconjunto de distribuidoras hay un extractor específico que transcribe las filas de la tarifa residencial (T1-R) sin hacer cálculos.</li>
+      <li>Los nombres de columnas solo se asignan cuando la cantidad de valores de la fila coincide exactamente con las columnas del cuadro. Si no, los valores se muestran en el orden del documento.</li>
+      <li>Los PDFs escaneados (sin texto) no se procesan con OCR: se enlaza el documento y los valores quedan vacíos.</li>
+      <li>Si una fuente falla, se mantiene el último documento verificado y se marca como "último intento fallido".</li>
+      <li>"Vigencia" es el texto literal del documento. Si el documento no la indica claramente, queda vacía.</li>
+    </ul>
+  </section>
+</main>
+<footer>Datos: documentos oficiales enlazados en cada ficha. Este sitio no es oficial.</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+                                        CUADRO                     Resolución N°198 SUSEPU 2026.
+                                                                   Para el período comprendido entre el 1° de mayo al
+                                        TARIFARIO                  31 de octubre 2026
+
+    VENTA DE ENERGÍA
+        ENPAD                     kWh/mes        3,75                     ENPAD                   kWh/mes       30,00
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+        Cargo Variable            $/kWh   $    587,0579           TDI-030 Cargo Variable          $/kWh   $    587,0579
+TDI-004
+        Tarifa Plena              $/mes   $ 37.381,8028            _220   Tarifa Plena            $/mes   $ 52.792,0730
+        Tarifa Usuario Final      $/Usu   $ 2.201,4672                    Tarifa Usuario Final    $/Usu   $ 17.611,7374
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+
+        ENPAD                     kWh/mes        7,50                     ENPAD                   kWh/mes       45,00
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+        Cargo Variable            $/kWh   $    587,0579           TDI-045 Cargo Variable          $/kWh   $    587,0579
+TDI-007
+        Tarifa Plena              $/mes   $ 39.583,2700            _220   Tarifa Plena            $/mes   $ 61.597,9417
+        Tarifa Usuario Final      $/Usu   $ 4.402,9344                    Tarifa Usuario Final    $/Usu   $ 26.417,6061
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+        ENPAD                     kWh/mes       11,25                     ENPAD                   kWh/mes       90,00
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+        Cargo Variable            $/kWh   $    587,0579           TDI-090 Cargo Variable          $/kWh   $    587,0579
+TDI-011
+        Tarifa Plena              $/mes   $ 41.784,7372            _220   Tarifa Plena            $/mes   $ 88.015,5478
+        Tarifa Usuario Final      $/Usu   $ 6.604,4015                    Tarifa Usuario Final    $/Usu   $ 52.835,2122
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+
+        ENPAD                     kWh/mes       15,00                     ENPAD                   kWh/mes      180,00
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+        Cargo Variable            $/kWh   $ 587,0579              TDI-180 Cargo Variable          $/kWh   $    587,0579
+TDI-015
+        Tarifa Plena              $/mes   $ 43.986,2043            _220   Tarifa Plena            $/mes   $ 14.850,7601
+        Tarifa Usuario Final      $/Usu   $ 8.805,8687                    Tarifa Usuario Final    $/Usu   $ 105.670,4244
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+
+        ENPAD                     kWh/mes       22,50                     ENPAD                   kWh/mes       225,00
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+TDI-022 Cargo Variable            $/kWh   $ 587,0579              TDI-225 Cargo Variable          $/kWh   $    587,0579
+ _220   Tarifa Plena              $/mes   $ 48.389,1387            _220   Tarifa Plena            $/mes   $167.268,3662
+        Tarifa Usuario Final      $/Usu   $ 13.208,8031                   Tarifa Usuario Final    $/Usu   $132.088,0305
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+
+        ENPAD                     kWh/mes       24,75                     ENPAD                   kWh/mes       262,50
+        Cargo Fijo                $/Usu   $ 35.180,3356                   Cargo Fijo              $/Usu   $ 35.180,3356
+TDI-025 Cargo Variable            $/kWh   $    587,0579           TDI-260 Cargo Variable          $/kWh   $    587,0579
+ _220   Tarifa Plena              $/mes   $ 49.710,019             _220   Tarifa Plena            $/mes   $189.283,0379
+        Tarifa Usuario Final      $/Usu   $ 14.529,6834                   Tarifa Usuario Final    $/Usu   $154.102,7023
+        Subsidio                  $/Usu   $ 35.180,3356                   Subsidio                $/Usu   $ 35.180,3356
+
+                          COSTOS DE INSTALACIÓN (CONEXIONES) Y TRASLADOS (VALORES SUSEPU)
+                          CATEGORÍA                                      ENPAD           CIT ($)
+                          TDI-007                                          7,50      $ 7.934,8944
+                          TDI-011                                         11,25      $ 7.934,8944
+                          TDI-015                                         15,00      $ 7.934,8944
+                          TDI-022_220                                     22,50      $ 778.100,8580
+                          TDI-025_220                                     24,75      $ 778.100,8580
+                          TDI-030_220                                     30,00      $ 778.100,8580
+                          TDI-045_220                                     45,00              -
+                          TDI-090_220                                     90,00              -
+                          TDI-180_220                                    180,00              -
+                          TDI-225_220                                    225,00              -
+                          TDI-260_220                                    262,50              -
+
+              SITIO WEB                  ASISTENTE VIRTUAL   WHATSAPP          LÍNEA TELEFÓNICA   NUEVO NÚMERO
+              ejsedsa.com.ar             VOLT                388 3344612       0800 888 0031
+

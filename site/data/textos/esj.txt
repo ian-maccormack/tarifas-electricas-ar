@@ -1,0 +1,197 @@
+                                                 Valores Tarifarios Máximos Subsidiados descontado el Aporte al Fondo PIEDE - Desde el
+                                                                  01/09/2026 hasta el 30/09/2026 - Dec PEN N° 943/25
+
+                                           De conformidad con lo establecido en el Contrato de Concesión y teniendo en cuenta los valores definidos en la Resolución E.P.R.E. Nº
+                                           080/2026, Energía San Juan S.A. informa los Valores Tarifarios Máximos aprobados por Resolución E.P.R.E. Nº -, de fecha -, para su aplicación
+                                           en la valoración de los consumos entre el 1 de septiembre de 2026 y el 30 de septiembre de 2026.
+
+
+
+
+                                                                     TARIFA N°1 - PEQUEÑAS DEMANDAS
+                                                                                                                            Uso Residencial
+                                                                       Unidad
+                                                                                        T1-R1            T1-R2                                          T1-R3
+                                                                                                                          Mayor a          Mayor a            Mayor a
+                                                                                                         Mayor a
+                                                                                                                         580 kWh y       1000 kWh y         1400 kWh y          Mayor a
+Consumo bimestral                                                                   Hasta 220 kWh       220 kWh y
+                                                                                                                           hasta            hasta              hasta           2800 kWh
+                                                                                                      hasta 580 kWh
+                                                                                                                         1000 kWh         1400 kWh           2800 kWh
+Cargo fijo (haya o no consumo)                                        $/bimestre       4557.54          15737.24         23463.07            23463.07           23463.07       23463.07
+                                                   Sin SEN
+Cargo variable por energía                                              $/kWh         224.7631          205.7865         204.7263            204.7263           204.7263       204.7263
+Cargo fijo (haya o no consumo)               Con SEN - Consumo        $/bimestre       3998.38          13802.37         21297.62            21297.62           21297.62       21297.62
+Cargo variable por energía                         Base                 $/kWh         123.4253          107.5356         106.6479            106.6479           106.6479       106.6479
+                                                                                                            Uso General                                           Alumbrado Público
+                                                                       Unidad
+                                                                                        T1-G1            T1-G2                       T1-G3                             T1-AP
+                                                                                                                         Mayor a
+                                                                                                         Mayor a
+                                                                                                                        580 kWh y        Mayor o igual
+Consumo bimestral                                                                   Hasta 240 kWh       240 kWh y                                                  Todos los consumos
+                                                                                                                        menor que        a 4000 kWh
+                                                                                                      hasta 580 kWh
+                                                                                                                        4000 kWh
+Cargo fijo (haya o no consumo)                                        $/bimestre       3066.52          23074.20         59993.40            59993.40                  28699.82
+Cargo variable por energía                                              $/kWh         277.6113          239.4108         223.2259            223.2259                  261.4723
+                                                                     TARIFA N°2 - MEDIANAS DEMANDAS
+                                                                       Unidad                    SMP                               CMP
+                                                                                             Desde 10 kW                       Desde 20 kW
+Demanda máxima contratada
+                                                                                           y menor a 20 kW                   y menor a 50 kW
+Cargo fijo (haya o no consumo)                                          $/mes                 115977.79                          72314.83
+Por capacidad de suministro contratada                                $/kW-mes                     -                            22867.565
+Cargo variable por energía                                              $/kWh                  264.9631                          195.7255
+                                                                      TARIFA N°3 - GRANDES DEMANDAS
+                                                                        Unidad                            BT            MT 13,2 R        MT 13,2 B            MT 33                AT
+Cargo fijo (haya o no consumo)                                           $/mes                         206912.86        457016.63        457016.63          457016.63          457016.63
+Por máxima capacidad de suministro contratada                         $/kW-mes                         21029.360        10959.596         5842.313           4322.105           3301.086
+Por consumo de energía y potencia
+   Potencias menores a 300 kW-mes
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          8483.329        11304.943         10919.460         10872.559          10453.785
+       En horas de punta                                                $/kWh                           157.9653         142.4999          139.2069          138.8110           135.1750
+       En horas de valle nocturno                                       $/kWh                           152.1565         137.2598          134.0879          133.7066           130.2043
+       En horas restantes                                               $/kWh                           153.2696         138.2639          135.0688          134.6847           131.1568
+   Potencias mayores o iguales a 300 kW-mes
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          8483.329        11304.943         10919.460         10872.559          10453.785
+       En horas de punta                                                $/kWh                           178.5864         161.1022          157.3793          156.9317           152.8211
+       En horas de valle nocturno                                       $/kWh                           171.8758         155.0485          151.4655          151.0347           147.0786
+       En horas restantes                                               $/kWh                           173.1618         156.2087          152.5989          152.1649           148.1791
+   Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          8483.329        11304.943         10919.460         10872.559          10453.785
+       En horas de punta                                                $/kWh                           178.5864         161.1022          157.3793          156.9317           152.8211
+       En horas de valle nocturno                                       $/kWh                           171.8758         155.0485          151.4655          151.0347           147.0786
+       En horas restantes                                               $/kWh                           173.1618         156.2087          152.5989          152.1649           148.1791
+                                                                       TARIFA N°4 - SERVICIO DE PEAJE
+                                                                        Unidad           CMP              BT            MT 13,2 R        MT 13,2 B            MT 33                AT
+Cargo fijo (haya o no consumo)                                           $/mes         72314.83        206912.86        457016.63        457016.63          457016.63          457016.63
+Por máxima capacidad de suministro contratada                         $/kW-mes        24884.046        21029.360        10959.596         5842.313           4322.105           3301.086
+Cargo variable por energía                                              $/kWh           24.9205            -                -                -                  -                   -
+Por consumo de energía y potencia
+   Potencias menores a 300 kW-mes
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          2754.452         2458.857            2073.373           2026.473       1607.699
+       En horas de punta                                                $/kWh              -             25.5563          10.0909             6.7979             6.4020         2.7660
+       En horas de valle nocturno                                       $/kWh              -             24.6165           9.7198             6.5479             6.1666         2.6643
+       En horas restantes                                               $/kWh              -             24.7966           9.7909             6.5958             6.2117         2.6838
+   Potencias mayores o iguales a 300 kW-mes
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          2754.452         2458.857            2073.373           2026.473       1607.699
+       En horas de punta                                                $/kWh              -             28.8924          11.4082             7.6853             7.2377         3.1271
+       En horas de valle nocturno                                       $/kWh              -             27.8068          10.9795             7.3965             6.9657         3.0096
+       En horas restantes                                               $/kWh              -             28.0148          11.0617             7.4519             7.0179         3.0321
+   Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes                          2754.452         2458.857            2073.373           2026.473       1607.699
+       En horas de punta                                                $/kWh                            28.8924          11.4082             7.6853             7.2377         3.1271
+       En horas de valle nocturno                                       $/kWh                            27.8068          10.9795             7.3965             6.9657         3.0096
+       En horas restantes                                               $/kWh                            28.0148          11.0617             7.4519             7.0179         3.0321
+
+                                         TARIFA RA - RIEGO AGRICOLA                                                                     CONEXIONES DOMICILIARIAS
+
+                                                                                     RSD - Sin         RCD - Con            Tipo                            Comunes            Especiales
+                                                                       Unidad
+                                                                                    diferimiento      diferimiento       Aéreas monofásicas                $ 25,330.53        $ 66,505.86
+Cargo fijo (haya o no consumo)                                           $/mes        85232.03          121179.86        Subterráneas monofásicas          $ 78,267.34        $ 213,978.22
+Por máxima capacidad de suministro contratada                         $/kW-mes        9787.495          11078.608        Aéreas trifásicas                 $ 47,953.76        $ 117,183.20
+Por consumo de energía y potencia                                                                                        Subterráneas trifásicas           $ 120,334.25       $ 221,220.75
+   Potencias menores a 300 kW-mes
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes        12206.233        12206.233
+       En horas de punta                                                $/kWh          150.5358         150.5358
+       En horas de valle nocturno                                       $/kWh         145.0002         145.0002
+                                                                                                                                        SERVICIO DE REHABILITACION
+       En horas restantes                                               $/kWh         146.0610         146.0610
+   Potencias mayores o iguales a 300 kW-mes                                                                                           Tipo de suministro                       Importe
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes        12206.233        12206.233         Tarifa N°1 - Uso Residencial                         $ 2,080.34
+       En horas de punta                                                $/kWh          170.1871         170.1871         Tarifa N°1 - Uso General y AP                        $ 12,583.84
+       En horas de valle nocturno                                       $/kWh          163.7921         163.7921         Tarifa N°2, 3 y 4                                    $ 33,289.57
+       En horas restantes                                               $/kWh          165.0176         165.0176
+   Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación
+       Por capacidad de suministro contratada en horas de punta       $/kW-mes        12206.233        12206.233
+       En horas de punta                                                $/kWh          170.1871         170.1871
+       En horas de valle nocturno                                       $/kWh          163.7921         163.7921
+       En horas restantes                                               $/kWh          165.0176         165.0176
+
+ENERGIA REACTIVA: Tarifas N°2 y N°3: Recargo por cada centésimo de Tg fi en exceso del 62%: 1.5%
+
+                                                                                                                                                                                9/9/2026
+                                                            VALORES VIGENTES DESDE EL 01/09/2026 HASTA EL 30/09/2026
+
+
+                                                 Valores Tarifarios a Reconocer al Usuario Generador por la
+                                                                      Energía Inyectada
+
+                                                                 TARIFA N°1 - PEQUEÑAS DEMANDAS
+                                                                                                                   Uso Residencial
+                                                                  Unidad
+                                                                                 T1-R1           T1-R2                                 T1-R3
+                                                                                                               Mayor a           Mayor a         Mayor a
+                                                                                                 Mayor a
+                                                                                                              580 kWh y        1000 kWh y      1400 kWh y       Mayor a
+Consumo bimestral                                                             Hasta 220 kWh     220 kWh y
+                                                                                                                hasta             hasta           hasta        2800 kWh
+                                                                                              hasta 580 kWh
+                                                                                                              1000 kWh          1400 kWh        2800 kWh
+Cargo fijo (haya o no consumo)                                   $/bimestre      0.0000         0.0000         0.0000           0.0000          0.0000          0.0000
+Cargo variable por energía                                         $/kWh        128.9967       128.9967       128.9967         128.9967        128.9967        128.9967
+
+                                                                                                     Uso General                                 Alumbrado Público
+                                                                  Unidad
+                                                                                 T1-G1           T1-G2                 T1-G3                          T1-AP
+                                                                                                               Mayor a
+                                                                                                 Mayor a
+                                                                                                              580 kWh y     Mayor o igual
+Consumo bimestral                                                             Hasta 240 kWh     240 kWh y                                          Todos los consumos
+                                                                                                              menor que     a 4000 kWh
+                                                                                              hasta 580 kWh
+                                                                                                              4000 kWh
+Cargo fijo (haya o no consumo)                                   $/bimestre      0.0000         0.0000         0.0000           0.0000                  0.0000
+Cargo variable por energía                                         $/kWh        154.1045       154.1045       154.1045         154.1045                154.0506
+                                                                 TARIFA N°2 - MEDIANAS DEMANDAS
+                                                                  Unidad                SMP                             CMP
+                                                                                     Desde 10 kW                     Desde 20 kW
+Demanda máxima contratada
+                                                                                   y menor a 20 kW                 y menor a 50 kW
+Cargo fijo (haya o no consumo)                                     $/mes               0.0000                          0.0000
+Por capacidad de suministro contratada                           $/kW-mes                 -                            0.0000
+Cargo variable por energía                                         $/kWh              154.0372                        154.0356
+                                                                 TARIFA N°3 - GRANDES DEMANDAS
+                                                                  Unidad                           BT        MT 13,2 R       MT 13,2 B          MT 33             AT
+Cargo fijo (haya o no consumo)                              Desde 10
+                                                                   $/mes
+                                                                     kW                       y menor a 20 kW 0.0000
+                                                                                                 0.0000                       0.0000            0.0000          0.0000
+Por máxima capacidad de suministro contratada                    $/kW-mes                        0.0000       0.0000          0.0000            0.0000          0.0000
+Por consumo de energía y potencia
+   Potencias menores a 300 kW-mes
+      Por capacidad de suministro contratada en horas de punta   $/kW-mes                        0.0000        0.0000           0.0000          0.0000          0.0000
+      En horas de punta                                            $/kWh                        157.9653      142.4999         139.2069        138.8110        135.1750
+      En horas de valle nocturno                                   $/kWh                        152.1565      137.2598         134.0879        133.7066        130.2043
+      En horas restantes                                           $/kWh                        153.2696      138.2639         135.0688        134.6847        131.1568
+   Potencias mayores o iguales a 300 kW-mes
+      Por capacidad de suministro contratada en horas de punta   $/kW-mes                        0.0000        0.0000           0.0000          0.0000          0.0000
+      En horas de punta                                            $/kWh                        178.5864      161.1022         157.3793        156.9317        152.8211
+      En horas de valle nocturno                                   $/kWh                        171.8758      155.0485         151.4655        151.0347        147.0786
+      En horas restantes                                           $/kWh                        173.1618      156.2087         152.5989        152.1649        148.1791
+                                     TARIFA RA - RIEGO AGRICOLA
+                                                                               RSD - Sin    RCD - Con
+                                                                  Unidad
+                                                                              diferimiento diferimiento
+Cargo fijo (haya o no consumo)                                     $/mes         0.0000       0.0000
+Por máxima capacidad de suministro contratada                    $/kW-mes        0.0000       0.0000
+Por consumo de energía y potencia
+   Potencias menores a 300 kW-mes
+      Por capacidad de suministro contratada en horas de punta   $/kW-mes        0.0000          0.0000
+      En horas de punta                                            $/kWh        150.5358        150.5358
+      En horas de valle nocturno                                   $/kWh        145.0002        145.0002
+      En horas restantes                                           $/kWh        146.0610        146.0610
+   Potencias mayores o iguales a 300 kW-mes
+      Por capacidad de suministro contratada en horas de punta   $/kW-mes        0.0000          0.0000
+      En horas de punta                                            $/kWh        170.1871        170.1871
+      En horas de valle nocturno                                   $/kWh        163.7921        163.7921
+      En horas restantes                                           $/kWh        165.0176        165.0176
+
+
+
+
+                                                                                                                                                                  9/9/2026
+

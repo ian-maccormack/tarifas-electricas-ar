@@ -1,0 +1,241 @@
+                                                                          EDESE S.A.
+ Según lo establecido en el Capítulo N°5 del Régimen Tarifario incluído en el Contrato de Concesión, la empresa distribuidora Edese SA, informa a sus
+clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1 de OCTUBRE del 2026. SIN SUBSIDIO.
+ Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
+oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
+
+CUADRO TARIFARIO (Resol.Enrese N°                      / 2026)
+
+Categoria tarifaria                                              Unidad       Importe      Categoria tarifaria                             Unidad                 Importe
+
+Tarifa N° 1 (Pequeñas Demandas < 10 kW)                                                   Media Tensión con 50 kW < Pot < 300 kW
+T1 R Residencial                                                                          T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes             20,606.34
+T1 R1 Consumo Bimestral inferior o igual a 300 kWh                                        T3-MT Cargo por Cap.de Sum.Cont. Fuera de Punta$/kW-mes              6,652.43
+     Cargo fijo                                      $/bim      4383.42                   T3-MT Cargo Variable por Energía en hs.Pico      $/kWh               153.098
+     Cargo variable por energía                      $/kWh      218.149                   T3-MT Cargo Variable por Energía en hs.Restantes $/kWh               148.878
+T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh                          T3-MT Cargo Variable por Energía en hs.Valle     $/kWh               147.878
+     Cargo fijo                                      $/bim      17832.72
+     Cargo variable por energía                      $/kWh      173.318                    Media Tensión con Pot > ó = 300 kW
+T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh                           T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes            20,606.34
+     Cargo fijo                                      $/bim      31742.24                   T3-MT Cargo por Cap.de Sum.Cont. Fuera de Punta$/kW-mes             6,652.43
+     Cargo variable por energía                      $/kWh      173.348                    T3-MT Cargo Variable por Energía en hs.Pico      $/kWh              171.553
+T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh                           T3-MT Cargo Variable por Energía en hs.Restantes $/kWh              166.679
+     Cargo fijo                                      $/bim      42798.53                   T3-MT Cargo Variable por Energía en hs.Valle     $/kWh              165.523
+     Cargo variable por energía                      $/kWh      173.398
+T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh
+     Cargo fijo                                      $/bim      65981.06                   Tarifa N°4 (Demandas Estacionales) < 300 kW
+     Cargo variable por energía                      $/kWh      173.448
+T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh                              Por capacidad de suministro contratada    $/kW-mes            30,897.22
+     Cargo fijo                                      $/bim      69190.95                        Cargo variable por energía                  $/kWh              257.368
+     Cargo variable por energía                      $/kWh      173.478
+T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh
+     Cargo fijo                                      $/bim      90946.87                   Régimen de Peaje Baja Tensión con 50 kW <P< 300 kW
+     Cargo variable por energía                      $/kWh      173.708                    Peaje BT-Cargo por Cap.de transp.en Punta       $/kW-mes           34,692.62
+T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh                         Peaje BT-Cargo por Cap.de transp.en F de Punta $/kW-mes            15,551.06
+     Cargo fijo                                      $/bim     115912.68                   Peaje BT Cargo V. de E.de Transp. en hs.Pico      $/kWh             18.280
+     Cargo variable por energía                      $/kWh      174.078                    Peaje BT Cargo V. de E.por Transp. en hs.Resto    $/kWh             17.776
+T1 R2 Consumo Bimestral mayor 2800 kWh                                                     Peaje BT Cargo V. De E. por Transp. en hs.Valle   $/kWh             17.657
+     Cargo fijo                                      $/bim     152469.76
+     Cargo variable por energía                      $/kWh      174.328
+                                                                                           Régimen de Peaje Media Tensión con 50 kW <P< 300 kW
+T1 G Uso General                                                                           Peaje MT-Cargo por Cap.de transp.en Punta      $/kW-mes            20,606.34
+T1 G1 Consumo Bimestral inferior o igual a 1600 kWh                                        Peaje MT-Cargo por Cap.de transp.en F de Punta $/kW-mes             6,652.43
+    Cargo fijo                                       $/bim       9400.30                   Peaje MT Cargo V. De E. por Transp. en hs.Pico   $/kWh               10.283
+    Cargo variable por energía                       $/kWh       406.887                   Peaje MT Cargo V. De E. por Transp. en hs.Resto $/kWh                9.999
+T1 G2 Consumo Bimestral mayor a 1600 kWh e inferior o igual a 4000 kWh                     Peaje MT Cargo V. De E. por Transp. en hs.Valle $/kWh                9.932
+    Cargo fijo                                       $/bim      146087.80
+    Cargo variable por energía                       $/kWh       321.457
+T1 G3 Consumo Bimestral mayor a 4000 kWh                                                  Régimen de Peaje Media Tensión con P> 300 kW
+    Cargo fijo                                       $/bim      499312.56                 Peaje MT-Cargo por Cap.de transp.en Punta      $/kW-mes             20,606.34
+    Cargo variable por energía                       $/kWh       233.151                  Peaje MT-Cargo por Cap.de transp.en F de Punta $/kW-mes              6,652.43
+                                                                                          Peaje MT Cargo V. De E. por Transp. en hs.Pico   $/kWh                11.522
+T1-A.P. Alumbrado Público                                                                 Peaje MT Cargo V. De E. por Transp. en hs.Resto $/kWh                 11.195
+    Cargo variable por energía                                   $/kWh        510.119     Peaje MT Cargo V. De E. por Transp. en hs.Valle $/kWh                 11.117
+
+Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)
+     Por capacidad de suministro contratada         $/kw-mes                 30,897.22 Por la energía reactiva
+     Cargo variable por energía                       $/kwh                   257.368 Rec por c/ centésimo de Tg fi > de 0,62 por la energía reactiva inductiva
+
+                                                                                       Servicio de Rehabilitación
+Tarifa N°3 (Grandes Demandas)                                                          Por cada servicio interrumpido por falta de pago :
+                                                                                            Tarifa N°1 Uso Residencial                 $/Serv.                 6,591.99
+Baja Tensión con 50 kW < Pot < 300 kW                                                       Tarifa N°1 Uso General y Alumbrado         $/Serv.                 48,297.9
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                      $/kW-mes      34,692.62      Tarifa N°2 y 3                             $/Serv.                119,391.8
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                $/kW-mes      15,551.06
+T3-BT Cargo Variable por Energía en hs.Pico                      $/kWh        161.096 Conexiones Domiciliarias
+T3-BT Cargo Variable por Energía en hs.Restantes                 $/kWh        156.655 Conexiones Comunes:
+T3-BT Cargo Variable por Energía en hs.Valle                     $/kWh        155.603       Aéreas Monofásicas                        $/Cliente                80,291.2
+                                                                                            Subterráneas Monofásicas                  $/Cliente               248,096.4
+Baja Tensión con Pot > ó = 300 kW                                                           Aéreas Trifásicas                         $/Cliente               237,039.7
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                      $/kW-mes      34,692.62      Subterráneas Trifásicas                   $/Cliente               381,457.5
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                $/kW-mes      15,551.06 Conexiones especiales:
+T3-BT Cargo Variable por Energía en hs.Pico                      $/kWh        180.515       Aéreas Monofásicas                        $/Cliente               210,820.1
+T3-BT Cargo Variable por Energía en hs.Restantes                 $/kWh        175.386       Subterráneas Monofásicas                  $/Cliente               678,295.1
+T3-BT Cargo Variable por Energía en hs.Valle                     $/kWh        174.170       Aéreas Trifásicas                         $/Cliente               371,464.4
+                                                                                            Subterráneas Trifásicas                   $/Cliente               701,261.9
+   Los precios indicados no incluyen el Impuesto al Valor Agregado ni demás Tributos e Impuestos establecidos en la legislación vigente
+                                                                          EDESE S.A.
+ Según lo establecido en el Capítulo N°5 del Régimen Tarifario incluído en el Contrato de Concesión, la empresa distribuidora Edese SA, informa a sus
+clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1 de OCTUBRE del 2026. CLIENTES CON SUBSIDIO.
+ Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
+oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
+
+CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+
+Categoria tarifaria                                             Unidad        Importe      Categoria tarifaria                            Unidad   Importe
+
+Tarifa N° 1 (Pequeñas Demandas < 10 kW)
+T1 R Residencial
+T1 R1 Consumo Bimestral inferior o igual a 300 kWh
+     Cargo fijo                                      $/bim      4383.42
+     Cargo variable por energía                      $/kWh      110.098
+T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh
+     Cargo fijo                                      $/bim      17832.72
+     Cargo variable por energía                      $/kWh       78.244
+T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh
+     Cargo fijo                                      $/bim      31742.24
+     Cargo variable por energía                      $/kWh       78.274
+T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh
+     Cargo fijo                                      $/bim      42798.53
+     Cargo variable por energía                      $/kWh       78.324
+T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh
+     Cargo fijo                                      $/bim      65981.06
+     Cargo variable por energía                      $/kWh       78.374
+T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh
+     Cargo fijo                                      $/bim      69190.95
+     Cargo variable por energía                      $/kWh       78.404
+T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh
+     Cargo fijo                                      $/bim      90946.87
+     Cargo variable por energía                      $/kWh       78.634
+T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh
+     Cargo fijo                                      $/bim     115912.68
+     Cargo variable por energía                      $/kWh       79.004
+T1 R2 Consumo Bimestral mayor 2800 kWh
+     Cargo fijo                                      $/bim     152469.76
+     Cargo variable por energía                      $/kWh       79.254
+
+
+
+
+   Los precios indicados no incluyen el Impuesto al Valor Agregado ni demás Tributos e Impuestos establecidos en la legislación vigente
+                                                                          EDESE S.A.
+ Según lo establecido en el Capítulo N°5 del Régimen Tarifario incluído en el Contrato de Concesión, la empresa distribuidora Edese SA, informa a sus
+clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1 de OCTUBRE del 2026. CLIENTES ELECTRO DEPENDIENTES.
+ Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
+oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
+
+CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+
+Categoria tarifaria                                             Unidad        Importe
+
+Tarifa N° 1 (Pequeñas Demandas < 10 kW)
+T1 R Residencial
+T1 R1 Consumo Bimestral inferior o igual a 300 kWh
+     Cargo fijo                                      $/bim      4383.42
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh
+     Cargo fijo                                      $/bim      17832.72
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh
+     Cargo fijo                                      $/bim      31742.24
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh
+     Cargo fijo                                      $/bim      42798.53
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh
+     Cargo fijo                                      $/bim      65981.06
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh
+     Cargo fijo                                      $/bim      69190.95
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh
+     Cargo fijo                                      $/bim      90946.87
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh
+     Cargo fijo                                      $/bim     115912.68
+     Cargo variable por energía                      $/kWh        0.00
+T1 R2 Consumo Bimestral mayor 2800 kWh
+     Cargo fijo                                      $/bim     152469.76
+     Cargo variable por energía                      $/kWh        0.00
+
+
+
+
+   Los precios indicados no incluyen el Impuesto al Valor Agregado ni demás Tributos e Impuestos establecidos en la legislación vigente
+                                                                           EDESE S.A.
+ Según lo establecido en el Capítulo N°5 del Régimen Tarifario incluído en el Contrato de Concesión, la empresa distribuidora Edese SA, informa a sus
+clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1 de OCTUBRE del 2026, para usuarios alcanzados por Res ENRESE 20/17.
+ Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
+oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
+
+CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+
+Categoria tarifaria                                              Unidad       Importe      Categoria tarifaria                             Unidad    Importe
+
+Tarifa N° 1 (Pequeñas Demandas < 10 kW)                                                   Media Tensión con 50 kW < Pot < 300 kW
+T1 R Residencial                                                                          T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes    20,606.34
+T1 R1 Consumo Bimestral inferior o igual a 300 kWh                                        T3-MT Cargo por Cap.de Sum.Cont. Fuera de Punta$/kW-mes     6,652.43
+     Cargo fijo                                      $/bim      4383.42                   T3-MT Cargo Variable por Energía en hs.Pico      $/kWh       50.639
+     Cargo variable por energía                      $/kWh      110.098                   T3-MT Cargo Variable por Energía en hs.Restantes $/kWh       49.790
+T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh                          T3-MT Cargo Variable por Energía en hs.Valle     $/kWh       49.589
+     Cargo fijo                                      $/bim      17832.72
+     Cargo variable por energía                      $/kWh       78.244                    Media Tensión con Pot > ó = 300 kW
+T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh                           T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes   20,606.34
+     Cargo fijo                                      $/bim      31742.24                   T3-MT Cargo por Cap.de Sum.Cont. Fuera de Punta$/kW-mes    6,652.43
+     Cargo variable por energía                      $/kWh       78.274                    T3-MT Cargo Variable por Energía en hs.Pico      $/kWh      50.631
+T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh                           T3-MT Cargo Variable por Energía en hs.Restantes $/kWh      49.782
+     Cargo fijo                                      $/bim      42798.53                   T3-MT Cargo Variable por Energía en hs.Valle     $/kWh      49.581
+     Cargo variable por energía                      $/kWh       78.324
+T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh
+     Cargo fijo                                      $/bim      65981.06                   Tarifa N°4 (Demandas Estacionales) < 300 kW
+     Cargo variable por energía                      $/kWh       78.374
+T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh                              Por capacidad de suministro contratada    $/kW-mes   30,897.22
+     Cargo fijo                                      $/bim      69190.95                        Cargo variable por energía                  $/kWh     151.165
+     Cargo variable por energía                      $/kWh       78.404
+T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh
+     Cargo fijo                                      $/bim      90946.87
+     Cargo variable por energía                      $/kWh       78.634
+T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh
+     Cargo fijo                                      $/bim      94625.90
+     Cargo variable por energía                      $/kWh       79.004
+T1 R2 Consumo Bimestral mayor 2800 kWh
+     Cargo fijo                                      $/bim     152469.76
+     Cargo variable por energía                      $/kWh       79.254
+
+T1 G Uso General
+T1 G1 Consumo Bimestral inferior o igual a 1600 kWh
+    Cargo fijo                                       $/bim       9400.30
+    Cargo variable por energía                       $/kWh       274.864
+T1 G2 Consumo Bimestral mayor a 1600 kWh e inferior o igual a 4000 kWh
+    Cargo fijo                                       $/bim      146087.80
+    Cargo variable por energía                       $/kWh       198.306
+T1 G3 Consumo Bimestral mayor a 4000 kWh
+    Cargo fijo                                       $/bim      499312.56
+    Cargo variable por energía                       $/kWh       115.568
+
+
+
+
+Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)
+     Por capacidad de suministro contratada         $/kw-mes                  30897.22
+     Cargo variable por energía                       $/kwh                   151.165
+
+
+Tarifa N°3 (Grandes Demandas)
+
+Baja Tensión con 50 kW < Pot < 300 kW
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                       $/kW-mes      34692.62
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                 $/kW-mes      15551.06
+T3-BT Cargo Variable por Energía en hs.Pico                       $/kWh        53.285
+T3-BT Cargo Variable por Energía en hs.Restantes                  $/kWh        52.391
+T3-BT Cargo Variable por Energía en hs.Valle                      $/kWh        52.179
+
+Baja Tensión con Pot > ó = 300 kW
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                       $/kW-mes      34692.62
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                 $/kW-mes      15551.06
+T3-BT Cargo Variable por Energía en hs.Pico                       $/kWh        53.276
+T3-BT Cargo Variable por Energía en hs.Restantes                  $/kWh        52.383
+T3-BT Cargo Variable por Energía en hs.Valle                      $/kWh        52.171
+
+   Los precios indicados no incluyen el Impuesto al Valor Agregado ni demás Tributos e Impuestos establecidos en la legislación vigente
+

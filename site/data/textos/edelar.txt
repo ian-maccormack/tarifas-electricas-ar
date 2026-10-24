@@ -1,0 +1,318 @@
+                                                                                                                          EDELAR S.A. - CUADRO TARIFARIO DE APLICACIÓN A LOS USUARIOS
+                                                                                                                                                  ABRIL 2026
+                                                                                                                              RESOLUCION EUCOP Nº 001 ACTA 028 - FECHA: 14-04-2026
+
+PEQUEÑAS DEMANDAS                                                                                                                                                       Tarifa Residencial
+                                                                                      T1-R1-NS                                          T1-R1-ZM                                      T1-R1-ZC                                         T1-R1-ZR                    T1-AP
+                                              Tipo usuario                           Sin Subsidio                                    Zona Muy Calida                                      Zona Calida                                 Zona Resto
+                                                                                                                                                                                                                                                              Alumbrado Público
+                                                                                 menor a 200 kWh/mes                              menor a 200 kWh/mes                              menor a 200 kWh/mes                        menor a 200 kWh/mes                 sin límite
+                 Concepto                       Unidad
+Cargo Fijo s/ cmo de energía                    $/mes
+                                                                                       2124,71                                           2124,71                                             2124,71                                     2124,71                    0,00
+Cargo Fijo c/ cmo de energía                    $/mes
+                                                                                                               Primeros 150 kWh                        176,9956        Primeros 150 kWh                 176,9956   Primeros 150 kWh                176,9956
+Cargo Variable                                   $/kWh                                176,9956                                                                                                                                                                    113,7770
+                                                                                                               entre 150 y 200 KWh                     176,9956        entre 150 y 200 KWh              176,9956   entre 150 y 200 KWh             176,9956
+                                                                                                               Primeros 150 kWh                        -87,9650        Primeros 150 kWh                 -87,9650   Primeros 150 kWh                -87,9650
+Subsidio Estado Nacional                         $/kWh                                 0,0000                                                                                                                                                                      0,0000
+                                                                                                               entre 150 y 200 KWh                      0,0000         entre 150 y 200 KWh               0,0000    entre 150 y 200 KWh              0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                                  0,00                                              0,00                                                0,00                                        0,00                      0,00
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                                  0,00                                              0,00                                                0,00                                        0,00                      0,00
+                                                                                                               Primeros 150 kWh                        -13,3546        Primeros 150 kWh                 -13,3546   Primeros 150 kWh                -13,3546
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh                                 0,0000                                                                                                                                                                      0,0000
+                                                                                                               entre 150 y 200 KWh                     -26,5493        entre 150 y 200 KWh              -26,5493   entre 150 y 200 KWh             -26,5493
+
+
+
+
+PEQUEÑAS DEMANDAS                                                                                                                                      Tarifa Residencial
+                                                                                      T1-R2-NS                                          T1-R2-ZM                                           T1-R2-ZC                                    T1-R2-ZR
+                                              Tipo usuario                           Sin Subsidio                                    Zona Muy Calida                                      Zona Calida                                 Zona Resto
+                                                                            entre 200 y 430 kWh/mes                             entre 200 y 430 kWh/mes                          entre 200 y 430 kWh/mes                     entre 200 y 430 kWh/mes
+                 Concepto                       Unidad
+Cargo Fijo s/ cmo de energía                    $/mes
+                                                                                       2124,71                                           2124,71                                             2124,71                                     2124,71
+Cargo Fijo c/ cmo de energía                    $/mes
+                                                             Primeros 200 kWh                       176,9956   Primeros 150 kWh                        176,9956        Primeros 150 kWh                 176,9956   Primeros 150 kWh                176,9956
+Cargo Variable                                   $/kWh                                                         entre 150 y 200 KWh                     176,9956        entre 150 y 200 KWh              176,9956   entre 150 y 200 KWh             176,9956
+                                                             Siguientes     kWh                     125,4670
+                                                                                                               entre 200 y 430 KWh                     125,4670        entre 200 y 430 KWh              125,4670   entre 200 y 430 KWh             125,4670
+                                                             Primeros 200 kWh                        0,0000    Primeros 150 kWh                        -87,9650        Primeros 150 kWh                 -87,9650   Primeros 150 kWh                -87,9650
+Subsidio Estado Nacional                         $/kWh                                                         entre 150 y 200 KWh                      0,0000         entre 150 y 200 KWh               0,0000    entre 150 y 200 KWh              0,0000
+                                                             Siguientes     kWh                      0,0000
+                                                                                                               entre 200 y 430 KWh                      0,0000         entre 200 y 430 KWh               0,0000    entre 200 y 430 KWh              0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                                  0,00                                              0,00                                                0,00                                        0,00
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                                  0,00                                              0,00                                                0,00                                        0,00
+                                                             Primeros 200 kWh                        0,0000    Primeros 150 kWh                        -13,3546        Primeros 150 kWh                 -13,3546   Primeros 150 kWh                -13,3546
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh                                                         entre 150 y 200 KWh                     -26,5493        entre 150 y 200 KWh              -26,5493   entre 150 y 200 KWh             -26,5493
+                                                             Siguientes     kWh                      0,0000
+                                                                                                               entre 200 y 430 KWh                     -12,5467        entre 200 y 430 KWh              -12,5467   entre 200 y 430 KWh             -12,5467
+
+
+
+
+PEQUEÑAS DEMANDAS                                                                                                                                      Tarifa Residencial
+                                                                                      T1-R3-NS                                          T1-R3-ZM                                           T1-R3-ZC                                    T1-R3-ZR
+                                              Tipo usuario                           Sin Subsidio                                    Zona Muy Calida                                      Zona Calida                                 Zona Resto
+                                                                                   mayor a 430 kWh                                   mayor a 430 kWh                                    mayor a 430 kWh                             mayor a 430 kWh
+                 Concepto                       Unidad
+Cargo Fijo s/ cmo de energía                    $/mes
+                                                                                       2124,71                                           2124,71                                             2124,71                                     2124,71
+Cargo Fijo c/ cmo de energía                    $/mes
+                                                             Primeros 200 kWh                       176,9956   Primeros 150 kWh                        176,9956        Primeros 150 kWh                 176,9956   Primeros 150 kWh                176,9956
+                                                             entre 200 y 430 KWh                    125,4670   entre 150 y 200 KWh                     176,9956        entre 150 y 200 KWh              176,9956   entre 150 y 200 KWh             176,9956
+Cargo Variable                                   $/kWh
+                                                                                                               entre 200 y 430 KWh                     125,4670        entre 200 y 430 KWh              125,4670   entre 200 y 430 KWh             125,4670
+                                                               siguientes 430 KWh                   197,8549
+                                                                                                               Siguientes kWh                          197,8549        Siguientes kWh                   197,8549   Siguientes kWh                  197,8549
+                                                             Primeros 200 kWh                        0,0000    Primeros 150 kWh                        -87,9650        Primeros 150 kWh                 -87,9650   Primeros 150 kWh                -87,9650
+                                                             entre 200 y 430 KWh                     0,0000    entre 150 y 200 KWh                      0,0000         entre 150 y 200 KWh               0,0000    entre 150 y 200 KWh              0,0000
+Subsidio Estado Nacional                         $/kWh
+                                                                                                               entre 200 y 430 KWh                      0,0000         entre 200 y 430 KWh               0,0000    entre 200 y 430 KWh              0,0000
+                                                               siguientes 430 KWh                    0,0000
+                                                                                                               Siguientes kWh                           0,0000         Siguientes kWh                    0,0000    Siguientes kWh                   0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                    0,00                        0,00                                0,00                                                0,00                                        0,00
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                    0,00                        0,00                                0,00                                                0,00                                        0,00
+                                                             Primeros 200 kWh                        0,0000    Primeros 150 kWh                        -13,3546        Primeros 150 kWh                 -13,3546   Primeros 150 kWh                -13,3546
+                                                             entre 200 y 430 KWh                     0,0000    entre 150 y 200 KWh                     -26,5493        entre 150 y 200 KWh              -26,5493   entre 150 y 200 KWh             -26,5493
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh
+                                                                                                               entre 200 y 430 KWh                     -12,5467        entre 200 y 430 KWh              -12,5467   entre 200 y 430 KWh             -12,5467
+                                                               siguientes 430 KWh                    0,0000
+                                                                                                               Siguientes kWh                          -39,5710        Siguientes kWh                   -29,6782   Siguientes kWh                  -29,6782
+                                                                                                                       EDELAR S.A. - CUADRO TARIFARIO DE APLICACIÓN A LOS USUARIOS
+                                                                                                                           RESOLUCION EUCOP Nº 001 ACTA 028 - FECHA: 14-04-2026
+
+
+
+PEQUEÑAS DEMANDAS                                                                                          Tarifa Electrodependiente - Uso Residencial
+                                                                             T1-RE10                                             T1-RE20                                         T1-RE30
+                                              Tipo usuario     Residencial Tarifa Electrodependiente               Residencial Tarifa Electrodependiente           Residencial Tarifa Electrodependiente
+                                               Consumo
+                                                                     menor = a 200 kWh/mes                                   entre 200 y 430 kWh/mes                  Csmo Superior a 430 Kwh/mes
+                 Concepto                        Unidad
+Cargo Fijo s/ cmo de energía                     $/mes                       2124,71                                                  2124,71                                        2124,71
+Cargo Fijo c/ cmo de energía                     $/mes
+                                                                                                          Primeros 200 kWh                        27,8196      Primeros 200 kWh                 27,8196
+                                                                                                                                                               entre 200 y 430 kWh              48,0541
+Cargo Variable                                   $/kWh                       27,8196
+                                                                                                                  Siguientes    kWh               48,0541
+                                                                                                                                                                   Siguientes kWh               39,8802
+
+                                                                                                          Primeros 200 kWh                         0,0000      Primeros 200 kWh                  0,0000
+                                                                                                                                                               entre 200 y 430 kWh               0,0000
+Subsidio Estado Nacional                         $/kWh                        0,0000
+                                                                                                                  Siguientes    kWh                0,0000
+                                                                                                                                                                   Siguientes kWh                0,0000
+
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                       -2124,71                                                 -2124,71                                       -2124,71
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                       -2124,71                                                 -2124,71                                       -2124,71
+                                                                                                          Primeros 200 kWh                        -27,8196     Primeros 200 kWh                 -27,8196
+                                                                                                                                                               entre 200 y 430 kWh              -48,0541
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh                       -27,8196
+                                                                                                                  Siguientes    kWh               -48,0541
+                                                                                                                                                                   Siguientes kWh               -39,8802
+
+
+
+
+PEQUEÑAS DEMANDAS                                                                                      Tarifa para beneficiarios de la AUH - Uso Residencial
+                                                                            T1-RU10                                             T1-RU20                                          T1-RU30
+                                              Tipo usuario            Residencial Tarifa AUH                             Residencial Tarifa AUH                            Residencial Tarifa AUH
+                                               Consumo
+                                                                     menor = a 200 kWh/mes                                   entre 200 y 430 kWh/mes                  Csmo Superior a 430 Kwh/mes
+                 Concepto                        Unidad
+Cargo Fijo s/ cmo de energía                     $/mes
+                                                                             2124,71                                                  2124,71                                        2124,71
+Cargo Fijo c/ cmo de energía                     $/mes
+                                                                                                          Primeros 200 kWh                        176,9956     Primeros 200 kWh                 176,9956
+                                                                                                                                                               entre 200 y 430 kWh              125,4670
+Cargo Variable                                   $/kWh                       176,9956
+                                                                                                          entre 200 y 430 kWh                    125,4670      entre 430 y 750 kWh              197,8549
+                                                                                                                                                               Mayor a 750 kWh                  197,8549
+                                                                                                          Primeros 200 kWh                        -87,9650     Primeros 200 kWh                 -87,9650
+                                                                                                                                                               entre 200 y 430 kWh               0,0000
+Subsidio Estado Nacional                         $/kWh                       -87,9650
+                                                                                                          entre 200 y 430 kWh                      0,0000      entre 430 y 750 kWh               0,0000
+                                                                                                                                                               Mayor a 750 kWh                   0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                       2007,43                                                  7792,59                                        17710,10
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                       2007,43                                                  7792,59                                        17710,10
+                                                                                                          Primeros 200 kWh                        -89,0306     Primeros 200 kWh                  -89,0306
+                                                                                                                                                               entre 200 y 430 kWh              -125,4670
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh                       -89,0306
+                                                                                                          Siguientes   kWh                       -125,4670     entre 430 y 750 kWh              -197,8549
+                                                                                                                                                               Mayor a 750 kWh                   -39,5710
+
+
+PEQUEÑAS DEMANDAS                                                                                Tarifa Jubiladosy Pensionados con haber minimo - Uso Residencial
+                                                                               T1-RM10                                             T1-RM20                                    T1-RM30
+                                              Tipo usuario   Residencial Tarifa Jubilaos Pension minima          Residencial Tarifa Jubilaos Pension minima Residencial Tarifa Jubilaos Pension minima
+                                               Consumo
+                                                                     menor = a 200 kWh/mes                                   entre 200 y 430 kWh/mes                  Csmo Superior a 430 Kwh/mes
+                 Concepto                        Unidad
+Cargo Fijo s/ cmo de energía                     $/mes
+                                                                             2124,71                                                  2124,71                                        2124,71
+Cargo Fijo c/ cmo de energía                     $/mes
+                                                                                                          Primeros 200 kWh                        176,9956     Primeros 200 kWh                 176,9956
+                                                                                                                                                               entre 200 y 430 kWh              125,4670
+Cargo Variable                                   $/kWh                       176,9956
+                                                                                                          entre 200 y 430 kWh                     125,4670     entre 430 y 750 kWh              197,8549
+                                                                                                                                                               Mayor a 750 kWh                  197,8549
+                                                                                                          Primeros 200 kWh                        -87,9650     Primeros 200 kWh                 -87,9650
+                                                                                                                                                               entre 200 y 430 kWh               0,0000
+Subsidio Estado Nacional                         $/kWh                       -87,9650
+                                                                                                          Siguientes   kWh                         0,0000      entre 430 y 750 kWh               0,0000
+                                                                                                                                                               Mayor a 750 kWh                   0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia          $/mes                       2007,43                                                  7792,59                                        17710,10
+F.E.P Cargo Fijo:Con consumo de Energia          $/mes                       2007,43                                                  7792,59                                        17710,10
+                                                                                                          Primeros 200 kWh                        -89,0306     Primeros 200 kWh                  -89,0306
+                                                                                                                                                               entre 200 y 430 kWh              -125,4670
+F.E.P Cargo Fijo:Cargo Variable por Energia      $/kWh                       -89,0306
+                                                                                                          Siguientes   kWh                       -125,4670     entre 430 y 750 kWh              -197,8549
+                                                                                                                                                               Mayor a 750 kWh                   -39,5710
+                                                                                                          EDELAR S.A. - CUADRO TARIFARIO DE APLICACIÓN A LOS USUARIOS
+                                                                                                              RESOLUCION EUCOP Nº 001 ACTA 028 - FECHA: 14-04-2026
+
+
+PEQUEÑAS DEMANDAS                                                                                                                                                                                      Tarifa General
+                                                           T1-G10             T1-G11                       T1-G12                                     T1-G20                                            T1-G21                                                 T1-G22                                           T1-G30                                  T1-G31                           T1-G32
+                                              Tipo
+                                                            Oficial          General                  Capilla e Iglesias                              Oficial                                              General                                      Capilla e Iglesias                                      Oficial                              General                       Capilla e Iglesias
+                                             usuario
+                                            Consumo       menor a 90
+                                                                        menor a 90 kWh/mes          menor a 90 kWh/mes                    entre 90 y 310 kWh/mes                              entre 90 y 310 kWh/mes                              entre 90 y 310 kWh/mes                          superior a 310 kWh/mes                  superior a 310 kWh/mes              superior a 310 kWh/mes
+                 Concepto                    Unidad        kWh/mes
+Cargo Fijo s/ cmo de energía                  $/mes
+                                                           1699,71           1699,71                      1699,71                                     1699,71                                              1699,71                                            1699,71                                          1699,71                              1699,71                             1699,71
+Cargo Fijo c/ cmo de energía                  $/mes
+                                                                                                                             Primeros 90 kWh                       173,9505        Primeros 90 kWh                     173,9505      Primeros 90 kWh                     173,9505         Primeros 90 kWh                 173,9505    Primeros 90 kWh            173,9505   Primeros 90 kWh     173,9505
+                                                                                                                                                                                                                                                                                          entre 90 y 310 kWh              96,7627     entre 90 y 310 kWh          96,7627   entre 90 y 310 kWh   96,7627
+Cargo Variable                                $/kWh       173,9505          173,9505                      173,9505
+                                                                                                                                   Siguientes   kWh                 96,7627             Siguientes   kWh               96,7627             Siguientes   kWh              96,7627          entre 310 y 800 KWh             160,9301    entre 310 y 800 KWh        160,9301   entre 310 y 800 KWh 160,9301
+                                                                                                                                                                                                                                                                                          mayor a 800 kWh                 160,9301    mayor a 800 kWh            160,9301   mayor a 800 kWh     160,9301
+                                                                                                                             Primeros 90 kWh                         0,0000        Primeros 90 kWh                      0,0000       Primeros 90 kWh                         0,0000       Primeros 90 kWh                  0,0000     Primeros 90 kWh             0,0000    Primeros 90 kWh      0,0000
+                                                                                                                                                                                                                                                                                          entre 90 y 310 kWh               0,0000     entre 90 y 310 kWh          0,0000    entre 90 y 310 kWh   0,0000
+Subsidio Estado Nacional                      $/kWh        0,0000             0,0000                       0,0000                  Siguientes   kWh                  0,0000             Siguientes   kWh                0,0000             Siguientes   kWh                  0,0000       entre 310 y 800 KWh              0,0000     entre 310 y 800 KWh         0,0000    entre 310 y 800 KWh  0,0000
+                                                                                                                                                                                                                                                                                          mayor a 800 kWh                  0,0000     mayor a 800 kWh             0,0000    mayor a 800 kWh      0,0000
+F.E.P Cargo Fijo:Sin consumo de Energia       $/mes          0,00              0,00                       -1699,71                                     0,00                                                 0,00                                              -1699,71                                           0,00                                    0,00                            -1699,71
+F.E.P Cargo Fijo:Con consumo de Energia       $/mes          0,00              0,00                       -1699,71                                     0,00                                                 0,00                                              -1699,71                                           0,00                                    0,00                            -1699,71
+                                                                                                                             Primeros 90 kWh                         0,0000        Primeros 90 kWh                     -15,6555      Primeros 90 kWh                     -86,9753         Primeros 90 kWh                  0,0000     Primeros 90 kWh            -15,6555   Primeros 90 kWh     -86,9753
+                                                                                                                                                                                                                                                                                          entre 90 y 310 kWh               0,0000     entre 90 y 310 kWh          -7,7410   entre 90 y 310 kWh  -48,3814
+F.E.P Cargo Variable por Energia              $/kWh        0,0000            -15,6555                     -86,9753           Siguientes kWh                          0,0000        Siguientes kWh                       -7,741       Siguientes kWh                      -48,3814         entre 310 y 800 KWh              0,0000     entre 310 y 800 KWh        -11,2651   entre 310 y 800 KWh -80,4651
+                                                                                                                                                                                                                                                                                          mayor a 800 kWh                  0,0000     mayor a 800 kWh             -9,6558   mayor a 800 kWh     -80,4651
+
+
+
+GRANDES DEMANDAS
+                                                                                                                  Baja tension                                                                                       Media Tension                                                    ALRSA                          Alta Tensión
+
+                       Concepto                                                                                                                                                                                                                                    T2-BTA1 >10 y <50 T2-BTA2 >50 y
+                                                            Unidad     T2-BT1 >10 kW <50 kW      T2-BT2 >50 kW < 300 kW          T2-BT3O >= 300 kW              T2-BT3 >= 300 kW     T2-MT1 < 300 kW            T2-MTO > 300 kW         T2-MT2 > 300 kW                                                            T2-AT >7200 kW
+                                                                                                                                                                                                                                                                          kW            <300 kW
+Por Capacidad de Suministro en horas pico                  $/kW-mes          9296,43                       9296,43                    9296,43                      9296,43                8705,56                      8705,56               8705,56                     9296,43              9296,43                      8110,64
+Por Máxima Capacidad de Suministro Contratada              $/kW-mes         11179,72                      11179,72                   11179,72                      11179,72               6562,58                      6562,58               6562,58                     10046,48             10046,48                       2,86
+Cargo Fijo                                                   $/mes          15106,90                      15106,90                   15106,90                      15106,90              106156,41                    106156,41             106156,41                    9064,14              9064,14                     106156,41
+Por Consumo de Energía en Horas Restantes                    $/kWh          104,6719                      104,6719                   101,5376                      101,5376               98,6745                      95,7195               95,7195                     104,6588             104,6588                     99,0119
+Por Consumo de Energía en Horas de Valle                     $/kWh           90,6769                       90,6769                    87,5845                      87,5845                85,4805                      82,5651               82,5651                     90,6638              90,6638                      79,3194
+Por Consumo de Energía en Horas de Pico                      $/kWh          106,4609                      106,4609                   103,2437                      103,2437              100,3610                      97,3280               97,3280                     106,4478             106,4478                     99,8483
+Subsidio Estado Nacional Potencia Punta                      $/kWh            0,00                          0,00                       0,00                          0,00                  0,00                         0,00                  0,00                         0,00                 0,00                         0,00
+Subsidio Estado Nacional Energia Resto                       $/kWh           0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+Subsidio Estado Nacional Energia Valle                       $/kWh           0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+Subsidio Estado Nacional Energia Pico                        $/kWh           0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+F.E.P Por capacidad de suministo contratada pico             $/kWh            0,00                          0,00                       0,00                          0,00                  0,00                         0,00                  0,00                         0,00                 0,00                         0,00
+F.E.P Por Maxima capacidad de suministo contratada           $/kWh            0,00                          0,00                       0,00                          0,00                  0,00                         0,00                  0,00                         0,00                 0,00                         0,00
+F.E.P Cargo Fijo                                            $/kWh             0,00                          0,00                       0,00                          0,00                  0,00                         0,00                  0,00                         0,00                 0,00                         0,00
+F.E.P Por consumo de energia en horas restantes             $/kWh            0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+F.E.P Por consumo de energia en horas de valle nocturno     $/kWh            0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+F.E.P Por consumo de energia en horas pico                  $/kWh            0,0000                        0,0000                     0,0000                        0,0000                0,0000                       0,0000                0,0000                       0,0000               0,0000                       0,0000
+
+
+
+PEAJE - FUNCION TECNICA TRANSPORTE                                                                   TARIFA DE PEAJE - FUNCION TECNICA DE TRANSPORTE
+                                                                                           Baja Tensión                                          Media Tension                           Alta Tensión
+
+                       Concepto                             Unidad        T2-BT < 300 kW              T2-BT >=300 kW              T2-MT < 300 kW            T2-MT >=300 kW            T2-AT >=300 kW
+Por Capacidad de Suministro en horas pico                  $/kW-mes          1291,45                       1291,45                    700,58                         700,58               105,66
+Por Máxima Capacidad de Suministro Contratada              $/kW-mes         11179,72                      11179,72                    6562,58                       6562,58                2,86
+Cargo Fijo                                                   $/mes          15106,90                      15106,90                   106156,41                     106156,41             106156,41
+Por Consumo de Energía en Horas Restantes                    $/kWh           25,9789                       25,6076                    19,9865                       19,7945               23,1019
+Por Consumo de Energía en Horas de Valle                     $/kWh           12,7859                       12,4195                    7,5945                         7,4051               4,1744
+Por Consumo de Energía en Horas de Pico                      $/kWh           26,1909                       25,8097                    20,0960                       19,8990               22,4343
+Subsidio Estado Nacional Potencia Punta                      $/kWh            0,00                          0,00                       0,00                           0,00                 0,00
+Subsidio Estado Nacional Energia Resto                       $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+Subsidio Estado Nacional Energia Valle                       $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+Subsidio Estado Nacional Energia Pico                        $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+F.E.P Por capacidad de suministo contratada pico             $/kWh            0,00                          0,00                       0,00                           0,00                 0,00
+F.E.P Por Maxima capacidad de suministo contratada           $/kWh            0,00                          0,00                       0,00                           0,00                 0,00
+F.E.P Cargo Fijo                                             $/kWh            0,00                          0,00                       0,00                           0,00                 0,00
+F.E.P Por consumo de energia en horas restantes              $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+F.E.P Por consumo de energia en horas de valle nocturno      $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+F.E.P Por consumo de energia en horas pico                   $/kWh           0,0000                        0,0000                     0,0000                         0,0000               0,0000
+                                                                                                                     EDELAR S.A. - CUADRO TARIFARIO DE APLICACIÓN A LOS USUARIOS
+                                                                                                                         RESOLUCION EUCOP Nº 001 ACTA 028 - FECHA: 14-04-2026
+
+Por la Energia Inyectada a la red de Distribucion
+
+
+                       TARIFA POR LA ENERGIA INYECTADA A LA RED DE DISTRIBUCION
+
+                              Concepto                                        Unidad            Precios
+Residencial No Subsidiado                                                     $/kWh            92,9430
+Residencial Subsidiado                                                        $/kWh            38,4556
+Electrodependiente                                                            $/kWh             0,0000
+AUH Y JRM                                                                     $/kWh            38,4556
+General                                                                       $/kWh            78,6730
+Alumbrado Publico                                                             $/kWh            78,6730
+Medianas y Grandes Demandas menor a 300 kW
+Pico                                                                          $/kWh            80,2500
+Resto                                                                         $/kWh            78,6730
+Valle                                                                         $/kWh            77,8710
+Grandes Demandas igual o mayor a 300 kW (Org. Publicos Salud y Educacion)
+Pico                                                                                           77,4140
+Resto                                                                                          75,9100
+Valle                                                                                          75,1450
+Grandes Demandas igual o mayor a 300 kW
+Pico                                                                          $/kWh            77,4140
+Resto                                                                         $/kWh            75,9100
+Valle                                                                         $/kWh            75,1450
+
+
+
+
+GRANDES DEMANDAS - RIEGO AGRICOLA                                                                               Riego Agrícola                                           Regantes Optativas
+                                                                                                                                  Iguales o Mayores a 300
+                                                                                        entre 10 y 150 kW   Entre 150 y 300 kW                                   < 300 kW             > 300 kW
+                                                                                                                                  kW
+                              Concepto                                        Unidad            T2-RAP               T2-RAM               T2-RAG                  T2-RAO               T2-RAOM
+Por Capacidad de Suministro en horas pico                                    $/kW-mes           8705,56              8705,56              8705,56                 8705,56              8705,56
+Por Máxima Capacidad de Suministro Contratada                                $/kW-mes            0,00                6562,58             6562,58                   0,00                 0,00
+Cargo Fijo                                                                     $/mes           27476,57             27476,57            27476,57                 27476,57             27476,57
+Por Consumo de Energía en Horas Restantes                                      $/kWh           100,0425              98,6745             95,7195                 98,7183               95,7633
+Por Consumo de Energía en Horas de Valle                                       $/kWh            86,6660              85,4805             82,5651                 85,5243               82,6089
+Por Consumo de Energía en Horas de Pico                                        $/kWh           101,7524             100,3610             97,3280                 100,4048              97,3718
+Subsidio Estado Nacional Potencia Punta                                        $/kWh             0,00                 0,00                0,00                     0,00                 0,00
+Subsidio Estado Nacional Energia Resto                                         $/kWh            0,0000               0,0000              0,0000                   0,0000               0,0000
+Subsidio Estado Nacional Energia Valle                                         $/kWh            0,0000               0,0000              0,0000                   0,0000               0,0000
+Subsidio Estado Nacional Energia Pico                                          $/kWh            0,0000               0,0000              0,0000                   0,0000               0,0000
+F.E.P Por capacidad de suministo contratada pico                               $/mes            0,0000               0,0000              0,0000                   0,0000                0,00
+F.E.P Por Maxima capacidad de suministo contratada                             $/kWh             0,00                 0,00                0,00                     0,00                 0,00
+F.E.P Cargo Fijo                                                               $/kWh             0,00                 0,00                0,00                     0,00                 0,00
+F.E.P Por consumo de energia en horas restantes                                $/kWh            0,0000                0,00                0,00                   29,6155               38,3053
+F.E.P Por consumo de energia en horas de valle nocturno                        $/kWh            0,0000               0,0000              0,0000                  25,6573               33,0436
+F.E.P Por consumo de energia en horas pico                                     $/kWh            0,0000               0,0000              0,0000                  30,1214               38,9487
+
+
+Recargos por la Potencia Reactiva                                                                                                          Unidad           Importe                              Conexiones Domiciliarias                                                                                                                        Unidad                 Importe
+Tarifa 1                                                                                                                                                                                         a) Conexiones Comunes por Usuario
+Por Cos fi menor a 0,85 hasta 0,75                                                                                                           %                        10,00                      - Aéreas Monofásicas                                                                                                                                       $               348,99
+Por Cos fi menor a 0,75                                                                                                                      %                        20,00                      - Subterráneas Monofásicas                                                                                                                                 $               1078,41
+Tarifa 2                                                                                                                                                                                         - Aéreas Trifásicas                                                                                                                                        $               660,78
+Por cada centésimo (0,01) o fracción mayor de 5 milésimos (0,005)                                                                                                                                - Subterráneas Trifásicas                                                                                                                                  $               1658,18
+de variación de la Tg fi mayor de 0,62                                                                                                       %                         1,50                      b) Conexiones Especiales por Usuario
+Avisos de Suspensión (Art. Nº 5 del Régimen de Suministro)                                                                                                                                       - Aéreas Monofásicas                                                                                                                                       $               916,44
+Por cada aviso de suspensión por falta de pago Tarifa Nº 1 y Tarifa Nº 2                                                                     $                         4,27                      - Subterráneas Monofásicas                                                                                                                                 $               2948,55
+Servicio de Rehabilitación                                                                                                                                                                       - Aéreas Trifásicas                                                                                                                                        $               1614,74
+Por cada servicio interrumpido por falta de pago en T1 Uso Residencial                                                                       $                        28,66                      - Subterráneas Trifásicas                                                                                                                                  $               3048,38
+Por cada servicio interrumpido por falta de pago en T1 Uso General y Aº Pº                                                                   $                        173,45
+Por cada servicio interrumpido por falta de pago en T2                                                                                       $                        458,66                                             Los precios indicados no incluyen el Impuesto al Valor Agregado (IVA), ni demás tributos e Impuestos establecidos en la legislación vigente.
+
