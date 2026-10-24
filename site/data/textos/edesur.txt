@@ -1,0 +1,208 @@
+##### Archivo: 2026_05_EDESUR1.xlsx
+=== Hoja: CdB ===
+Cuadro Tarifario
+Clubes de Barrio y de Pueblo-Resolución SE N° 742/2022
+vigencia a partir del 1° de mayo de 2026
+ |  |  | EDESUR
+Tarifa 1 - Residencial y Entidades de Bien Público
+R1 | Cargo Fijo 0 -150 | $/mes | 1557.06
+ | Cargo Variable 0 -150 | $/kWh | 70.913
+R2 | Cargo Fijo 151-400 | $/mes | 3268.31
+ | Cargo Variable 151-400 | $/kWh | 71.42
+R3 | Cargo Fijo 401-500 | $/mes | 10698.21
+ | Cargo Variable 401-500 | $/kWh | 82.172
+R4 | Cargo Fijo 501 a 600 | $/mes | 17446.02
+ | Cargo Variable 501 a 600 | $/kWh | 85.806
+R5 | Cargo Fijo 601 a 700 | $/mes | 37721.37
+ | Cargo Variable 601 a 700 | $/kWh | 96.828
+R6 | Cargo Fijo +700 | $/mes | 57239.79
+ | Cargo Variable +700 | $/kWh | 111.784
+Tarifa 1 - G
+G1 | Cargo Fijo 0 -800 | $/mes | 17243.82
+ | Cargo Variable 0 -800 | $/kWh | 133.439
+G2 | Cargo Fijo 801-2000 | $/mes | 17243.82
+ | Cargo Variable 801-2000 | $/kWh | 154.945
+G3 | Cargo Fijo +2000 | $/mes | 17243.82
+ | Cargo Variable +2000 | $/kWh | 161.09
+Tarifa 2
+ | Cargo Fijo | $/mes | 45796.99
+ | Cargo por Potencia Contratada | $/kW-mes | 16598.15
+ | Cargo por Potencia Adquirida | $/kW-mes | 3759.31
+ | Cargo Variable | $/kWh | 47.567
+Tarifa 3 - BT
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 12532.88
+ | Cargo por Potencia Adquirida | $/kW-mes | 3560.74
+ | Cargo Variable Pico | $/kWh | 48.694
+ | Cargo Variable Resto | $/kWh | 47.427
+ | Cargo Variable Valle | $/kWh | 46.837
+Tarifa 3 - MT
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 5415.52
+ | Cargo por Potencia Adquirida | $/kW-mes | 4037.69
+ | Cargo Variable Pico | $/kWh | 46.276
+ | Cargo Variable Resto | $/kWh | 45.072
+ | Cargo Variable Valle | $/kWh | 44.512
+Tarifa 3 - AT
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 1422.61
+ | Cargo por Potencia Adquirida | $/kW-mes | 3683.49
+ | Cargo Variable Pico | $/kWh | 44.377
+ | Cargo Variable Resto | $/kWh | 43.222
+ | Cargo Variable Valle | $/kWh | 42.685
+##### Archivo: 2026_05_EDESUR2.xlsx
+=== Hoja: anexo n2 ===
+Cuadro Tarifario
+vigencia a partir del 1° de mayo de 2026
+ |  |  | EDESUR
+ |  |  | por los primeros 300 kWh/mes - con subsidio | por el excedente a los 300 kWh/mes - sin subsidio
+Tarifa 1 - R
+R1 | Cargo Fijo 0 -150 | $/mes | 1557.06 | -
+ | Cargo Variable 0 -150 | $/kWh | 70.913 | -
+R2 | Cargo Fijo 151-400 | $/mes | 3268.31 | 3268.31
+ | Cargo Variable 151-400 | $/kWh | 71.42 | 144.74
+R3 | Cargo Fijo 401-500 | $/mes | 10698.21 | 10698.21
+ | Cargo Variable 401-500 | $/kWh | 82.172 | 155.492
+R4 | Cargo Fijo 501 a 600 | $/mes | 17446.02 | 17446.02
+ | Cargo Variable 501 a 600 | $/kWh | 85.806 | 159.126
+R5 | Cargo Fijo 601 a 700 | $/mes | 37721.37 | 37721.37
+ | Cargo Variable 601 a 700 | $/kWh | 96.828 | 170.148
+R6 | Cargo Fijo +700 | $/mes | 57239.79 | 57239.79
+ | Cargo Variable +700 | $/kWh | 111.784 | 185.105
+##### Archivo: 2026_05_EDESUR3.xlsx
+=== Hoja: anexo ct ===
+Cuadro Tarifario
+vigencia a partir del 1° de mayo de 2026
+ |  |  | EDESUR
+Tarifa 1 - R  sin subsidio
+R1 | Cargo Fijo 0 -150 | $/mes | 1557.06
+ | Cargo Variable 0 -150 | $/kWh | 144.234
+R2 | Cargo Fijo 151-400 | $/mes | 3268.31
+ | Cargo Variable 151-400 | $/kWh | 144.74
+R3 | Cargo Fijo 401-500 | $/mes | 10698.21
+ | Cargo Variable 401-500 | $/kWh | 155.492
+R4 | Cargo Fijo 501 a 600 | $/mes | 17446.02
+ | Cargo Variable 501 a 600 | $/kWh | 159.126
+R5 | Cargo Fijo 601 a 700 | $/mes | 37721.37
+ | Cargo Variable 601 a 700 | $/kWh | 170.148
+R6 | Cargo Fijo +700 | $/mes | 57239.79
+ | Cargo Variable +700 | $/kWh | 185.105
+Tarifa 1 - G
+G1 | Cargo Fijo 0 -800 | $/mes | 17243.82
+ | Cargo Variable 0 -800 | $/kWh | 208.123
+G2 | Cargo Fijo 801-2000 | $/mes | 17243.82
+ | Cargo Variable 801-2000 | $/kWh | 229.629
+G3 | Cargo Fijo +2000 | $/mes | 17243.82
+ | CV + 2000 | $/kWh | 235.774
+Tarifa 1 - AP
+ | Cargo variable | $/kWh | 177.75
+Tarifa 2
+ | Cargo Fijo | $/mes | 45796.99
+ | Cargo por Potencia Contratada | $/kW-mes | 16598.15
+ | Cargo por Potencia Adquirida | $/kW-mes | 9558.39
+ | Cargo variable | $/kWh | 108.267
+Tarifa 3 - BT <300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 12532.88
+ | Cargo por Potencia Adquirida | $/kW-mes | 9053.49
+ | Cargo Variable Pico | $/kWh | 111.145
+ | Cargo Variable Resto | $/kWh | 107.91
+ | Cargo Variable Valle | $/kWh | 106.404
+Tarifa 3 - MT <300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 5415.52
+ | Cargo por Potencia Adquirida | $/kW-mes | 10266.18
+ | Cargo Variable Pico | $/kWh | 105.627
+ | Cargo Variable Resto | $/kWh | 102.553
+ | Cargo Variable Valle | $/kWh | 101.122
+Tarifa 3 - AT<300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 1422.61
+ | Cargo por Potencia Adquirida | $/kW-mes | 9365.6
+ | Cargo Variable Pico | $/kWh | 101.292
+ | Cargo Variable Resto | $/kWh | 98.344
+ | Cargo Variable Valle | $/kWh | 96.971
+Tarifa 3 - BT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 12532.88
+ | Cargo por Potencia Adquirida | $/kW-mes | 9053.49
+ | Cargo Variable Pico | $/kWh | 111.373
+ | Cargo Variable Resto | $/kWh | 108.13
+ | Cargo Variable Valle | $/kWh | 106.62
+Tarifa 3 - MT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 5415.52
+ | Cargo por Potencia Adquirida | $/kW-mes | 10266.18
+ | Cargo Variable Pico | $/kWh | 105.844
+ | Cargo Variable Resto | $/kWh | 102.762
+ | Cargo Variable Valle | $/kWh | 101.327
+Tarifa 3 - AT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/kW-mes | 1422.61
+ | Cargo por Potencia Adquirida | $/kW-mes | 9365.6
+ | Cargo Variable Pico | $/kWh | 101.5
+ | Cargo Variable Resto | $/kWh | 98.544
+ | Cargo Variable Valle | $/kWh | 97.168
+ | Tarifas Servicio de Peaje
+Tarifa 2
+ | Cargo Fijo | $/mes | 45796.99
+ | Cargo por Potencia Contratada | $/MW-mes | 16598151
+ | Cargo por Potencia Adquirida | $/MW-mes | 1195844
+ | Cargo Variable | $/MWh | 12286
+Tarifa 3 - BT <300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 12532879
+ | Cargo por Potencia Adquirida | $/MW-mes | 1132676
+ | Cargo Variable Pico | $/MWh | 12612.22
+ | Cargo Variable Resto | $/MWh | 12245.12
+ | Cargo Variable Valle | $/MWh | 12074.24
+Tarifa 3 - MT <300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 5415524
+ | Cargo por Potencia Adquirida | $/MW-mes | 751648
+ | Cargo Variable Pico | $/MWh | 7094.38
+ | Cargo Variable Resto | $/MWh | 6887.88
+ | Cargo Variable Valle | $/MWh | 6791.76
+Tarifa 3 - AT<300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 1422607
+ | Cargo por Potencia Adquirida | $/MW-mes | 272785
+ | Cargo Variable Pico | $/MWh | 2758.92
+ | Cargo Variable Resto | $/MWh | 2678.62
+ | Cargo Variable Valle | $/MWh | 2641.24
+Tarifa 3 - BT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 12532879
+ | Cargo por Potencia Adquirida | $/MW-mes | 1132676
+ | Cargo Variable Pico | $/MWh | 12638.08
+ | Cargo Variable Resto | $/MWh | 12270.08
+ | Cargo Variable Valle | $/MWh | 12098.69
+Tarifa 3 - MT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 5415524
+ | Cargo por Potencia Adquirida | $/MW-mes | 751648
+ | Cargo Variable Pico | $/MWh | 7108.92
+ | Cargo Variable Resto | $/MWh | 6901.92
+ | Cargo Variable Valle | $/MWh | 6805.51
+Tarifa 3 - AT >300
+ | Cargo Fijo | $/mes | 181371.18
+ | Cargo por Potencia Contratada | $/MW-mes | 1422607
+ | Cargo por Potencia Adquirida | $/MW-mes | 272785
+ | Cargo Variable Pico | $/MWh | 2764.58
+ | Cargo Variable Resto | $/MWh | 2684.08
+ | Cargo Variable Valle | $/MWh | 2646.59
+Servicio de rehabilitación
+ | Tarifa 1 - R1 | $ | 4564.67
+ | Tarifa 1 - G y AP | $ | 27608.39
+ | Tarifa 2 y Tarifa 3 | $ | 73010.67
+Conexiones domiciliarias
+ | Comunes
+ | Aéreas monofásicas | $ | 55584.59
+ | Subterráneas | $ | 172651.61
+ | Aéreas trifásicas | $ | 105185.85
+ | Subterráneas Trifásicas | $ | 263953.09
+ | Especiales
+ | Aéreas monofásicas | $ | 145877.34
+ | Subterráneas | $ | 469345.9
+ | Aéreas trifásicas | $ | 257020.16
+ | Subterráneas Trifásicas | $ | 485227.13

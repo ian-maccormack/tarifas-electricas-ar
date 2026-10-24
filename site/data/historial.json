@@ -241,5 +241,23 @@
   "titulo": "CUADRO TARIFARIO VIGENTE",
   "vigencia": null,
   "tablas": []
+ },
+ {
+  "id": "edenor",
+  "detectado": "2026-10-24T17:01:50+00:00",
+  "sha256": "875eb828b3e1735a3e24358be2b7cb0a74ce5f252a037464bb084853118788ac",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
+  "titulo": "Cuadro Tarifario del 06-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edesur",
+  "detectado": "2026-10-24T17:01:50+00:00",
+  "sha256": "17193481d074ae7e80c803a7af09925294ea2c9132ac7528b4d4cc2bba4682d9",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
+  "titulo": "Cuadro Tarifario del 05-2026",
+  "vigencia": null,
+  "tablas": []
  }
 ]
