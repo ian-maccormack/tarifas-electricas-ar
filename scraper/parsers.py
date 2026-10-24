@@ -531,7 +531,14 @@ def p_oceba(text, **_):
     """OCEBA annexes (EDEN, EDES): T1R categories R1..R7, each with its own fixed and variable charge."""
     t = line_table(text, "T1R - Residencial (categoría según consumo mensual)", r"^\s*T1R - RESIDENCIAL\s*$",
                    r"^\s*T1RE - RESIDENCIAL ESTACIONAL", dec=",", unit_after=True)
-    return {"vigencia": None, "tablas": [t],
+    t2 = line_table(text, "T2 - Medianas demandas (de 10 kW a menos de 50 kW)", r"^T2 - MEDIANAS DEMANDAS",
+                    r"^T3 - GRANDES DEMANDAS", dec=",", unit_after=True, header_re=r"^\s*T2(BT|MT)\s*-")
+    t3 = [line_table(text, f"T3{v} - Grandes demandas (50 kW o más), {n}", rf"^\s*T3{v} - SUMINISTROS", end,
+                     dec=",", unit_after=True,
+                     header_re=r"^\s*(SUMINISTROS >=|USUARIOS FINALES|DIST\. MUNICIPALES|DISTRIBUIDORES MUNICIPALES)")
+          for v, n, end in (("BT", "baja tensión", r"^\s*T3MT - "), ("MT", "media tensión", r"^\s*T3AT - "))]
+    tablas = [t] + [x for x in [t2] + t3 if x["filas"]]
+    return {"vigencia": None, "tablas": tablas,
             "comparable": comparable([t], (r"^CARGO FIJO R1$", 0), (r"^CARGO VARIABLE R1\b", 0),
                                      "T1R R1 (consumo ≤ 100 kWh-mes)")}
 

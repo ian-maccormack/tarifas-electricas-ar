@@ -281,3 +281,111 @@ def cost(sim, kwh_mes):
         if prev >= k:
             break
     return total / (2 if sim["periodo"] == "bimestre" else 1)
+
+
+# ---- T2 / T3 (medianas y grandes demandas) ----
+DEMANDA = {}
+
+
+def demanda_builder(*ids):
+    def deco(fn):
+        for i in ids:
+            DEMANDA[i] = fn
+        return fn
+    return deco
+
+
+def _pick(rows, rx):
+    f = next((f for f in rows if re.search(rx, f["concepto"])), None)
+    return f["valores"][0] if f and f["valores"] else None
+
+
+@demanda_builder("eden", "edes")
+def oceba_demanda(tablas):
+    """OCEBA: T2 (10 to <50 kW) and T3 (>= 50 kW, energy split at 300 kW), usuarios finales only."""
+    tarifas = []
+    t2 = next(t for t in tablas if t["titulo"].startswith("T2 -"))
+    for v in ("BT", "MT"):
+        rows = [f for f in t2["filas"] if (f.get("grupo") or "").startswith(f"T2{v}")]
+        tarifas.append({"nombre": f"T2{v}", "tension": v, "desde_kw": 10, "hasta_kw": 50,
+                        "fijo": _pick(rows, r"^CARGO FIJO$"),
+                        "potencia": [["Potencia en pico", _pick(rows, r"POTENCIA EN PICO")],
+                                     ["Potencia fuera de pico", _pick(rows, r"POTENCIA FUERA PICO")]],
+                        "energia": {"pico": _pick(rows, r"ENERG.A DEMANDADA EN PICO"),
+                                    "fuera_pico": _pick(rows, r"FUERA DE PICO")}})
+    for v in ("BT", "MT"):
+        t3 = next((t for t in tablas if t["titulo"].startswith(f"T3{v} ")), None)
+        if t3 is None:
+            continue
+        fixed = [f for f in t3["filas"] if re.search(r"\(Usuarios Finales\)", f.get("grupo") or "")]
+        for desde, hasta, rx in ((50, 300, r"^USUARIOS FINALES Suministros entre 50 y 300"),
+                                 (300, None, r"^USUARIOS FINALES Suministros Mayor o igual a 300")):
+            rows = [f for f in t3["filas"] if re.search(rx, f.get("grupo") or "")]
+            tarifas.append({"nombre": f"T3{v} ({desde}{'–' + str(hasta) if hasta else '+'} kW)", "tension": v,
+                            "desde_kw": desde, "hasta_kw": hasta, "fijo": _pick(fixed, r"^CARGO FIJO$"),
+                            "potencia": [["Potencia en pico", _pick(fixed, r"POTENCIA EN PICO")],
+                                         ["Potencia fuera de pico", _pick(fixed, r"POTENCIA FUERA PICO")]],
+                            "energia": {k: _pick(rows, rf"DEMANDADA EN {k.upper()}") for k in ("pico", "resto", "valle")}})
+    return {"criterio": "Usuarios finales; límites de potencia según el cuadro OCEBA", "tarifas": tarifas}
+
+
+@demanda_builder("edenor", "edesur")
+def enre_demanda(tablas):
+    """ENRE: the cuadro splits T3 at 300 kW; the T2/T3 limit (50 kW) comes from the ENRE tariff regime."""
+    tarifas = []
+    for t in tablas:
+        if "PEAJE" in t["titulo"]:
+            break
+        m2 = re.match(r"^Tarifa 2\b", t["titulo"])
+        m3 = re.match(r"^Tarifa 3 - (BT|MT|AT) ?([<>]) ?300", t["titulo"])
+        if not (m2 or m3) or any(x["nombre"] == t["titulo"].split(" — ")[0] for x in tarifas):
+            continue
+        rows = t["filas"]
+        pot = [["Potencia contratada", _pick(rows, r"Potencia Contratada")],
+               ["Potencia adquirida", _pick(rows, r"Potencia Adquirida")]]
+        if m2:
+            tarifas.append({"nombre": "Tarifa 2", "tension": None, "desde_kw": 10, "hasta_kw": 50,
+                            "fijo": _pick(rows, r"^Cargo Fijo$"), "potencia": pot,
+                            "energia": {"unica": _pick(rows, r"^Cargo [Vv]ariable$")}})
+        else:
+            low = m3.group(2) == "<"
+            tarifas.append({"nombre": t["titulo"].split(" — ")[0], "tension": m3.group(1),
+                            "desde_kw": 50 if low else 300, "hasta_kw": 300 if low else None,
+                            "fijo": _pick(rows, r"^Cargo Fijo$"), "potencia": pot,
+                            "energia": {k: _pick(rows, rf"^Cargo Variable {k.capitalize()}$") for k in ("pico", "resto", "valle")}})
+    return {"criterio": "Cuadro ENRE; T2 de 10 a 50 kW y T3 desde 50 kW según el régimen tarifario ENRE (no figura en el cuadro)",
+            "tarifas": tarifas}
+
+
+def build_demanda(entry):
+    fn = DEMANDA.get(entry["id"])
+    if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
+        return None
+    try:
+        d = fn(entry["tablas"])
+    except Exception:
+        return None
+    return d if d["tarifas"] else None
+
+
+def match_demanda(d, tension, kw):
+    return next((t for t in d["tarifas"] if t["tension"] in (None, tension) and kw >= t["desde_kw"]
+                 and (t["hasta_kw"] is None or kw < t["hasta_kw"])), None)
+
+
+def cost_demanda(d, tension, kw, kwh, pico, valle):
+    """Monthly cost without taxes; every power charge is applied to the kW entered (mirrors app.js)."""
+    t = match_demanda(d, tension, kw)
+    if t is None:
+        return None
+    e = t["energia"]
+    if "unica" in e:
+        reparto = {"unica": 1}
+    elif "fuera_pico" in e:
+        reparto = {"pico": pico, "fuera_pico": 1 - pico}
+    else:
+        reparto = {"pico": pico, "resto": 1 - pico - valle, "valle": valle}
+    parts = [t["fijo"]] + [None if p is None else p * kw for _, p in t["potencia"]]
+    parts += [None if e.get(k) is None else e[k] * kwh * share for k, share in reparto.items()]
+    return None if None in parts else sum(parts)
+

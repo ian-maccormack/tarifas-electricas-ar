@@ -132,7 +132,46 @@ function simulate(s, kwhMes) {
 const money = (v) => "$ " + v.toLocaleString("es-AR", { maximumFractionDigits: 0 });
 const num = (v, d = 4) => v.toLocaleString("es-AR", { maximumFractionDigits: d });
 const SIM = { prov: "", modo: "costo" };
+// ---- T2/T3: same algorithm as scraper/simulador.py::cost_demanda ----
+function demInputs() {
+  const pico = Math.min(100, Math.max(0, +$("#d-pico").value || 0)) / 100;
+  const valle = Math.min(1 - pico, Math.max(0, +$("#d-valle").value || 0) / 100);
+  return { kw: Math.max(0, +$("#d-kw").value || 0), ten: $("#d-ten").value, kwh: Math.max(0, +$("#d-kwh").value || 0), pico, valle };
+}
+function simulateDem(d, q) {
+  const t = d.tarifas.find((t) => (t.tension === null || t.tension === q.ten) && q.kw >= t.desde_kw && (t.hasta_kw === null || q.kw < t.hasta_kw));
+  const r = { t, parts: [], total: null };
+  if (!t) return r;
+  const e = t.energia;
+  const rep = "unica" in e ? { unica: 1 } : "fuera_pico" in e ? { pico: q.pico, fuera_pico: 1 - q.pico } : { pico: q.pico, resto: 1 - q.pico - q.valle, valle: q.valle };
+  const NAME = { unica: "Energía", pico: "Energía en pico", fuera_pico: "Energía fuera de pico", resto: "Energía en resto", valle: "Energía en valle" };
+  r.parts.push({ txt: "Cargo fijo", v: t.fijo });
+  for (const [c, p] of t.potencia) r.parts.push({ txt: `${c}: ${num(q.kw, 1)} kW × ${p == null ? "—" : num(p, 2)} $/kW-mes`, v: p == null ? null : p * q.kw });
+  for (const [k, sh] of Object.entries(rep)) {
+    const kwh = q.kwh * sh, p = e[k];
+    r.parts.push({ txt: `${NAME[k]}: ${num(kwh, 0)} kWh × ${p == null ? "—" : num(p)} $/kWh`, v: p == null ? null : p * kwh });
+  }
+  if (r.parts.every((x) => x.v != null)) r.total = r.parts.reduce((a, x) => a + x.v, 0);
+  return r;
+}
+function simLabel() {
+  if ($("#s-tipo").value === "res") return `${num(+$("#s-kwh").value || 0, 0)} kWh/mes`;
+  const q = demInputs();
+  return `${num(q.kw, 1)} kW en ${q.ten}, ${num(q.kwh, 0)} kWh/mes`;
+}
 function simResults() {
+  if ($("#s-tipo").value === "dem") {
+    const q = demInputs();
+    return DATA.distribuidoras.map((e) => {
+      let r = null, motivo = "";
+      if (e.demanda) {
+        r = simulateDem(e.demanda, q);
+        if (!r.t) motivo = "El cuadro no tiene una tarifa T2/T3 para esa potencia y tensión";
+        else if (r.total === null) motivo = "Al cuadro le faltan cargos para esta tarifa";
+      } else motivo = e.estado !== "ok" ? "Sin valores extraídos" : e.ocr ? "Valores leídos por OCR: no se usan en el simulador" : "Las tarifas T2/T3 de este cuadro todavía no están cargadas en el simulador";
+      return { e, r, total: r ? r.total : null, motivo, dem: true };
+    });
+  }
   const kwh = Math.max(0, +$("#s-kwh").value || 0);
   return DATA.distribuidoras.map((e) => {
     let r = null, motivo = "";
@@ -143,7 +182,16 @@ function simResults() {
     return { e, r, total: r ? r.total : null, motivo };
   });
 }
+function detalleDem(x) {
+  const d = x.e.demanda, r = x.r;
+  let h = `<div class="sim-det"><p><b>Criterio:</b> ${esc(d.criterio)} · <b>Tarifa:</b> ${esc(r.t ? r.t.nombre : "no encontrada")}</p>`;
+  if (!r.t || r.total === null) return h + `<p class="note">${esc(x.motivo)}.</p></div>`;
+  h += "<table><tbody>";
+  for (const p of r.parts) h += `<tr><td>${esc(p.txt)}</td><td class="num">${money(p.v)}</td></tr>`;
+  return h + `<tr><td><b>Total mensual</b></td><td class="num"><b>${money(r.total)}</b> /mes</td></tr></tbody></table></div>`;
+}
 function detalle(x) {
+  if (x.dem) return detalleDem(x);
   const s = x.e.simulador, r = x.r, per = s.periodo === "bimestre" ? "bim" : "mes";
   let h = `<div class="sim-det"><p><b>Criterio:</b> ${esc(s.criterio)} · <b>Categoría:</b> ${esc(r.cat ? r.cat.nombre || "única" : "no encontrada")}</p>`;
   if (r.f === 2) h += `<p>El cuadro factura por <b>bimestre</b>: se calcula con ${num(r.k, 1)} kWh/bimestre (${num(r.k / 2, 1)} kWh/mes × 2) y el resultado se divide por 2.</p>`;
@@ -155,6 +203,8 @@ function detalle(x) {
   return h + "</tbody></table></div>";
 }
 function renderSim() {
+  const q = demInputs();
+  $("#d-resto").textContent = `Resto ${num(Math.max(0, 100 * (1 - q.pico - q.valle)), 0)} %`;
   const all = simResults(), showAll = $("#s-all").checked;
   let rows = all.filter((x) => (!SIM.prov || x.e.provincia === SIM.prov) && (showAll || x.total !== null));
   rows = sortBy(rows, (x) => x.total, 1);
@@ -162,12 +212,12 @@ function renderSim() {
   let h = "";
   for (const x of rows) {
     const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
-    const badges = (x.e.simulador?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    const badges = (!x.dem && x.e.simulador?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
     h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
   }
   const n = all.filter((x) => x.total !== null).length;
   $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
-  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${num(+$("#s-kwh").value || 0, 0)} kWh/mes` + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
   $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
   renderMap(all);
 }
@@ -239,7 +289,11 @@ async function init() {
   ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
-  ["#s-all", "#m-modo"].forEach((s) => $(s).addEventListener("input", renderSim));
+  ["#s-all", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  $("#s-tipo").addEventListener("input", () => {
+    const dem = $("#s-tipo").value === "dem";
+    $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();
+  });
   document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => show(b.dataset.view)));
   renderList(); renderComp(); renderHist(); renderSim();
   try { MAP = await (await fetch("data/provincias.json")).json(); renderSim(); } catch { $("#map-wrap").hidden = true; }

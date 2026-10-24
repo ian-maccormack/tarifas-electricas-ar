@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scraper"))
-from simulador import _limit, build, cost  # noqa: E402
+from simulador import build_demanda, cost_demanda, _limit, build, cost  # noqa: E402
 
 
 def sim(periodo, cats):
@@ -97,3 +97,26 @@ def test_ape_components():
     assert [c["hasta"] for c in s["categorias"]] == [120, 220, 500, 700, 1400, None]
     fijo = 1517.32 + 2188.68 + 84.26
     assert round(cost(s, 100), 2) == round(fijo + 60 * (127.502866 + 19.34) + 40 * (127.502866 + 29.69), 2)
+
+
+
+def test_oceba_t2_t3():
+    d = build_demanda(_entry("eden"))
+    names = [t["nombre"] for t in d["tarifas"]]
+    assert names[:2] == ["T2BT", "T2MT"] and len(names) == 6
+    exp = 51711.45 + 20 * (16722.16 + 11401.10) + 5000 * 0.25 * 125.0918 + 5000 * 0.75 * 123.5126
+    assert round(cost_demanda(d, "BT", 20, 5000, 0.25, 0.3), 2) == round(exp, 2)
+    exp = 73070.14 + 400 * (18317.99 + 12085.20) + 90000 * (0.2 * 119.1169 + 0.5 * 116.1533 + 0.3 * 114.745)
+    assert round(cost_demanda(d, "MT", 400, 90000, 0.2, 0.3), 2) == round(exp, 2)
+    assert cost_demanda(d, "AT", 100, 1000, 0.2, 0.3) is None
+    assert cost_demanda(d, "BT", 5, 1000, 0.2, 0.3) is None
+
+
+def test_enre_t2_t3():
+    d = build_demanda(_entry("edenor"))
+    assert [t["nombre"] for t in d["tarifas"]][0] == "Tarifa 2" and len(d["tarifas"]) == 7
+    t2 = d["tarifas"][0]
+    exp = t2["fijo"] + 20 * sum(p for _, p in t2["potencia"]) + 4000 * t2["energia"]["unica"]
+    assert round(cost_demanda(d, "MT", 20, 4000, 0.25, 0.25), 2) == round(exp, 2)
+    t3 = next(t for t in d["tarifas"] if t["nombre"] == "Tarifa 3 - BT > 300")
+    assert t3["desde_kw"] == 300 and set(t3["energia"]) == {"pico", "resto", "valle"}

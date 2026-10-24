@@ -9,7 +9,7 @@ import traceback
 
 from common import document_text, fetch
 from parsers import PARSERS
-from simulador import build as build_sim
+from simulador import build as build_sim, build_demanda
 from sources import ORIGEN_SE, SOURCES, WAYBACK, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -220,6 +220,7 @@ def mark_staleness(e):
     e["mes_referencia"] = f"{ym[0]}-{ym[1]:02d}" if ym else None
     e["mes_referencia_origen"] = origin
     e["simulador"] = build_sim(e)
+    e["demanda"] = build_demanda(e)
     e["desactualizado"] = bool(ym) and (now.year * 12 + now.month) - (ym[0] * 12 + ym[1]) > STALE_MONTHS
     return e
 
