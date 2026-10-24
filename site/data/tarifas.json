@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T21:35:38+00:00",
+ "generado": "2026-10-24T22:10:01+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -2870,33 +2870,275 @@
   {
    "id": "edes",
    "empresa": "EDES",
-   "nombre": "Empresa Distribuidora de Energía Sur S.A. (en el listado: EDESSA)",
+   "nombre": "Empresa Distribuidora de Energía Sur S.A.",
    "provincia": "Buenos Aires",
-   "nota": "El regulador provincial (OCEBA) no responde desde el servidor del scraper.",
-   "estado": "documento",
+   "nota": "OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
+   "estado": "ok",
    "documento": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
-    "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa",
-    "origen": "Secretaría de Energía de la Nación (archivo)",
-    "tipo": "zip",
-    "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
-    "bytes": 386707,
-    "via": "archivo nacional"
+    "url": "https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
+    "titulo": "Cuadro tarifario EDES S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+    "pagina": "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17",
+    "origen": "Ente regulador / organismo provincial",
+    "tipo": "pdf",
+    "sha256": "3c935dd04809d5addc669ecb29d3b42c024f538eb61da6e5b13b4b850455a5a3",
+    "bytes": 293314,
+    "via": "búsqueda automática",
+    "archivado": {
+     "servicio": "Internet Archive (Wayback Machine)",
+     "url_original": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
+     "captura": "2026-06-13",
+     "pagina_captura": "https://web.archive.org/web/20261012004310/https://oceba.gba.gov.ar/nueva_web/s.php?i=17"
+    },
+    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/Reso_399_26.pdf"
    },
-   "vigencia": null,
-   "tablas": [],
-   "intentos": [
-    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
+   "vigencia": "Consumos desde el 1 de Junio de 2026",
+   "tablas": [
+    {
+     "titulo": "T1R - Residencial (categoría según consumo mensual)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R1",
+       "unidad": "$/mes",
+       "valores": [
+        5400.69
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+       "unidad": "$/kWh",
+       "valores": [
+        212.2569
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R2",
+       "unidad": "$/mes",
+       "valores": [
+        8283.38
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+       "unidad": "$/kWh",
+       "valores": [
+        224.9976
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R3",
+       "unidad": "$/mes",
+       "valores": [
+        11310.89
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+       "unidad": "$/kWh",
+       "valores": [
+        236.298
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R4",
+       "unidad": "$/mes",
+       "valores": [
+        14049.3
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+       "unidad": "$/kWh",
+       "valores": [
+        243.7649
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R5",
+       "unidad": "$/mes",
+       "valores": [
+        22554.91
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+       "unidad": "$/kWh",
+       "valores": [
+        257.0054
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R6",
+       "unidad": "$/mes",
+       "valores": [
+        36537.56
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+       "unidad": "$/kWh",
+       "valores": [
+        272.1945
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R7",
+       "unidad": "$/mes",
+       "valores": [
+        44609.88
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+       "unidad": "$/kWh",
+       "valores": [
+        292.7937
+       ],
+       "columnas": null
+      }
+     ]
+    }
    ],
-   "verificado": "2026-10-24T21:35:38+00:00",
-   "comparable": null,
+   "intentos": [
+    "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf"
+   ],
+   "verificado": "2026-10-24T22:08:37+00:00",
+   "comparable": {
+    "cargo_fijo": {
+     "valor": 5400.69,
+     "unidad": "$/mes",
+     "concepto": "CARGO FIJO R1",
+     "grupo": null,
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 212.2569,
+     "unidad": "$/kWh",
+     "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+     "grupo": null,
+     "columna": null
+    },
+    "nota": "T1R R1 (consumo ≤ 100 kWh-mes)"
+   },
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "mes_referencia": "2025-11",
-   "mes_referencia_origen": "título",
-   "simulador": null,
+   "archivo_nacional": {
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa"
+   },
+   "mes_referencia": "2026-06",
+   "mes_referencia_origen": "vigencia",
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1R residencial",
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 100,
+      "fijo": 5400.69,
+      "escalones": [
+       [
+        null,
+        212.2569
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 200,
+      "fijo": 8283.38,
+      "escalones": [
+       [
+        null,
+        224.9976
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 400,
+      "fijo": 11310.89,
+      "escalones": [
+       [
+        null,
+        236.298
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 500,
+      "fijo": 14049.3,
+      "escalones": [
+       [
+        null,
+        243.7649
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 22554.91,
+      "escalones": [
+       [
+        null,
+        257.0054
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": 1400,
+      "fijo": 36537.56,
+      "escalones": [
+       [
+        null,
+        272.1945
+       ]
+      ]
+     },
+     {
+      "nombre": "R7",
+      "hasta": null,
+      "fijo": 44609.88,
+      "escalones": [
+       [
+        null,
+        292.7937
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -5089,31 +5331,273 @@
    "empresa": "EDEN",
    "nombre": "Empresa Distribuidora de Energía Norte S.A.",
    "provincia": "Buenos Aires",
-   "nota": "El regulador provincial (OCEBA) no responde desde el servidor del scraper.",
-   "estado": "documento",
+   "nota": "OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
+   "estado": "ok",
    "documento": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
-    "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden",
-    "origen": "Secretaría de Energía de la Nación (archivo)",
-    "tipo": "zip",
-    "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
-    "bytes": 386707,
-    "via": "archivo nacional"
+    "url": "https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
+    "titulo": "Cuadro tarifario EDEN S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+    "pagina": "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17",
+    "origen": "Ente regulador / organismo provincial",
+    "tipo": "pdf",
+    "sha256": "51be93269b5bc251708d8802324911eb18553f19f05ea01cd6c200bcd729aa0e",
+    "bytes": 293016,
+    "via": "búsqueda automática",
+    "archivado": {
+     "servicio": "Internet Archive (Wayback Machine)",
+     "url_original": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
+     "captura": "2026-06-13",
+     "pagina_captura": "https://web.archive.org/web/20261012004310/https://oceba.gba.gov.ar/nueva_web/s.php?i=17"
+    },
+    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/Reso_399_26.pdf"
    },
-   "vigencia": null,
-   "tablas": [],
-   "intentos": [
-    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
+   "vigencia": "Consumos desde el 1 de Junio de 2026",
+   "tablas": [
+    {
+     "titulo": "T1R - Residencial (categoría según consumo mensual)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R1",
+       "unidad": "$/mes",
+       "valores": [
+        4835.87
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+       "unidad": "$/kWh",
+       "valores": [
+        210.8862
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R2",
+       "unidad": "$/mes",
+       "valores": [
+        7427.07
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+       "unidad": "$/kWh",
+       "valores": [
+        217.5914
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R3",
+       "unidad": "$/mes",
+       "valores": [
+        10146.12
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+       "unidad": "$/kWh",
+       "valores": [
+        230.6245
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R4",
+       "unidad": "$/mes",
+       "valores": [
+        12606.84
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+       "unidad": "$/kWh",
+       "valores": [
+        240.7838
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R5",
+       "unidad": "$/mes",
+       "valores": [
+        20249.3
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+       "unidad": "$/kWh",
+       "valores": [
+        250.1692
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R6",
+       "unidad": "$/mes",
+       "valores": [
+        32812.49
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+       "unidad": "$/kWh",
+       "valores": [
+        263.7662
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO FIJO R7",
+       "unidad": "$/mes",
+       "valores": [
+        40065.37
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+       "unidad": "$/kWh",
+       "valores": [
+        282.3253
+       ],
+       "columnas": null
+      }
+     ]
+    }
    ],
-   "verificado": "2026-10-24T21:35:38+00:00",
-   "comparable": null,
+   "intentos": [
+    "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf"
+   ],
+   "verificado": "2026-10-24T22:10:01+00:00",
+   "comparable": {
+    "cargo_fijo": {
+     "valor": 4835.87,
+     "unidad": "$/mes",
+     "concepto": "CARGO FIJO R1",
+     "grupo": null,
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 210.8862,
+     "unidad": "$/kWh",
+     "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+     "grupo": null,
+     "columna": null
+    },
+    "nota": "T1R R1 (consumo ≤ 100 kWh-mes)"
+   },
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "mes_referencia": "2025-11",
-   "mes_referencia_origen": "título",
-   "simulador": null,
+   "archivo_nacional": {
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden"
+   },
+   "mes_referencia": "2026-06",
+   "mes_referencia_origen": "vigencia",
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1R residencial",
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 100,
+      "fijo": 4835.87,
+      "escalones": [
+       [
+        null,
+        210.8862
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 200,
+      "fijo": 7427.07,
+      "escalones": [
+       [
+        null,
+        217.5914
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 400,
+      "fijo": 10146.12,
+      "escalones": [
+       [
+        null,
+        230.6245
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 500,
+      "fijo": 12606.84,
+      "escalones": [
+       [
+        null,
+        240.7838
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 20249.3,
+      "escalones": [
+       [
+        null,
+        250.1692
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": 1400,
+      "fijo": 32812.49,
+      "escalones": [
+       [
+        null,
+        263.7662
+       ]
+      ]
+     },
+     {
+      "nombre": "R7",
+      "hasta": null,
+      "fijo": 40065.37,
+      "escalones": [
+       [
+        null,
+        282.3253
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -17000,23 +17484,178 @@
    "empresa": "EPE",
    "nombre": "Empresa Provincial de la Energía de Santa Fe",
    "provincia": "Santa Fe",
-   "nota": "No se encontró el cuadro vigente publicado en el sitio de EPE.",
-   "estado": "sin_datos",
-   "documento": null,
-   "vigencia": null,
-   "tablas": [],
-   "intentos": [
-    "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07"
+   "nota": "",
+   "estado": "ok",
+   "documento": {
+    "url": "https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f",
+    "titulo": "Cuadro Tarifario Octubre 2026 (CUT_Residencial_Octubre_2026.pdf)",
+    "pagina": "https://epe.santafe.gov.ar/institucional/usuarios",
+    "origen": "Distribuidora",
+    "tipo": "pdf",
+    "sha256": "57362d63e8c808341734c854201055d1242989de38b7003040dcdcf644159624",
+    "bytes": 563998,
+    "via": "búsqueda automática"
+   },
+   "vigencia": "Consumos registrados desde el 1 de OCTUBRE de 2026",
+   "tablas": [
+    {
+     "titulo": "Residencial sin subsidio (valores mensuales, facturación bimestral) — Primeros 75 kWh/mes…",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Residencial hasta 20 kW: 1AA Urbano / 1NA Servicio Oficial Nacional / 1OA Servicio Oficial Provincial / 1PA Servicio Oficial Municipal",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        247.6447,
+        270.56492,
+        366.81394,
+        440.80713
+       ],
+       "columnas": [
+        "Cuota de Servicio ($/mes)",
+        "Primeros 75 kWh/mes ($/kWh)",
+        "Siguientes 75 kWh/mes ($/kWh)",
+        "Siguientes 150 kWh/mes ($/kWh)",
+        "Excedente de 300 kWh/mes ($/kWh)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "1BA Rural",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        5521.9579,
+        267.06601,
+        306.57296,
+        453.32428,
+        498.86093
+       ],
+       "columnas": [
+        "Cuota de Servicio ($/mes)",
+        "Primeros 75 kWh/mes ($/kWh)",
+        "Siguientes 75 kWh/mes ($/kWh)",
+        "Siguientes 150 kWh/mes ($/kWh)",
+        "Excedente de 300 kWh/mes ($/kWh)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "1CA Rural - Nocturno",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        0.0,
+        208.80206,
+        228.55553,
+        301.93119,
+        324.69952
+       ],
+       "columnas": [
+        "Cuota de Servicio ($/mes)",
+        "Primeros 75 kWh/mes ($/kWh)",
+        "Siguientes 75 kWh/mes ($/kWh)",
+        "Siguientes 150 kWh/mes ($/kWh)",
+        "Excedente de 300 kWh/mes ($/kWh)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Jubilados y Pensionados Hasta 120 kWh/mes: 1DA Urbano / 1EA Rural",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        170.37069,
+        190.38331
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Residencial sin subsidio (valores mensuales, facturación bimestral) — Primeros 150 kWh/mes…",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Residencial 1QA",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        247.6447,
+        270.56492,
+        366.81394,
+        440.80713
+       ],
+       "columnas": [
+        "Cuota de Servicio ($/mes)",
+        "Primeros 150 kWh/mes ($/kWh)",
+        "Siguientes 150 kWh/mes ($/kWh)",
+        "Siguientes 200 kWh/mes ($/kWh)",
+        "Excedente de 500 kWh/mes ($/kWh)"
+       ]
+      }
+     ]
+    }
    ],
-   "verificado": "2026-10-24T21:35:38+00:00",
+   "intentos": [
+    "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f"
+   ],
+   "verificado": "2026-10-24T22:10:01+00:00",
+   "comparable": {
+    "cargo_fijo": {
+     "valor": 3944.25564,
+     "unidad": "$/mes",
+     "concepto": "Residencial hasta 20 kW: 1AA Urbano / 1NA Servicio Oficial Nacional / 1OA Servicio Oficial Provincial / 1PA Servicio Oficial Municipal",
+     "grupo": null,
+     "columna": "Cuota de Servicio ($/mes)"
+    },
+    "cargo_variable": {
+     "valor": 247.6447,
+     "unidad": "$/kWh",
+     "concepto": "Residencial hasta 20 kW: 1AA Urbano / 1NA Servicio Oficial Nacional / 1OA Servicio Oficial Provincial / 1PA Servicio Oficial Municipal",
+     "grupo": null,
+     "columna": "Primeros 75 kWh/mes ($/kWh)"
+    },
+    "nota": "Residencial urbano sin subsidio (1AA), Primeros 75 kWh/mes"
+   },
+   "texto": true,
+   "escaneado": false,
+   "ocr": false,
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epe"
    },
-   "mes_referencia": null,
-   "mes_referencia_origen": null,
-   "simulador": null,
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Residencial urbano sin subsidio (1AA)",
+    "categorias": [
+     {
+      "nombre": "1AA Urbano",
+      "hasta": null,
+      "fijo": 3944.25564,
+      "escalones": [
+       [
+        75,
+        247.6447
+       ],
+       [
+        150,
+        270.56492
+       ],
+       [
+        300,
+        366.81394
+       ],
+       [
+        null,
+        440.80713
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {

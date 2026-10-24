@@ -915,5 +915,394 @@
     ]
    }
   ]
+ },
+ {
+  "id": "edes",
+  "detectado": "2026-10-24T22:08:37+00:00",
+  "sha256": "3c935dd04809d5addc669ecb29d3b42c024f538eb61da6e5b13b4b850455a5a3",
+  "url": "https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
+  "titulo": "Cuadro tarifario EDES S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+  "vigencia": "Consumos desde el 1 de Junio de 2026",
+  "tablas": [
+   {
+    "titulo": "T1R - Residencial (categoría según consumo mensual)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R1",
+      "unidad": "$/mes",
+      "valores": [
+       5400.69
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+      "unidad": "$/kWh",
+      "valores": [
+       212.2569
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R2",
+      "unidad": "$/mes",
+      "valores": [
+       8283.38
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+      "unidad": "$/kWh",
+      "valores": [
+       224.9976
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R3",
+      "unidad": "$/mes",
+      "valores": [
+       11310.89
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+      "unidad": "$/kWh",
+      "valores": [
+       236.298
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R4",
+      "unidad": "$/mes",
+      "valores": [
+       14049.3
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+      "unidad": "$/kWh",
+      "valores": [
+       243.7649
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R5",
+      "unidad": "$/mes",
+      "valores": [
+       22554.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+      "unidad": "$/kWh",
+      "valores": [
+       257.0054
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R6",
+      "unidad": "$/mes",
+      "valores": [
+       36537.56
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       272.1945
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R7",
+      "unidad": "$/mes",
+      "valores": [
+       44609.88
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       292.7937
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eden",
+  "detectado": "2026-10-24T22:10:01+00:00",
+  "sha256": "51be93269b5bc251708d8802324911eb18553f19f05ea01cd6c200bcd729aa0e",
+  "url": "https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
+  "titulo": "Cuadro tarifario EDEN S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+  "vigencia": "Consumos desde el 1 de Junio de 2026",
+  "tablas": [
+   {
+    "titulo": "T1R - Residencial (categoría según consumo mensual)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R1",
+      "unidad": "$/mes",
+      "valores": [
+       4835.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+      "unidad": "$/kWh",
+      "valores": [
+       210.8862
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R2",
+      "unidad": "$/mes",
+      "valores": [
+       7427.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+      "unidad": "$/kWh",
+      "valores": [
+       217.5914
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R3",
+      "unidad": "$/mes",
+      "valores": [
+       10146.12
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+      "unidad": "$/kWh",
+      "valores": [
+       230.6245
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R4",
+      "unidad": "$/mes",
+      "valores": [
+       12606.84
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+      "unidad": "$/kWh",
+      "valores": [
+       240.7838
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R5",
+      "unidad": "$/mes",
+      "valores": [
+       20249.3
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+      "unidad": "$/kWh",
+      "valores": [
+       250.1692
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R6",
+      "unidad": "$/mes",
+      "valores": [
+       32812.49
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       263.7662
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R7",
+      "unidad": "$/mes",
+      "valores": [
+       40065.37
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       282.3253
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "epe",
+  "detectado": "2026-10-24T22:10:01+00:00",
+  "sha256": "57362d63e8c808341734c854201055d1242989de38b7003040dcdcf644159624",
+  "url": "https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f",
+  "titulo": "Cuadro Tarifario Octubre 2026 (CUT_Residencial_Octubre_2026.pdf)",
+  "vigencia": "Consumos registrados desde el 1 de OCTUBRE de 2026",
+  "tablas": [
+   {
+    "titulo": "Residencial sin subsidio (valores mensuales, facturación bimestral) — Primeros 75 kWh/mes…",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Residencial hasta 20 kW: 1AA Urbano / 1NA Servicio Oficial Nacional / 1OA Servicio Oficial Provincial / 1PA Servicio Oficial Municipal",
+      "unidad": "$/mes; $/kWh",
+      "valores": [
+       3944.25564,
+       247.6447,
+       270.56492,
+       366.81394,
+       440.80713
+      ],
+      "columnas": [
+       "Cuota de Servicio ($/mes)",
+       "Primeros 75 kWh/mes ($/kWh)",
+       "Siguientes 75 kWh/mes ($/kWh)",
+       "Siguientes 150 kWh/mes ($/kWh)",
+       "Excedente de 300 kWh/mes ($/kWh)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "1BA Rural",
+      "unidad": "$/mes; $/kWh",
+      "valores": [
+       5521.9579,
+       267.06601,
+       306.57296,
+       453.32428,
+       498.86093
+      ],
+      "columnas": [
+       "Cuota de Servicio ($/mes)",
+       "Primeros 75 kWh/mes ($/kWh)",
+       "Siguientes 75 kWh/mes ($/kWh)",
+       "Siguientes 150 kWh/mes ($/kWh)",
+       "Excedente de 300 kWh/mes ($/kWh)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "1CA Rural - Nocturno",
+      "unidad": "$/mes; $/kWh",
+      "valores": [
+       0.0,
+       208.80206,
+       228.55553,
+       301.93119,
+       324.69952
+      ],
+      "columnas": [
+       "Cuota de Servicio ($/mes)",
+       "Primeros 75 kWh/mes ($/kWh)",
+       "Siguientes 75 kWh/mes ($/kWh)",
+       "Siguientes 150 kWh/mes ($/kWh)",
+       "Excedente de 300 kWh/mes ($/kWh)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Jubilados y Pensionados Hasta 120 kWh/mes: 1DA Urbano / 1EA Rural",
+      "unidad": "$/mes; $/kWh",
+      "valores": [
+       3944.25564,
+       170.37069,
+       190.38331
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Residencial sin subsidio (valores mensuales, facturación bimestral) — Primeros 150 kWh/mes…",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Residencial 1QA",
+      "unidad": "$/mes; $/kWh",
+      "valores": [
+       3944.25564,
+       247.6447,
+       270.56492,
+       366.81394,
+       440.80713
+      ],
+      "columnas": [
+       "Cuota de Servicio ($/mes)",
+       "Primeros 150 kWh/mes ($/kWh)",
+       "Siguientes 150 kWh/mes ($/kWh)",
+       "Siguientes 200 kWh/mes ($/kWh)",
+       "Excedente de 500 kWh/mes ($/kWh)"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

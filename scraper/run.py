@@ -10,7 +10,7 @@ import traceback
 from common import document_text, fetch
 from parsers import PARSERS
 from simulador import build as build_sim
-from sources import ORIGEN_SE, SOURCES, _date_key, date_key, se_archive
+from sources import ORIGEN_SE, SOURCES, WAYBACK, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -28,9 +28,9 @@ def candidates(s):
         yield "se", se_archive(s["se"]), ORIGEN_SE
 
 
-def get_doc(url):
+def get_doc(url, headers=None):
     CACHE.mkdir(exist_ok=True)
-    r = fetch(url, timeout=90)
+    r = _wayback(url, timeout=90) if url.startswith(WAYBACK) else fetch(url, timeout=90, headers=headers)
     return r.content, r.headers.get("content-type", "")
 
 
@@ -99,7 +99,7 @@ def process(s):
     for kind, disc, origen in candidates(s):
         try:
             d = disc()
-            content, ctype = get_doc(d["url"])
+            content, ctype = get_doc(d["url"], d.get("headers"))
             tipo, text, sheets = document_text(content, d["url"], ctype)
             if tipo in ("html",) and s["parser"] != "enre":
                 raise ValueError("el enlace devolvió una página HTML en vez del documento")
@@ -109,6 +109,9 @@ def process(s):
                        tipo=tipo, sha256=hashlib.sha256(content).hexdigest(), bytes=len(content),
                        via={"primary": "búsqueda automática", "known": "URL conocida",
                             "se": "archivo nacional"}[kind])
+            for k in ("archivado", "resolucion"):
+                if d.get(k):
+                    doc[k] = d[k]
             parsed = {"vigencia": None, "tablas": []}
             fn = PARSERS.get(s["parser"])
             if fn and text.strip():
@@ -122,7 +125,7 @@ def process(s):
                 tablas = validate(ocr_tables(s["id"], content))
                 used_ocr = bool(tablas)
                 parsed["comparable"] = ocr_comparable(s["id"], tablas)
-            entry.update(documento=doc, vigencia=parsed.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
+            entry.update(documento=doc, vigencia=parsed.get("vigencia") or d.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
                          texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr)
             if text.strip() and tipo != "html":
                 (TEXTS / f"{s['id']}.txt").write_text(text)

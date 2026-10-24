@@ -40,11 +40,11 @@ LEGACY.headers.update(SESSION.headers)
 LEGACY.mount("https://", _LegacyTLS())
 
 
-def fetch(url, timeout=40):
+def fetch(url, timeout=40, headers=None):
     last = None
     for sess, verify in ((SESSION, True), (SESSION, False), (LEGACY, False)):
         try:
-            r = sess.get(url, timeout=timeout, verify=verify, allow_redirects=True)
+            r = sess.get(url, timeout=timeout, verify=verify, allow_redirects=True, headers=headers)
             r.raise_for_status()
             return r
         except requests.exceptions.SSLError as e:

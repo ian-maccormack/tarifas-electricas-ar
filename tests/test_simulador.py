@@ -49,3 +49,23 @@ def test_ocr_and_unknown_distributors_are_not_simulated():
     assert build({"id": "edenor", "estado": "ok", "ocr": None, "tablas": tablas})["categorias"][0]["hasta"] == 150
     assert build({"id": "edenor", "estado": "ok", "ocr": {"x": 1}, "tablas": tablas}) is None
     assert build({"id": "zzz", "estado": "ok", "tablas": tablas}) is None
+
+
+def _entry(id):
+    import gzip, json
+    from parsers import PARSERS
+    fx = json.load(gzip.open(Path(__file__).resolve().parent / "fixtures" / f"{id}.json.gz", "rt"))
+    out = PARSERS[fx["source"]["parser"]](fx["text"], content=None, source=fx["source"], sheets=None)
+    return {"id": id, "estado": "ok", "ocr": False, "tablas": out["tablas"]}
+
+
+def test_oceba_category_by_monthly_consumption():
+    s = build(_entry("eden"))
+    assert [c["hasta"] for c in s["categorias"]] == [100, 200, 400, 500, 700, 1400, None]
+    assert round(cost(s, 150), 2) == round(7427.07 + 150 * 217.5914, 2)
+
+
+def test_epe_cumulative_blocks():
+    s = build(_entry("epe"))
+    assert [h for h, _ in s["categorias"][0]["escalones"]] == [75, 150, 300, None]
+    assert round(cost(s, 150), 2) == round(3944.25564 + 75 * 247.6447 + 75 * 270.56492, 2)

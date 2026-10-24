@@ -516,3 +516,83 @@ def p_emsa(text, **_):
     return {"vigencia": find(r"(Vigente a partir del Per[ií]odo \d\d/20\d\d)", text), "tablas": [t],
             "comparable": comparable([t], (r"^Cuota de servicio$", 0, r"500 kwh"), (r"^Primeros 30", 0, r"500 kwh"),
                                      "Residencial hasta 500 kWh/mes; primeros 30 kWh. El cuadro no indica la unidad de la cuota de servicio")}
+
+
+@parser("oceba")
+def p_oceba(text, **_):
+    """OCEBA annexes (EDEN, EDES): T1R categories R1..R7, each with its own fixed and variable charge."""
+    t = line_table(text, "T1R - Residencial (categoría según consumo mensual)", r"^\s*T1R - RESIDENCIAL\s*$",
+                   r"^\s*T1RE - RESIDENCIAL ESTACIONAL", dec=",", unit_after=True)
+    return {"vigencia": None, "tablas": [t],
+            "comparable": comparable([t], (r"^CARGO FIJO R1$", 0), (r"^CARGO VARIABLE R1\b", 0),
+                                     "T1R R1 (consumo ≤ 100 kWh-mes)")}
+
+
+EPE_NUM = re.compile(r"(?<![\d.,])\d{1,3}(?:\.\d{3})*,\d{5}(?![\d,])")
+EPE_CODE = re.compile(r"\b1[A-Z]A\b")
+
+
+def _epe_columns(header):
+    """Column names from a header block, only if its tiers add up to the stated excedente limit."""
+    h = re.sub(r"\s+", " ", " ".join(header))
+    tiers = [(w, int(n)) for w, n in re.findall(r"(Primeros|Siguientes) (\d+)", h)]
+    exc = re.search(r"Excedente de.*?(\d+)\s*kWh/mes", h)
+    if not tiers or not exc or tiers[0][0] != "Primeros" or sum(n for _, n in tiers) != int(exc.group(1)):
+        return None
+    return (["Cuota de Servicio ($/mes)"] + [f"{w} {n} kWh/mes ($/kWh)" for w, n in tiers]
+            + [f"Excedente de {exc.group(1)} kWh/mes ($/kWh)"])
+
+
+@parser("epe")
+def p_epe(text, **_):
+    """EPE 'residencial sin subsidio' tables. Values are vertically centred next to several tariff
+    codes, so a value row takes the codes of the lines around it; if two value rows compete for
+    the same lines, they are dropped."""
+    sub = section(text, r"TARIFA RESIDENCIAL - SIN SUBSIDIO", r"^\s*TARIFA SOCIAL")
+    lines = sub.splitlines()
+    starts = [i for i, l in enumerate(lines) if re.search(r"Cuota de\s", l)]
+    tablas = []
+    for n, s in enumerate(starts):
+        end = starts[n + 1] if n + 1 < len(starts) else len(lines)
+        hdr_end = next((i for i in range(s, end) if "$/sum" in lines[i]), None)
+        if hdr_end is None:
+            continue
+        cols = _epe_columns(lines[s:hdr_end + 1])
+        body = list(range(hdr_end + 1, end))
+        vals = {i: [parse_num(x, ",") for x in EPE_NUM.findall(lines[i])] for i in body}
+        coded = [i for i in body if vals[i] and EPE_CODE.search(lines[i])]
+        bare = [i for i in body if vals[i] and not EPE_CODE.search(lines[i])]
+        bounds = [hdr_end] + coded + [end]
+        filas = []
+        for i in sorted(coded + bare):
+            if i in coded:
+                label = squeeze(EPE_NUM.sub("", lines[i]))
+            else:
+                lo = max(b for b in bounds if b < i)
+                hi = min(b for b in bounds if b > i)
+                if len([j for j in bare if lo < j < hi]) != 1:
+                    continue
+                parts = [squeeze(EPE_CODE.sub(lambda m: "|" + m.group(0), lines[j])) for j in range(lo + 1, hi)
+                         if j != i and EPE_CODE.search(lines[j])]
+                label = " / ".join(squeeze(p.split("|", 1)[-1]) for p in parts)
+                grupo = " ".join(squeeze(EPE_CODE.split(lines[j])[0]) for j in range(lo + 1, hi)
+                                 if j != i and squeeze(EPE_CODE.split(lines[j])[0]))
+                label = (squeeze(grupo) + ": " if grupo else "") + label
+            if not EPE_CODE.search(label):
+                continue
+            filas.append({"grupo": None, "concepto": label, "unidad": "$/mes; $/kWh", "valores": vals[i],
+                          "columnas": assign(vals[i], cols)})
+        if filas:
+            tablas.append({"titulo": "Residencial sin subsidio (valores mensuales, facturación bimestral)" +
+                           (f" — {cols[1].split(' (')[0]}…" if cols else ""), "filas": filas})
+    comp = None
+    for t in tablas:
+        f = next((f for f in t["filas"] if re.search(r"\b1AA\b", f["concepto"]) and f.get("columnas")), None)
+        if f:
+            comp = {"cargo_fijo": {"valor": f["valores"][0], "unidad": "$/mes", "concepto": f["concepto"], "grupo": None,
+                                   "columna": f["columnas"][0]},
+                    "cargo_variable": {"valor": f["valores"][1], "unidad": "$/kWh", "concepto": f["concepto"], "grupo": None,
+                                       "columna": f["columnas"][1]},
+                    "nota": f"Residencial urbano sin subsidio (1AA), {f['columnas'][1].split(' (')[0]}"}
+            break
+    return {"vigencia": find(r"(Consumos registrados desde el [^\n]+?20\d\d)", text), "tablas": tablas, "comparable": comp}

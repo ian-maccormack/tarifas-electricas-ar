@@ -1,8 +1,9 @@
 """Registry of distributors and how to discover their current tariff document."""
+import html
+import json
 import re
-from urllib.parse import unquote
-
-from urllib.parse import urljoin
+import time
+from urllib.parse import unquote, urljoin
 
 from common import MESES, fetch, links, norm
 
@@ -166,6 +167,111 @@ def wp_media(site, search, url_re):
 S = []
 
 
+WAYBACK = "https://web.archive.org/web/"
+OCEBA_PAGE = "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17"
+
+
+def _wayback(url, timeout=60):
+    """GET through the Internet Archive, retrying while it reports being offline."""
+    last = None
+    for i in range(3):
+        try:
+            r = fetch(url, timeout=timeout)
+            if "Internet Archive: " not in r.text[:400] or "Offline" not in r.text[:400]:
+                return r
+            last = RuntimeError("Internet Archive fuera de servicio")
+        except Exception as e:
+            last = e
+        time.sleep(10 * (i + 1))
+    raise last
+
+
+def _captures(url_pattern, limit=None):
+    """[(timestamp, original_url)] with HTTP 200 in the Internet Archive, oldest first."""
+    q = f"https://web.archive.org/cdx/search/cdx?url={url_pattern}&output=json&filter=statuscode:200&fl=timestamp,original"
+    if limit:
+        q += f"&limit={limit}"
+    rows = json.loads(_wayback(q).text or "[]")
+    return [tuple(r) for r in rows[1:]]
+
+
+def _oceba_blocks(page_html, empresa):
+    """[(vigencia, resolución_url, pdf_url)] for the general tariff ('DEMANDA RESIDENCIAL', ...) of
+    every approval block on the OCEBA page; the newest validity first."""
+    t = html.unescape(page_html)
+    out = []
+    for blk in re.split(r"Tarifas aprobadas por", t)[1:]:
+        mv = re.search(r"vigentes\s+a\s*partir de consumos del\s+([^.<]+?20\d\d)", blk)
+        mr = re.search(r'href="([^"]+\.pdf)"', blk)
+        heads = re.split(r"TARIFA APLICABLE A", blk)
+        if not mv or len(heads) < 2 or not re.match(r'\s*"DEMANDA RESIDENCIAL"', heads[1]):
+            continue
+        ml = re.search(r'href="([^"]+\.pdf)"[^>]*>\s*' + re.escape(empresa) + r"\s+S\.A\.", heads[1])
+        if ml:
+            out.append((re.sub(r"\s+", " ", mv.group(1)).strip(), urljoin(OCEBA_PAGE, mr.group(1)) if mr else None,
+                        urljoin(OCEBA_PAGE, ml.group(1))))
+    return sorted(out, key=lambda b: _date_key(norm(b[0])), reverse=True)
+
+
+def oceba(empresa):
+    """OCEBA publishes one annex per distributor. Its site blocks the scraper, so when the live page
+    does not answer, use the newest copy of the page and annex kept by the Internet Archive."""
+    def disc():
+        def result(vig, reso, pdf, url, archivado=None):
+            titulo = f"Cuadro tarifario {empresa} S.A. (OCEBA), consumos desde el {vig}"
+            return {"url": url, "titulo": titulo + (" — copia archivada" if archivado else ""), "pagina": OCEBA_PAGE,
+                    "vigencia": f"Consumos desde el {vig}", "resolucion": reso, "archivado": archivado}
+        try:
+            blocks = _oceba_blocks(fetch(OCEBA_PAGE, timeout=30).text, empresa)
+            if blocks:
+                return result(*blocks[0], blocks[0][2])
+        except Exception:
+            pass
+        snaps = sorted(_captures("oceba.gba.gov.ar/nueva_web/s.php?i=17"), reverse=True)
+        for ts, orig in snaps[:4]:
+            page = _wayback(f"{WAYBACK}{ts}id_/{orig}").text
+            for vig, reso, pdf in _oceba_blocks(page, empresa):
+                caps = _captures(pdf.split("://", 1)[1].replace("www.", "", 1))
+                if caps:
+                    cts, corig = caps[-1]
+                    return result(vig, reso, pdf, f"{WAYBACK}{cts}id_/{corig}",
+                                  {"servicio": "Internet Archive (Wayback Machine)", "url_original": pdf,
+                                   "captura": f"{cts[:4]}-{cts[4:6]}-{cts[6:8]}", "pagina_captura": f"{WAYBACK}{ts}/{orig}"})
+        raise LookupError("ni OCEBA ni el Internet Archive tienen el anexo de " + empresa)
+    return disc
+
+
+EPE_PAGE = "https://epe.santafe.gov.ar/institucional/usuarios"
+EPE_API = "https://epe.santafe.gov.ar/institucional-api/download/"
+
+
+def _epe_headers(page, component):
+    """Headers the site's own download component sends (its public client key lives in the bundle)."""
+    js = fetch(urljoin(page, component)).text
+    m = re.search(r'from\s*"(\./httpClient[^"]+\.js)"', js)
+    key = re.search(r'"x-api-key":\s*[`"\']([^`"\']+)', fetch(urljoin(urljoin(page, component), m.group(1))).text) if m else None
+    if not key:
+        raise LookupError("no se encontró cómo descarga archivos la página de EPE")
+    return {"x-api-key": key.group(1)}
+
+
+def epe():
+    """The EPE page renders its files with a client component; the file hash is in its props."""
+    r = fetch(EPE_PAGE)
+    best, component = None, None
+    for comp, raw in re.findall(r'<astro-island[^>]*component-url="([^"]*DownloadFile[^"]*)"[^>]*props="([^"]+)"', r.text):
+        component = comp
+        props = {k: v[1] for k, v in json.loads(html.unescape(raw)).items() if isinstance(v, list)}
+        title, name = props.get("title") or "", props.get("fileName") or ""
+        if re.search(r"cuadro tarifario", title, re.I) and re.search(r"residencial", name, re.I) and props.get("fileHash"):
+            key = date_key(name, title)
+            if best is None or key > best[0]:
+                best = (key, {"url": EPE_API + props["fileHash"], "titulo": f"{title} ({name})", "pagina": EPE_PAGE})
+    if not best:
+        raise LookupError("sin cuadro tarifario residencial en la página de EPE")
+    return {**best[1], "headers": _epe_headers(EPE_PAGE, component)}
+
+
 def src(id, empresa, nombre, provincia, primary=None, origen=ORIGEN_DIST, se=None, parser=None, nota="", known=None, ocr=False):
     S.append(dict(id=id, empresa=empresa, nombre=nombre, provincia=provincia,
                   primary=primary, origen=origen, se=se, parser=parser or id, nota=nota, known=known,
@@ -176,15 +282,17 @@ src("edenor", "EDENOR", "Empresa Distribuidora y Comercializadora Norte S.A.", "
     enre, "ENRE / ENReGE", "edenor", parser="enre")
 src("edesur", "EDESUR", "Empresa Distribuidora Sur S.A.", "Ciudad de Buenos Aires y GBA",
     enre, "ENRE / ENReGE", "edesur", parser="enre")
-src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A. (en el listado: EDESSA)", "Buenos Aires",
-    None, se="edessa", nota="El regulador provincial (OCEBA) no responde desde el servidor del scraper.")
+src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A.", "Buenos Aires",
+    oceba("EDES"), ORIGEN_ENTE, "edessa", parser="oceba",
+    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.")
 src("edea", "EDEA", "Empresa Distribuidora de Energía Atlántica S.A.", "Buenos Aires",
     page_latest("https://www.edeaweb.com.ar/cuadro-tarifario/", r"/uploads/.*\.pdf$"), se="edea")
 src("edelap", "EDELAP", "Empresa Distribuidora La Plata S.A.", "Buenos Aires",
     wp_media("https://www.edelap.com.ar", "tarifario", r"/uploads/.*cuadro-tarifario.*\.pdf$"), se="edelap",
     known="https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf")
 src("eden", "EDEN", "Empresa Distribuidora de Energía Norte S.A.", "Buenos Aires",
-    None, se="eden", nota="El regulador provincial (OCEBA) no responde desde el servidor del scraper.")
+    oceba("EDEN"), ORIGEN_ENTE, "eden", parser="oceba",
+    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.")
 src("ecsapem", "EC SAPEM", "Energía Catamarca S.A.P.E.M.", "Catamarca",
     page_latest("https://www.ecsapem.com.ar/", r"/uploads/.*cuadro.*\.pdf$"), se="ecsapem",
     known="https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf")
@@ -237,8 +345,7 @@ src("edesal", "EDESAL", "Empresa Distribuidora San Luis S.A.", "San Luis",
     page_latest("https://edesalenergia.com.ar/eener/cuadro_tarifario.html", r"\.pdf$"), se="edesal-sa")
 src("spse", "SPSE", "Servicios Públicos Sociedad del Estado", "Santa Cruz", None, se="spse-0",
     nota="El sitio de SPSE no responde desde el servidor del scraper.")
-src("epe", "EPE", "Empresa Provincial de la Energía de Santa Fe", "Santa Fe", None, se="epe",
-    nota="No se encontró el cuadro vigente publicado en el sitio de EPE.")
+src("epe", "EPE", "Empresa Provincial de la Energía de Santa Fe", "Santa Fe", epe, se="epe", parser="epe")
 src("edese", "EDESE", "Empresa Distribuidora de Electricidad de Santiago del Estero S.A.", "Santiago del Estero",
     fixed("https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf", "Cuadro tarifario vigente (EDESE)"), se="edese")
 src("dpe", "DPE", "Dirección Provincial de Energía de Tierra del Fuego", "Tierra del Fuego",

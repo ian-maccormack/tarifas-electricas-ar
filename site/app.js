@@ -29,7 +29,8 @@ function tableHTML(t) {
 function card(e) {
   const d = e.documento;
   const stale = e.ultimo_intento_fallido ? `<span class="badge b-stale">Último intento fallido</span>` : "";
-  const via = d && d.via === "archivo nacional" ? `<span class="badge b-old">Archivo nacional (puede no ser el vigente)</span>` : "";
+  const via = d && d.via === "archivo nacional" ? `<span class="badge b-old">Archivo nacional (puede no ser el vigente)</span>`
+    : d && d.archivado ? `<span class="badge b-old" title="El sitio oficial no responde: el documento es la copia guardada por el Internet Archive">Copia archivada</span>` : "";
   let body = "";
   if (e.desactualizado) body += `<div class="alert viejo"><b>Documento de hace más de 2 meses.</b> El mes de referencia (${esc(mesfmt(e.mes_referencia))}, según ${esc(e.mes_referencia_origen)}) es de hace más de 2 meses. No se encontró un cuadro más nuevo en las fuentes consultadas; puede seguir vigente, pero conviene confirmarlo con la distribuidora o el ente regulador.</div>`;
   if (e.ocr) body += `<div class="alert ocr"><b>Valores leídos por OCR</b> del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; los nombres de columna se muestran solo cuando el encabezado se leyó claramente. Verificá contra el documento antes de usar un valor.</div>`;
@@ -42,6 +43,8 @@ function card(e) {
     <dt>SHA-256</dt><dd><code>${esc(d.sha256.slice(0, 16))}…</code></dd>`;
   body += `<dt>Verificado</dt><dd>${dfmt(e.verificado)}${e.ultimo_intento ? ` · último intento: ${dfmt(e.ultimo_intento)}` : ""}</dd>`;
   if (e.texto) body += `<dt>Texto extraído</dt><dd><a href="data/textos/${e.id}.txt" target="_blank">ver texto completo del documento</a></dd>`;
+  if (d && d.archivado) body += `<dt>Copia archivada</dt><dd>El sitio oficial no responde desde el servidor del scraper. El documento se descargó de la copia guardada por el ${esc(d.archivado.servicio)} el ${esc(d.archivado.captura)}. <a href="${esc(d.archivado.url_original)}" target="_blank" rel="noopener">URL original</a>${d.archivado.pagina_captura ? ` · <a href="${esc(d.archivado.pagina_captura)}" target="_blank" rel="noopener">página archivada</a>` : ""}. Puede existir un cuadro más nuevo que no fue archivado.</dd>`;
+  if (d && d.resolucion) body += `<dt>Resolución</dt><dd><a href="${esc(d.resolucion)}" target="_blank" rel="noopener">${esc(d.resolucion.split("/").pop())}</a></dd>`;
   if (e.archivo_nacional) body += `<dt>Archivo nacional</dt><dd><a href="${esc(e.archivo_nacional.url)}" target="_blank" rel="noopener">${esc(e.archivo_nacional.titulo)}</a></dd>`;
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
   if (!e.ocr && e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;

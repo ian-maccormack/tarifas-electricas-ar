@@ -127,6 +127,42 @@ def dpec(tablas):
                             "escalones": [[int(m.group(1)), _val(base)], [None, _val(exc)]] if ok else [[None, None]]}]}
 
 
+@builder("eden", "edes")
+def oceba(tablas):
+    """Buenos Aires T1R: the monthly consumption sets the category, whose charges apply to all kWh."""
+    filas, cats = tablas[0]["filas"], []
+    for f in filas:
+        m = re.match(r"^CARGO VARIABLE (R\d+)\b(.*)$", f["concepto"])
+        if not m:
+            continue
+        lim = re.search(r"≤\s*(\d+)\)", m.group(2))
+        if not lim and not re.search(r">\s*\d+\)", m.group(2)):
+            raise ValueError(f"límite no reconocido: {f['concepto']}")
+        cats.append({"nombre": m.group(1), "hasta": int(lim.group(1)) if lim else None,
+                     "fijo": _val(_row(filas, rf"^CARGO FIJO {m.group(1)}$")), "escalones": [[None, _val(f)]]})
+    return {"periodo": "mes", "criterio": "T1R residencial", "categorias": cats}
+
+
+@builder("epe")
+def epe(tablas):
+    """EPE: monthly values in cumulative blocks (Primeros / Siguientes / Excedente)."""
+    for t in tablas:
+        f = next((f for f in t["filas"] if re.search(r"\b1AA\b", f["concepto"]) and f.get("columnas")), None)
+        if not f:
+            continue
+        esc, acc = [], 0
+        for col, precio in zip(f["columnas"][1:], f["valores"][1:]):
+            m = re.match(r"(Primeros|Siguientes) (\d+)", col)
+            if m:
+                acc += int(m.group(2))
+                esc.append([acc, precio])
+            else:
+                esc.append([None, precio])
+        return {"periodo": "mes", "criterio": "Residencial urbano sin subsidio (1AA)",
+                "categorias": [{"nombre": "1AA Urbano", "hasta": None, "fijo": f["valores"][0], "escalones": esc}]}
+    return {"periodo": "mes", "criterio": "", "categorias": []}
+
+
 def build(entry):
     fn = BUILDERS.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
