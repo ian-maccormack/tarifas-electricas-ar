@@ -262,7 +262,7 @@
  },
  {
   "id": "edelap",
-  "detectado": "2026-10-24T18:05:41+00:00",
+  "detectado": "2026-10-24T18:08:45+00:00",
   "sha256": "435e0505f13aa7ec6dfda7c09e2240904fa1e75bdeac6c82027d644c072c6b07",
   "url": "https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf",
   "titulo": "EDELAP-Cuadro-tarifario-Septiembre.pdf",
@@ -293,10 +293,10 @@
      },
      {
       "grupo": "Cargo variable por energía 301-325",
-      "concepto": "SAW",
+      "concepto": "SAN",
       "unidad": null,
       "valores": [
-       null,
+       137.4262,
        137.4262,
        137.4262
       ],
@@ -318,20 +318,9 @@
       "concepto": "Cargo variable por energía",
       "unidad": "S/kwh",
       "valores": [
-       149.3267,
+       null,
        null,
        149.3267
-      ],
-      "columnas": null
-     },
-     {
-      "grupo": "Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
-      "concepto": "Cargo variable por energía",
-      "unidad": "S/n",
-      "valores": [
-       165.1251,
-       null,
-       null
       ],
       "columnas": null
      },
@@ -340,9 +329,9 @@
       "concepto": "Cargo fijo",
       "unidad": "$/mes",
       "valores": [
-       59498.79,
+       null,
        54765.17,
-       59498.79
+       null
       ],
       "columnas": null
      },
@@ -353,14 +342,14 @@
       "valores": [
        null,
        15191.93,
-       null
+       20501.33
       ],
       "columnas": null
      },
      {
       "grupo": "Consumo Mensual mayor a 500kWH e inferior o igual a 700 kWh",
       "concepto": "Cargo variable por energía",
-      "unidad": "$/kvwh",
+      "unidad": "$/kwh",
       "valores": [
        163.6821,
        163.6821,
@@ -423,8 +412,8 @@
      },
      {
       "grupo": "Cargo variable por energía",
-      "concepto": "SAA",
-      "unidad": null,
+      "concepto": "o",
+      "unidad": "S/n",
       "valores": [
        145.6073
       ],
@@ -442,18 +431,18 @@
       "columnas": null
      },
      {
-      "grupo": "Cargo variable por energía",
-      "concepto": "SAW",
-      "unidad": null,
+      "grupo": "Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/Awh",
       "valores": [
        192.6088,
-       126.2214,
+       null,
        192.6088
       ],
       "columnas": null
      },
      {
-      "grupo": "Consumo Mensual mayor a S00KVM e inferior o Igual a 700 kWh",
+      "grupo": "Consumo Mensual mayor a 800KVMN e inferior o Igual a 700 kWh",
       "concepto": "Cargo fijo",
       "unidad": "$/mes",
       "valores": [
@@ -464,7 +453,7 @@
       "columnas": null
      },
      {
-      "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+      "grupo": "Consumo Mensual mayor. 2 500K Whe inferior o igual a 700 kWh",
       "concepto": "Cargo fo",
       "unidad": "$/mes",
       "valores": [
@@ -473,9 +462,9 @@
       "columnas": null
      },
      {
-      "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+      "grupo": "Consumo Mensual mayor. 2 500K Whe inferior o igual a 700 kWh",
       "concepto": "Cargo variable por energía",
-      "unidad": "S/Awh",
+      "unidad": "S/AwWh",
       "valores": [
        175.2388
       ],
@@ -488,7 +477,7 @@
       "valores": [
        75518.56,
        70209.15,
-       null
+       75518.56
       ],
       "columnas": null
      },
@@ -513,27 +502,27 @@
       "columnas": null
      },
      {
-      "grupo": "Cargo variable por energía",
-      "concepto": "SIA",
-      "unidad": null,
+      "grupo": "Consumo Mensual mayor a 700 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "S/wh",
       "valores": [
        176.4818
       ],
       "columnas": null
      },
      {
-      "grupo": "Cargo variable por energía",
-      "concepto": "SAA",
-      "unidad": null,
+      "grupo": "Consumo Mensual mayor a 1400kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "S/N",
       "valores": [
        211.0473,
        144.6599,
-       211.0473
+       null
       ],
       "columnas": null
      },
      {
-      "grupo": "Cargo variable por energía",
+      "grupo": "Consumo Mensual mayor a 700 kWh",
       "concepto": "Por capacidad de suministro contratada",
       "unidad": "S/kW-mes",
       "valores": [
@@ -543,7 +532,7 @@
      },
      {
       "grupo": null,
-      "concepto": "SAW",
+      "concepto": "SAN",
       "unidad": null,
       "valores": [
        214.9487
@@ -551,16 +540,16 @@
       "columnas": null
      },
      {
-      "grupo": "S/KW-mes 17.622.315,52",
-      "concepto": "SAN",
-      "unidad": null,
+      "grupo": "Por capacidad de suministro contratada",
+      "concepto": "Cargo variable por energía",
+      "unidad": "S/N",
       "valores": [
        98054.08
       ],
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Consumo Mensual mayor a 150KWh e inferior o igual a 325kWh",
+      "grupo": "Consumo Mensual mayor a 150KWh e inferior o igual a 325kWh",
       "concepto": "Cargo fo",
       "unidad": "$/mes",
       "valores": [
@@ -571,30 +560,30 @@
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
-      "concepto": "Cargo fijo",
-      "unidad": "$/mes",
+      "grupo": "Consumo Mensual mayor a 450 KWVh e inferior a iguala 500 KW",
+      "concepto": "Cargo variable por energía",
+      "unidad": "S/kwWn",
       "valores": [
-       20501.33,
        null,
+       179.3775,
        null
       ],
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-      "concepto": "Cargo fijo",
-      "unidad": "$/mes",
+      "grupo": "S/kwWn 168,9471 153,8064 136,0897",
+      "concepto": "SI",
+      "unidad": null,
       "valores": [
-       42132.81,
-       null,
-       null
+       165.4028,
+       150.614,
+       132.9266
       ],
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Cargo variable por energía",
-      "concepto": "SAN",
+      "grupo": "Cargo variable por energía",
+      "concepto": "SAW",
       "unidad": null,
       "valores": [
        192.6088,
@@ -604,7 +593,7 @@
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Cargo variable por energía",
+      "grupo": "Cargo variable por energía",
       "concepto": "Cargo variable por energía",
       "unidad": "$/kwn",
       "valores": [
@@ -615,19 +604,19 @@
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
+      "grupo": "Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
       "concepto": "Cargo fijo",
       "unidad": "$/mes",
       "valores": [
-       75518.56,
+       null,
        70209.15,
        75518.56
       ],
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Cargo variable por energía",
-      "concepto": "SAN",
+      "grupo": "Cargo variable por energía",
+      "concepto": "SAW",
       "unidad": null,
       "valores": [
        209.9216,
@@ -637,7 +626,7 @@
       "columnas": null
      },
      {
-      "grupo": "T1-R2: · Consumo Mensual mayor a 1400kWh",
+      "grupo": "Consumo Mensual mayor a 1400kWh",
       "concepto": "“mes",
       "unidad": null,
       "valores": [
@@ -667,7 +656,7 @@
      },
      {
       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
-      "concepto": "Simes",
+      "concepto": "Smes",
       "unidad": null,
       "valores": [
        122427.5
@@ -675,18 +664,9 @@
       "columnas": null
      },
      {
-      "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Cargo variable por energía",
-      "concepto": "SA",
-      "unidad": null,
-      "valores": [
-       230.9278
-      ],
-      "columnas": null
-     },
-     {
       "grupo": "Por cada servicio interrumpido por falta de pago:",
       "concepto": "Tarifa N*1 Uso Residencial",
-      "unidad": "S/Serv.",
+      "unidad": "s/Serv",
       "valores": [
        6108.82
       ],
@@ -695,7 +675,7 @@
      {
       "grupo": "Por cada servicio interrumpido por falta de pago:",
       "concepto": "Tarifa N*1 Uso General",
-      "unidad": "S/Ser.",
+      "unidad": "S/Serv.",
       "valores": [
        36985.95
       ],
@@ -722,14 +702,14 @@
      {
       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
       "concepto": "Cargo variable por energía",
-      "unidad": "S/Wh",
+      "unidad": "S/KWh",
       "valores": [
        217.7161
       ],
       "columnas": null
      },
      {
-      "grupo": "S/ MWh 36030,70 21283,13 3610,49",
+      "grupo": "Tarifa N*2",
       "concepto": "8/Serv.",
       "unidad": null,
       "valores": [
@@ -752,13 +732,13 @@
       "unidad": "$/mes",
       "valores": [
        22733.75,
-       18000.13,
+       null,
        null
       ],
       "columnas": null
      },
      {
-      "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+      "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
       "concepto": "Aéreas Monofásicas",
       "unidad": "$/Cliente",
       "valores": [
@@ -767,7 +747,7 @@
       "columnas": null
      },
      {
-      "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+      "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
       "concepto": "Subterráneas Monofásicas",
       "unidad": "$/Cliente",
       "valores": [
@@ -787,21 +767,11 @@
       "columnas": null
      },
      {
-      "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+      "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
       "concepto": "Aéreas Trifásicas",
       "unidad": "$/Cliente",
       "valores": [
        60387.32
-      ],
-      "columnas": null
-     },
-     {
-      "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Consumo Mensual mayor a 500 kWh e inferior o igual a 700 kWh",
-      "concepto": "Ses",
-      "unidad": null,
-      "valores": [
-       54765.17,
-       null
       ],
       "columnas": null
      },
@@ -900,7 +870,7 @@
      {
       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G2: Consumo Mensual mayor a 800 kWh e inferior o iguala 2000 kWh",
       "concepto": "Cargo variable por energía",
-      "unidad": "$/AMh",
+      "unidad": "$/AWh",
       "valores": [
        154.238
       ],
@@ -916,7 +886,16 @@
       "columnas": null
      },
      {
-      "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G3: Consumo Mensual mayor a 2000 kWh",
+      "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · TI-G3: Consumo Mensual mayor a 2000 kWh",
+      "concepto": "Simes",
+      "unidad": null,
+      "valores": [
+       278018.38
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · TI-G3: Consumo Mensual mayor a 2000 kWh",
       "concepto": "Por capacidad de suministro contratada",
       "unidad": "$/W-mes",
       "valores": [

@@ -99,6 +99,22 @@ def ocr_rows(pages, dec=None):
                 and abs(r["y"] - w["y"]) < max(w["h"], 20) for r in rw)
 
         heads = []  # (x0, is_section, text), in reading order
+        colheads = []  # [(x_center, text), ...] of header lines such as "Cargo fijo  Tarifa plena"
+
+        def columns(xs):
+            if not xs:
+                return None
+            for hdr in reversed(colheads):
+                if not hdr or min(abs(x - hx) for x in xs for hx, _ in hdr) > 0.04 * width:
+                    continue
+                out = []
+                for x in xs:
+                    hx, ht = min(hdr, key=lambda h: abs(h[0] - x))
+                    out.append(ht if abs(hx - x) < 0.04 * width else None)
+                if len(out) >= 2 and all(out) and len(set(out)) == len(out):
+                    return out
+                return None
+            return None
 
         def context(x0):
             near = [h for h in heads if h[0] <= x0 + 0.02 * width and x0 - h[0] < 0.25 * width]
@@ -122,6 +138,15 @@ def ocr_rows(pages, dec=None):
                 cur.append(b)
             segs.append(cur)
             row, done = None, []
+            labels = [" ".join(w["t"] for w in sg) for sg in segs]
+            if len(segs) >= 3 and all(len(t) <= 25 and not NUM.search(t.replace("T", "")) or re.fullmatch(r"T\d\w*", t)
+                                      for t in labels[1:]):
+                hdr = [((sg[0]["x0"] + sg[-1]["x1"]) / 2, t) for sg, t in zip(segs[1:], labels[1:])
+                       if not UNIT.match(t) and not re.fullmatch(r"(?i)unidad|un\.?", t)]
+                wordy = [h for h in hdr if re.fullmatch(r"[A-Za-zÁÉÍÓÚáéíóúÑñ][A-Za-zÁÉÍÓÚáéíóúÑñ.\s/]{2,}", h[1])
+                         or re.fullmatch(r"T\d[A-Z]{1,3}", h[1])]
+                if len(wordy) >= 2 and len(wordy) == len(hdr):
+                    colheads.append(hdr)
             for seg in segs:
                 text = re.sub(r"\s+", " ", " ".join(w["t"] for w in seg)).strip()
                 numeric = all(NUM.fullmatch(w["t"].strip("$")) or w["t"] in ("$", "-") for w in seg)
@@ -134,13 +159,15 @@ def ocr_rows(pages, dec=None):
                     row = {"pagina": pi, "x0": seg[0]["x0"], "concepto": text, "unidad": None, "valores": []}
                     continue
                 if row is not None:
-                    row["valores"] += [parse_num(w["t"], dec) if confirmed(w) else None
-                                       for w in seg if NUM.fullmatch(w["t"])]
+                    nums = [w for w in seg if NUM.fullmatch(w["t"])]
+                    row["valores"] += [parse_num(w["t"], dec) if confirmed(w) else None for w in nums]
+                    row.setdefault("_xs", []).extend((w["x0"] + w["x1"]) / 2 for w in nums)
             if row is not None:
                 done.append(row)
             for r in done:
                 x0 = r.pop("x0")
                 if not r["valores"]:
+                    r.pop("_xs", None)
                     if re.match(r"^T\s?\d|^Tarifa", r["concepto"]):
                         same = [h for h in heads if abs(h[0] - x0) < 0.05 * width]
                         for h in same:
@@ -152,6 +179,7 @@ def ocr_rows(pages, dec=None):
                         heads.append((x0, False, r["concepto"]))
                     continue
                 r["grupo"] = context(x0)
+                r["columnas"] = columns(r.pop("_xs", [])) if r["valores"] else None
                 if any(v is not None for v in r["valores"]):
                     rows.append(r)
     return rows

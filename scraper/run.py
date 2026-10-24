@@ -9,7 +9,7 @@ import traceback
 
 from common import document_text, fetch
 from parsers import PARSERS
-from sources import ORIGEN_SE, SOURCES, se_archive
+from sources import ORIGEN_SE, SOURCES, _date_key, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -33,6 +33,31 @@ def get_doc(url):
     return r.content, r.headers.get("content-type", "")
 
 
+# First residential tier in OCR documents: (concepto_re, column, grupo_re, unit) checked against each
+# document's layout. A missing or non-agreeing value simply stays empty.
+OCR_COMPARABLE = {
+    "edea": ((r"^Cargo variable 1 \(consumo en KWH-Mes . 100\)", 0, r"^T1 ", "$/mes"),
+             (r"^Cargo variable 1 \(consumo en KWH-Mes . 100\)", 1, r"^T1 ", "$/kWh"),
+             "T1R Nivel 1, consumo < 100 kWh-mes (OCR)"),
+    "secheep": ((r"^Cargo Fijo$", 2, None, "$/mes"), (r"^Cargo Variable .{0,5}ros\.? 50", 2, None, "$/kWh"),
+                "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)"),
+    "dpe": ((r"^S.?mes$", 0, None, "$/mes"), (r"^Primeros 150", 0, None, "$/kWh"),
+            "TR1 Nivel 1, primeros 150 kWh/mes (OCR)"),
+}
+
+
+def ocr_comparable(id, tablas):
+    from parsers import pick
+    if id not in OCR_COMPARABLE:
+        return None
+    fijo, var, nota = OCR_COMPARABLE[id]
+    out = {"nota": nota}
+    for key, (rx, col, grx, unit) in (("cargo_fijo", fijo), ("cargo_variable", var)):
+        v = pick(tablas, rx, col, grx)
+        out[key] = {**v, "unidad": unit} if v else None
+    return out if out["cargo_fijo"] or out["cargo_variable"] else None
+
+
 def ocr_tables(id, content):
     """OCR is slow, so results are cached in the repo by document hash."""
     from ocr import ocr_rows, read_pages
@@ -47,12 +72,14 @@ def ocr_tables(id, content):
             old.unlink()
         cache.write_text(json.dumps(pages, ensure_ascii=False, separators=(",", ":")))
     rows = ocr_rows(pages)
-    tablas = {}
+    tablas = []
     for r in rows:
-        t = tablas.setdefault(r["pagina"], {"titulo": f"Página {r['pagina']} — transcripción por OCR", "filas": []})
-        t["filas"].append({"grupo": r["grupo"], "concepto": r["concepto"], "unidad": r["unidad"],
-                           "valores": r["valores"], "columnas": None})
-    return list(tablas.values())
+        key = (r["pagina"], tuple(r.get("columnas") or ()))
+        if not tablas or tablas[-1][0] != key:
+            tablas.append((key, {"titulo": f"Página {r['pagina']} — transcripción por OCR", "filas": []}))
+        tablas[-1][1]["filas"].append({"grupo": r["grupo"], "concepto": r["concepto"], "unidad": r["unidad"],
+                                       "valores": r["valores"], "columnas": r.get("columnas")})
+    return [t for _, t in tablas]
 
 
 def validate(tablas):
@@ -93,6 +120,7 @@ def process(s):
             if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
                 tablas = validate(ocr_tables(s["id"], content))
                 used_ocr = bool(tablas)
+                parsed["comparable"] = ocr_comparable(s["id"], tablas)
             entry.update(documento=doc, vigencia=parsed.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
                          texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr)
             if text.strip() and tipo != "html":
@@ -108,6 +136,45 @@ def process(s):
         except Exception:
             pass
     return entry
+
+
+STALE_MONTHS = 2
+
+
+def reference_month(e):
+    """(year, month) the published document refers to, from the validity text, else the document
+    title/URL. Returns (None, None) when no date can be read: then nothing is claimed."""
+    from common import norm
+    if e.get("vigencia"):
+        k = _date_key(norm(e["vigencia"]))
+        if k != (0, 0, 0):
+            return k[:2], "vigencia"
+    d = e.get("documento") or {}
+    for key in ("titulo", "url"):
+        k = date_key(d.get("url", "") if key == "url" else "", d.get(key) or "") if key == "titulo" else date_key(d.get("url", ""))
+        if k != (0, 0, 0):
+            return k[:2], "título" if key == "titulo" else "URL del documento"
+    if d.get("publicado"):
+        return (int(d["publicado"][:4]), int(d["publicado"][5:7])), "fecha de publicación"
+    head = ""
+    txt = TEXTS / f"{e['id']}.txt"
+    if txt.exists():
+        head = txt.read_text(errors="ignore")[:3000]
+    for c in (DATA / "ocr").glob(f"{e['id']}-*.json") if not head.strip() else []:
+        head = " ".join(w["t"] for w in json.loads(c.read_text())[0]["tesseract"][:400])
+    k = _date_key(norm(head))
+    if k != (0, 0, 0):
+        return k[:2], "texto del documento"
+    return None, None
+
+
+def mark_staleness(e):
+    ym, origin = reference_month(e)
+    now = dt.datetime.now(dt.timezone.utc)
+    e["mes_referencia"] = f"{ym[0]}-{ym[1]:02d}" if ym else None
+    e["mes_referencia_origen"] = origin
+    e["desactualizado"] = bool(ym) and (now.year * 12 + now.month) - (ym[0] * 12 + ym[1]) > STALE_MONTHS
+    return e
 
 
 def main(only=None):
@@ -130,7 +197,7 @@ def main(only=None):
         else:
             by_id[e["id"]] = e
     order = [s["id"] for s in SOURCES]
-    out = {"generado": NOW, "distribuidoras": [by_id[i] for i in order if i in by_id]}
+    out = {"generado": NOW, "distribuidoras": [mark_staleness(by_id[i]) for i in order if i in by_id]}
     prev_path.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     hist_path = DATA / "historial.json"
     hist = json.loads(hist_path.read_text()) if hist_path.exists() else []

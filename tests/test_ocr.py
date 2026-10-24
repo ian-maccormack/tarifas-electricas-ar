@@ -25,7 +25,7 @@ def test_only_agreeing_amounts_are_published():
     rapid = [r("4.789,94", 760, 202), r("3.451,81", 960, 201)]
     rows = ocr_rows(page(tess, rapid))
     assert rows == [{"pagina": 1, "concepto": "Cargo fijo", "unidad": "$/mes",
-                     "valores": [4789.94, None], "grupo": "T1-R: Residencial"}]
+                     "valores": [4789.94, None], "grupo": "T1-R: Residencial", "columnas": None}]
 
 
 def test_amount_without_decimals_is_rejected_even_if_both_agree():
@@ -48,3 +48,24 @@ def test_thousands_dot_in_comma_document():
     rapid = [r("44.061", 750, 200), r("176,77", 950, 200), r("24,36", 750, 300)]
     rows = ocr_rows(page(tess, rapid))
     assert [x["valores"] for x in rows] == [[44061.0, 176.77], [24.36]]
+
+
+def _hdr_page(h1, h2, x1, x2):
+    tess = [w("Concepto", 50, 200, 100, (1, 1, 1)), w(h1, 650, 870, 100, (1, 1, 1)), w(h2, 1250, 1450, 100, (1, 1, 1)),
+            w("Cargo", 50, 150, 200, (1, 1, 2)), w("fijo", 160, 230, 200, (1, 1, 2)),
+            w("4.789,94", x1, x1 + 120, 200, (1, 1, 2)), w("3.451,87", x2, x2 + 120, 200, (1, 1, 2))]
+    rapid = [r("4.789,94", x1 + 60, 200), r("3.451,87", x2 + 60, 200)]
+    return page(tess, rapid)
+
+
+def test_values_get_the_header_above_them():
+    rows = ocr_rows(_hdr_page("Monofásicas", "Trifásicas", 700, 1290))
+    assert rows[0]["columnas"] == ["Monofásicas", "Trifásicas"]
+
+
+def test_values_far_from_headers_get_no_columns():
+    assert ocr_rows(_hdr_page("Monofásicas", "Trifásicas", 300, 1800))[0]["columnas"] is None
+
+
+def test_garbled_headers_are_ignored():
+    assert ocr_rows(_hdr_page("A", "»", 700, 1290))[0]["columnas"] is None

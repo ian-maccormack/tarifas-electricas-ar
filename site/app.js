@@ -5,6 +5,9 @@ const fmt = (v) => v === null || v === undefined ? '<span class="empty">sin dato
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const dfmt = (iso) => iso ? new Date(iso).toLocaleString("es-AR", { dateStyle: "medium", timeStyle: "short" }) : "";
 let DATA = null, HIST = [];
+const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const mesfmt = (ym) => ym ? `${MESES[+ym.slice(5, 7) - 1]} ${ym.slice(0, 4)}` : "";
+const VIEJO = '<span class="badge b-viejo" title="El documento corresponde a hace más de 2 meses: puede seguir vigente, pero conviene confirmarlo">Documento de hace más de 2 meses</span>';
 
 function tableHTML(t) {
   const maxv = Math.max(...t.filas.map((f) => f.valores.length));
@@ -27,9 +30,13 @@ function card(e) {
   const d = e.documento;
   const stale = e.ultimo_intento_fallido ? `<span class="badge b-stale">Último intento fallido</span>` : "";
   const via = d && d.via === "archivo nacional" ? `<span class="badge b-old">Archivo nacional (puede no ser el vigente)</span>` : "";
-  let body = `<dl class="kv">
+  let body = "";
+  if (e.desactualizado) body += `<div class="alert viejo"><b>Documento de hace más de 2 meses.</b> El mes de referencia (${esc(mesfmt(e.mes_referencia))}, según ${esc(e.mes_referencia_origen)}) es de hace más de 2 meses. No se encontró un cuadro más nuevo en las fuentes consultadas; puede seguir vigente, pero conviene confirmarlo con la distribuidora o el ente regulador.</div>`;
+  if (e.ocr) body += `<div class="alert ocr"><b>Valores leídos por OCR</b> del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; los nombres de columna se muestran solo cuando el encabezado se leyó claramente. Verificá contra el documento antes de usar un valor.</div>`;
+  body += `<dl class="kv">
     <dt>Razón social</dt><dd>${esc(e.nombre)}</dd>
-    <dt>Vigencia (según documento)</dt><dd>${e.vigencia ? esc(e.vigencia) : '<span class="empty">sin dato</span>'}</dd>`;
+    <dt>Vigencia (según documento)</dt><dd>${e.vigencia ? esc(e.vigencia) : '<span class="empty">sin dato</span>'}</dd>
+    <dt>Mes de referencia</dt><dd>${e.mes_referencia ? `${esc(mesfmt(e.mes_referencia))} <span class="note">(según ${esc(e.mes_referencia_origen)})</span>` : '<span class="empty">sin dato</span>'}</dd>`;
   if (d) body += `<dt>Documento oficial</dt><dd><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo || d.url)}</a> (${esc(d.tipo)})</dd>
     <dt>Fuente</dt><dd>${esc(d.origen)} — ${esc(d.via)}${d.pagina ? ` · <a href="${esc(d.pagina)}" target="_blank" rel="noopener">página de publicación</a>` : ""}</dd>
     <dt>SHA-256</dt><dd><code>${esc(d.sha256.slice(0, 16))}…</code></dd>`;
@@ -37,15 +44,14 @@ function card(e) {
   if (e.texto) body += `<dt>Texto extraído</dt><dd><a href="data/textos/${e.id}.txt" target="_blank">ver texto completo del documento</a></dd>`;
   if (e.archivo_nacional) body += `<dt>Archivo nacional</dt><dd><a href="${esc(e.archivo_nacional.url)}" target="_blank" rel="noopener">${esc(e.archivo_nacional.titulo)}</a></dd>`;
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
-  if (e.ocr) body += `<dt>Aviso OCR</dt><dd>Valores leídos por OCR del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; las columnas no se identifican. Verificá contra el documento antes de usar un valor.</dd>`;
-  else if (e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
+  if (!e.ocr && e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
   body += "</dl>";
   if (e.tablas.length) body += e.tablas.map(tableHTML).join("");
   else body += `<p class="note">No hay valores extraídos automáticamente para esta distribuidora. ${d ? "Consultá el documento oficial." : ""}</p>`;
   if (e.intentos?.length) body += `<details><summary class="note">Registro técnico</summary><pre class="note">${esc(e.intentos.join("\n"))}</pre></details>`;
-  return `<details class="card" id="d-${e.id}"><summary><h3>${esc(e.empresa)}</h3><span class="prov">${esc(e.provincia)}</span>
-    <span class="badge b-${e.estado}">${ESTADO[e.estado]}</span>${e.ocr ? '<span class="badge b-old">OCR</span>' : ""}${via}${stale}
-    <span class="prov">${e.vigencia ? "Vigencia: " + esc(e.vigencia) : ""}</span></summary><div class="body">${body}</div></details>`;
+  return `<details class="card e-${e.estado}" id="d-${e.id}"><summary><div><h3>${esc(e.empresa)}</h3><span class="prov">${esc(e.provincia)}</span></div>
+    <div class="badges"><span class="badge b-${e.estado}">${ESTADO[e.estado]}</span>${e.ocr ? '<span class="badge b-ocr">OCR</span>' : ""}${e.desactualizado ? VIEJO : ""}${via}${stale}</div>
+    <span class="vig">${e.mes_referencia ? esc(mesfmt(e.mes_referencia)) : ""}<span class="chev">›</span></span></summary><div class="body">${body}</div></details>`;
 }
 
 function matches(e, q) {
@@ -56,19 +62,23 @@ function matches(e, q) {
 
 function renderList() {
   const prov = $("#f-prov").value, est = $("#f-estado").value, q = $("#f-q").value.trim();
-  const items = DATA.distribuidoras.filter((e) => (!prov || e.provincia === prov) && (!est || e.estado === est) && matches(e, q));
-  const cnt = (s) => DATA.distribuidoras.filter((e) => e.estado === s).length;
-  $("#summary").textContent = `${items.length} de ${DATA.distribuidoras.length} distribuidoras · ${cnt("ok")} con valores extraídos · ${cnt("documento")} solo con documento oficial · ${cnt("sin_datos")} sin fuente`;
+  const okEst = (e) => !est || (est === "viejo" ? e.desactualizado : e.estado === est);
+  const items = DATA.distribuidoras.filter((e) => (!prov || e.provincia === prov) && okEst(e) && matches(e, q));
+  const cnt = (s) => DATA.distribuidoras.filter((e) => (s === "viejo" ? e.desactualizado : e.estado === s)).length;
+  $("#stats").innerHTML = [["ok", "con valores extraídos"], ["documento", "solo documento oficial"], ["sin_datos", "sin fuente disponible"], ["viejo", "documento de hace más de 2 meses"]]
+    .map(([k, l]) => `<button class="stat s-${k}${est === k ? " sel" : ""}" data-est="${k}"><b>${cnt(k)}</b><span>${l}</span></button>`).join("");
+  document.querySelectorAll("#stats .stat").forEach((b) => b.addEventListener("click", () => { $("#f-estado").value = $("#f-estado").value === b.dataset.est ? "" : b.dataset.est; renderList(); }));
+  $("#summary").textContent = `Mostrando ${items.length} de ${DATA.distribuidoras.length} distribuidoras`;
   $("#list").innerHTML = items.map(card).join("") || '<p class="note">Sin resultados.</p>';
   if (q) document.querySelectorAll("#list details.card").forEach((d) => (d.open = true));
 }
 
 function renderComp() {
   const cell = (c) => c ? `<td class="num">${fmt(c.valor)}</td><td>${esc(c.unidad || "")}</td>` : '<td class="num"><span class="empty">sin dato</span></td><td></td>';
-  let h = "<thead><tr><th>Empresa</th><th>Provincia</th><th>Cargo fijo</th><th>Unidad</th><th>Cargo variable</th><th>Unidad</th><th>Escalón / criterio</th><th>Vigencia</th></tr></thead><tbody>";
+  let h = "<thead><tr><th>Empresa</th><th>Provincia</th><th>Cargo fijo</th><th>Unidad</th><th>Cargo variable</th><th>Unidad</th><th>Escalón / criterio</th><th>Mes de referencia</th></tr></thead><tbody>";
   for (const e of DATA.distribuidoras) {
     const c = e.comparable || {};
-    h += `<tr><td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a></td><td>${esc(e.provincia)}</td>${cell(c.cargo_fijo)}${cell(c.cargo_variable)}<td>${esc(c.nota || "")}</td><td>${esc(e.vigencia || "")}</td></tr>`;
+    h += `<tr><td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a></td><td>${esc(e.provincia)}</td>${cell(c.cargo_fijo)}${cell(c.cargo_variable)}<td>${esc(c.nota || "")}${e.ocr && e.comparable ? ' <span class="badge b-ocr">OCR</span>' : ""}</td><td>${esc(mesfmt(e.mes_referencia))}${e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : ""}</td></tr>`;
   }
   $("#comp").innerHTML = h + "</tbody>";
 }

@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T18:05:41+00:00",
+ "generado": "2026-10-24T18:09:41+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1357,7 +1357,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edenor"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "título",
+   "desactualizado": false
   },
   {
    "id": "edesur",
@@ -2715,7 +2718,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
     "titulo": "Cuadro Tarifario del 05-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesur"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "título",
+   "desactualizado": false
   },
   {
    "id": "edes",
@@ -2743,7 +2749,10 @@
    "comparable": null,
    "texto": true,
    "escaneado": false,
-   "ocr": false
+   "ocr": false,
+   "mes_referencia": "2025-11",
+   "mes_referencia_origen": "título",
+   "desactualizado": true
   },
   {
    "id": "edea",
@@ -3180,7 +3189,12 @@
         225.236
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 2 · Cargos por contraste de medidores de energía",
        "concepto": "Pequeñas in situ",
@@ -3189,7 +3203,10 @@
         6714.19,
         10070.52
        ],
-       "columnas": null
+       "columnas": [
+        "Monofásicas",
+        "Trifásicas"
+       ]
       },
       {
        "grupo": "Tarifa 2 · Cargos por contraste de medidores de energía",
@@ -3199,8 +3216,16 @@
         8392.86,
         15106.54
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Monofásicas",
+        "Trifásicas"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 2 · Cargos por contraste de medidores de energía",
        "concepto": "edianas y grandes demandas in situ",
@@ -4205,8 +4230,18 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T18:08:45+00:00",
+   "comparable": {
+    "nota": "T1R Nivel 1, consumo < 100 kWh-mes (OCR)",
+    "cargo_fijo": {
+     "valor": 4184.62,
+     "unidad": "$/mes",
+     "concepto": "Cargo variable 1 (consumo en KWH-Mes s 100)",
+     "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+     "columna": null
+    },
+    "cargo_variable": null
+   },
    "texto": false,
    "escaneado": true,
    "ocr": true,
@@ -4214,7 +4249,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
     "titulo": "Cuadro Tarifario del 11-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edea"
-   }
+   },
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "URL del documento",
+   "desactualizado": false
   },
   {
    "id": "edelap",
@@ -4260,10 +4298,10 @@
       },
       {
        "grupo": "Cargo variable por energía 301-325",
-       "concepto": "SAW",
+       "concepto": "SAN",
        "unidad": null,
        "valores": [
-        null,
+        137.4262,
         137.4262,
         137.4262
        ],
@@ -4285,20 +4323,9 @@
        "concepto": "Cargo variable por energía",
        "unidad": "S/kwh",
        "valores": [
-        149.3267,
+        null,
         null,
         149.3267
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/n",
-       "valores": [
-        165.1251,
-        null,
-        null
        ],
        "columnas": null
       },
@@ -4307,9 +4334,9 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        59498.79,
+        null,
         54765.17,
-        59498.79
+        null
        ],
        "columnas": null
       },
@@ -4320,14 +4347,14 @@
        "valores": [
         null,
         15191.93,
-        null
+        20501.33
        ],
        "columnas": null
       },
       {
        "grupo": "Consumo Mensual mayor a 500kWH e inferior o igual a 700 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "$/kvwh",
+       "unidad": "$/kwh",
        "valores": [
         163.6821,
         163.6821,
@@ -4390,8 +4417,8 @@
       },
       {
        "grupo": "Cargo variable por energía",
-       "concepto": "SAA",
-       "unidad": null,
+       "concepto": "o",
+       "unidad": "S/n",
        "valores": [
         145.6073
        ],
@@ -4409,18 +4436,18 @@
        "columnas": null
       },
       {
-       "grupo": "Cargo variable por energía",
-       "concepto": "SAW",
-       "unidad": null,
+       "grupo": "Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/Awh",
        "valores": [
         192.6088,
-        126.2214,
+        null,
         192.6088
        ],
        "columnas": null
       },
       {
-       "grupo": "Consumo Mensual mayor a S00KVM e inferior o Igual a 700 kWh",
+       "grupo": "Consumo Mensual mayor a 800KVMN e inferior o Igual a 700 kWh",
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
@@ -4431,7 +4458,7 @@
        "columnas": null
       },
       {
-       "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+       "grupo": "Consumo Mensual mayor. 2 500K Whe inferior o igual a 700 kWh",
        "concepto": "Cargo fo",
        "unidad": "$/mes",
        "valores": [
@@ -4440,9 +4467,9 @@
        "columnas": null
       },
       {
-       "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+       "grupo": "Consumo Mensual mayor. 2 500K Whe inferior o igual a 700 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "S/Awh",
+       "unidad": "S/AwWh",
        "valores": [
         175.2388
        ],
@@ -4455,7 +4482,7 @@
        "valores": [
         75518.56,
         70209.15,
-        null
+        75518.56
        ],
        "columnas": null
       },
@@ -4480,27 +4507,27 @@
        "columnas": null
       },
       {
-       "grupo": "Cargo variable por energía",
-       "concepto": "SIA",
-       "unidad": null,
+       "grupo": "Consumo Mensual mayor a 700 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/wh",
        "valores": [
         176.4818
        ],
        "columnas": null
       },
       {
-       "grupo": "Cargo variable por energía",
-       "concepto": "SAA",
-       "unidad": null,
+       "grupo": "Consumo Mensual mayor a 1400kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/N",
        "valores": [
         211.0473,
         144.6599,
-        211.0473
+        null
        ],
        "columnas": null
       },
       {
-       "grupo": "Cargo variable por energía",
+       "grupo": "Consumo Mensual mayor a 700 kWh",
        "concepto": "Por capacidad de suministro contratada",
        "unidad": "S/kW-mes",
        "valores": [
@@ -4510,7 +4537,7 @@
       },
       {
        "grupo": null,
-       "concepto": "SAW",
+       "concepto": "SAN",
        "unidad": null,
        "valores": [
         214.9487
@@ -4518,16 +4545,16 @@
        "columnas": null
       },
       {
-       "grupo": "S/KW-mes 17.622.315,52",
-       "concepto": "SAN",
-       "unidad": null,
+       "grupo": "Por capacidad de suministro contratada",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/N",
        "valores": [
         98054.08
        ],
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Consumo Mensual mayor a 150KWh e inferior o igual a 325kWh",
+       "grupo": "Consumo Mensual mayor a 150KWh e inferior o igual a 325kWh",
        "concepto": "Cargo fo",
        "unidad": "$/mes",
        "valores": [
@@ -4538,30 +4565,30 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
+       "grupo": "Consumo Mensual mayor a 450 KWVh e inferior a iguala 500 KW",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/kwWn",
        "valores": [
-        20501.33,
         null,
+        179.3775,
         null
        ],
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
+       "grupo": "S/kwWn 168,9471 153,8064 136,0897",
+       "concepto": "SI",
+       "unidad": null,
        "valores": [
-        42132.81,
-        null,
-        null
+        165.4028,
+        150.614,
+        132.9266
        ],
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Cargo variable por energía",
-       "concepto": "SAN",
+       "grupo": "Cargo variable por energía",
+       "concepto": "SAW",
        "unidad": null,
        "valores": [
         192.6088,
@@ -4571,7 +4598,7 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Cargo variable por energía",
+       "grupo": "Cargo variable por energía",
        "concepto": "Cargo variable por energía",
        "unidad": "$/kwn",
        "valores": [
@@ -4582,19 +4609,19 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
+       "grupo": "Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        75518.56,
+        null,
         70209.15,
         75518.56
        ],
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Cargo variable por energía",
-       "concepto": "SAN",
+       "grupo": "Cargo variable por energía",
+       "concepto": "SAW",
        "unidad": null,
        "valores": [
         209.9216,
@@ -4604,7 +4631,7 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R2: · Consumo Mensual mayor a 1400kWh",
+       "grupo": "Consumo Mensual mayor a 1400kWh",
        "concepto": "“mes",
        "unidad": null,
        "valores": [
@@ -4634,7 +4661,7 @@
       },
       {
        "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
-       "concepto": "Simes",
+       "concepto": "Smes",
        "unidad": null,
        "valores": [
         122427.5
@@ -4642,18 +4669,9 @@
        "columnas": null
       },
       {
-       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Cargo variable por energía",
-       "concepto": "SA",
-       "unidad": null,
-       "valores": [
-        230.9278
-       ],
-       "columnas": null
-      },
-      {
        "grupo": "Por cada servicio interrumpido por falta de pago:",
        "concepto": "Tarifa N*1 Uso Residencial",
-       "unidad": "S/Serv.",
+       "unidad": "s/Serv",
        "valores": [
         6108.82
        ],
@@ -4662,7 +4680,7 @@
       {
        "grupo": "Por cada servicio interrumpido por falta de pago:",
        "concepto": "Tarifa N*1 Uso General",
-       "unidad": "S/Ser.",
+       "unidad": "S/Serv.",
        "valores": [
         36985.95
        ],
@@ -4689,14 +4707,14 @@
       {
        "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "S/Wh",
+       "unidad": "S/KWh",
        "valores": [
         217.7161
        ],
        "columnas": null
       },
       {
-       "grupo": "S/ MWh 36030,70 21283,13 3610,49",
+       "grupo": "Tarifa N*2",
        "concepto": "8/Serv.",
        "unidad": null,
        "valores": [
@@ -4719,13 +4737,13 @@
        "unidad": "$/mes",
        "valores": [
         22733.75,
-        18000.13,
+        null,
         null
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
        "concepto": "Aéreas Monofásicas",
        "unidad": "$/Cliente",
        "valores": [
@@ -4734,7 +4752,7 @@
        "columnas": null
       },
       {
-       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
        "concepto": "Subterráneas Monofásicas",
        "unidad": "$/Cliente",
        "valores": [
@@ -4754,21 +4772,11 @@
        "columnas": null
       },
       {
-       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 137,4262",
        "concepto": "Aéreas Trifásicas",
        "unidad": "$/Cliente",
        "valores": [
         60387.32
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Consumo Mensual mayor a 500 kWh e inferior o igual a 700 kWh",
-       "concepto": "Ses",
-       "unidad": null,
-       "valores": [
-        54765.17,
-        null
        ],
        "columnas": null
       },
@@ -4867,7 +4875,7 @@
       {
        "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G2: Consumo Mensual mayor a 800 kWh e inferior o iguala 2000 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "$/AMh",
+       "unidad": "$/AWh",
        "valores": [
         154.238
        ],
@@ -4883,7 +4891,16 @@
        "columnas": null
       },
       {
-       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G3: Consumo Mensual mayor a 2000 kWh",
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · TI-G3: Consumo Mensual mayor a 2000 kWh",
+       "concepto": "Simes",
+       "unidad": null,
+       "valores": [
+        278018.38
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · TI-G3: Consumo Mensual mayor a 2000 kWh",
        "concepto": "Por capacidad de suministro contratada",
        "unidad": "$/W-mes",
        "valores": [
@@ -4906,7 +4923,7 @@
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
+   "verificado": "2026-10-24T18:08:45+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -4915,7 +4932,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
     "titulo": "Cuadro Tarifario del 11-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelap"
-   }
+   },
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "URL del documento",
+   "desactualizado": false
   },
   {
    "id": "eden",
@@ -4943,7 +4963,10 @@
    "comparable": null,
    "texto": true,
    "escaneado": false,
-   "ocr": false
+   "ocr": false,
+   "mes_referencia": "2025-11",
+   "mes_referencia_origen": "título",
+   "desactualizado": true
   },
   {
    "id": "ecsapem",
@@ -5118,7 +5141,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_05_ECSAPEM.xlsx",
     "titulo": "Cuadro Tarifario del 05-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ecsapem"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "secheep",
@@ -8658,8 +8684,24 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T18:08:45+00:00",
+   "comparable": {
+    "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
+    "cargo_fijo": {
+     "valor": 3631.72,
+     "unidad": "$/mes",
+     "concepto": "Cargo Fijo",
+     "grupo": "Cuadro Tarifario de Aplicación consumos a partir del 05 de septiembre 2026",
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 202.3802,
+     "unidad": "$/kWh",
+     "concepto": "Cargo Variable Lros. 50 KWh-mes",
+     "grupo": "Cuadro Tarifario de Aplicación consumos a partir del 05 de septiembre 2026",
+     "columna": null
+    }
+   },
    "texto": false,
    "escaneado": true,
    "ocr": true,
@@ -8667,7 +8709,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SECHEEP/2026_06_SECHEEP.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-secheep"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "título",
+   "desactualizado": false
   },
   {
    "id": "dgsp",
@@ -8687,7 +8732,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dgsp"
-   }
+   },
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   },
   {
    "id": "epec",
@@ -10086,7 +10134,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EPEC/2026_06_EPEC.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epec-0"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "dpec",
@@ -11786,7 +11837,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf",
     "titulo": "Cuadro Tarifario del 04-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpec"
-   }
+   },
+   "mes_referencia": "2026-01",
+   "mes_referencia_origen": "texto del documento",
+   "desactualizado": true
   },
   {
    "id": "enersa",
@@ -12072,7 +12126,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_06_ENERSA.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa"
-   }
+   },
+   "mes_referencia": "2026-11",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "die",
@@ -12085,7 +12142,10 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-24T18:05:41+00:00"
+   "verificado": "2026-10-24T17:33:52+00:00",
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   },
   {
    "id": "refsa",
@@ -12580,7 +12640,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_03_REFSA.zip",
     "titulo": "Cuadro Tarifario del 03-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-refsa"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "título",
+   "desactualizado": false
   },
   {
    "id": "ejesa",
@@ -12749,7 +12812,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2026_01_EJESA.xlsx",
     "titulo": "Cuadro Tarifario del 01-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eje-sa"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "texto del documento",
+   "desactualizado": false
   },
   {
    "id": "ejsed",
@@ -13438,8 +13504,9 @@
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ejsed-sa"
    },
-   "ultimo_intento": "2026-10-24T18:05:41+00:00",
-   "ultimo_intento_fallido": true
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "ape",
@@ -14249,7 +14316,10 @@
    },
    "texto": true,
    "escaneado": false,
-   "ocr": false
+   "ocr": false,
+   "mes_referencia": "2025-12",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": true
   },
   {
    "id": "edelar",
@@ -14814,7 +14884,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_06_EDELAR.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelar"
-   }
+   },
+   "mes_referencia": "2026-04",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": true
   },
   {
    "id": "edemsa",
@@ -14957,7 +15030,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_05_EDEMSA.xlsx",
     "titulo": "Cuadro Tarifario del 05-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edemsa"
-   }
+   },
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "edeste",
@@ -15100,7 +15176,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_05_EDESTE.xlsx",
     "titulo": "Cuadro Tarifario del 05-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edeste"
-   }
+   },
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "emsa",
@@ -15425,7 +15504,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
     "titulo": "Cuadro Tarifario del 11-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-emsa"
-   }
+   },
+   "mes_referencia": "2026-08",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "epen",
@@ -15894,7 +15976,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/neuquen/2025_07_EPEN.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epen"
-   }
+   },
+   "mes_referencia": "2026-08",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "edersa",
@@ -16027,7 +16112,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edersa"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "edesa",
@@ -16051,7 +16139,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
+   "verificado": "2026-10-24T18:08:45+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -16060,7 +16148,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesa"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "título",
+   "desactualizado": false
   },
   {
    "id": "esj",
@@ -16199,7 +16290,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ESJ/2026_06_ESJ.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-esj-0"
-   }
+   },
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "edesal",
@@ -16434,7 +16528,10 @@
    },
    "texto": true,
    "escaneado": false,
-   "ocr": false
+   "ocr": false,
+   "mes_referencia": "2026-06",
+   "mes_referencia_origen": "título",
+   "desactualizado": true
   },
   {
    "id": "spse",
@@ -16454,7 +16551,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-spse-0"
-   }
+   },
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   },
   {
    "id": "epe",
@@ -16474,7 +16574,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epe"
-   }
+   },
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   },
   {
    "id": "edese",
@@ -16727,7 +16830,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_06_EDESE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edese"
-   }
+   },
+   "mes_referencia": "2026-10",
+   "mes_referencia_origen": "vigencia",
+   "desactualizado": false
   },
   {
    "id": "dpe",
@@ -17430,8 +17536,24 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T18:08:45+00:00",
+   "comparable": {
+    "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
+    "cargo_fijo": {
+     "valor": 4412.16,
+     "unidad": "$/mes",
+     "concepto": "Símes",
+     "grupo": "DE LAS NACIONES UNIDAS SOBRE LA CUESTIÓN DE LAS ISLAS M (se ASILO YA",
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 146.1422,
+     "unidad": "$/kWh",
+     "concepto": "Primeros 150 kKWh'mes",
+     "grupo": "DE LAS NACIONES UNIDAS SOBRE LA CUESTIÓN DE LAS ISLAS M (se ASILO YA",
+     "columna": null
+    }
+   },
    "texto": true,
    "escaneado": false,
    "ocr": true,
@@ -17439,7 +17561,10 @@
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/tierra_del_fuego/2025_07_DPE.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpe"
-   }
+   },
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   },
   {
    "id": "edet",
@@ -17471,8 +17596,16 @@
         164.35,
         164.35
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Por capacidad de suministro equivalente",
        "concepto": "En Baja Tensión",
@@ -17481,8 +17614,16 @@
         43195.0,
         null
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Por consumo de energía:",
        "concepto": "Período Horas de Resto",
@@ -17491,8 +17632,16 @@
         161.19,
         161.19
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Por capacidad de suministro equivalente",
        "concepto": "En Media Tensión ——",
@@ -17501,8 +17650,16 @@
         38109.0,
         34336.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Por consumo de energía:",
        "concepto": "Período Horas de Valle",
@@ -17511,8 +17668,16 @@
         160.6,
         160.6
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 R (Pequeñas demandas uso residencial) · ons.entre 151 y mes",
        "concepto": "03. Cons.entre 276 y 500 kWh/mes $/mes",
@@ -17522,7 +17687,12 @@
         40713.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "CUADRO TARIFARIO DE EDET S.A.",
        "concepto": "Son",
@@ -17531,8 +17701,16 @@
         null,
         146.82
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · eríodo Horas de Punta",
        "concepto": "Período Horas de Reslo",
@@ -17541,8 +17719,16 @@
         24.34,
         24.34
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 R (Pequeñas demandas uso residencial) · ons.entre 151 y mes",
        "concepto": "S/",
@@ -17552,7 +17738,12 @@
         79799.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · eríodo Horas de Punta",
        "concepto": "Período Horas de Vall",
@@ -17561,8 +17752,16 @@
         24.25,
         24.25
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Periodo Hora de Resto",
        "concepto": "Período Horas de Valle",
@@ -17571,8 +17770,16 @@
         null,
         143.47
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 R (Pequeñas demandas uso residencial)",
        "concepto": "C. Enero",
@@ -17592,7 +17799,12 @@
         24.36
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "CUADRO TARIFARIO DE EDET S.A.",
        "concepto": "SIRVA",
@@ -17601,7 +17813,10 @@
         32.87,
         null
        ],
-       "columnas": null
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "CUADRO TARIFARIO DE EDET S.A.",
@@ -17611,8 +17826,16 @@
         29.36,
         29.36
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Bonificación portg phi<0,32 por la energía reactiva inuctiva en defecto del 32% de la energía activa",
        "concepto": "En Baja Tensión",
@@ -17621,7 +17844,10 @@
         35.38,
         35.38
        ],
-       "columnas": null
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · En Media Tensión",
@@ -17631,8 +17857,16 @@
         null,
         31.61
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "CUADRO TARIFARIO DE EDET S.A.",
        "concepto": "SAA",
@@ -17641,8 +17875,16 @@
         null,
         146.82
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Recarao por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa",
        "concepto": "SAVATA",
@@ -17651,7 +17893,10 @@
         176.91,
         176.91
        ],
-       "columnas": null
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · En Media Tensión",
@@ -17661,8 +17906,16 @@
         158.04,
         158.04
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · Cargos por Disponibilidad de Red",
        "concepto": "(aplicable según consumo promedio de los últimos 12 meses, Incluyendo el actual, y adecuándose al En Baja Tensión.",
@@ -17671,7 +17924,10 @@
         50968.0,
         46776.0
        ],
-       "columnas": null
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por capacidad de suministro equivalente",
@@ -17681,8 +17937,16 @@
         48939.0,
         45166.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Servicio de suspensión y rehabilitación",
        "concepto": "Tarifa 1R",
@@ -17691,8 +17955,16 @@
         15448.0,
         15448.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · período de facturación correspondiente)",
        "concepto": "C1 Consumo <= 150 KWhymes",
@@ -17702,7 +17974,12 @@
         22896.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Servicio de suspensión y rehabilitación",
        "concepto": "Tarifa 1RC, 116",
@@ -17711,8 +17988,16 @@
         42595.0,
         42595.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · período de facturación correspondiente)",
        "concepto": "C2 Cons.entre 151 y 300 kWtvmes",
@@ -17722,7 +18007,12 @@
         39294.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Servicio de suspensión y rehabilitación",
        "concepto": "Tarifa 2, Tarifa 5",
@@ -17731,8 +18021,16 @@
         103152.0,
         103152.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · período de facturación correspondiente)",
        "concepto": "03 Cons.entre 301 y 1000 kWh/mes $/mes",
@@ -17742,7 +18040,12 @@
         81627.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por consumo de energía",
        "concepto": "Período Horas de Punta",
@@ -17751,8 +18054,16 @@
         176.91,
         176.91
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · Servicio de suspensión y rehabilitación",
        "concepto": "Tarifa 4, Tarifa 6",
@@ -17761,8 +18072,16 @@
         180542.0,
         180542.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · período de facturación correspondiente)",
        "concepto": "C4. Consumo >1000 kWh/mes",
@@ -17772,7 +18091,12 @@
         null
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por consumo de energía",
        "concepto": "Período Horas de Resto",
@@ -17781,8 +18105,16 @@
         173.39,
         173.39
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 RC (Pequeñas demandas uso residencial colectiva) · Cargo por Energía",
        "concepto": "Sn",
@@ -17792,7 +18124,12 @@
         null
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por consumo de energía",
        "concepto": "Período Horas de Punta",
@@ -17801,8 +18138,16 @@
         158.04,
         158.04
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · importe que corresponda según el cuadro siguiente:",
        "concepto": "Conexión monofásica tarifa 1R",
@@ -17811,8 +18156,16 @@
         null,
         77243.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por consumo de energía",
        "concepto": "Período Horas de Resto",
@@ -17821,8 +18174,16 @@
         154.9,
         154.9
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · importe que corresponda según el cuadro siguiente:",
        "concepto": "Con. monof. tarifa 1RC, T1G",
@@ -17831,8 +18192,16 @@
         98689.0,
         98689.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Por consumo de energía",
        "concepto": "Período Horas de Valle",
@@ -17841,8 +18210,16 @@
         154.34,
         154.34
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · importe que corresponda según el cuadro siguiente:",
        "concepto": "Conexión trifásica tarifa 1 R",
@@ -17851,8 +18228,16 @@
         171643.0,
         171643.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 6 (Pequeñas demandas uso general) · período de facturación correspondiente)",
        "concepto": "C1 Consumo <= 150 KWh/mes",
@@ -17872,7 +18257,12 @@
         42256.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 (Potencias iguales o mayores a 300 kW) · importe que corresponda según el cuadro siguiente:",
        "concepto": "Con. tif. tarifa 1 RF T1GR 12",
@@ -17881,8 +18271,16 @@
         399657.0,
         399657.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Relerencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 6 (Pequeñas demandas uso general) · 03 Cons.entre 301 y 1000 XWA/mes",
        "concepto": "93:61",
@@ -17891,7 +18289,12 @@
         85382.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Bonificación por tg phi<0,32 por la energía reactiva inductiva en defecto del 32% de la energía activa.",
        "concepto": "S/KVA DN",
@@ -17900,8 +18303,16 @@
         35.38,
         35.38
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 6 (Pequeñas demandas uso general) · 03 Cons.entre 301 y 1000 XWA/mes",
        "concepto": "C4 Cons.entre 1001 y 1100 kWh/mes $/mes",
@@ -17911,7 +18322,12 @@
         185743.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias iguales o mayores a 300 kW) · Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
        "concepto": "En Baja Tensión",
@@ -17920,8 +18336,16 @@
         null,
         176.91
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 6 (Pequeñas demandas uso general) · Cargo Fijo sin derecho a consumo",
        "concepto": ", $/mes",
@@ -17951,7 +18375,12 @@
         153.74
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 5 - Peaje (Medianas demandas) · Por capacidad de sum",
        "concepto": "LES",
@@ -17960,8 +18389,16 @@
         38831.0,
         35107.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 6 (Pequeñas demandas uso general) · Por capacidad de suministro",
        "concepto": "Cargo de Eficiencia Energética",
@@ -17980,7 +18417,12 @@
         125.95
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Por capacidad de suministro equivalente",
        "concepto": "En Baia Tensión",
@@ -17989,8 +18431,16 @@
         null,
         39003.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 1 G y 1 GP (Pequeñas demandas uso general)",
        "concepto": "Cargo por Energía Activa Inyectada",
@@ -17999,7 +18449,12 @@
         135.52
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Por capacidad de suministro equivalente",
        "concepto": "En Media Tensión",
@@ -18008,8 +18463,16 @@
         38109.0,
         34336.0
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 2 (Medianas demandas)",
        "concepto": "Cargo por Energía Activa Inyectada",
@@ -18048,7 +18511,12 @@
         161.86
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Por consumo de energía:",
        "concepto": "Período Horas de Punta",
@@ -18057,7 +18525,10 @@
         23.07,
         23.07
        ],
-       "columnas": null
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Por consumo de energía:",
@@ -18067,7 +18538,10 @@
         22.62,
         22.62
        ],
-       "columnas": null
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
       },
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Por consumo de energía:",
@@ -18077,8 +18551,16 @@
         22.54,
         22.54
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 2 (Medianas demandas)",
        "concepto": "Cargo Fijo sin derecho a consumo",
@@ -18098,7 +18580,12 @@
         44091.0
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · En Media Tensión",
        "concepto": "Período Horas de Punta",
@@ -18107,8 +18594,16 @@
         null,
         5.54
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 2 (Medianas demandas)",
        "concepto": "Cargo por Energía",
@@ -18118,7 +18613,12 @@
         161.73
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · En Media Tensión",
        "concepto": "Período Horas de Resto",
@@ -18127,8 +18627,16 @@
         null,
         5.44
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 3 (Alumbrado público)",
        "concepto": "Cargo por Energía",
@@ -18166,7 +18674,12 @@
         148.92
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · En Media Tensión",
        "concepto": "SAA",
@@ -18175,8 +18688,16 @@
         29.36,
         29.36
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Grandes demandas) · En Media Tensión",
        "concepto": "Período Horas de Punta",
@@ -18204,7 +18725,12 @@
         null
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
        "concepto": "En Baja Tensión",
@@ -18213,8 +18739,16 @@
         164.35,
         164.35
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 4 (Potencias menores a 300 KW · Por capacidad de suministro equivalente",
        "concepto": "En Media Tensión",
@@ -18224,7 +18758,12 @@
         null
        ],
        "columnas": null
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
        "concepto": "En Media Tensión",
@@ -18233,8 +18772,16 @@
         146.82,
         146.82
        ],
-       "columnas": null
-      },
+       "columnas": [
+        "Referencia",
+        "Aplicación"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Página 1 — transcripción por OCR",
+     "filas": [
       {
        "grupo": "Tarifa 6 - Peaje (Grandes demandas) · Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
        "concepto": "Cargo Fijo sin derecho a consumo $/mes",
@@ -18574,7 +19121,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-24T18:05:41+00:00",
+   "verificado": "2026-10-24T18:09:41+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -18583,7 +19130,10 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet"
-   }
+   },
+   "mes_referencia": null,
+   "mes_referencia_origen": null,
+   "desactualizado": false
   }
  ]
 }
