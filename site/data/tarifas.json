@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T17:33:52+00:00",
+ "generado": "2026-10-24T18:05:41+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1332,7 +1332,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -2690,7 +2690,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -2739,7 +2739,7 @@
    "intentos": [
     "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -4205,7 +4205,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -4224,14 +4224,14 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf",
-    "titulo": "EDELAP-CT-102-2026.pdf",
-    "pagina": null,
+    "url": "https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf",
+    "titulo": "EDELAP-Cuadro-tarifario-Septiembre.pdf",
+    "pagina": "https://www.edelap.com.ar/wp-json/wp/v2/media?search=tarifario&per_page=30&orderby=date&mime_type=application/pdf",
     "origen": "Distribuidora",
     "tipo": "pdf",
-    "sha256": "cfe48bf8c8876e8998bec8a55b49997c5891d187612fbe0aa6609ddd169ba814",
-    "bytes": 5586865,
-    "via": "URL conocida"
+    "sha256": "435e0505f13aa7ec6dfda7c09e2240904fa1e75bdeac6c82027d644c072c6b07",
+    "bytes": 5919350,
+    "via": "búsqueda automática"
    },
    "vigencia": null,
    "tablas": [
@@ -4239,765 +4239,378 @@
      "titulo": "Página 1 — transcripción por OCR",
      "filas": [
       {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo fijo (haya o no consumo)",
-       "unidad": "S/mes",
-       "valores": [
-        18915.23,
-        13949.19
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual inferior o igual a 150 kWh",
-       "concepto": "Cargo fijo (Haya o no consumo)",
-       "unidad": "S/mes",
-       "valores": [
-        null,
-        null,
-        4789.94
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía 0-150",
-       "unidad": "S/n",
-       "valores": [
-        102.9346,
-        38.6241
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía 151-300",
-       "unidad": "S/K WA",
-       "valores": [
-        null,
-        53.3321
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía 301-325",
-       "unidad": "S/N",
-       "valores": [
-        null,
-        53.3321
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual mayor a 325kWhe inferior o igual a 500 kWh",
-       "concepto": "Cargo fio",
-       "unidad": "S/mes",
-       "valores": [
-        28935.97,
-        23969.93,
-        null
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        14828.37,
-        9258.29,
-        14828.37
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual mayor a 325kWhe inferior o igual a 500 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/N",
-       "valores": [
-        null,
-        127.3867,
-        127.3867
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/K wn",
-       "valores": [
-        null,
-        69.9851,
-        141.175
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual mayor a 500kWh e inferior o igual a 700 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        49730.92,
-        44764.87,
-        49730.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        17015.9,
-        11445.82,
-        17015.9
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales. Tarifa Social Unidad · Consumo Mensual mayor a 500kWh e inferior o igual a 700 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/K WN",
-       "valores": [
-        139.2001,
-        139.2001,
-        139.2001
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 400 kWh e inferior o igual a 450k Wh",
-       "concepto": "Cargo fjo",
-       "unidad": "S/mes",
-       "valores": [
-        20778.16,
-        15208.08,
-        20778.16
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 450 kWh e inferior o igual a S00kWh",
-       "concepto": "Cargo fo",
-       "unidad": "$/mes",
-       "valores": [
-        23513.75,
-        17943.67,
-        23513.75
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo fijo (haya o no consumo)",
-       "unidad": "S/mes",
-       "valores": [
-        18915.23
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/K WA",
-       "valores": [
-        100.8359
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-       "concepto": "Cargo fo",
-       "unidad": "S/mos",
-       "valores": [
-        35159.59,
-        29589.5,
-        null
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 325 kWh e inferior o igual a 500 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "S/mes",
-       "valores": [
-        28935.97
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-       "concepto": "ñ",
-       "unidad": "S/K WA",
-       "valores": [
-        null,
-        92.7325,
-        null
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 325 kWh e inferior o igual a 500 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/kwh",
-       "valores": [
-        111.9834
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · ensumo Mensual mayor a emteror o lguala",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        46242.71,
-        null,
-        46242.71
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 500k Whe inferior o igual a 700 kWh",
-       "concepto": "Cargo fjo",
-       "unidad": "$/mes",
-       "valores": [
-        49730.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · ensumo Mensual mayor a emteror o lguala",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWAn",
-       "valores": [
-        173.7375,
-        null,
-        173.7375
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 500k Whe inferior o igual a 700 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/N",
-       "valores": [
-        125.1522
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        63161.47,
-        57591.38,
-        63161.47
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 700 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "S/mes",
-       "valores": [
-        67609.17
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/kWh",
-       "valores": [
-        178.3042,
-        107.1143,
-        178.3042
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Consumo Mensual mayor a 700 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/kwn",
-       "valores": [
-        126.1987
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 1400KWh",
-       "concepto": "Cargo filo",
-       "unidad": "$/mes",
-       "valores": [
-        74722.26,
-        69152.18,
-        74722.26
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-At: · Consumo Mensual mayor a 1400KWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "$/kWh",
-       "valores": [
-        179.2497,
-        108.0598,
-        179.2497
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-NR: Pequeñas Demandas Rurales No Residenciales · Ti-AP: Alumbrado Público",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/WHh",
-       "valores": [
-        158.8427
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifa N%2 (Medianas Demandas)",
-       "concepto": "Por capacidad de suministro contratada",
-       "unidad": "$/KW-mes",
-       "valores": [
-        21637.41
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifa N%2 (Medianas Demandas)",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/n",
-       "valores": [
-        157.4212
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual inferior o igual a 150 kWh",
-       "concepto": "Cargo fijo (Haya o no consumo)",
-       "unidad": "S/mes",
-       "valores": [
-        4789.94,
-        3451.87
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje entre 30 KW y 50 KW · Por capacidad de suministro contratada",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/N",
-       "valores": [
-        73179.11
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Cargo variable por energía 151-300",
-       "concepto": "SAM",
-       "unidad": null,
-       "valores": [
-        null,
-        69.9851
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Cargo variable por energía 151-300",
-       "concepto": "Cargo variable por energía 307-326",
-       "unidad": "S/kwn",
-       "valores": [
-        null,
-        69.9851
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        17015.9,
-        11445.82,
-        17015.9
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 400 kWh e inferior o igual a 450 kWh",
-       "concepto": "Cargo fio",
-       "unidad": "S/mes",
-       "valores": [
-        20778.16,
-        15208.08,
-        20778.16
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Cargo variable por energía",
-       "concepto": "SAA",
-       "unidad": null,
-       "valores": [
-        null,
-        null,
-        149.2222
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mavor a 450 KWh e inferior o igual a. 500 KWh",
-       "concepto": ".",
-       "unidad": "S/mes",
-       "valores": [
-        23513.75,
-        17943.67,
-        23513.75
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mavor a 450 KWh e inferior o igual a. 500 KWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWAn",
-       "valores": [
-        152.8943,
-        152.8943,
-        152.8943
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "S/mes",
-       "valores": [
-        35159.59,
-        29589.5,
-        null
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWh",
-       "valores": [
-        163.9224,
-        null,
-        163.9224
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 600 kWh e inferior o igual a 700 kWh",
-       "concepto": "Cargo flo",
-       "unidad": "$/mes",
-       "valores": [
-        46242.71,
-        40672.62,
-        46242.71
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 600 kWh e inferior o igual a 700 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWA",
-       "valores": [
-        173.7375,
-        173.7375,
-        173.7375
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 700kWh e inferior o igual a 1400 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        63161.47,
-        57591.38,
-        63161.47
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 700kWh e inferior o igual a 1400 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/N",
-       "valores": [
-        178.3042,
-        178.3042,
-        178.3042
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 1400KWh",
-       "concepto": "Cargo fijo",
-       "unidad": "$/mes",
-       "valores": [
-        74722.26,
-        69152.18,
-        74722.26
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-R: Uso Residencial · Consumo Mensual mayor a 1400KWh",
-       "concepto": "o",
-       "unidad": "S/N",
-       "valores": [
-        null,
-        179.2497,
-        179.2497
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
-       "concepto": "Cargo fijo (haya o no consumo)",
-       "unidad": "$/mes",
-       "valores": [
-        13962.53
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWH",
-       "valores": [
-        182.8157
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G2: Consumo Mensual mayor a 800 kWh e inferior o igual a 2000 kWh",
-       "concepto": "S/",
-       "unidad": null,
-       "valores": [
-        101919.79
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G2: Consumo Mensual mayor a 800 kWh e inferior o igual a 2000 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/n",
-       "valores": [
-        169.6981
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Por cada servicio interrumpido por falta de pago:",
-       "concepto": "Tarifa N*1 Uso Residencial",
-       "unidad": "S/Serv.",
-       "valores": [
-        5130.63
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Por cada servicio interrumpido por falta de pago:",
-       "concepto": "Tarifa N*1 Uso General",
-       "unidad": "S/Seru",
-       "valores": [
-        31063.53
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
-       "concepto": "Cargo fijo",
-       "unidad": "S/mes",
-       "valores": [
-        280897.1
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Por cada servicio interrumpido por falta de pago:",
-       "concepto": "Tarifa N*1 Alumbrado Público",
-       "unidad": "S/Senv.",
-       "valores": [
-        31063.53
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Cargo variable por energía",
+       "grupo": "Cargo variable por energía 0-150",
        "concepto": "SAW",
        "unidad": null,
        "valores": [
-        158.5589
+        119.5673,
+        59.5953
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Por cada servicio interrumpido por falta de pago:",
-       "concepto": "Tarifa N%2",
-       "unidad": "S/Serv.",
-       "valores": [
-        68277.91
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Por cada servicio interrumpido por falta de pago:",
-       "concepto": "Tarifa N%",
-       "unidad": "S/Serv.",
-       "valores": [
-        68277.91
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual inferior o igual a 325 kWh",
-       "concepto": "Cargo fijo (haya o no consumo)",
-       "unidad": "$/mes",
-       "valores": [
-        18915.23,
-        13949.19
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual inferior o igual a 325 kWh",
+       "grupo": "Consumo Mensual inferior o igual a 150 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "S/kwn",
+       "unidad": "S/n",
        "valores": [
-        117.6426,
+        174.2926,
         null
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Conexiones Domiciliarias",
-       "concepto": "Subterráneas Monofásicas",
-       "unidad": "$/Cliente",
-       "valores": [
-        83247.19
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Conexiones Domiciliarias",
-       "concepto": "Aéreas Trifásicas",
-       "unidad": "$/Cliente",
-       "valores": [
-        50717.72
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "S/MWh 20,488.96 11,877.34 2,108.29",
-       "concepto": "Cliente",
+       "grupo": "Cargo variable por energía 301-325",
+       "concepto": "SAW",
        "unidad": null,
        "valores": [
-        127272.7
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual mayor a 325kWh e inferior o igual a 500kWHh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/KWAn",
-       "valores": [
-        127.3867,
-        127.3867,
-        null
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Subterráneas Trifásicas",
-       "concepto": "Aéreas Monofásicas",
-       "unidad": "$/Ciiente",
-       "valores": [
-        46893.42
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · S/MWh 20,488.96 11,877.34 2,108.29",
-       "concepto": "8/Ciiente",
-       "unidad": null,
-       "valores": [
-        150878.16
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual mayor a 500 kWh e inferior o igual a 700 kWh",
-       "concepto": "Cargo variable por energía",
-       "unidad": "S/Wh",
-       "valores": [
-        139.2001,
         null,
-        139.2001
+        137.4262,
+        137.4262
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Subterráneas Monofásicas",
-       "concepto": "Aéreas Trifásicas",
-       "unidad": "$/Cliente",
-       "valores": [
-        82617.59
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "Tarifas por peaje · Subterráneas Monofásicas",
-       "concepto": "Subterráneas Trifásicas",
-       "unidad": "$/Ciiente",
-       "valores": [
-        155985.89
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual mayor a 700 kWh",
+       "grupo": "Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
        "concepto": "Cargo fijo",
-       "unidad": "S/mes",
+       "unidad": "$/mes",
        "valores": [
-        67609.17,
-        62643.12,
-        67609.17
+        17892.17,
+        null,
+        17892.17
        ],
        "columnas": null
       },
       {
-       "grupo": "T4-R: Pequeñas Demandas Rurales Residenciales · Consumo Mensual mayor a 700 kWh",
+       "grupo": "Consumo Mensual mayor a 325kWh e inferior o igual a 500 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "$/kwWn",
+       "unidad": "S/kwh",
        "valores": [
-        140.3418,
+        149.3267,
+        null,
+        149.3267
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/n",
+       "valores": [
+        165.1251,
         null,
         null
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Pequeñas In Situ",
-       "unidad": "$/Ciiente",
+       "grupo": "Consumo Mensual mayor a 500kWH e inferior o igual a 700 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
        "valores": [
-        5589.32
+        59498.79,
+        54765.17,
+        59498.79
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Pequeñas en Laboratorio",
-       "unidad": "$/Cliente",
+       "grupo": "Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
+       "concepto": "Cargo fio",
+       "unidad": "$/mes",
        "valores": [
-        6986.91
+        null,
+        15191.93,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 500kWH e inferior o igual a 700 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/kvwh",
+       "valores": [
+        163.6821,
+        163.6821,
+        163.6821
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/AwWh",
+       "valores": [
+        166.5695,
+        100.1821,
+        166.5695
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 700kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        80789.76,
+        76056.15,
+        80789.76
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 400 kWh e inferior o igual a 450k Wh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        24983.37,
+        19673.97,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        28242.17,
+        null,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual inferior o igual a 325 kWh",
+       "concepto": "Cargo flo (haya o.no consumo)",
+       "unidad": "$/mes",
+       "valores": [
+        22733.75
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "SAA",
+       "unidad": null,
+       "valores": [
+        145.6073
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
+       "concepto": "Cargo fio",
+       "unidad": "$/mes",
+       "valores": [
+        null,
+        36823.4,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "SAW",
+       "unidad": null,
+       "valores": [
+        192.6088,
+        126.2214,
+        192.6088
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a S00KVM e inferior o Igual a 700 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        null,
+        50060.6,
+        55370.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+       "concepto": "Cargo fo",
+       "unidad": "$/mes",
+       "valores": [
+        59498.79
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor. 500K Whe inferior o igual a 700 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/Awh",
+       "valores": [
+        175.2388
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        75518.56,
+        70209.15,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 700 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        80789.76
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/wh",
+       "valores": [
+        209.9216,
+        143.5342,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "SIA",
+       "unidad": null,
+       "valores": [
+        176.4818
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "SAA",
+       "unidad": null,
+       "valores": [
+        211.0473,
+        144.6599,
+        211.0473
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Cargo variable por energía",
+       "concepto": "Por capacidad de suministro contratada",
+       "unidad": "S/kW-mes",
+       "valores": [
+        26019.33
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "SAW",
+       "unidad": null,
+       "valores": [
+        214.9487
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "S/KW-mes 17.622.315,52",
+       "concepto": "SAN",
+       "unidad": null,
+       "valores": [
+        98054.08
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Consumo Mensual mayor a 150KWh e inferior o igual a 325kWh",
+       "concepto": "Cargo fo",
+       "unidad": "$/mes",
+       "valores": [
+        17892.17,
+        17892.17,
+        17892.17
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Consumo Mensual mayor a 325 kWh e inferior o igual a 400 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        20501.33,
+        null,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Consumo Mensual mayor a 500 kWh e inferior o igual a 600 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        42132.81,
+        null,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Cargo variable por energía",
+       "concepto": "SAN",
+       "unidad": null,
+       "valores": [
+        192.6088,
+        192.6088,
+        192.6088
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Cargo variable por energía",
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/kwn",
+       "valores": [
+        204.4843,
+        204.4843,
+        204.4843
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Consumo Mensual mayor a 700KWh e inferior o igual a 1400 kWh",
+       "concepto": "Cargo fijo",
+       "unidad": "$/mes",
+       "valores": [
+        75518.56,
+        70209.15,
+        75518.56
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Cargo variable por energía",
+       "concepto": "SAN",
+       "unidad": null,
+       "valores": [
+        209.9216,
+        null,
+        209.9216
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2: · Consumo Mensual mayor a 1400kWh",
+       "concepto": "“mes",
+       "unidad": null,
+       "valores": [
+        null,
+        84007.64,
+        null
        ],
        "columnas": null
       },
@@ -5006,88 +4619,284 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        10788.52
+        16771.71
        ],
        "columnas": null
       },
       {
        "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "S/KWA",
+       "unidad": "$/kWhn",
        "valores": [
-        129.1288
+        246.5194
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Pequeñas in situ",
-       "unidad": "$/Ciiente",
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
+       "concepto": "Simes",
+       "unidad": null,
        "valores": [
-        8383.46
+        122427.5
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Pequeñas en Laboratorio",
-       "unidad": "$/Cliente",
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Cargo variable por energía",
+       "concepto": "SA",
+       "unidad": null,
        "valores": [
-        12575.99
+        230.9278
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Medianas y grandes demandas In Situ",
-       "unidad": "$/Ciiente",
+       "grupo": "Por cada servicio interrumpido por falta de pago:",
+       "concepto": "Tarifa N*1 Uso Residencial",
+       "unidad": "S/Serv.",
        "valores": [
-        31051.15
+        6108.82
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifas por peaje · Cargos por Contraste de Medidores de Energía",
-       "concepto": "Medianas y grandes demandas en Laboratorio",
-       "unidad": "$/Ciiente",
+       "grupo": "Por cada servicio interrumpido por falta de pago:",
+       "concepto": "Tarifa N*1 Uso General",
+       "unidad": "S/Ser.",
        "valores": [
-        41919.4
+        36985.95
        ],
        "columnas": null
       },
       {
        "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
        "concepto": "Cargo fijo",
-       "unidad": "S/mes",
+       "unidad": "$/mes",
        "valores": [
-        218661.44
+        337341.25
        ],
        "columnas": null
       },
       {
-       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Cargo variable por energía",
-       "concepto": "Sion",
+       "grupo": "Por cada servicio interrumpido por falta de pago:",
+       "concepto": "Tarifa N*1 Alumbrado Público",
+       "unidad": "$/Senv.",
+       "valores": [
+        36985.95
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "S/Wh",
+       "valores": [
+        217.7161
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "S/ MWh 36030,70 21283,13 3610,49",
+       "concepto": "8/Serv.",
        "unidad": null,
        "valores": [
-        104.8982
+        81295.46
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifa N*2 (Medianas Demandas)",
-       "concepto": "Por capacidad de suministro contratada",
-       "unidad": "S/KW-mes",
+       "grupo": "Tarifa N*2",
+       "concepto": "Tarifa N*3",
+       "unidad": "S/Serv.",
        "valores": [
-        15595.11
+        81295.46
        ],
        "columnas": null
       },
       {
-       "grupo": "Tarifa N*2 (Medianas Demandas)",
+       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh",
+       "concepto": "Cargo fijo (haya o no consumo)",
+       "unidad": "$/mes",
+       "valores": [
+        22733.75,
+        18000.13,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "concepto": "Aéreas Monofásicas",
+       "unidad": "$/Cliente",
+       "valores": [
+        44267.46
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "concepto": "Subterráneas Monofásicas",
+       "unidad": "$/Cliente",
+       "valores": [
+        99118.71
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Consumo Mensual mayor a 325kWh e inferior o igual a 500kWh",
+       "concepto": "Cargo fio",
+       "unidad": "$/mes",
+       "valores": [
+        34673.7,
+        29940.08,
+        34673.7
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · 137,4262 77/4542 — 137,4262",
+       "concepto": "Aéreas Trifásicas",
+       "unidad": "$/Cliente",
+       "valores": [
+        60387.32
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · Consumo Mensual mayor a 500 kWh e inferior o igual a 700 kWh",
+       "concepto": "Ses",
+       "unidad": null,
+       "valores": [
+        54765.17,
+        null
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Subterráneas Monofásicas",
+       "unidad": "$/Cliente",
+       "valores": [
+        179643.88
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G3: Consumo Mensual mayor a 2000 kWh · o e mayor a 700 kWh",
+       "concepto": "eme",
+       "unidad": null,
+       "valores": [
+        80789.76,
+        null,
+        80789.76
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Subterráneas Trifásicas",
+       "unidad": "$/Cliente",
+       "valores": [
+        185725.45
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Pequeñas In Situ",
+       "unidad": "$/Cliente",
+       "valores": [
+        6654.95
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Pequeñas en Laboratorio",
+       "unidad": "$/Cliente",
+       "valores": [
+        8318.99
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
+       "concepto": "Cargo fijo (haya o no consumo)",
+       "unidad": "$/mes",
+       "valores": [
+        13746.25
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh",
        "concepto": "Cargo variable por energía",
-       "unidad": "S/xWhN",
+       "unidad": "S/N",
        "valores": [
-        105.3728
+        169.8049
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Pequeñas in situ",
+       "unidad": "$/Cliente",
+       "valores": [
+        9981.82
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Pequeñas en Laboratorio",
+       "unidad": "$/Cliente",
+       "valores": [
+        14973.68
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Medianas y grandes demandas In Situ",
+       "unidad": "$/Cliente",
+       "valores": [
+        36971.23
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G2: Consumo Mensual mayor a 800 kWh e inferior o iguala 2000 kWh",
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/AMh",
+       "valores": [
+        154.238
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Tarifa N*2 · Aéreas Monofásicas.",
+       "concepto": "Medianas y grandes demandas en Laboratorio",
+       "unidad": "$/Cliente",
+       "valores": [
+        49911.57
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Ti-G3: Consumo Mensual mayor a 2000 kWh",
+       "concepto": "Por capacidad de suministro contratada",
+       "unidad": "$/W-mes",
+       "valores": [
+        20259.83
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-G1: Consumo Mensual inferior o igual a 800 kWh · Cargo variable por energía",
+       "concepto": "SAN",
+       "unidad": null,
+       "valores": [
+        140.5405
        ],
        "columnas": null
       }
@@ -5095,10 +4904,9 @@
     }
    ],
    "intentos": [
-    "primary: LookupError: sin enlaces candidatos en https://www.edelap.com.ar/tarifas/",
-    "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf"
+    "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -5131,7 +4939,7 @@
    "intentos": [
     "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -5301,7 +5109,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -8850,7 +8658,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -8874,7 +8682,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_D"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -10269,7 +10077,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -11953,7 +11761,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -12239,7 +12047,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -12277,7 +12085,7 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-24T17:33:52+00:00"
+   "verificado": "2026-10-24T18:05:41+00:00"
   },
   {
    "id": "refsa",
@@ -12747,7 +12555,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -12922,7 +12730,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -13617,7 +13425,8 @@
     }
    ],
    "intentos": [
-    "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
+    "known: ValueError: el enlace devolvió una página HTML en vez del documento",
+    "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06"
    ],
    "verificado": "2026-10-24T17:33:52+00:00",
    "comparable": null,
@@ -13628,7 +13437,9 @@
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06_EJEDSA.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ejsed-sa"
-   }
+   },
+   "ultimo_intento": "2026-10-24T18:05:41+00:00",
+   "ultimo_intento_fallido": true
   },
   {
    "id": "ape",
@@ -14424,7 +14235,7 @@
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -14984,7 +14795,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -15121,7 +14932,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -15264,7 +15075,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -15589,7 +15400,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 2309.1,
@@ -16058,7 +15869,7 @@
    "intentos": [
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 10185.04,
@@ -16191,7 +16002,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -16240,7 +16051,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -16363,7 +16174,7 @@
    "intentos": [
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -16603,7 +16414,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -16638,7 +16449,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SP"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "archivo_nacional": {
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -16658,7 +16469,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -16891,7 +16702,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -17619,7 +17430,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -18763,7 +18574,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-24T17:33:52+00:00",
+   "verificado": "2026-10-24T18:05:41+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
