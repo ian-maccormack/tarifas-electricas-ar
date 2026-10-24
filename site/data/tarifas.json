@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T22:16:16+00:00",
+ "generado": "2026-10-24T22:30:54+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -16970,8 +16970,8 @@
    "empresa": "EDESA",
    "nombre": "Empresa Distribuidora de Electricidad de Salta S.A.",
    "provincia": "Salta",
-   "nota": "El PDF usa fuentes sin mapa de caracteres: el texto extraído es ilegible, por eso no se publican valores.",
-   "estado": "documento",
+   "nota": "El PDF usa fuentes sin mapa de caracteres (el texto no se puede extraer): los valores se leen por OCR, con las tablas apaisadas giradas.",
+   "estado": "ok",
    "documento": {
     "url": "https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf",
     "titulo": "– Resol. ENRESP N° 1770/26 – Cuadro Tarifario EDESA octubre 2026",
@@ -16983,15 +16983,899 @@
     "via": "búsqueda automática"
    },
    "vigencia": null,
-   "tablas": [],
+   "tablas": [
+    {
+     "titulo": "Página 19 — transcripción por OCR",
+     "filas": [
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "TIR1 [O<= E<= 192]",
+       "unidad": null,
+       "valores": [
+        5842.64,
+        291.9371
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "T1SRI - SEF [O <= E<= 192]",
+       "unidad": null,
+       "valores": [
+        3641.27
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [192 < E<= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        10564.94,
+        305.6299
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "T1SR2 - SEF [E > 192]",
+       "unidad": null,
+       "valores": [
+        6815.08,
+        150.7553,
+        258.8704,
+        258.8704,
+        258.8704
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [500 < E<= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        14165.59,
+        309.8772
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [700 < E<= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        20814.68,
+        309.5418
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [E > 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        310.4589
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "T1 - Renabap",
+       "unidad": null,
+       "valores": [
+        3641.27,
+        130.9155,
+        233.6807,
+        233.6807,
+        233.6807
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "T1 PROSUMIDORES",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        314.9313
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "TAR - SEF [0 <= E <= 192]",
+       "unidad": null,
+       "valores": [
+        5298.77
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [192 < E<= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        9746.26,
+        182.8189,
+        305.6299,
+        305.6299,
+        305.6299,
+        182.8189
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [500 < E <= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        13382.05,
+        190.045,
+        309.8772,
+        309.8772,
+        309.8772,
+        190.045
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [700 < E<= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        17851.51,
+        188.3728,
+        309.5418,
+        309.5418,
+        309.5418,
+        188.3728
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [E > 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        188.6424,
+        310.4589,
+        310.4589,
+        310.4589,
+        188.6424
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1RI1 - ED[O<= E<= 192]",
+       "unidad": null,
+       "valores": [
+        5160.65,
+        96.7325
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [192 < E <= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        9746.26,
+        104.1873
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [500 < E <= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        13382.05,
+        113.0264
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [700 < E<= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        17851.51,
+        114.9868
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [E> 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        27444.79,
+        122.0282
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G1[0 <= E <= 205]",
+       "unidad": null,
+       "valores": [
+        6056.69,
+        295.4366
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G2(206 < 2000KWh/mes)",
+       "unidad": null,
+       "valores": [
+        17166.16,
+        338.3707
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G2(E >= 2000KWh/mes)",
+       "unidad": null,
+       "valores": [
+        53219.41,
+        303.6387
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        19640.86,
+        27385.08,
+        238.7184
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Página 20 — transcripción por OCR",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        17824.9,
+        5495.78,
+        43348.96,
+        322.5856,
+        317.7794,
+        316.6401
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        17824.9,
+        5495.78,
+        43348.96,
+        343.6922,
+        338.1399,
+        336.8236
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        10597.76,
+        5402.36,
+        277976.83,
+        346.1483,
+        341.8241,
+        340.7991
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        10597.76,
+        5402.36,
+        277976.83,
+        365.1379,
+        360.1425,
+        358.9582
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "ALTA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        165.72,
+        5196.11,
+        277976.83,
+        179.3877,
+        174.5332,
+        173.3823
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION- MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        20421.41,
+        4675.52,
+        43348.96,
+        232.8425,
+        228.0363,
+        226.897
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        19984.8,
+        3859.81,
+        43348.96,
+        245.5356,
+        240.7294,
+        239.5901
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        19984.8,
+        3859.81,
+        43348.96,
+        298.0496,
+        292.4973,
+        291.1809
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        13237.84,
+        5670.87,
+        277976.83,
+        237.8165,
+        233.4923,
+        232.4673
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        13237.84,
+        5670.87,
+        277976.83,
+        256.8062,
+        251.8107,
+        250.6264
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA lp q0 | o0m. | 43.348,96",
+       "unidad": null,
+       "valores": [
+        392.8622,
+        388.0559,
+        386.9167
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "BAJA TENSION - MEDIANA DEMANDA",
+       "concepto": "qm | 000. | 43.348,96",
+       "unidad": null,
+       "valores": [
+        388.7211,
+        383.9149,
+        382.7756
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "MEDIANA TENSION - GRAN DEMANDA",
+       "concepto": "qm | 000. | 277.976,83",
+       "unidad": null,
+       "valores": [
+        436.4036,
+        431.4082,
+        430.2238
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Página 22 — transcripción por OCR",
+     "filas": [
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "TIR1 [O<= E<= 192]",
+       "unidad": null,
+       "valores": [
+        5842.64,
+        291.9371
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayo 2.026) Sin Subsidio",
+       "concepto": "T1SRI - SEF [O <= E<= 192]",
+       "unidad": null,
+       "valores": [
+        3839.82
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [192 < E<= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        10564.94,
+        305.6299
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayo 2.026) Sin Subsidio",
+       "concepto": "T1SR2 - SEF [E > 192]",
+       "unidad": null,
+       "valores": [
+        7633.77,
+        258.8704,
+        258.8704,
+        258.8704,
+        258.8704
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [500 < E<= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        14165.59,
+        309.8772
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [700 < E<= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        20814.68,
+        309.5418
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 [E > 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        310.4589
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayo 2.026) Sin Subsidio",
+       "concepto": "T1 - Renabap",
+       "unidad": null,
+       "valores": [
+        3839.82,
+        233.6807,
+        233.6807,
+        233.6807,
+        233.6807
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayo 2.026) Sin Subsidio",
+       "concepto": "T1 PROSUMIDORES",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        314.9313
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "TAR - SEF [0 <= E <= 192]",
+       "unidad": null,
+       "valores": [
+        5497.32
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [192 < E <= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        10564.94,
+        290.9341,
+        305.6299,
+        305.6299,
+        305.6299,
+        290.9341
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [500 < E <= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        14645.1,
+        294.6529,
+        309.8772,
+        309.8772,
+        309.8772,
+        294.6529
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [700 < E<= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        19837.77,
+        292.046,
+        309.5418,
+        309.5418,
+        309.5418,
+        292.046
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - SEF [E > 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        289.2231,
+        310.4589,
+        310.4589,
+        310.4589,
+        289.2231
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R1- ED[O<=E<= 192]",
+       "unidad": null,
+       "valores": [
+        5359.2,
+        111.6246
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [192 < E <= 500KWh/mes]",
+       "unidad": null,
+       "valores": [
+        10564.94,
+        124.4596
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [500 < E <= 700KWh/mes]",
+       "unidad": null,
+       "valores": [
+        14645.1,
+        129.7852
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [700 < E <= 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        19837.77,
+        130.844
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1R2 - ED [E> 1400KWh/mes]",
+       "unidad": null,
+       "valores": [
+        30232.14,
+        134.7955
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G1[0 <= E <= 205]",
+       "unidad": null,
+       "valores": [
+        6056.69,
+        295.4366
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G2(206 < 2000KWh/mes)",
+       "unidad": null,
+       "valores": [
+        17166.16,
+        338.3707
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "T1G2(E >= 2000KWh/mes)",
+       "unidad": null,
+       "valores": [
+        53219.41,
+        303.6387
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        19640.86,
+        27385.08,
+        238.7184
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Página 23 — transcripción por OCR",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        17824.9,
+        5495.78,
+        43348.96,
+        322.5856,
+        317.7794,
+        316.6401
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        17824.9,
+        5495.78,
+        43348.96,
+        343.6922,
+        338.1399,
+        336.8236
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        10597.76,
+        5402.36,
+        277976.83,
+        346.1483,
+        341.8241,
+        340.7991
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        10597.76,
+        5402.36,
+        277976.83,
+        365.1379,
+        360.1425,
+        358.9582
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "ALTA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        165.72,
+        5196.11,
+        277976.83,
+        179.3877,
+        174.5332,
+        173.3823
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION- MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        20421.41,
+        4675.52,
+        43348.96,
+        232.8425,
+        228.0363,
+        226.897
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        19984.8,
+        3859.81,
+        43348.96,
+        245.5356,
+        240.7294,
+        239.5901
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        19984.8,
+        3859.81,
+        43348.96,
+        298.0496,
+        292.4973,
+        291.1809
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - MEDIANA DEMANDA",
+       "unidad": null,
+       "valores": [
+        13237.84,
+        5670.87,
+        277976.83,
+        237.8165,
+        233.4923,
+        232.4673
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "MEDIA TENSION - GRAN DEMANDA",
+       "unidad": null,
+       "valores": [
+        13237.84,
+        5670.87,
+        277976.83,
+        256.8062,
+        251.8107,
+        250.6264
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "BAJA TENSION - MEDIANA DEMANDA lp q0 | o0m. | 43.348,96",
+       "unidad": null,
+       "valores": [
+        392.8622,
+        388.0559,
+        386.9167
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "BAJA TENSION - MEDIANA DEMANDA",
+       "concepto": "qm | 000. | 43.348,96",
+       "unidad": null,
+       "valores": [
+        388.7211,
+        383.9149,
+        382.7756
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "MEDIANA TENSION - GRAN DEMANDA",
+       "concepto": "qm | 000. | 277.976,83",
+       "unidad": null,
+       "valores": [
+        436.4036,
+        431.4082,
+        430.2238
+       ],
+       "columnas": null
+      }
+     ]
+    }
+   ],
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T22:16:16+00:00",
-   "comparable": null,
+   "verificado": "2026-10-24T22:30:54+00:00",
+   "comparable": {
+    "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
+    "cargo_fijo": {
+     "valor": 5842.64,
+     "unidad": "$/mes",
+     "concepto": "TIR1 [O<= E<= 192]",
+     "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+     "columna": null
+    },
+    "cargo_variable": {
+     "valor": 291.9371,
+     "unidad": "$/kWh",
+     "concepto": "TIR1 [O<= E<= 192]",
+     "grupo": "CUADRO TARIFARIO EDESA S.A. OCTUBRE 2.026 (Abastecimiento Res. S.E. N* 190/26; 222/26; 225/26; 272/26 y Dto. 943/25 - VAD ACTUALIZADO A",
+     "columna": null
+    }
+   },
    "texto": true,
    "escaneado": false,
-   "ocr": false,
+   "ocr": true,
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -18036,7 +18920,7 @@
     "bytes": 980584,
     "via": "búsqueda automática"
    },
-   "vigencia": null,
+   "vigencia": "Facturación con vencimiento en septiembre de 2025 (leído por OCR)",
    "tablas": [
     {
      "titulo": "Página 4 — transcripción por OCR",
@@ -18720,7 +19604,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-24T22:16:16+00:00",
+   "verificado": "2026-10-24T22:30:54+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -18746,10 +19630,10 @@
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpe"
    },
-   "mes_referencia": null,
-   "mes_referencia_origen": null,
+   "mes_referencia": "2025-09",
+   "mes_referencia_origen": "vigencia",
    "simulador": null,
-   "desactualizado": false
+   "desactualizado": true
   },
   {
    "id": "edet",
@@ -18768,7 +19652,7 @@
     "bytes": 6854984,
     "via": "búsqueda automática"
    },
-   "vigencia": null,
+   "vigencia": "Vigencia: septiembre de 2026 (leído por OCR)",
    "tablas": [
     {
      "titulo": "Página 1 — transcripción por OCR",
@@ -20306,7 +21190,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-24T22:16:16+00:00",
+   "verificado": "2026-10-24T22:30:54+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -20316,8 +21200,8 @@
     "titulo": "Cuadro Tarifario del 06-2026",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet"
    },
-   "mes_referencia": null,
-   "mes_referencia_origen": null,
+   "mes_referencia": "2026-09",
+   "mes_referencia_origen": "vigencia",
    "simulador": null,
    "desactualizado": false
   }
