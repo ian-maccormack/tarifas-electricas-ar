@@ -2,6 +2,7 @@
 import html
 import json
 import re
+import threading
 import time
 from urllib.parse import unquote, urljoin
 
@@ -171,19 +172,29 @@ WAYBACK = "https://web.archive.org/web/"
 OCEBA_PAGE = "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17"
 
 
+_WB_LOCK = threading.Lock()
+_WB_CACHE = {}
+
+
 def _wayback(url, timeout=60):
-    """GET through the Internet Archive, retrying while it reports being offline."""
-    last = None
-    for i in range(3):
-        try:
-            r = fetch(url, timeout=timeout)
-            if "Internet Archive: " not in r.text[:400] or "Offline" not in r.text[:400]:
-                return r
-            last = RuntimeError("Internet Archive fuera de servicio")
-        except Exception as e:
-            last = e
-        time.sleep(10 * (i + 1))
-    raise last
+    """GET through the Internet Archive one request at a time (it rate-limits with 429), retrying
+    while it is offline or busy. Responses are reused within a run (EDEN and EDES share the page)."""
+    with _WB_LOCK:
+        if url in _WB_CACHE:
+            return _WB_CACHE[url]
+        last = None
+        for i in range(4):
+            try:
+                r = fetch(url, timeout=timeout)
+                if "Internet Archive: " not in r.text[:400] or "Offline" not in r.text[:400]:
+                    _WB_CACHE[url] = r
+                    time.sleep(2)
+                    return r
+                last = RuntimeError("Internet Archive fuera de servicio")
+            except Exception as e:
+                last = e
+            time.sleep(20 * (i + 1))
+        raise last
 
 
 def _captures(url_pattern, limit=None):
