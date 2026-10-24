@@ -163,6 +163,62 @@ def epe(tablas):
     return {"periodo": "mes", "criterio": "", "categorias": []}
 
 
+@builder("enersa")
+def enersa(tablas):
+    """Cumulative blocks; the extracted table can carry rows of the next column after the excedente."""
+    t = next(t for t in tablas if re.search(r"T 1-R Uso residencial — Sin Subsidio$", t["titulo"]))
+    fijo = _row(t["filas"], r"^Cargo fijo")
+    esc, acc = [], 0
+    for f in t["filas"]:
+        m = re.match(r"^(Primeros|Siguientes|Excedente de) (\d+) kWh/mes$", f["concepto"])
+        if not m:
+            continue
+        if m.group(1) == "Excedente de":
+            if int(m.group(2)) != acc:
+                raise ValueError("los escalones no suman el límite del excedente")
+            esc.append([None, _val(f)])
+            break
+        acc += int(m.group(2))
+        esc.append([acc, _val(f)])
+    else:
+        raise ValueError("sin excedente")
+    return {"periodo": "mes", "criterio": "T1-R uso residencial sin subsidio",
+            "categorias": [{"nombre": "T1-R", "hasta": None, "fijo": _val(fijo), "escalones": esc}]}
+
+
+@builder("edemsa", "edeste")
+def mendoza(tablas):
+    """Mendoza: the bimonthly consumption sets the category; first column is 'sin SEF'."""
+    filas, cats = tablas[0]["filas"], []
+    for g in dict.fromkeys(f.get("grupo") for f in filas if re.match(r"^Residencial \d", f.get("grupo") or "")):
+        rows = [f for f in filas if f.get("grupo") == g]
+        m = re.search(r"[Hh]asta (\d+)|entre \d+ y (\d+)|[Mm]ayor o igual", g)
+        if not m:
+            raise ValueError(f"límite no reconocido: {g}")
+        hasta = int(m.group(1) or m.group(2)) if (m.group(1) or m.group(2)) else None
+        cats.append({"nombre": g, "hasta": hasta, "fijo": _val(_row(rows, r"^Cargo Fijo$")),
+                     "escalones": [[None, _val(_row(rows, r"^Cargo Variable$"))]]})
+    return {"periodo": "bimestre", "criterio": "Residencial sin SEF (primera columna)", "categorias": cats}
+
+
+@builder("ejesa")
+def ejesa(tablas):
+    """Jujuy: the monthly consumption sets the category; the energy price is uso de red + consumo de energía."""
+    cats = []
+    for f in tablas[0]["filas"]:
+        c = f["concepto"]
+        if c.startswith("RE ") or len(f["valores"]) != 3:
+            continue
+        m = re.search(r"Primeros (\d+)|menor o igual a (\d+)|Mayores a", c)
+        if not m:
+            raise ValueError(f"límite no reconocido: {c}")
+        hasta = int(m.group(1) or m.group(2)) if (m.group(1) or m.group(2)) else None
+        red, energia = f["valores"][1], f["valores"][2]
+        cats.append({"nombre": c.split(" ")[0], "hasta": hasta, "fijo": f["valores"][0],
+                     "escalones": [[None, red + energia if red is not None and energia is not None else None]]})
+    return {"periodo": "mes", "criterio": "T1 residencial, cargos plenos (uso de red + energía)", "categorias": cats}
+
+
 def build(entry):
     fn = BUILDERS.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):

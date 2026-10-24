@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T22:53:56+00:00",
+ "generado": "2026-10-24T22:56:53+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -12758,7 +12758,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-24T22:53:56+00:00",
+   "verificado": "2026-10-24T22:56:53+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -12786,7 +12786,35 @@
    },
    "mes_referencia": "2026-11",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R uso residencial sin subsidio",
+    "categorias": [
+     {
+      "nombre": "T1-R",
+      "hasta": null,
+      "fijo": 3193.22,
+      "escalones": [
+       [
+        100,
+        243.94
+       ],
+       [
+        200,
+        275.87
+       ],
+       [
+        300,
+        319.04
+       ],
+       [
+        null,
+        344.42
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -13475,6 +13503,21 @@
       },
       {
        "grupo": null,
+       "concepto": "R5 Mayor a 700 y menor o igual a 1400 kWh/mes",
+       "unidad": null,
+       "valores": [
+        33501.0,
+        101.8901,
+        157.8779
+       ],
+       "columnas": [
+        "Cargo Fijo ($/mes)",
+        "Cargo por Uso de Red ($/kWh)",
+        "Cargo por Consumo de Energía ($/kWh)"
+       ]
+      },
+      {
+       "grupo": null,
        "concepto": "R6 Mayor a 1400 y menor o igual a 4800 kWh/mes",
        "unidad": null,
        "valores": [
@@ -13524,7 +13567,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-24T22:53:56+00:00",
+   "verificado": "2026-10-24T22:56:53+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -13546,7 +13589,100 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "texto del documento",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1 residencial, cargos plenos (uso de red + energía)",
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 150,
+      "fijo": 5116.0,
+      "escalones": [
+       [
+        null,
+        253.24360000000001
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 200,
+      "fijo": 6058.0,
+      "escalones": [
+       [
+        null,
+        254.9081
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 300,
+      "fijo": 6058.0,
+      "escalones": [
+       [
+        null,
+        254.9081
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 500,
+      "fijo": 10180.0,
+      "escalones": [
+       [
+        null,
+        256.1729
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 700,
+      "fijo": 22226.0,
+      "escalones": [
+       [
+        null,
+        257.9809
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 1400,
+      "fijo": 33501.0,
+      "escalones": [
+       [
+        null,
+        259.76800000000003
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": 4800,
+      "fijo": 58654.0,
+      "escalones": [
+       [
+        null,
+        263.4432
+       ]
+      ]
+     },
+     {
+      "nombre": "R7",
+      "hasta": null,
+      "fijo": 93847.0,
+      "escalones": [
+       [
+        null,
+        265.26279999999997
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -15739,7 +15875,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T22:53:56+00:00",
+   "verificado": "2026-10-24T22:56:53+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -15767,7 +15903,45 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "Residencial sin SEF (primera columna)",
+    "categorias": [
+     {
+      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "hasta": 299,
+      "fijo": 7562.923,
+      "escalones": [
+       [
+        null,
+        280.5412
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "hasta": 599,
+      "fijo": 8334.011,
+      "escalones": [
+       [
+        null,
+        270.4639
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "hasta": null,
+      "fijo": 49493.44,
+      "escalones": [
+       [
+        null,
+        241.6774
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -15886,7 +16060,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T22:53:56+00:00",
+   "verificado": "2026-10-24T22:56:53+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -15914,7 +16088,45 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "Residencial sin SEF (primera columna)",
+    "categorias": [
+     {
+      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "hasta": 299,
+      "fijo": 7562.923,
+      "escalones": [
+       [
+        null,
+        280.5412
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "hasta": 599,
+      "fijo": 8334.011,
+      "escalones": [
+       [
+        null,
+        270.4639
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "hasta": null,
+      "fijo": 49493.44,
+      "escalones": [
+       [
+        null,
+        241.6774
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {

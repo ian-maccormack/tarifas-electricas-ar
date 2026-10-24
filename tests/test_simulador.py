@@ -55,7 +55,7 @@ def _entry(id):
     import gzip, json
     from parsers import PARSERS
     fx = json.load(gzip.open(Path(__file__).resolve().parent / "fixtures" / f"{id}.json.gz", "rt"))
-    out = PARSERS[fx["source"]["parser"]](fx["text"], content=None, source=fx["source"], sheets=None)
+    out = PARSERS[fx["source"]["parser"]](fx["text"], content=None, source=fx["source"], sheets=fx.get("sheets"))
     return {"id": id, "estado": "ok", "ocr": False, "tablas": out["tablas"]}
 
 
@@ -69,3 +69,23 @@ def test_epe_cumulative_blocks():
     s = build(_entry("epe"))
     assert [h for h, _ in s["categorias"][0]["escalones"]] == [75, 150, 300, None]
     assert round(cost(s, 150), 2) == round(3944.25564 + 75 * 247.6447 + 75 * 270.56492, 2)
+
+
+
+def test_enersa_stops_at_excedente():
+    s = build(_entry("enersa"))
+    assert [h for h, _ in s["categorias"][0]["escalones"]] == [100, 200, 300, None]
+    assert round(cost(s, 250), 2) == round(3193.22 + 100 * 243.94 + 100 * 275.87 + 50 * 319.04, 2)
+
+
+def test_mendoza_bimonthly_categories():
+    s = build(_entry("edemsa"))
+    assert [c["hasta"] for c in s["categorias"]] == [299, 599, None]
+    assert round(cost(s, 150), 2) == round((8334.011 + 300 * 270.4639) / 2, 2)
+
+
+def test_ejesa_sums_network_and_energy():
+    s = build(_entry("ejesa"))
+    assert "R5" in [c["nombre"] for c in s["categorias"]]
+    assert round(cost(s, 150), 2) == round(5116 + 150 * (95.248 + 157.9956), 2)
+    assert round(cost(s, 1000), 2) == round(33501 + 1000 * (101.8901 + 157.8779), 2)

@@ -287,9 +287,17 @@ def p_dpec(text, **_):
 def p_ejesa(text, **_):
     sub = section(text, r"T1 - SERVICIOS RESIDENCIALES", r"T1 - SERVICIOS COMUNITARIOS")
     cols = ["Cargo Fijo ($/mes)", "Cargo por Uso de Red ($/kWh)", "Cargo por Consumo de Energía ($/kWh)"]
-    filas = []
+    filas, prev = [], ""
     for line in sub.splitlines():
         m = re.match(r"^\s*(R\d(?:\s*-\s*bis)?|RE)\s+(.*?(?:kWh/mes|Todo el consumo))\s+(.*)$", line)
+        if not m:
+            # the label of a row can sit on the line above its code and values (e.g. R5)
+            m0 = re.match(r"^\s*(R\d)\s+(\d.*)$", line)
+            lab = re.match(r"^\s*(Mayor a \d+ y menor o igual a \d+ kWh/mes)(?:\s{3,}\D*)?$", prev)
+            if m0 and lab:
+                m = re.match(r"^(.*)\|(.*)\|(.*)$", f"{m0.group(1)}|{lab.group(1)}|{m0.group(2)}")
+        if line.strip():
+            prev = line
         if m:
             vals, _ = take_values(m.group(3), ",", 3)
             if len(vals) == 3:
