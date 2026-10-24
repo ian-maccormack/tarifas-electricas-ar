@@ -30,7 +30,18 @@ def candidates(s):
 
 def get_doc(url, headers=None):
     CACHE.mkdir(exist_ok=True)
-    r = _wayback(url, timeout=90) if url.startswith(WAYBACK) else fetch(url, timeout=90, headers=headers)
+    if url.startswith(WAYBACK):
+        # An archived capture never changes: keep a copy so the daily run does not depend on the
+        # Internet Archive answering (it often rate-limits GitHub's servers).
+        copy = DATA / "copias" / (hashlib.sha256(url.encode()).hexdigest()[:16] + ".pdf")
+        if copy.exists():
+            return copy.read_bytes(), "application/pdf"
+        r = _wayback(url, timeout=90)
+        if r.content[:5] == b"%PDF-":
+            copy.parent.mkdir(exist_ok=True)
+            copy.write_bytes(r.content)
+        return r.content, r.headers.get("content-type", "")
+    r = fetch(url, timeout=90, headers=headers)
     return r.content, r.headers.get("content-type", "")
 
 

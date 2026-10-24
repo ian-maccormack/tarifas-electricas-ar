@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T22:31:46+00:00",
+ "generado": "2026-10-24T22:44:16+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -3026,11 +3026,9 @@
     }
    ],
    "intentos": [
-    "primary: HTTPError: 429 Client Error: Too Many Requests for url: https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
-    "parser: ValueError: no se encontró la sección /^\\s*T1R - RESIDENCIAL\\s*$/",
-    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
+    "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-24T22:16:16+00:00",
+   "verificado": "2026-10-24T22:44:16+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5400.69,
@@ -3141,9 +3139,7 @@
      }
     ]
    },
-   "desactualizado": true,
-   "ultimo_intento": "2026-10-24T22:31:46+00:00",
-   "ultimo_intento_fallido": true
+   "desactualizado": true
   },
   {
    "id": "edea",
@@ -5489,7 +5485,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf"
+    "primary: HTTPError: 429 Client Error: Too Many Requests for url: https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
+    "parser: ValueError: no se encontró la sección /^\\s*T1R - RESIDENCIAL\\s*$/",
+    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
    ],
    "verificado": "2026-10-24T22:31:46+00:00",
    "comparable": {
@@ -5602,7 +5600,9 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "ultimo_intento": "2026-10-24T22:44:16+00:00",
+   "ultimo_intento_fallido": true
   },
   {
    "id": "ecsapem",
