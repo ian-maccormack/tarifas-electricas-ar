@@ -219,6 +219,41 @@ def ejesa(tablas):
     return {"periodo": "mes", "criterio": "T1 residencial, cargos plenos (uso de red + energía)", "categorias": cats}
 
 
+@builder("ape")
+def ape(tablas):
+    """La Pampa: the monthly consumption sets the category. Fixed part = cargo fijo + cargo por potencia
+    + fondo cooperativo; energy = compra de energía (all kWh) + VAD in cumulative blocks. Column 0
+    is the 'precio de venta máximo' (without the national subsidy)."""
+    filas, cats = tablas[0]["filas"], []
+    for g in dict.fromkeys(f.get("grupo") for f in filas if f.get("grupo")):
+        rows = [f for f in filas if f.get("grupo") == g]
+        m = re.findall(r"iguales a (\d+) kWh", g)
+        hasta = int(m[-1]) if m else (None if re.search(r"mayores a \d+ kWh/mes$", g) else -1)
+        if hasta == -1:
+            raise ValueError(f"límite no reconocido: {g}")
+        parts = [_val(_row(rows, rx)) for rx in (r"^Cargo Fijo$", r"^Cargo por Potencia$", r"^Fondo Cooperativo")]
+        compra = _val(_row(rows, r"^Costo Compra de Energ"))
+        esc, acc = [], 0
+        for f in rows:
+            mm = re.match(r"^VAD (primeros|siguientes|excedente de) (\d+) kWh$", f["concepto"])
+            if not mm:
+                continue
+            v = _val(f)
+            precio = compra + v if compra is not None and v is not None else None
+            if mm.group(1) == "excedente de":
+                if int(mm.group(2)) != acc:
+                    raise ValueError("los tramos VAD no suman el excedente")
+                esc.append([None, precio])
+            else:
+                acc += int(mm.group(2))
+                esc.append([acc, precio])
+        if esc and esc[-1][0] is not None:
+            esc.append([None, None])  # beyond the last block the document gives no price for this category
+        cats.append({"nombre": g, "hasta": hasta, "fijo": sum(parts) if None not in parts else None,
+                     "escalones": esc or [[None, None]]})
+    return {"periodo": "mes", "criterio": "T1R Nivel 1, precio de venta máximo", "categorias": cats}
+
+
 def build(entry):
     fn = BUILDERS.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):

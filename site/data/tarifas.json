@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T22:56:53+00:00",
+ "generado": "2026-10-24T22:57:56+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -15167,10 +15167,10 @@
     }
    ],
    "intentos": [
-    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
+    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnectio",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-24T22:53:56+00:00",
+   "verificado": "2026-10-24T22:57:56+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -15187,7 +15187,146 @@
    "ocr": false,
    "mes_referencia": "2025-12",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1R Nivel 1, precio de venta máximo",
+    "categorias": [
+     {
+      "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
+      "hasta": 120,
+      "fijo": 3790.26,
+      "escalones": [
+       [
+        60,
+        146.842866
+       ],
+       [
+        120,
+        157.192866
+       ],
+       [
+        null,
+        null
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R1-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "hasta": 220,
+      "fijo": 5555.98,
+      "escalones": [
+       [
+        60,
+        146.842866
+       ],
+       [
+        120,
+        157.192866
+       ],
+       [
+        220,
+        170.402866
+       ],
+       [
+        null,
+        null
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R1-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "hasta": 500,
+      "fijo": 9616.9,
+      "escalones": [
+       [
+        60,
+        146.842866
+       ],
+       [
+        120,
+        157.192866
+       ],
+       [
+        220,
+        170.402866
+       ],
+       [
+        null,
+        193.25286599999998
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "hasta": 700,
+      "fijo": 20454.05,
+      "escalones": [
+       [
+        60,
+        155.682866
+       ],
+       [
+        120,
+        167.84286600000001
+       ],
+       [
+        220,
+        183.262866
+       ],
+       [
+        null,
+        210.19286599999998
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "hasta": 1400,
+      "fijo": 32684.57,
+      "escalones": [
+       [
+        60,
+        156.402866
+       ],
+       [
+        120,
+        169.482866
+       ],
+       [
+        220,
+        186.392866
+       ],
+       [
+        null,
+        215.992866
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R5 Consumos mayores a 1400 kWh/mes",
+      "hasta": null,
+      "fijo": 80663.87999999999,
+      "escalones": [
+       [
+        60,
+        161.142866
+       ],
+       [
+        120,
+        177.392866
+       ],
+       [
+        220,
+        198.462866
+       ],
+       [
+        null,
+        234.962866
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": true
   },
   {

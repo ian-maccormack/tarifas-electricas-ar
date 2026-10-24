@@ -89,3 +89,11 @@ def test_ejesa_sums_network_and_energy():
     assert "R5" in [c["nombre"] for c in s["categorias"]]
     assert round(cost(s, 150), 2) == round(5116 + 150 * (95.248 + 157.9956), 2)
     assert round(cost(s, 1000), 2) == round(33501 + 1000 * (101.8901 + 157.8779), 2)
+
+
+
+def test_ape_components():
+    s = build(_entry("ape"))
+    assert [c["hasta"] for c in s["categorias"]] == [120, 220, 500, 700, 1400, None]
+    fijo = 1517.32 + 2188.68 + 84.26
+    assert round(cost(s, 100), 2) == round(fijo + 60 * (127.502866 + 19.34) + 40 * (127.502866 + 29.69), 2)
