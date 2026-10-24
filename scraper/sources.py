@@ -153,9 +153,10 @@ def page_latest(page, url_re, text_re=None, exclude_re=None):
 S = []
 
 
-def src(id, empresa, nombre, provincia, primary=None, origen=ORIGEN_DIST, se=None, parser=None, nota="", known=None):
+def src(id, empresa, nombre, provincia, primary=None, origen=ORIGEN_DIST, se=None, parser=None, nota="", known=None, ocr=False):
     S.append(dict(id=id, empresa=empresa, nombre=nombre, provincia=provincia,
-                  primary=primary, origen=origen, se=se, parser=parser or id, nota=nota, known=known))
+                  primary=primary, origen=origen, se=se, parser=parser or id, nota=nota, known=known,
+        ocr=ocr))
 
 
 src("edenor", "EDENOR", "Empresa Distribuidora y Comercializadora Norte S.A.", "Ciudad de Buenos Aires y GBA",
@@ -233,3 +234,9 @@ src("edet", "EDET", "Empresa de Distribución Eléctrica de Tucumán S.A.", "Tuc
     getfile_page("https://www.edetsa.com/info/pwa/institucional/costos-del-servicio", r"cuadro tarifario vigente"), se="edet")
 
 SOURCES = S
+
+
+# PDFs whose text layer is unusable (images, or fonts without a character map): use OCR.
+for _s in SOURCES:
+    if _s["id"] in ("edelap", "dpe", "edesa"):
+        _s["ocr"] = True

@@ -33,6 +33,28 @@ def get_doc(url):
     return r.content, r.headers.get("content-type", "")
 
 
+def ocr_tables(id, content):
+    """OCR is slow, so results are cached in the repo by document hash."""
+    from ocr import ocr_rows, read_pages
+    sha = hashlib.sha256(content).hexdigest()[:16]
+    cache = DATA / "ocr" / f"{id}-{sha}.json"
+    if cache.exists():
+        pages = json.loads(cache.read_text())
+    else:
+        pages = read_pages(content)
+        cache.parent.mkdir(exist_ok=True)
+        for old in cache.parent.glob(f"{id}-*.json"):
+            old.unlink()
+        cache.write_text(json.dumps(pages, ensure_ascii=False, separators=(",", ":")))
+    rows = ocr_rows(pages)
+    tablas = {}
+    for r in rows:
+        t = tablas.setdefault(r["pagina"], {"titulo": f"Página {r['pagina']} — transcripción por OCR", "filas": []})
+        t["filas"].append({"grupo": r["grupo"], "concepto": r["concepto"], "unidad": r["unidad"],
+                           "valores": r["valores"], "columnas": None})
+    return list(tablas.values())
+
+
 def validate(tablas):
     """Drop tables without any numeric value; never invent missing cells."""
     out = []
@@ -67,8 +89,12 @@ def process(s):
                 except Exception as e:
                     entry["intentos"].append(f"parser: {type(e).__name__}: {e}")
             tablas = validate(parsed.get("tablas", []))
+            used_ocr = False
+            if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
+                tablas = validate(ocr_tables(s["id"], content))
+                used_ocr = bool(tablas)
             entry.update(documento=doc, vigencia=parsed.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
-                         texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200))
+                         texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr)
             if text.strip() and tipo != "html":
                 (TEXTS / f"{s['id']}.txt").write_text(text)
             entry["estado"] = "ok" if tablas else "documento"

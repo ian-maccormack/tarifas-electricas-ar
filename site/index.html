@@ -49,7 +49,7 @@
       <li>Un proceso automático (GitHub Actions, diario) busca el cuadro vigente de cada distribuidora en este orden: sitio de la distribuidora o ente regulador → URL conocida del último cuadro → archivo de la Secretaría de Energía de la Nación.</li>
       <li>Se descarga el documento, se calcula su hash SHA-256 y se extrae el texto. Para un subconjunto de distribuidoras hay un extractor específico que transcribe las filas de la tarifa residencial (T1-R) sin hacer cálculos.</li>
       <li>Los nombres de columnas solo se asignan cuando la cantidad de valores de la fila coincide exactamente con las columnas del cuadro. Si no, los valores se muestran en el orden del documento.</li>
-      <li>Los PDFs escaneados (sin texto) no se procesan con OCR: se enlaza el documento y los valores quedan vacíos.</li>
+      <li>Los PDFs escaneados (o con texto ilegible) se procesan con dos motores de OCR independientes (Tesseract y RapidOCR). Un número se publica solo si ambos lo leen exactamente igual en la misma posición; si no, queda vacío. Estas fichas están marcadas "OCR".</li>
       <li>Si una fuente falla, se mantiene el último documento verificado y se marca como "último intento fallido".</li>
       <li>"Vigencia" es el texto literal del documento. Si el documento no la indica claramente, queda vacía.</li>
     </ul>

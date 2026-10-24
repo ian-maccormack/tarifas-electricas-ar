@@ -37,13 +37,14 @@ function card(e) {
   if (e.texto) body += `<dt>Texto extraído</dt><dd><a href="data/textos/${e.id}.txt" target="_blank">ver texto completo del documento</a></dd>`;
   if (e.archivo_nacional) body += `<dt>Archivo nacional</dt><dd><a href="${esc(e.archivo_nacional.url)}" target="_blank" rel="noopener">${esc(e.archivo_nacional.titulo)}</a></dd>`;
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
-  if (e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada (sin texto); no se extraen valores para evitar errores de OCR.</dd>`;
+  if (e.ocr) body += `<dt>Aviso OCR</dt><dd>Valores leídos por OCR del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; las columnas no se identifican. Verificá contra el documento antes de usar un valor.</dd>`;
+  else if (e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
   body += "</dl>";
   if (e.tablas.length) body += e.tablas.map(tableHTML).join("");
   else body += `<p class="note">No hay valores extraídos automáticamente para esta distribuidora. ${d ? "Consultá el documento oficial." : ""}</p>`;
   if (e.intentos?.length) body += `<details><summary class="note">Registro técnico</summary><pre class="note">${esc(e.intentos.join("\n"))}</pre></details>`;
   return `<details class="card" id="d-${e.id}"><summary><h3>${esc(e.empresa)}</h3><span class="prov">${esc(e.provincia)}</span>
-    <span class="badge b-${e.estado}">${ESTADO[e.estado]}</span>${via}${stale}
+    <span class="badge b-${e.estado}">${ESTADO[e.estado]}</span>${e.ocr ? '<span class="badge b-old">OCR</span>' : ""}${via}${stale}
     <span class="prov">${e.vigencia ? "Vigencia: " + esc(e.vigencia) : ""}</span></summary><div class="body">${body}</div></details>`;
 }
 
