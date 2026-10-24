@@ -303,10 +303,13 @@ def p_ejesa(text, **_):
 @parser("epec")
 def p_epec(text, **_):
     sub = section(text, r"TARIFA N[ºo°] 1 - RESIDENCIAL", r"^\s*TARIFA N[ºo°] 2 - GENERAL Y DE SERVICIOS")
-    filas, grupo, label = [], None, None
+    filas, grupo, label, head = [], None, None, "Residencial"
     for line in sub.splitlines():
         s = line.strip()
         if not s:
+            continue
+        if re.match(r"^RESIDENCIAL[A-ZÁÉÍÓÚÑ ]*$", s):
+            head = squeeze(s.title())
             continue
         m = re.match(r"^\(Pesos[^)]*\)\s*\$\s*([\d.,]+)$", s)
         if m and label:
@@ -314,7 +317,7 @@ def p_epec(text, **_):
             filas.append({"grupo": grupo, "concepto": label, "unidad": unidad, "valores": [parse_num(m.group(1), ",")],
                           "columnas": None})
         elif s.startswith("●"):
-            grupo = squeeze(s.lstrip("●"))
+            grupo = f"{head} — {squeeze(s.lstrip('●'))}"
         elif not s.startswith("(") and len(s) < 90:
             label = squeeze(s)
         if len(filas) > 150:

@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T16:28:49+00:00",
+ "generado": "2026-10-24T16:29:03+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -3083,7 +3083,7 @@
      "titulo": "Tarifa Nº 1 - Residencial",
      "filas": [
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3092,7 +3092,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Por cada kWh consumido",
        "unidad": "$/kWh",
        "valores": [
@@ -3101,7 +3101,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3110,7 +3110,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3119,7 +3119,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 30 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3128,7 +3128,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3137,7 +3137,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3146,7 +3146,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3155,7 +3155,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3164,7 +3164,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3173,7 +3173,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 30 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3182,7 +3182,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3191,7 +3191,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3200,7 +3200,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3209,7 +3209,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3218,7 +3218,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3227,7 +3227,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Los siguientes 30 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3236,7 +3236,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3245,7 +3245,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3254,7 +3254,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3263,7 +3263,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3272,7 +3272,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3281,7 +3281,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3290,7 +3290,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3299,7 +3299,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3308,7 +3308,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3317,7 +3317,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3326,7 +3326,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3335,7 +3335,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3344,7 +3344,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3353,7 +3353,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3362,7 +3362,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3371,7 +3371,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3380,7 +3380,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3389,7 +3389,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3398,7 +3398,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3407,7 +3407,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3416,7 +3416,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3425,7 +3425,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3434,7 +3434,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3443,7 +3443,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3452,7 +3452,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3461,7 +3461,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3470,7 +3470,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3479,7 +3479,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3488,7 +3488,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3497,7 +3497,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3506,7 +3506,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3515,7 +3515,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3524,7 +3524,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3533,7 +3533,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3542,7 +3542,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3551,7 +3551,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3560,7 +3560,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3569,7 +3569,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3578,7 +3578,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3587,7 +3587,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3596,7 +3596,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3605,7 +3605,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3614,7 +3614,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3623,7 +3623,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3632,7 +3632,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3641,7 +3641,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3650,7 +3650,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3659,7 +3659,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3668,7 +3668,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3677,7 +3677,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3686,7 +3686,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3695,7 +3695,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3704,7 +3704,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3713,7 +3713,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3722,7 +3722,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3731,7 +3731,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3740,7 +3740,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3749,7 +3749,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3758,7 +3758,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3767,7 +3767,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3776,7 +3776,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3785,7 +3785,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3794,7 +3794,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3803,7 +3803,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3812,7 +3812,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para los servicios comprendidos en el acápite k) se aplicará",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite k) se aplicará",
        "concepto": "Por 200 kWh al mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3821,7 +3821,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3830,7 +3830,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Por cada kWh consumido",
        "unidad": "$/kWh",
        "valores": [
@@ -3839,7 +3839,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3848,7 +3848,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3857,7 +3857,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "El excedente de 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3866,7 +3866,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3875,7 +3875,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3884,7 +3884,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "El excedente de 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3893,7 +3893,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3902,7 +3902,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Los primeros 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3911,7 +3911,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "El excedente de 120 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -3920,7 +3920,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3929,7 +3929,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3938,7 +3938,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3947,7 +3947,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3956,7 +3956,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -3965,7 +3965,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -3974,7 +3974,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -3983,7 +3983,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -3992,7 +3992,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4001,7 +4001,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4010,7 +4010,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4019,7 +4019,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4028,7 +4028,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4037,7 +4037,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4046,7 +4046,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -4055,7 +4055,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4064,7 +4064,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4073,7 +4073,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4082,7 +4082,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4091,7 +4091,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4100,7 +4100,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4109,7 +4109,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4118,7 +4118,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4127,7 +4127,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4136,7 +4136,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -4145,7 +4145,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4154,7 +4154,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4163,7 +4163,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4172,7 +4172,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4181,7 +4181,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4190,7 +4190,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4199,7 +4199,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Pico",
        "unidad": null,
        "valores": [
@@ -4208,7 +4208,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Valle",
        "unidad": null,
        "valores": [
@@ -4217,7 +4217,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
        "concepto": "En Horario de Horas Restantes",
        "unidad": null,
        "valores": [
@@ -4226,7 +4226,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -4235,7 +4235,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
        "concepto": "Por cada kWh consumido",
        "unidad": "$/kWh",
        "valores": [
@@ -4244,7 +4244,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para los servicios comprendidos en el acápite k) se aplicará",
+       "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite k) se aplicará",
        "concepto": "Por 200 kWh al mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4253,7 +4253,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para todo nivel de consumo",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para todo nivel de consumo",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -4262,7 +4262,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los primeros 150 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4271,7 +4271,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4280,7 +4280,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4289,7 +4289,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4298,7 +4298,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los primeros 150 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4307,7 +4307,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4316,7 +4316,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4325,7 +4325,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4334,7 +4334,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los primeros 150 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4343,7 +4343,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4352,7 +4352,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4361,7 +4361,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4370,7 +4370,7 @@
        "columnas": null
       },
       {
-       "grupo": "Para todo nivel de consumo",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para todo nivel de consumo",
        "concepto": "Cargo Fijo Mensual (CFM)",
        "unidad": "$/mes",
        "valores": [
@@ -4379,7 +4379,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los primeros 150 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4388,7 +4388,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4397,7 +4397,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4406,7 +4406,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
        "concepto": "El excedente de 300 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4415,7 +4415,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los primeros 150 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4424,7 +4424,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los siguientes 50 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4433,7 +4433,7 @@
        "columnas": null
       },
       {
-       "grupo": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+       "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
        "concepto": "Los siguientes 100 kWh por mes",
        "unidad": "$/kWh",
        "valores": [
@@ -4448,7 +4448,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-24T16:28:49+00:00",
+   "verificado": "2026-10-24T16:29:03+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
