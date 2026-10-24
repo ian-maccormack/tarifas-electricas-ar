@@ -349,7 +349,7 @@ src("edersa", "EDERSA", "Empresa de Energía de Río Negro S.A.", "Río Negro",
     se="edersa")
 src("edesa", "EDESA", "Empresa Distribuidora de Electricidad de Salta S.A.", "Salta",
     page_latest("https://www.edesa.com.ar/informacion-regulatoria/", r"/uploads/.*(CT|cuadro).*\.pdf$", exclude_re=r"ESED"), se="edesa",
-    nota="El PDF usa fuentes sin mapa de caracteres: el texto extraído es ilegible, por eso no se publican valores.")
+    nota="El PDF usa fuentes sin mapa de caracteres (el texto no se puede extraer): los valores se leen por OCR, con las tablas apaisadas giradas.")
 src("esj", "ESJ", "Energía San Juan S.A. (Naturgy San Juan)", "San Juan",
     page_latest("https://www.naturgysj.com.ar/hogar/cuadro-tarifario/", r"uploads/.*CT.*ESJ.*\.pdf$"), se="esj-0")
 src("edesal", "EDESAL", "Empresa Distribuidora San Luis S.A.", "San Luis",
@@ -371,3 +371,5 @@ SOURCES = S
 for _s in SOURCES:
     if _s["id"] in ("edelap", "dpe", "edesa"):
         _s["ocr"] = True
+    if _s["id"] == "edesa":
+        _s["ocr_dpi"] = 400  # small table text; at 300 dpi the engines disagree on the T1R1 row

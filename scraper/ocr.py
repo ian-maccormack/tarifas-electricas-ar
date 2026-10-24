@@ -23,12 +23,39 @@ UNIT = re.compile(r"^[S$5]\s?/\s?\S+$|^\S{0,3}/\s?(mes|kwh?|k\s?w\S*)$", re.I)
 TOL = 0.012  # max distance between both engines' readings, as a fraction of page width
 
 
-def _pages(pdf_bytes, d):
+def _confident_words(img, size=1800):
+    from PIL import Image
+    g = img.copy()
+    g.thumbnail((size, size))
+    with tempfile.NamedTemporaryFile(suffix=".png") as f:
+        g.save(f.name)
+        out = subprocess.run(["tesseract", f.name, "-", "-l", "spa", "--psm", "6", "tsv"],
+                             capture_output=True, text=True, timeout=300).stdout
+    return sum(1 for ln in out.splitlines()[1:] if len(c := ln.split("\t")) == 12 and c[11].strip() and float(c[10]) >= 85)
+
+
+def _upright(path):
+    """Tables printed sideways (landscape on a portrait page) are turned upright: a quarter turn is
+    kept only if Tesseract reads clearly more confident words that way."""
+    from PIL import Image
+    img = Image.open(path)
+    base = _confident_words(img)
+    if base >= 60:
+        return
+    score, best = max((_confident_words(img.rotate(a, expand=True)), a) for a in (-90, 90))
+    if score >= 20 and score > 2 * base:
+        img.rotate(best, expand=True).save(path)
+
+
+def _pages(pdf_bytes, d, dpi=DPI, max_px=MAX_PX):
     p = Path(d) / "doc.pdf"
     p.write_bytes(pdf_bytes)
-    subprocess.run(["pdftoppm", "-r", str(DPI), "-scale-to", str(MAX_PX), "-png", str(p), str(Path(d) / "pg")], check=True,
+    subprocess.run(["pdftoppm", "-r", str(dpi), "-scale-to", str(max_px), "-png", str(p), str(Path(d) / "pg")], check=True,
                    stderr=subprocess.DEVNULL)
-    return sorted(Path(d).glob("pg-*.png"))
+    pages = sorted(Path(d).glob("pg-*.png"))
+    for pg in pages:
+        _upright(pg)
+    return pages
 
 
 def _tesseract(img):
@@ -67,12 +94,12 @@ def _norm(s):
     return s.replace(" ", "")
 
 
-def read_pages(pdf_bytes):
+def read_pages(pdf_bytes, dpi=DPI, max_px=MAX_PX):
     """Raw readings of both engines for every page (this is the slow part, so it is cached)."""
     from PIL import Image
     pages = []
     with _LOCK, tempfile.TemporaryDirectory() as d:
-        for img in _pages(pdf_bytes, d):
+        for img in _pages(pdf_bytes, d, dpi, max_px):
             pages.append({"width": Image.open(img).size[0], "tesseract": _tesseract(img), "rapid": _rapid(img)})
     return pages
 

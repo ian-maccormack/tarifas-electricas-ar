@@ -69,3 +69,13 @@ def test_values_far_from_headers_get_no_columns():
 
 def test_garbled_headers_are_ignored():
     assert ocr_rows(_hdr_page("A", "»", 700, 1290))[0]["columnas"] is None
+
+
+
+def test_ocr_vigencia_explicit_forms_only():
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scraper"))
+    from run import ocr_vigencia
+    assert ocr_vigencia("tendrá vigencia a partir de la facturación con vencimiento en el mes de SEPTIEMBRE de 2025") \
+        == "Facturación con vencimiento en septiembre de 2025 (leído por OCR)"
+    assert ocr_vigencia("Anexo VI ... Vigencia: SEPT'26 Cargo por Energía") == "Vigencia: septiembre de 2026 (leído por OCR)"
+    assert ocr_vigencia("Res. ERSEPT 868/26 y Res. SEN 334-25") is None

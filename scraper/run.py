@@ -44,6 +44,8 @@ OCR_COMPARABLE = {
                 "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)"),
     "dpe": ((r"^S.?mes$", 0, None, "$/mes"), (r"^Primeros 150", 0, None, "$/kWh"),
             "TR1 Nivel 1, primeros 150 kWh/mes (OCR)"),
+    "edesa": ((r"^T[1I]R[1I]\s*\[\s*[0O]\s*<=", 0, None, "$/mes"), (r"^T[1I]R[1I]\s*\[\s*[0O]\s*<=", 1, None, "$/kWh"),
+              "T1R1 (0 a 192 kWh/mes) (OCR)"),
 }
 
 
@@ -59,15 +61,15 @@ def ocr_comparable(id, tablas):
     return out if out["cargo_fijo"] or out["cargo_variable"] else None
 
 
-def ocr_tables(id, content):
+def ocr_tables(id, content, dpi=None):
     """OCR is slow, so results are cached in the repo by document hash."""
-    from ocr import ocr_rows, read_pages
+    from ocr import DPI, MAX_PX, ocr_rows, read_pages
     sha = hashlib.sha256(content).hexdigest()[:16]
     cache = DATA / "ocr" / f"{id}-{sha}.json"
     if cache.exists():
         pages = json.loads(cache.read_text())
     else:
-        pages = read_pages(content)
+        pages = read_pages(content, dpi or DPI, max(MAX_PX, int(11.7 * (dpi or DPI))))
         cache.parent.mkdir(exist_ok=True)
         for old in cache.parent.glob(f"{id}-*.json"):
             old.unlink()
@@ -81,6 +83,33 @@ def ocr_tables(id, content):
         tablas[-1][1]["filas"].append({"grupo": r["grupo"], "concepto": r["concepto"], "unidad": r["unidad"],
                                        "valores": r["valores"], "columnas": r.get("columnas")})
     return [t for _, t in tablas]
+
+
+_ABBR = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8, "sep": 9, "set": 9,
+         "oct": 10, "nov": 11, "dic": 12}
+_MES_NOMBRE = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
+               "noviembre", "diciembre"]
+
+
+def ocr_vigencia(text):
+    """Validity stated in the OCR text in one of the two explicit forms used by these documents."""
+    import re
+    from common import norm
+    t = norm(text)
+    m = re.search(r"vencimiento en (?:el mes de )?([a-z]+) (?:de )?(20\d\d)", t)
+    if m and m.group(1)[:3] in _ABBR and _MES_NOMBRE[_ABBR[m.group(1)[:3]] - 1].startswith(m.group(1)[:4]):
+        return f"Facturación con vencimiento en {_MES_NOMBRE[_ABBR[m.group(1)[:3]] - 1]} de {m.group(2)} (leído por OCR)"
+    m = re.search(r"vigencia\s*:?\s*(ene|feb|mar|abr|may|jun|jul|ago|sept?|set|oct|nov|dic)[a-z]*\s*['’`]\s*(\d{2})(?!\d)", t)
+    if m:
+        return f"Vigencia: {_MES_NOMBRE[_ABBR[m.group(1)[:3]] - 1]} de 20{m.group(2)} (leído por OCR)"
+    return None
+
+
+def _ocr_text(id, content):
+    cache = DATA / "ocr" / f"{id}-{hashlib.sha256(content).hexdigest()[:16]}.json"
+    if not cache.exists():
+        return ""
+    return " ".join(w["t"] for pg in json.loads(cache.read_text()) for w in pg["tesseract"])
 
 
 def validate(tablas):
@@ -122,9 +151,11 @@ def process(s):
             tablas = validate(parsed.get("tablas", []))
             used_ocr = False
             if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
-                tablas = validate(ocr_tables(s["id"], content))
+                tablas = validate(ocr_tables(s["id"], content, s.get("ocr_dpi")))
                 used_ocr = bool(tablas)
                 parsed["comparable"] = ocr_comparable(s["id"], tablas)
+                if used_ocr and not parsed.get("vigencia"):
+                    parsed["vigencia"] = ocr_vigencia(_ocr_text(s["id"], content))
             entry.update(documento=doc, vigencia=parsed.get("vigencia") or d.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
                          texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr)
             if text.strip() and tipo != "html":
