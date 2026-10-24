@@ -64,7 +64,7 @@ th.sortable{cursor:pointer;user-select:none}th.sortable:hover{background:#e2e8f1
 th.sortable::after{content:" ↕";color:#98a2b3;font-weight:400}th.s1::after{content:" ↑";color:var(--acc)}th.s-1::after{content:" ↓";color:var(--acc)}
 .simgrid{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:18px;align-items:start}
 .simrow{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:6px;box-shadow:var(--shadow)}
-.simrow>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:170px 1fr auto;gap:10px;align-items:center;padding:8px 12px}
+.simrow>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:170px minmax(0,1fr) 210px;gap:10px;align-items:center;padding:8px 12px}
 .simrow>summary::-webkit-details-marker{display:none}.simrow[data-empty]>summary{opacity:.8}
 .sn small{display:block;color:var(--mut);font-size:12px}.sn a{font-weight:600}.sb{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
 .bar{position:relative;height:24px;background:#f1f4f8;border-radius:6px;overflow:hidden}
