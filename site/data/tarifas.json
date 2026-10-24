@@ -1360,7 +1360,79 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Tarifa 1-R sin subsidio",
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 150,
+      "fijo": 1812.81,
+      "escalones": [
+       [
+        null,
+        159.128
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 400,
+      "fijo": 3866.44,
+      "escalones": [
+       [
+        null,
+        159.788
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 500,
+      "fijo": 12696.53,
+      "escalones": [
+       [
+        null,
+        172.009
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 600,
+      "fijo": 20311.59,
+      "escalones": [
+       [
+        null,
+        175.986
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 42811.07,
+      "escalones": [
+       [
+        null,
+        176.284
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": null,
+      "fijo": 66775.06,
+      "escalones": [
+       [
+        null,
+        192.232
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "edesur",
@@ -2721,7 +2793,79 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Tarifa 1-R sin subsidio",
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 150,
+      "fijo": 1771.06,
+      "escalones": [
+       [
+        null,
+        157.116
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 400,
+      "fijo": 3717.51,
+      "escalones": [
+       [
+        null,
+        157.692
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 500,
+      "fijo": 12168.59,
+      "escalones": [
+       [
+        null,
+        169.922
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 600,
+      "fijo": 19843.84,
+      "escalones": [
+       [
+        null,
+        174.056
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 42905.86,
+      "escalones": [
+       [
+        null,
+        186.593
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": null,
+      "fijo": 65106.92,
+      "escalones": [
+       [
+        null,
+        203.605
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "edes",
@@ -2752,7 +2896,8 @@
    "ocr": false,
    "mes_referencia": "2025-11",
    "mes_referencia_origen": "título",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": null
   },
   {
    "id": "edea",
@@ -4252,7 +4397,8 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "URL del documento",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "edelap",
@@ -4935,7 +5081,8 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "URL del documento",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "eden",
@@ -4966,7 +5113,8 @@
    "ocr": false,
    "mes_referencia": "2025-11",
    "mes_referencia_origen": "título",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": null
   },
   {
    "id": "ecsapem",
@@ -5144,7 +5292,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "secheep",
@@ -8712,7 +8861,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "dgsp",
@@ -8735,7 +8885,8 @@
    },
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "epec",
@@ -10137,7 +10288,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "dpec",
@@ -11840,7 +11992,28 @@
    },
    "mes_referencia": "2026-01",
    "mes_referencia_origen": "texto del documento",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "Urbano no bonificado, tarifa sin bonificación",
+    "categorias": [
+     {
+      "nombre": "Pequeñas demandas residenciales",
+      "hasta": null,
+      "fijo": 29710.0,
+      "escalones": [
+       [
+        600,
+        181.928
+       ],
+       [
+        null,
+        219.771
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "enersa",
@@ -12129,7 +12302,8 @@
    },
    "mes_referencia": "2026-11",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "die",
@@ -12145,7 +12319,8 @@
    "verificado": "2026-10-24T18:15:19+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "refsa",
@@ -12643,7 +12818,79 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R (sin subsidio)",
+    "categorias": [
+     {
+      "nombre": "T.1-R1 Consumo Mensual Inferior o igual a 150 kWh",
+      "hasta": 150,
+      "fijo": 1799.9,
+      "escalones": [
+       [
+        null,
+        208.2989
+       ]
+      ]
+     },
+     {
+      "nombre": "T.1-R2 Consumo Mensual Superior a 150 kWh e Inferior o Igual a 300 kWh",
+      "hasta": 300,
+      "fijo": 1970.9,
+      "escalones": [
+       [
+        null,
+        208.6881
+       ]
+      ]
+     },
+     {
+      "nombre": "T.1-R3-1 Consumo Mensual Mayor a 300 kWh e Inferior o Igual a 500 kWh",
+      "hasta": 500,
+      "fijo": 2699.86,
+      "escalones": [
+       [
+        null,
+        210.2448
+       ]
+      ]
+     },
+     {
+      "nombre": "T.1-R3-2 Consumo Mensual Mayor a 500 kWh e Inferior o Igual a 700 kWh",
+      "hasta": 700,
+      "fijo": 3599.81,
+      "escalones": [
+       [
+        null,
+        214.1363
+       ]
+      ]
+     },
+     {
+      "nombre": "T.1-R3-3 Consumo Mensual Mayor a 700 kWh e Inferior o Igual a 1400 kWh",
+      "hasta": 1400,
+      "fijo": 5399.71,
+      "escalones": [
+       [
+        null,
+        214.5256
+       ]
+      ]
+     },
+     {
+      "nombre": "T.1-R3-4 Consumo Mensual Mayor a 1400 kWh",
+      "hasta": null,
+      "fijo": 6299.66,
+      "escalones": [
+       [
+        null,
+        214.9147
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "ejesa",
@@ -12815,7 +13062,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "texto del documento",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "ejsed",
@@ -13505,7 +13753,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "ape",
@@ -14318,7 +14567,8 @@
    "ocr": false,
    "mes_referencia": "2025-12",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": null
   },
   {
    "id": "edelar",
@@ -14886,7 +15136,8 @@
    },
    "mes_referencia": "2026-04",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": null
   },
   {
    "id": "edemsa",
@@ -15032,7 +15283,8 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "edeste",
@@ -15178,7 +15430,8 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "emsa",
@@ -15506,7 +15759,8 @@
    },
    "mes_referencia": "2026-08",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "epen",
@@ -15978,7 +16232,90 @@
    },
    "mes_referencia": "2026-08",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R sin subsidio",
+    "categorias": [
+     {
+      "nombre": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
+      "hasta": 50,
+      "fijo": 10185.04,
+      "escalones": [
+       [
+        null,
+        395.027
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh",
+      "hasta": 100,
+      "fijo": 10338.88,
+      "escalones": [
+       [
+        null,
+        370.668
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh",
+      "hasta": 250,
+      "fijo": 12045.53,
+      "escalones": [
+       [
+        null,
+        360.041
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
+      "hasta": 500,
+      "fijo": 18106.21,
+      "escalones": [
+       [
+        null,
+        354.987
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
+      "hasta": 700,
+      "fijo": 31577.07,
+      "escalones": [
+       [
+        null,
+        350.684
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
+      "hasta": 1400,
+      "fijo": 38447.3,
+      "escalones": [
+       [
+        null,
+        346.436
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R7-Consumo mensual mayor a 1400 KWh",
+      "hasta": null,
+      "fijo": 59915.94,
+      "escalones": [
+       [
+        null,
+        341.588
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "edersa",
@@ -16114,7 +16451,35 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "Sin subsidio, monofásico",
+    "categorias": [
+     {
+      "nombre": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "hasta": 300,
+      "fijo": 9715.62,
+      "escalones": [
+       [
+        null,
+        287.765
+       ]
+      ]
+     },
+     {
+      "nombre": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "hasta": null,
+      "fijo": 29800.46,
+      "escalones": [
+       [
+        null,
+        null
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "edesa",
@@ -16150,7 +16515,8 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "esj",
@@ -16292,7 +16658,79 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "Uso residencial sin SEN",
+    "categorias": [
+     {
+      "nombre": "Hasta 220 kWh",
+      "hasta": 220,
+      "fijo": 4557.54,
+      "escalones": [
+       [
+        null,
+        224.7631
+       ]
+      ]
+     },
+     {
+      "nombre": "220–580 kWh",
+      "hasta": 580,
+      "fijo": 15737.24,
+      "escalones": [
+       [
+        null,
+        205.7865
+       ]
+      ]
+     },
+     {
+      "nombre": "580–1000 kWh",
+      "hasta": 1000,
+      "fijo": 23463.07,
+      "escalones": [
+       [
+        null,
+        204.7263
+       ]
+      ]
+     },
+     {
+      "nombre": "1000–1400 kWh",
+      "hasta": 1400,
+      "fijo": 23463.07,
+      "escalones": [
+       [
+        null,
+        204.7263
+       ]
+      ]
+     },
+     {
+      "nombre": "1400–2800 kWh",
+      "hasta": 2800,
+      "fijo": 23463.07,
+      "escalones": [
+       [
+        null,
+        204.7263
+       ]
+      ]
+     },
+     {
+      "nombre": "> 2800 kWh",
+      "hasta": null,
+      "fijo": 23463.07,
+      "escalones": [
+       [
+        null,
+        204.7263
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "edesal",
@@ -16530,7 +16968,8 @@
    "ocr": false,
    "mes_referencia": "2026-06",
    "mes_referencia_origen": "título",
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador": null
   },
   {
    "id": "spse",
@@ -16553,7 +16992,8 @@
    },
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "epe",
@@ -16576,7 +17016,8 @@
    },
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "edese",
@@ -16832,7 +17273,112 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": {
+    "periodo": "bimestre",
+    "criterio": "T1 Residencial",
+    "categorias": [
+     {
+      "nombre": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "hasta": 300,
+      "fijo": 4383.42,
+      "escalones": [
+       [
+        null,
+        218.149
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "hasta": 650,
+      "fijo": 17832.72,
+      "escalones": [
+       [
+        null,
+        173.318
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "hasta": 800,
+      "fijo": 31742.24,
+      "escalones": [
+       [
+        null,
+        173.348
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "hasta": 900,
+      "fijo": 42798.53,
+      "escalones": [
+       [
+        null,
+        173.398
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "hasta": 1000,
+      "fijo": 65981.06,
+      "escalones": [
+       [
+        null,
+        173.448
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "hasta": 1200,
+      "fijo": 69190.95,
+      "escalones": [
+       [
+        null,
+        173.478
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "hasta": 1400,
+      "fijo": 90946.87,
+      "escalones": [
+       [
+        null,
+        173.708
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "hasta": 2800,
+      "fijo": 115912.68,
+      "escalones": [
+       [
+        null,
+        174.078
+       ]
+      ]
+     },
+     {
+      "nombre": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "hasta": null,
+      "fijo": 152469.76,
+      "escalones": [
+       [
+        null,
+        174.328
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "dpe",
@@ -17563,7 +18109,8 @@
    },
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   },
   {
    "id": "edet",
@@ -19132,7 +19679,8 @@
    },
    "mes_referencia": null,
    "mes_referencia_origen": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador": null
   }
  ]
 }

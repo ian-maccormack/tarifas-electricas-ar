@@ -15,6 +15,7 @@
   <nav>
     <button data-view="dist" class="active">Distribuidoras</button>
     <button data-view="comp">Comparación</button>
+    <button data-view="sim">Simulador y mapa</button>
     <button data-view="hist">Historial</button>
     <button data-view="about">Metodología</button>
   </nav>
@@ -38,8 +39,37 @@
   </section>
   <section id="view-comp" hidden>
     <p class="note">Primer escalón residencial tal como figura en cada cuadro. Los valores <b>no se convierten</b>:
-      algunas distribuidoras facturan por mes y otras por bimestre, y cada una define sus escalones y subsidios. Ver la columna "Escalón / criterio".</p>
+      algunas distribuidoras facturan por mes y otras por bimestre, y cada una define sus escalones y subsidios. Ver las columnas "Unidad" y "Escalón / criterio".
+      Para comparar el costo de un mismo consumo usá el <a href="#" onclick="show('sim');return false">Simulador</a>.</p>
+    <div class="filters">
+      <select id="c-prov"><option value="">Todas las provincias</option></select>
+      <label class="chk"><input type="checkbox" id="c-data" checked> Solo con datos</label>
+      <label class="chk"><input type="checkbox" id="c-ocr"> Excluir OCR</label>
+      <label class="chk"><input type="checkbox" id="c-old"> Excluir documentos de hace más de 2 meses</label>
+    </div>
+    <div id="c-summary" class="summary"></div>
+    <p class="note hint">Hacé clic en el encabezado de una columna para ordenar.</p>
     <div class="tablewrap"><table id="comp"></table></div>
+  </section>
+  <section id="view-sim" hidden>
+    <p class="note">Costo mensual estimado de un consumo residencial, <b>sin impuestos ni tasas</b>, calculado con los valores del cuadro oficial
+      de cada distribuidora (tarifa plena, sin subsidio). Si el cuadro es bimestral, el cálculo se hace con el consumo del bimestre y se divide por 2:
+      la tabla original no se modifica. Si falta algún cargo o escalón, el resultado queda vacío.</p>
+    <div class="filters">
+      <label class="kwh">Consumo <input type="number" id="s-kwh" min="0" max="2000" step="10" value="250"> kWh/mes</label>
+      <input type="range" id="s-range" min="0" max="1000" step="10" value="250" aria-label="Consumo en kWh por mes">
+      <label class="chk"><input type="checkbox" id="s-all"> Mostrar también las que no tienen resultado</label>
+    </div>
+    <div id="s-summary" class="summary"></div>
+    <div class="simgrid">
+      <div id="s-list"></div>
+      <div id="map-wrap" class="mapbox">
+        <div class="maphead"><b>Mapa</b><select id="m-modo"><option value="costo">Costo simulado</option><option value="datos">Disponibilidad de datos</option></select></div>
+        <svg id="map" role="img" aria-label="Mapa de Argentina por provincia"></svg>
+        <div id="m-legend" class="legend"></div>
+        <p class="note small">Hacé clic en una provincia para filtrar la lista. Límites provinciales: IGN (simplificados).</p>
+      </div>
+    </div>
   </section>
   <section id="view-hist" hidden>
     <p class="note">Cada vez que cambia el documento oficial de una distribuidora (hash distinto) se registra una entrada.</p>
@@ -55,6 +85,7 @@
       <li>Si una fuente falla, se mantiene el último documento verificado y se marca como "último intento fallido".</li>
       <li>"Vigencia" es el texto literal del documento. Si el documento no la indica claramente, queda vacía.</li>
       <li>"Mes de referencia" es el mes más reciente que se lee en la vigencia, el título, la URL o el encabezado del documento (se indica de dónde salió). Si es de hace más de 2 meses, la ficha se marca "Documento de hace más de 2 meses": puede seguir vigente, pero conviene confirmarlo. Si no se lee ninguna fecha, no se marca nada.</li>
+      <li>El simulador usa solo las distribuidoras cuya estructura tarifaria residencial (categorías por consumo, cargo fijo, cargo variable y escalones) se cargó y revisó explícitamente; se toma la tarifa sin subsidio. Las categorías y precios salen de las mismas filas que se muestran en cada ficha. La categoría se elige por el consumo del período de facturación. Las fichas OCR no se simulan. No incluye impuestos, tasas municipales ni fondos provinciales.</li>
     </ul>
   </section>
 </main>

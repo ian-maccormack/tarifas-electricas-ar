@@ -73,14 +73,144 @@ function renderList() {
   if (q) document.querySelectorAll("#list details.card").forEach((d) => (d.open = true));
 }
 
+const COMP = { sort: null, dir: 1 };
+const hasComp = (e) => e.comparable && [e.comparable.cargo_fijo, e.comparable.cargo_variable].some((c) => c && c.valor != null);
+const COMP_KEYS = {
+  empresa: (e) => e.empresa.toLowerCase(), provincia: (e) => e.provincia.toLowerCase(),
+  fijo: (e) => e.comparable?.cargo_fijo?.valor ?? null, variable: (e) => e.comparable?.cargo_variable?.valor ?? null,
+  mes: (e) => e.mes_referencia || null,
+};
+function sortBy(rows, key, dir) {
+  const k = COMP_KEYS[key] || key;
+  return [...rows].sort((a, b) => {
+    const x = k(a), y = k(b);
+    if (x === y) return 0; if (x === null) return 1; if (y === null) return -1;
+    return (x < y ? -1 : 1) * dir;
+  });
+}
 function renderComp() {
-  const cell = (c) => c ? `<td class="num">${fmt(c.valor)}</td><td>${esc(c.unidad || "")}</td>` : '<td class="num"><span class="empty">sin dato</span></td><td></td>';
-  let h = "<thead><tr><th>Empresa</th><th>Provincia</th><th>Cargo fijo</th><th>Unidad</th><th>Cargo variable</th><th>Unidad</th><th>Escalón / criterio</th><th>Mes de referencia</th></tr></thead><tbody>";
-  for (const e of DATA.distribuidoras) {
+  const prov = $("#c-prov").value, onlyData = $("#c-data").checked, noOcr = $("#c-ocr").checked, noOld = $("#c-old").checked;
+  let rows = DATA.distribuidoras.filter((e) => (!prov || e.provincia === prov) && (!onlyData || hasComp(e)) && (!noOcr || !e.ocr) && (!noOld || !e.desactualizado));
+  if (COMP.sort) rows = sortBy(rows, COMP.sort, COMP.dir);
+  const cell = (c) => c && c.valor != null ? `<td class="num">${fmt(c.valor)}</td><td>${esc(c.unidad || "")}</td>` : '<td class="num"><span class="empty">sin dato</span></td><td></td>';
+  const th = (k, l, title = "") => `<th class="sortable${COMP.sort === k ? " s" + COMP.dir : ""}" data-k="${k}"${title ? ` title="${esc(title)}"` : ""}>${l}</th>`;
+  const mixed = "Ordena los valores tal como figuran en cada cuadro, sin convertir: mirá la columna Unidad ($/mes o $/bimestre)";
+  let h = `<thead><tr>${th("empresa", "Empresa")}${th("provincia", "Provincia")}${th("fijo", "Cargo fijo", mixed)}<th>Unidad</th>${th("variable", "Cargo variable")}<th>Unidad</th><th>Escalón / criterio</th>${th("mes", "Mes de referencia")}</tr></thead><tbody>`;
+  for (const e of rows) {
     const c = e.comparable || {};
     h += `<tr><td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a></td><td>${esc(e.provincia)}</td>${cell(c.cargo_fijo)}${cell(c.cargo_variable)}<td>${esc(c.nota || "")}${e.ocr && e.comparable ? ' <span class="badge b-ocr">OCR</span>' : ""}</td><td>${esc(mesfmt(e.mes_referencia))}${e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : ""}</td></tr>`;
   }
+  if (!rows.length) h += '<tr><td colspan="8" class="note">Ninguna distribuidora cumple los filtros.</td></tr>';
   $("#comp").innerHTML = h + "</tbody>";
+  $("#c-summary").textContent = `Mostrando ${rows.length} de ${DATA.distribuidoras.length} distribuidoras`;
+  document.querySelectorAll("#comp th.sortable").forEach((t) => t.addEventListener("click", () => {
+    COMP.dir = COMP.sort === t.dataset.k ? -COMP.dir : 1; COMP.sort = t.dataset.k; renderComp();
+  }));
+}
+
+// ---- Simulador: same algorithm as scraper/simulador.py::cost ----
+function simulate(s, kwhMes) {
+  const f = s.periodo === "bimestre" ? 2 : 1, k = kwhMes * f;
+  const cat = s.categorias.find((c) => c.hasta === null || k <= c.hasta);
+  const r = { k, f, cat, tramos: [], total: null };
+  if (!cat || cat.fijo == null) return r;
+  let tot = cat.fijo, prev = 0;
+  for (const [hasta, p] of cat.escalones) {
+    const top = hasta === null ? k : Math.min(k, hasta), kwh = Math.max(0, top - prev);
+    if (kwh && p == null) return r;
+    if (kwh) r.tramos.push({ kwh, p });
+    tot += kwh * (p || 0);
+    prev = hasta === null ? k : hasta;
+    if (prev >= k) break;
+  }
+  r.periodoTotal = tot; r.total = tot / f;
+  return r;
+}
+const money = (v) => "$ " + v.toLocaleString("es-AR", { maximumFractionDigits: 0 });
+const num = (v, d = 4) => v.toLocaleString("es-AR", { maximumFractionDigits: d });
+const SIM = { prov: "", modo: "costo" };
+function simResults() {
+  const kwh = Math.max(0, +$("#s-kwh").value || 0);
+  return DATA.distribuidoras.map((e) => {
+    let r = null, motivo = "";
+    if (e.simulador) { r = simulate(e.simulador, kwh); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
+    else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
+    else if (e.ocr) motivo = "Valores leídos por OCR: no se usan en el simulador";
+    else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
+    return { e, r, total: r ? r.total : null, motivo };
+  });
+}
+function detalle(x) {
+  const s = x.e.simulador, r = x.r, per = s.periodo === "bimestre" ? "bim" : "mes";
+  let h = `<div class="sim-det"><p><b>Criterio:</b> ${esc(s.criterio)} · <b>Categoría:</b> ${esc(r.cat ? r.cat.nombre || "única" : "no encontrada")}</p>`;
+  if (r.f === 2) h += `<p>El cuadro factura por <b>bimestre</b>: se calcula con ${num(r.k, 1)} kWh/bimestre (${num(r.k / 2, 1)} kWh/mes × 2) y el resultado se divide por 2.</p>`;
+  if (r.total === null) return h + `<p class="note">${esc(x.motivo)}.</p></div>`;
+  h += `<table><tbody><tr><td>Cargo fijo</td><td class="num">${money(r.cat.fijo)} /${per}</td></tr>`;
+  for (const t of r.tramos) h += `<tr><td>${num(t.kwh, 1)} kWh × ${num(t.p)} $/kWh</td><td class="num">${money(t.kwh * t.p)}</td></tr>`;
+  h += `<tr><td><b>Total del período</b></td><td class="num"><b>${money(r.periodoTotal)}</b> /${per}</td></tr>`;
+  if (r.f === 2) h += `<tr><td><b>Equivalente mensual</b> (÷ 2)</td><td class="num"><b>${money(r.total)}</b> /mes</td></tr>`;
+  return h + "</tbody></table></div>";
+}
+function renderSim() {
+  const all = simResults(), showAll = $("#s-all").checked;
+  let rows = all.filter((x) => (!SIM.prov || x.e.provincia === SIM.prov) && (showAll || x.total !== null));
+  rows = sortBy(rows, (x) => x.total, 1);
+  const max = Math.max(...all.map((x) => x.total || 0));
+  let h = "";
+  for (const x of rows) {
+    const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
+    const badges = (x.e.simulador?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
+  }
+  const n = all.filter((x) => x.total !== null).length;
+  $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${num(+$("#s-kwh").value || 0, 0)} kWh/mes` + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
+  renderMap(all);
+}
+
+// ---- Mapa ----
+let MAP = null;
+const MAPNAME = { "Ciudad Autónoma de Buenos Aires": "Ciudad de Buenos Aires y GBA", "Tierra del Fuego, Antártida e Islas del Atlántico Sur": "Tierra del Fuego" };
+const RAMP = ["#fff1c1", "#fdd17a", "#f9a24b", "#e8642f", "#b9301c"];
+const AVAIL = { ok: ["#5cb87a", "Con valores extraídos"], documento: ["#f4b860", "Solo documento oficial"], sin_datos: ["#e98b80", "Sin fuente disponible"] };
+function renderMap(all) {
+  if (!MAP) return;
+  const modo = $("#m-modo").value;
+  const byProv = {};
+  for (const x of all) (byProv[x.e.provincia] ||= []).push(x);
+  const vals = all.map((x) => x.total).filter((v) => v !== null);
+  const lo = Math.min(...vals), hi = Math.max(...vals), bin = (v) => Math.min(4, Math.floor(((v - lo) / ((hi - lo) || 1)) * 5));
+  let svg = "", caba = null;
+  for (const [name, d] of Object.entries(MAP.provincias)) {
+    const p = MAPNAME[name] || name, xs = byProv[p] || [];
+    let fill = "#eef1f5", tip = `${p}: no hay distribuidora en el listado`;
+    if (modo === "costo") {
+      const ok = xs.filter((x) => x.total !== null).sort((a, b) => a.total - b.total);
+      if (ok.length) {
+        fill = RAMP[bin(ok[0].total)];
+        tip = `${p}: ` + ok.map((x) => `${x.e.empresa} ${money(x.total)}/mes`).join(" · ") + (xs.length > ok.length ? ` (y ${xs.length - ok.length} sin resultado)` : "");
+      } else if (xs.length) { fill = "#cfd6df"; tip = `${p}: ${xs.map((x) => x.e.empresa).join(", ")} — sin resultado del simulador`; }
+    } else if (xs.length) {
+      const best = ["ok", "documento", "sin_datos"].find((s) => xs.some((x) => x.e.estado === s));
+      fill = AVAIL[best][0]; tip = `${p}: ` + xs.map((x) => `${x.e.empresa} (${ESTADO[x.e.estado].toLowerCase()})`).join(" · ");
+    }
+    const path = `<path d="${d}" fill="${fill}" data-p="${esc(p)}" class="${SIM.prov === p ? "sel" : ""}"><title>${esc(tip)}</title></path>`;
+    if (name.startsWith("Ciudad")) caba = { path, fill, tip, p }; else svg += path;
+  }
+  const [vx, vy, vw, vh] = MAP.viewBox.split(" ").map(Number);
+  $("#map").setAttribute("viewBox", `${vx} ${vy} ${vw + 90} ${vh}`);
+  $("#map").innerHTML = svg + (caba ? caba.path : "");
+  if (caba) {
+    const b = $("#map path[data-p^='Ciudad']").getBBox(), cx = b.x + b.width / 2, cy = b.y + b.height / 2;
+    $("#map").insertAdjacentHTML("beforeend", `<g class="caba"><line x1="${cx}" y1="${cy}" x2="${cx + 40}" y2="${cy - 18}"/><circle cx="${cx + 40}" cy="${cy - 18}" r="9" fill="${caba.fill}" data-p="${esc(caba.p)}" class="${SIM.prov === caba.p ? "sel" : ""}"><title>${esc(caba.tip)}</title></circle><text x="${cx + 52}" y="${cy - 14}">CABA</text></g>`);
+  }
+  document.querySelectorAll("#map [data-p]").forEach((el) => el.addEventListener("click", () => { SIM.prov = SIM.prov === el.dataset.p ? "" : el.dataset.p; renderSim(); }));
+  const sw = (c, l, extra = "") => `<span><i style="background:${c}"${extra}></i>${l}</span>`;
+  $("#m-legend").innerHTML = modo === "costo"
+    ? RAMP.map((c, i) => sw(c, vals.length ? `${money(lo + (hi - lo) * i / 5)} – ${money(lo + (hi - lo) * (i + 1) / 5)}` : "")).join("") + sw("#cfd6df", "sin resultado del simulador") + sw("#eef1f5", "sin distribuidora en el listado")
+      + '<p class="note">Color según la distribuidora más barata de la provincia para el consumo elegido; el detalle de cada una está al pasar el mouse y en la lista.</p>'
+    : Object.values(AVAIL).map(([c, l]) => sw(c, l)).join("") + sw("#eef1f5", "sin distribuidora en el listado") + '<p class="note">Color según el mejor estado entre las distribuidoras de la provincia.</p>';
 }
 
 function renderHist() {
@@ -101,8 +231,14 @@ async function init() {
   try { HIST = await (await fetch("data/historial.json", { cache: "no-store" })).json(); } catch { HIST = []; }
   $("#generado").textContent = "Última actualización: " + dfmt(DATA.generado);
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#f-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
+  [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#c-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   ["#f-prov", "#f-estado", "#f-q"].forEach((s) => $(s).addEventListener("input", renderList));
+  ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
+  $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
+  $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
+  ["#s-all", "#m-modo"].forEach((s) => $(s).addEventListener("input", renderSim));
   document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => show(b.dataset.view)));
-  renderList(); renderComp(); renderHist();
+  renderList(); renderComp(); renderHist(); renderSim();
+  try { MAP = await (await fetch("data/provincias.json")).json(); renderSim(); } catch { $("#map-wrap").hidden = true; }
 }
 init();
