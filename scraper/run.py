@@ -94,7 +94,10 @@ def main(only=None):
     by_id = dict(prev)
     for e in results:
         old = prev.get(e["id"])
-        if e["estado"] == "sin_datos" and old and old.get("documento"):
+        downgraded = (old and old.get("estado") == "ok" and e["estado"] != "ok"
+                      and (e.get("documento") or {}).get("via") == "archivo nacional"
+                      and (old.get("documento") or {}).get("via") != "archivo nacional")
+        if (e["estado"] == "sin_datos" and old and old.get("documento")) or downgraded:
             # Keep the last successfully verified document, flagged as stale.
             old = {**old, "ultimo_intento": NOW, "ultimo_intento_fallido": True, "intentos": e["intentos"]}
             by_id[e["id"]] = old

@@ -21,11 +21,30 @@ MESES = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6
          "noviembre": 11, "diciembre": 12}
 
 
+class _LegacyTLS(requests.adapters.HTTPAdapter):
+    """Some government servers only negotiate old TLS ciphers / legacy renegotiation."""
+
+    def init_poolmanager(self, *a, **kw):
+        import ssl
+        ctx = ssl.create_default_context()
+        ctx.set_ciphers("DEFAULT:@SECLEVEL=0")
+        ctx.options |= getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0x4)
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        kw["ssl_context"] = ctx
+        return super().init_poolmanager(*a, **kw)
+
+
+LEGACY = requests.Session()
+LEGACY.headers.update(SESSION.headers)
+LEGACY.mount("https://", _LegacyTLS())
+
+
 def fetch(url, timeout=40):
     last = None
-    for verify in (True, False):
+    for sess, verify in ((SESSION, True), (SESSION, False), (LEGACY, False)):
         try:
-            r = SESSION.get(url, timeout=timeout, verify=verify, allow_redirects=True)
+            r = sess.get(url, timeout=timeout, verify=verify, allow_redirects=True)
             r.raise_for_status()
             return r
         except requests.exceptions.SSLError as e:
