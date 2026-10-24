@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T16:29:03+00:00",
+ "generado": "2026-10-24T16:29:39+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1332,7 +1332,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-24T16:26:48+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -2689,7 +2689,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-24T16:26:48+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -2737,7 +2737,7 @@
    "intentos": [
     "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false
@@ -2764,7 +2764,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -2797,7 +2797,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.edelap.com.ar/tarifas/",
     "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -2829,7 +2829,7 @@
    "intentos": [
     "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false
@@ -2887,7 +2887,7 @@
        ]
       },
       {
-       "grupo": "Cargo variable por consumo de energia",
+       "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
        "concepto": "RESIDENCIAL BONIFICADO consumos base según zona (*)",
        "unidad": "$/KWh.",
        "valores": [
@@ -2902,7 +2902,7 @@
        ]
       },
       {
-       "grupo": "Cargo variable por consumo de energia",
+       "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
        "concepto": "RESIDENCIAL BONIFICADO excedente consumos base según zona (*)",
        "unidad": "$/KWh.",
        "valores": [
@@ -2917,7 +2917,7 @@
        ]
       },
       {
-       "grupo": "ELECTRODEPENDIENTES",
+       "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
        "concepto": "Cargo fijo",
        "unidad": "$/MES",
        "valores": [
@@ -2932,7 +2932,7 @@
        ]
       },
       {
-       "grupo": "ELECTRODEPENDIENTES",
+       "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
        "concepto": "Cargo variable por consumo de energia",
        "unidad": "$/KWh.",
        "valores": [
@@ -2947,7 +2947,7 @@
        ]
       },
       {
-       "grupo": "T1 - G",
+       "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
        "concepto": "Cargo fijo",
        "unidad": "$/MES",
        "valores": [
@@ -2962,7 +2962,7 @@
        ]
       },
       {
-       "grupo": "T1 - G",
+       "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
        "concepto": "Cargo variable por consumo de energia",
        "unidad": "$/KWh.",
        "valores": [
@@ -2977,7 +2977,7 @@
        ]
       },
       {
-       "grupo": "T1 - AP",
+       "grupo": "T1 - AP ALUMBRADO PÚBLICO UNIDAD VAD MEM TOTAL",
        "concepto": "Cargo variable por consumo de energía",
        "unidad": "$/KWh.",
        "valores": [
@@ -2998,7 +2998,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -3030,7 +3030,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -3053,7 +3053,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_D"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -4448,7 +4448,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-24T16:29:03+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -6131,7 +6131,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -6416,7 +6416,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -6453,7 +6453,7 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-24T16:24:02+00:00"
+   "verificado": "2026-10-24T16:29:39+00:00"
   },
   {
    "id": "refsa",
@@ -6923,7 +6923,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-24T16:26:48+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -7097,7 +7097,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -7139,7 +7139,7 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -7943,7 +7943,7 @@
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnectio",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-24T16:27:58+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -7980,7 +7980,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -8106,7 +8106,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -8248,7 +8248,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -8296,7 +8296,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -8329,7 +8329,7 @@
      "titulo": "T1 Residencial",
      "filas": [
       {
-       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh",
+       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
@@ -8338,7 +8338,7 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh",
+       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
@@ -8347,7 +8347,7 @@
        "columnas": null
       },
       {
-       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh",
+       "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
        "concepto": "Cargo variable por energía - CON SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
@@ -8748,20 +8748,20 @@
    "intentos": [
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 10185.04,
      "unidad": "$/mes",
      "concepto": "Cargo fijo",
-     "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh",
+     "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
      "columna": null
     },
     "cargo_variable": {
      "valor": 395.027,
      "unidad": "$/KWh",
      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
-     "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh",
+     "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
      "columna": null
     },
     "nota": "T1-R1 (≤ 50 kWh/mes), sin subsidio"
@@ -8797,7 +8797,7 @@
      "titulo": "Tarifa Residencial (cargos bimestrales)",
      "filas": [
       {
-       "grupo": "Hasta 300 kWh/bimestre",
+       "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
        "concepto": "CARGO FIJO",
        "unidad": "$/bimes",
        "valores": [
@@ -8814,7 +8814,7 @@
        ]
       },
       {
-       "grupo": "Hasta 300 kWh/bimestre",
+       "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
        "concepto": "CARGO VARIABLE",
        "unidad": "$/kWh",
        "valores": [
@@ -8831,7 +8831,7 @@
        ]
       },
       {
-       "grupo": "Mayor a 300 kWh/bimestre",
+       "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
        "concepto": "CARGO FIJO",
        "unidad": "$/bim",
        "valores": [
@@ -8848,7 +8848,7 @@
        ]
       },
       {
-       "grupo": "Mayor a 300 kWh/bimestre",
+       "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
        "concepto": "CARGO VARIABLE BASE",
        "unidad": "$/kWh",
        "valores": [
@@ -8865,7 +8865,7 @@
        ]
       },
       {
-       "grupo": "Mayor a 300 kWh/bimestre",
+       "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
        "concepto": "CARGO VARIABLE excedente (*)",
        "unidad": "$/KWh",
        "valores": [
@@ -8880,20 +8880,20 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
      "unidad": "$/bimes",
      "concepto": "CARGO FIJO",
-     "grupo": "Hasta 300 kWh/bimestre",
+     "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
      "columna": "Sin Subsidio (m)"
     },
     "cargo_variable": {
      "valor": 287.765,
      "unidad": "$/kWh",
      "concepto": "CARGO VARIABLE",
-     "grupo": "Hasta 300 kWh/bimestre",
+     "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
      "columna": "Sin Subsidio (m)"
     },
     "nota": "T1R1 (hasta 300 kWh/bim), columna 'Sin Subsidio – T1R1 m'"
@@ -8928,7 +8928,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -9050,7 +9050,7 @@
    "intentos": [
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
    ],
-   "verificado": "2026-10-24T16:26:48+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -9289,7 +9289,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -9323,7 +9323,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SP"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "archivo_nacional": {
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -9343,7 +9343,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -9576,7 +9576,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-24T16:26:48+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -9624,7 +9624,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -9656,7 +9656,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-24T16:24:02+00:00",
+   "verificado": "2026-10-24T16:29:39+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
