@@ -175,3 +175,38 @@ def test_edese_t2_t3():
     assert _dem("edese", "BT", 20, 3000) == round(20 * 30897.22 + 3000 * 257.368, 2)
     assert _dem("edese", "MT", 100, 20000) == round(100 * (20606.34 + 6652.43) + _mix(153.098, 148.878, 147.878, 20000), 2)
     assert _dem("edese", "BT", 400, 90000) == round(400 * (34692.62 + 15551.06) + _mix(180.515, 175.386, 174.17, 90000), 2)
+
+
+def _rows(*rows):
+    return [{"grupo": None, "concepto": c, "unidad": None, "valores": v, "columnas": None} for c, v in rows]
+
+
+def test_ocr_builders_only_for_ocr_entries():
+    from simulador import build_ocr
+    tablas = [{"titulo": "Página 4", "filas": _rows(("Símes", [4412.16]), ("Primeros 150 kKWh'mes", [146.1422]),
+                                                    ("Siguientes 150 kWh'mes", [164.1071]), ("Excedente de 300 kWh'mes", [176.2317]))}]
+    s = build_ocr({"id": "dpe", "estado": "ok", "ocr": True, "tablas": tablas})
+    assert round(cost(s, 400), 2) == round(4412.16 + 150 * 146.1422 + 150 * 164.1071 + 100 * 176.2317, 2)
+    assert build_ocr({"id": "dpe", "estado": "ok", "ocr": False, "tablas": tablas}) is None
+    bad = [{"titulo": "Página 4", "filas": _rows(("Símes", [4412.16]), ("Primeros 150", [146.1422]))}]
+    assert build_ocr({"id": "dpe", "estado": "ok", "ocr": True, "tablas": bad}) is None
+
+
+def test_secheep_ocr_empty_above_missing_block():
+    from simulador import build_ocr
+    tablas = [{"titulo": "Página 1", "filas": _rows(("Cargo Fijo", [None, 3631.72, 3631.72]), ("Cargo Variable Lros. 50 KWh-mes", [171.6, 30.75, 202.3802]),
+                                                    ("Cargo Variable stes. 100 KWh-mes", [171.6, 48.38, 220.0146]),
+                                                    ("Cargo Variable stes. 150 KWh-mes", [171.6, 103.2, 274.8771]),
+                                                    ("Cargo Variable exc. 300 KWh-mes", [171.6302]))}]
+    s = build_ocr({"id": "secheep", "estado": "ok", "ocr": True, "tablas": tablas})
+    assert round(cost(s, 150), 2) == round(3631.72 + 50 * 202.3802 + 100 * 220.0146, 2)
+    assert cost(s, 400) is None
+
+
+def test_edesa_ocr_categories():
+    from simulador import build_ocr
+    tablas = [{"titulo": "Página 19", "filas": _rows(("TIR1 [O<= E<= 192]", [5842.64, 291.9371]), ("T1R1 SEF [0<=E<=192]", [1.0, 1.0]),
+                                                     ("T1R2 [192 < E<= 500KWh/mes]", [10564.94, 305.6299]), ("T1R2 [E > 500KWh/mes]", [14165.59, 309.8772]))}]
+    s = build_ocr({"id": "edesa", "estado": "ok", "ocr": True, "tablas": tablas})
+    assert [c["hasta"] for c in s["categorias"]] == [192, 500, None]
+    assert round(cost(s, 150), 2) == round(5842.64 + 150 * 291.9371, 2)

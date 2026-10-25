@@ -175,11 +175,12 @@ function simResults() {
   const kwh = Math.max(0, +$("#s-kwh").value || 0);
   return DATA.distribuidoras.map((e) => {
     let r = null, motivo = "";
-    if (e.simulador) { r = simulate(e.simulador, kwh); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
+    const sim = e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
+    if (sim) { r = simulate(sim, kwh); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
-    else if (e.ocr) motivo = "Valores leídos por OCR: no se usan en el simulador";
+    else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
     else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
-    return { e, r, total: r ? r.total : null, motivo };
+    return { e, r, total: r ? r.total : null, motivo, sim };
   });
 }
 function detalleDem(x) {
@@ -192,7 +193,7 @@ function detalleDem(x) {
 }
 function detalle(x) {
   if (x.dem) return detalleDem(x);
-  const s = x.e.simulador, r = x.r, per = s.periodo === "bimestre" ? "bim" : "mes";
+  const s = x.sim, r = x.r, per = s.periodo === "bimestre" ? "bim" : "mes";
   let h = `<div class="sim-det"><p><b>Criterio:</b> ${esc(s.criterio)} · <b>Categoría:</b> ${esc(r.cat ? r.cat.nombre || "única" : "no encontrada")}</p>`;
   if (r.f === 2) h += `<p>El cuadro factura por <b>bimestre</b>: se calcula con ${num(r.k, 1)} kWh/bimestre (${num(r.k / 2, 1)} kWh/mes × 2) y el resultado se divide por 2.</p>`;
   if (r.total === null) return h + `<p class="note">${esc(x.motivo)}.</p></div>`;
@@ -212,7 +213,7 @@ function renderSim() {
   let h = "";
   for (const x of rows) {
     const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
-    const badges = (!x.dem && x.e.simulador?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    const badges = (!x.dem && x.sim && !x.e.simulador ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
     h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
   }
   const n = all.filter((x) => x.total !== null).length;
@@ -289,7 +290,7 @@ async function init() {
   ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
-  ["#s-all", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  ["#s-all", "#s-ocr", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
   $("#s-tipo").addEventListener("input", () => {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();

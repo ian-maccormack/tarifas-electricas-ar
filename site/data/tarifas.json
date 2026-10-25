@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T00:16:08+00:00",
+ "generado": "2026-10-25T00:37:59+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1589,7 +1589,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edesur",
@@ -3179,7 +3180,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edes",
@@ -4287,7 +4289,10 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "ultimo_intento": "2026-10-24T23:04:42+00:00",
+   "ultimo_intento_fallido": true,
+   "simulador_ocr": null
   },
   {
    "id": "edea",
@@ -5789,7 +5794,8 @@
    "mes_referencia_origen": "URL del documento",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edelap",
@@ -6474,7 +6480,8 @@
    "mes_referencia_origen": "URL del documento",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "eden",
@@ -7582,7 +7589,8 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_ocr": null
   },
   {
    "id": "ecsapem",
@@ -7762,7 +7770,8 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "secheep",
@@ -11302,7 +11311,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:16:08+00:00",
+   "verificado": "2026-10-25T00:37:59+00:00",
    "comparable": {
     "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -11332,6 +11341,35 @@
    "mes_referencia_origen": "título",
    "simulador": null,
    "demanda": null,
+   "simulador_ocr": {
+    "periodo": "mes",
+    "criterio": "Residencial sin SEF, columna Total (OCR)",
+    "categorias": [
+     {
+      "nombre": "Residencial",
+      "hasta": null,
+      "fijo": 3631.72,
+      "escalones": [
+       [
+        50,
+        202.3802
+       ],
+       [
+        150,
+        220.0146
+       ],
+       [
+        300,
+        274.8771
+       ],
+       [
+        null,
+        null
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -11357,7 +11395,8 @@
    "mes_referencia_origen": null,
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "epec",
@@ -12761,7 +12800,8 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "dpec",
@@ -14765,7 +14805,8 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_ocr": null
   },
   {
    "id": "enersa",
@@ -15084,7 +15125,8 @@
     ]
    },
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "die",
@@ -15102,7 +15144,8 @@
    "mes_referencia_origen": null,
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "refsa",
@@ -15821,7 +15864,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "ejesa",
@@ -16437,7 +16481,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "ejsed",
@@ -17129,7 +17174,8 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "ape",
@@ -18083,7 +18129,8 @@
     ]
    },
    "demanda": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_ocr": null
   },
   {
    "id": "edelar",
@@ -18653,7 +18700,8 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_ocr": null
   },
   {
    "id": "edemsa",
@@ -19154,7 +19202,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edeste",
@@ -19655,7 +19704,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "emsa",
@@ -19985,7 +20035,8 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "epen",
@@ -21121,7 +21172,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edersa",
@@ -21286,7 +21338,8 @@
     ]
    },
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edesa",
@@ -22178,7 +22231,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:16:08+00:00",
+   "verificado": "2026-10-25T00:37:59+00:00",
    "comparable": {
     "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
     "cargo_fijo": {
@@ -22208,6 +22261,67 @@
    "mes_referencia_origen": "título",
    "simulador": null,
    "demanda": null,
+   "simulador_ocr": {
+    "periodo": "mes",
+    "criterio": "T1R Anexo I, categoría según consumo mensual (OCR)",
+    "categorias": [
+     {
+      "nombre": "TIR1 [O<= E<= 192]",
+      "hasta": 192,
+      "fijo": 5842.64,
+      "escalones": [
+       [
+        null,
+        291.9371
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R2 [192 < E<= 500KWh/mes]",
+      "hasta": 500,
+      "fijo": 10564.94,
+      "escalones": [
+       [
+        null,
+        305.6299
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R2 [500 < E<= 700KWh/mes]",
+      "hasta": 700,
+      "fijo": 14165.59,
+      "escalones": [
+       [
+        null,
+        309.8772
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R2 [700 < E<= 1400KWh/mes]",
+      "hasta": 1400,
+      "fijo": 20814.68,
+      "escalones": [
+       [
+        null,
+        309.5418
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R2 [E > 1400KWh/mes]",
+      "hasta": null,
+      "fijo": 30232.14,
+      "escalones": [
+       [
+        null,
+        310.4589
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -22857,7 +22971,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edesal",
@@ -23567,7 +23682,8 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_ocr": null
   },
   {
    "id": "spse",
@@ -23592,7 +23708,8 @@
    "mes_referencia_origen": null,
    "simulador": null,
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "epe",
@@ -23772,7 +23889,8 @@
     ]
    },
    "demanda": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "edese",
@@ -24455,7 +24573,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_ocr": null
   },
   {
    "id": "dpe",
@@ -25158,7 +25277,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-25T00:16:08+00:00",
+   "verificado": "2026-10-25T00:37:59+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -25188,6 +25307,31 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
+   "simulador_ocr": {
+    "periodo": "mes",
+    "criterio": "TR1 Nivel 1 (OCR)",
+    "categorias": [
+     {
+      "nombre": "TR1 Nivel 1",
+      "hasta": null,
+      "fijo": 4412.16,
+      "escalones": [
+       [
+        150,
+        146.1422
+       ],
+       [
+        300,
+        164.1071
+       ],
+       [
+        null,
+        176.2317
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -26745,7 +26889,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-25T00:16:08+00:00",
+   "verificado": "2026-10-25T00:37:59+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -26759,6 +26903,7 @@
    "mes_referencia_origen": "vigencia",
    "simulador": null,
    "demanda": null,
+   "simulador_ocr": null,
    "desactualizado": false
   }
  ]

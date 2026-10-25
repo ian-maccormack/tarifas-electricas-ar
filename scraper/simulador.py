@@ -573,3 +573,76 @@ def cost_demanda(d, tension, kw, kwh, pico, valle):
     parts += [None if e.get(k) is None else e[k] * kwh * share for k, share in reparto.items()]
     return None if None in parts else sum(parts)
 
+
+# ---- OCR documents: only used when the visitor turns on "Incluir OCR" ----
+OCR_BUILDERS = {}
+
+
+def ocr_builder(*ids):
+    def deco(fn):
+        for i in ids:
+            OCR_BUILDERS[i] = fn
+        return fn
+    return deco
+
+
+def _first_table(tablas, rx):
+    return next((t for t in tablas if any(re.search(rx, f["concepto"]) for f in t["filas"])), None)
+
+
+@ocr_builder("edesa")
+def edesa_ocr(tablas):
+    """Anexo I: T1R1/T1R2 categories by monthly consumption, one fixed and one variable charge each."""
+    rx = r"^T[1I][IL]?R[12I]\s*\["
+    t = _first_table(tablas, rx)
+    cats = []
+    for f in t["filas"]:
+        c = f["concepto"]
+        if not re.search(rx, c) or re.search(r"SEF|ED\b|- ?ED", c):
+            continue
+        m = re.search(r"<=?\s*(\d+)\s*(?:KWh/mes)?\s*\]", c, re.I)
+        hasta = int(m.group(1)) if m else (None if re.search(r"E\s*>\s*\d+", c) else -1)
+        if hasta == -1 or len(f["valores"]) < 2 or any(x["hasta"] == hasta for x in cats):
+            continue
+        cats.append({"nombre": c, "hasta": hasta, "fijo": f["valores"][0], "escalones": [[None, f["valores"][1]]]})
+    if [c["hasta"] for c in cats] != sorted(cats and [c["hasta"] for c in cats if c["hasta"] is not None]) + ([None] if cats and cats[-1]["hasta"] is None else []):
+        raise ValueError("categorías fuera de orden")
+    return {"periodo": "mes", "criterio": "T1R Anexo I, categoría según consumo mensual (OCR)", "categorias": cats}
+
+
+@ocr_builder("secheep")
+def secheep_ocr(tablas):
+    """First block of page 1 (residencial sin SEF), 'Total' column; cumulative blocks per month."""
+    filas = tablas[0]["filas"][:5]
+    labels = [r"^Cargo Fijo$", r"[1Ll]ros\.? 50", r"stes\.? 100", r"stes\.? 150", r"exc\.? 300"]
+    if len(filas) < 5 or not all(re.search(rx, f["concepto"]) for rx, f in zip(labels, filas)):
+        raise ValueError("estructura inesperada")
+    tot = lambda f: f["valores"][2] if len(f["valores"]) > 2 else None
+    esc = [[50, tot(filas[1])], [150, tot(filas[2])], [300, tot(filas[3])], [None, tot(filas[4])]]
+    return {"periodo": "mes", "criterio": "Residencial sin SEF, columna Total (OCR)",
+            "categorias": [{"nombre": "Residencial", "hasta": None, "fijo": tot(filas[0]), "escalones": esc}]}
+
+
+@ocr_builder("dpe")
+def dpe_ocr(tablas):
+    """TR1 Nivel 1: fixed charge plus cumulative blocks 150 / 150 / excedente de 300 (monthly)."""
+    t = _first_table(tablas, r"^Primeros 150")
+    filas = t["filas"][:4]
+    labels = [r"^[S$].{0,3}mes$", r"^Primeros 150", r"^Siguientes 150", r"^Excedente de 300"]
+    if len(filas) < 4 or not all(re.search(rx, f["concepto"]) for rx, f in zip(labels, filas)):
+        raise ValueError("estructura inesperada")
+    v = [f["valores"][0] for f in filas]
+    return {"periodo": "mes", "criterio": "TR1 Nivel 1 (OCR)",
+            "categorias": [{"nombre": "TR1 Nivel 1", "hasta": None, "fijo": v[0], "escalones": [[150, v[1]], [300, v[2]], [None, v[3]]]}]}
+
+
+def build_ocr(entry):
+    fn = OCR_BUILDERS.get(entry["id"])
+    if not fn or entry.get("estado") != "ok" or not entry.get("ocr"):
+        return None
+    try:
+        sim = fn(entry["tablas"])
+    except Exception:
+        return None
+    return sim if sim["categorias"] else None
+
