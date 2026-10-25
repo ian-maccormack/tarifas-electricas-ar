@@ -112,13 +112,14 @@ function renderComp() {
 }
 
 // ---- Simulador: same algorithm as scraper/simulador.py::cost ----
-function simulate(s, kwhMes) {
+function simulate(s, kwhMes, mes) {
   const f = s.periodo === "bimestre" ? 2 : 1, k = kwhMes * f;
   const cat = s.categorias.find((c) => c.hasta === null || k <= c.hasta);
   const r = { k, f, cat, tramos: [], total: null };
   if (!cat || cat.fijo == null) return r;
   let tot = cat.fijo, prev = 0;
-  for (const [hasta, p] of cat.escalones) {
+  for (let [hasta, p] of cat.escalones) {
+    if (hasta === "base") { if (!s.base_mes || !mes) return r; hasta = s.base_mes[mes - 1]; }
     const top = hasta === null ? k : Math.min(k, hasta), kwh = Math.max(0, top - prev);
     if (kwh && p == null) return r;
     if (kwh) r.tramos.push({ kwh, p });
@@ -185,15 +186,16 @@ function simResults() {
       return withIva({ e, r, total: r ? r.total : null, motivo, dem: true }, iva);
     });
   }
-  const kwh = Math.max(0, +$("#s-kwh").value || 0);
+  const kwh = Math.max(0, +$("#s-kwh").value || 0), sub = $("#s-sub").checked, mes = +$("#s-mes").value;
   return DATA.distribuidoras.map((e) => {
     let r = null, motivo = "";
-    const sim = e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
-    if (sim) { r = simulate(sim, kwh); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
+    const sim = sub ? e.simulador_subsidio || null : e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
+    if (sim) { r = simulate(sim, kwh, mes); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
+    else if (sub) motivo = "El cuadro no publica cargos con subsidio que se puedan aplicar con seguridad";
     else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
     else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
-    return withIva({ e, r, total: r ? r.total : null, motivo, sim }, iva);
+    return withIva({ e, r, total: r ? r.total : null, motivo, sim, mes }, iva);
   });
 }
 function detalleDem(x) {
@@ -208,6 +210,7 @@ function detalle(x) {
   if (x.dem) return detalleDem(x);
   const s = x.sim, r = x.r, per = s.periodo === "bimestre" ? "bim" : "mes";
   let h = `<div class="sim-det"><p><b>Criterio:</b> ${esc(s.criterio)} · <b>Categoría:</b> ${esc(r.cat ? r.cat.nombre || "única" : "no encontrada")}</p>`;
+  if (s.base_mes) h += `<p>Consumo base subsidiado en ${MESES[x.mes - 1]}: <b>${num(s.base_mes[x.mes - 1], 0)} kWh/${per}</b>; el resto se cobra al precio de excedente.</p>`;
   if (r.f === 2) h += `<p>El cuadro factura por <b>bimestre</b>: se calcula con ${num(r.k, 1)} kWh/bimestre (${num(r.k / 2, 1)} kWh/mes × 2) y el resultado se divide por 2.</p>`;
   if (r.total === null) return h + `<p class="note">${esc(x.motivo)}.</p></div>`;
   h += `<table><tbody><tr><td>Cargo fijo</td><td class="num">${money(r.cat.fijo)} /${per}</td></tr>`;
@@ -226,12 +229,12 @@ function renderSim() {
   let h = "";
   for (const x of rows) {
     const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
-    const badges = (!x.dem && x.sim && !x.e.simulador ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    const badges = (!x.dem && x.sim && x.sim === x.e.simulador_subsidio ? '<span class="badge b-sub" title="Cargos con subsidio publicados en el cuadro">con subsidio</span> ' : "") + (!x.dem && x.sim && x.sim === x.e.simulador_ocr ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
     h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
   }
   const n = all.filter((x) => x.total !== null).length;
   $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
-  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (!all[0]?.dem && $("#s-sub").checked ? ` · <b>con subsidio</b> (${MESES[+$("#s-mes").value - 1]})` : "") + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
   $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
   renderMap(all);
 }
@@ -303,7 +306,9 @@ async function init() {
   ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
-  ["#s-all", "#s-ocr", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  $("#s-mes").innerHTML = MESES.map((m, i) => `<option value="${i + 1}">${m}</option>`).join("");
+  $("#s-mes").value = new Date().getMonth() + 1;
+  ["#s-all", "#s-ocr", "#s-sub", "#s-mes", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
   $("#s-tipo").addEventListener("input", () => {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();

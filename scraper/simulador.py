@@ -108,11 +108,10 @@ def edersa(tablas):
         filas = [f for f in t["filas"] if f.get("grupo") == g]
         fijo = _row(filas, r"^CARGO FIJO")
         col = fijo["columnas"].index("Sin Subsidio (m)") if fijo and fijo.get("columnas") else None
-        excedente = _row(filas, r"excedente")
-        var = _row(filas, r"^CARGO VARIABLE$")
+        # the "excedente (*)" row only applies to the 'con subsidio' columns ("(*) Con Subsidio Excedente ...")
+        var = _row(filas, r"^CARGO VARIABLE( BASE)?$")
         cats.append({"nombre": g, "hasta": _limit(g), "fijo": _val(fijo, col) if col is not None else None,
-                     # the excedente threshold is not in the extracted table, so that category stays incomplete
-                     "escalones": [[None, _val(var, col) if var and col is not None and not excedente else None]]})
+                     "escalones": [[None, _val(var, col) if var and col is not None else None]]})
     return {"periodo": "bimestre", "criterio": "Sin subsidio, monofásico", "categorias": cats}
 
 
@@ -166,7 +165,11 @@ def epe(tablas):
 @builder("enersa")
 def enersa(tablas):
     """Cumulative blocks; the extracted table can carry rows of the next column after the excedente."""
-    t = next(t for t in tablas if re.search(r"T 1-R Uso residencial — Sin Subsidio$", t["titulo"]))
+    return _enersa(tablas, "Sin Subsidio", "T1-R uso residencial sin subsidio")
+
+
+def _enersa(tablas, col, criterio):
+    t = next(t for t in tablas if re.search(rf"T 1-R Uso residencial — {col}$", t["titulo"]))
     fijo = _row(t["filas"], r"^Cargo fijo")
     esc, acc = [], 0
     for f in t["filas"]:
@@ -182,7 +185,7 @@ def enersa(tablas):
         esc.append([acc, _val(f)])
     else:
         raise ValueError("sin excedente")
-    return {"periodo": "mes", "criterio": "T1-R uso residencial sin subsidio",
+    return {"periodo": "mes", "criterio": criterio,
             "categorias": [{"nombre": "T1-R", "hasta": None, "fijo": _val(fijo), "escalones": esc}]}
 
 
@@ -265,14 +268,19 @@ def build(entry):
     return sim if sim["categorias"] else None
 
 
-def cost(sim, kwh_mes):
-    """Monthly cost without taxes, or None if any needed value is missing (mirrors app.js)."""
+def cost(sim, kwh_mes, mes=None):
+    """Monthly cost without taxes, or None if any needed value is missing (mirrors app.js).
+    A block limit "base" is the month's consumo base (sim["base_mes"], needs `mes` 1-12)."""
     k = kwh_mes * (2 if sim["periodo"] == "bimestre" else 1)
     cat = next((c for c in sim["categorias"] if c["hasta"] is None or k <= c["hasta"]), None)
     if cat is None or cat["fijo"] is None:
         return None
     total, prev = cat["fijo"], 0
     for hasta, precio in cat["escalones"]:
+        if hasta == "base":
+            if not mes or not sim.get("base_mes"):
+                return None
+            hasta = sim["base_mes"][mes - 1]
         tramo = max(0, min(k, hasta if hasta is not None else k) - prev)
         if tramo and precio is None:
             return None
@@ -572,6 +580,94 @@ def cost_demanda(d, tension, kw, kwh, pico, valle):
     parts = [t["fijo"]] + [None if p is None else p * kw for _, p in t["potencia"]]
     parts += [None if e.get(k) is None else e[k] * kwh * share for k, share in reparto.items()]
     return None if None in parts else sum(parts)
+
+
+# ---- 'Con subsidio' mode: only where the cuadro prints the subsidised charges and their consumption limits ----
+SUB_BUILDERS = {}
+
+def sub_builder(*ids):
+    def deco(fn):
+        for i in ids:
+            SUB_BUILDERS[i] = fn
+        return fn
+    return deco
+
+
+@sub_builder("enersa")
+def enersa_sub(tablas):
+    """The 'Con Subsidio Nacional' column already prints the subsidised blocks and where full price starts."""
+    return _enersa(tablas, "Con Subsidio Nacional", "T1-R uso residencial con subsidio nacional")
+
+
+@sub_builder("edersa")
+def edersa_sub(tablas):
+    """'Con Subsidio (m)': R1 one price; R2 base price up to the tope, excedente above it."""
+    t = tablas[0]
+    tope = t.get("tope_subsidio")
+    cats = []
+    for g in dict.fromkeys(f.get("grupo") for f in t["filas"]):
+        filas = [f for f in t["filas"] if f.get("grupo") == g]
+        fijo = _row(filas, r"^CARGO FIJO")
+        col = fijo["columnas"].index("Con Subsidio (m)")
+        var, exc = _row(filas, r"^CARGO VARIABLE( BASE)?$"), _row(filas, r"^CARGO VARIABLE excedente")
+        esc = [[tope, _val(var, col)], [None, _val(exc, col)]] if exc else [[None, _val(var, col)]]
+        if exc and not tope:
+            esc = [[None, None]]
+        cats.append({"nombre": g, "hasta": _limit(g), "fijo": _val(fijo, col), "escalones": esc})
+    return {"periodo": "bimestre", "criterio": f"Con subsidio, monofásico (excedente desde {tope} kWh/bim)",
+            "categorias": cats}
+
+
+@sub_builder("edenor", "edesur")
+def enre_sub(tablas):
+    """'Tarifa 1 - R con subsidio': the consumption sets the category; the consumo base is billed at the
+    subsidised price and the rest at the excedente price. The consumo base depends on the month."""
+    cats, on, base = [], False, None
+    for t in tablas:
+        if re.match(r"R\d+ — Tarifa 1 - R con subsidio$", t["titulo"]):
+            on = True
+        elif not re.match(r"R\d+$", t["titulo"]):  # later tables of the block lose the subtitle
+            on = False
+        if not on:
+            continue
+        base = base or t.get("consumo_base")
+        fijo = _row(t["filas"], r"^Cargo Fijo")
+        m = re.search(r"(\d+)\s*-\s*(\d+)", fijo["concepto"]) if fijo else None
+        b, ex = _row(t["filas"], r"consumo base$"), _row(t["filas"], r"excedente a consumo base")
+        esc = [["base", _val(b)], [None, _val(ex)]] if b and ex else [[None, _val(_row(t["filas"], r"^Cargo Variable"))]]
+        cats.append({"nombre": t["titulo"].split(" ")[0], "hasta": int(m.group(2)) if m else None,
+                     "fijo": _val(fijo), "escalones": esc})
+    if not base:
+        raise ValueError("sin consumo base por mes")
+    return {"periodo": "mes", "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",
+            "base_mes": base, "categorias": cats}
+
+
+@sub_builder("edemsa", "edeste")
+def mendoza_sub(tablas):
+    """'Con SEF' (second value). Residencial 2 and 3 split it into base and excedente with different fixed
+    charges and the cuadro does not say which fixed charge applies, so they stay empty."""
+    sim = mendoza(tablas)
+    filas = tablas[0]["filas"]
+    for c in sim["categorias"]:
+        rows = [f for f in filas if f.get("grupo") == c["nombre"]]
+        fijo, var = _row(rows, r"^Cargo Fijo$"), _row(rows, r"^Cargo Variable$")
+        ok = fijo and var and len(fijo["valores"]) == 3 and len(var["valores"]) == 3
+        c["fijo"] = _val(fijo, 1) if ok else None
+        c["escalones"] = [[None, _val(var, 1) if ok else None]]
+    sim["criterio"] = "Residencial con SEF (solo Residencial 1)"
+    return sim
+
+
+def build_subsidio(entry):
+    fn = SUB_BUILDERS.get(entry["id"])
+    if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
+        return None
+    try:
+        sim = fn(entry["tablas"])
+    except Exception:
+        return None
+    return sim if sim["categorias"] else None
 
 
 # ---- OCR documents: only used when the visitor turns on "Incluir OCR" ----

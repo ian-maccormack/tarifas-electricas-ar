@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T00:38:45+00:00",
+ "generado": "2026-10-25T00:46:35+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -179,6 +179,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -211,6 +225,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -243,6 +271,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -1332,7 +1374,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:35+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -1590,6 +1632,112 @@
     ]
    },
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",
+    "base_mes": [
+     300,
+     300,
+     150,
+     150,
+     300,
+     300,
+     300,
+     300,
+     150,
+     150,
+     150,
+     300
+    ],
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 150,
+      "fijo": 1812.81,
+      "escalones": [
+       [
+        null,
+        61.083
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 400,
+      "fijo": 3866.44,
+      "escalones": [
+       [
+        "base",
+        61.743
+       ],
+       [
+        null,
+        159.788
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 500,
+      "fijo": 12696.53,
+      "escalones": [
+       [
+        "base",
+        73.964
+       ],
+       [
+        null,
+        172.009
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 600,
+      "fijo": 20311.59,
+      "escalones": [
+       [
+        "base",
+        77.941
+       ],
+       [
+        null,
+        175.986
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 42811.07,
+      "escalones": [
+       [
+        "base",
+        78.239
+       ],
+       [
+        null,
+        176.284
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": null,
+      "fijo": 66775.06,
+      "escalones": [
+       [
+        "base",
+        94.187
+       ],
+       [
+        null,
+        192.232
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -1770,6 +1918,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -1802,6 +1964,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -1834,6 +2010,20 @@
        ],
        "columnas": null
       }
+     ],
+     "consumo_base": [
+      300,
+      300,
+      150,
+      150,
+      300,
+      300,
+      300,
+      300,
+      150,
+      150,
+      150,
+      300
      ]
     },
     {
@@ -2923,7 +3113,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:35+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -3181,6 +3371,112 @@
     ]
    },
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",
+    "base_mes": [
+     300,
+     300,
+     150,
+     150,
+     300,
+     300,
+     300,
+     300,
+     150,
+     150,
+     150,
+     300
+    ],
+    "categorias": [
+     {
+      "nombre": "R1",
+      "hasta": 150,
+      "fijo": 1771.06,
+      "escalones": [
+       [
+        null,
+        59.251
+       ]
+      ]
+     },
+     {
+      "nombre": "R2",
+      "hasta": 400,
+      "fijo": 3717.51,
+      "escalones": [
+       [
+        "base",
+        59.827
+       ],
+       [
+        null,
+        157.692
+       ]
+      ]
+     },
+     {
+      "nombre": "R3",
+      "hasta": 500,
+      "fijo": 12168.59,
+      "escalones": [
+       [
+        "base",
+        72.057
+       ],
+       [
+        null,
+        169.922
+       ]
+      ]
+     },
+     {
+      "nombre": "R4",
+      "hasta": 600,
+      "fijo": 19843.84,
+      "escalones": [
+       [
+        "base",
+        76.191
+       ],
+       [
+        null,
+        174.056
+       ]
+      ]
+     },
+     {
+      "nombre": "R5",
+      "hasta": 700,
+      "fijo": 42905.86,
+      "escalones": [
+       [
+        "base",
+        88.728
+       ],
+       [
+        null,
+        186.593
+       ]
+      ]
+     },
+     {
+      "nombre": "R6",
+      "hasta": null,
+      "fijo": 65106.92,
+      "escalones": [
+       [
+        "base",
+        105.74
+       ],
+       [
+        null,
+        203.605
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -4290,7 +4586,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "edea",
@@ -5793,7 +6090,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "edelap",
@@ -6479,7 +6777,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "eden",
@@ -7588,7 +7887,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "ecsapem",
@@ -7769,7 +8069,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "secheep",
@@ -11368,7 +11669,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "dgsp",
@@ -11394,7 +11696,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "epec",
@@ -12799,7 +13102,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "dpec",
@@ -14804,7 +15108,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "enersa",
@@ -14867,24 +15172,6 @@
       {
        "grupo": null,
        "concepto": "Excedente de 300 kWh/mes",
-       "unidad": "$/kWh",
-       "valores": [
-        344.42
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Siguientes 70 kWh/mes",
-       "unidad": "$/kWh",
-       "valores": [
-        344.42
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Excedente de 370 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
         344.42
@@ -15008,6 +15295,24 @@
         319.04
        ],
        "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Siguientes 70 kWh/mes",
+       "unidad": "$/kWh",
+       "valores": [
+        344.42
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Excedente de 370 kWh/mes",
+       "unidad": "$/kWh",
+       "valores": [
+        344.42
+       ],
+       "columnas": null
       }
      ]
     },
@@ -15065,7 +15370,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:09+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -15124,6 +15429,43 @@
    },
    "demanda": null,
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "T1-R uso residencial con subsidio nacional",
+    "categorias": [
+     {
+      "nombre": "T1-R",
+      "hasta": null,
+      "fijo": 3193.22,
+      "escalones": [
+       [
+        100,
+        157.25
+       ],
+       [
+        150,
+        189.18
+       ],
+       [
+        200,
+        275.87
+       ],
+       [
+        300,
+        319.04
+       ],
+       [
+        370,
+        344.42
+       ],
+       [
+        null,
+        344.42
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -15143,7 +15485,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "refsa",
@@ -15863,7 +16206,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "ejesa",
@@ -16480,7 +16824,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "ejsed",
@@ -17173,7 +17518,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "ape",
@@ -17993,7 +18339,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.2599999999998,
+      "fijo": 3790.26,
       "escalones": [
        [
         60,
@@ -18128,7 +18474,8 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "edelar",
@@ -18699,7 +19046,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "edemsa",
@@ -18996,7 +19344,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:09+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -19201,6 +19549,45 @@
     ]
    },
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "bimestre",
+    "criterio": "Residencial con SEF (solo Residencial 1)",
+    "categorias": [
+     {
+      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "hasta": 299,
+      "fijo": 6929.321,
+      "escalones": [
+       [
+        null,
+        165.7523
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "hasta": 599,
+      "fijo": null,
+      "escalones": [
+       [
+        null,
+        null
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "hasta": null,
+      "fijo": null,
+      "escalones": [
+       [
+        null,
+        null
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -19498,7 +19885,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:09+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -19703,6 +20090,45 @@
     ]
    },
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "bimestre",
+    "criterio": "Residencial con SEF (solo Residencial 1)",
+    "categorias": [
+     {
+      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "hasta": 299,
+      "fijo": 6929.321,
+      "escalones": [
+       [
+        null,
+        165.7523
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "hasta": 599,
+      "fijo": null,
+      "escalones": [
+       [
+        null,
+        null
+       ]
+      ]
+     },
+     {
+      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "hasta": null,
+      "fijo": null,
+      "escalones": [
+       [
+        null,
+        null
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -20034,7 +20460,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "epen",
@@ -21171,7 +21598,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "edersa",
@@ -21273,13 +21701,14 @@
        ],
        "columnas": null
       }
-     ]
+     ],
+     "tope_subsidio": 400
     }
    ],
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:46:09+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -21329,7 +21758,7 @@
       "escalones": [
        [
         null,
-        null
+        289.656
        ]
       ]
      }
@@ -21337,6 +21766,38 @@
    },
    "demanda": null,
    "simulador_ocr": null,
+   "simulador_subsidio": {
+    "periodo": "bimestre",
+    "criterio": "Con subsidio, monofásico (excedente desde 400 kWh/bim)",
+    "categorias": [
+     {
+      "nombre": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "hasta": 300,
+      "fijo": 9621.78,
+      "escalones": [
+       [
+        null,
+        193.765
+       ]
+      ]
+     },
+     {
+      "nombre": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "hasta": null,
+      "fijo": 27555.82,
+      "escalones": [
+       [
+        400,
+        190.015
+       ],
+       [
+        null,
+        289.656
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -22320,7 +22781,8 @@
      }
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "esj",
@@ -22970,7 +23432,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "edesal",
@@ -23681,7 +24144,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "spse",
@@ -23707,7 +24171,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "epe",
@@ -23888,7 +24353,8 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "edese",
@@ -24572,7 +25038,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   },
   {
    "id": "dpe",
@@ -25330,7 +25797,8 @@
      }
     ]
    },
-   "desactualizado": true
+   "desactualizado": true,
+   "simulador_subsidio": null
   },
   {
    "id": "edet",
@@ -26902,7 +27370,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false
+   "desactualizado": false,
+   "simulador_subsidio": null
   }
  ]
 }

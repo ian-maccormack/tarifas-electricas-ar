@@ -210,3 +210,50 @@ def test_edesa_ocr_categories():
     s = build_ocr({"id": "edesa", "estado": "ok", "ocr": True, "tablas": tablas})
     assert [c["hasta"] for c in s["categorias"]] == [192, 500, None]
     assert round(cost(s, 150), 2) == round(5842.64 + 150 * 291.9371, 2)
+
+
+def test_consumo_base_por_mes():
+    from parsers import consumo_base
+    t = ("Nota: Períodos dic/feb y mayo/agosto: consumo base de 300 kWh/mes. "
+         "Períodos marzo/abril y septiembre/noviembre: consumo base de 150 kWh/mes.")
+    assert consumo_base(t) == [300, 300, 150, 150, 300, 300, 300, 300, 150, 150, 150, 300]
+    assert consumo_base("Períodos dic/feb: consumo base de 300 kWh/mes.") is None
+
+
+def test_enre_subsidio_consumo_base():
+    from simulador import enre_sub
+    base = [300, 300, 150, 150, 300, 300, 300, 300, 150, 150, 150, 300]
+    tablas = [
+        {"titulo": "R2 — Tarifa 1 - R sin subsidio", "filas": _rows(("Cargo Fijo 151-400", [3866.44]), ("Cargo Variable 151-400", [159.788]))},
+        {"titulo": "R1 — Tarifa 1 - R con subsidio", "consumo_base": base,
+         "filas": _rows(("Cargo Fijo 0-150", [1812.81]), ("Cargo Variable 0-150", [61.083]))},
+        {"titulo": "R2 — Tarifa 1 - R con subsidio", "consumo_base": base,
+         "filas": _rows(("Cargo Fijo 151-400", [3866.44]), ("Cargo Variable consumo base", [61.743]),
+                        ("Cargo Variable excedente a consumo base", [159.788]))},
+        {"titulo": "G1 — Tarifa 1 - G", "filas": _rows(("Cargo Fijo 0-800", [1.0]))},
+    ]
+    s = enre_sub(tablas)
+    assert [c["nombre"] for c in s["categorias"]] == ["R1", "R2"]
+    assert round(cost(s, 250, 10), 2) == round(3866.44 + 150 * 61.743 + 100 * 159.788, 2)
+    assert round(cost(s, 250, 1), 2) == round(3866.44 + 250 * 61.743, 2)
+    assert cost(s, 250) is None
+    assert round(cost(s, 100, 10), 2) == round(1812.81 + 100 * 61.083, 2)
+
+
+def test_edersa_subsidio_tope():
+    from simulador import edersa_sub
+    cols = ["Con Subsidio (m)", "Con Subsidio (t)", "Sin Subsidio (m)", "Sin Subsidio (t)"]
+    g1, g2 = "Hasta 300 kWh/bimestre", "Mayor a 300 kWh/bimestre"
+    filas = [
+        {"grupo": g1, "concepto": "CARGO FIJO", "unidad": "$/bimes", "valores": [9621.78, 11258.41, 9715.62, 11352.24], "columnas": cols},
+        {"grupo": g1, "concepto": "CARGO VARIABLE", "unidad": "$/kWh", "valores": [193.765, 201.772, 287.765, 295.772], "columnas": cols},
+        {"grupo": g2, "concepto": "CARGO FIJO", "unidad": "$/bim", "valores": [27555.82, 30501.74, 29800.46, 32746.38], "columnas": cols},
+        {"grupo": g2, "concepto": "CARGO VARIABLE BASE", "unidad": "$/kWh", "valores": [190.015, 191.334, 289.656, 290.974], "columnas": cols},
+        {"grupo": g2, "concepto": "CARGO VARIABLE excedente (*)", "unidad": "$/KWh", "valores": [289.656, 290.974], "columnas": None},
+    ]
+    s = edersa_sub([{"titulo": "Tarifa Residencial", "tope_subsidio": 400, "filas": filas}])
+    assert round(cost(s, 100), 2) == round((9621.78 + 200 * 193.765) / 2, 2)
+    assert round(cost(s, 250), 2) == round((27555.82 + 400 * 190.015 + 100 * 289.656) / 2, 2)
+    assert cost(edersa_sub([{"titulo": "x", "tope_subsidio": None, "filas": filas}]), 250) is None
+    from simulador import edersa
+    assert round(cost(edersa([{"titulo": "x", "filas": filas}]), 250), 2) == round((29800.46 + 500 * 289.656) / 2, 2)

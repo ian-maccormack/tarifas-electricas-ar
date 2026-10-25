@@ -227,6 +227,25 @@ def comparable(tablas, fijo, variable, nota):
     return out if out["cargo_fijo"] or out["cargo_variable"] else None
 
 
+MES_ABR = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+
+
+def consumo_base(text):
+    """'Períodos dic/feb y mayo/agosto: consumo base de 300 kWh/mes' -> 12 monthly limits, or None if incomplete."""
+    out = [None] * 12
+    for per, kwh in re.findall(r"Per\S{1,3}odos?\s+([a-z/ y,]+?):\s*consumo base de\s*(\d+)\s*kWh/mes", text, re.I):
+        for a, b in re.findall(r"([a-z]{3})[a-z]*\s*/\s*([a-z]{3})[a-z]*", per.lower()):
+            if a not in MES_ABR or b not in MES_ABR:
+                return None
+            i, j = MES_ABR.index(a), MES_ABR.index(b)
+            while True:
+                out[i] = int(kwh)
+                if i == j:
+                    break
+                i = (i + 1) % 12
+    return out if all(out) else None
+
+
 # ---------------------------------------------------------------- per-source
 
 @parser("enre")
@@ -253,6 +272,10 @@ def p_enre(text, source, **_):
         sub = ctx[0] if ctx else ""
         tablas.append({"titulo": rows[0][0] + (f" — {sub}" if sub else ""), "filas": filas})
     vig = find(r"(Per[ií]odo\s*\d{2}/\d{2})", soup.get_text(" "))
+    base = consumo_base(squeeze(plain))
+    for t in tablas:
+        if "con subsidio" in t["titulo"]:
+            t["consumo_base"] = base
     return {"vigencia": vig, "tablas": tablas,
             "comparable": comparable(tablas, (r"Cargo Fijo 0-150",), (r"Cargo Variable 0-150",),
                                      "R1 (0-150 kWh/mes), primera tabla del cuadro ENRE")}
@@ -298,6 +321,8 @@ def p_edersa(text, **_):
     cols = ["Con Subsidio (m)", "Con Subsidio (t)", "Sin Subsidio (m)", "Sin Subsidio (t)"]
     t = line_table(text, "Tarifa Residencial (cargos bimestrales)", r"TARIFA RESIDENCIAL", r"TARIFA GENERAL",
                    dec=",", cols=cols, header_re=r"kWh/bimestre")
+    tope = find(r"\(\*\)\s*Con Subsidio Excedente consumos mayores a (\d+) kWh/bim", text)
+    t["tope_subsidio"] = int(tope) if tope else None
     return {"vigencia": find(r"Periodo:\s*([A-Z]+ 20\d\d)", text), "tablas": [t],
             "comparable": comparable([t], (r"^CARGO FIJO", 2), (r"^CARGO VARIABLE", 2),
                                      "T1R1 (hasta 300 kWh/bim), columna 'Sin Subsidio – T1R1 m'")}
@@ -483,26 +508,28 @@ def p_enersa(text, sheets=None, **_):
         raise ValueError("no se encontró T 1-R")
     hdr = next(r for r in rows[i0 - 3:i0 + 1] if any("Sin Subsidio" in c for c in r))
     groups = [c for c in hdr if c]
+    gpos = [i for i, c in enumerate(hdr) if c]
     tabs = [{"titulo": f"T 1-R Uso residencial — {g}", "filas": []} for g in groups]
     for r in rows[i0:]:
         if any(re.search(r"T 1-Rural", c) for c in r):
             break
         cells = [c for c in r]
-        k, i = 0, 0
+        i = 0
         while i < len(cells):
             c = cells[i]
             if c and parse_num(c) is None and not re.search(r"T 1-R", c):
                 j = i + 1
                 while j < len(cells) and not cells[j]:
                     j += 1
-                if j < len(cells) and parse_num(cells[j]) is not None and k < len(tabs):
+                # the column group is the last header at or left of the label (the first group's labels sit before it)
+                k = max(0, sum(1 for g in gpos if g <= i) - 1)
+                if j < len(cells) and parse_num(cells[j]) is not None:
                     um = UNIT.search(c)
                     tabs[k]["filas"].append({"grupo": None, "concepto": squeeze(UNIT.sub("", c)),
                                              "unidad": um.group(0) if um else "$/kWh", "valores": [parse_num(cells[j])],
                                              "columnas": None})
-                    k, i = k + 1, j + 1
+                    i = j + 1
                     continue
-                k += 1 if re.search(r"Cargo|Primeros|Siguientes|Excedente", c) else 0
             i += 1
     return {"vigencia": find(r"(Vigente a partir del [^|\n]+?20\d\d al [^|\n]+?20\d\d)", text), "tablas": tabs,
             "comparable": comparable(tabs[:1], (r"Cargo fijo",), (r"Primeros 100",), "T 1-R sin subsidio, primeros 100 kWh/mes")}
