@@ -120,3 +120,46 @@ def test_enre_t2_t3():
     assert round(cost_demanda(d, "MT", 20, 4000, 0.25, 0.25), 2) == round(exp, 2)
     t3 = next(t for t in d["tarifas"] if t["nombre"] == "Tarifa 3 - BT > 300")
     assert t3["desde_kw"] == 300 and set(t3["energia"]) == {"pico", "resto", "valle"}
+
+
+
+def _dem(id, ten, kw, kwh, pico=0.25, valle=0.3):
+    return round(cost_demanda(build_demanda(_entry(id)), ten, kw, kwh, pico, valle), 2)
+
+
+def _mix(p, r, v, kwh, pico=0.25, valle=0.3):
+    return kwh * (pico * p + (1 - pico - valle) * r + valle * v)
+
+
+def test_epen_t2_t3():
+    assert _dem("epen", "BT", 20, 3000) == round(20 * 49800.44 + 3000 * 402.702, 2)
+    assert _dem("epen", "BT", 100, 20000) == round(100 * (57359.77 + 44175.27) + _mix(366.999, 359.733, 355.983, 20000), 2)
+    assert _dem("epen", "AT", 400, 90000) == round(400 * (21636.34 + 20472.54) + _mix(293.757, 293.592, 295.094, 90000), 2)
+
+
+def test_refsa_only_t3_from_300():
+    assert cost_demanda(build_demanda(_entry("refsa")), "BT", 100, 20000, 0.25, 0.3) is None
+    assert _dem("refsa", "BT", 400, 90000) == round(400 * (15977.78 + 5548.42) + _mix(182.7234, 178.5493, 178.061, 90000), 2)
+
+
+def test_esj_t2_t3():
+    assert _dem("esj", "BT", 15, 3000) == round(115977.79 + 3000 * 264.9631, 2)
+    assert _dem("esj", "BT", 30, 5000) == round(72314.83 + 30 * 22867.565 + 5000 * 195.7255, 2)
+    assert _dem("esj", "BT", 100, 20000) == round(206912.86 + 100 * (21029.36 + 8483.329) + _mix(157.9653, 153.2696, 152.1565, 20000), 2)
+    assert cost_demanda(build_demanda(_entry("esj")), "MT", 100, 20000, 0.25, 0.3) is None
+
+
+def test_dpec_t2_t3():
+    assert _dem("dpec", "MT", 30, 5000) == round(30 * 31763 + 5000 * 109.386, 2)
+    assert _dem("dpec", "MT", 400, 90000) == round(400 * 18115 + _mix(99.909, 98.153, 97.26, 90000), 2)
+
+
+def test_mendoza_t2():
+    assert _dem("edemsa", "BT", 50, 10000) == round(38358.729 + 50 * (56868.335 + 10454.284) + _mix(151.0511, 146.561, 145.4966, 10000), 2)
+    assert _dem("edemsa", "MT", 400, 90000) == round(561205.887 + 400 * (44323.856 + 10038.096) + _mix(159.6745, 154.8244, 153.6745, 90000), 2)
+
+
+def test_ejesa_t2_t3():
+    assert cost_demanda(build_demanda(_entry("ejesa")), "BT", 12, 3000, 0.25, 0.3) is None
+    assert _dem("ejesa", "BT", 20, 4000) == round(114185 + 20 * 26108 + _mix(196.3388, 191.5834, 190.4561, 4000), 2)
+    assert _dem("ejesa", "MT", 400, 90000) == round(328464 + 400 * 21271 + _mix(195.129, 190.1941, 189.0241, 90000), 2)

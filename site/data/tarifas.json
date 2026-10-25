@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T23:04:42+00:00",
+ "generado": "2026-10-25T00:12:03+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -14434,13 +14434,200 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Medianas Demandas — Potencia convenida desde 10 kW no mayor a 50 kW",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo por potencia",
+       "unidad": "$/kW-Mes",
+       "valores": [
+        31763.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por todo el consumo",
+       "unidad": "$/KWh",
+       "valores": [
+        109.386
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Grandes Demandas — Potencia convenida desde 50 kW y menor a 300 kW — Suministro en Baja Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo por potencia",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        31320.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Pico",
+       "unidad": "$/KWh",
+       "valores": [
+        111.177
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Resto",
+       "unidad": "$/KWh",
+       "valores": [
+        109.204
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Valle",
+       "unidad": "$/KWh",
+       "valores": [
+        108.2
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Grandes Demandas — Potencia convenida desde 300 kW — Suministro en Baja Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo por potencia",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        31205.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Pico",
+       "unidad": "$/KWh",
+       "valores": [
+        107.629
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Resto",
+       "unidad": "$/KWh",
+       "valores": [
+        105.747
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Valle",
+       "unidad": "$/KWh",
+       "valores": [
+        104.789
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Grandes Demandas — Potencia convenida desde 50 kW y menor a 300 kW — Suministro en Media Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo por potencia",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        18238.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Pico",
+       "unidad": "$/KWh",
+       "valores": [
+        103.219
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Resto",
+       "unidad": "$/KWh",
+       "valores": [
+        101.379
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Valle",
+       "unidad": "$/KWh",
+       "valores": [
+        100.442
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Grandes Demandas — Potencia convenida desde 300 kW — Suministro en Media Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo por potencia",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        18115.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Pico",
+       "unidad": "$/KWh",
+       "valores": [
+        99.909
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Resto",
+       "unidad": "$/KWh",
+       "valores": [
+        98.153
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Horas Valle",
+       "unidad": "$/KWh",
+       "valores": [
+        97.26
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -14489,7 +14676,99 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "Potencia convenida según el cuadro DPEC; el cargo fijo del cuadro es por kW (no hay cargo fijo mensual)",
+    "tarifas": [
+     {
+      "nombre": "Medianas Demandas",
+      "tension": null,
+      "desde_kw": 10,
+      "hasta_kw": 50,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Cargo fijo por potencia",
+        31763.0
+       ]
+      ],
+      "energia": {
+       "unica": 109.386
+      }
+     },
+     {
+      "nombre": "Grandes Demandas BT",
+      "tension": "BT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Cargo fijo por potencia",
+        31320.0
+       ]
+      ],
+      "energia": {
+       "pico": 111.177,
+       "resto": 109.204,
+       "valle": 108.2
+      }
+     },
+     {
+      "nombre": "Grandes Demandas BT",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Cargo fijo por potencia",
+        31205.0
+       ]
+      ],
+      "energia": {
+       "pico": 107.629,
+       "resto": 105.747,
+       "valle": 104.789
+      }
+     },
+     {
+      "nombre": "Grandes Demandas MT",
+      "tension": "MT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Cargo fijo por potencia",
+        18238.0
+       ]
+      ],
+      "energia": {
+       "pico": 103.219,
+       "resto": 101.379,
+       "valle": 100.442
+      }
+     },
+     {
+      "nombre": "Grandes Demandas MT",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Cargo fijo por potencia",
+        18115.0
+       ]
+      ],
+      "energia": {
+       "pico": 99.909,
+       "resto": 98.153,
+       "valle": 97.26
+      }
+     }
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -15292,12 +15571,112 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Tarifa 3 — T3-BT2 Grandes Demandas En Baja Tensión >=300 Kw",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por Capacidad de Suministro Contratada en Horas de Pico",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        15977.78
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por Capacidad de Suministro Contratada en Horas Fuera de Pico",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        5548.42
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por Consumo de Energía : Período Horas de Punta",
+       "unidad": "$/kWh",
+       "valores": [
+        182.7234
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Período Horas de Valle (Nocturnas)",
+       "unidad": "$/kWh",
+       "valores": [
+        178.061
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Período Horas Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        178.5493
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa 3 — T3-MT2 Grandes Demandas En Media Tensión >=300Kw",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por Capacidad de Suministro Contratada en Horas de Pico",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        6441.27
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por Capacidad de Suministro Contratada en Horas Fuera de Pico",
+       "unidad": "$/KW-Mes",
+       "valores": [
+        1661.77
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por Consumo de Energía : Período Horas de Punta",
+       "unidad": "$/kWh",
+       "valores": [
+        150.2651
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Período Horas de Valle (Nocturnas)",
+       "unidad": "$/kWh",
+       "valores": [
+        146.4309
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Período Horas Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        146.8325
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -15397,7 +15776,55 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "Solo T3 ≥ 300 kW: el cuadro no indica dónde termina T2 y empieza T3 (< 300 kW); sin cargo fijo en el cuadro",
+    "tarifas": [
+     {
+      "nombre": "T3 BT ≥ 300 kW",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas de pico",
+        15977.78
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        5548.42
+       ]
+      ],
+      "energia": {
+       "pico": 182.7234,
+       "resto": 178.5493,
+       "valle": 178.061
+      }
+     },
+     {
+      "nombre": "T3 MT ≥ 300 kW",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas de pico",
+        6441.27
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        1661.77
+       ]
+      ],
+      "energia": {
+       "pico": 150.2651,
+       "resto": 146.8325,
+       "valle": 146.4309
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -15558,12 +15985,252 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "T2 - Medianas demandas (15 a < 50 kW) — cargos plenos",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        114185.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Uso de Red",
+       "unidad": "$/kW",
+       "valores": [
+        26108.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Consumo de Energía horas punta",
+       "unidad": "$/kWh",
+       "valores": [
+        196.3388
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Consumo de Energía horas resto",
+       "unidad": "$/kWh",
+       "valores": [
+        191.5834
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Consumo de Energía horas valle",
+       "unidad": "$/kWh",
+       "valores": [
+        190.4561
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T3 BT - Grandes demandas en baja tensión (≥ 50 kW) — cargos plenos",
+     "filas": [
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        199424.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Cargo por Uso de Red",
+       "unidad": "$/kW",
+       "valores": [
+        38411.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas punta",
+       "unidad": "$/kWh",
+       "valores": [
+        196.3388
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas resto",
+       "unidad": "$/kWh",
+       "valores": [
+        191.5834
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas valle",
+       "unidad": "$/kWh",
+       "valores": [
+        190.4561
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        199424.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Cargo por Uso de Red",
+       "unidad": "$/kW",
+       "valores": [
+        38411.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas punta",
+       "unidad": "$/kWh",
+       "valores": [
+        217.2224
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas resto",
+       "unidad": "$/kWh",
+       "valores": [
+        211.7287
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas valle",
+       "unidad": "$/kWh",
+       "valores": [
+        210.4263
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T3 MT - Grandes demandas en media tensión (≥ 50 kW) — cargos plenos",
+     "filas": [
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        328464.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Cargo por Uso de Red",
+       "unidad": "$/kW",
+       "valores": [
+        21271.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas punta",
+       "unidad": "$/kWh",
+       "valores": [
+        176.3694
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas resto",
+       "unidad": "$/kWh",
+       "valores": [
+        172.0977
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Menor a 300 kW",
+       "concepto": "Consumo de Energía horas valle",
+       "unidad": "$/kWh",
+       "valores": [
+        171.0851
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        328464.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Cargo por Uso de Red",
+       "unidad": "$/kW",
+       "valores": [
+        21271.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas punta",
+       "unidad": "$/kWh",
+       "valores": [
+        195.129
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas resto",
+       "unidad": "$/kWh",
+       "valores": [
+        190.1941
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Mayor o igual a 300 kW",
+       "concepto": "Consumo de Energía horas valle",
+       "unidad": "$/kWh",
+       "valores": [
+        189.0241
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -15679,7 +16346,101 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "Cargos plenos; T2 desde 15 kW según el cuadro (de 10 a 15 kW no hay tarifa en el cuadro)",
+    "tarifas": [
+     {
+      "nombre": "T2",
+      "tension": null,
+      "desde_kw": 15,
+      "hasta_kw": 50,
+      "fijo": 114185.0,
+      "potencia": [
+       [
+        "Uso de red",
+        26108.0
+       ]
+      ],
+      "energia": {
+       "pico": 196.3388,
+       "resto": 191.5834,
+       "valle": 190.4561
+      }
+     },
+     {
+      "nombre": "T3 BT (< 300 kW)",
+      "tension": "BT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 199424.0,
+      "potencia": [
+       [
+        "Uso de red",
+        38411.0
+       ]
+      ],
+      "energia": {
+       "pico": 196.3388,
+       "resto": 191.5834,
+       "valle": 190.4561
+      }
+     },
+     {
+      "nombre": "T3 BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 199424.0,
+      "potencia": [
+       [
+        "Uso de red",
+        38411.0
+       ]
+      ],
+      "energia": {
+       "pico": 217.2224,
+       "resto": 211.7287,
+       "valle": 210.4263
+      }
+     },
+     {
+      "nombre": "T3 MT (< 300 kW)",
+      "tension": "MT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 328464.0,
+      "potencia": [
+       [
+        "Uso de red",
+        21271.0
+       ]
+      ],
+      "energia": {
+       "pico": 176.3694,
+       "resto": 172.0977,
+       "valle": 171.0851
+      }
+     },
+     {
+      "nombre": "T3 MT (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 328464.0,
+      "potencia": [
+       [
+        "Uso de red",
+        21271.0
+       ]
+      ],
+      "energia": {
+       "pico": 195.129,
+       "resto": 190.1941,
+       "valle": 189.0241
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -17192,7 +17953,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.2599999999998,
+      "fijo": 3790.26,
       "escalones": [
        [
         60,
@@ -18009,12 +18770,191 @@
        "columnas": null
       }
      ]
+    },
+    {
+     "titulo": "Tarifa 2 (T2) - Grandes demandas (más de 10 kW), conectado a la red",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "CARGO COMERCIALIZACIÓN",
+       "unidad": "$/mes",
+       "valores": [
+        38358.729,
+        38358.729,
+        56711.129,
+        56711.129,
+        561205.887,
+        561205.887,
+        757564.862,
+        757564.862,
+        2472424.484,
+        2472424.484
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "USO DE RED",
+       "unidad": "$/kW-mes",
+       "valores": [
+        56868.335,
+        56868.335,
+        47835.805,
+        47835.805,
+        44323.856,
+        44323.856,
+        34105.422,
+        34105.422,
+        24441.234,
+        24441.234
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "CONSUMO DE POTENCIA",
+       "unidad": "$/kW-mes",
+       "valores": [
+        10454.284,
+        10454.284,
+        10233.507,
+        10233.507,
+        10038.096,
+        10038.096,
+        9781.617,
+        9781.617,
+        9633.82,
+        9633.82
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "PICO (P) - 18 a 23hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        151.0511,
+        170.7697,
+        142.8786,
+        161.5303,
+        141.2371,
+        159.6745,
+        137.6268,
+        155.593,
+        135.6973,
+        153.4116
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "RESTO (R) - 05 a 18hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        146.561,
+        165.5825,
+        138.6314,
+        156.6238,
+        137.0387,
+        154.8244,
+        133.5357,
+        150.8668,
+        131.6635,
+        148.7516
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "VALLE (V) - 23 a 05hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        145.4966,
+        164.3528,
+        137.6246,
+        155.4605,
+        136.0435,
+        153.6745,
+        132.566,
+        149.7463,
+        130.7074,
+        147.6469
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -18081,7 +19021,143 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')",
+    "tarifas": [
+     {
+      "nombre": "T2 R BT (10–300 kW)",
+      "tension": "BT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 38358.729,
+      "potencia": [
+       [
+        "Uso de red",
+        56868.335
+       ],
+       [
+        "Consumo de potencia",
+        10454.284
+       ]
+      ],
+      "energia": {
+       "pico": 151.0511,
+       "resto": 146.561,
+       "valle": 145.4966
+      }
+     },
+     {
+      "nombre": "T2 R BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 38358.729,
+      "potencia": [
+       [
+        "Uso de red",
+        56868.335
+       ],
+       [
+        "Consumo de potencia",
+        10454.284
+       ]
+      ],
+      "energia": {
+       "pico": 170.7697,
+       "resto": 165.5825,
+       "valle": 164.3528
+      }
+     },
+     {
+      "nombre": "T2 R MT (10–300 kW)",
+      "tension": "MT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 561205.887,
+      "potencia": [
+       [
+        "Uso de red",
+        44323.856
+       ],
+       [
+        "Consumo de potencia",
+        10038.096
+       ]
+      ],
+      "energia": {
+       "pico": 141.2371,
+       "resto": 137.0387,
+       "valle": 136.0435
+      }
+     },
+     {
+      "nombre": "T2 R MT (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 561205.887,
+      "potencia": [
+       [
+        "Uso de red",
+        44323.856
+       ],
+       [
+        "Consumo de potencia",
+        10038.096
+       ]
+      ],
+      "energia": {
+       "pico": 159.6745,
+       "resto": 154.8244,
+       "valle": 153.6745
+      }
+     },
+     {
+      "nombre": "T2 R AT (10–300 kW)",
+      "tension": "AT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 2472424.484,
+      "potencia": [
+       [
+        "Uso de red",
+        24441.234
+       ],
+       [
+        "Consumo de potencia",
+        9633.82
+       ]
+      ],
+      "energia": {
+       "pico": 135.6973,
+       "resto": 131.6635,
+       "valle": 130.7074
+      }
+     },
+     {
+      "nombre": "T2 R AT (≥ 300 kW)",
+      "tension": "AT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 2472424.484,
+      "potencia": [
+       [
+        "Uso de red",
+        24441.234
+       ],
+       [
+        "Consumo de potencia",
+        9633.82
+       ]
+      ],
+      "energia": {
+       "pico": 153.4116,
+       "resto": 148.7516,
+       "valle": 147.6469
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -18195,12 +19271,191 @@
        "columnas": null
       }
      ]
+    },
+    {
+     "titulo": "Tarifa 2 (T2) - Grandes demandas (más de 10 kW), conectado a la red",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "CARGO COMERCIALIZACIÓN",
+       "unidad": "$/mes",
+       "valores": [
+        38358.729,
+        38358.729,
+        56711.129,
+        56711.129,
+        561205.887,
+        561205.887,
+        757564.862,
+        757564.862,
+        2472424.484,
+        2472424.484
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "USO DE RED",
+       "unidad": "$/kW-mes",
+       "valores": [
+        56868.335,
+        56868.335,
+        47835.805,
+        47835.805,
+        44323.856,
+        44323.856,
+        34105.422,
+        34105.422,
+        24441.234,
+        24441.234
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "CONSUMO DE POTENCIA",
+       "unidad": "$/kW-mes",
+       "valores": [
+        10454.284,
+        10454.284,
+        10233.507,
+        10233.507,
+        10038.096,
+        10038.096,
+        9781.617,
+        9781.617,
+        9633.82,
+        9633.82
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "PICO (P) - 18 a 23hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        151.0511,
+        170.7697,
+        142.8786,
+        161.5303,
+        141.2371,
+        159.6745,
+        137.6268,
+        155.593,
+        135.6973,
+        153.4116
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "RESTO (R) - 05 a 18hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        146.561,
+        165.5825,
+        138.6314,
+        156.6238,
+        137.0387,
+        154.8244,
+        133.5357,
+        150.8668,
+        131.6635,
+        148.7516
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "VALLE (V) - 23 a 05hs.",
+       "unidad": "$/kWh",
+       "valores": [
+        145.4966,
+        164.3528,
+        137.6246,
+        155.4605,
+        136.0435,
+        153.6745,
+        132.566,
+        149.7463,
+        130.7074,
+        147.6469
+       ],
+       "columnas": [
+        "T2 R BT 10–300 kW",
+        "T2 R BT ≥ 300 kW",
+        "T2 B MT/BT 10–300 kW",
+        "T2 B MT/BT ≥ 300 kW",
+        "T2 R MT 10–300 kW",
+        "T2 R MT ≥ 300 kW",
+        "T2 B AT/MT 10–300 kW",
+        "T2 B AT/MT ≥ 300 kW",
+        "T2 R AT 10–300 kW",
+        "T2 R AT ≥ 300 kW"
+       ]
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -18267,7 +19522,143 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')",
+    "tarifas": [
+     {
+      "nombre": "T2 R BT (10–300 kW)",
+      "tension": "BT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 38358.729,
+      "potencia": [
+       [
+        "Uso de red",
+        56868.335
+       ],
+       [
+        "Consumo de potencia",
+        10454.284
+       ]
+      ],
+      "energia": {
+       "pico": 151.0511,
+       "resto": 146.561,
+       "valle": 145.4966
+      }
+     },
+     {
+      "nombre": "T2 R BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 38358.729,
+      "potencia": [
+       [
+        "Uso de red",
+        56868.335
+       ],
+       [
+        "Consumo de potencia",
+        10454.284
+       ]
+      ],
+      "energia": {
+       "pico": 170.7697,
+       "resto": 165.5825,
+       "valle": 164.3528
+      }
+     },
+     {
+      "nombre": "T2 R MT (10–300 kW)",
+      "tension": "MT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 561205.887,
+      "potencia": [
+       [
+        "Uso de red",
+        44323.856
+       ],
+       [
+        "Consumo de potencia",
+        10038.096
+       ]
+      ],
+      "energia": {
+       "pico": 141.2371,
+       "resto": 137.0387,
+       "valle": 136.0435
+      }
+     },
+     {
+      "nombre": "T2 R MT (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 561205.887,
+      "potencia": [
+       [
+        "Uso de red",
+        44323.856
+       ],
+       [
+        "Consumo de potencia",
+        10038.096
+       ]
+      ],
+      "energia": {
+       "pico": 159.6745,
+       "resto": 154.8244,
+       "valle": 153.6745
+      }
+     },
+     {
+      "nombre": "T2 R AT (10–300 kW)",
+      "tension": "AT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 2472424.484,
+      "potencia": [
+       [
+        "Uso de red",
+        24441.234
+       ],
+       [
+        "Consumo de potencia",
+        9633.82
+       ]
+      ],
+      "energia": {
+       "pico": 135.6973,
+       "resto": 131.6635,
+       "valle": 130.7074
+      }
+     },
+     {
+      "nombre": "T2 R AT (≥ 300 kW)",
+      "tension": "AT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 2472424.484,
+      "potencia": [
+       [
+        "Uso de red",
+        24441.234
+       ],
+       [
+        "Consumo de potencia",
+        9633.82
+       ]
+      ],
+      "energia": {
+       "pico": 153.4116,
+       "resto": 148.7516,
+       "valle": 147.6469
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -19037,12 +20428,424 @@
        "columnas": null
       }
      ]
+    },
+    {
+     "titulo": "T2 (10 a < 50 kW) — Servi ci o en Ba ja Tens i ón",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
+       "unidad": "$/KW-mes",
+       "valores": [
+        49800.44
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Ca rgo va ri a bl e por Energía",
+       "unidad": "$/KWh",
+       "valores": [
+        402.702
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T2 (10 a < 50 kW) — Servi ci o en Medi a Tens i ón",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
+       "unidad": "$/KW-mes",
+       "valores": [
+        25411.3
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Ca rgo va ri a bl e por Energía",
+       "unidad": "$/KWh",
+       "valores": [
+        361.041
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T3 (≥ 50 kW) — Servicio en Baja Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        57359.77
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        44175.27
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        359.733
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        355.983
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        366.999
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        359.733
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        355.983
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        366.999
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        68329.85
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        54131.16
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        360.5
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        357.282
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        367.311
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T3 (≥ 50 kW) — Servicio en Media Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        28469.89
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        23677.38
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        330.951
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        335.955
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        329.143
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        337.06
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        336.647
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        342.953
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        24014.91
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        20571.77
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        329.95
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        335.14
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        335.696
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T3 (≥ 50 kW) — Servicio en Alta Tensión",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        21429.49
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        19950.25
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        254.78
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        253.156
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro menor a 300 KW",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        259.323
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        258.456
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        268.095
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        258.773
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        21636.34
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+       "unidad": "$/KW-mes",
+       "valores": [
+        20472.54
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas restante",
+       "unidad": "$/KWh",
+       "valores": [
+        293.592
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas valle/nocturno",
+       "unidad": "$/KWh",
+       "valores": [
+        295.094
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+       "concepto": "Por consumo de energía en período horas pico",
+       "unidad": "$/KWh",
+       "valores": [
+        293.757
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 10185.04,
@@ -19153,7 +20956,175 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "Límites de potencia del cuadro EPEN; el cuadro no tiene cargo fijo en T2/T3; T3 ≥ 300 kW: categoría 'Resto'",
+    "tarifas": [
+     {
+      "nombre": "T2 BT",
+      "tension": "BT",
+      "desde_kw": 10,
+      "hasta_kw": 50,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad de suministro contratada",
+        49800.44
+       ]
+      ],
+      "energia": {
+       "unica": 402.702
+      }
+     },
+     {
+      "nombre": "T2 MT",
+      "tension": "MT",
+      "desde_kw": 10,
+      "hasta_kw": 50,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad de suministro contratada",
+        25411.3
+       ]
+      ],
+      "energia": {
+       "unica": 361.041
+      }
+     },
+     {
+      "nombre": "T3 BT (< 300 kW)",
+      "tension": "BT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        57359.77
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        44175.27
+       ]
+      ],
+      "energia": {
+       "pico": 366.999,
+       "resto": 359.733,
+       "valle": 355.983
+      }
+     },
+     {
+      "nombre": "T3 BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        68329.85
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        54131.16
+       ]
+      ],
+      "energia": {
+       "pico": 367.311,
+       "resto": 360.5,
+       "valle": 357.282
+      }
+     },
+     {
+      "nombre": "T3 MT (< 300 kW)",
+      "tension": "MT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        28469.89
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        23677.38
+       ]
+      ],
+      "energia": {
+       "pico": 329.143,
+       "resto": 330.951,
+       "valle": 335.955
+      }
+     },
+     {
+      "nombre": "T3 MT (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        24014.91
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        20571.77
+       ]
+      ],
+      "energia": {
+       "pico": 335.696,
+       "resto": 329.95,
+       "valle": 335.14
+      }
+     },
+     {
+      "nombre": "T3 AT (< 300 kW)",
+      "tension": "AT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        21429.49
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        19950.25
+       ]
+      ],
+      "energia": {
+       "pico": 259.323,
+       "resto": 254.78,
+       "valle": 253.156
+      }
+     },
+     {
+      "nombre": "T3 AT (≥ 300 kW)",
+      "tension": "AT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en horas pico",
+        21636.34
+       ],
+       [
+        "Capacidad en horas fuera de pico",
+        20472.54
+       ]
+      ],
+      "energia": {
+       "pico": 293.757,
+       "resto": 293.592,
+       "valle": 295.094
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -20350,12 +22321,327 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Tarifa N°2 - Medianas demandas",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo fijo (haya o no consumo)",
+       "unidad": "$/mes",
+       "valores": [
+        115977.79,
+        72314.83
+       ],
+       "columnas": [
+        "SMP (10 a < 20 kW)",
+        "CMP (20 a < 50 kW)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada",
+       "unidad": "$/kW-mes",
+       "valores": [
+        null,
+        22867.565
+       ],
+       "columnas": [
+        "SMP (10 a < 20 kW)",
+        "CMP (20 a < 50 kW)"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/kWh",
+       "valores": [
+        264.9631,
+        195.7255
+       ],
+       "columnas": [
+        "SMP (10 a < 20 kW)",
+        "CMP (20 a < 50 kW)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa N°3 - Grandes demandas",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo fijo (haya o no consumo)",
+       "unidad": "$/mes",
+       "valores": [
+        206912.86,
+        457016.63,
+        457016.63,
+        457016.63,
+        457016.63
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Por máxima capacidad de suministro contratada",
+       "unidad": "$/kW-mes",
+       "valores": [
+        21029.36,
+        10959.596,
+        5842.313,
+        4322.105,
+        3301.086
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias menores a 300 kW-mes",
+       "concepto": "Por capacidad de suministro contratada en horas de punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        8483.329,
+        11304.943,
+        10919.46,
+        10872.559,
+        10453.785
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias menores a 300 kW-mes",
+       "concepto": "En horas de punta",
+       "unidad": "$/kWh",
+       "valores": [
+        157.9653,
+        142.4999,
+        139.2069,
+        138.811,
+        135.175
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias menores a 300 kW-mes",
+       "concepto": "En horas de valle nocturno",
+       "unidad": "$/kWh",
+       "valores": [
+        152.1565,
+        137.2598,
+        134.0879,
+        133.7066,
+        130.2043
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias menores a 300 kW-mes",
+       "concepto": "En horas restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        153.2696,
+        138.2639,
+        135.0688,
+        134.6847,
+        131.1568
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes",
+       "concepto": "Por capacidad de suministro contratada en horas de punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        8483.329,
+        11304.943,
+        10919.46,
+        10872.559,
+        10453.785
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes",
+       "concepto": "En horas de punta",
+       "unidad": "$/kWh",
+       "valores": [
+        178.5864,
+        161.1022,
+        157.3793,
+        156.9317,
+        152.8211
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes",
+       "concepto": "En horas de valle nocturno",
+       "unidad": "$/kWh",
+       "valores": [
+        171.8758,
+        155.0485,
+        151.4655,
+        151.0347,
+        147.0786
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes",
+       "concepto": "En horas restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        173.1618,
+        156.2087,
+        152.5989,
+        152.1649,
+        148.1791
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación",
+       "concepto": "Por capacidad de suministro contratada en horas de punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        8483.329,
+        11304.943,
+        10919.46,
+        10872.559,
+        10453.785
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación",
+       "concepto": "En horas de punta",
+       "unidad": "$/kWh",
+       "valores": [
+        178.5864,
+        161.1022,
+        157.3793,
+        156.9317,
+        152.8211
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación",
+       "concepto": "En horas de valle nocturno",
+       "unidad": "$/kWh",
+       "valores": [
+        171.8758,
+        155.0485,
+        151.4655,
+        151.0347,
+        147.0786
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      },
+      {
+       "grupo": "Potencias mayores o iguales a 300 kW-mes Entes Públicos Salud/Educación",
+       "concepto": "En horas restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        173.1618,
+        156.2087,
+        152.5989,
+        152.1649,
+        148.1791
+       ],
+       "columnas": [
+        "BT",
+        "MT 13,2 R",
+        "MT 13,2 B",
+        "MT 33",
+        "AT"
+       ]
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:12:03+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -20455,7 +22741,126 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "T2 SMP/CMP y T3 en BT y AT; T3 en media tensión queda afuera porque el cuadro no explica las variantes 'R' y 'B'",
+    "tarifas": [
+     {
+      "nombre": "T2 SMP",
+      "tension": null,
+      "desde_kw": 10,
+      "hasta_kw": 20,
+      "fijo": 115977.79,
+      "potencia": [],
+      "energia": {
+       "unica": 264.9631
+      }
+     },
+     {
+      "nombre": "T2 CMP",
+      "tension": null,
+      "desde_kw": 20,
+      "hasta_kw": 50,
+      "fijo": 72314.83,
+      "potencia": [
+       [
+        "Capacidad de suministro contratada",
+        22867.565
+       ]
+      ],
+      "energia": {
+       "unica": 195.7255
+      }
+     },
+     {
+      "nombre": "T3 BT (< 300 kW)",
+      "tension": "BT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 206912.86,
+      "potencia": [
+       [
+        "Máxima capacidad contratada",
+        21029.36
+       ],
+       [
+        "Capacidad contratada en horas de punta",
+        8483.329
+       ]
+      ],
+      "energia": {
+       "pico": 157.9653,
+       "resto": 153.2696,
+       "valle": 152.1565
+      }
+     },
+     {
+      "nombre": "T3 BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 206912.86,
+      "potencia": [
+       [
+        "Máxima capacidad contratada",
+        21029.36
+       ],
+       [
+        "Capacidad contratada en horas de punta",
+        8483.329
+       ]
+      ],
+      "energia": {
+       "pico": 178.5864,
+       "resto": 173.1618,
+       "valle": 171.8758
+      }
+     },
+     {
+      "nombre": "T3 AT (< 300 kW)",
+      "tension": "AT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 457016.63,
+      "potencia": [
+       [
+        "Máxima capacidad contratada",
+        3301.086
+       ],
+       [
+        "Capacidad contratada en horas de punta",
+        10453.785
+       ]
+      ],
+      "energia": {
+       "pico": 135.175,
+       "resto": 131.1568,
+       "valle": 130.2043
+      }
+     },
+     {
+      "nombre": "T3 AT (≥ 300 kW)",
+      "tension": "AT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 457016.63,
+      "potencia": [
+       [
+        "Máxima capacidad contratada",
+        3301.086
+       ],
+       [
+        "Capacidad contratada en horas de punta",
+        10453.785
+       ]
+      ],
+      "energia": {
+       "pico": 152.8211,
+       "resto": 148.1791,
+       "valle": 147.0786
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {

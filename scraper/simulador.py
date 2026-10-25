@@ -357,6 +357,150 @@ def enre_demanda(tablas):
             "tarifas": tarifas}
 
 
+def _n(s):
+    return re.sub(r"\s+", "", s or "").lower()
+
+
+def _pk(rows, rx, col=0, grupo=None):
+    """Value of the first row whose label (spaces removed, lowercase) matches rx; grupo='' means no group."""
+    for f in rows:
+        g = _n(f.get("grupo"))
+        if grupo is not None and (bool(g) if grupo == "" else not re.search(grupo, g)):
+            continue
+        if re.search(rx, _n(f["concepto"])):
+            return f["valores"][col] if col < len(f["valores"]) else None
+    return None
+
+
+TENSION = {"baja": "BT", "media": "MT", "alta": "AT"}
+FRANJAS3 = ("pico", "resto", "valle")
+
+
+def _t(nombre, tension, desde, hasta, fijo, potencia, energia):
+    return {"nombre": nombre, "tension": tension, "desde_kw": desde, "hasta_kw": hasta, "fijo": fijo,
+            "potencia": potencia, "energia": energia}
+
+
+@demanda_builder("epen")
+def epen_demanda(tablas):
+    out, seen = [], set()
+    for t in tablas:
+        m = re.match(r"^(t2|t3)\(.*?—servicioen(baja|media|alta)tensi", _n(t["titulo"]))
+        if not m or m.groups() in seen:
+            continue
+        seen.add(m.groups())
+        ten, rows = TENSION[m.group(2)], t["filas"]
+        if m.group(1) == "t2":
+            out.append(_t(f"T2 {ten}", ten, 10, 50, 0.0,
+                          [["Capacidad de suministro contratada", _pk(rows, r"capacidaddesuministrocontratada")]],
+                          {"unica": _pk(rows, r"variableporenerg")}))
+            continue
+        e = {"pico": r"energ.*horaspico", "resto": r"energ.*horasrestante", "valle": r"energ.*horasvalle"}
+        for desde, hasta, pot_g, en_g in ((50, 300, "", r"menora300"), (300, None, r"resto$", r"resto$")):
+            out.append(_t(f"T3 {ten} ({'< 300' if hasta else '≥ 300'} kW)", ten, desde, hasta, 0.0,
+                          [["Capacidad en horas pico", _pk(rows, r"enhoraspico$", grupo=pot_g)],
+                           ["Capacidad en horas fuera de pico", _pk(rows, r"fueradepico$", grupo=pot_g)]],
+                          {k: _pk(rows, rx, grupo=en_g) for k, rx in e.items()}))
+    return {"criterio": "Límites de potencia del cuadro EPEN; el cuadro no tiene cargo fijo en T2/T3; T3 ≥ 300 kW: categoría 'Resto'",
+            "tarifas": out}
+
+
+@demanda_builder("refsa")
+def refsa_demanda(tablas):
+    out = []
+    for t in tablas:
+        m = re.search(r"grandesdemandasen(baja|media)tensi.*>=300", _n(t["titulo"]))
+        if not m:
+            continue
+        ten, rows = TENSION[m.group(1)], t["filas"]
+        out.append(_t(f"T3 {ten} ≥ 300 kW", ten, 300, None, 0.0,
+                      [["Capacidad en horas de pico", _pk(rows, r"horasdepico$")],
+                       ["Capacidad en horas fuera de pico", _pk(rows, r"horasfueradepico$")]],
+                      {"pico": _pk(rows, r"punta$"), "resto": _pk(rows, r"restantes$"), "valle": _pk(rows, r"valle")}))
+    return {"criterio": "Solo T3 ≥ 300 kW: el cuadro no indica dónde termina T2 y empieza T3 (< 300 kW); sin cargo fijo en el cuadro",
+            "tarifas": out}
+
+
+@demanda_builder("esj")
+def esj_demanda(tablas):
+    out = []
+    t2 = next((t for t in tablas if t["titulo"].startswith("Tarifa N°2")), None)
+    if t2:
+        for col, (n, desde, hasta) in enumerate((("T2 SMP", 10, 20), ("T2 CMP", 20, 50))):
+            pot = _pk(t2["filas"], r"^porcapacidad", col)
+            out.append(_t(n, None, desde, hasta, _pk(t2["filas"], r"^cargofijo", col),
+                          [["Capacidad de suministro contratada", pot]] if pot is not None or col else [],
+                          {"unica": _pk(t2["filas"], r"^cargovariable", col)}))
+    t3 = next((t for t in tablas if t["titulo"].startswith("Tarifa N°3")), None)
+    if t3:
+        rows = t3["filas"]
+        for ten, col in (("BT", 0), ("AT", 4)):
+            for desde, hasta, g in ((50, 300, r"menoresa300"), (300, None, r"mayoresoigualesa300kw-mes$")):
+                out.append(_t(f"T3 {ten} ({'< 300' if hasta else '≥ 300'} kW)", ten, desde, hasta, _pk(rows, r"^cargofijo", col, ""),
+                              [["Máxima capacidad contratada", _pk(rows, r"^pormáximacapacidad", col, "")],
+                               ["Capacidad contratada en horas de punta", _pk(rows, r"^porcapacidad.*punta$", col, g)]],
+                              {"pico": _pk(rows, r"^enhorasdepunta", col, g), "resto": _pk(rows, r"^enhorasrestantes", col, g),
+                               "valle": _pk(rows, r"^enhorasdevalle", col, g)}))
+    return {"criterio": "T2 SMP/CMP y T3 en BT y AT; T3 en media tensión queda afuera porque el cuadro no explica las variantes 'R' y 'B'",
+            "tarifas": out}
+
+
+@demanda_builder("dpec")
+def dpec_demanda(tablas):
+    out = []
+    for t in tablas:
+        ti = t["titulo"]
+        m = re.search(r"desde (\d+) kW(?: (?:no mayor|y menor) a (\d+) kW)?", ti)
+        if not m or not re.match(r"(Medianas|Grandes) Demandas", ti):
+            continue
+        mt = re.search(r"Suministro en (\w+) Tensi", ti)
+        ten = TENSION[mt.group(1).lower()] if mt else None
+        rows = t["filas"]
+        e = ({"unica": _pk(rows, r"portodoelconsumo")} if _pk(rows, r"portodoelconsumo") is not None
+             else {k: _pk(rows, rf"^horas{k}") for k in FRANJAS3})
+        out.append(_t(ti.split(" — ")[0] + (f" {ten}" if ten else ""), ten, int(m.group(1)),
+                      int(m.group(2)) if m.group(2) else None, 0.0,
+                      [["Cargo fijo por potencia", _pk(rows, r"cargofijoporpotencia")]], e))
+    return {"criterio": "Potencia convenida según el cuadro DPEC; el cargo fijo del cuadro es por kW (no hay cargo fijo mensual)",
+            "tarifas": out}
+
+
+@demanda_builder("edemsa", "edeste")
+def mendoza_demanda(tablas):
+    t = next((t for t in tablas if t["titulo"].startswith("Tarifa 2 (T2)")), None)
+    out = []
+    if t:
+        rows = t["filas"]
+        for ten, c0 in (("BT", 0), ("MT", 4), ("AT", 8)):
+            for k, (desde, hasta) in enumerate(((10, 300), (300, None))):
+                col = c0 + k
+                out.append(_t(f"T2 R {ten} ({'10–300' if hasta else '≥ 300'} kW)", ten, desde, hasta, _pk(rows, r"comercializaci", col),
+                              [["Uso de red", _pk(rows, r"^usodered", col)], ["Consumo de potencia", _pk(rows, r"^consumodepotencia", col)]],
+                              {k2: _pk(rows, rf"^{k2}\(", col) for k2 in FRANJAS3}))
+    return {"criterio": "T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')",
+            "tarifas": out}
+
+
+@demanda_builder("ejesa")
+def ejesa_demanda(tablas):
+    out = []
+    for t in tablas:
+        m = re.match(r"^(T2|T3 BT|T3 MT) - ", t["titulo"])
+        if not m:
+            continue
+        rows = t["filas"]
+        e = {"pico": r"horaspunta", "resto": r"horasresto", "valle": r"horasvalle"}
+        if m.group(1) == "T2":
+            out.append(_t("T2", None, 15, 50, _pk(rows, r"^cargofijo"), [["Uso de red", _pk(rows, r"usodered")]],
+                          {k: _pk(rows, rx) for k, rx in e.items()}))
+            continue
+        ten = m.group(1)[-2:]
+        for desde, hasta, g in ((50, 300, r"^menora300"), (300, None, r"^mayoroiguala300")):
+            out.append(_t(f"T3 {ten} ({'< 300' if hasta else '≥ 300'} kW)", ten, desde, hasta, _pk(rows, r"^cargofijo", grupo=g),
+                          [["Uso de red", _pk(rows, r"usodered", grupo=g)]], {k: _pk(rows, rx, grupo=g) for k, rx in e.items()}))
+    return {"criterio": "Cargos plenos; T2 desde 15 kW según el cuadro (de 10 a 15 kW no hay tarifa en el cuadro)", "tarifas": out}
+
+
 def build_demanda(entry):
     fn = DEMANDA.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):

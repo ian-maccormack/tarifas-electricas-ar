@@ -75,6 +75,59 @@ def assign(vals, cols):
     return cols if len(vals) == len(cols) else None
 
 
+def unit_rows(sub, dec):
+    """(label, header, unit, values) per line: values may come after the unit ('label $/kW 1 2') or before it
+    ('label 1 $/kW'); '-' means not applicable (None). Lines without a unit are returned as headers."""
+    out = []
+    for line in sub.splitlines():
+        if not line.strip():
+            continue
+        m = UNIT.search(line)
+        if not m:
+            out.append((None, squeeze(line), None, []))
+            continue
+        vals = []
+        for tok in line[m.end():].split():
+            t = tok.lstrip("$")
+            if not t:
+                continue
+            if t in ("-", "—"):
+                vals.append(None)
+            elif NUMTOK.match(t):
+                vals.append(parse_num(t, dec))
+            else:
+                break
+        pre = line[:m.start()]
+        if not any(v is not None for v in vals):
+            mm = re.search(r"((?:\s+\$?-?\d[\d.,]*)+)\s*$", pre)
+            if mm:
+                vals = [parse_num(t.lstrip("$"), dec) for t in mm.group(1).split()]
+                pre = pre[:mm.start()]
+        out.append((squeeze(pre).rstrip(" :"), None, squeeze(m.group(0)).strip("[]"), vals))
+    return out
+
+
+def _fila(label, unit, vals, grupo=None, cols=None):
+    return {"grupo": grupo, "concepto": label, "unidad": unit, "valores": vals, "columnas": assign(vals, cols) if cols else None}
+
+
+def grouped_tables(rows, new_table, new_group=None, cols=None):
+    """Split unit_rows into tables (new_table(header) -> title or None) and groups (new_group(header) -> bool)."""
+    tabs, cur, grupo = [], None, None
+    for label, hdr, unit, vals in rows:
+        if hdr:
+            title = new_table(hdr)
+            if title:
+                cur, grupo = {"titulo": title, "filas": []}, None
+                tabs.append(cur)
+            elif cur and new_group and new_group(hdr):
+                grupo = hdr
+            continue
+        if cur is not None and label and vals:
+            cur["filas"].append(_fila(label, unit, vals, grupo, cols))
+    return [t for t in tabs if t["filas"]]
+
+
 def line_table(text, titulo, start, end=None, dec=",", cols=None, header_re=None, maxvals=None,
                segments=1, unit_after=False, left_col_from=None):
     """Rows look like 'label  $/unit  v1 v2 ...' (or 'label v $/unit' when unit_after)."""
@@ -240,7 +293,17 @@ def p_esj(text, **_):
     con = next((i for i, f in enumerate(t["filas"]) if "Con SEN" in f["concepto"]), None)
     for i, f in enumerate(t["filas"]):
         f["grupo"] = "Sin SEN" if con is None or i < con else "Con SEN"
-    return {"vigencia": find(r"VALORES VIGENTES (DESDE [^\n]+?20\d\d HASTA [^\n]+?20\d\d)", text), "tablas": [t],
+    dem = []
+    try:
+        t2 = section(text, r"TARIFA N.2 - MEDIANAS DEMANDAS", r"TARIFA N.3")
+        dem += grouped_tables([("", "T2", None, [])] + unit_rows(t2, "."), lambda h: "Tarifa N°2 - Medianas demandas" if h == "T2" else None,
+                              cols=["SMP (10 a < 20 kW)", "CMP (20 a < 50 kW)"])
+        t3 = section(text, r"TARIFA N.3 - GRANDES DEMANDAS", r"TARIFA N.4")
+        dem += grouped_tables([("", "T3", None, [])] + unit_rows(t3, "."), lambda h: "Tarifa N°3 - Grandes demandas" if h == "T3" else None,
+                              lambda h: h.startswith("Potencias"), cols=["BT", "MT 13,2 R", "MT 13,2 B", "MT 33", "AT"])
+    except ValueError:
+        pass
+    return {"vigencia": find(r"VALORES VIGENTES (DESDE [^\n]+?20\d\d HASTA [^\n]+?20\d\d)", text), "tablas": [t] + dem,
             "comparable": comparable([t], (r"^Cargo fijo \(haya o no consumo\)$", 0),
                                      (r"^Cargo variable por energ[ií]a$", 0),
                                      "T1-R1 (hasta 220 kWh/bim), sin SEN")}
@@ -250,7 +313,13 @@ def p_esj(text, **_):
 def p_refsa(text, **_):
     t = line_table(text, "T1-R Uso Residencial", r"T1-R Uso Residencial", r"T1-G|Uso General", dec=",",
                    cols=["Importe"], header_re=r"^\s*(T\.1-R|Tarifas\s+Tarifa)")
-    return {"vigencia": find(r"(Para consumos efectuados a partir del [0-9/]+)", text), "tablas": [t],
+    dem = []
+    try:
+        sub = section(text.replace("$/KW-Hs", "$/kWh"), r"TARIFA 3 - GRANDES DEMANDAS >=300 Kw", r"T4-MT2|GRANDES DEMANDAS Organismos")
+        dem = grouped_tables(unit_rows(sub, ","), lambda h: f"Tarifa 3 — {h}" if re.search(r"Grandes Demandas En", h) else None)
+    except ValueError:
+        pass
+    return {"vigencia": find(r"(Para consumos efectuados a partir del [0-9/]+)", text), "tablas": [t] + dem,
             "comparable": comparable([t], (r"Cargo Fijo", 0, r"T\.1-R1\b"), (r"Cargo Variable", 0, r"T\.1-R1\b"),
                                      "T.1-R1 (≤ 150 kWh/mes), residencial sin subsidio")}
 
@@ -259,7 +328,16 @@ def p_refsa(text, **_):
 def p_mendoza(text, **_):
     t = line_table(text, "Residencial (R) y General", r"RESIDENCIAL \(R\)", r"SEF: Subsidios", dec=",",
                    header_re=r"^\s*Residencial \d|GENERAL \(G\)", segments=2)
-    return {"vigencia": find(r"Vigencia:\s*(desde el [^\n]+?20\d\d)", text), "tablas": [t],
+    dem = []
+    try:
+        sub = section(text, r"Tarifa 2 \(T2\) - GRANDES DEMANDAS", r"Tarifa - RIEGO")
+        cols = [f"{c} {p}" for c in ("T2 R BT", "T2 B MT/BT", "T2 R MT", "T2 B AT/MT", "T2 R AT") for p in ("10–300 kW", "≥ 300 kW")]
+        dem = grouped_tables([("", "T2", None, [])] + [r for r in unit_rows(sub, ",") if r[1] or len(r[3]) == 10],
+                             lambda h: "Tarifa 2 (T2) - Grandes demandas (más de 10 kW), conectado a la red" if h == "T2" else None,
+                             cols=cols)
+    except ValueError:
+        pass
+    return {"vigencia": find(r"Vigencia:\s*(desde el [^\n]+?20\d\d)", text), "tablas": [t] + dem,
             "comparable": comparable([t], (r"^Cargo Fijo$", 0, r"Residencial 1"), (r"^Cargo Variable$", 0, r"Residencial 1"),
                                      "Residencial 1 (hasta 299 kWh/bim), primera columna (Sin SEF)")}
 
@@ -268,7 +346,17 @@ def p_mendoza(text, **_):
 def p_epen(text, **_):
     t = line_table(text, "T1 Residencial", r"^\s*T1-R1-Consumo mensual", r"^\s*T1-G|PEQUE[ÑN]AS DEMANDAS GENERALES",
                    dec=",", header_re=r"^\s*T1-R", unit_after=True)
-    return {"vigencia": find(r"(PER[ÍI]ODO DE FACTURACI[ÓO]N [^\n]+?20\d\d)", text), "tablas": [t],
+    dem = []
+    try:
+        t2 = section(text, r"^Tarifa N. 2 - \(Medianas Demandas\)", r"^\f\s*TARIFA N. 3 - GRANDES DEMANDAS")
+        dem += grouped_tables(unit_rows(t2, ","), lambda h: f"T2 (10 a < 50 kW) — {h}" if re.match(r"Servi ?ci ?o en", h) else None)
+        # page headings start with a form feed; the same titles also appear in the index
+        t3 = section(text, r"^\f\s*TARIFA N. 3 - GRANDES DEMANDAS", r"^\f\s*TARIFA N. 4 - GRANDES DEMANDAS ESPECIALES")
+        dem += grouped_tables(unit_rows(t3, ","), lambda h: f"T3 (≥ 50 kW) — {h}" if re.match(r"Servicio en", h) else None,
+                              lambda h: h.startswith("Capacidad de suministro"))
+    except ValueError:
+        pass
+    return {"vigencia": find(r"(PER[ÍI]ODO DE FACTURACI[ÓO]N [^\n]+?20\d\d)", text), "tablas": [t] + dem,
             "comparable": comparable([t], (r"^Cargo fijo$", 0, r"T1-R1-"), (r"SIN SUBSIDIO", 0, r"T1-R1-"),
                                      "T1-R1 (≤ 50 kWh/mes), sin subsidio")}
 
@@ -278,7 +366,27 @@ def p_dpec(text, **_):
     cols = {1: ["Tarifa sin bonif."], 4: ["Tarifa sin bonif.", "Con bonif. FEB/2026", "Con bonif. MAR/2026", "Con bonif. ABR/2026"]}
     t = line_table(text, "Tarifas residenciales (bimestral)", r"TARIFAS RESIDENCIALES", r"TARIFAS? (GENERAL|COMERCIAL)|PEQUE[ÑN]AS DEMANDAS GENERALES",
                    dec=",", cols=cols)
-    return {"vigencia": None, "tablas": [t],
+    dem = []
+    try:
+        sub = section(text, r"^MEDIANAS Y GRANDES DEMANDAS Y SERVICIOS", r"^SERVICIOS P[ÚU]BLICOS SANITARIOS")
+        cur = None
+        for label, hdr, unit, vals in unit_rows(sub, ","):
+            if label and re.match(r"(MEDIANAS|GRANDES) DEMANDAS", label):
+                cur = {"titulo": label.split(" Cargo")[0].title(), "filas": []}
+                dem.append(cur)
+                label = label[label.index("Cargo"):]
+            elif hdr and cur and hdr.startswith("Potencia convenida"):
+                cur["titulo"] += " — " + hdr.replace(" Cargo Variable", "")
+                continue
+            if cur is not None and label and vals:
+                m = re.match(r"(Suministro en \w+ Tensi[óo]n) (.*)", label)
+                if m:
+                    cur["titulo"] += " — " + m.group(1)
+                    label = m.group(2)
+                cur["filas"].append(_fila(re.sub(r"^Generales ", "", label), unit, vals))
+    except ValueError:
+        pass
+    return {"vigencia": None, "tablas": [t] + dem,
             "comparable": comparable([t], (r"URBANOS NO BONIFICADOS|Cuota Fija", 0), (r"Primeros 600", 0),
                                      "Residencial urbano no bonificado")}
 
@@ -304,7 +412,22 @@ def p_ejesa(text, **_):
                 filas.append({"grupo": None, "concepto": f"{m.group(1)} {squeeze(m.group(2))}", "unidad": None,
                               "valores": vals, "columnas": cols})
     t = {"titulo": "T1 - Servicios residenciales (cargos plenos)", "filas": filas}
-    return {"vigencia": None, "tablas": [t],
+    dem = {}
+    labels = ["Cargo Fijo", "Cargo por Uso de Red", "Consumo de Energía horas punta", "Consumo de Energía horas resto",
+              "Consumo de Energía horas valle"]
+    units = ["$/mes", "$/kW", "$/kWh", "$/kWh", "$/kWh"]
+    for line in text.splitlines():
+        m = re.match(r"^\s*(T2|T3 BT|T3 MT)\s+(Menor a 300 kW|Mayor o igual a 300 kW)?\s*([\d.]+)\s+([\d.]+)\s+(\d[\d.]*,\d+)\s+(\d[\d.]*,\d+)\s+(\d[\d.]*,\d+)", line)
+        if not m or (m.group(1) == "T2") == bool(m.group(2)):
+            continue
+        name = {"T2": "T2 - Medianas demandas (15 a < 50 kW)", "T3 BT": "T3 BT - Grandes demandas en baja tensión (≥ 50 kW)",
+                "T3 MT": "T3 MT - Grandes demandas en media tensión (≥ 50 kW)"}[m.group(1)]
+        tab = dem.setdefault(name, {"titulo": name + " — cargos plenos", "filas": []})
+        if any(f["grupo"] == m.group(2) for f in tab["filas"]):
+            continue
+        for lab, u, v in zip(labels, units, m.groups()[2:]):
+            tab["filas"].append(_fila(lab, u, [parse_num(v, ",")], m.group(2)))
+    return {"vigencia": None, "tablas": [t] + list(dem.values()),
             "comparable": comparable([t], (r"^R1 ", 0), None, "R1 (primeros 150 kWh/mes); el variable se compone de uso de red + energía (ver tabla)")}
 
 
