@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scraper"))
-from simulador import build_demanda, cost_demanda, _limit, build, cost  # noqa: E402
+from simulador import build_demanda, cost_demanda, _limit, build, cost, build_subsidio  # noqa: E402
 
 
 def sim(periodo, cats):
@@ -281,3 +281,18 @@ def test_epec_sin_sef_y_energia_minima():
     assert [c["hasta"] for c in s["categorias"]] == [120, 500, 700, None]
     assert round(cost(s, 250), 2) == round(2948.6141 + 120 * 250.30482 + 130 * 300.9946, 2)
     assert round(cost(s, 10), 2) == round(2123.2848 + 20 * 219.87512, 2)
+
+
+def test_edesal_subsidio_resef():
+    s = build_subsidio(_entry("edesal"))
+    assert len(s["categorias"]) == 6
+    assert round(cost(s, 250), 2) == round(5673.9524 + 20480.406 + 250 * 63.592, 2)
+    assert round(cost(s, 500), 2) == round(9183.2563 + 38358.8572 + 300 * 60.5262 + 200 * 126.0125, 2)
+
+
+def test_epec_con_sef():
+    s = build_subsidio(_entry("epec"))
+    assert [c["hasta"] for c in s["categorias"]] == [120, 500, 700, None]
+    assert round(cost(s, 100), 2) == round(1882.6359 + 100 * 113.21635, 2)
+    assert round(cost(s, 250), 2) == round(2614.424 + 120 * 140.19721 + 80 * 185.14191 + 50 * 282.65516, 2)
+    assert round(cost(s, 800), 2) == round(3799.1787 + 120 * 189.65508 + 80 * 242.50921 + 600 * 340.02246, 2)

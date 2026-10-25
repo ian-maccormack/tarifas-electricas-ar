@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T01:42:39+00:00",
+ "generado": "2026-10-25T01:50:57+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -13088,7 +13088,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-25T01:42:39+00:00",
+   "verificado": "2026-10-25T01:50:57+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -13165,7 +13165,105 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "Tarifa Nº 1 residencial con SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes",
+    "categorias": [
+     {
+      "nombre": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "hasta": 120,
+      "fijo": 1882.6359,
+      "escalones": [
+       [
+        null,
+        113.21635
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "hasta": 500,
+      "fijo": 2614.424,
+      "escalones": [
+       [
+        120,
+        140.19721
+       ],
+       [
+        150,
+        185.14191
+       ],
+       [
+        200,
+        185.14191
+       ],
+       [
+        300,
+        282.65516
+       ],
+       [
+        null,
+        282.65516
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "hasta": 700,
+      "fijo": 3799.1787,
+      "escalones": [
+       [
+        120,
+        167.66976
+       ],
+       [
+        150,
+        214.35331
+       ],
+       [
+        200,
+        214.35331
+       ],
+       [
+        300,
+        311.86656
+       ],
+       [
+        null,
+        311.86656
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "hasta": null,
+      "fijo": 3799.1787,
+      "escalones": [
+       [
+        120,
+        189.65508
+       ],
+       [
+        150,
+        242.50921
+       ],
+       [
+        200,
+        242.50921
+       ],
+       [
+        300,
+        340.02246
+       ],
+       [
+        null,
+        340.02246
+       ]
+      ]
+     }
+    ],
+    "minimo_kwh": 20
+   },
    "desactualizado": false
   },
   {
@@ -18402,7 +18500,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.2599999999998,
+      "fijo": 3790.26,
       "escalones": [
        [
         60,
@@ -24200,7 +24298,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-25T01:42:39+00:00",
+   "verificado": "2026-10-25T01:50:57+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -24433,7 +24531,102 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "T1-R 'Subsidio Resef' (primeros 300 kWh subsidiados)",
+    "categorias": [
+     {
+      "nombre": "T1R-1",
+      "hasta": 160,
+      "fijo": 13492.8483,
+      "escalones": [
+       [
+        300,
+        66.5146
+       ],
+       [
+        null,
+        131.9797
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-2",
+      "hasta": 200,
+      "fijo": 23188.6074,
+      "escalones": [
+       [
+        300,
+        65.59
+       ],
+       [
+        null,
+        131.1073
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-3",
+      "hasta": 400,
+      "fijo": 26154.358399999997,
+      "escalones": [
+       [
+        300,
+        63.592
+       ],
+       [
+        null,
+        129.0571
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-4",
+      "hasta": 700,
+      "fijo": 47542.1135,
+      "escalones": [
+       [
+        300,
+        60.5262
+       ],
+       [
+        null,
+        126.0125
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-5",
+      "hasta": 1400,
+      "fijo": 64952.8913,
+      "escalones": [
+       [
+        300,
+        59.1675
+       ],
+       [
+        null,
+        124.5803
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-6",
+      "hasta": null,
+      "fijo": 136220.36909999998,
+      "escalones": [
+       [
+        300,
+        59.1675
+       ],
+       [
+        null,
+        124.5803
+       ]
+      ]
+     }
+    ]
+   },
    "desactualizado": true
   },
   {

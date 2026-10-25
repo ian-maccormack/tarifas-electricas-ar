@@ -304,17 +304,19 @@ def edelar(tablas):
     return {"periodo": "mes", "criterio": "T1-R sin subsidio (columnas NS)", "categorias": cats}
 
 
-@builder("epec")
-def epec(tablas):
-    """Córdoba: 'Sin Subsidio Energético Focalizado', acápites a), b), c), e), f) y h); the monthly
-    consumption sets the category. Only the first rows of each category are used: the later ones are
-    the time-of-use variant. The cuadro sets a minimum billed energy."""
+def _epec(tablas, sec):
+    """Córdoba, acápites a), b), c), e), f) y h): the monthly consumption sets the category. Only the
+    first rows of each category are used (the later ones are the time-of-use variant); groups without
+    their own Cargo Fijo Mensual belong to other regimes (A.1 Carenciados). Minimum billed energy."""
     t, groups = tablas[0], {}
     for f in t["filas"]:
-        if re.match(r"Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos", f.get("grupo") or ""):
+        if (f.get("grupo") or "").startswith(f"Residenciales {sec} Subsidio Energetico Focalizado — Suministros cuyos consumos"):
             groups.setdefault(f["grupo"], []).append(f)
     cats = []
     for g, rows in groups.items():
+        cfm = _row(rows, r"^Cargo Fijo Mensual")
+        if not cfm:
+            continue
         m = re.findall(r"menores o iguales a (\d+) kWh", g)
         if not m and not re.search(r"mayores a \d+ kWh por mes, en la totalidad", g):
             raise ValueError(f"límite no reconocido: {g}")
@@ -324,27 +326,32 @@ def epec(tablas):
             if c == "Por cada kWh consumido":
                 esc.append([None, _val(f)])
                 break
-            mm = re.match(r"^Los primeros (\d+) kWh por mes$", c)
+            mm = re.match(r"^Los (primeros|siguientes) (\d+) kWh por mes$", c)
             if mm:
-                acc = int(mm.group(1))
+                acc = int(mm.group(2)) + (acc if mm.group(1) == "siguientes" else 0)
                 esc.append([acc, _val(f)])
                 continue
             mm = re.match(r"^El excedente de (\d+) kWh por mes$", c)
             if mm:
                 if int(mm.group(1)) != acc:
-                    raise ValueError("el excedente no coincide con los primeros kWh")
+                    raise ValueError("el excedente no coincide con los tramos anteriores")
                 esc.append([None, _val(f)])
                 break
         if not esc or esc[-1][0] is not None:
             esc.append([None, None])
         cats.append({"nombre": g.split(" — ")[1], "hasta": int(m[-1]) if m else None,
-                     "fijo": _val(_row(rows, r"^Cargo Fijo Mensual")), "escalones": esc})
-    sim = {"periodo": "mes", "criterio": "Tarifa Nº 1 residencial sin SEF, acápites a), b), c), e), f) y h)",
+                     "fijo": _val(cfm), "escalones": esc})
+    sim = {"periodo": "mes", "criterio": f"Tarifa Nº 1 residencial {sec.lower()} SEF, acápites a), b), c), e), f) y h)",
            "categorias": cats}
     if t.get("energia_minima"):
         sim["minimo_kwh"] = t["energia_minima"]
         sim["criterio"] += f"; energía mínima facturada {t['energia_minima']} kWh/mes"
     return sim
+
+
+@builder("epec")
+def epec(tablas):
+    return _epec(tablas, "Sin")
 
 
 def build(entry):
@@ -747,6 +754,35 @@ def mendoza_sub(tablas):
         c["escalones"] = [[None, _val(var, 1) if ok else None]]
     sim["criterio"] = "Residencial con SEF (solo Residencial 1)"
     return sim
+
+
+@sub_builder("epec")
+def epec_sub(tablas):
+    return _epec(tablas, "Con")
+
+
+@sub_builder("edesal")
+def edesal_sub(tablas):
+    """'Cuadro Resolución - Subsidio Resef': cargo fijo + cargo por uso de la red ($/usuario-mes), the
+    first 300 kWh at the subsidised price and the excedente at its own price."""
+    t = tablas[0]
+    u = t.get("unidades") or []
+    if (len(u) < 7 or not all(re.fullmatch(r"\$/Usuario.?mes", x) for x in u[3:5]) or u[5:7] != ["$/kWh", "$/kWh"]):
+        raise ValueError(f"unidades no reconocidas: {u}")
+    cats, seen = [], set()
+    for f in t["filas"]:
+        m = re.match(r"^(T1R-\d) Desde \d+kWh(?: hasta (\d+)kWh)?$", f["concepto"])
+        if not m or m.group(1) in seen:
+            continue
+        seen.add(m.group(1))
+        cols = f.get("columnas") or []
+        if cols[5:7] != ["Cargo Variable Primeros 300kWh", "Cargo Variable Excedente"]:
+            raise ValueError(f"columnas no reconocidas: {cols}")
+        v = (f["valores"] + [None] * 7)[:7]
+        cats.append({"nombre": m.group(1), "hasta": int(m.group(2)) if m.group(2) else None,
+                     "fijo": v[3] + v[4] if v[3] is not None and v[4] is not None else None,
+                     "escalones": [[300, v[5]], [None, v[6]]]})
+    return {"periodo": "mes", "criterio": "T1-R 'Subsidio Resef' (primeros 300 kWh subsidiados)", "categorias": cats}
 
 
 def build_subsidio(entry):
