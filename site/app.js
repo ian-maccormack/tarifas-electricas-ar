@@ -159,7 +159,20 @@ function simLabel() {
   const q = demInputs();
   return `${num(q.kw, 1)} kW en ${q.ten}, ${num(q.kwh, 0)} kWh/mes`;
 }
+function ivaRate() {
+  const o = $("#s-iva"), res = $("#s-tipo").value !== "dem";
+  o.options[2].disabled = res;
+  if (res && o.value === "0.27") o.value = "0.21";
+  return +o.value || 0;
+}
+const withIva = (x, iva) => Object.assign(x, { iva, base: x.total, total: x.total === null ? null : x.total * (1 + iva) });
+function ivaRows(x) {
+  if (!x.iva || x.base === null) return "";
+  return `<tr><td>IVA ${num(100 * x.iva, 0)} % (Ley 23.349, art. 28)</td><td class="num">${money(x.base * x.iva)}</td></tr>` +
+    `<tr><td><b>Total mensual con IVA</b> (sin impuestos provinciales ni tasas municipales)</td><td class="num"><b>${money(x.total)}</b> /mes</td></tr>`;
+}
 function simResults() {
+  const iva = ivaRate();
   if ($("#s-tipo").value === "dem") {
     const q = demInputs();
     return DATA.distribuidoras.map((e) => {
@@ -169,7 +182,7 @@ function simResults() {
         if (!r.t) motivo = "El cuadro no tiene una tarifa T2/T3 para esa potencia y tensión";
         else if (r.total === null) motivo = "Al cuadro le faltan cargos para esta tarifa";
       } else motivo = e.estado !== "ok" ? "Sin valores extraídos" : e.ocr ? "Valores leídos por OCR: no se usan en el simulador" : "Las tarifas T2/T3 de este cuadro todavía no están cargadas en el simulador";
-      return { e, r, total: r ? r.total : null, motivo, dem: true };
+      return withIva({ e, r, total: r ? r.total : null, motivo, dem: true }, iva);
     });
   }
   const kwh = Math.max(0, +$("#s-kwh").value || 0);
@@ -180,7 +193,7 @@ function simResults() {
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
     else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
     else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
-    return { e, r, total: r ? r.total : null, motivo, sim };
+    return withIva({ e, r, total: r ? r.total : null, motivo, sim }, iva);
   });
 }
 function detalleDem(x) {
@@ -189,7 +202,7 @@ function detalleDem(x) {
   if (!r.t || r.total === null) return h + `<p class="note">${esc(x.motivo)}.</p></div>`;
   h += "<table><tbody>";
   for (const p of r.parts) h += `<tr><td>${esc(p.txt)}</td><td class="num">${money(p.v)}</td></tr>`;
-  return h + `<tr><td><b>Total mensual</b></td><td class="num"><b>${money(r.total)}</b> /mes</td></tr></tbody></table></div>`;
+  return h + `<tr><td><b>Total mensual</b></td><td class="num"><b>${money(r.total)}</b> /mes</td></tr>${ivaRows(x)}</tbody></table></div>`;
 }
 function detalle(x) {
   if (x.dem) return detalleDem(x);
@@ -201,7 +214,7 @@ function detalle(x) {
   for (const t of r.tramos) h += `<tr><td>${num(t.kwh, 1)} kWh × ${num(t.p)} $/kWh</td><td class="num">${money(t.kwh * t.p)}</td></tr>`;
   h += `<tr><td><b>Total del período</b></td><td class="num"><b>${money(r.periodoTotal)}</b> /${per}</td></tr>`;
   if (r.f === 2) h += `<tr><td><b>Equivalente mensual</b> (÷ 2)</td><td class="num"><b>${money(r.total)}</b> /mes</td></tr>`;
-  return h + "</tbody></table></div>";
+  return h + ivaRows(x) + "</tbody></table></div>";
 }
 function renderSim() {
   const q = demInputs();
@@ -218,7 +231,7 @@ function renderSim() {
   }
   const n = all.filter((x) => x.total !== null).length;
   $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
-  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
   $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
   renderMap(all);
 }
@@ -290,7 +303,7 @@ async function init() {
   ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
-  ["#s-all", "#s-ocr", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  ["#s-all", "#s-ocr", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
   $("#s-tipo").addEventListener("input", () => {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();
