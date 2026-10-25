@@ -257,6 +257,96 @@ def ape(tablas):
     return {"periodo": "mes", "criterio": "T1R Nivel 1, precio de venta máximo", "categorias": cats}
 
 
+@builder("edesal")
+def edesal(tablas):
+    """San Luis: the monthly consumption sets the category; 'Cuadro Resolución' columns. Fixed part =
+    cargo fijo + cargo por uso de la red, both in $/usuario-mes according to the header row."""
+    t = tablas[0]
+    u = t.get("unidades") or []
+    if len(u) < 3 or not all(re.fullmatch(r"\$/Usuario.?mes", x) for x in u[:2]) or u[2] != "$/kWh":
+        raise ValueError(f"unidades no reconocidas: {u}")
+    cats, seen = [], set()
+    for f in t["filas"]:
+        m = re.match(r"^(T1R-\d) Desde \d+kWh(?: hasta (\d+)kWh)?$", f["concepto"])
+        if not m or m.group(1) in seen:
+            continue  # repeated codes belong to the 'Subsidio del Estado Provincial' table
+        seen.add(m.group(1))
+        fijo, red, var = (f["valores"] + [None] * 3)[:3]
+        cats.append({"nombre": m.group(1), "hasta": int(m.group(2)) if m.group(2) else None,
+                     "fijo": fijo + red if fijo is not None and red is not None else None,
+                     "escalones": [[None, var]]})
+    return {"periodo": "mes", "criterio": "T1-R 'Cuadro Resolución' (cargo fijo + cargo por uso de la red)",
+            "categorias": cats}
+
+
+@builder("edelar")
+def edelar(tablas):
+    """La Rioja: 'Sin Subsidio' columns (T1-Rn-NS); the monthly consumption sets the category and the
+    energy is billed in that category's cumulative blocks."""
+    cats = []
+    for t in tablas:
+        if not t["titulo"].endswith("Sin Subsidio (tramos)"):
+            continue
+        m = re.search(r"(menor a|entre \d+ y|mayor a) (\d+) kWh", t["filas"][0]["grupo"])
+        rows = [f for f in t["filas"] if f["concepto"].startswith("Cargo Variable")]
+        esc = []
+        for k, f in enumerate(rows):
+            lab = f["concepto"][len("Cargo Variable"):].strip()
+            mm = re.fullmatch(r"Primeros (\d+) kWh|entre \d+ y (\d+) kWh", lab, re.I)
+            if mm:
+                esc.append([int(mm.group(1) or mm.group(2)), _val(f)])
+            elif k == len(rows) - 1 and re.fullmatch(r"(siguientes(?: \d+)? kWh)?", lab, re.I):
+                esc.append([None, _val(f)])
+            else:
+                raise ValueError(f"tramo no reconocido: {lab}")
+        cats.append({"nombre": t["titulo"].split(" ")[0], "hasta": None if m.group(1) == "mayor a" else int(m.group(2)),
+                     "fijo": _val(t["filas"][0]), "escalones": esc})
+    return {"periodo": "mes", "criterio": "T1-R sin subsidio (columnas NS)", "categorias": cats}
+
+
+@builder("epec")
+def epec(tablas):
+    """Córdoba: 'Sin Subsidio Energético Focalizado', acápites a), b), c), e), f) y h); the monthly
+    consumption sets the category. Only the first rows of each category are used: the later ones are
+    the time-of-use variant. The cuadro sets a minimum billed energy."""
+    t, groups = tablas[0], {}
+    for f in t["filas"]:
+        if re.match(r"Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos", f.get("grupo") or ""):
+            groups.setdefault(f["grupo"], []).append(f)
+    cats = []
+    for g, rows in groups.items():
+        m = re.findall(r"menores o iguales a (\d+) kWh", g)
+        if not m and not re.search(r"mayores a \d+ kWh por mes, en la totalidad", g):
+            raise ValueError(f"límite no reconocido: {g}")
+        esc, acc = [], 0
+        for f in rows:
+            c = f["concepto"]
+            if c == "Por cada kWh consumido":
+                esc.append([None, _val(f)])
+                break
+            mm = re.match(r"^Los primeros (\d+) kWh por mes$", c)
+            if mm:
+                acc = int(mm.group(1))
+                esc.append([acc, _val(f)])
+                continue
+            mm = re.match(r"^El excedente de (\d+) kWh por mes$", c)
+            if mm:
+                if int(mm.group(1)) != acc:
+                    raise ValueError("el excedente no coincide con los primeros kWh")
+                esc.append([None, _val(f)])
+                break
+        if not esc or esc[-1][0] is not None:
+            esc.append([None, None])
+        cats.append({"nombre": g.split(" — ")[1], "hasta": int(m[-1]) if m else None,
+                     "fijo": _val(_row(rows, r"^Cargo Fijo Mensual")), "escalones": esc})
+    sim = {"periodo": "mes", "criterio": "Tarifa Nº 1 residencial sin SEF, acápites a), b), c), e), f) y h)",
+           "categorias": cats}
+    if t.get("energia_minima"):
+        sim["minimo_kwh"] = t["energia_minima"]
+        sim["criterio"] += f"; energía mínima facturada {t['energia_minima']} kWh/mes"
+    return sim
+
+
 def build(entry):
     fn = BUILDERS.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
@@ -271,7 +361,7 @@ def build(entry):
 def cost(sim, kwh_mes, mes=None):
     """Monthly cost without taxes, or None if any needed value is missing (mirrors app.js).
     A block limit "base" is the month's consumo base (sim["base_mes"], needs `mes` 1-12)."""
-    k = kwh_mes * (2 if sim["periodo"] == "bimestre" else 1)
+    k = max(kwh_mes, sim.get("minimo_kwh") or 0) * (2 if sim["periodo"] == "bimestre" else 1)
     cat = next((c for c in sim["categorias"] if c["hasta"] is None or k <= c["hasta"]), None)
     if cat is None or cat["fijo"] is None:
         return None

@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T00:47:21+00:00",
+ "generado": "2026-10-25T01:41:49+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -13080,14 +13080,15 @@
        ],
        "columnas": null
       }
-     ]
+     ],
+     "energia_minima": 20
     }
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-25T00:47:21+00:00",
+   "verificado": "2026-10-25T01:41:49+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -13099,7 +13100,69 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Tarifa Nº 1 residencial sin SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes",
+    "categorias": [
+     {
+      "nombre": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "hasta": 120,
+      "fijo": 2123.2848,
+      "escalones": [
+       [
+        null,
+        219.87512
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "hasta": 500,
+      "fijo": 2948.6141,
+      "escalones": [
+       [
+        120,
+        250.30482
+       ],
+       [
+        null,
+        300.9946
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "hasta": 700,
+      "fijo": 4284.8106,
+      "escalones": [
+       [
+        120,
+        281.28906
+       ],
+       [
+        null,
+        333.93996
+       ]
+      ]
+     },
+     {
+      "nombre": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "hasta": null,
+      "fijo": 4284.8106,
+      "escalones": [
+       [
+        120,
+        306.08467
+       ],
+       [
+        null,
+        365.6949
+       ]
+      ]
+     }
+    ],
+    "minimo_kwh": 20
+   },
    "demanda": null,
    "simulador_ocr": null,
    "simulador_subsidio": null,
@@ -18342,7 +18405,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.2599999999998,
+      "fijo": 3790.26,
       "escalones": [
        [
         60,
@@ -19019,12 +19082,108 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "T1-R1-NS — Sin Subsidio (tramos)",
+     "filas": [
+      {
+       "grupo": "T1-R1-NS menor a 200 kWh/mes",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R1-NS menor a 200 kWh/mes",
+       "concepto": "Cargo Variable",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T1-R2-NS — Sin Subsidio (tramos)",
+     "filas": [
+      {
+       "grupo": "T1-R2-NS entre 200 y 430 kWh/mes",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2-NS entre 200 y 430 kWh/mes",
+       "concepto": "Cargo Variable Primeros 200 kWh",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R2-NS entre 200 y 430 kWh/mes",
+       "concepto": "Cargo Variable Siguientes kWh",
+       "unidad": "$/kWh",
+       "valores": [
+        125.467
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "T1-R3-NS — Sin Subsidio (tramos)",
+     "filas": [
+      {
+       "grupo": "T1-R3-NS mayor a 430 kWh",
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        2124.71
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R3-NS mayor a 430 kWh",
+       "concepto": "Cargo Variable Primeros 200 kWh",
+       "unidad": "$/kWh",
+       "valores": [
+        176.9956
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R3-NS mayor a 430 kWh",
+       "concepto": "Cargo Variable entre 200 y 430 KWh",
+       "unidad": "$/kWh",
+       "valores": [
+        125.467
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-R3-NS mayor a 430 kWh",
+       "concepto": "Cargo Variable siguientes 430 KWh",
+       "unidad": "$/kWh",
+       "valores": [
+        197.8549
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-25T00:47:21+00:00",
+   "verificado": "2026-10-25T01:41:49+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -19046,7 +19205,57 @@
    },
    "mes_referencia": "2026-04",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R sin subsidio (columnas NS)",
+    "categorias": [
+     {
+      "nombre": "T1-R1-NS",
+      "hasta": 200,
+      "fijo": 2124.71,
+      "escalones": [
+       [
+        null,
+        176.9956
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R2-NS",
+      "hasta": 430,
+      "fijo": 2124.71,
+      "escalones": [
+       [
+        200,
+        176.9956
+       ],
+       [
+        null,
+        125.467
+       ]
+      ]
+     },
+     {
+      "nombre": "T1-R3-NS",
+      "hasta": null,
+      "fijo": 2124.71,
+      "escalones": [
+       [
+        200,
+        176.9956
+       ],
+       [
+        430,
+        125.467
+       ],
+       [
+        null,
+        197.8549
+       ]
+      ]
+     }
+    ]
+   },
    "demanda": null,
    "simulador_ocr": null,
    "simulador_subsidio": null,
@@ -23647,6 +23856,15 @@
         "Cargo Variable Excedente"
        ]
       }
+     ],
+     "unidades": [
+      "$/Usuario mes",
+      "$/Usuario-mes",
+      "$/kWh",
+      "$/Usuario mes",
+      "$/Usuario-mes",
+      "$/kWh",
+      "$/kWh"
      ]
     },
     {
@@ -23988,7 +24206,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-25T00:47:21+00:00",
+   "verificado": "2026-10-25T01:41:49+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -24011,7 +24229,78 @@
    "ocr": false,
    "mes_referencia": "2026-06",
    "mes_referencia_origen": "título",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R 'Cuadro Resolución' (cargo fijo + cargo por uso de la red)",
+    "categorias": [
+     {
+      "nombre": "T1R-1",
+      "hasta": 160,
+      "fijo": 15823.7251,
+      "escalones": [
+       [
+        null,
+        131.9797
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-2",
+      "hasta": 200,
+      "fijo": 27428.408600000002,
+      "escalones": [
+       [
+        null,
+        131.1073
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-3",
+      "hasta": 400,
+      "fijo": 30978.0637,
+      "escalones": [
+       [
+        null,
+        129.0571
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-4",
+      "hasta": 700,
+      "fijo": 56576.6913,
+      "escalones": [
+       [
+        null,
+        126.0125
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-5",
+      "hasta": 1400,
+      "fijo": 77415.3449,
+      "escalones": [
+       [
+        null,
+        124.5803
+       ]
+      ]
+     },
+     {
+      "nombre": "T1R-6",
+      "hasta": null,
+      "fijo": 162714.1349,
+      "escalones": [
+       [
+        null,
+        124.5803
+       ]
+      ]
+     }
+    ]
+   },
    "demanda": {
     "criterio": "T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV); cuadro de 06/2026",
     "tarifas": [

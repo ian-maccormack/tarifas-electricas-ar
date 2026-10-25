@@ -113,7 +113,7 @@ function renderComp() {
 
 // ---- Simulador: same algorithm as scraper/simulador.py::cost ----
 function simulate(s, kwhMes, mes) {
-  const f = s.periodo === "bimestre" ? 2 : 1, k = kwhMes * f;
+  const f = s.periodo === "bimestre" ? 2 : 1, k = Math.max(kwhMes, s.minimo_kwh || 0) * f;
   const cat = s.categorias.find((c) => c.hasta === null || k <= c.hasta);
   const r = { k, f, cat, tramos: [], total: null };
   if (!cat || cat.fijo == null) return r;

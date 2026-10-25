@@ -257,3 +257,27 @@ def test_edersa_subsidio_tope():
     assert cost(edersa_sub([{"titulo": "x", "tope_subsidio": None, "filas": filas}]), 250) is None
     from simulador import edersa
     assert round(cost(edersa([{"titulo": "x", "filas": filas}]), 250), 2) == round((29800.46 + 500 * 289.656) / 2, 2)
+
+
+def test_edesal_fijo_mas_uso_de_red():
+    s = build(_entry("edesal"))
+    assert [c["hasta"] for c in s["categorias"]] == [160, 200, 400, 700, 1400, None]
+    assert round(cost(s, 250), 2) == round(10497.6577 + 20480.406 + 250 * 129.0571, 2)
+    e = _entry("edesal")
+    e["tablas"][0]["unidades"] = None
+    assert build(e) is None
+
+
+def test_edelar_bloques_sin_subsidio():
+    s = build(_entry("edelar"))
+    assert [c["nombre"] for c in s["categorias"]] == ["T1-R1-NS", "T1-R2-NS", "T1-R3-NS"]
+    assert round(cost(s, 150), 2) == round(2124.71 + 150 * 176.9956, 2)
+    assert round(cost(s, 250), 2) == round(2124.71 + 200 * 176.9956 + 50 * 125.467, 2)
+    assert round(cost(s, 800), 2) == round(2124.71 + 200 * 176.9956 + 230 * 125.467 + 370 * 197.8549, 2)
+
+
+def test_epec_sin_sef_y_energia_minima():
+    s = build(_entry("epec"))
+    assert [c["hasta"] for c in s["categorias"]] == [120, 500, 700, None]
+    assert round(cost(s, 250), 2) == round(2948.6141 + 120 * 250.30482 + 130 * 300.9946, 2)
+    assert round(cost(s, 10), 2) == round(2123.2848 + 20 * 219.87512, 2)

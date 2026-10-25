@@ -497,6 +497,8 @@ def p_epec(text, **_):
         if len(filas) > 150:
             break
     t = {"titulo": "Tarifa Nº 1 - Residencial", "filas": filas}
+    m = find(r"Energ[ií]a M[ií]nima Mensual a facturar\s*=\s*(\d+)\s*kWh por mes", text)
+    t["energia_minima"] = int(m) if m else None
     return {"vigencia": find(r"(PUBLICACION WEB EPEC - [0-9/]+)", text), "tablas": [t]}
 
 
@@ -548,6 +550,8 @@ def p_edesal(text, sheets=None, **_):
     t = sheet_table(sheets or [], "Tarifa 1-R Residencial", r"Tarifa 1-R:", r"Tarifa 1-G", dec=".", header_re=r"Cargo Fijo")
     dem = []
     rows = [r for sh in sheets or [] for r in sh["filas"]]
+    urow = next((r for r in rows if sum(1 for c in r if re.fullmatch(r"\$/\S.*", str(c).strip())) >= 3), None)
+    t["unidades"] = [str(c).strip() for c in urow if str(c).strip()] if urow else None
     i0 = next((i for i, r in enumerate(rows) if r and str(r[0]).startswith("Tarifas T2 - Usuarios con Potencia mayor a 10kW")), None)
     if i0 is not None and "Usuarios de la Distribuidora" in " ".join(map(str, rows[i0])):
         hdr = [str(c) for c in rows[i0 + 1]]
@@ -575,6 +579,52 @@ def _nearest(cols, pos):
 
 
 NUM_ES = re.compile(r"-?\d[\d.]*,\d+")
+
+
+def edelar_ns(text):
+    """'Sin Subsidio' columns (T1-Rn-NS) with their consumption blocks, which the column grid skips.
+    Every value must lie under the NS header and the Subsidio Estado Nacional half must be all zero."""
+    lines, out = text.splitlines(), []
+    for i, ln in enumerate(lines):
+        m = re.search(r"T1-R\d-NS", ln)
+        if not m:
+            continue
+        ns, code = m.start(), m.group(0)
+        cat, fijo, rows, phase = None, None, [], 0
+        for raw in lines[i + 1:]:
+            s = raw.strip()
+            if re.search(r"T1-R\S*-NS|PEQUEÑAS DEMANDAS", raw) or s.startswith("F.E.P Cargo Fijo:Sin"):
+                break
+            if s.startswith("Cargo Fijo s/"):
+                phase = 1
+                continue
+            if s.startswith("Cargo Fijo c/"):
+                phase = 2
+                continue
+            if cat is None:
+                c = re.search(r"(menor a|entre \d+ y|mayor a) \d+ kWh(/mes)?", raw[max(0, ns - 15):ns + 30])
+                if c:
+                    cat = c.group(0)
+                    continue
+            nums = [n for n in NUM_ES.finditer(raw) if ns - 15 <= n.start() <= ns + 25]
+            if not nums or phase == 0:
+                continue
+            if phase == 1:
+                fijo = parse_num(nums[0].group(0), ",")
+                continue
+            pre = re.sub(r"^\s*(Cargo Variable|Subsidio Estado Nacional)\s+\$/kWh", "", raw[:nums[0].start()])
+            rows.append((squeeze(pre), parse_num(nums[0].group(0), ",")))
+        half = len(rows) // 2
+        var, sub = rows[:half], rows[half:]
+        if (not cat or fijo is None or not var or len(rows) % 2 or [x for x, _ in var] != [x for x, _ in sub]
+                or any(v for _, v in sub)):
+            continue
+        g = f"{code} {cat}"
+        filas = [{"grupo": g, "concepto": "Cargo Fijo", "unidad": "$/mes", "valores": [fijo], "columnas": None}]
+        filas += [{"grupo": g, "concepto": f"Cargo Variable {x}".strip(), "unidad": "$/kWh", "valores": [v], "columnas": None}
+                  for x, v in var]
+        out.append({"titulo": f"{code} — Sin Subsidio (tramos)", "filas": filas})
+    return out
 
 
 @parser("edelar")
@@ -642,6 +692,7 @@ def p_edelar(text, **_):
         add(label, unit, found)
     for x in tablas:
         x.pop("_keep", None)
+    tablas += edelar_ns(text)
     return {"vigencia": find(r"CUADRO TARIFARIO DE APLICACI[ÓO]N A LOS USUARIOS\s+(\S.*?20\d\d)", text),
             "tablas": tablas,
             "comparable": comparable(tablas, None, (r"^Cargo Variable$", 0, None),
