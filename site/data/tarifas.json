@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T00:46:35+00:00",
+ "generado": "2026-10-25T00:47:21+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1374,7 +1374,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T00:46:35+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -3113,7 +3113,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T00:46:35+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -4339,7 +4339,7 @@
    "intentos": [
     "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5400.69,
@@ -4586,8 +4586,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "edea",
@@ -6065,7 +6065,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "nota": "T1R Nivel 1, consumo < 100 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -6090,8 +6090,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "edelap",
@@ -6762,7 +6762,7 @@
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -6777,8 +6777,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "eden",
@@ -7640,7 +7640,7 @@
    "intentos": [
     "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4835.87,
@@ -7887,8 +7887,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "ecsapem",
@@ -8054,7 +8054,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -8069,8 +8069,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "secheep",
@@ -11610,7 +11610,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -11669,8 +11669,8 @@
      }
     ]
    },
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "dgsp",
@@ -11685,7 +11685,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_D"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -11696,8 +11696,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "epec",
@@ -13087,7 +13087,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -13102,8 +13102,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "dpec",
@@ -14965,7 +14965,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -15108,8 +15108,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "enersa",
@@ -15370,7 +15370,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-25T00:46:09+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -15479,14 +15479,14 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "refsa",
@@ -16056,7 +16056,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -16206,8 +16206,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "ejesa",
@@ -16612,7 +16612,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -16824,8 +16824,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "ejsed",
@@ -17501,7 +17501,8 @@
     }
    ],
    "intentos": [
-    "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
+    "known: ValueError: el enlace devolvió una página HTML en vez del documento",
+    "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06"
    ],
    "verificado": "2026-10-25T00:38:45+00:00",
    "comparable": null,
@@ -17519,7 +17520,9 @@
    "demanda": null,
    "simulador_ocr": null,
    "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "ultimo_intento": "2026-10-25T00:47:21+00:00",
+   "ultimo_intento_fallido": true
   },
   {
    "id": "ape",
@@ -18315,7 +18318,7 @@
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -18339,7 +18342,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.26,
+      "fijo": 3790.2599999999998,
       "escalones": [
        [
         60,
@@ -18474,8 +18477,8 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "edelar",
@@ -19021,7 +19024,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -19046,8 +19049,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "edemsa",
@@ -19344,7 +19347,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:46:09+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -19885,7 +19888,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:46:09+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -20427,7 +20430,8 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
+    "primary: ConnectTimeout: HTTPSConnectionPool(host='energia.misiones.gob.ar', port=443): Max retries exceeded with url: /cuadro-tarifario/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='energia.misiones.gob.ar', port=44",
+    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip"
    ],
    "verificado": "2026-10-25T00:38:45+00:00",
    "comparable": {
@@ -20461,7 +20465,9 @@
    "demanda": null,
    "simulador_ocr": null,
    "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "ultimo_intento": "2026-10-25T00:47:21+00:00",
+   "ultimo_intento_fallido": true
   },
   {
    "id": "epen",
@@ -21317,7 +21323,7 @@
    "intentos": [
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 10185.04,
@@ -21598,8 +21604,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "edersa",
@@ -21708,7 +21714,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:46:09+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -22690,7 +22696,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
     "cargo_fijo": {
@@ -22781,8 +22787,8 @@
      }
     ]
    },
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "esj",
@@ -23211,7 +23217,7 @@
    "intentos": [
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -23432,8 +23438,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "edesal",
@@ -23982,7 +23988,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -24144,8 +24150,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "spse",
@@ -24160,7 +24166,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SP"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "archivo_nacional": {
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -24171,8 +24177,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "epe",
@@ -24294,7 +24300,7 @@
    "intentos": [
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3944.25564,
@@ -24353,8 +24359,8 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "edese",
@@ -24795,7 +24801,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -25038,8 +25044,8 @@
     ]
    },
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   },
   {
    "id": "dpe",
@@ -25742,7 +25748,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -25797,8 +25803,8 @@
      }
     ]
    },
-   "desactualizado": true,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": true
   },
   {
    "id": "edet",
@@ -27355,7 +27361,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-25T00:38:45+00:00",
+   "verificado": "2026-10-25T00:47:21+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -27370,8 +27376,8 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "desactualizado": false,
-   "simulador_subsidio": null
+   "simulador_subsidio": null,
+   "desactualizado": false
   }
  ]
 }

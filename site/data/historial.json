@@ -1304,5 +1304,14 @@
     ]
    }
   ]
+ },
+ {
+  "id": "emsa",
+  "detectado": "2026-10-25T00:47:21+00:00",
+  "sha256": "37ad499929b8114c4c409aec12cfeceda22ac9547d7e2d12942cb3d1a2357a09",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
+  "titulo": "Cuadro Tarifario del 11-2025",
+  "vigencia": null,
+  "tablas": []
  }
 ]
