@@ -189,13 +189,12 @@ function simResults() {
   const kwh = Math.max(0, +$("#s-kwh").value || 0), sub = $("#s-sub").checked, mes = +$("#s-mes").value;
   return DATA.distribuidoras.map((e) => {
     let r = null, motivo = "";
-    const sim = sub ? e.simulador_subsidio || null : e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
+    const sim = (sub && e.simulador_subsidio) || e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
     if (sim) { r = simulate(sim, kwh, mes); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
-    else if (sub) motivo = "El cuadro no publica cargos con subsidio que se puedan aplicar con seguridad";
     else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
     else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
-    return withIva({ e, r, total: r ? r.total : null, motivo, sim, mes }, iva);
+    return withIva({ e, r, total: r ? r.total : null, motivo, sim, mes, sub }, iva);
   });
 }
 function detalleDem(x) {
@@ -222,6 +221,7 @@ function detalle(x) {
 function renderSim() {
   const q = demInputs();
   $("#d-resto").textContent = `Resto ${num(Math.max(0, 100 * (1 - q.pico - q.valle)), 0)} %`;
+  $("#s-mes-l").hidden = !$("#s-sub").checked || $("#s-tipo").value === "dem";
   const all = simResults(), showAll = $("#s-all").checked;
   let rows = all.filter((x) => (!SIM.prov || x.e.provincia === SIM.prov) && (showAll || x.total !== null));
   rows = sortBy(rows, (x) => x.total, 1);
@@ -229,12 +229,12 @@ function renderSim() {
   let h = "";
   for (const x of rows) {
     const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
-    const badges = (!x.dem && x.sim && x.sim === x.e.simulador_subsidio ? '<span class="badge b-sub" title="Cargos con subsidio publicados en el cuadro">con subsidio</span> ' : "") + (!x.dem && x.sim && x.sim === x.e.simulador_ocr ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    const badges = (!x.dem && x.sim && x.sim === x.e.simulador_subsidio ? '<span class="badge b-sub" title="Cargos con subsidio publicados en el cuadro">con subsidio</span> ' : "") + (!x.dem && x.sub && x.sim && x.sim !== x.e.simulador_subsidio ? '<span class="badge b-old" title="El cuadro no publica cargos con subsidio que se puedan aplicar con seguridad: se muestra el valor sin subsidio">sin subsidio publicado</span> ' : "") + (!x.dem && x.sim && x.sim === x.e.simulador_ocr ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
     h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
   }
   const n = all.filter((x) => x.total !== null).length;
   $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
-  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (!all[0]?.dem && $("#s-sub").checked ? ` · <b>con subsidio</b> (${MESES[+$("#s-mes").value - 1]})` : "") + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (!all[0]?.dem && $("#s-sub").checked ? ` · <b>con subsidio</b> donde el cuadro lo publica (mes del subsidio: ${MESES[+$("#s-mes").value - 1]}); las demás, sin subsidio` : "") + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
   $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
   renderMap(all);
 }
