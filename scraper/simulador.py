@@ -501,6 +501,46 @@ def ejesa_demanda(tablas):
     return {"criterio": "Cargos plenos; T2 desde 15 kW según el cuadro (de 10 a 15 kW no hay tarifa en el cuadro)", "tarifas": out}
 
 
+@demanda_builder("edesal")
+def edesal_demanda(tablas):
+    out = []
+    for t in tablas:
+        m = re.search(r"Usuarios de la Distribuidora (< 300|≥ 300) kW", t["titulo"])
+        if not m:
+            continue
+        low, rows = m.group(1) == "< 300", t["filas"]
+        cols = rows[0]["columnas"] or []
+        for ten, name in (("BT", "T2 BT"), ("MT", "T2 MT13,2"), ("AT", "T2 AT")):
+            if name not in cols:
+                continue
+            c = cols.index(name)
+            out.append(_t(f"{name} ({'< 300' if low else '≥ 300'} kW)", ten, 10 if low else 300, 300 if low else None,
+                          _pk(rows, r"^cargocomercial", c),
+                          [["Uso de la red", _pk(rows, r"^cargoporusodelared", c)], ["Consumo de potencia", _pk(rows, r"^cargoporconsumopotencia", c)]],
+                          {k: _pk(rows, rf"energíaenhs\.{k}", c) for k in FRANJAS3}))
+    return {"criterio": "T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV); cuadro de 06/2026", "tarifas": out}
+
+
+@demanda_builder("edese")
+def edese_demanda(tablas):
+    out = []
+    t2 = next((t for t in tablas if t["titulo"].startswith("Tarifa N°2")), None)
+    if t2:
+        out.append(_t("Tarifa N°2", None, 10, 50, 0.0, [["Capacidad de suministro contratada", _pk(t2["filas"], r"capacidaddesuministro")]],
+                      {"unica": _pk(t2["filas"], r"cargovariable")}))
+    for t in tablas:
+        m = re.match(r"Tarifa N°3 \(Grandes Demandas\) — T3-(BT|MT)", t["titulo"])
+        if not m:
+            continue
+        for desde, hasta, g in ((50, 300, r"<300"), (300, None, r"≥300")):
+            rows = t["filas"]
+            out.append(_t(f"T3-{m.group(1)} ({'< 300' if hasta else '≥ 300'} kW)", m.group(1), desde, hasta, 0.0,
+                          [["Capacidad en punta", _pk(rows, r"enpunta$", grupo=g)], ["Capacidad fuera de punta", _pk(rows, r"fueradepunta$", grupo=g)]],
+                          {"pico": _pk(rows, r"hs\.pico", grupo=g), "resto": _pk(rows, r"hs\.restantes", grupo=g),
+                           "valle": _pk(rows, r"hs\.valle", grupo=g)}))
+    return {"criterio": "Límites de potencia del cuadro EDESE; el cuadro no tiene cargo fijo en T2/T3", "tarifas": out}
+
+
 def build_demanda(entry):
     fn = DEMANDA.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):

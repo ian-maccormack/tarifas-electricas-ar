@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T00:12:03+00:00",
+ "generado": "2026-10-25T00:13:27+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -23070,13 +23070,347 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora < 300 kW",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Comercial",
+       "unidad": "$/Usuario- mes",
+       "valores": [
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        112516.602049
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Uso de la Red",
+       "unidad": "$/kW mes",
+       "valores": [
+        20824.278775,
+        18927.971939,
+        16178.878843,
+        18573.531816,
+        18573.531816,
+        15346.122893,
+        15346.122893,
+        13077.9895,
+        6920.349048
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo Potencia",
+       "unidad": "$/kW mes",
+       "valores": [
+        8859.217648,
+        8251.64693,
+        7897.394634,
+        11238.074528,
+        23509.275221,
+        9044.423457,
+        12358.21341,
+        9762.050484,
+        6932.760414
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        126.0977,
+        119.5062,
+        113.652,
+        115.11,
+        116.3121,
+        111.4291,
+        113.784,
+        109.5885,
+        109.7954
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Resto",
+       "unidad": "$/kWh",
+       "valores": [
+        122.6623,
+        116.237,
+        110.4567,
+        111.9029,
+        113.105,
+        108.2724,
+        110.6273,
+        106.4577,
+        106.7586
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        121.0631,
+        114.7152,
+        108.9693,
+        110.4101,
+        111.6122,
+        106.8031,
+        109.158,
+        105.0004,
+        105.345
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora ≥ 300 kW",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Comercial",
+       "unidad": "$/Usuario- mes",
+       "valores": [
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        29660.804159,
+        112516.602049
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Uso de la Red",
+       "unidad": "$/kW mes",
+       "valores": [
+        20824.278775,
+        18927.971939,
+        16178.878843,
+        18573.531816,
+        18573.531816,
+        15346.122893,
+        15346.122893,
+        13077.9895,
+        6920.349048
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo Potencia",
+       "unidad": "$/kW mes",
+       "valores": [
+        8859.217648,
+        8251.64693,
+        7897.394634,
+        11238.074528,
+        23509.275221,
+        9044.423457,
+        12358.21341,
+        9762.050484,
+        6932.760414
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        126.3397,
+        119.7364,
+        113.8771,
+        115.3359,
+        116.538,
+        111.6514,
+        114.0063,
+        109.809,
+        110.0093
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Resto",
+       "unidad": "$/kWh",
+       "valores": [
+        122.8959,
+        116.4593,
+        110.674,
+        112.121,
+        113.3231,
+        108.487,
+        110.842,
+        106.6706,
+        106.9651
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Consumo de Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        121.2919,
+        114.933,
+        109.1821,
+        110.6237,
+        111.8258,
+        107.0133,
+        109.3682,
+        105.2089,
+        105.5473
+       ],
+       "columnas": [
+        "T2 BT",
+        "T2 BTSRG",
+        "T2 BTSRI",
+        "T2 MT13,2",
+        "T2 MT13,2 Riego",
+        "T2 MT33G",
+        "T2 MT33G Riego",
+        "T2 MT33I",
+        "T2 AT"
+       ]
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:13:27+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -23100,7 +23434,143 @@
    "mes_referencia": "2026-06",
    "mes_referencia_origen": "título",
    "simulador": null,
-   "demanda": null,
+   "demanda": {
+    "criterio": "T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV); cuadro de 06/2026",
+    "tarifas": [
+     {
+      "nombre": "T2 BT (< 300 kW)",
+      "tension": "BT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 29660.804159,
+      "potencia": [
+       [
+        "Uso de la red",
+        20824.278775
+       ],
+       [
+        "Consumo de potencia",
+        8859.217648
+       ]
+      ],
+      "energia": {
+       "pico": 126.0977,
+       "resto": 122.6623,
+       "valle": 121.0631
+      }
+     },
+     {
+      "nombre": "T2 MT13,2 (< 300 kW)",
+      "tension": "MT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 29660.804159,
+      "potencia": [
+       [
+        "Uso de la red",
+        18573.531816
+       ],
+       [
+        "Consumo de potencia",
+        11238.074528
+       ]
+      ],
+      "energia": {
+       "pico": 115.11,
+       "resto": 111.9029,
+       "valle": 110.4101
+      }
+     },
+     {
+      "nombre": "T2 AT (< 300 kW)",
+      "tension": "AT",
+      "desde_kw": 10,
+      "hasta_kw": 300,
+      "fijo": 112516.602049,
+      "potencia": [
+       [
+        "Uso de la red",
+        6920.349048
+       ],
+       [
+        "Consumo de potencia",
+        6932.760414
+       ]
+      ],
+      "energia": {
+       "pico": 109.7954,
+       "resto": 106.7586,
+       "valle": 105.345
+      }
+     },
+     {
+      "nombre": "T2 BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 29660.804159,
+      "potencia": [
+       [
+        "Uso de la red",
+        20824.278775
+       ],
+       [
+        "Consumo de potencia",
+        8859.217648
+       ]
+      ],
+      "energia": {
+       "pico": 126.3397,
+       "resto": 122.8959,
+       "valle": 121.2919
+      }
+     },
+     {
+      "nombre": "T2 MT13,2 (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 29660.804159,
+      "potencia": [
+       [
+        "Uso de la red",
+        18573.531816
+       ],
+       [
+        "Consumo de potencia",
+        11238.074528
+       ]
+      ],
+      "energia": {
+       "pico": 115.3359,
+       "resto": 112.121,
+       "valle": 110.6237
+      }
+     },
+     {
+      "nombre": "T2 AT (≥ 300 kW)",
+      "tension": "AT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 112516.602049,
+      "potencia": [
+       [
+        "Uso de la red",
+        6920.349048
+       ],
+       [
+        "Consumo de potencia",
+        6932.760414
+       ]
+      ],
+      "energia": {
+       "pico": 110.0093,
+       "resto": 106.9651,
+       "valle": 105.5473
+      }
+     }
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -23529,12 +23999,225 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Por capacidad de suministro contratada",
+       "unidad": "$/kw-mes",
+       "valores": [
+        30897.22
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo variable por energía",
+       "unidad": "$/kwh",
+       "valores": [
+        257.368
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa N°3 (Grandes Demandas) — T3-MT",
+     "filas": [
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        20606.34
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        6652.43
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        153.098
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        148.878
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        147.878
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        20606.34
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        6652.43
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        171.553
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        166.679
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        165.523
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa N°3 (Grandes Demandas) — T3-BT",
+     "filas": [
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        34692.62
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        15551.06
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        161.096
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        156.655
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "50 kW < Pot < 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        155.603
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        34692.62
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+       "unidad": "$/kW-mes",
+       "valores": [
+        15551.06
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        180.515
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Restantes",
+       "unidad": "$/kWh",
+       "valores": [
+        175.386
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "Pot ≥ 300 kW",
+       "concepto": "Cargo Variable por Energía en hs.Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        174.17
+       ],
+       "columnas": null
+      }
+     ]
     }
    ],
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-24T23:04:42+00:00",
+   "verificado": "2026-10-25T00:13:27+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -23667,7 +24350,115 @@
      }
     ]
    },
-   "demanda": null,
+   "demanda": {
+    "criterio": "Límites de potencia del cuadro EDESE; el cuadro no tiene cargo fijo en T2/T3",
+    "tarifas": [
+     {
+      "nombre": "Tarifa N°2",
+      "tension": null,
+      "desde_kw": 10,
+      "hasta_kw": 50,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad de suministro contratada",
+        30897.22
+       ]
+      ],
+      "energia": {
+       "unica": 257.368
+      }
+     },
+     {
+      "nombre": "T3-MT (< 300 kW)",
+      "tension": "MT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en punta",
+        20606.34
+       ],
+       [
+        "Capacidad fuera de punta",
+        6652.43
+       ]
+      ],
+      "energia": {
+       "pico": 153.098,
+       "resto": 148.878,
+       "valle": 147.878
+      }
+     },
+     {
+      "nombre": "T3-MT (≥ 300 kW)",
+      "tension": "MT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en punta",
+        20606.34
+       ],
+       [
+        "Capacidad fuera de punta",
+        6652.43
+       ]
+      ],
+      "energia": {
+       "pico": 171.553,
+       "resto": 166.679,
+       "valle": 165.523
+      }
+     },
+     {
+      "nombre": "T3-BT (< 300 kW)",
+      "tension": "BT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en punta",
+        34692.62
+       ],
+       [
+        "Capacidad fuera de punta",
+        15551.06
+       ]
+      ],
+      "energia": {
+       "pico": 161.096,
+       "resto": 156.655,
+       "valle": 155.603
+      }
+     },
+     {
+      "nombre": "T3-BT (≥ 300 kW)",
+      "tension": "BT",
+      "desde_kw": 300,
+      "hasta_kw": null,
+      "fijo": 0.0,
+      "potencia": [
+       [
+        "Capacidad en punta",
+        34692.62
+       ],
+       [
+        "Capacidad fuera de punta",
+        15551.06
+       ]
+      ],
+      "energia": {
+       "pico": 180.515,
+       "resto": 175.386,
+       "valle": 174.17
+      }
+     }
+    ]
+   },
    "desactualizado": false
   },
   {

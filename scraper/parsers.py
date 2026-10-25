@@ -270,7 +270,25 @@ def p_ecsapem(text, **_):
 def p_edese(text, **_):
     t = line_table(text, "T1 Residencial", r"T1 R Residencial", r"T1 G Uso General", dec=".",
                    cols=["Valor"], header_re=r"^\s*T1 R\d", maxvals=1, left_col_from=r"T3-MT")
-    return {"vigencia": find(r"rigen a partir del ([^.]+?20\d\d)", text), "tablas": [t],
+    dem = []
+    m2 = re.search(r"Tarifa N.2 \(Medianas Demandas con 10 kW < Pot < 50 kW\)\n(.*)\n(.*)", text)
+    if m2:
+        t2 = {"titulo": "Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)", "filas": []}
+        for line in m2.groups():
+            mm = re.match(r"\s*(.+?)\s+(\$/kw-mes|\$/kwh)\s+([\d,]+\.\d+)", line, re.I)
+            if mm:
+                t2["filas"].append(_fila(mm.group(1), mm.group(2), [parse_num(mm.group(3), ".")]))
+        dem.append(t2)
+    t3 = {}
+    for mm in re.finditer(r"T3-(BT|MT) (Cargo [^$]+?)\s*(\$/kW-mes|\$/kWh)\s+([\d,]+\.\d+)", text):
+        tab = t3.setdefault(mm.group(1), {"titulo": f"Tarifa N°3 (Grandes Demandas) — T3-{mm.group(1)}", "filas": []})
+        n = sum(1 for f in tab["filas"] if f["concepto"] == mm.group(2).strip())
+        if n >= 2:  # later blocks with the same labels belong to other categories of the cuadro
+            continue
+        tab["filas"].append(_fila(mm.group(2).strip(), mm.group(3), [parse_num(mm.group(4), ".")],
+                                  "50 kW < Pot < 300 kW" if n == 0 else "Pot ≥ 300 kW"))
+    dem += list(t3.values())
+    return {"vigencia": find(r"rigen a partir del ([^.]+?20\d\d)", text), "tablas": [t] + dem,
             "comparable": comparable([t], (r"Cargo fijo", 0, r"T1 R1"), (r"Cargo variable", 0, r"T1 R1"),
                                      "T1 R1 (consumo bimestral ≤ 300 kWh), sin subsidio")}
 
@@ -501,7 +519,23 @@ def p_ape(text, sheets=None, **_):
 @parser("edesal")
 def p_edesal(text, sheets=None, **_):
     t = sheet_table(sheets or [], "Tarifa 1-R Residencial", r"Tarifa 1-R:", r"Tarifa 1-G", dec=".", header_re=r"Cargo Fijo")
-    return {"vigencia": None, "tablas": [t],
+    dem = []
+    rows = [r for sh in sheets or [] for r in sh["filas"]]
+    i0 = next((i for i, r in enumerate(rows) if r and str(r[0]).startswith("Tarifas T2 - Usuarios con Potencia mayor a 10kW")), None)
+    if i0 is not None and "Usuarios de la Distribuidora" in " ".join(map(str, rows[i0])):
+        hdr = [str(c) for c in rows[i0 + 1]]
+        seps = [k for k, c in enumerate(hdr) if k >= 2 and not c.strip()]
+        spans = [(2, seps[0]), (seps[0] + 1, len(hdr))] if seps else [(2, len(hdr))]
+        tabs = [{"titulo": f"Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora {n}", "filas": []}
+                for n in ("< 300 kW", "≥ 300 kW")[:len(spans)]]
+        for r in rows[i0 + 2:]:
+            if not r or str(r[0]).startswith("Tarifas T2") or not str(r[0]).strip():
+                break
+            for tab, (a, b) in zip(tabs, spans):
+                vals = [parse_num(str(c), ".") if NUMTOK.match(str(c).strip()) else None for c in r[a:b]]
+                tab["filas"].append(_fila(str(r[0]).strip(), str(r[1]).strip().strip("[] ") or None, vals, cols=hdr[a:b]))
+        dem = [x for x in tabs if x["filas"]]
+    return {"vigencia": None, "tablas": [t] + dem,
             "comparable": comparable([t], (r"^T1R-1", 0), (r"^T1R-1", 2), "T1R-1, 'Cuadro Resolución' (primera tabla)")}
 
 
