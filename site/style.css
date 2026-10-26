@@ -91,3 +91,4 @@ button.link{background:none;border:0;color:var(--acc);cursor:pointer;padding:0;f
 .norm tr.sec td{background:#e8eef7!important;font-weight:700;color:#1d2939}
 .norm ul.note{margin:8px 0 0;padding-left:18px}
 details.raw{margin-top:14px}details.raw>summary{cursor:pointer;font-weight:600;color:var(--acc)}
+#comp tr.muted td{color:#98a2b3}#comp th small{font-weight:400;color:#667085}

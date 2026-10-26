@@ -120,38 +120,107 @@ function renderList() {
 }
 
 const COMP = { sort: null, dir: 1 };
-const hasComp = (e) => e.comparable && [e.comparable.cargo_fijo, e.comparable.cargo_variable].some((c) => c && c.valor != null);
-const COMP_KEYS = {
-  empresa: (e) => e.empresa.toLowerCase(), provincia: (e) => e.provincia.toLowerCase(),
-  fijo: (e) => e.comparable?.cargo_fijo?.valor ?? null, variable: (e) => e.comparable?.cargo_variable?.valor ?? null,
-  mes: (e) => e.mes_referencia || null,
-};
-function sortBy(rows, key, dir) {
-  const k = COMP_KEYS[key] || key;
+const PER = (s) => (s.periodo === "bimestre" ? "bim" : "mes");
+const rango = (a, b, u) => (b === null ? `más de ${num(a, 0)} ${u}` : `${num(a, 0)}–${num(b, 0)} ${u}`);
+function compSim(e, modo, ocr) {
+  const plain = e.simulador || (ocr ? e.simulador_ocr : null);
+  if (modo === "sub" && e.simulador_subsidio) return { s: e.simulador_subsidio, sub: true };
+  return plain ? { s: plain, sub: false, ocr: !e.simulador } : null;
+}
+function compRes(e, x, crit, kwhMes, mes, aMes) {
+  const s = x.s, f = s.periodo === "bimestre" ? 2 : 1, u = `kWh/${PER(s)}`;
+  let i = 0, k = null;
+  if (crit === "kwh") {
+    k = Math.max(kwhMes, s.minimo_kwh || 0) * f;
+    i = s.categorias.findIndex((c) => c.hasta === null || k <= c.hasta);
+    if (i < 0) return null;
+  }
+  const cat = s.categorias[i], desde = i ? s.categorias[i - 1].hasta : 0, n = s.categorias.length;
+  let prev = 0, tramo = "", precio = null;
+  for (const [hasta, p] of cat.escalones) {
+    const h = hasta === "base" ? (s.base_mes ? s.base_mes[mes - 1] : undefined) : hasta;
+    if (h === undefined) { tramo = "consumo base subsidiado"; precio = p; break; }
+    if (k === null || h === null || k <= h) {
+      tramo = h === null ? (prev ? `más de ${num(prev, 0)} ${u}` : "todo el consumo") : `${num(prev, 0)}–${num(h, 0)} ${u}`;
+      if (hasta === "base") tramo += " (consumo base subsidiado)";
+      precio = p; break;
+    }
+    prev = h;
+  }
+  const conv = aMes && f === 2 && cat.fijo != null;
+  return {
+    cat: n === 1 ? "Residencial (categoría única)" : `Residencial ${i + 1} de ${n}`, nombre: cat.nombre || "",
+    rango: n === 1 && cat.hasta === null ? "cualquier consumo" : rango(desde, cat.hasta, u) + (f === 2 ? ` (≈ ${cat.hasta === null ? "más de " + num(desde / 2, 0) : num(desde / 2, 0) + "–" + num(cat.hasta / 2, 0)} kWh/mes)` : ""),
+    fact: f === 2 ? "Bimestral" : "Mensual", fijo: conv ? cat.fijo / 2 : cat.fijo,
+    ufijo: f === 2 ? (conv ? "$/mes (bimestral ÷ 2)" : "$/bim") : "$/mes", precio, tramo,
+  };
+}
+function compDem(d, q) {
+  const t = d.tarifas.find((t) => (t.tension === null || t.tension === q.ten) && q.kw >= t.desde_kw && (t.hasta_kw === null || q.kw < t.hasta_kw));
+  if (!t) return null;
+  const pot = t.potencia.some(([, p]) => p == null) ? null : t.potencia.reduce((a, [, p]) => a + p, 0);
+  const en = t.energia;
+  return {
+    cat: `${/T\s*-?\s*3|grande/i.test(t.nombre) ? "T3" : /T\s*-?\s*2|mediana/i.test(t.nombre) ? "T2" : t.hasta_kw !== null && t.hasta_kw <= 50 ? "T2" : "T3"}${t.tension ? " · " + t.tension : ""}`, nombre: t.nombre,
+    rango: t.hasta_kw === null ? `${num(t.desde_kw, 0)} kW o más` : `${num(t.desde_kw, 0)}–${num(t.hasta_kw, 0)} kW`,
+    fijo: t.fijo === 0 ? null : t.fijo, sinFijo: t.fijo === 0, pot, potDet: t.potencia.map(([c, p]) => `${c}: ${p == null ? "sin dato" : num(p, 2)}`).join(" · "),
+    franjas: !("unica" in en), pico: en.pico ?? null, resto: en.unica ?? en.resto ?? en.fuera_pico ?? null, valle: en.valle ?? null,
+    restoTxt: "unica" in en ? "única" : "fuera_pico" in en ? "fuera de pico" : "resto",
+  };
+}
+const NA = '<td class="num"><span class="note" title="El cuadro tiene un único precio de energía para todas las horas">no aplica</span></td>';
+function renderComp() {
+  const modo = $("#c-tarifa").value, dem = modo === "dem", crit = $("#c-crit").value;
+  $("#c-res-crit").hidden = dem; $("#c-dem-crit").hidden = !dem; $("#c-mes-l").hidden = dem; $("#c-kwh-l").hidden = crit !== "kwh";
+  const prov = $("#c-prov").value, onlyData = $("#c-data").checked, ocr = $("#c-ocr").checked, noOld = $("#c-old").checked;
+  const kwh = Math.max(0, +$("#c-kwh").value || 0), mes = new Date().getMonth() + 1, aMes = $("#c-mes").checked;
+  const q = { kw: Math.max(0, +$("#c-kw").value || 0), ten: $("#c-ten").value };
+  let rows = DATA.distribuidoras.filter((e) => (!prov || e.provincia === prov) && (!noOld || !e.desactualizado)).map((e) => {
+    if (dem) return { e, r: e.demanda ? compDem(e.demanda, q) : null };
+    const x = compSim(e, modo, ocr);
+    return { e, x, r: x ? compRes(e, x, crit, kwh, mes, aMes) : null };
+  });
+  if (onlyData) rows = rows.filter((w) => w.r);
+  const K = { empresa: (w) => w.e.empresa.toLowerCase(), provincia: (w) => w.e.provincia.toLowerCase(), mes: (w) => w.e.mes_referencia || null,
+    fijo: (w) => w.r?.fijo ?? null, precio: (w) => w.r?.precio ?? null, pot: (w) => w.r?.pot ?? null, pico: (w) => w.r?.pico ?? null,
+    resto: (w) => w.r?.resto ?? null, valle: (w) => w.r?.valle ?? null };
+  if (COMP.sort && K[COMP.sort]) rows = sortBy(rows, K[COMP.sort], COMP.dir);
+  const th = (k, l, title = "") => `<th class="sortable${COMP.sort === k ? " s" + COMP.dir : ""}" data-k="${k}"${title ? ` title="${esc(title)}"` : ""}>${l}</th>`;
+  const v = (x, d) => `<td class="num">${fmt(x)}</td>`;
+  const head = dem
+    ? `${th("empresa", "Empresa")}${th("provincia", "Provincia")}<th>Tarifa</th><th>Rango de potencia</th>${th("fijo", "Cargo fijo<br><small>$/mes</small>")}${th("pot", "Potencia<br><small>$/kW-mes</small>", "Suma de los cargos por potencia del cuadro (pasá el mouse sobre el valor para ver el detalle)")}${th("pico", "Energía pico<br><small>$/kWh</small>")}${th("resto", "Energía resto / única<br><small>$/kWh</small>")}${th("valle", "Energía valle<br><small>$/kWh</small>")}${th("mes", "Mes de referencia")}`
+    : `${th("empresa", "Empresa")}${th("provincia", "Provincia")}<th>Categoría</th><th>Rango de consumo</th><th>Facturación</th>${th("fijo", "Cargo fijo", aMes ? "" : "Valores tal como figuran en cada cuadro: mirá la unidad ($/mes o $/bim)")}<th>Unidad</th>${th("precio", "Energía<br><small>$/kWh</small>")}<th>Tramo</th>${th("mes", "Mes de referencia")}`;
+  const ncol = dem ? 10 : 10;
+  let h = `<thead><tr>${head}</tr></thead><tbody>`;
+  for (const { e, x, r } of rows) {
+    const name = `<td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a>${x?.ocr ? ' <span class="badge b-ocr">OCR</span>' : ""}${modo === "sub" && x && !x.sub ? ' <span class="badge b-old">sin subsidio publicado</span>' : ""}</td><td>${esc(e.provincia)}</td>`;
+    const ref = `<td>${esc(mesfmt(e.mes_referencia))}${e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : ""}</td>`;
+    if (!r) {
+      const why = dem ? (e.demanda ? "El cuadro no tiene una tarifa para esa potencia y tensión" : "Sin estructura homogénea de T2/T3") : "Sin estructura homogénea";
+      h += `<tr class="muted">${name}<td colspan="${ncol - 3}" class="note">${why}: ver el cuadro original en la ficha.</td>${ref}</tr>`;
+      continue;
+    }
+    if (dem) {
+      h += `<tr>${name}<td title="${esc(r.nombre)}">${esc(r.cat)}</td><td>${esc(r.rango)}</td><td class="num">${r.sinFijo ? '<span class="note" title="El cuadro no tiene cargo fijo mensual">no tiene</span>' : fmt(r.fijo)}</td><td class="num" title="${esc(r.potDet)}">${fmt(r.pot)}</td>${r.franjas ? v(r.pico) : NA}<td class="num">${fmt(r.resto)}${r.resto != null ? ` <small class="note">${r.restoTxt}</small>` : ""}</td>${r.franjas && "valle" in (e.demanda.tarifas.find((t) => t.nombre === r.nombre)?.energia || {}) ? v(r.valle) : NA}${ref}</tr>`;
+    } else {
+      const pago = r.fact === "Bimestral" && e.pago_mensual ? `<br><small class="note"><a href="${esc(e.pago_mensual.url)}" target="_blank" rel="noopener" title="${esc(e.pago_mensual.texto)}">se paga en 2 cuotas mensuales</a></small>` : "";
+      h += `<tr>${name}<td title="${esc(r.nombre)}">${esc(r.cat)}</td><td>${esc(r.rango)}</td><td>${r.fact}${pago}</td>${v(r.fijo)}<td>${esc(r.ufijo)}</td>${v(r.precio)}<td>${esc(r.tramo)}</td>${ref}</tr>`;
+    }
+  }
+  if (!rows.length) h += `<tr><td colspan="${ncol}" class="note">Ninguna distribuidora cumple los filtros.</td></tr>`;
+  $("#comp").innerHTML = h + "</tbody>";
+  const n = rows.filter((w) => w.r).length;
+  $("#c-summary").innerHTML = `${n} distribuidoras con estructura homogénea de ${DATA.distribuidoras.length}` + (dem ? ` · ${num(q.kw, 0)} kW en ${q.ten}` : crit === "kwh" ? ` · consumo de ${num(kwh, 0)} kWh/mes` : " · primer escalón") + (modo === "sub" ? ` · con subsidio donde el cuadro lo publica (consumo base de ${MESES[mes - 1]})` : "");
+  document.querySelectorAll("#comp th.sortable").forEach((t) => t.addEventListener("click", () => {
+    COMP.dir = COMP.sort === t.dataset.k ? -COMP.dir : 1; COMP.sort = t.dataset.k; renderComp();
+  }));
+}
+function sortBy(rows, k, dir) {
   return [...rows].sort((a, b) => {
     const x = k(a), y = k(b);
     if (x === y) return 0; if (x === null) return 1; if (y === null) return -1;
     return (x < y ? -1 : 1) * dir;
   });
-}
-function renderComp() {
-  const prov = $("#c-prov").value, onlyData = $("#c-data").checked, noOcr = $("#c-ocr").checked, noOld = $("#c-old").checked;
-  let rows = DATA.distribuidoras.filter((e) => (!prov || e.provincia === prov) && (!onlyData || hasComp(e)) && (!noOcr || !e.ocr) && (!noOld || !e.desactualizado));
-  if (COMP.sort) rows = sortBy(rows, COMP.sort, COMP.dir);
-  const cell = (c) => c && c.valor != null ? `<td class="num">${fmt(c.valor)}</td><td>${esc(c.unidad || "")}</td>` : '<td class="num"><span class="empty">sin dato</span></td><td></td>';
-  const th = (k, l, title = "") => `<th class="sortable${COMP.sort === k ? " s" + COMP.dir : ""}" data-k="${k}"${title ? ` title="${esc(title)}"` : ""}>${l}</th>`;
-  const mixed = "Ordena los valores tal como figuran en cada cuadro, sin convertir: mirá la columna Unidad ($/mes o $/bimestre)";
-  let h = `<thead><tr>${th("empresa", "Empresa")}${th("provincia", "Provincia")}${th("fijo", "Cargo fijo", mixed)}<th>Unidad</th>${th("variable", "Cargo variable")}<th>Unidad</th><th>Escalón / criterio</th>${th("mes", "Mes de referencia")}</tr></thead><tbody>`;
-  for (const e of rows) {
-    const c = e.comparable || {};
-    h += `<tr><td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a></td><td>${esc(e.provincia)}</td>${cell(c.cargo_fijo)}${cell(c.cargo_variable)}<td>${esc(c.nota || "")}${e.ocr && e.comparable ? ' <span class="badge b-ocr">OCR</span>' : ""}</td><td>${esc(mesfmt(e.mes_referencia))}${e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : ""}</td></tr>`;
-  }
-  if (!rows.length) h += '<tr><td colspan="8" class="note">Ninguna distribuidora cumple los filtros.</td></tr>';
-  $("#comp").innerHTML = h + "</tbody>";
-  $("#c-summary").textContent = `Mostrando ${rows.length} de ${DATA.distribuidoras.length} distribuidoras`;
-  document.querySelectorAll("#comp th.sortable").forEach((t) => t.addEventListener("click", () => {
-    COMP.dir = COMP.sort === t.dataset.k ? -COMP.dir : 1; COMP.sort = t.dataset.k; renderComp();
-  }));
 }
 
 // ---- Simulador: same algorithm as scraper/simulador.py::cost ----
@@ -346,7 +415,7 @@ async function init() {
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#f-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#c-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   ["#f-prov", "#f-estado", "#f-q"].forEach((s) => $(s).addEventListener("input", renderList));
-  ["#c-prov", "#c-data", "#c-ocr", "#c-old"].forEach((s) => $(s).addEventListener("input", renderComp));
+  ["#c-prov", "#c-data", "#c-ocr", "#c-old", "#c-tarifa", "#c-crit", "#c-kwh", "#c-kw", "#c-ten", "#c-mes"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
   $("#s-mes").innerHTML = MESES.map((m, i) => `<option value="${i + 1}">${m}</option>`).join("");

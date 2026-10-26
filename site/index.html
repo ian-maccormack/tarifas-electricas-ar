@@ -38,13 +38,22 @@
     <div id="list"></div>
   </section>
   <section id="view-comp" hidden>
-    <p class="note">Primer escalón residencial tal como figura en cada cuadro. Los valores <b>no se convierten</b>:
-      algunas distribuidoras facturan por mes y otras por bimestre, y cada una define sus escalones y subsidios. Ver las columnas "Unidad" y "Escalón / criterio".
-      Para comparar el costo de un mismo consumo usá el <a href="#" onclick="show('sim');return false">Simulador</a>.</p>
+    <p class="note">Misma estructura para todas las distribuidoras, armada con los cuadros que usa el simulador. Elegí la tarifa y el criterio:
+      con "Primer escalón" se ve el primer tramo de cada cuadro; con "A un consumo de…" se ve la categoría y el tramo en que cae ese consumo en cada distribuidora,
+      porque cada una define sus categorías con límites distintos. Los valores se muestran tal como figuran en el cuadro ($/mes o $/bim), salvo que actives la conversión.
+      Para el costo total de un consumo usá el <a href="#" onclick="show('sim');return false">Simulador</a>.</p>
+    <div class="filters">
+      <label class="kwh">Tarifa <select id="c-tarifa"><option value="res">Residencial (T1) sin subsidio</option><option value="sub">Residencial (T1) con subsidio</option><option value="dem">Medianas y grandes demandas (T2 y T3)</option></select></label>
+      <span id="c-res-crit"><label class="kwh">Criterio <select id="c-crit"><option value="primero">Primer escalón de cada cuadro</option><option value="kwh">A un consumo de…</option></select></label>
+        <label class="kwh" id="c-kwh-l" hidden><input type="number" id="c-kwh" min="0" step="10" value="250"> kWh/mes</label></span>
+      <span id="c-dem-crit" hidden><label class="kwh">Potencia <input type="number" id="c-kw" min="0" step="1" value="30"> kW</label>
+        <label class="kwh">Tensión <select id="c-ten"><option value="BT">Baja (BT)</option><option value="MT">Media (MT)</option><option value="AT">Alta (AT)</option></select></label></span>
+      <label class="chk" id="c-mes-l" title="Divide por 2 los cargos fijos de los cuadros bimestrales"><input type="checkbox" id="c-mes"> Expresar cargos fijos bimestrales en $/mes</label>
+    </div>
     <div class="filters">
       <select id="c-prov"><option value="">Todas las provincias</option></select>
-      <label class="chk"><input type="checkbox" id="c-data" checked> Solo con datos</label>
-      <label class="chk"><input type="checkbox" id="c-ocr"> Excluir OCR</label>
+      <label class="chk"><input type="checkbox" id="c-data" checked> Solo con estructura homogénea</label>
+      <label class="chk" title="Valores leídos por OCR de documentos escaneados: pueden tener errores de lectura"><input type="checkbox" id="c-ocr"> Incluir valores leídos por OCR</label>
       <label class="chk"><input type="checkbox" id="c-old"> Excluir documentos de hace más de 2 meses</label>
     </div>
     <div id="c-summary" class="summary"></div>

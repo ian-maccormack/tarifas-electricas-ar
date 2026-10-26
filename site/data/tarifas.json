@@ -24625,7 +24625,11 @@
      "Medianas y grandes demandas (T2 y T3): T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')"
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "pago_mensual": {
+    "texto": "La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
+    "url": "https://www.edemsa.com/informacion-comercial/"
+   }
   },
   {
    "id": "edeste",
@@ -25663,7 +25667,11 @@
      "Medianas y grandes demandas (T2 y T3): T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')"
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "pago_mensual": {
+    "texto": "La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
+    "url": "https://www.edeste.com.ar/preguntasfrecuentes.html"
+   }
   },
   {
    "id": "emsa",
@@ -30131,7 +30139,11 @@
      "Medianas y grandes demandas (T2 y T3): T2 SMP/CMP y T3 en BT y AT; T3 en media tensión queda afuera porque el cuadro no explica las variantes 'R' y 'B'"
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "pago_mensual": {
+    "texto": "Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
+    "url": "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"
+   }
   },
   {
    "id": "edesal",

@@ -13,6 +13,16 @@ ORIGEN_DIST = "Distribuidora"
 ORIGEN_ENTE = "Ente regulador / organismo provincial"
 ORIGEN_SE = "Secretaría de Energía de la Nación (archivo)"
 
+# Bimonthly cuadros whose distributor states on its own site that the bill is paid in two monthly halves.
+PAGO_MENSUAL = {
+    "edemsa": ("La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
+               "https://www.edemsa.com/informacion-comercial/"),
+    "edeste": ("La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
+               "https://www.edeste.com.ar/preguntasfrecuentes.html"),
+    "esj": ("Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
+            "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"),
+}
+
 
 def _date_key(t):
     best = (0, 0, 0)

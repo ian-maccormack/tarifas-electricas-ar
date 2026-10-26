@@ -13,7 +13,7 @@ from simulador import build as build_sim, build_demanda, build_ocr, build_subsid
 from normalizado import normalizar
 import re
 
-from sources import _SE_BYTES, ORIGEN_SE, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
+from sources import _SE_BYTES, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -203,6 +203,8 @@ def _ym(ym):
 def process(s):
     entry = {k: s[k] for k in ("id", "empresa", "nombre", "provincia", "nota")}
     entry.update(estado="sin_datos", documento=None, vigencia=None, tablas=[], intentos=[], verificado=NOW)
+    if s["id"] in PAGO_MENSUAL:
+        entry["pago_mensual"] = dict(zip(("texto", "url"), PAGO_MENSUAL[s["id"]]))
     for kind, disc, origen in candidates(s):
         try:
             d = disc()
