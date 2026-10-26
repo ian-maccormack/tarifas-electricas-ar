@@ -1313,5 +1313,2535 @@
   "titulo": "Cuadro Tarifario del 11-2025",
   "vigencia": null,
   "tablas": []
+ },
+ {
+  "id": "edes",
+  "detectado": "2026-10-26T15:51:43+00:00",
+  "sha256": "ff2b23ae3a7b3fbbdfa37d856f4276553faff8825ca487f38f75c907fc5ba355",
+  "url": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf",
+  "titulo": "Cuadro tarifario EDES S.A. (OCEBA), consumos desde el 1 de Septiembre de 2026",
+  "vigencia": "Consumos desde el 1 de Septiembre de 2026",
+  "tablas": [
+   {
+    "titulo": "T1R - Residencial (categoría según consumo mensual)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R1",
+      "unidad": "$/mes",
+      "valores": [
+       5852.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+      "unidad": "$/kWh",
+      "valores": [
+       229.2413
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R2",
+      "unidad": "$/mes",
+      "valores": [
+       8977.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+      "unidad": "$/kWh",
+      "valores": [
+       243.0037
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R3",
+      "unidad": "$/mes",
+      "valores": [
+       12259.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+      "unidad": "$/kWh",
+      "valores": [
+       255.2269
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R4",
+      "unidad": "$/mes",
+      "valores": [
+       15227.62
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+      "unidad": "$/kWh",
+      "valores": [
+       263.2928
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R5",
+      "unidad": "$/mes",
+      "valores": [
+       24448.12
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+      "unidad": "$/kWh",
+      "valores": [
+       277.6572
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R6",
+      "unidad": "$/mes",
+      "valores": [
+       39606.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       294.1319
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R7",
+      "unidad": "$/mes",
+      "valores": [
+       48356.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       316.4873
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T2 - Medianas demandas (de 10 kW a menos de 50 kW)",
+    "filas": [
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       64261.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       18815.35
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       13064.53
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       144.2101
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       143.4767
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       97366.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       13050.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       10594.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       141.0772
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       140.4272
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3BT - Grandes demandas (50 kW o más), baja tensión",
+    "filas": [
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       62328.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       26485.28
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       16352.94
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       52661.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       12858.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       5510.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       117.5969
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.9777
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       114.6707
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       117.5969
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.9777
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       114.6707
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       141.0776
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       137.7976
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       137.4138
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       140.0631
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       137.1814
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       136.8452
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       154.8125
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       151.598
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       151.2074
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3MT - Grandes demandas (50 kW o más), media tensión",
+    "filas": [
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       90804.15
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       19116.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       13194.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       79791.14
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       9397.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4027.7
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.7286
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       112.1734
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       111.8738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.7286
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       112.1734
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       111.8738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       137.6367
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       134.4366
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       134.0622
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       136.9393
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       134.1235
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       133.7844
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       151.3279
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       148.2045
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       147.8289
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eden",
+  "detectado": "2026-10-26T15:51:43+00:00",
+  "sha256": "24693ed78a794b74b5fba55641576fc362c3b77befa5e24056a5f6912b7a8f35",
+  "url": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf",
+  "titulo": "Cuadro tarifario EDEN S.A. (OCEBA), consumos desde el 1 de Septiembre de 2026",
+  "vigencia": "Consumos desde el 1 de Septiembre de 2026",
+  "tablas": [
+   {
+    "titulo": "T1R - Residencial (categoría según consumo mensual)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R1",
+      "unidad": "$/mes",
+      "valores": [
+       5240.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
+      "unidad": "$/kWh",
+      "valores": [
+       227.7806
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R2",
+      "unidad": "$/mes",
+      "valores": [
+       8049.7
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
+      "unidad": "$/kWh",
+      "valores": [
+       235.0049
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R3",
+      "unidad": "$/mes",
+      "valores": [
+       10997.62
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
+      "unidad": "$/kWh",
+      "valores": [
+       249.1032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R4",
+      "unidad": "$/mes",
+      "valores": [
+       13665.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
+      "unidad": "$/kWh",
+      "valores": [
+       260.0835
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R5",
+      "unidad": "$/mes",
+      "valores": [
+       21951.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
+      "unidad": "$/kWh",
+      "valores": [
+       270.273
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R6",
+      "unidad": "$/mes",
+      "valores": [
+       35571.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       285.0233
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO FIJO R7",
+      "unidad": "$/mes",
+      "valores": [
+       43435.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
+      "unidad": "$/kWh",
+      "valores": [
+       305.1694
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T2 - Medianas demandas (de 10 kW a menos de 50 kW)",
+    "filas": [
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       56002.69
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       18203.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       12392.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       142.5672
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT -SUMINISTROS EN BAJA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       141.4992
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       84852.52
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       14185.14
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       10670.64
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       139.5018
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT - SUMINISTROS EN MEDIA TENSIÓN",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       138.3008
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3BT - Grandes demandas (50 kW o más), baja tensión",
+    "filas": [
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       54318.06
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       24765.71
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       15203.7
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       45893.41
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       12615.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       5406.55
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       117.5969
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.9777
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       114.6707
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       117.5969
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.9777
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       114.6707
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       124.0227
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       123.6848
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       141.0776
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       137.7976
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       137.4138
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       138.108
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       135.2341
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       134.8901
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       152.9517
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       149.6944
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       149.3
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3MT - Grandes demandas (50 kW o más), media tensión",
+    "filas": [
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       79133.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       19960.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       13145.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/mes",
+      "valores": [
+       69535.94
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA EN PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       9790.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)",
+      "concepto": "CARGO POR POTENCIA FUERA PICO",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4195.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.7286
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       112.1734
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       111.8738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       114.7286
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       112.1734
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       111.8738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DISTRIBUIDORES MUNICIPALES(Alumbrado Público)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       120.9978
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       120.6681
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       137.6367
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       134.4366
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       134.0622
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       134.9925
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       132.181
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros entre 50 y 300kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       131.8533
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
+      "unidad": "$/kWh",
+      "valores": [
+       149.4833
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
+      "unidad": "$/kWh",
+      "valores": [
+       146.3126
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda",
+      "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
+      "unidad": "$/kWh",
+      "valores": [
+       145.9211
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "epen",
+  "detectado": "2026-10-26T15:51:43+00:00",
+  "sha256": "413cf7c398b5bff32be2fa66cd548c2d890e60482f4d27c13c55ff31516c6ad6",
+  "url": "https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf",
+  "titulo": "CT-consumos-09_2026.pdf",
+  "vigencia": "PERÍODO DE FACTURACIÓN OCTUBRE - CONSUMOS SEPTIEMBRE 2026",
+  "tablas": [
+   {
+    "titulo": "T1 Residencial",
+    "filas": [
+     {
+      "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       9940.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       395.196
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       195.632
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       10094.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       370.837
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       173.833
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       11800.72
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       360.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       161.987
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       17861.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       355.156
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       156.351
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       355.156
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       31332.26
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       350.853
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       151.556
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       350.853
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       38202.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       346.605
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       146.818
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       346.605
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       59671.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       341.757
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       141.414
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       341.757
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       28523.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
+      "unidad": "$/KWh",
+      "valores": [
+       424.726
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo (Faya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       9940.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/KWh",
+      "valores": [
+       195.632
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       10094.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/KWh",
+      "valores": [
+       173.833
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       11800.72
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/KWh",
+      "valores": [
+       161.987
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       360.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       17861.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       156.351
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       355.156
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       31332.26
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       151.556
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       350.853
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       38202.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       146.818
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       346.605
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       59671.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       141.414
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+      "unidad": "$/KWh",
+      "valores": [
+       341.757
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-RE-Consumo Mensual Estacional",
+      "concepto": "Bonificación S/T1-E-Residencial Electrodependiente",
+      "unidad": "$/KWh",
+      "valores": [
+       -32.75
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T2 (10 a < 50 kW) — Servi ci o en Ba ja Tens i ón",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
+      "unidad": "$/KW-mes",
+      "valores": [
+       49188.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Ca rgo va ri a bl e por Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       416.293
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T2 (10 a < 50 kW) — Servi ci o en Medi a Tens i ón",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
+      "unidad": "$/KW-mes",
+      "valores": [
+       24799.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Ca rgo va ri a bl e por Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       387.781
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3 (≥ 50 kW) — Servicio en Baja Tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       56707.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       43522.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       373.214
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       368.801
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       381.805
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       373.214
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       368.801
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       381.805
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       67677.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       53478.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       377.281
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       373.323
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       385.606
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3 (≥ 50 kW) — Servicio en Media Tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       27836.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       23043.68
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       343.993
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       348.356
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       343.467
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       350.102
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       349.048
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       357.277
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       23381.2
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       19938.06
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       346.731
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       351.181
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       353.991
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T3 (≥ 50 kW) — Servicio en Alta Tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       20806.62
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       19327.38
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       267.822
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       265.557
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro menor a 300 KW",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       273.647
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       271.498
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       280.496
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       273.097
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       21013.47
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
+      "unidad": "$/KW-mes",
+      "valores": [
+       19849.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas restante",
+      "unidad": "$/KWh",
+      "valores": [
+       310.373
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas valle/nocturno",
+      "unidad": "$/KWh",
+      "valores": [
+       311.135
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Capacidad de suministro igual o mayor a 300 KW Resto",
+      "concepto": "Por consumo de energía en período horas pico",
+      "unidad": "$/KWh",
+      "valores": [
+       312.052
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -1,452 +1,446 @@
-                                                  ANEXO 45
-                                         CUADRO TARIFARIO DE EDEN S.A.
+                                                ANEXO 45
+                                       CUADRO TARIFARIO DE EDEN S.A.
 
-
-   TARIFA APLICABLE A "DEMANDA RESIDENCIAL", "DEMANDA NO RESIDENCIAL HASTA 10 KW", "DEMANDA ALUMBRADO
-   PÚBLICO HASTA 10 KW", "DEMANDA NO RESIDENCIAL ENTRE 10 Y 300 KW" y "GRANDES DEMANDAS GUDIS > = 300 kW"
+ TARIFA APLICABLE A "DEMANDA RESIDENCIAL", "DEMANDA NO RESIDENCIAL HASTA 10 KW", "DEMANDA ALUMBRADO
+ PÚBLICO HASTA 10 KW", "DEMANDA NO RESIDENCIAL ENTRE 10 Y 300 KW" y "GRANDES DEMANDAS GUDIS > = 300 kW"
 
 
 
 T1 - PEQUEÑAS DEMANDAS (menos de 10 kW de demanda)
     T1R - RESIDENCIAL
-       CARGO FIJO R1                                                                                  4.835,87   $/mes
-       CARGO VARIABLE R1        (consumo en kWH-Mes ≤ 100)                                           210,8862    $/kWh
-       CARGO FIJO R2                                                                                  7.427,07   $/mes
-       CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)                                           217,5914    $/kWh
-       CARGO FIJO R3                                                                                10.146,12    $/mes
-       CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)                                           230,6245    $/kWh
-       CARGO FIJO R4                                                                                12.606,84    $/mes
-       CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)                                           240,7838    $/kWh
-       CARGO FIJO R5                                                                                20.249,30    $/mes
-       CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)                                           250,1692    $/kWh
-       CARGO FIJO R6                                                                                32.812,49    $/mes
-       CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)                                          263,7662    $/kWh
-       CARGO FIJO R7                                                                                40.065,37    $/mes
-       CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)                                                 282,3253    $/kWh
+       CARGO FIJO R1                                                                                   5.240,40 $/mes
+       CARGO VARIABLE R1        (consumo en kWH-Mes ≤ 100)                                            227,7806 $/kWh
+       CARGO FIJO R2                                                                                   8.049,70 $/mes
+       CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)                                            235,0049 $/kWh
+       CARGO FIJO R3                                                                                 10.997,62 $/mes
+       CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)                                            249,1032 $/kWh
+       CARGO FIJO R4                                                                                 13.665,46 $/mes
+       CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)                                            260,0835 $/kWh
+       CARGO FIJO R5                                                                                 21.951,19 $/mes
+       CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)                                            270,2730 $/kWh
+       CARGO FIJO R6                                                                                 35.571,83 $/mes
+       CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)                                           285,0233 $/kWh
+       CARGO FIJO R7                                                                                 43.435,19 $/mes
+       CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)                                                  305,1694 $/kWh
     T1RE - RESIDENCIAL ESTACIONAL
-       CARGO FIJO RE1                                                                               19.509,34    $/mes
-       CARGO VARIABLE RE1 (consumo en kWH-Mes ≤ 500)                                                 240,5690    $/kWh
-       CARGO FIJO RE2                                                                               22.099,78    $/mes
-       CARGO VARIABLE RE2 ( 500 < consumo en kWH-Mes ≤ 700)                                          253,9261    $/kWh
-       CARGO FIJO RE3                                                                               24.820,21    $/mes
-       CARGO VARIABLE RE3 ( 700 < consumo en kWH-Mes ≤ 1400)                                         264,5477    $/kWh
-       CARGO FIJO RE4                                                                               27.280,58    $/mes
-       CARGO VARIABLE RE4 (consumo en kWH-Mes > 1400)                                                283,3854    $/kWh
+       CARGO FIJO RE1                                                                                21.131,54 $/mes
+       CARGO VARIABLE RE1 (consumo en kWH-Mes ≤ 500)                                                  261,1283 $/kWh
+       CARGO FIJO RE2                                                                                23.940,02 $/mes
+       CARGO VARIABLE RE2 ( 500 < consumo en kWH-Mes ≤ 700)                                           275,6542 $/kWh
+       CARGO FIJO RE3                                                                                26.889,42 $/mes
+       CARGO VARIABLE RE3 ( 700 < consumo en kWH-Mes ≤ 1400)                                          287,2038 $/kWh
+       CARGO FIJO RE4                                                                                29.556,89 $/mes
+       CARGO VARIABLE RE4 (consumo en kWH-Mes > 1400)                                                 307,6937 $/kWh
     T1G - SERVICIO GENERAL BAJOS CONSUMOS
-       CARGO FIJO GBC                                                                               19.424,56 $/mes
-       CARGO VARIABLE GBC (consumo en kWH-Mes ≤ 1000)                                                298,4997 $/kWh
+       CARGO FIJO GBC                                                                                21.048,95 $/mes
+       CARGO VARIABLE GBC (consumo en kWH-Mes ≤ 1000)                                                 332,7078 $/kWh
     T1G - SERVICIO GENERAL ALTOS CONSUMOS
-       CARGO FIJO GAC1                                                                              96.830,92    $/mes
-       CARGO VARIABLE ( 1000 < consumo en kWH-Mes < 2000)                                            243,3616    $/kWh
-       CARGO FIJO GAC2                                                                             124.547,31    $/mes
-       CARGO VARIABLE ( consumo en kWH-Mes >= 2000)                                                  243,9607    $/kWh
+       CARGO FIJO GAC1                                                                              105.088,12 $/mes
+       CARGO VARIABLE ( 1000 < consumo en kWH-Mes < 2000)                                             272,8155 $/kWh
+       CARGO FIJO GAC2                                                                              135.137,42 $/mes
+       CARGO VARIABLE ( consumo en kWH-Mes >= 2000)                                                   273,4718 $/kWh
     T1GE - SERVICIO GENERAL ESTACIONAL
-       CARGO FIJO GE1                                                                               32.718,32    $/mes
-       CARGO VARIABLE GE1 ( 0 < consumo en kWH-Mes < 2000)                                           290,5327    $/kWh
-       CARGO FIJO GE2                                                                               40.402,28    $/mes
-       CARGO VARIABLE GE2 ( consumo en kWH-Mes >= 2000)                                              329,0884    $/kWh
+       CARGO FIJO GE1                                                                                35.445,88 $/mes
+       CARGO VARIABLE GE1 ( 0 < consumo en kWH-Mes < 2000)                                            325,3564 $/kWh
+       CARGO FIJO GE2                                                                                43.815,73 $/mes
+       CARGO VARIABLE GE2 ( consumo en kWH-Mes >= 2000)                                               367,9353 $/kWh
     T1AP - ALUMBRADO PÚBLICO
-       CARGO FIJO                                                                                    8.472,60 $/factura
-       CARGO VARIABLE                                                                               216,8099 $/kWh
+       CARGO FIJO                                                                                     9.175,69 $/factura
+       CARGO VARIABLE                                                                                244,0304 $/kWh
 
 T2 - MEDIANAS DEMANDAS (de 10 kW a menos de 50 kW de demanda)
    T2BT -SUMINISTROS EN BAJA TENSIÓN
-      CARGO FIJO                                                                                    51.711,45    $/mes
-      CARGO POR POTENCIA EN PICO                                                                    16.722,16    $/kW-mes
-      CARGO POR POTENCIA FUERA PICO                                                                 11.401,10    $/kW-mes
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   125,0918    $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                             123,5126    $/kWh
+      CARGO FIJO                                                                                     56.002,69 $/mes
+      CARGO POR POTENCIA EN PICO                                                                     18.203,50 $/kW-mes
+      CARGO POR POTENCIA FUERA PICO                                                                  12.392,27 $/kW-mes
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    142,5672 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                              141,4992 $/kWh
    T2MT - SUMINISTROS EN MEDIA TENSIÓN
-      CARGO FIJO                                                                                    78.350,64    $/mes
-      CARGO POR POTENCIA EN PICO                                                                    13.015,39    $/kW-mes
-      CARGO POR POTENCIA FUERA PICO                                                                   9.812,97   $/kW-mes
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   122,4179    $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                             120,7319    $/kWh
+      CARGO FIJO                                                                                     84.852,52 $/mes
+      CARGO POR POTENCIA EN PICO                                                                     14.185,14 $/kW-mes
+      CARGO POR POTENCIA FUERA PICO                                                                  10.670,64 $/kW-mes
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    139,5018 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                              138,3008 $/kWh
 
 T3 - GRANDES DEMANDAS
    T3BT - SUMINISTROS EN BAJA TENSIÓN
       SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)
-      CARGO FIJO                                                                                    50.155,90 $/mes
-      CARGO POR POTENCIA EN PICO                                                                    22.753,48 $/kW-mes
-      CARGO POR POTENCIA FUERA PICO                                                                 13.985,08 $/kW-mes
+      CARGO FIJO                                                                                     54.318,06 $/mes
+      CARGO POR POTENCIA EN PICO                                                                     24.765,71 $/kW-mes
+      CARGO POR POTENCIA FUERA PICO                                                                  15.203,70 $/kW-mes
       SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)
-      CARGO FIJO                                                                                    42.376,80 $/mes
-      CARGO POR POTENCIA EN PICO                                                                    11.534,08 $/kW-mes
-      CARGO POR POTENCIA FUERA PICO                                                                  4.943,18 $/kW-mes
+      CARGO FIJO                                                                                     45.893,41 $/mes
+      CARGO POR POTENCIA EN PICO                                                                     12.615,27 $/kW-mes
+      CARGO POR POTENCIA FUERA PICO                                                                   5.406,55 $/kW-mes
    CARGOS VARIABLES
       DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   110,3353 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                  107,2918 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                  105,8741 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    117,5969 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                   114,9777 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                   114,6707 $/kWh
       DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   110,7446 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                  107,6873 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                  106,2642 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    126,9041 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                   124,0227 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                   123,6848 $/kWh
       DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   110,3353 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                  107,2918 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                  105,8741 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    117,5969 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                   114,9777 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                   114,6707 $/kWh
       DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                   110,7446 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                  107,6873 $/kWh
-      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                  106,2642 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                    126,9041 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                   124,0227 $/kWh
+      CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                   123,6848 $/kWh
 
 
 
 
-                                                                   IF-2026-15833682-GDEBA-GMOCEBA
-
-
+                                                                   IF-2026-27778714-GDEBA-GMOCEBA
                                                                Página 1
-                                                                   página 1 de 5
+
+                                                                  página 1 de 5
      DISTRIBUIDORES MUNICIPALES(Alumbrado Público)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                             110,7446 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                            107,6873 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                            106,2642 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                      126,9041 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                     124,0227 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                     123,6848 $/kWh
      DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              110,7446 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             107,6873 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             106,2642 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       126,9041 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      124,0227 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      123,6848 $/kWh
      DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              110,9599 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             107,8952 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             106,4678 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       141,0776 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      137,7976 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      137,4138 $/kWh
      USUARIOS FINALES Suministros entre 50 y 300kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              121,0223 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             117,9720 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             116,5433 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       138,1080 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      135,2341 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      134,8901 $/kWh
      USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              121,8486 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             118,8042 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             117,3670 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       152,9517 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      149,6944 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      149,3000 $/kWh
   T3MT - SUMINISTROS EN MEDIA TENSIÓN
      SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)
-     CARGO FIJO                                                                               73.070,14 $/mes
-     CARGO POR POTENCIA EN PICO                                                               18.317,99 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                            12.085,20 $/kW-mes
+     CARGO FIJO                                                                                        79.133,82 $/mes
+     CARGO POR POTENCIA EN PICO                                                                        19.960,82 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                     13.145,60 $/kW-mes
      SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)
-     CARGO FIJO                                                                               64.207,70 $/mes
-     CARGO POR POTENCIA EN PICO                                                                8.926,61 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             3.825,69 $/kW-mes
+     CARGO FIJO                                                                                        69.535,94 $/mes
+     CARGO POR POTENCIA EN PICO                                                                         9.790,11 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      4.195,76 $/kW-mes
   CARGOS VARIABLES
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              107,6442 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             104,6750 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,2918 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       114,7286 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      112,1734 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      111,8738 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              108,0435 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             105,0608 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,6724 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       123,8089 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      120,9978 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      120,6681 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              107,6442 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             104,6750 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,2918 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       114,7286 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      112,1734 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      111,8738 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              108,0435 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             105,0608 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,6724 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       123,8089 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      120,9978 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      120,6681 $/kWh
      DISTRIBUIDORES MUNICIPALES(Alumbrado Público)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                             108,0435 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                            105,0608 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                            103,6724 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                      123,8089 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                     120,9978 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                     120,6681 $/kWh
      DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              108,0435 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             105,0608 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,6724 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       123,8089 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      120,9978 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      120,6681 $/kWh
      DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              108,2536 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             105,2636 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             103,8710 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       137,6367 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      134,4366 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      134,0622 $/kWh
      USUARIOS FINALES Suministros entre 50 y 300kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                             118,3025 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                            115,3195 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                            113,9329 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                      134,9925 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                     132,1810 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                     131,8533 $/kWh
      USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              119,1169 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             116,1533 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             114,7450 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       149,4833 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      146,3126 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      145,9211 $/kWh
   T3AT - SUMINISTROS EN ALTA TENSIÓN
-     CARGO FIJO                                                                                           $/mes
-     CARGO POR POTENCIA EN PICO                                                                           $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                                        $/kW-mes
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        $/kWh
+     CARGO FIJO                                                                                                 $/mes
+     CARGO POR POTENCIA EN PICO                                                                                 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                              $/kW-mes
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                               $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                              $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                              $/kWh
 
 T4 - PEQUEÑAS DEMANDAS RURALES (menos de 10 kW de potencia)
    T4R- PEQUEÑAS DEMANDAS RURALES RESIDENCIALES
-     CARGO FIJO T4R1                                                                          20.246,79   $/mes
-     CARGO VARIABLE T4R1 (consumo en kWH-Mes ≤ 500)                                            203,9161   $/kWh
-     CARGO FIJO T4R2                                                                          27.261,76   $/mes
-     CARGO VARIABLE T4R2 ( 500 < consumo en kWH-Mes ≤ 700)                                     212,1171   $/kWh
-     CARGO FIJO T4R3                                                                          34.539,76   $/mes
-     CARGO VARIABLE T4R3 ( 700 < consumo en kWH-Mes ≤ 1400)                                    218,2725   $/kWh
-     CARGO FIJO T4R4                                                                          39.171,41   $/mes
-     CARGO VARIABLE T4R4        (consumo en kWH-Mes > 1400)                                    231,1630   $/kWh
+     CARGO FIJO T4R1                                                                                   21.931,11 $/mes
+     CARGO VARIABLE T4R1 (consumo en kWH-Mes ≤ 500)                                                     220,6827 $/kWh
+     CARGO FIJO T4R2                                                                                   29.536,36 $/mes
+     CARGO VARIABLE T4R2 ( 500 < consumo en kWH-Mes ≤ 700)                                              229,5851 $/kWh
+     CARGO FIJO T4R3                                                                                   37.426,77 $/mes
+     CARGO VARIABLE T4R3 ( 700 < consumo en kWH-Mes ≤ 1400)                                             236,2712 $/kWh
+     CARGO FIJO T4R4                                                                                   42.448,15 $/mes
+     CARGO VARIABLE T4R4        (consumo en kWH-Mes > 1400)                                             250,2679 $/kWh
   T4NR- PEQUEÑAS DEMANDAS RURALES NO RESIDENCIALES
-     CARGO FIJO T4NR1                                                                         20.246,79   $/mes
-     CARGO VARIABLE T4NR1 (consumo en kWH-Mes ≤ 500)                                           211,4657   $/kWh
-     CARGO FIJO T4NR2                                                                         27.261,76   $/mes
-     CARGO VARIABLE T4NR2 ( 500 < consumo en kWH-Mes ≤ 700)                                    221,0700   $/kWh
-     CARGO FIJO T4NR3                                                                         34.539,76   $/mes
-     CARGO VARIABLE T4NR3 ( 700 < consumo en kWH-Mes ≤ 1400)                                   228,5759   $/kWh
-     CARGO FIJO T4NR4                                                                         39.171,41   $/mes
-     CARGO VARIABLE T4NR4        (consumo en kWH-Mes > 1400)                                   243,9351   $/kWh
+     CARGO FIJO T4NR1                                                                                  21.931,11 $/mes
+     CARGO VARIABLE T4NR1 (consumo en kWH-Mes ≤ 500)                                                    237,6421 $/kWh
+     CARGO FIJO T4NR2                                                                                  29.536,36 $/mes
+     CARGO VARIABLE T4NR2 ( 500 < consumo en kWH-Mes ≤ 700)                                             248,0820 $/kWh
+     CARGO FIJO T4NR3                                                                                  37.426,77 $/mes
+     CARGO VARIABLE T4NR3 ( 700 < consumo en kWH-Mes ≤ 1400)                                            256,2479 $/kWh
+     CARGO FIJO T4NR4                                                                                  42.448,15 $/mes
+     CARGO VARIABLE T4NR4        (consumo en kWH-Mes > 1400)                                            272,9496 $/kWh
 
 
 
 
-                                                                         IF-2026-15833682-GDEBA-GMOCEBA
+                                                                      IF-2026-27778714-GDEBA-GMOCEBA
+                                                                  Página 2
 
-
-                                                                     Página 2
-                                                                         página 2 de 5
-      TABLA DE PERDIDAS DE TRANSFORMACION CLIENTES RURALES
-       5 KVA monofásico                                                                             27 kWh/mes
-       10 KVA monofásico                                                                            43 kWh/mes
-       15 KVA monofásico                                                                            52 kWh/mes
-       16 KVA monofásico                                                                            57 kWh/mes
-       10 KVA trifásico                                                                             70 kWh/mes
-       15 KVA trifásico                                                                             86 kWh/mes
-       16 KVA trifásico                                                                             91 kWh/mes
-       20 KVA trifásico                                                                            108 kWh/mes
-       25 KVA trifásico                                                                            124 kWh/mes
-       30 KVA trifásico                                                                            136 kWh/mes
-       40 KVA trifásico                                                                            166 kWh/mes
-       50 KVA trifásico                                                                            186 kWh/mes
-       63 KVA trifásico                                                                            216 kWh/mes
-      100 KVA trifásico                                                                            251 kWh/mes
+                                                                       página 2 de 5
+     TABLA DE PERDIDAS DE TRANSFORMACION CLIENTES RURALES
+      5 KVA monofásico                                                                                       27 kWh/mes
+      10 KVA monofásico                                                                                      43 kWh/mes
+      15 KVA monofásico                                                                                      52 kWh/mes
+      16 KVA monofásico                                                                                      57 kWh/mes
+      10 KVA trifásico                                                                                       70 kWh/mes
+      15 KVA trifásico                                                                                       86 kWh/mes
+      16 KVA trifásico                                                                                       91 kWh/mes
+      20 KVA trifásico                                                                                      108 kWh/mes
+      25 KVA trifásico                                                                                      124 kWh/mes
+      30 KVA trifásico                                                                                      136 kWh/mes
+      40 KVA trifásico                                                                                      166 kWh/mes
+      50 KVA trifásico                                                                                      186 kWh/mes
+      63 KVA trifásico                                                                                      216 kWh/mes
+     100 KVA trifásico                                                                                      251 kWh/mes
 
 T5 - SERVICIO DE PEAJE
   T5BT - SUMINISTROS EN BAJA TENSIÓN
      SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)
-     CARGO FIJO                                                                               10.662,26 $/mes
-     CARGO POR POTENCIA EN PICO                                                               17.597,67 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                            10.456,32 $/kW-mes
+     CARGO FIJO                                                                                        11.547,06 $/mes
+     CARGO POR POTENCIA EN PICO                                                                        19.069,97 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                     11.334,08 $/kW-mes
      SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)
-     CARGO FIJO                                                                                8.477,66 $/mes
-     CARGO POR POTENCIA EN PICO                                                                5.830,84 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             2.662,65 $/kW-mes
+     CARGO FIJO                                                                                         9.181,17 $/mes
+     CARGO POR POTENCIA EN PICO                                                                         6.326,66 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      2.888,73 $/kW-mes
   CARGOS VARIABLES
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8313 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6428 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5551 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         7,2809 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        7,1187 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        7,0997 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8566 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6673 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5792 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         7,8571 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        7,6787 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        7,6578 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8313 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6428 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5551 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         7,2809 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        7,1187 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        7,0997 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8566 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6673 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5792 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         7,8571 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        7,6787 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        7,6578 $/kWh
      DISTRIBUIDORES MUNICIPALES(Alumbrado Público)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               6,8566 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                              6,6673 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                              6,5792 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                        7,8571 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                       7,6787 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                       7,6578 $/kWh
      DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8566 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6673 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5792 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         7,8571 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        7,6787 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        7,6578 $/kWh
      DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                6,8699 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               6,6802 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               6,5918 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         8,7346 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        8,5316 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        8,5078 $/kWh
      USUARIOS FINALES Suministros entre 50 y 300kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              12,6189 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             12,4293 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             12,3428 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       14,1708 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      13,9921 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      13,9729 $/kWh
      USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               13,3115 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                              13,1767 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                              13,0932 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                        15,7925 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                       15,6497 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                       15,6313 $/kWh
   T5MT - SUMINISTROS EN MEDIA TENSIÓN
      SUMINISTROS >= a 50 kW de demanda (Usuarios Finales)
-     CARGO FIJO                                                                               16.065,53 $/mes
-     CARGO POR POTENCIA EN PICO                                                               11.074,25 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             7.651,55 $/kW-mes
+     CARGO FIJO                                                                                        17.398,72 $/mes
+     CARGO POR POTENCIA EN PICO                                                                        11.999,75 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      8.294,22 $/kW-mes
      SUMINISTROS >= a 50 kW de demanda (Distribuidores Municipales)
-     CARGO FIJO                                                                               12.841,79 $/mes
-     CARGO POR POTENCIA EN PICO                                                                3.585,50 $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             1.536,52 $/kW-mes
+     CARGO FIJO                                                                                        13.907,46 $/mes
+     CARGO POR POTENCIA EN PICO                                                                         3.895,00 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      1.669,15 $/kW-mes
   CARGOS VARIABLES
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4R.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1402 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0260 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9728 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         4,4126 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        4,3144 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        4,3028 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW T4NR.)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1555 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0408 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9874 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         4,7619 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        4,6538 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        4,6411 $/kWh
 
 
 
 
-                                                                         IF-2026-15833682-GDEBA-GMOCEBA
+                                                                      IF-2026-27778714-GDEBA-GMOCEBA
+                                                                  Página 3
 
-
-                                                                     Página 3
-                                                                         página 3 de 5
+                                                                       página 3 de 5
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.Residenciales)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1402 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0260 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9728 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         4,4126 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        4,3144 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        4,3028 $/kWh
      DISTRIBUIDORES MUNICIPALES(Usuarios finales < a 10 kW.No Res)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1555 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0408 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9874 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         4,7619 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        4,6538 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        4,6411 $/kWh
      DISTRIBUIDORES MUNICIPALES(Alumbrado Público)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               4,1555 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                              4,0408 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                              3,9874 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                        4,7619 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                       4,6538 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                       4,6411 $/kWh
      DIST. MUNICIPALES (Usuarios finales Suministros entre 10 y 300kW de Demanda)
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1555 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0408 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9874 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         4,7619 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        4,6538 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        4,6411 $/kWh
      DIST. MUNICIPALES ( Usuarios Finales Suministros Mayor o igual a 300 kW de Demanda )
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                4,1636 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                               4,0486 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                               3,9950 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         5,2937 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        5,1706 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        5,1562 $/kWh
      USUARIOS FINALES Suministros entre 50 y 300kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               9,9355 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                              9,8164 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                              9,7688 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       11,0948 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      10,9819 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      10,9755 $/kWh
      USUARIOS FINALES Suministros Mayor o igual a 300 kW de Demanda
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                              10,6108 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                             10,5481 $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                             10,4924 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                       12,3578 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                      12,2921 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                      12,2753 $/kWh
   T5AT - SUMINISTROS EN ALTA TENSIÓN
-     CARGO FIJO                                                                                           $/mes
-     CARGO POR POTENCIA EN PICO                                                                           $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                                        $/kW-mes
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                         $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                        $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                        $/kWh
+     CARGO FIJO                                                                                                    $/mes
+     CARGO POR POTENCIA EN PICO                                                                                    $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                                 $/kW-mes
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                                  $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO                                                                 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE                                                                 $/kWh
 
 T6 - SERVICIO DE PEAJE A USUARIOS DE MEDIANAS DEMANDAS
 
   T6BT - SUMINISTROS EN BAJA TENSIÓN
-     CARGO FIJO                                                                               27.168,25   $/mes
-     CARGO POR POTENCIA EN PICO                                                                7.129,46   $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             3.442,42   $/kW-mes
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               16,9831   $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                         16,8360   $/kWh
+     CARGO FIJO                                                                                        29.422,80 $/mes
+     CARGO POR POTENCIA EN PICO                                                                         7.727,01 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      3.735,54 $/kW-mes
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                        18,9492 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                                  18,8300 $/kWh
 
   T6MT - SUMINISTROS EN MEDIA TENSIÓN
-     CARGO FIJO                                                                               53.821,37   $/mes
-     CARGO POR POTENCIA EN PICO                                                                4.268,68   $/kW-mes
-     CARGO POR POTENCIA FUERA PICO                                                             2.214,88   $/kW-mes
-     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                               14,3069   $/kWh
-     CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                         14,0951   $/kWh
+     CARGO FIJO                                                                                        58.287,70 $/mes
+     CARGO POR POTENCIA EN PICO                                                                         4.627,83 $/kW-mes
+     CARGO POR POTENCIA FUERA PICO                                                                      2.405,71 $/kW-mes
+     CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO                                                        15,8813 $/kWh
+     CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO                                                  15,6746 $/kWh
 
 RECARGOS POR BAJO COSENO DE FI
 
-      SUMINISTROS EN BAJA TENSIÓN                                                               27,5491 $/kvarh
-      SUMINISTROS EN MEDIA TENSIÓN                                                              27,5491 $/kvarh
-      SUMINISTROS EN ALTA TENSIÓN                                                               27,5491 $/kvarh
+     SUMINISTROS EN BAJA TENSIÓN                                                                         29,8352 $/kvarh
+     SUMINISTROS EN MEDIA TENSIÓN                                                                        29,8352 $/kvarh
+     SUMINISTROS EN ALTA TENSIÓN                                                                         29,8352 $/kvarh
 
 SERVICIO DE REHABILITACION
 
   PARA SERVICIO INTERRUMPIDO POR FALTA DE PAGO
-     TARIFA T1R                                                                                5.087,45   $
-     TARIFA T1RE                                                                               7.624,40   $
-     TARIFA T1G BC y AC                                                                       30.021,92   $
-     TARIFA T1GE                                                                              30.021,92   $
-     TATIFA 1AP                                                                               30.021,92   $
-     TARIFAS 2                                                                                73.793,10   $
-     TARIFAS 3                                                                                92.236,94   $
-     TARIFA 4                                                                                 30.021,92   $
+     TARIFA T1R                                                                                         5.509,63   $
+     TARIFA T1RE                                                                                        8.257,11   $
+     TARIFA T1G BC y AC                                                                                32.513,27   $
+     TARIFA T1GE                                                                                       32.513,27   $
+     TATIFA 1AP                                                                                        32.513,27   $
+     TARIFAS 2                                                                                         79.916,78   $
+     TARIFAS 3                                                                                         99.891,17   $
+     TARIFA 4                                                                                          32.513,27   $
 
 CARGO POR SERVICIO DE CONEXION
 
   CONEXIONES AEREAS
 
-      MONOFASICAS
+     MONOFASICAS
 
-      TARIFA T1R                                                                              40.483,07   $
-      TARIFA T1RE                                                                             43.060,71   $
-      TARIFA T1G BC                                                                           48.702,89   $
-      TARIFA T1G AC                                                                           48.702,89   $
-      TARIFA T1GE                                                                             69.042,41   $
-      TATIFA 1AP                                                                              48.702,89   $
-      TARIFAS 2                                                                                     -     $
-      TARIFAS 3                                                                                     -     $
-      TARIFA 4                                                                                53.822,61   $
-
-
+     TARIFA T1R                                                                                        43.842,54   $
+     TARIFA T1RE                                                                                       46.634,08   $
+     TARIFA T1G BC                                                                                     52.744,47   $
+     TARIFA T1G AC                                                                                     52.744,47   $
+     TARIFA T1GE                                                                                       74.771,86   $
+     TATIFA 1AP                                                                                        52.744,47   $
+     TARIFAS 2                                                                                               -     $
+     TARIFAS 3                                                                                               -     $
+     TARIFA 4                                                                                          58.289,05   $
 
 
-                                                                         IF-2026-15833682-GDEBA-GMOCEBA
 
 
-                                                                     Página 4
-                                                                         página 4 de 5
+                                                                      IF-2026-27778714-GDEBA-GMOCEBA
+                                                                  Página 4
+
+                                                                       página 4 de 5
      TRIFASICAS
 
-     TARIFA T1R                                                            92.430,11   $
-     TARIFA T1RE                                                          116.556,34   $
-     TARIFA T1G BC                                                        148.256,93   $
-     TARIFA T1G AC                                                        148.256,93   $
-     TARIFA T1GE                                                          186.936,92   $
-     TATIFA 1AP                                                           148.256,93   $
-     TARIFAS 2                                                            222.717,95   $
-     TARIFAS 3                                                            334.077,39   $
-     TARIFA 4                                                             145.658,24   $
+     TARIFA T1R                                                                        100.100,37   $
+     TARIFA T1RE                                                                       126.228,71   $
+     TARIFA T1G BC                                                                     160.559,95   $
+     TARIFA T1G AC                                                                     160.559,95   $
+     TARIFA T1GE                                                                       202.449,78   $
+     TATIFA 1AP                                                                        160.559,95   $
+     TARIFAS 2                                                                         241.200,07   $
+     TARIFAS 3                                                                         361.800,61   $
+     TARIFA 4                                                                          157.745,61   $
 
   CONEXIONES SUBTERRANEAS
 
      MONOFASICAS
 
-     TARIFA T1R                                                            92.430,11   $
-     TARIFA T1RE                                                          116.556,34   $
-     TARIFA T1G BC                                                        148.256,93   $
-     TARIFA T1G AC                                                        148.256,93   $
-     TARIFA T1GE                                                          186.936,92   $
-     TATIFA 1AP                                                           148.256,93   $
-     TARIFAS 2                                                                   -     $
-     TARIFAS 3                                                                   -     $
-     TARIFA 4                                                             145.658,24   $
+     TARIFA T1R                                                                        100.100,37   $
+     TARIFA T1RE                                                                       126.228,71   $
+     TARIFA T1G BC                                                                     160.559,95   $
+     TARIFA T1G AC                                                                     160.559,95   $
+     TARIFA T1GE                                                                       202.449,78   $
+     TATIFA 1AP                                                                        160.559,95   $
+     TARIFAS 2                                                                                -     $
+     TARIFAS 3                                                                                -     $
+     TARIFA 4                                                                          157.745,61   $
 
      TRIFASICAS
 
-     TARIFA T1R                                                           122.497,40   $
-     TARIFA T1RE                                                          141.054,42   $
-     TARIFA T1G BC                                                        196.437,37   $
-     TARIFA T1G AC                                                        196.437,37   $
-     TARIFA T1GE                                                          226.205,31   $
-     TATIFA 1AP                                                           196.437,37   $
-     TARIFAS 2                                                            315.519,43   $
-     TARIFAS 3                                                            475.132,27   $
-     TARIFA 4                                                             176.320,01   $
+     TARIFA T1R                                                                        132.662,77   $
+     TARIFA T1RE                                                                       152.759,74   $
+     TARIFA T1G BC                                                                     212.738,61   $
+     TARIFA T1G AC                                                                     212.738,61   $
+     TARIFA T1GE                                                                       244.976,83   $
+     TATIFA 1AP                                                                        212.738,61   $
+     TARIFAS 2                                                                         341.702,63   $
+     TARIFAS 3                                                                         514.560,86   $
+     TARIFA 4                                                                          190.951,83   $
 
   CARGOS POR CONTRASTE DE MEDIDORES DE ENERGIA
      MONOFASICO
-     Pequeñas in situ                                                       6.199,71   $
-     Pequeñas en Laboratorio                                                7.749,75   $
-     TRIFASICO                                                                   -
-     Pequeñas in situ                                                       9.298,86   $
-     Pequeñas en Laboratorio                                               13.948,99   $
-     Medianas y grandes demandas in situ                                   34.441,46   $
-     Medianas y grandes demandas en Laboratorio                            46.496,63   $
+     Pequeñas in situ                                                                    6.714,19   $
+     Pequeñas en Laboratorio                                                             8.392,86   $
+     TRIFASICO                                                                                -
+     Pequeñas in situ                                                                   10.070,52   $
+     Pequeñas en Laboratorio                                                            15.106,54   $
+     Medianas y grandes demandas in situ                                                37.299,56   $
+     Medianas y grandes demandas en Laboratorio                                         50.355,12   $
 
 
 
 COSTO DE LA ENERGIA NO SUMINISTRADA
-     CENS T1                                                                2.108,86 $/kWh
-     CENS T2 y T3                                                           5.567,03 $/kWh
+     CENS T1                                                                             2.277,81 $/kWh
+     CENS T2 y T3                                                                        6.352,97 $/kWh
 
 
 
 
-                                                      IF-2026-15833682-GDEBA-GMOCEBA
-
-
+                                                      IF-2026-27778714-GDEBA-GMOCEBA
                                                   Página 5
-                                                      página 5 de 5
+
+                                                     página 5 de 5
                         GOBIERNO DE LA PROVINCIA DE BUENOS AIRES
    2026 - "Año de los Derechos Humanos por la Memoria, la Verdad y la Justicia. A 50 años de la última
                                       Dictadura cívico militar"
@@ -454,12 +448,12 @@ COSTO DE LA ENERGIA NO SUMINISTRADA
                                                             Hoja Adicional de Firmas
                                                                      Anexo
 
-Número: IF-2026-15833682-GDEBA-GMOCEBA
+Número: IF-2026-27778714-GDEBA-GMOCEBA
 
                                                                                        LA PLATA, BUENOS AIRES
-                                                                                         Viernes 8 de Mayo de 2026
+                                                                                        Viernes 7 de Agosto de 2026
 
-Referencia: 45_ANEXO 45 EDEN Residencial resto y pleno
+Referencia: 45_ANEXO 45 EDEN Residencial pleno y resto
 
 
 El documento fue importado por el sistema GEDO con un total de 5 pagina/s.
@@ -467,7 +461,7 @@ El documento fue importado por el sistema GEDO con un total de 5 pagina/s.
 Digitally signed by GDE BUENOS AIRES
 DN: cn=GDE BUENOS AIRES, c=AR, o=MINISTERIO DE GOBIERNO BS.AS.,
 ou=SUBSECRETARIA DE GOBIERNO DIGITAL, serialNumber=CUIT 30715124234
-Date: 2026.05.08 09:37:01 -03'00'
+Date: 2026.08.07 13:27:38 -03'00'
 
 CELINA RAQUEL CADENASSO
 Jefe de Área
@@ -481,5 +475,5 @@ Organismo de Control de la Energía Eléctrica de Buenos Aires
                                                                                             DN: cn=GDE BUENOS AIRES, c=AR, o=MINISTERIO DE
                                                                                             GOBIERNO BS.AS., ou=SUBSECRETARIA DE
                                                                                             GOBIERNO DIGITAL, serialNumber=CUIT 30715124234
-                                                                                            Date: 2026.05.08 09:37:01 -03'00'
+                                                                                            Date: 2026.08.07 13:27:38 -03'00'
 

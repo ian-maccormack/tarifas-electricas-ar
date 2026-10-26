@@ -1,7 +1,6 @@
-                                                                                                                                        CUADRO TARIFARIO
-                                                                                                                   Resolución Ministerial N° 045/2026 (RESOL-2026-45-E-NEU-MERN)
-                                                                                                                    PERÍODO DE FACTURACIÓN SEPTIEMBRE - CONSUMOS AGOSTO 2026
-
+                                                                                                                                            CUADRO TARIFARIO
+                                                                                                       Resolución Ministerial N°048/2026 (RESOL-2026-48-E-NEU-MERN)
+                                                                                                                                   PERÍODO DE FACTURACIÓN OCTUBRE - CONSUMOS SEPTIEMBRE 2026
 
                        Los precios indicados no incluyen IVA ni demás tributos e impuestos establecidos en la legislación vigente.
      TARIFA Nº 1 - PEQUEÑAS DEMANDAS RESIDENCIALES (CAPACIDADES DE SUMINISTRO INFERIORES A 10 kW)- ESTACIONALES Y ELECTRODEPENDIENTES
@@ -76,101 +75,101 @@ TARIFA Nº 2 - MEDIANAS DEMANDAS (CAPACIDADES DE SUMINISTRO DESDE 10 kW E INFERI
 TARIFA Nº 1 - PEQUEÑAS DEMANDAS RESIDENCIALES (CAPACIDADES
                DE SUMINISTRO INFERIORES A 10 kW)
 
-Tarifa Nº 1 - (Pequeñas Demandas)                                                Redondeo
+Tarifa Nº 1 - (Pequeñas Demandas)                                                 Redondeo
    Potencias Inferiores a 10 KW
   T1-R-Uso Residencial
 
-  T1-R1-Consumo mensual inferior o igual a 50 KWh                                                   Unidad
-       Cargo fijo                                                                       10.185,04   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         395,027    $/KWh
-       Cargo variable por energía - CON SUBSIDIO                                         194,719    $/KWh
+  T1-R1-Consumo mensual inferior o igual a 50 KWh                                                       Unidad
+       Cargo fijo                                                                            9.940,22   $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                             395,196    $/KWh
+       Cargo variable por energía - CON SUBSIDIO                                             195,632    $/KWh
 
   T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh
-       Cargo fijo                                                                       10.338,88   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         370,668    $/KWh
-       Cargo variable por energía - CON SUBSIDIO                                         172,920    $/KWh
+       Cargo fijo                                                                        10.094,07      $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                          370,837       $/KWh
+       Cargo variable por energía - CON SUBSIDIO                                          173,833       $/KWh
 
   T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh
-       Cargo fijo                                                                       12.045,53   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         360,041    $/KWh
-       Cargo variable por energía - CON SUBSIDIO                                         161,074    $/KWh
+       Cargo fijo                                                                        11.800,72      $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                          360,210       $/KWh
+       Cargo variable por energía - CON SUBSIDIO                                          161,987       $/KWh
 
   T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh
-       Cargo fijo                                                                       18.106,21   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         354,987    $/KWh
-       Cargo variable por energía - CON SUBSIDIO primeros 300 KWh                        155,438    $/KWh
-       Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh                    354,987    $/KWh
+       Cargo fijo                                                                        17.861,40      $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                          355,156       $/KWh
+       Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                         156,351       $/KWh
+       Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                     355,156       $/KWh
 
   T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh
-       Cargo fijo                                                                       31.577,07   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         350,684    $/KWh
-       Cargo variable por energía - CON SUBSIDIO primeros 300 KWh                        150,643    $/KWh
-       Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh                    350,684    $/KWh
+       Cargo fijo                                                                        31.332,26      $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                          350,853       $/KWh
+       Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                         151,556       $/KWh
+       Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                     350,853       $/KWh
 
   T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh
-       Cargo fijo                                                                       38.447,30   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         346,436    $/KWh
-       Cargo variable por energía - CON SUBSIDIO primeros 300 KWh                        145,905    $/KWh
-       Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh                    346,436    $/KWh
+       Cargo fijo                                                                        38.202,48      $/mes
+       Cargo variable por energía - SIN SUBSIDIO                                          346,605       $/KWh
+       Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                         146,818       $/KWh
+       Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                     346,605       $/KWh
 
   T1-R7-Consumo mensual mayor a 1400 KWh
-       Cargo fijo                                                                       59.915,94   $/mes
-       Cargo variable por energía - SIN SUBSIDIO                                         341,588    $/KWh
-       Cargo variable por energía - CON SUBSIDIO primeros 300 KWh                        140,501    $/KWh
-       Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh                    341,588    $/KWh
+        Cargo fijo                                                                       59.671,13      $/mes
+        Cargo variable por energía - SIN SUBSIDIO                                         341,757       $/KWh
+        Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                        141,414       $/KWh
+        Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                    341,757       $/KWh
 
 
 
 
-                                               VOLVER AL ÍNDICE
+                                                VOLVER AL ÍNDICE
 
 
 
 
-                                                              VOLVER AL ÍNDICE
+                                                               VOLVER AL ÍNDICE
 TARIFA Nº 1 - PEQUEÑAS DEMANDAS RESIDENCIALES (CAPACIDADES
                DE SUMINISTRO INFERIORES A 10 kW)
 
  T1-RE-Consumo Mensual Estacional
-      Cargo fijo (haya o no consumo)                                                           28.768,42     $/mes
-      Cargo variable por energía - SIN SUBSIDIO                                                 424,557      $/KWh
+      Cargo fijo (haya o no consumo)                                                28.523,61   $/mes
+      Cargo variable por energía - SIN SUBSIDIO                                      424,726    $/KWh
 
 
  T1-E-Residencial Electrodependiente
  T1-E1-Consumo mensual inferior o igual a 50 KWh
-       Cargo fijo (Faya o no consumo)                                                          10.185,04     $/mes
-       Cargo variable por energía                                                               194,719      $/KWh
+       Cargo fijo (Faya o no consumo)                                                9.940,22   $/mes
+       Cargo variable por energía                                                    195,632    $/KWh
 
  T1-E2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh
-      Cargo fijo                                                                               10.338,88     $/mes
-      Cargo variable por energía                                                                172,920      $/KWh
+      Cargo fijo                                                                    10.094,07   $/mes
+      Cargo variable por energía                                                     173,833    $/KWh
 
  T1-E3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh
-      Cargo fijo                                                                               12.045,53     $/mes
-      Cargo variable por energía                                                                161,074      $/KWh
+      Cargo fijo                                                                    11.800,72   $/mes
+      Cargo variable por energía                                                     161,987    $/KWh
+      Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                 360,210    $/KWh
 
  T1-E4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh
-      Cargo fijo                                                                               18.106,21     $/mes
-      Cargo variable por energía - primeros 300 KWh                                             155,438      $/KWh
-      Cargo variable por energía - excedente de 300 KWh                                         354,987      $/KWh
+      Cargo fijo                                                                    17.861,40   $/mes
+      Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                     156,351    $/KWh
+      Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                 355,156    $/KWh
 
  T1-E5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh
-      Cargo fijo                                                                               31.577,07     $/mes
-      Cargo variable por energía - primeros 300 KWh                                             150,643      $/KWh
-      Cargo variable por energía - excedente de 300 KWh                                         350,684      $/KWh
+      Cargo fijo                                                                    31.332,26   $/mes
+      Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                     151,556    $/KWh
+      Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                 350,853    $/KWh
 
  T1-E6 -Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh
-      Cargo fijo                                                                               38.447,30   $/mes
-      Cargo variable por energía - primeros 300 KWh                                             145,905 $/KWh
-      Cargo variable por energía - excedente de 300 KWh                                         346,436 $/KWh
+      Cargo fijo                                                                    38.202,48   $/mes
+      Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                     146,818 $/KWh
+      Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                 346,605 $/KWh
 
  T1-E7-Consumo mensual mayor a 1400 KWh
-      Cargo fijo                                                                               59.915,94 $/mes
-      Cargo variable por energía - primeros 300 KWh                                             140,501 $/KWh
-      Cargo variable por energía - excedente de 300 KWh                                         341,588 $/KWh
+      Cargo fijo                                                                    59.671,13 $/mes
+      Cargo variable por energía - CON SUBSIDIO primeros 200 KWh                     141,414 $/KWh
+      Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh                 341,757 $/KWh
 
-      Bonificación S/T1-E-Residencial Electrodependiente                                          -31,943 $/KWh
-                                                                                    Cargo Variable - S/Resol. Nº 204/2017 ME
+      Bonificación S/T1-E-Residencial Electrodependiente                              -32,750 $/KWh
 
 
 
@@ -186,25 +185,25 @@ Tarifa Nº 1 - (Pequeñas Demandas)                                             
 
 T1-G-Uso General
 T1-G1-Consumo mensual inferior o igual a 250 KWh
-     Cargo fijo (haya o no consumo)                                            18.315,68 $/mes
-     Cargo variable por energía                                                 501,268 $/KWh
+     Cargo fijo (haya o no consumo)                                            17.703,65 $/mes
+     Cargo variable por energía                                                 514,859 $/KWh
 
 T1-G2-Consumo mensual mayor a 250 KWh e inferior o igual a 1000 KWh
-     Cargo fijo                                                                50.834,26 $/mes
-     Cargo variable por energía                                                 425,474 $/KWh
+     Cargo fijo                                                                50.222,22 $/mes
+     Cargo variable por energía                                                 439,065 $/KWh
 
 T1-G3-Consumo mensual mayor a 1000 KWh e inferior o igual a 2000 KWh
-     Cargo fijo                                                                98.254,49 $/mes
-     Cargo variable por energía                                                 386,685 $/KWh
+     Cargo fijo                                                                97.642,46 $/mes
+     Cargo variable por energía                                                 400,276 $/KWh
 
 T1-G4-Consumo mensual mayor a 2000 KWh
-     Cargo fijo                                                               166.717,55 $/mes
-     Cargo variable por energía                                                 381,460 $/KWh
+     Cargo fijo                                                               166.105,51 $/mes
+     Cargo variable por energía                                                 395,051 $/KWh
 
 
 T1-AP-Alumbrado Público
 T1-AP-Consumo mensual
-     Cargo variable por Energía                                                 521,861 $/KWh
+     Cargo variable por Energía                                                 535,452 $/KWh
 
 
 
@@ -224,42 +223,42 @@ T1- Ent i da de s B i e n P úbl i c o - C ON S U B S I D I O
 
 T1-B.P.1-Consumo mensual inf erior o igual a 50 KWh
 
-    Cargo f ijo                                                                              10.185,04   $/ mes
-    Cargo variable por energí a                                                                194,719   $/ KWh
+    Cargo f ijo                                                                               9.940,22   $/ mes
+    Cargo variable por energí a                                                               195,632    $/ KWh
 
 T1-B.P.2-Consumo mensual mayor a 50 KWh e inf erior o igual a 100 KWh
 
-    Cargo f ijo                                                                              10.338,88   $/ mes
-    Cargo variable por energí a                                                               172,920    $/ KWh
+    Cargo f ijo                                                                              10.094,07   $/ mes
+    Cargo variable por energí a                                                               173,833    $/ KWh
 
 
 T1-B.P.3-Consumo mensual mayor a 100 KWh e inf erior o igual a 250 KWh
 
-    Cargo f ijo                                                                              12.045,53   $/ mes
-    Cargo variable por energí a                                                                161,074   $/ KWh
+    Cargo f ijo                                                                              11.800,72   $/ mes
+    Cargo variable por energí a                                                                161,987   $/ KWh
 
 T1-B.P.4-Consumo mensual mayor a 250 KWh e inf erior o igual a 500 KWh
 
-    Cargo f ijo                                                                              18.106,21   $/ mes
-    Cargo variable por energí a                                                               155,438    $/ KWh
+    Cargo f ijo                                                                              17.861,40   $/ mes
+    Cargo variable por energí a                                                                156,351   $/ KWh
 
 
 T1-B.P.5-Consumo mensual mayor a 500 KWh e inf erior a 700 KWh
 
-    Cargo f ijo                                                                              31.577,07   $/ mes
-    Cargo variable por energí a                                                               150,643    $/ KWh
+    Cargo f ijo                                                                              31.332,26   $/ mes
+    Cargo variable por energí a                                                                151,556   $/ KWh
 
 
 T1-B.P.6-Consumo mensual mayor a 700 KWh e inf erior o igual a 1400 KWh
 
-    Cargo f ijo                                                                              38.447,30   $/ mes
-    Cargo variable por energí a                                                               145,905    $/ KWh
+    Cargo f ijo                                                                              38.202,48   $/ mes
+    Cargo variable por energí a                                                                146,818   $/ KWh
 
 
 T1-B.P.7-Consumo mensual mayor a 1400 KWh
 
-    Cargo f ijo                                                                              59.915,94   $/ mes
-    Cargo variable por energí a                                                                140,501   $/ KWh
+    Cargo f ijo                                                                              59.671,13   $/ mes
+    Cargo variable por energí a                                                                141,414   $/ KWh
 
 
 
@@ -292,15 +291,16 @@ TAMAÑO 4       62.245,63             -33.612,64   373.473,78   -201.675,84
 TARIFA Nº 2 - MEDIANAS DEMANDAS (CAPACIDADES DE SUMINISTRO DESDE
                      10 kW E INFERIORES A 50 kW)
 
+
 Tarifa Nº 2 - (Medianas Demandas)
    Capacidad de suministro iguales o superiores a 10 KW e inferiores a 50 KW
    Servi ci o en Ba ja Tens i ón
-          Por ca pa ci da d de s umi ni s tro contra ta da                                    49.800,44 $/KW-mes
-          Ca rgo va ri a bl e por Energía                                                       402,702 $/KWh
+          Por ca pa ci da d de s umi ni s tro contra ta da                                    49.188,40 $/KW-mes
+          Ca rgo va ri a bl e por Energía                                                       416,293 $/KWh
 
   Servi ci o en Medi a Tens i ón
-         Por ca pa ci da d de s umi ni s tro contra ta da                                     25.411,30 $/KW-mes
-         Ca rgo va ri a bl e por Energía                                                        361,041 $/KWh
+         Por ca pa ci da d de s umi ni s tro contra ta da                                     24.799,27 $/KW-mes
+         Ca rgo va ri a bl e por Energía                                                        387,781 $/KWh
 
 
 
@@ -314,44 +314,45 @@ Tarifa Nº 2 - (Medianas Demandas)
 TARIFA Nº 3 - GRANDES DEMANDAS (CAPACIDADES DE SUMINISTRO IGUALES
                         O SUPERIORES A 50 kW)
 
+Capacidad de suministro iguales o superiores a 50 KW
 Servicio en Baja Tensión
-      Por capacidad de suministro contratada en horas pico                                  57.359,77 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         44.175,27 $/KW-mes
+      Por capacidad de suministro contratada en horas pico                                  56.707,11 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         43.522,61 $/KW-mes
       Capacidad de suministro menor a 300 KW
-      Por consumo de energía en período horas restante                                        359,733 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                  355,983 $/KWh
-      Por consumo de energía en período horas pico                                            366,999 $/KWh
+      Por consumo de energía en período horas restante                                        373,214 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                  368,801 $/KWh
+      Por consumo de energía en período horas pico                                            381,805 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-      Por consumo de energía en período horas restante                                        359,733 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                  355,983 $/KWh
-      Por consumo de energía en período horas pico                                            366,999 $/KWh
+      Por consumo de energía en período horas restante                                        373,214 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                  368,801 $/KWh
+      Por consumo de energía en período horas pico                                            381,805 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Resto
-      Por capacidad de suministro contratada en horas pico                                  68.329,85 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         54.131,16 $/KW-mes
-      Por consumo de energía en período horas restante                                       360,500 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 357,282 $/KWh
-      Por consumo de energía en período horas pico                                           367,311 $/KWh
+      Por capacidad de suministro contratada en horas pico                                  67.677,19 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         53.478,50 $/KW-mes
+      Por consumo de energía en período horas restante                                       377,281 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 373,323 $/KWh
+      Por consumo de energía en período horas pico                                           385,606 $/KWh
 
 
 
 
 Servicio en Media Tensión
-      Por capacidad de suministro contratada en horas pico                                  28.469,89 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         23.677,38 $/KW-mes
+      Por capacidad de suministro contratada en horas pico                                  27.836,19 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         23.043,68 $/KW-mes
       Capacidad de suministro menor a 300 KW
-      Por consumo de energía en período horas restante                                       330,951 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 335,955 $/KWh
-      Por consumo de energía en período horas pico                                           329,143 $/KWh
+      Por consumo de energía en período horas restante                                       343,993 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 348,356 $/KWh
+      Por consumo de energía en período horas pico                                           343,467 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-      Por consumo de energía en período horas restante                                       337,060 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 336,647 $/KWh
-      Por consumo de energía en período horas pico                                           342,953 $/KWh
+      Por consumo de energía en período horas restante                                       350,102 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 349,048 $/KWh
+      Por consumo de energía en período horas pico                                           357,277 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Resto
-      Por capacidad de suministro contratada en horas pico                                  24.014,91 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         20.571,77 $/KW-mes
-      Por consumo de energía en período horas restante                                       329,950 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 335,140 $/KWh
-      Por consumo de energía en período horas pico                                           335,696 $/KWh
+      Por capacidad de suministro contratada en horas pico                                  23.381,20 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         19.938,06 $/KW-mes
+      Por consumo de energía en período horas restante                                       346,731 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 351,181 $/KWh
+      Por consumo de energía en período horas pico                                           353,991 $/KWh
 
 
 
@@ -365,23 +366,24 @@ Servicio en Media Tensión
 TARIFA Nº 3 - GRANDES DEMANDAS (CAPACIDADES DE SUMINISTRO IGUALES
                         O SUPERIORES A 50 kW)
 
+
 Servicio en Alta Tensión
-      Por capacidad de suministro contratada en horas pico                                  21.429,49 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         19.950,25 $/KW-mes
+      Por capacidad de suministro contratada en horas pico                                  20.806,62 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         19.327,38 $/KW-mes
       Capacidad de suministro menor a 300 KW
-      Por consumo de energía en período horas restante                                       254,780 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 253,156 $/KWh
-      Por consumo de energía en período horas pico                                           259,323 $/KWh
+      Por consumo de energía en período horas restante                                       267,822 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 265,557 $/KWh
+      Por consumo de energía en período horas pico                                           273,647 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-      Por consumo de energía en período horas restante                                       258,456 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 268,095 $/KWh
-      Por consumo de energía en período horas pico                                           258,773 $/KWh
+      Por consumo de energía en período horas restante                                       271,498 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 280,496 $/KWh
+      Por consumo de energía en período horas pico                                           273,097 $/KWh
       Capacidad de suministro igual o mayor a 300 KW Resto
-      Por capacidad de suministro contratada en horas pico                                  21.636,34 $/KW-mes
-      Por capacidad de suministro contratada en horas fuera de pico                         20.472,54 $/KW-mes
-      Por consumo de energía en período horas restante                                       293,592 $/KWh
-      Por consumo de energía en período horas valle/nocturno                                 295,094 $/KWh
-      Por consumo de energía en período horas pico                                           293,757 $/KWh
+      Por capacidad de suministro contratada en horas pico                                  21.013,47 $/KW-mes
+      Por capacidad de suministro contratada en horas fuera de pico                         19.849,67 $/KW-mes
+      Por consumo de energía en período horas restante                                       310,373 $/KWh
+      Por consumo de energía en período horas valle/nocturno                                 311,135 $/KWh
+      Por consumo de energía en período horas pico                                           312,052 $/KWh
 
 
 
@@ -394,38 +396,38 @@ Servicio en Alta Tensión
                                                               VOLVER AL ÍNDICE
       TARIFA Nº 4 - GRANDES DEMANDAS ESPECIALES (CAPACIDADES DE
               SUMINISTRO IGUALES O SUPERIORES A 100 kW)
+Capacidad de suministro iguales o superiores a 100 KW con contrato
 T4-MT y T4-AT
 Servi ci o en Medi a Tens i ón
-       Por ca pa ci da d de s umi ni s tro contra tada                                                            32.558,64 $/KW-mes
+       Por ca pa ci da d de s umi ni s tro contra tada                                                            31.924,93 $/KW-mes
        Ca pa ci da d de s umi ni s tro menor a 300 KW
-       Por cons umo de energía                                                                                     266,027 $/KWh
+       Por cons umo de energía                                                                                     279,176 $/KWh
        Ca pa ci da d de s umi ni s tro i gua l o ma yor a 300 KW Orga ni s mo Públ i cos Sa l ud / Educa ci ón
-       Por cons umo de energía                                                                                     248,888 $/KWh
+       Por cons umo de energía                                                                                     262,037 $/KWh
        Ca pa ci da d de s umi ni s tro i gua l o ma yor a 300 KW Res to
-       Por ca pa ci da d de s umi ni s tro contra tada                                                            28.384,97 $/KW-mes
-       Por cons umo de energía                                                                                     255,282 $/KWh
+       Por ca pa ci da d de s umi ni s tro contra tada                                                            27.751,26 $/KW-mes
+       Por cons umo de energía                                                                                     272,193 $/KWh
 
 Servi ci o en Al ta Tens i ón
-       Por ca pa ci da d de s umi ni s tro contra tada                                                            30.888,33 $/KW-mes
+       Por ca pa ci da d de s umi ni s tro contra tada                                                            30.265,46 $/KW-mes
        Ca pa ci da d de s umi ni s tro menor a 300 KW
-       Por cons umo de energía                                                                                     260,213 $/KWh
+       Por cons umo de energía                                                                                     273,362 $/KWh
        Ca pa ci da d de s umi ni s tro i gua l o ma yor a 300 KW Orga ni s mo Públ i cos Sa l ud / Educa ci ón
-       Por cons umo de energía                                                                                     244,523 $/KWh
+       Por cons umo de energía                                                                                     257,672 $/KWh
        Ca pa ci da d de s umi ni s tro i gua l o ma yor a 300 KW Res to
-       Por ca pa ci da d de s umi ni s tro contra tada                                                            28.272,86 $/KW-mes
-       Por cons umo de energía                                                                                     242,259 $/KWh
+       Por ca pa ci da d de s umi ni s tro contra tada                                                            27.649,98 $/KW-mes
+       Por cons umo de energía                                                                                     255,408 $/KWh
 
 
 
-T4-CD
 
-
-      Capacidad de suministro menor a 300 KW
-      Por capacidad de suministro contratada                                                                     19.047,63 $/KW-mes
-      Por consumo de energía                                                                                      122,744 $/KWh
-      Capacidad de suministro iguales o superiores a 300 KW
-      Por capacidad de suministro contratada                                                                     18.219,47 $/KW-mes
-      Por consumo de energía                                                                                      131,709 $/KWh
+Conectado directamente a la Distro Comahue no PSPEE
+     Capacidad de suministro menor a 300 KW
+     Por capacidad de suministro contratada                                                                      18.424,76 $/KW-mes
+     Por consumo de energía                                                                                       137,335 $/KWh
+     Capacidad de suministro iguales o superiores a 300 KW
+     Por capacidad de suministro contratada                                                                      17.623,68 $/KW-mes
+     Por consumo de energía                                                                                       149,828 $/KWh
 
 
 
@@ -436,175 +438,165 @@ T4-CD
 
 
                                                                         VOLVER AL ÍNDICE
-            PRESTADORES DEL SERVICIO PUBLICO DE ENERGIA ELECTRICA
+           PRESTADORES DEL SERVICIO PUBLICO DE ENERGIA ELECTRICA
 
 
+T4-PSPEE
 Prestadores del Servicio Público de Energía Eléctrica
-     Por capacidad de suministro contratada                                                           34.345,35 $/KW-mes
+     Por capacidad de suministro contratada                                                           33.803,72 $/KW-mes
      Capacidad de suministro menor a 300 KW
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       171,890
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas restante                                      Por consumo184,9323
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       170,773
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                                Por consumo183,1739
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       175,876
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas pico                                          Por consumo190,2001
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
      Demanda Alumbrado Público
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       171,396
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas restante                                      Por consumo184,4381
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       170,273
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                                Por consumo182,6741
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       175,391
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas pico                                          Por consumo189,7154
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
      Residencial SIN SUBSIDIO
+     Por consumo de energía en período horas restante                                      Por consumo174,4049
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo172,6392
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo178,7989
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Residencial CON SUBSIDIO hasta 300 KWh
      Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       174,283
+                                                                                                       70,0454
                                                                                                           energía$/KWh
                                                                                                                   en período horas
      Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       173,000
+                                                                                                       69,8997
                                                                                                           energía$/KWh
                                                                                                                   en período horas
      Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       177,937
-                                                                                                          energía$/KWh
-                                                                                                                  en período horas
-     Residencial CON SUBSIDIO hasta 300 KWh
-     Por consumo de energía en período horas restante                                      Por consumo de69,175
-                                                                                                          energía$/KWh
-                                                                                                                  en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de69,125
-                                                                                                          energía$/KWh
-                                                                                                                  en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de70,613
+                                                                                                       71,4528
                                                                                                           energía$/KWh
                                                                                                                   en período horas
      Residencial CON SUBSIDIO excedente de 300 KWh
-     Por consumo de energía en período horas restante                                      Por consumo de174,283
-                                                                                                           energía$/KWh
-                                                                                                                   en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de173,000
-                                                                                                           energía$/KWh
-                                                                                                                   en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de177,937
-                                                                                                           energía$/KWh
-                                                                                                                   en período horas
+     Por consumo de energía en período horas restante                                      Por consumo174,4049
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo172,6392
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
+     Por consumo de energía en período horas pico                                          Por consumo178,7989
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
      Bonificación Residencial Tarifa Electrodependiente - Todo el Consumo                  Bonificación Residencial Tarifa Electrode
-     Bonificación Electrodependientes horas restantes                                      Bonificación Electrodependientes
-                                                                                                         -31,796 $/KWh       horas r
-     Bonificación Electrodependientes horas valle/nocturno                                 Bonificación Electrodependientes
-                                                                                                         -31,699 $/KWh       horas v
-     Bonificación Electrodependientes horas pico                                           Bonificación Electrodependientes
-                                                                                                         -32,617 $/KWh       horas p
+     Bonificación Electrodependientes horas restantes                                      Bonificación -32,6323
+                                                                                                        Electrodependientes
+                                                                                                                   $/KWh     horas r
+     Bonificación Electrodependientes horas valle/nocturno                                 Bonificación -32,4443
+                                                                                                        Electrodependientes
+                                                                                                                   $/KWh     horas v
+     Bonificación Electrodependientes horas pico                                           Bonificación -33,4245
+                                                                                                        Electrodependientes
+                                                                                                                   $/KWh     horas p
      Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       174,984
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas restante                                      Por consumo188,0259
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       173,777
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                                Por consumo186,1779
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       179,093
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas pico                                          Por consumo193,4169
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
      Clientes con Potencias Iguales o Superiores a 300 KW Resto
-     Por capacidad de suministro contratada                                                          34.345,35 $/KW-mes
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       192,541
-                                                                                                          energía$/KWh
+     Por capacidad de suministro contratada                                                          33.803,72 $/KW-mes
+     Por consumo de energía en período horas restante                                      Por consumo209,4845
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       191,434
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                                Por consumo207,6306
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       196,837
-                                                                                                          energía$/KWh
+     Por consumo de energía en período horas pico                                          Por consumo215,3086
+                                                                                                       de energía$/KWh
                                                                                                                   en período horas
 
 
 
 
-                                              VOLVER AL ÍNDICE
+                                             VOLVER AL ÍNDICE
 
 
 
 
-                                                             VOLVER AL ÍNDICE
+                                                            VOLVER AL ÍNDICE
               PRESTADORES DEL SERVICIO PÚBLICO ENERGÍA ELÉCTRICA
 
 
 T4-CD -PSEE
 Prestadores del Servicio Público de Energía Eléctrica
-     Por capacidad de suministro contratada                                                          19.047,63 $/KW-mes
+     Por capacidad de suministro contratada                                                          18.424,76 $/KW-mes
      Capacidad de suministro menor a 300 KW
-     Por consumo de energía en período horas restante                                                  130,631 $/KWh
-     Por consumo de energía en período horas valle/nocturno                                            130,241 $/KWh
-     Por consumo de energía en período horas pico                                                      133,957 $/KWh
+     Por consumo de energía en período horas restante                                                143,4221 $/KWh
+     Por consumo de energía en período horas valle/nocturno                                          142,4030 $/KWh
+     Por consumo de energía en período horas pico                                                    148,0052 $/KWh
      Demanda Alumbrado Público
-     Por consumo de energía en período horas restante                                     Por consumo de
-                                                                                                      130,631
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas restante                                     Por consumo143,4221
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
-     Por consumo de energía en período horas valle/nocturno                               Por consumo de
-                                                                                                      130,241
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                               Por consumo142,4030
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
-     Por consumo de energía en período horas pico                                         Por consumo de
-                                                                                                      133,957
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas pico                                         Por consumo148,0052
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
      Residencial SIN SUBSIDIO
-     Por consumo de energía en período horas restante                                                  120,190 $/KWh
-     Por consumo de energía en período horas valle/nocturno                                            119,836 $/KWh
-     Por consumo de energía en período horas pico                                                      123,214 $/KWh
+     Por consumo de energía en período horas restante                                                120,3093 $/KWh
+     Por consumo de energía en período horas valle/nocturno                                          119,4819 $/KWh
+     Por consumo de energía en período horas pico                                                    124,0597 $/KWh
      Residencial CON SUBSIDIO hasta 300 KWh
-     Por consumo de energía en período horas restante                                                   42,211 $/KWh
-     Por consumo de energía en período horas valle/nocturno                                             42,092 $/KWh
-     Por consumo de energía en período horas pico                                         Por consumo de43,221
+     Por consumo de energía en período horas restante                                                 43,0636 $/KWh
+     Por consumo de energía en período horas valle/nocturno                                           42,8522 $/KWh
+     Por consumo de energía en período horas pico                                         Por consumo de
+                                                                                                      44,0447
                                                                                                          energía$/KWh
                                                                                                                  en período horas
      Residencial CON SUBSIDIO excedente de 300 KWh
-     Por consumo de energía en período horas restante                                     Por consumo de
-                                                                                                      120,190
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas restante                                     Por consumo120,3093
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
-     Por consumo de energía en período horas valle/nocturno                               Por consumo de
-                                                                                                      119,836
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas valle/nocturno                               Por consumo119,4819
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
-     Por consumo de energía en período horas pico                                         Por consumo de
-                                                                                                      123,214
-                                                                                                         energía$/KWh
+     Por consumo de energía en período horas pico                                         Por consumo124,0597
+                                                                                                      de energía$/KWh
                                                                                                                  en período horas
 
-     Bonificación Electrodependientes horas restantes                                    Bonificación Electrodependientes
-                                                                                                       -31,796 $/KWh      horas re
-     Bonificación Electrodependientes horas valle/nocturno                               Bonificación Electrodependientes
-                                                                                                       -31,699 $/KWh      horas va
-     Bonificación Electrodependientes horas pico                                         Bonificación Electrodependientes
-                                                                                                       -32,617 $/KWh      horas p
+     Bonificación Electrodependientes horas restantes                                    Bonificación -32,6323
+                                                                                                      Electrodependientes
+                                                                                                               $/KWh      horas re
+     Bonificación Electrodependientes horas valle/nocturno                               Bonificación -32,4443
+                                                                                                      Electrodependientes
+                                                                                                               $/KWh      horas va
+     Bonificación Electrodependientes horas pico                                         Bonificación -33,4245
+                                                                                                      Electrodependientes
+                                                                                                               $/KWh      horas p
      Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-     Por consumo de energía en período horas restante                                                  130,631 $/KWh
-     Por consumo de energía en período horas valle/nocturno                                            130,241 $/KWh
-     Por consumo de energía en período horas pico                                                      133,957 $/KWh
-     Clientes con Potencias Iguales o Superiores a 300 KW Resto                                     19.494,83
-     Por consumo de energía en período horas restante                                                  146,532 $/KWh
-     Por consumo de energía en período horas valle/nocturno                                            146,089 $/KWh
-     Por consumo de energía en período horas pico                                                      146,532 $/KWh
+     Por consumo de energía en período horas restante                                                143,4221 $/KWh
+     Por consumo de energía en período horas valle/nocturno                                          142,4030 $/KWh
+     Por consumo de energía en período horas pico                                                    148,0052 $/KWh
+     Clientes con Potencias Iguales o Superiores a 300 KW Resto                                     18.857,34
+     Por consumo de energía en período horas restante                                                163,1496 $/KWh
+     Por consumo de energía en período horas valle/nocturno                                          161,9737 $/KWh
+     Por consumo de energía en período horas pico                                                    164,6486 $/KWh
 
 
 
@@ -618,40 +610,41 @@ Prestadores del Servicio Público de Energía Eléctrica
                PEAJE (TRANSPORTE DE ENERGIA INSTALACIONES DEL EPEN)
 
 
+
 Tarifa Peaje - (Transporte de Energía Instalaciones EPEN)
    TP
    Capacidad de suministro igual o superior a 1000 KW
    Servicio en Media Tensión
-         Por capacidad de suministro a transportar                                   20.361,96 $/KW-mes
-         Por energía transportada                                                       45,476 $/KWh
+         Por capacidad de suministro a transportar                                   20.340,29 $/KW-mes
+         Por energía transportada                                                       46,152 $/KWh
 
   Servicio en Alta Tensión
-        Por capacidad de suministro a transportar                                    19.266,76 $/KW-mes
-        Por energía transportada                                                        22,066 $/KWh
+        Por capacidad de suministro a transportar                                    19.255,92 $/KW-mes
+        Por energía transportada                                                        22,404 $/KWh
 
   TP
   Capacidad de suministro igual o inferior a 2000 KW
   Servicio en Baja Tensión
         Capacidad de Suministro menor a 50 KW
-        Por capacidad de suministro a transportar                                    44.233,99 $/KW-mes
-        Por energía transportada                                                      187,685 $/KWh
+        Por capacidad de suministro a transportar                                    44.193,37 $/KW-mes
+        Por energía transportada                                                      188,953 $/KWh
         Capacidad de suministro mayor a 50 KW y menor o igual a 300 KW
-        Por capacidad de suministro a transportar                                    51.014,96 $/KW-mes
-        Por energía transportada                                                      165,459 $/KWh
+        Por capacidad de suministro a transportar                                    50.974,34 $/KW-mes
+        Por energía transportada                                                      166,727 $/KWh
 
   Servicio en Media Tensión
         Capacidad de suministro menor a 300 KW
-        Por capacidad de suministro a transportar                                    21.287,50 $/KW-mes
-        Por energía transportada                                                        43,730 $/KWh
+        Por capacidad de suministro a transportar                                    21.265,83 $/KW-mes
+        Por energía transportada                                                        44,406 $/KWh
         Clientes con Potencias Iguales o Superiores a 300 KW
-        Por energía transportada                                                       41,123 $/KWh
+        Por energía transportada                                                       41,461 $/KWh
 
   Servicio en Alta Tensión
         Capacidad de suministro menor a 300 KW
-        Por capacidad de suministro a transportar                                    19.266,76 $/KW-mes
-        Por energía transportada                                                        22,066 $/KWh
+        Por capacidad de suministro a transportar                                    19.255,92 $/KW-mes
+        Por energía transportada                                                        22,742 $/KWh
         Clientes con Potencias Iguales o Superiores a 300 KW
-        Por energía transportada                                                       22,066 $/KWh
+        Por energía transportada                                                       22,404 $/KWh
 
 
 
@@ -665,26 +658,26 @@ Tarifa Peaje - (Transporte de Energía Instalaciones EPEN)
                          GENERACION DISTRIBUIDA
 
 R E S ID E N C IA LE S
-Cargo variable po r energía - SIN SUB SIDIO                                           95,608    $ /KWh
-Cargo variable po r energía - CON SUB SIDIO hasta 300 KWh                             31,943    $ /KWh
+Cargo variable po r energía - SIN SUB SIDIO                                           95,757    $ /KWh
+Cargo variable po r energía - CON SUB SIDIO hasta 300 KWh                             32,750    $ /KWh
 
 
-G E N E R A LE S                                                                      104,137   $ /KWh
+G E N E R A LE S                                                                      116,780   $ /KWh
 
 
-E N T ID A D E S D E B IE N P ÚB LIC O                                                31,943    $ /KWh
+E N T ID A D E S D E B IE N P ÚB LIC O                                                32,750    $ /KWh
 
 
-M E D IA N A S D E M A N D A S ( T 2 ) - B T / M T                                    104,137   $ /KWh
+M E D IA N A S D E M A N D A S ( T 2 ) - B T / M T                                    116,780   $ /KWh
 
 
 GR A N D ES D EM A N D A S (T 3) - B T / M T / A T
-                                                                             VA LLE   103,336   $ /KWh
-                                                                             RESTO    103,653   $ /KWh
-                                                                             P ICO    106,356   $ /KWh
+                                                                             VA LLE   115,260   $ /KWh
+                                                                             RESTO    116,193   $ /KWh
+                                                                             P ICO    120,129   $ /KWh
 
 
-G R A N D E S D E M A N D A S E S P E C IA LE S ( T 4 ) - M T / A T                   104,137   $ /KWh
+G R A N D E S D E M A N D A S E S P E C IA LE S ( T 4 ) - M T / A T                   116,780   $ /KWh
 
 
 
@@ -741,6 +734,7 @@ RIEGO AGRÍCOLAS (*) BONIFICACIÓN SOBRE EL CARGO FIJO DE LA R4-R7 Y DE LA G3-G4
                                                            VOLVER AL ÍNDICE
                                                OTROS CONCEPTOS
 
+
 SERVICIO DE REHABILITACION
      Por cada servicio interrumpido por falta de pago:
      Tarifa Nº 1 - Uso Residencial                                                                           26.972,66           $
@@ -767,14 +761,13 @@ c) Cargo Adicional Por Sistema de Medición Especial
       Tarifa Nº 3 ó 4 en Baja Tensión - (Provisión, Armado y Montaje)                              ##     3.266.775,65           $
       Tarifa Nº 3 ó 4 en Media Tensión - (Inspección, Armado y Montaje)                            ##       334.141,65           $
 
-
                       COSTOS CONSTRASTES MEDIDORES Y EQUIPOS DE MEDICIÓN
              POR CONTRASTE MEDIDORES EN EL SITIO Y/O COMPROBACIÓN DE IRREGULARIDADES
      MEDIDORES EN EL SITIO (CM)              $ 136.160,96                   COMPROB. IRREGULARID. INST. (CII)            $ 68.080,48
 
                                          POR CONTRASTE MEDIDORES EN EL LABORATORIO
 
- TARIFA Nº 1          $ 521.861,00           TARIFA Nº 2             $ 1.245.011,00    TARIFA Nº 3 Y 4          $ 7.169.971,25
+ TARIFA Nº 1          $ 535.452,00           TARIFA Nº 2             $ 1.229.710,00    TARIFA Nº 3 Y 4          $ 7.088.388,75
 
 
 

@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-25T13:34:14+00:00",
+ "generado": "2026-10-26T15:51:43+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1374,7 +1374,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -3113,7 +3113,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -3487,23 +3487,17 @@
    "nota": "OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
    "estado": "ok",
    "documento": {
-    "url": "https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
-    "titulo": "Cuadro tarifario EDES S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+    "url": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf",
+    "titulo": "Cuadro tarifario EDES S.A. (OCEBA), consumos desde el 1 de Septiembre de 2026",
     "pagina": "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17",
     "origen": "Ente regulador / organismo provincial",
     "tipo": "pdf",
-    "sha256": "3c935dd04809d5addc669ecb29d3b42c024f538eb61da6e5b13b4b850455a5a3",
-    "bytes": 293314,
+    "sha256": "ff2b23ae3a7b3fbbdfa37d856f4276553faff8825ca487f38f75c907fc5ba355",
+    "bytes": 220432,
     "via": "búsqueda automática",
-    "archivado": {
-     "servicio": "Internet Archive (Wayback Machine)",
-     "url_original": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf",
-     "captura": "2026-06-13",
-     "pagina_captura": "https://web.archive.org/web/20261012004310/https://oceba.gba.gov.ar/nueva_web/s.php?i=17"
-    },
-    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/Reso_399_26.pdf"
+    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/Reso_682_26.pdf"
    },
-   "vigencia": "Consumos desde el 1 de Junio de 2026",
+   "vigencia": "Consumos desde el 1 de Septiembre de 2026",
    "tablas": [
     {
      "titulo": "T1R - Residencial (categoría según consumo mensual)",
@@ -3513,7 +3507,7 @@
        "concepto": "CARGO FIJO R1",
        "unidad": "$/mes",
        "valores": [
-        5400.69
+        5852.09
        ],
        "columnas": null
       },
@@ -3522,7 +3516,7 @@
        "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
        "unidad": "$/kWh",
        "valores": [
-        212.2569
+        229.2413
        ],
        "columnas": null
       },
@@ -3531,7 +3525,7 @@
        "concepto": "CARGO FIJO R2",
        "unidad": "$/mes",
        "valores": [
-        8283.38
+        8977.07
        ],
        "columnas": null
       },
@@ -3540,7 +3534,7 @@
        "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
        "unidad": "$/kWh",
        "valores": [
-        224.9976
+        243.0037
        ],
        "columnas": null
       },
@@ -3549,7 +3543,7 @@
        "concepto": "CARGO FIJO R3",
        "unidad": "$/mes",
        "valores": [
-        11310.89
+        12259.05
        ],
        "columnas": null
       },
@@ -3558,7 +3552,7 @@
        "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
        "unidad": "$/kWh",
        "valores": [
-        236.298
+        255.2269
        ],
        "columnas": null
       },
@@ -3567,7 +3561,7 @@
        "concepto": "CARGO FIJO R4",
        "unidad": "$/mes",
        "valores": [
-        14049.3
+        15227.62
        ],
        "columnas": null
       },
@@ -3576,7 +3570,7 @@
        "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
        "unidad": "$/kWh",
        "valores": [
-        243.7649
+        263.2928
        ],
        "columnas": null
       },
@@ -3585,7 +3579,7 @@
        "concepto": "CARGO FIJO R5",
        "unidad": "$/mes",
        "valores": [
-        22554.91
+        24448.12
        ],
        "columnas": null
       },
@@ -3594,7 +3588,7 @@
        "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
        "unidad": "$/kWh",
        "valores": [
-        257.0054
+        277.6572
        ],
        "columnas": null
       },
@@ -3603,7 +3597,7 @@
        "concepto": "CARGO FIJO R6",
        "unidad": "$/mes",
        "valores": [
-        36537.56
+        39606.03
        ],
        "columnas": null
       },
@@ -3612,7 +3606,7 @@
        "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
        "unidad": "$/kWh",
        "valores": [
-        272.1945
+        294.1319
        ],
        "columnas": null
       },
@@ -3621,7 +3615,7 @@
        "concepto": "CARGO FIJO R7",
        "unidad": "$/mes",
        "valores": [
-        44609.88
+        48356.83
        ],
        "columnas": null
       },
@@ -3630,7 +3624,7 @@
        "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
        "unidad": "$/kWh",
        "valores": [
-        292.7937
+        316.4873
        ],
        "columnas": null
       }
@@ -3644,7 +3638,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        59336.95
+        64261.0
        ],
        "columnas": null
       },
@@ -3653,7 +3647,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        17287.13
+        18815.35
        ],
        "columnas": null
       },
@@ -3662,7 +3656,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        12021.84
+        13064.53
        ],
        "columnas": null
       },
@@ -3671,7 +3665,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        126.6087
+        144.2101
        ],
        "columnas": null
       },
@@ -3680,7 +3674,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
        "unidad": "$/kWh",
        "valores": [
-        125.3386
+        143.4767
        ],
        "columnas": null
       },
@@ -3689,7 +3683,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        89906.11
+        97366.92
        ],
        "columnas": null
       },
@@ -3698,7 +3692,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        11967.48
+        13050.27
        ],
        "columnas": null
       },
@@ -3707,7 +3701,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        9742.7
+        10594.54
        ],
        "columnas": null
       },
@@ -3716,7 +3710,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        123.8726
+        141.0772
        ],
        "columnas": null
       },
@@ -3725,7 +3719,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
        "unidad": "$/kWh",
        "valores": [
-        122.6954
+        140.4272
        ],
        "columnas": null
       }
@@ -3739,7 +3733,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        57552.63
+        62328.6
        ],
        "columnas": null
       },
@@ -3748,7 +3742,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        24341.28
+        26485.28
        ],
        "columnas": null
       },
@@ -3757,7 +3751,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        15046.26
+        16352.94
        ],
        "columnas": null
       },
@@ -3766,7 +3760,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        48626.62
+        52661.87
        ],
        "columnas": null
       },
@@ -3775,7 +3769,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        11758.74
+        12858.58
        ],
        "columnas": null
       },
@@ -3784,7 +3778,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        5039.46
+        5510.82
        ],
        "columnas": null
       },
@@ -3793,7 +3787,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.3353
+        117.5969
        ],
        "columnas": null
       },
@@ -3802,7 +3796,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.2918
+        114.9777
        ],
        "columnas": null
       },
@@ -3811,7 +3805,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        105.8741
+        114.6707
        ],
        "columnas": null
       },
@@ -3820,7 +3814,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -3829,7 +3823,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -3838,7 +3832,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -3847,7 +3841,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.3353
+        117.5969
        ],
        "columnas": null
       },
@@ -3856,7 +3850,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.2918
+        114.9777
        ],
        "columnas": null
       },
@@ -3865,7 +3859,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        105.8741
+        114.6707
        ],
        "columnas": null
       },
@@ -3874,7 +3868,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -3883,7 +3877,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -3892,7 +3886,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -3901,7 +3895,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -3910,7 +3904,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -3919,7 +3913,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -3928,7 +3922,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -3937,7 +3931,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -3946,7 +3940,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -3955,7 +3949,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.9599
+        141.0776
        ],
        "columnas": null
       },
@@ -3964,7 +3958,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.8952
+        137.7976
        ],
        "columnas": null
       },
@@ -3973,7 +3967,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.4678
+        137.4138
        ],
        "columnas": null
       },
@@ -3982,7 +3976,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        122.8277
+        140.0631
        ],
        "columnas": null
       },
@@ -3991,7 +3985,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        119.7701
+        137.1814
        ],
        "columnas": null
       },
@@ -4000,7 +3994,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        118.3486
+        136.8452
        ],
        "columnas": null
       },
@@ -4009,7 +4003,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        123.5668
+        154.8125
        ],
        "columnas": null
       },
@@ -4018,7 +4012,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        120.5619
+        151.598
        ],
        "columnas": null
       },
@@ -4027,7 +4021,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        119.1282
+        151.2074
        ],
        "columnas": null
       }
@@ -4041,7 +4035,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        83846.22
+        90804.15
        ],
        "columnas": null
       },
@@ -4050,7 +4044,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        17542.32
+        19116.83
        ],
        "columnas": null
       },
@@ -4059,7 +4053,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        12131.65
+        13194.21
        ],
        "columnas": null
       },
@@ -4068,7 +4062,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        73677.09
+        79791.14
        ],
        "columnas": null
       },
@@ -4077,7 +4071,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        8568.18
+        9397.97
        ],
        "columnas": null
       },
@@ -4086,7 +4080,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        3672.08
+        4027.7
        ],
        "columnas": null
       },
@@ -4095,7 +4089,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        107.6442
+        114.7286
        ],
        "columnas": null
       },
@@ -4104,7 +4098,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        104.675
+        112.1734
        ],
        "columnas": null
       },
@@ -4113,7 +4107,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.2918
+        111.8738
        ],
        "columnas": null
       },
@@ -4122,7 +4116,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -4131,7 +4125,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -4140,7 +4134,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -4149,7 +4143,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        107.6442
+        114.7286
        ],
        "columnas": null
       },
@@ -4158,7 +4152,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        104.675
+        112.1734
        ],
        "columnas": null
       },
@@ -4167,7 +4161,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.2918
+        111.8738
        ],
        "columnas": null
       },
@@ -4176,7 +4170,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -4185,7 +4179,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -4194,7 +4188,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -4203,7 +4197,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -4212,7 +4206,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -4221,7 +4215,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -4230,7 +4224,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -4239,7 +4233,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -4248,7 +4242,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -4257,7 +4251,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.2536
+        137.6367
        ],
        "columnas": null
       },
@@ -4266,7 +4260,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.2636
+        134.4366
        ],
        "columnas": null
       },
@@ -4275,7 +4269,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.871
+        134.0622
        ],
        "columnas": null
       },
@@ -4284,7 +4278,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        120.1002
+        136.9393
        ],
        "columnas": null
       },
@@ -4293,7 +4287,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        117.1131
+        134.1235
        ],
        "columnas": null
       },
@@ -4302,7 +4296,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        115.716
+        133.7844
        ],
        "columnas": null
       },
@@ -4311,7 +4305,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        120.8202
+        151.3279
        ],
        "columnas": null
       },
@@ -4320,7 +4314,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        117.9003
+        148.2045
        ],
        "columnas": null
       },
@@ -4329,7 +4323,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        116.5066
+        147.8289
        ],
        "columnas": null
       }
@@ -4337,19 +4331,19 @@
     }
    ],
    "intentos": [
-    "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf"
+    "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
-     "valor": 5400.69,
+     "valor": 5852.09,
      "unidad": "$/mes",
      "concepto": "CARGO FIJO R1",
      "grupo": null,
      "columna": null
     },
     "cargo_variable": {
-     "valor": 212.2569,
+     "valor": 229.2413,
      "unidad": "$/kWh",
      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
      "grupo": null,
@@ -4365,7 +4359,7 @@
     "titulo": "Cuadro Tarifario del 11-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa"
    },
-   "mes_referencia": "2026-06",
+   "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "mes",
@@ -4374,77 +4368,77 @@
      {
       "nombre": "R1",
       "hasta": 100,
-      "fijo": 5400.69,
+      "fijo": 5852.09,
       "escalones": [
        [
         null,
-        212.2569
+        229.2413
        ]
       ]
      },
      {
       "nombre": "R2",
       "hasta": 200,
-      "fijo": 8283.38,
+      "fijo": 8977.07,
       "escalones": [
        [
         null,
-        224.9976
+        243.0037
        ]
       ]
      },
      {
       "nombre": "R3",
       "hasta": 400,
-      "fijo": 11310.89,
+      "fijo": 12259.05,
       "escalones": [
        [
         null,
-        236.298
+        255.2269
        ]
       ]
      },
      {
       "nombre": "R4",
       "hasta": 500,
-      "fijo": 14049.3,
+      "fijo": 15227.62,
       "escalones": [
        [
         null,
-        243.7649
+        263.2928
        ]
       ]
      },
      {
       "nombre": "R5",
       "hasta": 700,
-      "fijo": 22554.91,
+      "fijo": 24448.12,
       "escalones": [
        [
         null,
-        257.0054
+        277.6572
        ]
       ]
      },
      {
       "nombre": "R6",
       "hasta": 1400,
-      "fijo": 36537.56,
+      "fijo": 39606.03,
       "escalones": [
        [
         null,
-        272.1945
+        294.1319
        ]
       ]
      },
      {
       "nombre": "R7",
       "hasta": null,
-      "fijo": 44609.88,
+      "fijo": 48356.83,
       "escalones": [
        [
         null,
-        292.7937
+        316.4873
        ]
       ]
      }
@@ -4458,20 +4452,20 @@
       "tension": "BT",
       "desde_kw": 10,
       "hasta_kw": 50,
-      "fijo": 59336.95,
+      "fijo": 64261.0,
       "potencia": [
        [
         "Potencia en pico",
-        17287.13
+        18815.35
        ],
        [
         "Potencia fuera de pico",
-        12021.84
+        13064.53
        ]
       ],
       "energia": {
-       "pico": 126.6087,
-       "fuera_pico": 125.3386
+       "pico": 144.2101,
+       "fuera_pico": 143.4767
       }
      },
      {
@@ -4479,20 +4473,20 @@
       "tension": "MT",
       "desde_kw": 10,
       "hasta_kw": 50,
-      "fijo": 89906.11,
+      "fijo": 97366.92,
       "potencia": [
        [
         "Potencia en pico",
-        11967.48
+        13050.27
        ],
        [
         "Potencia fuera de pico",
-        9742.7
+        10594.54
        ]
       ],
       "energia": {
-       "pico": 123.8726,
-       "fuera_pico": 122.6954
+       "pico": 141.0772,
+       "fuera_pico": 140.4272
       }
      },
      {
@@ -4500,21 +4494,21 @@
       "tension": "BT",
       "desde_kw": 50,
       "hasta_kw": 300,
-      "fijo": 57552.63,
+      "fijo": 62328.6,
       "potencia": [
        [
         "Potencia en pico",
-        24341.28
+        26485.28
        ],
        [
         "Potencia fuera de pico",
-        15046.26
+        16352.94
        ]
       ],
       "energia": {
-       "pico": 122.8277,
-       "resto": 119.7701,
-       "valle": 118.3486
+       "pico": 140.0631,
+       "resto": 137.1814,
+       "valle": 136.8452
       }
      },
      {
@@ -4522,21 +4516,21 @@
       "tension": "BT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 57552.63,
+      "fijo": 62328.6,
       "potencia": [
        [
         "Potencia en pico",
-        24341.28
+        26485.28
        ],
        [
         "Potencia fuera de pico",
-        15046.26
+        16352.94
        ]
       ],
       "energia": {
-       "pico": 123.5668,
-       "resto": 120.5619,
-       "valle": 119.1282
+       "pico": 154.8125,
+       "resto": 151.598,
+       "valle": 151.2074
       }
      },
      {
@@ -4544,21 +4538,21 @@
       "tension": "MT",
       "desde_kw": 50,
       "hasta_kw": 300,
-      "fijo": 83846.22,
+      "fijo": 90804.15,
       "potencia": [
        [
         "Potencia en pico",
-        17542.32
+        19116.83
        ],
        [
         "Potencia fuera de pico",
-        12131.65
+        13194.21
        ]
       ],
       "energia": {
-       "pico": 120.1002,
-       "resto": 117.1131,
-       "valle": 115.716
+       "pico": 136.9393,
+       "resto": 134.1235,
+       "valle": 133.7844
       }
      },
      {
@@ -4566,28 +4560,28 @@
       "tension": "MT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 83846.22,
+      "fijo": 90804.15,
       "potencia": [
        [
         "Potencia en pico",
-        17542.32
+        19116.83
        ],
        [
         "Potencia fuera de pico",
-        12131.65
+        13194.21
        ]
       ],
       "energia": {
-       "pico": 120.8202,
-       "resto": 117.9003,
-       "valle": 116.5066
+       "pico": 151.3279,
+       "resto": 148.2045,
+       "valle": 147.8289
       }
      }
     ]
    },
    "simulador_ocr": null,
    "simulador_subsidio": null,
-   "desactualizado": true
+   "desactualizado": false
   },
   {
    "id": "edea",
@@ -6065,7 +6059,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "nota": "T1R Nivel 1, consumo < 100 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -6762,7 +6756,7 @@
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -6788,23 +6782,17 @@
    "nota": "OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
    "estado": "ok",
    "documento": {
-    "url": "https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
-    "titulo": "Cuadro tarifario EDEN S.A. (OCEBA), consumos desde el 1 de Junio de 2026 — copia archivada",
+    "url": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf",
+    "titulo": "Cuadro tarifario EDEN S.A. (OCEBA), consumos desde el 1 de Septiembre de 2026",
     "pagina": "https://www.oceba.gba.gov.ar/nueva_web/s.php?i=17",
     "origen": "Ente regulador / organismo provincial",
     "tipo": "pdf",
-    "sha256": "51be93269b5bc251708d8802324911eb18553f19f05ea01cd6c200bcd729aa0e",
-    "bytes": 293016,
+    "sha256": "24693ed78a794b74b5fba55641576fc362c3b77befa5e24056a5f6912b7a8f35",
+    "bytes": 220343,
     "via": "búsqueda automática",
-    "archivado": {
-     "servicio": "Internet Archive (Wayback Machine)",
-     "url_original": "https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf",
-     "captura": "2026-06-13",
-     "pagina_captura": "https://web.archive.org/web/20261012004310/https://oceba.gba.gov.ar/nueva_web/s.php?i=17"
-    },
-    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/Reso_399_26.pdf"
+    "resolucion": "https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/Reso_682_26.pdf"
    },
-   "vigencia": "Consumos desde el 1 de Junio de 2026",
+   "vigencia": "Consumos desde el 1 de Septiembre de 2026",
    "tablas": [
     {
      "titulo": "T1R - Residencial (categoría según consumo mensual)",
@@ -6814,7 +6802,7 @@
        "concepto": "CARGO FIJO R1",
        "unidad": "$/mes",
        "valores": [
-        4835.87
+        5240.4
        ],
        "columnas": null
       },
@@ -6823,7 +6811,7 @@
        "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
        "unidad": "$/kWh",
        "valores": [
-        210.8862
+        227.7806
        ],
        "columnas": null
       },
@@ -6832,7 +6820,7 @@
        "concepto": "CARGO FIJO R2",
        "unidad": "$/mes",
        "valores": [
-        7427.07
+        8049.7
        ],
        "columnas": null
       },
@@ -6841,7 +6829,7 @@
        "concepto": "CARGO VARIABLE R2 ( 100 < consumo en kWH-Mes ≤ 200)",
        "unidad": "$/kWh",
        "valores": [
-        217.5914
+        235.0049
        ],
        "columnas": null
       },
@@ -6850,7 +6838,7 @@
        "concepto": "CARGO FIJO R3",
        "unidad": "$/mes",
        "valores": [
-        10146.12
+        10997.62
        ],
        "columnas": null
       },
@@ -6859,7 +6847,7 @@
        "concepto": "CARGO VARIABLE R3 ( 200 < consumo en kWH-Mes ≤ 400)",
        "unidad": "$/kWh",
        "valores": [
-        230.6245
+        249.1032
        ],
        "columnas": null
       },
@@ -6868,7 +6856,7 @@
        "concepto": "CARGO FIJO R4",
        "unidad": "$/mes",
        "valores": [
-        12606.84
+        13665.46
        ],
        "columnas": null
       },
@@ -6877,7 +6865,7 @@
        "concepto": "CARGO VARIABLE R4 ( 400 < consumo en kWH-Mes ≤ 500)",
        "unidad": "$/kWh",
        "valores": [
-        240.7838
+        260.0835
        ],
        "columnas": null
       },
@@ -6886,7 +6874,7 @@
        "concepto": "CARGO FIJO R5",
        "unidad": "$/mes",
        "valores": [
-        20249.3
+        21951.19
        ],
        "columnas": null
       },
@@ -6895,7 +6883,7 @@
        "concepto": "CARGO VARIABLE R5 ( 500 < consumo en kWH-Mes ≤ 700)",
        "unidad": "$/kWh",
        "valores": [
-        250.1692
+        270.273
        ],
        "columnas": null
       },
@@ -6904,7 +6892,7 @@
        "concepto": "CARGO FIJO R6",
        "unidad": "$/mes",
        "valores": [
-        32812.49
+        35571.83
        ],
        "columnas": null
       },
@@ -6913,7 +6901,7 @@
        "concepto": "CARGO VARIABLE R6 ( 700 < consumo en kWH-Mes ≤ 1400)",
        "unidad": "$/kWh",
        "valores": [
-        263.7662
+        285.0233
        ],
        "columnas": null
       },
@@ -6922,7 +6910,7 @@
        "concepto": "CARGO FIJO R7",
        "unidad": "$/mes",
        "valores": [
-        40065.37
+        43435.19
        ],
        "columnas": null
       },
@@ -6931,7 +6919,7 @@
        "concepto": "CARGO VARIABLE R7 (consumo en kWH-Mes > 1400)",
        "unidad": "$/kWh",
        "valores": [
-        282.3253
+        305.1694
        ],
        "columnas": null
       }
@@ -6945,7 +6933,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        51711.45
+        56002.69
        ],
        "columnas": null
       },
@@ -6954,7 +6942,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        16722.16
+        18203.5
        ],
        "columnas": null
       },
@@ -6963,7 +6951,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        11401.1
+        12392.27
        ],
        "columnas": null
       },
@@ -6972,7 +6960,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        125.0918
+        142.5672
        ],
        "columnas": null
       },
@@ -6981,7 +6969,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
        "unidad": "$/kWh",
        "valores": [
-        123.5126
+        141.4992
        ],
        "columnas": null
       },
@@ -6990,7 +6978,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        78350.64
+        84852.52
        ],
        "columnas": null
       },
@@ -6999,7 +6987,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        13015.39
+        14185.14
        ],
        "columnas": null
       },
@@ -7008,7 +6996,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        9812.97
+        10670.64
        ],
        "columnas": null
       },
@@ -7017,7 +7005,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        122.4179
+        139.5018
        ],
        "columnas": null
       },
@@ -7026,7 +7014,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA FUERA DE PICO",
        "unidad": "$/kWh",
        "valores": [
-        120.7319
+        138.3008
        ],
        "columnas": null
       }
@@ -7040,7 +7028,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        50155.9
+        54318.06
        ],
        "columnas": null
       },
@@ -7049,7 +7037,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        22753.48
+        24765.71
        ],
        "columnas": null
       },
@@ -7058,7 +7046,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        13985.08
+        15203.7
        ],
        "columnas": null
       },
@@ -7067,7 +7055,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        42376.8
+        45893.41
        ],
        "columnas": null
       },
@@ -7076,7 +7064,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        11534.08
+        12615.27
        ],
        "columnas": null
       },
@@ -7085,7 +7073,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        4943.18
+        5406.55
        ],
        "columnas": null
       },
@@ -7094,7 +7082,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.3353
+        117.5969
        ],
        "columnas": null
       },
@@ -7103,7 +7091,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.2918
+        114.9777
        ],
        "columnas": null
       },
@@ -7112,7 +7100,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        105.8741
+        114.6707
        ],
        "columnas": null
       },
@@ -7121,7 +7109,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -7130,7 +7118,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -7139,7 +7127,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -7148,7 +7136,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.3353
+        117.5969
        ],
        "columnas": null
       },
@@ -7157,7 +7145,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.2918
+        114.9777
        ],
        "columnas": null
       },
@@ -7166,7 +7154,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        105.8741
+        114.6707
        ],
        "columnas": null
       },
@@ -7175,7 +7163,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -7184,7 +7172,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -7193,7 +7181,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -7202,7 +7190,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -7211,7 +7199,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -7220,7 +7208,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -7229,7 +7217,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.7446
+        126.9041
        ],
        "columnas": null
       },
@@ -7238,7 +7226,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.6873
+        124.0227
        ],
        "columnas": null
       },
@@ -7247,7 +7235,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.2642
+        123.6848
        ],
        "columnas": null
       },
@@ -7256,7 +7244,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        110.9599
+        141.0776
        ],
        "columnas": null
       },
@@ -7265,7 +7253,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        107.8952
+        137.7976
        ],
        "columnas": null
       },
@@ -7274,7 +7262,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        106.4678
+        137.4138
        ],
        "columnas": null
       },
@@ -7283,7 +7271,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        121.0223
+        138.108
        ],
        "columnas": null
       },
@@ -7292,7 +7280,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        117.972
+        135.2341
        ],
        "columnas": null
       },
@@ -7301,7 +7289,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        116.5433
+        134.8901
        ],
        "columnas": null
       },
@@ -7310,7 +7298,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        121.8486
+        152.9517
        ],
        "columnas": null
       },
@@ -7319,7 +7307,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        118.8042
+        149.6944
        ],
        "columnas": null
       },
@@ -7328,7 +7316,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        117.367
+        149.3
        ],
        "columnas": null
       }
@@ -7342,7 +7330,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        73070.14
+        79133.82
        ],
        "columnas": null
       },
@@ -7351,7 +7339,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        18317.99
+        19960.82
        ],
        "columnas": null
       },
@@ -7360,7 +7348,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        12085.2
+        13145.6
        ],
        "columnas": null
       },
@@ -7369,7 +7357,7 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/mes",
        "valores": [
-        64207.7
+        69535.94
        ],
        "columnas": null
       },
@@ -7378,7 +7366,7 @@
        "concepto": "CARGO POR POTENCIA EN PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        8926.61
+        9790.11
        ],
        "columnas": null
       },
@@ -7387,7 +7375,7 @@
        "concepto": "CARGO POR POTENCIA FUERA PICO",
        "unidad": "$/kW-mes",
        "valores": [
-        3825.69
+        4195.76
        ],
        "columnas": null
       },
@@ -7396,7 +7384,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        107.6442
+        114.7286
        ],
        "columnas": null
       },
@@ -7405,7 +7393,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        104.675
+        112.1734
        ],
        "columnas": null
       },
@@ -7414,7 +7402,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.2918
+        111.8738
        ],
        "columnas": null
       },
@@ -7423,7 +7411,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -7432,7 +7420,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -7441,7 +7429,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -7450,7 +7438,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        107.6442
+        114.7286
        ],
        "columnas": null
       },
@@ -7459,7 +7447,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        104.675
+        112.1734
        ],
        "columnas": null
       },
@@ -7468,7 +7456,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.2918
+        111.8738
        ],
        "columnas": null
       },
@@ -7477,7 +7465,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -7486,7 +7474,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -7495,7 +7483,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -7504,7 +7492,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -7513,7 +7501,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -7522,7 +7510,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -7531,7 +7519,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.0435
+        123.8089
        ],
        "columnas": null
       },
@@ -7540,7 +7528,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.0608
+        120.9978
        ],
        "columnas": null
       },
@@ -7549,7 +7537,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.6724
+        120.6681
        ],
        "columnas": null
       },
@@ -7558,7 +7546,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        108.2536
+        137.6367
        ],
        "columnas": null
       },
@@ -7567,7 +7555,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        105.2636
+        134.4366
        ],
        "columnas": null
       },
@@ -7576,7 +7564,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        103.871
+        134.0622
        ],
        "columnas": null
       },
@@ -7585,7 +7573,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        118.3025
+        134.9925
        ],
        "columnas": null
       },
@@ -7594,7 +7582,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        115.3195
+        132.181
        ],
        "columnas": null
       },
@@ -7603,7 +7591,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        113.9329
+        131.8533
        ],
        "columnas": null
       },
@@ -7612,7 +7600,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN PICO",
        "unidad": "$/kWh",
        "valores": [
-        119.1169
+        149.4833
        ],
        "columnas": null
       },
@@ -7621,7 +7609,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN RESTO",
        "unidad": "$/kWh",
        "valores": [
-        116.1533
+        146.3126
        ],
        "columnas": null
       },
@@ -7630,7 +7618,7 @@
        "concepto": "CARGO VARIABLE POR ENERGÍA DEMANDADA EN VALLE",
        "unidad": "$/kWh",
        "valores": [
-        114.745
+        145.9211
        ],
        "columnas": null
       }
@@ -7638,19 +7626,19 @@
     }
    ],
    "intentos": [
-    "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf"
+    "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
-     "valor": 4835.87,
+     "valor": 5240.4,
      "unidad": "$/mes",
      "concepto": "CARGO FIJO R1",
      "grupo": null,
      "columna": null
     },
     "cargo_variable": {
-     "valor": 210.8862,
+     "valor": 227.7806,
      "unidad": "$/kWh",
      "concepto": "CARGO VARIABLE R1 (consumo en kWH-Mes ≤ 100)",
      "grupo": null,
@@ -7666,7 +7654,7 @@
     "titulo": "Cuadro Tarifario del 11-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden"
    },
-   "mes_referencia": "2026-06",
+   "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "mes",
@@ -7675,77 +7663,77 @@
      {
       "nombre": "R1",
       "hasta": 100,
-      "fijo": 4835.87,
+      "fijo": 5240.4,
       "escalones": [
        [
         null,
-        210.8862
+        227.7806
        ]
       ]
      },
      {
       "nombre": "R2",
       "hasta": 200,
-      "fijo": 7427.07,
+      "fijo": 8049.7,
       "escalones": [
        [
         null,
-        217.5914
+        235.0049
        ]
       ]
      },
      {
       "nombre": "R3",
       "hasta": 400,
-      "fijo": 10146.12,
+      "fijo": 10997.62,
       "escalones": [
        [
         null,
-        230.6245
+        249.1032
        ]
       ]
      },
      {
       "nombre": "R4",
       "hasta": 500,
-      "fijo": 12606.84,
+      "fijo": 13665.46,
       "escalones": [
        [
         null,
-        240.7838
+        260.0835
        ]
       ]
      },
      {
       "nombre": "R5",
       "hasta": 700,
-      "fijo": 20249.3,
+      "fijo": 21951.19,
       "escalones": [
        [
         null,
-        250.1692
+        270.273
        ]
       ]
      },
      {
       "nombre": "R6",
       "hasta": 1400,
-      "fijo": 32812.49,
+      "fijo": 35571.83,
       "escalones": [
        [
         null,
-        263.7662
+        285.0233
        ]
       ]
      },
      {
       "nombre": "R7",
       "hasta": null,
-      "fijo": 40065.37,
+      "fijo": 43435.19,
       "escalones": [
        [
         null,
-        282.3253
+        305.1694
        ]
       ]
      }
@@ -7759,20 +7747,20 @@
       "tension": "BT",
       "desde_kw": 10,
       "hasta_kw": 50,
-      "fijo": 51711.45,
+      "fijo": 56002.69,
       "potencia": [
        [
         "Potencia en pico",
-        16722.16
+        18203.5
        ],
        [
         "Potencia fuera de pico",
-        11401.1
+        12392.27
        ]
       ],
       "energia": {
-       "pico": 125.0918,
-       "fuera_pico": 123.5126
+       "pico": 142.5672,
+       "fuera_pico": 141.4992
       }
      },
      {
@@ -7780,20 +7768,20 @@
       "tension": "MT",
       "desde_kw": 10,
       "hasta_kw": 50,
-      "fijo": 78350.64,
+      "fijo": 84852.52,
       "potencia": [
        [
         "Potencia en pico",
-        13015.39
+        14185.14
        ],
        [
         "Potencia fuera de pico",
-        9812.97
+        10670.64
        ]
       ],
       "energia": {
-       "pico": 122.4179,
-       "fuera_pico": 120.7319
+       "pico": 139.5018,
+       "fuera_pico": 138.3008
       }
      },
      {
@@ -7801,21 +7789,21 @@
       "tension": "BT",
       "desde_kw": 50,
       "hasta_kw": 300,
-      "fijo": 50155.9,
+      "fijo": 54318.06,
       "potencia": [
        [
         "Potencia en pico",
-        22753.48
+        24765.71
        ],
        [
         "Potencia fuera de pico",
-        13985.08
+        15203.7
        ]
       ],
       "energia": {
-       "pico": 121.0223,
-       "resto": 117.972,
-       "valle": 116.5433
+       "pico": 138.108,
+       "resto": 135.2341,
+       "valle": 134.8901
       }
      },
      {
@@ -7823,21 +7811,21 @@
       "tension": "BT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 50155.9,
+      "fijo": 54318.06,
       "potencia": [
        [
         "Potencia en pico",
-        22753.48
+        24765.71
        ],
        [
         "Potencia fuera de pico",
-        13985.08
+        15203.7
        ]
       ],
       "energia": {
-       "pico": 121.8486,
-       "resto": 118.8042,
-       "valle": 117.367
+       "pico": 152.9517,
+       "resto": 149.6944,
+       "valle": 149.3
       }
      },
      {
@@ -7845,21 +7833,21 @@
       "tension": "MT",
       "desde_kw": 50,
       "hasta_kw": 300,
-      "fijo": 73070.14,
+      "fijo": 79133.82,
       "potencia": [
        [
         "Potencia en pico",
-        18317.99
+        19960.82
        ],
        [
         "Potencia fuera de pico",
-        12085.2
+        13145.6
        ]
       ],
       "energia": {
-       "pico": 118.3025,
-       "resto": 115.3195,
-       "valle": 113.9329
+       "pico": 134.9925,
+       "resto": 132.181,
+       "valle": 131.8533
       }
      },
      {
@@ -7867,28 +7855,28 @@
       "tension": "MT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 73070.14,
+      "fijo": 79133.82,
       "potencia": [
        [
         "Potencia en pico",
-        18317.99
+        19960.82
        ],
        [
         "Potencia fuera de pico",
-        12085.2
+        13145.6
        ]
       ],
       "energia": {
-       "pico": 119.1169,
-       "resto": 116.1533,
-       "valle": 114.745
+       "pico": 149.4833,
+       "resto": 146.3126,
+       "valle": 145.9211
       }
      }
     ]
    },
    "simulador_ocr": null,
    "simulador_subsidio": null,
-   "desactualizado": true
+   "desactualizado": false
   },
   {
    "id": "ecsapem",
@@ -8054,7 +8042,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -11610,7 +11598,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -11685,7 +11673,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_D"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "archivo_nacional": {
     "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
     "titulo": "Cuadro Tarifario del 07-2025",
@@ -13088,7 +13076,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -15126,7 +15114,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -15531,7 +15519,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -15640,7 +15628,7 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -16217,7 +16205,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -16773,7 +16761,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -17682,7 +17670,7 @@
    "simulador_ocr": null,
    "simulador_subsidio": null,
    "desactualizado": false,
-   "ultimo_intento": "2026-10-25T13:34:14+00:00",
+   "ultimo_intento": "2026-10-26T15:51:43+00:00",
    "ultimo_intento_fallido": true
   },
   {
@@ -18479,7 +18467,7 @@
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -19281,7 +19269,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -19654,7 +19642,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -20195,7 +20183,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -20739,7 +20727,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 2309.1,
@@ -20781,16 +20769,16 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf",
-    "titulo": "CT-consumos-08-2026-Final.pdf",
+    "url": "https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf",
+    "titulo": "CT-consumos-09_2026.pdf",
     "pagina": "https://www.epen.gov.ar/index.php/cuadros-tarifarios/",
     "origen": "Distribuidora",
     "tipo": "pdf",
-    "sha256": "b38f2e20b090ad1aa6342b9b9c353aab3e092c6caf30b5d6d526bf87c5918680",
-    "bytes": 546891,
+    "sha256": "413cf7c398b5bff32be2fa66cd548c2d890e60482f4d27c13c55ff31516c6ad6",
+    "bytes": 494885,
     "via": "búsqueda automática"
    },
-   "vigencia": "PERÍODO DE FACTURACIÓN SEPTIEMBRE - CONSUMOS AGOSTO 2026",
+   "vigencia": "PERÍODO DE FACTURACIÓN OCTUBRE - CONSUMOS SEPTIEMBRE 2026",
    "tablas": [
     {
      "titulo": "T1 Residencial",
@@ -20800,7 +20788,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        10185.04
+        9940.22
        ],
        "columnas": null
       },
@@ -20809,7 +20797,7 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        395.027
+        395.196
        ],
        "columnas": null
       },
@@ -20818,7 +20806,7 @@
        "concepto": "Cargo variable por energía - CON SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        194.719
+        195.632
        ],
        "columnas": null
       },
@@ -20827,7 +20815,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        10338.88
+        10094.07
        ],
        "columnas": null
       },
@@ -20836,7 +20824,7 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        370.668
+        370.837
        ],
        "columnas": null
       },
@@ -20845,7 +20833,7 @@
        "concepto": "Cargo variable por energía - CON SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        172.92
+        173.833
        ],
        "columnas": null
       },
@@ -20854,7 +20842,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        12045.53
+        11800.72
        ],
        "columnas": null
       },
@@ -20863,7 +20851,7 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        360.041
+        360.21
        ],
        "columnas": null
       },
@@ -20872,7 +20860,7 @@
        "concepto": "Cargo variable por energía - CON SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        161.074
+        161.987
        ],
        "columnas": null
       },
@@ -20881,7 +20869,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        18106.21
+        17861.4
        ],
        "columnas": null
       },
@@ -20890,25 +20878,25 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        354.987
+        355.156
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        155.438
+        156.351
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        354.987
+        355.156
        ],
        "columnas": null
       },
@@ -20917,7 +20905,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        31577.07
+        31332.26
        ],
        "columnas": null
       },
@@ -20926,25 +20914,25 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        350.684
+        350.853
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        150.643
+        151.556
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        350.684
+        350.853
        ],
        "columnas": null
       },
@@ -20953,7 +20941,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        38447.3
+        38202.48
        ],
        "columnas": null
       },
@@ -20962,25 +20950,25 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        346.436
+        346.605
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        145.905
+        146.818
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        346.436
+        346.605
        ],
        "columnas": null
       },
@@ -20989,7 +20977,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        59915.94
+        59671.13
        ],
        "columnas": null
       },
@@ -20998,25 +20986,25 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        341.588
+        341.757
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        140.501
+        141.414
        ],
        "columnas": null
       },
       {
        "grupo": "T1-R7-Consumo mensual mayor a 1400 KWh",
-       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        341.588
+        341.757
        ],
        "columnas": null
       },
@@ -21025,7 +21013,7 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        28768.42
+        28523.61
        ],
        "columnas": null
       },
@@ -21034,7 +21022,7 @@
        "concepto": "Cargo variable por energía - SIN SUBSIDIO",
        "unidad": "$/KWh",
        "valores": [
-        424.557
+        424.726
        ],
        "columnas": null
       },
@@ -21043,7 +21031,7 @@
        "concepto": "Cargo fijo (Faya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        10185.04
+        9940.22
        ],
        "columnas": null
       },
@@ -21052,7 +21040,7 @@
        "concepto": "Cargo variable por energía",
        "unidad": "$/KWh",
        "valores": [
-        194.719
+        195.632
        ],
        "columnas": null
       },
@@ -21061,7 +21049,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        10338.88
+        10094.07
        ],
        "columnas": null
       },
@@ -21070,7 +21058,7 @@
        "concepto": "Cargo variable por energía",
        "unidad": "$/KWh",
        "valores": [
-        172.92
+        173.833
        ],
        "columnas": null
       },
@@ -21079,7 +21067,7 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        12045.53
+        11800.72
        ],
        "columnas": null
       },
@@ -21088,7 +21076,16 @@
        "concepto": "Cargo variable por energía",
        "unidad": "$/KWh",
        "valores": [
-        161.074
+        161.987
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": "T1-RE-Consumo Mensual Estacional",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
+       "unidad": "$/KWh",
+       "valores": [
+        360.21
        ],
        "columnas": null
       },
@@ -21097,25 +21094,25 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        18106.21
+        17861.4
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        155.438
+        156.351
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        354.987
+        355.156
        ],
        "columnas": null
       },
@@ -21124,25 +21121,25 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        31577.07
+        31332.26
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        150.643
+        151.556
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        350.684
+        350.853
        ],
        "columnas": null
       },
@@ -21151,25 +21148,25 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        38447.3
+        38202.48
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        145.905
+        146.818
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        346.436
+        346.605
        ],
        "columnas": null
       },
@@ -21178,25 +21175,25 @@
        "concepto": "Cargo fijo",
        "unidad": "$/mes",
        "valores": [
-        59915.94
+        59671.13
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - primeros 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        140.501
+        141.414
        ],
        "columnas": null
       },
       {
        "grupo": "T1-RE-Consumo Mensual Estacional",
-       "concepto": "Cargo variable por energía - excedente de 300 KWh",
+       "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh",
        "unidad": "$/KWh",
        "valores": [
-        341.588
+        341.757
        ],
        "columnas": null
       },
@@ -21205,7 +21202,7 @@
        "concepto": "Bonificación S/T1-E-Residencial Electrodependiente",
        "unidad": "$/KWh",
        "valores": [
-        -31.943
+        -32.75
        ],
        "columnas": null
       }
@@ -21219,7 +21216,7 @@
        "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
        "unidad": "$/KW-mes",
        "valores": [
-        49800.44
+        49188.4
        ],
        "columnas": null
       },
@@ -21228,7 +21225,7 @@
        "concepto": "Ca rgo va ri a bl e por Energía",
        "unidad": "$/KWh",
        "valores": [
-        402.702
+        416.293
        ],
        "columnas": null
       }
@@ -21242,7 +21239,7 @@
        "concepto": "Por ca pa ci da d de s umi ni s tro contra ta da",
        "unidad": "$/KW-mes",
        "valores": [
-        25411.3
+        24799.27
        ],
        "columnas": null
       },
@@ -21251,7 +21248,7 @@
        "concepto": "Ca rgo va ri a bl e por Energía",
        "unidad": "$/KWh",
        "valores": [
-        361.041
+        387.781
        ],
        "columnas": null
       }
@@ -21265,7 +21262,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        57359.77
+        56707.11
        ],
        "columnas": null
       },
@@ -21274,7 +21271,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        44175.27
+        43522.61
        ],
        "columnas": null
       },
@@ -21283,7 +21280,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        359.733
+        373.214
        ],
        "columnas": null
       },
@@ -21292,7 +21289,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        355.983
+        368.801
        ],
        "columnas": null
       },
@@ -21301,7 +21298,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        366.999
+        381.805
        ],
        "columnas": null
       },
@@ -21310,7 +21307,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        359.733
+        373.214
        ],
        "columnas": null
       },
@@ -21319,7 +21316,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        355.983
+        368.801
        ],
        "columnas": null
       },
@@ -21328,7 +21325,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        366.999
+        381.805
        ],
        "columnas": null
       },
@@ -21337,7 +21334,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        68329.85
+        67677.19
        ],
        "columnas": null
       },
@@ -21346,7 +21343,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        54131.16
+        53478.5
        ],
        "columnas": null
       },
@@ -21355,7 +21352,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        360.5
+        377.281
        ],
        "columnas": null
       },
@@ -21364,7 +21361,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        357.282
+        373.323
        ],
        "columnas": null
       },
@@ -21373,7 +21370,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        367.311
+        385.606
        ],
        "columnas": null
       }
@@ -21387,7 +21384,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        28469.89
+        27836.19
        ],
        "columnas": null
       },
@@ -21396,7 +21393,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        23677.38
+        23043.68
        ],
        "columnas": null
       },
@@ -21405,7 +21402,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        330.951
+        343.993
        ],
        "columnas": null
       },
@@ -21414,7 +21411,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        335.955
+        348.356
        ],
        "columnas": null
       },
@@ -21423,7 +21420,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        329.143
+        343.467
        ],
        "columnas": null
       },
@@ -21432,7 +21429,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        337.06
+        350.102
        ],
        "columnas": null
       },
@@ -21441,7 +21438,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        336.647
+        349.048
        ],
        "columnas": null
       },
@@ -21450,7 +21447,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        342.953
+        357.277
        ],
        "columnas": null
       },
@@ -21459,7 +21456,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        24014.91
+        23381.2
        ],
        "columnas": null
       },
@@ -21468,7 +21465,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        20571.77
+        19938.06
        ],
        "columnas": null
       },
@@ -21477,7 +21474,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        329.95
+        346.731
        ],
        "columnas": null
       },
@@ -21486,7 +21483,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        335.14
+        351.181
        ],
        "columnas": null
       },
@@ -21495,7 +21492,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        335.696
+        353.991
        ],
        "columnas": null
       }
@@ -21509,7 +21506,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        21429.49
+        20806.62
        ],
        "columnas": null
       },
@@ -21518,7 +21515,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        19950.25
+        19327.38
        ],
        "columnas": null
       },
@@ -21527,7 +21524,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        254.78
+        267.822
        ],
        "columnas": null
       },
@@ -21536,7 +21533,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        253.156
+        265.557
        ],
        "columnas": null
       },
@@ -21545,7 +21542,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        259.323
+        273.647
        ],
        "columnas": null
       },
@@ -21554,7 +21551,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        258.456
+        271.498
        ],
        "columnas": null
       },
@@ -21563,7 +21560,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        268.095
+        280.496
        ],
        "columnas": null
       },
@@ -21572,7 +21569,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        258.773
+        273.097
        ],
        "columnas": null
       },
@@ -21581,7 +21578,7 @@
        "concepto": "Por capacidad de suministro contratada en horas pico",
        "unidad": "$/KW-mes",
        "valores": [
-        21636.34
+        21013.47
        ],
        "columnas": null
       },
@@ -21590,7 +21587,7 @@
        "concepto": "Por capacidad de suministro contratada en horas fuera de pico",
        "unidad": "$/KW-mes",
        "valores": [
-        20472.54
+        19849.67
        ],
        "columnas": null
       },
@@ -21599,7 +21596,7 @@
        "concepto": "Por consumo de energía en período horas restante",
        "unidad": "$/KWh",
        "valores": [
-        293.592
+        310.373
        ],
        "columnas": null
       },
@@ -21608,7 +21605,7 @@
        "concepto": "Por consumo de energía en período horas valle/nocturno",
        "unidad": "$/KWh",
        "valores": [
-        295.094
+        311.135
        ],
        "columnas": null
       },
@@ -21617,7 +21614,7 @@
        "concepto": "Por consumo de energía en período horas pico",
        "unidad": "$/KWh",
        "valores": [
-        293.757
+        312.052
        ],
        "columnas": null
       }
@@ -21625,19 +21622,19 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/09/CT-consumos-08-2026-Final.pdf"
+    "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
-     "valor": 10185.04,
+     "valor": 9940.22,
      "unidad": "$/mes",
      "concepto": "Cargo fijo",
      "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
      "columna": null
     },
     "cargo_variable": {
-     "valor": 395.027,
+     "valor": 395.196,
      "unidad": "$/KWh",
      "concepto": "Cargo variable por energía - SIN SUBSIDIO",
      "grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
@@ -21653,7 +21650,7 @@
     "titulo": "Cuadro Tarifario del 07-2025",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epen"
    },
-   "mes_referencia": "2026-08",
+   "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "mes",
@@ -21662,77 +21659,77 @@
      {
       "nombre": "T1-R1-Consumo mensual inferior o igual a 50 KWh Unidad",
       "hasta": 50,
-      "fijo": 10185.04,
+      "fijo": 9940.22,
       "escalones": [
        [
         null,
-        395.027
+        395.196
        ]
       ]
      },
      {
       "nombre": "T1-R2-Consumo mensual mayor a 50 KWh e inferior o igual a 100 KWh",
       "hasta": 100,
-      "fijo": 10338.88,
+      "fijo": 10094.07,
       "escalones": [
        [
         null,
-        370.668
+        370.837
        ]
       ]
      },
      {
       "nombre": "T1-R3-Consumo mensual mayor a 100 KWh e inferior o igual a 250 KWh",
       "hasta": 250,
-      "fijo": 12045.53,
+      "fijo": 11800.72,
       "escalones": [
        [
         null,
-        360.041
+        360.21
        ]
       ]
      },
      {
       "nombre": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh",
       "hasta": 500,
-      "fijo": 18106.21,
+      "fijo": 17861.4,
       "escalones": [
        [
         null,
-        354.987
+        355.156
        ]
       ]
      },
      {
       "nombre": "T1-R5-Consumo mensual mayor a 500 KWh e inferior o igual a 700 KWh",
       "hasta": 700,
-      "fijo": 31577.07,
+      "fijo": 31332.26,
       "escalones": [
        [
         null,
-        350.684
+        350.853
        ]
       ]
      },
      {
       "nombre": "T1-R6-Consumo mensual mayor a 700 KWh e inferior o igual a 1400 KWh",
       "hasta": 1400,
-      "fijo": 38447.3,
+      "fijo": 38202.48,
       "escalones": [
        [
         null,
-        346.436
+        346.605
        ]
       ]
      },
      {
       "nombre": "T1-R7-Consumo mensual mayor a 1400 KWh",
       "hasta": null,
-      "fijo": 59915.94,
+      "fijo": 59671.13,
       "escalones": [
        [
         null,
-        341.588
+        341.757
        ]
       ]
      }
@@ -21750,11 +21747,11 @@
       "potencia": [
        [
         "Capacidad de suministro contratada",
-        49800.44
+        49188.4
        ]
       ],
       "energia": {
-       "unica": 402.702
+       "unica": 416.293
       }
      },
      {
@@ -21766,11 +21763,11 @@
       "potencia": [
        [
         "Capacidad de suministro contratada",
-        25411.3
+        24799.27
        ]
       ],
       "energia": {
-       "unica": 361.041
+       "unica": 387.781
       }
      },
      {
@@ -21782,17 +21779,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        57359.77
+        56707.11
        ],
        [
         "Capacidad en horas fuera de pico",
-        44175.27
+        43522.61
        ]
       ],
       "energia": {
-       "pico": 366.999,
-       "resto": 359.733,
-       "valle": 355.983
+       "pico": 381.805,
+       "resto": 373.214,
+       "valle": 368.801
       }
      },
      {
@@ -21804,17 +21801,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        68329.85
+        67677.19
        ],
        [
         "Capacidad en horas fuera de pico",
-        54131.16
+        53478.5
        ]
       ],
       "energia": {
-       "pico": 367.311,
-       "resto": 360.5,
-       "valle": 357.282
+       "pico": 385.606,
+       "resto": 377.281,
+       "valle": 373.323
       }
      },
      {
@@ -21826,17 +21823,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        28469.89
+        27836.19
        ],
        [
         "Capacidad en horas fuera de pico",
-        23677.38
+        23043.68
        ]
       ],
       "energia": {
-       "pico": 329.143,
-       "resto": 330.951,
-       "valle": 335.955
+       "pico": 343.467,
+       "resto": 343.993,
+       "valle": 348.356
       }
      },
      {
@@ -21848,17 +21845,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        24014.91
+        23381.2
        ],
        [
         "Capacidad en horas fuera de pico",
-        20571.77
+        19938.06
        ]
       ],
       "energia": {
-       "pico": 335.696,
-       "resto": 329.95,
-       "valle": 335.14
+       "pico": 353.991,
+       "resto": 346.731,
+       "valle": 351.181
       }
      },
      {
@@ -21870,17 +21867,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        21429.49
+        20806.62
        ],
        [
         "Capacidad en horas fuera de pico",
-        19950.25
+        19327.38
        ]
       ],
       "energia": {
-       "pico": 259.323,
-       "resto": 254.78,
-       "valle": 253.156
+       "pico": 273.647,
+       "resto": 267.822,
+       "valle": 265.557
       }
      },
      {
@@ -21892,17 +21889,17 @@
       "potencia": [
        [
         "Capacidad en horas pico",
-        21636.34
+        21013.47
        ],
        [
         "Capacidad en horas fuera de pico",
-        20472.54
+        19849.67
        ]
       ],
       "energia": {
-       "pico": 293.757,
-       "resto": 293.592,
-       "valle": 295.094
+       "pico": 312.052,
+       "resto": 310.373,
+       "valle": 311.135
       }
      }
     ]
@@ -22018,7 +22015,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -23000,7 +22997,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
     "cargo_fijo": {
@@ -23521,7 +23518,7 @@
    "intentos": [
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -24301,7 +24298,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -24645,7 +24642,7 @@
    "intentos": [
     "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SP"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "archivo_nacional": {
     "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -24779,7 +24776,7 @@
    "intentos": [
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3944.25564,
@@ -25280,7 +25277,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -26227,7 +26224,7 @@
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -27840,7 +27837,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-25T13:34:14+00:00",
+   "verificado": "2026-10-26T15:51:43+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
