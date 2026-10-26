@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T18:48:14+00:00",
+ "generado": "2026-10-26T19:01:05+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1374,7 +1374,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -1396,9 +1396,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edenor"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edenor",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
@@ -3813,7 +3819,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -3835,9 +3841,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
+    "periodo": "2026-05",
     "titulo": "Cuadro Tarifario del 05-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesur"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesur",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
@@ -5733,7 +5745,7 @@
    "intentos": [
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5852.09,
@@ -5755,9 +5767,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "periodo": "2025-11",
     "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -7947,7 +7965,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "nota": "T1R Nivel 1, consumo < 100 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -7963,9 +7981,15 @@
    "escaneado": true,
    "ocr": true,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "periodo": "2025-11",
     "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edea"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edea",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "URL del documento",
@@ -8645,15 +8669,21 @@
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
    "ocr": true,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "periodo": "2025-11",
     "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelap"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelap",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "URL del documento",
@@ -9518,7 +9548,7 @@
    "intentos": [
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5240.4,
@@ -9540,9 +9570,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "periodo": "2025-11",
     "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -10420,15 +10456,21 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_05_ECSAPEM.xlsx",
+    "periodo": "2026-05",
     "titulo": "Cuadro Tarifario del 05-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ecsapem"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_05_ECSAPEM.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ecsapem",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -13977,7 +14019,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -13999,9 +14041,15 @@
    "escaneado": true,
    "ocr": true,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SECHEEP/2026_06_SECHEEP.xlsx",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-secheep"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SECHEEP/2026_06_SECHEEP.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-secheep",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
@@ -14107,14 +14155,9 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [
-    "se: HTTPError: 404 Client Error: Not Found for url: http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_D"
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
-   "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/chubut/2025_07_DGSP.pdf",
-    "titulo": "Cuadro Tarifario del 07-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dgsp"
-   },
+   "verificado": "2026-10-26T18:59:21+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -15511,17 +15554,28 @@
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.epec.com.ar/cuadro-tarifario",
-    "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf"
+    "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EPEC/2026_06_EPEC.pdf",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epec-0"
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epec-0",
+    "no_disponibles": [
+     {
+      "periodo": "2026-06",
+      "titulo": "Cuadro Tarifario del 06-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EPEC/2026_06_EPEC.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -16017,14 +16071,15 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
-    "titulo": "CUADRO-TARIFARIO-108-Dpdf",
-    "pagina": null,
-    "origen": "Distribuidora",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf",
+    "titulo": "Cuadro Tarifario del 04-2026",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpec",
+    "origen": "Secretaría de Energía de la Nación (archivo)",
     "tipo": "pdf",
-    "sha256": "694c62c9e75519b72babd4b022d03e73f0f3b129c6cdc9b04493af2450fcebfd",
-    "bytes": 712705,
-    "via": "URL conocida"
+    "sha256": "7c4e5ae4c08ad9bad122860f76da4b24364b11c8b0000f655a5da04ca47d4de6",
+    "bytes": 711225,
+    "via": "archivo nacional",
+    "motivo": "tiene el mismo texto que el documento de la fuente propia, pero el archivo nacional indica su período (2026-04); en la fuente propia solo se leyó 2026-01"
    },
    "vigencia": null,
    "tablas": [
@@ -17867,9 +17922,10 @@
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
-    "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf"
+    "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
+    "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T19:01:05+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -17890,13 +17946,15 @@
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf",
-    "titulo": "Cuadro Tarifario del 04-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpec"
+   "se_mas_nuevo": true,
+   "fuente_reemplazada": {
+    "url": "https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
+    "titulo": "CUADRO-TARIFARIO-108-Dpdf",
+    "periodo": "2026-01",
+    "mismo_texto": true
    },
-   "mes_referencia": "2026-01",
-   "mes_referencia_origen": "texto del documento",
+   "mes_referencia": "2026-04",
+   "mes_referencia_origen": "título",
    "simulador": {
     "periodo": "bimestre",
     "criterio": "Urbano no bonificado, tarifa sin bonificación",
@@ -18493,7 +18551,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3193.22,
@@ -18515,9 +18573,22 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_06_ENERSA.pdf",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa"
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa",
+    "no_disponibles": [
+     {
+      "periodo": "2026-06",
+      "titulo": "Cuadro Tarifario del 06-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_06_ENERSA.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-11"
+    }
    },
    "mes_referencia": "2026-11",
    "mes_referencia_origen": "vigencia",
@@ -18730,7 +18801,7 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -19308,7 +19379,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -19330,9 +19401,22 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_03_REFSA.zip",
-    "titulo": "Cuadro Tarifario del 03-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-refsa"
+    "periodo": "2026-02",
+    "titulo": "Cuadro Tarifario del 02-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-refsa",
+    "no_disponibles": [
+     {
+      "periodo": "2026-03",
+      "titulo": "Cuadro Tarifario del 03-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_03_REFSA.zip",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
@@ -20092,7 +20176,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -20108,9 +20192,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2026_01_EJESA.xlsx",
+    "periodo": "2026-01",
     "titulo": "Cuadro Tarifario del 01-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eje-sa"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2026_01_EJESA.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eje-sa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "texto del documento",
@@ -21401,15 +21491,28 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06_EJEDSA.xlsx",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ejsed-sa"
+    "periodo": "2025-10",
+    "titulo": "Cuadro Tarifario del 10-2025",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2025_10_EJSEDSA.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ejsed-sa",
+    "no_disponibles": [
+     {
+      "periodo": "2026-06",
+      "titulo": "Cuadro Tarifario del 06-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06_EJEDSA.xlsx",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -21435,7 +21538,8 @@
     "tipo": "zip",
     "sha256": "eff3d7b693da9da672fbc1e991b0ff47a60a008beb54fbf6b5ed22cf0d03cfb4",
     "bytes": 115030,
-    "via": "archivo nacional"
+    "via": "archivo nacional",
+    "motivo": "la fuente propia no respondió"
    },
    "vigencia": "A partir de la facturación del período diciembre de 2025",
    "tablas": [
@@ -22211,10 +22315,10 @@
     }
    ],
    "intentos": [
-    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
+    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnectio",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -22238,7 +22342,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.2599999999998,
+      "fijo": 3790.26,
       "escalones": [
        [
         60,
@@ -22384,7 +22488,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 3790.2599999999998
+      "valor": 3790.26
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -23313,7 +23417,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -23329,9 +23433,22 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_06_EDELAR.pdf",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelar"
+    "periodo": "2026-03",
+    "titulo": "Cuadro Tarifario del 03-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_03_EDELAR.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelar",
+    "no_disponibles": [
+     {
+      "periodo": "2026-06",
+      "titulo": "Cuadro Tarifario del 06-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_06_EDELAR.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-04"
+    }
    },
    "mes_referencia": "2026-04",
    "mes_referencia_origen": "vigencia",
@@ -23783,7 +23900,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -23805,9 +23922,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_05_EDEMSA.xlsx",
+    "periodo": "2026-05",
     "titulo": "Cuadro Tarifario del 05-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edemsa"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_05_EDEMSA.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edemsa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -24815,7 +24938,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -24837,9 +24960,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_05_EDESTE.xlsx",
+    "periodo": "2026-05",
     "titulo": "Cuadro Tarifario del 05-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edeste"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_05_EDESTE.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edeste",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -25850,7 +25979,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 2309.1,
@@ -25872,9 +26001,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
+    "periodo": "2025-11",
     "titulo": "Cuadro Tarifario del 11-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-emsa"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-emsa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-08"
+    }
    },
    "mes_referencia": "2026-08",
    "mes_referencia_origen": "vigencia",
@@ -26746,9 +26881,10 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf"
+    "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf",
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9940.22,
@@ -26770,9 +26906,19 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/neuquen/2025_07_EPEN.pdf",
-    "titulo": "Cuadro Tarifario del 07-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epen"
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epen",
+    "no_disponibles": [
+     {
+      "periodo": "2025-07",
+      "titulo": "Cuadro Tarifario del 07-2025",
+      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/neuquen/2025_07_EPEN.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -27627,7 +27773,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -27649,9 +27795,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edersa"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edersa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -28709,7 +28861,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
     "cargo_fijo": {
@@ -28731,9 +28883,15 @@
    "escaneado": false,
    "ocr": true,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesa"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesa",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
@@ -29335,9 +29493,10 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf"
+    "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf",
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -29359,9 +29518,19 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ESJ/2026_06_ESJ.pdf",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-esj-0"
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-esj-0",
+    "no_disponibles": [
+     {
+      "periodo": "2026-06",
+      "titulo": "Cuadro Tarifario del 06-2026",
+      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ESJ/2026_06_ESJ.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
@@ -29995,7 +30164,8 @@
     "tipo": "xlsx",
     "sha256": "56f7a8b36c26d340ddea2e1f91970f3d7c5a69d545a930b405680652f09c0a23",
     "bytes": 31470,
-    "via": "archivo nacional"
+    "via": "archivo nacional",
+    "motivo": "la fuente propia no respondió"
    },
    "vigencia": null,
    "tablas": [
@@ -30536,7 +30706,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -31547,14 +31717,9 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [
-    "se: HTTPError: 404 Client Error: Not Found for url: https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SP"
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
-   "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
-    "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-spse-0"
-   },
+   "verificado": "2026-10-26T18:59:21+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -31682,9 +31847,10 @@
     }
    ],
    "intentos": [
-    "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f"
+    "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f",
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3944.25564,
@@ -31706,9 +31872,19 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
-    "titulo": "Cuadro Tarifario del 07-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epe"
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-epe",
+    "no_disponibles": [
+     {
+      "periodo": "2025-07",
+      "titulo": "Cuadro Tarifario del 07-2025",
+      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -32242,7 +32418,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -32264,9 +32440,15 @@
    "escaneado": false,
    "ocr": false,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_06_EDESE.xlsx",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edese"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_06_EDESE.xlsx",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edese",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
+    }
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
@@ -33596,9 +33778,10 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf"
+    "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf",
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -33620,9 +33803,19 @@
    "escaneado": false,
    "ocr": true,
    "archivo_nacional": {
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/tierra_del_fuego/2025_07_DPE.pdf",
-    "titulo": "Cuadro Tarifario del 07-2025",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpe"
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpe",
+    "no_disponibles": [
+     {
+      "periodo": "2025-07",
+      "titulo": "Cuadro Tarifario del 07-2025",
+      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/tierra_del_fuego/2025_07_DPE.pdf",
+      "error": "HTTP 404"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
    },
    "mes_referencia": "2025-09",
    "mes_referencia_origen": "vigencia",
@@ -35258,15 +35451,21 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-26T18:48:14+00:00",
+   "verificado": "2026-10-26T18:59:21+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
    "ocr": true,
    "archivo_nacional": {
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
+    "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet"
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet",
+    "no_disponibles": [],
+    "comparacion": {
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
+    }
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",

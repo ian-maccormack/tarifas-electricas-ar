@@ -45,10 +45,30 @@ function normHTML(e) {
   return h + "</div>";
 }
 
+const link = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`;
+const ymfmt = (ym) => `${ym.slice(5, 7)}-${ym.slice(0, 4)}`;
+function seHTML(e) {
+  const d = e.documento, a = e.archivo_nacional, r = e.fuente_reemplazada;
+  if (d && d.via === "archivo nacional") return `<dt>Fuente nacional</dt><dd>Este documento sale del archivo de la Secretaría de Energía (Argentina.gob.ar) porque ${esc(d.motivo || "la fuente propia no respondió")}.${r ? ` Documento de la fuente propia: ${link(r.url, r.titulo || r.url)}.` : ""}</dd>`;
+  if (!a) return "";
+  let h = "<dt>Fuente nacional</dt><dd>" + (a.url ? `${link(a.url, a.titulo)} en el ${link(a.pagina, "archivo de la Secretaría de Energía")}`
+    : `El ${link(a.pagina, "archivo de la Secretaría de Energía")} no tiene ningún archivo que se pueda descargar.`);
+  if (a.no_disponibles?.length) h += `<br><span class="note">Listados pero no descargables: ${esc(a.no_disponibles.map((x) => `${ymfmt(x.periodo)} (${x.error})`).join(", "))}.</span>`;
+  const c = a.comparacion || {};
+  const txt = {
+    mas_viejo: `Es más viejo que el documento usado (${mesfmt(c.periodo_propio)}): se usa la fuente propia.`,
+    mismo: "Es del mismo período que el documento usado: se usa la fuente propia, más cercana a la resolución." + (c.total ? ` Coinciden ${c.coinciden} de ${c.total} valores extraídos.` : ""),
+    sin_fecha: "No se pudo leer la fecha del documento usado, así que no se puede saber cuál es más nuevo.",
+  }[c.resultado];
+  if (txt) h += `<br><span class="note">${esc(txt)}</span>`;
+  if (c.resultado === "mismo" && c.total && c.coinciden < c.total) h += ' <span class="badge b-viejo" title="Algunos valores de la fuente propia no aparecen en el archivo nacional del mismo período">Discrepancia con el archivo nacional</span>';
+  return h + "</dd>";
+}
+
 function card(e) {
   const d = e.documento;
   const stale = e.ultimo_intento_fallido ? `<span class="badge b-stale">Último intento fallido</span>` : "";
-  const via = d && d.via === "archivo nacional" ? `<span class="badge b-old">Archivo nacional (puede no ser el vigente)</span>`
+  const via = d && d.via === "archivo nacional" ? (e.fuente_reemplazada ? `<span class="badge b-old" title="${esc(d.motivo || "")}">${e.fuente_reemplazada.mismo_texto ? "Archivo nacional (mismo cuadro, con su fecha)" : "Archivo nacional (más nuevo que la fuente propia)"}</span>` : `<span class="badge b-old">Archivo nacional (puede no ser el vigente)</span>`)
     : d && d.archivado ? `<span class="badge b-old" title="El sitio oficial no responde: el documento es la copia guardada por el Internet Archive">Copia archivada</span>` : "";
   let body = "";
   if (e.desactualizado) body += `<div class="alert viejo"><b>Documento de hace más de 2 meses.</b> El mes de referencia (${esc(mesfmt(e.mes_referencia))}, según ${esc(e.mes_referencia_origen)}) es de hace más de 2 meses. No se encontró un cuadro más nuevo en las fuentes consultadas; puede seguir vigente, pero conviene confirmarlo con la distribuidora o el ente regulador.</div>`;
@@ -64,7 +84,7 @@ function card(e) {
   if (e.texto) body += `<dt>Texto extraído</dt><dd><a href="data/textos/${e.id}.txt" target="_blank">ver texto completo del documento</a></dd>`;
   if (d && d.archivado) body += `<dt>Copia archivada</dt><dd>El sitio oficial no responde desde el servidor del scraper. El documento se descargó de la copia guardada por el ${esc(d.archivado.servicio)} el ${esc(d.archivado.captura)}. <a href="${esc(d.archivado.url_original)}" target="_blank" rel="noopener">URL original</a>${d.archivado.pagina_captura ? ` · <a href="${esc(d.archivado.pagina_captura)}" target="_blank" rel="noopener">página archivada</a>` : ""}. Puede existir un cuadro más nuevo que no fue archivado.</dd>`;
   if (d && d.resolucion) body += `<dt>Resolución</dt><dd><a href="${esc(d.resolucion)}" target="_blank" rel="noopener">${esc(d.resolucion.split("/").pop())}</a></dd>`;
-  if (e.archivo_nacional) body += `<dt>Archivo nacional</dt><dd><a href="${esc(e.archivo_nacional.url)}" target="_blank" rel="noopener">${esc(e.archivo_nacional.titulo)}</a></dd>`;
+  body += seHTML(e);
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
   if (!e.ocr && e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
   body += "</dl>";

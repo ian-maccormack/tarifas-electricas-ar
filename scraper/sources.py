@@ -68,20 +68,49 @@ def fixed(url, titulo=""):
     return lambda: {"url": url, "titulo": titulo or url.rsplit("/", 1)[-1]}
 
 
+_SE_BYTES = {}
+
+
+class SEUnavailable(LookupError):
+    def __init__(self, msg, info):
+        super().__init__(msg)
+        self.info = info
+
+
+def _err(e):
+    resp = getattr(e, "response", None)
+    return f"HTTP {resp.status_code}" if resp is not None else type(e).__name__
+
+
+def se_listing(slug):
+    page = SE_BASE + slug
+    r = fetch(page)
+    out = []
+    for txt, href in links(r.text, r.url):
+        m = re.search(r"Cuadro Tarifario del (\d{2})-(\d{4})", txt)
+        if m and "energia.gob.ar" in href:
+            out.append({"periodo": f"{m.group(2)}-{m.group(1)}", "titulo": txt.strip(), "url": href})
+    out.sort(key=lambda x: x["periodo"], reverse=True)
+    return page, out
+
+
 def se_archive(slug):
+    """Newest file of the Secretaría de Energía archive that can actually be downloaded; newer
+    listed files that fail are reported, never used."""
     def disc():
-        page = SE_BASE + slug
-        r = fetch(page)
-        best = None
-        for txt, href in links(r.text, r.url):
-            m = re.search(r"Cuadro Tarifario del (\d{2})-(\d{4})", txt)
-            if m and "energia.gob.ar" in href:
-                key = (int(m.group(2)), int(m.group(1)))
-                if best is None or key > best[0]:
-                    best = (key, txt, href)
-        if not best:
+        page, items = se_listing(slug)
+        if not items:
             raise LookupError("sin cuadros en el archivo de la Secretaría de Energía")
-        return {"url": best[2], "titulo": best[1], "pagina": page}
+        fallidos = []
+        for it in items:
+            try:
+                _SE_BYTES[it["url"]] = fetch(it["url"], timeout=90)
+            except Exception as e:
+                fallidos.append({**it, "error": _err(e)})
+                continue
+            return {**it, "pagina": page, "no_disponibles": fallidos}
+        raise SEUnavailable(f"ningún archivo descargable ({len(fallidos)} enlaces con error)",
+                            {"url": None, "pagina": page, "no_disponibles": fallidos})
     return disc
 
 

@@ -11,7 +11,9 @@ from common import document_text, fetch
 from parsers import PARSERS
 from simulador import build as build_sim, build_demanda, build_ocr, build_subsidio
 from normalizado import normalizar
-from sources import ORIGEN_SE, SOURCES, WAYBACK, _date_key, _wayback, date_key, se_archive
+import re
+
+from sources import _SE_BYTES, ORIGEN_SE, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -25,8 +27,6 @@ def candidates(s):
         yield "primary", s["primary"], s["origen"]
     if s.get("known"):
         yield "known", lambda: {"url": s["known"], "titulo": s["known"].rsplit("/", 1)[-1]}, s["origen"]
-    if s["se"]:
-        yield "se", se_archive(s["se"]), ORIGEN_SE
 
 
 def get_doc(url, headers=None):
@@ -42,7 +42,7 @@ def get_doc(url, headers=None):
             copy.parent.mkdir(exist_ok=True)
             copy.write_bytes(r.content)
         return r.content, r.headers.get("content-type", "")
-    r = fetch(url, timeout=90, headers=headers)
+    r = _SE_BYTES.pop(url, None) or fetch(url, timeout=90, headers=headers)
     return r.content, r.headers.get("content-type", "")
 
 
@@ -134,55 +134,144 @@ def validate(tablas):
     return out
 
 
+def _read(s, kind, d, origen, intentos):
+    content, ctype = get_doc(d["url"], d.get("headers"))
+    tipo, text, sheets = document_text(content, d["url"], ctype)
+    if tipo in ("html",) and s["parser"] != "enre":
+        raise ValueError("el enlace devolvió una página HTML en vez del documento")
+    doc = dict(url=d["url"], titulo=d.get("titulo"), pagina=d.get("pagina"), origen=origen,
+               tipo=tipo, sha256=hashlib.sha256(content).hexdigest(), bytes=len(content),
+               via={"primary": "búsqueda automática", "known": "URL conocida",
+                    "se": "archivo nacional"}[kind])
+    for k in ("archivado", "resolucion"):
+        if d.get(k):
+            doc[k] = d[k]
+    parsed = {"vigencia": None, "tablas": []}
+    fn = PARSERS.get(s["parser"])
+    if fn and text.strip():
+        try:
+            parsed = fn(text, content=content, source=s, sheets=sheets) or parsed
+        except Exception as e:
+            intentos.append(f"parser: {type(e).__name__}: {e}")
+    tablas = validate(parsed.get("tablas", []))
+    used_ocr = False
+    if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
+        tablas = validate(ocr_tables(s["id"], content, s.get("ocr_dpi")))
+        used_ocr = bool(tablas)
+        parsed["comparable"] = ocr_comparable(s["id"], tablas)
+        if used_ocr and not parsed.get("vigencia"):
+            parsed["vigencia"] = ocr_vigencia(_ocr_text(s["id"], content))
+    upd = dict(documento=doc, vigencia=parsed.get("vigencia") or d.get("vigencia"), tablas=tablas,
+               comparable=parsed.get("comparable"), texto=bool(text.strip()),
+               escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr,
+               estado="ok" if tablas else "documento")
+    if text.strip() and tipo != "html":
+        (TEXTS / f"{s['id']}.txt").write_text(text)
+    return upd, text
+
+
+def _interpret(t):
+    """Possible values of a number written with either decimal convention."""
+    try:
+        if "," in t and "." in t:
+            dec, th = (",", ".") if t.rfind(",") > t.rfind(".") else (".", ",")
+            return [float(t.replace(th, "").replace(dec, "."))]
+        sep = "," if "," in t else "." if "." in t else None
+        if not sep:
+            return [float(t)]
+        parts = t.split(sep)
+        out = [float(t.replace(sep, "."))] if len(parts) == 2 else []
+        if all(len(g) == 3 for g in parts[1:]):
+            out.append(float(t.replace(sep, "")))
+        return out
+    except ValueError:
+        return []
+
+
+def coincidencias(tablas, text):
+    """How many extracted values also appear in another document's text (±0,01 for rounding)."""
+    found = {round(v, 2) for t in re.findall(r"\d[\d.,]*\d|\d", text) for v in _interpret(t)}
+    vals = [v for t in tablas for f in t["filas"] for v in f["valores"] if v is not None]
+    ok = sum(1 for v in vals if any(round(v + dd, 2) in found for dd in (0, -0.01, 0.01)))
+    return ok, len(vals)
+
+
+def _ym(ym):
+    return f"{ym[0]}-{ym[1]:02d}"
+
+
 def process(s):
     entry = {k: s[k] for k in ("id", "empresa", "nombre", "provincia", "nota")}
     entry.update(estado="sin_datos", documento=None, vigencia=None, tablas=[], intentos=[], verificado=NOW)
     for kind, disc, origen in candidates(s):
         try:
             d = disc()
-            content, ctype = get_doc(d["url"], d.get("headers"))
-            tipo, text, sheets = document_text(content, d["url"], ctype)
-            if tipo in ("html",) and s["parser"] != "enre":
-                raise ValueError("el enlace devolvió una página HTML en vez del documento")
-            if not text.strip() and tipo == "pdf":
-                text = ""
-            doc = dict(url=d["url"], titulo=d.get("titulo"), pagina=d.get("pagina"), origen=origen,
-                       tipo=tipo, sha256=hashlib.sha256(content).hexdigest(), bytes=len(content),
-                       via={"primary": "búsqueda automática", "known": "URL conocida",
-                            "se": "archivo nacional"}[kind])
-            for k in ("archivado", "resolucion"):
-                if d.get(k):
-                    doc[k] = d[k]
-            parsed = {"vigencia": None, "tablas": []}
-            fn = PARSERS.get(s["parser"])
-            if fn and text.strip():
-                try:
-                    parsed = fn(text, content=content, source=s, sheets=sheets) or parsed
-                except Exception as e:
-                    entry["intentos"].append(f"parser: {type(e).__name__}: {e}")
-            tablas = validate(parsed.get("tablas", []))
-            used_ocr = False
-            if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
-                tablas = validate(ocr_tables(s["id"], content, s.get("ocr_dpi")))
-                used_ocr = bool(tablas)
-                parsed["comparable"] = ocr_comparable(s["id"], tablas)
-                if used_ocr and not parsed.get("vigencia"):
-                    parsed["vigencia"] = ocr_vigencia(_ocr_text(s["id"], content))
-            entry.update(documento=doc, vigencia=parsed.get("vigencia") or d.get("vigencia"), tablas=tablas, comparable=parsed.get("comparable"),
-                         texto=bool(text.strip()), escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr)
-            if text.strip() and tipo != "html":
-                (TEXTS / f"{s['id']}.txt").write_text(text)
-            entry["estado"] = "ok" if tablas else "documento"
+            upd, _ = _read(s, kind, d, origen, entry["intentos"])
+            entry.update(upd)
             entry["intentos"].append(f"{kind}: OK {d['url']}")
             break
         except Exception as e:
             entry["intentos"].append(f"{kind}: {type(e).__name__}: {str(e)[:200]}")
-    if s["se"] and (entry["documento"] or {}).get("via") != "archivo nacional":
-        try:
-            entry["archivo_nacional"] = se_archive(s["se"])()
-        except Exception:
-            pass
+    if s["se"]:
+        _secretaria(s, entry)
     return entry
+
+
+def _secretaria(s, entry):
+    """Source rule: the most recent cuadro wins; on the same period the distributor's own source
+    (ente / Boletín / distribuidora) wins over the Secretaría de Energía archive."""
+    try:
+        info = se_archive(s["se"])()
+    except SEUnavailable as e:
+        info = e.info
+        entry["intentos"].append(f"se: {e}")
+    except Exception as e:
+        entry["intentos"].append(f"se: {type(e).__name__}: {str(e)[:200]}")
+        return
+    try:
+        ours = reference_month(entry)[0] if entry["documento"] else None
+        se_ym = tuple(map(int, info["periodo"].split("-"))) if info.get("url") else None
+        if se_ym and (not entry["documento"] or (ours and se_ym > ours)):
+            prev = entry["documento"]
+            tf = TEXTS / f"{s['id']}.txt"
+            prev_text = tf.read_text() if prev and tf.exists() else ""
+            try:
+                upd, text = _read(s, "se", info, ORIGEN_SE, entry["intentos"])
+            except Exception as e:
+                entry["intentos"].append(f"se: {type(e).__name__}: {str(e)[:200]}")
+            else:
+                same = bool(prev_text.split()) and prev_text.split() == text.split()
+                upd["documento"]["motivo"] = (
+                    f"tiene el mismo texto que el documento de la fuente propia, pero el archivo nacional indica su período "
+                    f"({info['periodo']}); en la fuente propia solo se leyó {_ym(ours)}" if same else
+                    f"la Secretaría de Energía tiene un cuadro más nuevo ({info['periodo']}) que la fuente propia ({_ym(ours)})"
+                    if prev else "la fuente propia no respondió")
+                entry.update(upd)
+                entry["intentos"].append(f"se: OK {info['url']}")
+                if prev:
+                    entry["se_mas_nuevo"] = True
+                    entry["fuente_reemplazada"] = {"url": prev["url"], "titulo": prev.get("titulo"), "periodo": _ym(ours),
+                                                   "mismo_texto": same}
+                return
+        if not entry["documento"]:
+            return
+        if not se_ym:
+            comp = {"resultado": "sin_archivo"}
+        elif not ours:
+            comp = {"resultado": "sin_fecha"}
+        elif se_ym < ours:
+            comp = {"resultado": "mas_viejo", "periodo_propio": _ym(ours)}
+        else:
+            comp = {"resultado": "mismo", "periodo_propio": _ym(ours)}
+            try:
+                content, ctype = get_doc(info["url"])
+                comp["coinciden"], comp["total"] = coincidencias(entry["tablas"], document_text(content, info["url"], ctype)[1])
+            except Exception as e:
+                entry["intentos"].append(f"se (comparación): {type(e).__name__}: {str(e)[:120]}")
+        entry["archivo_nacional"] = {**info, "comparacion": comp}
+    finally:
+        if info.get("url"):
+            _SE_BYTES.pop(info["url"], None)
 
 
 STALE_MONTHS = 2
@@ -241,7 +330,8 @@ def main(only=None):
         old = prev.get(e["id"])
         downgraded = (old and old.get("estado") == "ok" and e["estado"] != "ok"
                       and (e.get("documento") or {}).get("via") == "archivo nacional"
-                      and (old.get("documento") or {}).get("via") != "archivo nacional")
+                      and (old.get("documento") or {}).get("via") != "archivo nacional"
+                      and not e.get("se_mas_nuevo"))
         if (e["estado"] == "sin_datos" and old and old.get("documento")) or downgraded:
             # Keep the last successfully verified document, flagged as stale.
             old = {**old, "ultimo_intento": NOW, "ultimo_intento_fallido": True, "intentos": e["intentos"]}
