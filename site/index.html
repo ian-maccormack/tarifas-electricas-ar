@@ -14,6 +14,7 @@
   <p class="meta" id="generado"></p>
   <nav>
     <button data-view="dist" class="active">Distribuidoras</button>
+    <button data-view="ctx">Contexto</button>
     <button data-view="comp">Comparación</button>
     <button data-view="sim">Simulador y mapa</button>
     <button data-view="hist">Historial</button>
@@ -36,6 +37,60 @@
     </div>
     <div id="summary" class="summary"></div>
     <div id="list"></div>
+  </section>
+  <section id="view-ctx" hidden class="about">
+    <h2>Contexto: cómo funciona la tarifa de luz</h2>
+    <p class="note">Una guía corta para entender los cuadros tarifarios y tu factura. Cada afirmación normativa enlaza a su fuente oficial.</p>
+
+    <h3>¿Quién fija la tarifa?</h3>
+    <ul>
+      <li><b>La distribuidora</b> es la empresa (privada, estatal o cooperativa) que lleva la electricidad hasta tu casa y te factura: EDENOR, EPEC, DPEC, etc. Cada una tiene una zona de concesión, por eso cada provincia tiene su propio cuadro.</li>
+      <li><b>El ente regulador</b> controla a la distribuidora y aprueba su cuadro tarifario. En el AMBA (EDENOR y EDESUR) es el ente nacional: desde mayo de 2026 el ENRE pasa a ser el <a href="https://www.argentina.gob.ar/enre/tarifas" target="_blank" rel="noopener">Ente Nacional Regulador del Gas y la Electricidad (ENReGE)</a>. En el resto del país lo hace el ente o el organismo de cada provincia (EPRE, ENRESE, OCEBA, etc.), y la resolución suele publicarse en el Boletín Oficial.</li>
+      <li><b>La ley</b> dice que las tarifas deben ser "justas y razonables" y que la de distribución incluye el costo de comprar la energía en el mercado mayorista más el costo propio de distribuir (<a href="https://www.argentina.gob.ar/normativa/nacional/ley-24065-464/actualizacion" target="_blank" rel="noopener">Ley 24.065, art. 40</a>).</li>
+      <li><b>La Secretaría de Energía de la Nación</b> fija los precios mayoristas que pagan las distribuidoras y administra los subsidios nacionales. <a href="https://cammesaweb.cammesa.com/empresa/" target="_blank" rel="noopener">CAMMESA</a> opera el sistema y calcula esos precios.</li>
+    </ul>
+
+    <h3>¿Qué es un cuadro tarifario y qué es la vigencia?</h3>
+    <p>Es la tabla oficial con los precios de cada categoría: cuánto se cobra de cargo fijo, cuánto por cada kWh y, en las tarifas grandes, por cada kW de potencia. La <b>vigencia</b> es el período desde el que se aplica (en este sitio, "mes de referencia"). Hoy muchos cuadros cambian todos los meses, por eso cada ficha muestra la fecha del documento y marca "+2 meses" si es viejo.</p>
+
+    <h3>Tipos de tarifa</h3>
+    <ul>
+      <li><b>T1 – Pequeñas demandas:</b> viviendas (residencial, T1-R), comercios chicos (general, T1-G) y alumbrado público. Es la de casi todos los hogares.</li>
+      <li><b>T2 – Medianas demandas</b> y <b>T3 – Grandes demandas:</b> comercios grandes, industrias y empresas. Se contrata una potencia y se cobra por ella además de la energía. En la mayoría de los cuadros de este sitio T2 va de 10 a 50 kW y T3 desde 50 kW, pero no es igual en todas partes (en Mendoza, por ejemplo, T2 llega hasta 300 kW): la <a href="#" onclick="show('comp');return false">Comparación</a> muestra el rango de cada cuadro.</li>
+      <li><b>Tensión:</b> BT (baja tensión, la de un enchufe común), MT (media) y AT (alta). Cada tensión tiene sus propios precios en el cuadro.</li>
+      <li><b>Franjas horarias (pico, resto y valle):</b> en T2/T3 algunas distribuidoras cobran distinto según la hora. Pico es la hora de más demanda (más cara), valle la de menos (más barata) y resto lo demás. Los horarios los define cada cuadro.</li>
+    </ul>
+
+    <h3>Categorías residenciales y escalones</h3>
+    <ul>
+      <li>Dentro de T1-R, la mayoría de los cuadros separa a los hogares en <b>categorías por consumo</b> (R1, R2, R3…): por ejemplo, de 0 a 150 kWh por mes, de 150 a 400, etc. Cada distribuidora corta sus categorías en lugares distintos.</li>
+      <li>Algunos cuadros, además, cobran el kWh a precios distintos dentro de una categoría: los primeros kWh a un precio y el <b>excedente</b> a otro. A eso le llamamos <b>escalones</b> o tramos.</li>
+      <li><b>Mensual o bimestral:</b> algunas distribuidoras leen el medidor todos los meses y otras cada dos meses; el cuadro lo refleja en sus unidades ($/mes o $/bim, kWh/mes o kWh/bim). Que el consumo se mida por bimestre no siempre significa que se pague una vez cada dos meses: <a href="https://www.edemsa.com/informacion-comercial/" target="_blank" rel="noopener">EDEMSA</a> y <a href="https://www.edeste.com.ar/preguntasfrecuentes.html" target="_blank" rel="noopener">EDESTE</a> dividen la factura en dos vencimientos de la mitad cada uno, y <a href="https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/" target="_blank" rel="noopener">Naturgy San Juan (ESJ)</a> emite dos facturas mensuales (cuota 1 y cuota 2). En el resto de las bimestrales no encontramos esa información en una fuente oficial, así que el sitio solo indica que el cuadro es bimestral. EDENOR y EDESUR pasaron a medir todos los meses (<a href="https://www.argentina.gob.ar/noticias/modificacion-en-la-frecuencia-de-medicion-del-consumo-de-energia-electrica" target="_blank" rel="noopener">Resolución ENRE 730/2025</a>).</li>
+      <li>El simulador y la opción "Expresar en $/mes" de la Comparación convierten los cuadros bimestrales a una <b>equivalencia mensual</b> (consumo × 2 para buscar la categoría, total ÷ 2). Los valores originales del cuadro no se modifican.</li>
+    </ul>
+
+    <h3>Cómo se compone tu factura</h3>
+    <ol>
+      <li><b>Cargo fijo:</b> se paga siempre, aunque no consumas.</li>
+      <li><b>Cargo variable (energía):</b> precio por cada kWh consumido, según tu categoría y escalón.</li>
+      <li><b>Potencia</b> (solo T2/T3): precio por cada kW de potencia contratada o registrada.</li>
+      <li><b>Subsidio:</b> desde 2026 los subsidios nacionales se unificaron en los <a href="https://www.argentina.gob.ar/subsidios" target="_blank" rel="noopener">Subsidios Energéticos Focalizados (SEF)</a>. Acceden los hogares inscriptos que cumplen las condiciones (entre otras, ingresos netos menores a 3 canastas básicas totales). El descuento se aplica sobre un <b>consumo base</b>: 300 kWh en enero, febrero, mayo a agosto y diciembre, y 150 kWh en marzo, abril y septiembre a noviembre, con consumos base diferenciales en zonas cálidas (<a href="https://www.argentina.gob.ar/normativa/nacional/decreto-943-2025-422016/texto" target="_blank" rel="noopener">Decreto 943/2025</a>). Lo que pasa de ese consumo base se paga a precio pleno. Por eso existe el selector "Mes del subsidio".</li>
+      <li><b>IVA:</b> 21 % en viviendas; 27 % para responsables inscriptos fuera de domicilios destinados a vivienda (<a href="https://www.argentina.gob.ar/normativa/nacional/ley-23349-42701/texto" target="_blank" rel="noopener">Ley de IVA, art. 28</a>).</li>
+      <li><b>Impuestos provinciales y tasas municipales:</b> cada provincia y cada municipio agrega los suyos (fondos, contribuciones, alumbrado público, etc.), con alícuotas distintas. No figuran en los cuadros tarifarios.</li>
+    </ol>
+    <p class="note">Por eso el total del simulador puede no coincidir con tu factura: no incluye impuestos provinciales ni tasas municipales, usa la tarifa del cuadro vigente (tu factura puede abarcar días de dos cuadros distintos) y no suma recargos, ajustes o deudas anteriores.</p>
+
+    <h3>Glosario</h3>
+    <dl>
+      <dt>kW (kilovatio)</dt><dd>Potencia: cuánta electricidad usás en un instante. Un horno eléctrico usa unos pocos kW mientras está prendido.</dd>
+      <dt>kWh (kilovatio hora)</dt><dd>Energía: lo que mide el medidor. Usar 1 kW durante una hora consume 1 kWh.</dd>
+      <dt>kVA</dt><dd>Potencia aparente; algunos cuadros contratan la potencia en kVA en vez de kW.</dd>
+      <dt>VAD (valor agregado de distribución)</dt><dd>La parte de la tarifa que se queda la distribuidora por su servicio; la ley lo llama costo propio de distribución.</dd>
+      <dt>MEM (mercado eléctrico mayorista)</dt><dd>El mercado donde generadores, distribuidoras y grandes usuarios compran y venden energía.</dd>
+      <dt>CAMMESA</dt><dd>Compañía Administradora del Mercado Mayorista Eléctrico: despacha el sistema, fija los precios mayoristas y administra las transacciones del MEM (<a href="https://cammesaweb.cammesa.com/empresa/" target="_blank" rel="noopener">fuente</a>).</dd>
+      <dt>Cuadro tarifario</dt><dd>Documento oficial con los precios vigentes de cada categoría.</dd>
+      <dt>Vigencia</dt><dd>Período en el que se aplica un cuadro tarifario.</dd>
+    </dl>
   </section>
   <section id="view-comp" hidden>
     <p class="note">Misma estructura para todas las distribuidoras, armada con los cuadros que usa el simulador. Elegí la tarifa y el criterio:
@@ -62,8 +117,8 @@
   </section>
   <section id="view-sim" hidden>
     <p class="note" id="s-res-note">Costo mensual estimado de un consumo residencial, <b>sin impuestos ni tasas</b>, calculado con los valores del cuadro oficial
-      de cada distribuidora (tarifa plena, sin subsidio). Si el cuadro es bimestral, el cálculo se hace con el consumo del bimestre y se divide por 2:
-      la tabla original no se modifica. Si falta algún cargo o escalón, el resultado queda vacío.</p>
+  de cada distribuidora (tarifa plena, sin subsidio). Si el cuadro es bimestral (el consumo se mide cada dos meses), el cálculo se hace con el consumo del bimestre y se divide por 2:
+  es una equivalencia mensual y la tabla original no se modifica. Si falta algún cargo o escalón, el resultado queda vacío.</p>
     <div class="filters">
       <label class="kwh">Tipo de suministro <select id="s-tipo"><option value="res">Residencial (T1)</option><option value="dem">Comercial / industrial (T2 y T3)</option></select></label>
       <label class="kwh" title="IVA según la Ley 23.349, art. 28. No incluye impuestos provinciales ni tasas municipales">Impuestos <select id="s-iva"><option value="0">Sin impuestos</option><option value="0.21">Con IVA 21 %</option><option value="0.27">Con IVA 27 % (responsable inscripto, fuera de vivienda)</option></select></label>

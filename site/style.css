@@ -92,3 +92,4 @@ button.link{background:none;border:0;color:var(--acc);cursor:pointer;padding:0;f
 .norm ul.note{margin:8px 0 0;padding-left:18px}
 details.raw{margin-top:14px}details.raw>summary{cursor:pointer;font-weight:600;color:var(--acc)}
 #comp tr.muted td{color:#98a2b3}#comp th small{font-weight:400;color:#667085}
+.about dt{font-weight:600;margin-top:.5em}.about dd{margin-left:1.2em}
