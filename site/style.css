@@ -41,7 +41,7 @@ a{color:var(--acc)}a:hover{text-decoration-thickness:2px}
 table{border-collapse:collapse;width:100%;font-size:13.5px;background:#fff}
 th,td{border-bottom:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
 th{background:#eef2f7;font-weight:600;position:sticky;top:0;z-index:1;font-size:13px;color:#344054}
-tbody tr:nth-child(even):not(.grp) td{background:#fbfcfe}tbody tr:hover td{background:var(--acc2)}
+tbody tr:nth-child(even):not(.grp):not(.sec) td{background:#fbfcfe}tbody tr:hover td{background:var(--acc2)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .empty{display:inline-block;min-width:40px;border:1px dashed #b8c0cc;border-radius:4px;color:#8a94a3;font-size:12px;text-align:center;padding:0 4px}
 .tablewrap{overflow:auto;max-height:75vh;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
@@ -87,3 +87,7 @@ button.link{background:none;border:0;color:var(--acc);cursor:pointer;padding:0;f
 @media(max-width:760px){.filters input[type=range],.filters .kwh input{min-width:0}.filters input[type=range]{width:100%;flex-basis:100%}.simrow>summary{grid-template-columns:1fr auto}.simrow .bar{grid-column:1/-1;order:3}}
 
 .filters[hidden],.chk[hidden]{display:none}.kwh select{padding:7px 8px}.kwh input[type=number]{width:90px}
+.norm table td:nth-child(2),.norm table td:nth-child(3){white-space:nowrap;color:#475467}
+.norm tr.sec td{background:#e8eef7!important;font-weight:700;color:#1d2939}
+.norm ul.note{margin:8px 0 0;padding-left:18px}
+details.raw{margin-top:14px}details.raw>summary{cursor:pointer;font-weight:600;color:var(--acc)}

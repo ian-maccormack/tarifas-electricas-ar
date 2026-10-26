@@ -26,6 +26,25 @@ function tableHTML(t) {
   return h + "</tbody></table></div></div>";
 }
 
+function normHTML(e) {
+  const n = e.normalizado, d = e.documento;
+  let h = `<div class="tbl norm"><h4>Cuadro normalizado</h4><p class="note">Misma estructura para todas las distribuidoras: los valores salen de las filas del documento oficial${d ? ` (<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo || "documento")}</a>)` : ""} que usa el simulador. Lo que el cuadro no trae queda vacío.</p>`;
+  h += `<div class="tablewrap"><table><thead><tr><th>Concepto</th><th>Tramo / franja</th><th>Unidad</th><th>Valor</th></tr></thead><tbody>`;
+  let sec = null, cat = null;
+  for (const f of n.filas) {
+    if (f.seccion !== sec) { sec = f.seccion; cat = null; h += `<tr class="sec"><td colspan="4">${esc(sec)}</td></tr>`; }
+    const k = [f.categoria, f.condicion, f.tension].join("|");
+    if (k !== cat) {
+      cat = k;
+      h += `<tr class="grp"><td colspan="4">${[f.categoria, f.tension, f.condicion].filter(Boolean).map(esc).join(" · ")}</td></tr>`;
+    }
+    h += `<tr><td>${esc(f.concepto)}</td><td>${esc(f.tramo)}</td><td>${esc(f.unidad)}</td><td class="num">${fmt(f.valor)}</td></tr>`;
+  }
+  h += "</tbody></table></div>";
+  if (n.notas.length) h += `<ul class="note">${n.notas.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  return h + "</div>";
+}
+
 function card(e) {
   const d = e.documento;
   const stale = e.ultimo_intento_fallido ? `<span class="badge b-stale">Último intento fallido</span>` : "";
@@ -49,8 +68,12 @@ function card(e) {
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
   if (!e.ocr && e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
   body += "</dl>";
-  if (e.tablas.length) body += e.tablas.map(tableHTML).join("");
-  else body += `<p class="note">No hay valores extraídos automáticamente para esta distribuidora. ${d ? "Consultá el documento oficial." : ""}</p>`;
+  if (e.normalizado) body += normHTML(e);
+  else if (e.tablas.length) body += `<p class="note"><b>Sin cuadro normalizado:</b> la estructura de este cuadro no se pudo armar con seguridad. Abajo están los valores tal como figuran en el documento.</p>`;
+  if (e.tablas.length) {
+    const raw = e.tablas.map(tableHTML).join("");
+    body += e.normalizado ? `<details class="raw"><summary>Cuadro original completo (tal como figura en el documento, ${e.tablas.length} tabla${e.tablas.length > 1 ? "s" : ""})</summary>${raw}</details>` : raw;
+  } else body += `<p class="note">No hay valores extraídos automáticamente para esta distribuidora. ${d ? "Consultá el documento oficial." : ""}</p>`;
   if (e.intentos?.length) body += `<details><summary class="note">Registro técnico</summary><pre class="note">${esc(e.intentos.join("\n"))}</pre></details>`;
   return `<details class="card e-${e.estado}" id="d-${e.id}"><summary><div><h3>${esc(e.empresa)}</h3><span class="prov">${esc(e.provincia)}</span></div>
     <div class="badges"><span class="badge b-${e.estado}">${ESTADO[e.estado]}</span>${e.ocr ? '<span class="badge b-ocr">OCR</span>' : ""}${e.desactualizado ? VIEJO : ""}${via}${stale}</div>
