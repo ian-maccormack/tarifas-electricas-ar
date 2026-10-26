@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T19:01:05+00:00",
+ "generado": "2026-10-26T19:04:58+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1374,7 +1374,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1812.81,
@@ -3819,7 +3819,7 @@
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1771.06,
@@ -5745,7 +5745,7 @@
    "intentos": [
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5852.09,
@@ -7965,7 +7965,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "nota": "T1R Nivel 1, consumo < 100 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -8669,7 +8669,7 @@
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -9548,7 +9548,7 @@
    "intentos": [
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5240.4,
@@ -10456,7 +10456,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -14019,7 +14019,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/wp-content/uploads/2026/10/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "nota": "Residencial sin SEF, Total Neto, primeros 50 kWh-mes (OCR)",
     "cargo_fijo": {
@@ -14157,7 +14157,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -15557,7 +15557,7 @@
     "known: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -17925,7 +17925,7 @@
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf"
    ],
-   "verificado": "2026-10-26T19:01:05+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 29710.0,
@@ -18300,16 +18300,17 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx",
-    "titulo": "cuadro-tarifario-noviembre-2026",
-    "pagina": "https://epre.gov.ar/web/cuadro-tarifario-noviembre-2026/",
-    "origen": "Ente regulador / organismo provincial",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa",
+    "origen": "Secretaría de Energía de la Nación (archivo)",
     "tipo": "xlsx",
-    "sha256": "6c99f582975f6df460e84e51090fca2fcde265f2a7e6e258e2d1b8a21052b86c",
-    "bytes": 100144,
-    "via": "búsqueda automática"
+    "sha256": "1fed450c79e343ecaeca67772a5ab57aff1f78aa509e3dc4292cb531ef8627a6",
+    "bytes": 98341,
+    "via": "archivo nacional",
+    "motivo": "la fuente propia no respondió"
    },
-   "vigencia": "Vigente a partir del 1° de Noviembre de 2026 al 30 de Noviembre de 2026",
+   "vigencia": "Vigente a partir del 1° de Mayo de 2026 al 31 de Mayo de 2026",
    "tablas": [
     {
      "titulo": "T 1-R Uso residencial — Sin Subsidio",
@@ -18319,7 +18320,7 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        3193.22
+        2690.12
        ],
        "columnas": null
       },
@@ -18328,7 +18329,7 @@
        "concepto": "Primeros 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        243.94
+        220.89
        ],
        "columnas": null
       },
@@ -18337,7 +18338,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        275.87
+        247.78
        ],
        "columnas": null
       },
@@ -18346,7 +18347,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        319.04
+        284.15
        ],
        "columnas": null
       },
@@ -18355,7 +18356,7 @@
        "concepto": "Excedente de 300 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        344.42
+        305.53
        ],
        "columnas": null
       }
@@ -18369,7 +18370,7 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        3001.63
+        2528.71
        ],
        "columnas": null
       },
@@ -18378,7 +18379,7 @@
        "concepto": "Primeros 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        153.43
+        124.31
        ],
        "columnas": null
       },
@@ -18387,7 +18388,7 @@
        "concepto": "Siguientes 50 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        183.44
+        149.59
        ],
        "columnas": null
       },
@@ -18396,7 +18397,7 @@
        "concepto": "Siguientes 50 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        270.14
+        149.59
        ],
        "columnas": null
       },
@@ -18405,7 +18406,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        310.71
+        183.78
        ],
        "columnas": null
       },
@@ -18414,7 +18415,7 @@
        "concepto": "Siguientes 70 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        344.42
+        305.53
        ],
        "columnas": null
       },
@@ -18423,7 +18424,7 @@
        "concepto": "Excedente de 370 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        344.42
+        305.53
        ],
        "columnas": null
       }
@@ -18437,7 +18438,7 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        3193.22
+        2690.12
        ],
        "columnas": null
       },
@@ -18446,7 +18447,7 @@
        "concepto": "Primeros 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        157.25
+        127.53
        ],
        "columnas": null
       },
@@ -18455,7 +18456,7 @@
        "concepto": "Siguientes 50 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        189.18
+        154.42
        ],
        "columnas": null
       },
@@ -18464,7 +18465,7 @@
        "concepto": "Siguientes 50 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        275.87
+        154.42
        ],
        "columnas": null
       },
@@ -18473,7 +18474,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        319.04
+        190.79
        ],
        "columnas": null
       },
@@ -18482,7 +18483,7 @@
        "concepto": "Siguientes 70 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        344.42
+        305.53
        ],
        "columnas": null
       },
@@ -18491,7 +18492,7 @@
        "concepto": "Excedente de 370 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        344.42
+        305.53
        ],
        "columnas": null
       }
@@ -18505,7 +18506,7 @@
        "concepto": "Cargo fijo (haya o no consumo)",
        "unidad": "$/mes",
        "valores": [
-        3193.22
+        2690.12
        ],
        "columnas": null
       },
@@ -18514,7 +18515,7 @@
        "concepto": "Primeros 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        65.92
+        56.27
        ],
        "columnas": null
       },
@@ -18523,7 +18524,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        97.85
+        83.17
        ],
        "columnas": null
       },
@@ -18532,7 +18533,7 @@
        "concepto": "Siguientes 100 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        141.01
+        119.54
        ],
        "columnas": null
       },
@@ -18541,7 +18542,7 @@
        "concepto": "Excedente de 300 kWh/mes",
        "unidad": "$/kWh",
        "valores": [
-        166.4
+        140.92
        ],
        "columnas": null
       }
@@ -18549,19 +18550,20 @@
     }
    ],
    "intentos": [
-    "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/10/resolucion-epre-166-26-anexo1.xlsx"
+    "primary: ReadTimeout: HTTPSConnectionPool(host='epre.gov.ar', port=443): Read timed out. (read timeout=40)",
+    "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
-     "valor": 3193.22,
+     "valor": 2690.12,
      "unidad": "$/mes",
      "concepto": "Cargo fijo (haya o no consumo)",
      "grupo": null,
      "columna": null
     },
     "cargo_variable": {
-     "valor": 243.94,
+     "valor": 220.89,
      "unidad": "$/kWh",
      "concepto": "Primeros 100 kWh/mes",
      "grupo": null,
@@ -18572,25 +18574,7 @@
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "archivo_nacional": {
-    "periodo": "2026-05",
-    "titulo": "Cuadro Tarifario del 05-2026",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx",
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_06_ENERSA.pdf",
-      "error": "HTTP 404"
-     }
-    ],
-    "comparacion": {
-     "resultado": "mas_viejo",
-     "periodo_propio": "2026-11"
-    }
-   },
-   "mes_referencia": "2026-11",
+   "mes_referencia": "2026-05",
    "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "mes",
@@ -18599,23 +18583,23 @@
      {
       "nombre": "T1-R",
       "hasta": null,
-      "fijo": 3193.22,
+      "fijo": 2690.12,
       "escalones": [
        [
         100,
-        243.94
+        220.89
        ],
        [
         200,
-        275.87
+        247.78
        ],
        [
         300,
-        319.04
+        284.15
        ],
        [
         null,
-        344.42
+        305.53
        ]
       ]
      }
@@ -18630,31 +18614,31 @@
      {
       "nombre": "T1-R",
       "hasta": null,
-      "fijo": 3193.22,
+      "fijo": 2690.12,
       "escalones": [
        [
         100,
-        157.25
+        127.53
        ],
        [
         150,
-        189.18
+        154.42
        ],
        [
         200,
-        275.87
+        154.42
        ],
        [
         300,
-        319.04
+        190.79
        ],
        [
         370,
-        344.42
+        305.53
        ],
        [
         null,
-        344.42
+        305.53
        ]
       ]
      }
@@ -18670,7 +18654,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 3193.22
+      "valor": 2690.12
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -18680,7 +18664,7 @@
       "concepto": "Energía",
       "tramo": "primeros 100 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 243.94
+      "valor": 220.89
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -18690,7 +18674,7 @@
       "concepto": "Energía",
       "tramo": "de 100 a 200 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 275.87
+      "valor": 247.78
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -18700,7 +18684,7 @@
       "concepto": "Energía",
       "tramo": "de 200 a 300 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 319.04
+      "valor": 284.15
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -18710,7 +18694,7 @@
       "concepto": "Energía",
       "tramo": "excedente de 300 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 344.42
+      "valor": 305.53
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18720,7 +18704,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 3193.22
+      "valor": 2690.12
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18730,7 +18714,7 @@
       "concepto": "Energía",
       "tramo": "primeros 100 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 157.25
+      "valor": 127.53
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18740,7 +18724,7 @@
       "concepto": "Energía",
       "tramo": "de 100 a 150 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 189.18
+      "valor": 154.42
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18750,7 +18734,7 @@
       "concepto": "Energía",
       "tramo": "de 150 a 200 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 275.87
+      "valor": 154.42
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18760,7 +18744,7 @@
       "concepto": "Energía",
       "tramo": "de 200 a 300 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 319.04
+      "valor": 190.79
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18770,7 +18754,7 @@
       "concepto": "Energía",
       "tramo": "de 300 a 370 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 344.42
+      "valor": 305.53
      },
      {
       "seccion": "Residencial (T1) — con subsidio",
@@ -18780,7 +18764,7 @@
       "concepto": "Energía",
       "tramo": "excedente de 370 kWh/mes",
       "unidad": "$/kWh",
-      "valor": 344.42
+      "valor": 305.53
      }
     ],
     "notas": [
@@ -18788,7 +18772,7 @@
      "Residencial (T1) — con subsidio: T1-R uso residencial con subsidio nacional"
     ]
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   {
    "id": "die",
@@ -18801,7 +18785,7 @@
    "vigencia": null,
    "tablas": [],
    "intentos": [],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -19379,7 +19363,7 @@
    "intentos": [
     "primary: OK https://recursosyenergia.com.ar/Descargas/descarga/_res/pdf/cuadros_tarifarios/v2/52_cuadro_2026-08.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1799.9,
@@ -20176,7 +20160,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w="
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5116.0,
@@ -21491,7 +21475,7 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": null,
    "texto": true,
    "escaneado": false,
@@ -22315,10 +22299,10 @@
     }
    ],
    "intentos": [
-    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnectio",
+    "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 1517.32,
@@ -22342,7 +22326,7 @@
      {
       "nombre": "T1R1-2 Consumos menores o iguales a 120 kWh/mes",
       "hasta": 120,
-      "fijo": 3790.26,
+      "fijo": 3790.2599999999998,
       "escalones": [
        [
         60,
@@ -22488,7 +22472,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 3790.26
+      "valor": 3790.2599999999998
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -23417,7 +23401,7 @@
    "intentos": [
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": null,
     "cargo_variable": {
@@ -23900,7 +23884,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -24938,7 +24922,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 7562.923,
@@ -25979,7 +25963,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 2309.1,
@@ -26884,7 +26868,7 @@
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9940.22,
@@ -27773,7 +27757,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 9715.62,
@@ -28861,7 +28845,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "nota": "T1R1 (0 a 192 kWh/mes) (OCR)",
     "cargo_fijo": {
@@ -29496,7 +29480,7 @@
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4557.54,
@@ -30706,7 +30690,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 5927.328,
@@ -31719,7 +31703,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "mes_referencia": null,
    "mes_referencia_origen": null,
    "simulador": null,
@@ -31850,7 +31834,7 @@
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 3944.25564,
@@ -32418,7 +32402,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "cargo_fijo": {
      "valor": 4383.42,
@@ -33781,7 +33765,7 @@
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": {
     "nota": "TR1 Nivel 1, primeros 150 kWh/mes (OCR)",
     "cargo_fijo": {
@@ -35451,7 +35435,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0="
    ],
-   "verificado": "2026-10-26T18:59:21+00:00",
+   "verificado": "2026-10-26T19:04:58+00:00",
    "comparable": null,
    "texto": false,
    "escaneado": true,
