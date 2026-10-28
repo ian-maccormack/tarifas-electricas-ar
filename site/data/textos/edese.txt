@@ -4,9 +4,9 @@ clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1
  Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
 oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
 
-CUADRO TARIFARIO (Resol.Enrese N°                      / 2026)
+CUADRO TARIFARIO (Resol.Enrese N° 90 / 2026)
 
-Categoria tarifaria                                              Unidad       Importe      Categoria tarifaria                             Unidad                 Importe
+Categoria tarifaria                                             Unidad        Importe      Categoria tarifaria                             Unidad                 Importe
 
 Tarifa N° 1 (Pequeñas Demandas < 10 kW)                                                   Media Tensión con 50 kW < Pot < 300 kW
 T1 R Residencial                                                                          T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes             20,606.34
@@ -80,7 +80,7 @@ clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1
  Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
 oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
 
-CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+CUADRO TARIFARIO (Resol.Enrese N° 90 / 2026)
 
 Categoria tarifaria                                             Unidad        Importe      Categoria tarifaria                            Unidad   Importe
 
@@ -124,7 +124,7 @@ clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1
  Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
 oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
 
-CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+CUADRO TARIFARIO (Resol.Enrese N° 90 / 2026)
 
 Categoria tarifaria                                             Unidad        Importe
 
@@ -168,9 +168,9 @@ clientes los nuevos precios, por suministro eléctrico, que rigen a partir del 1
  Los consumos que correspondan totalmente a períodos anteriores al 1 de OCTUBRE serán facturados con los cuadros tarifarios vigentes en cada
 oportunidad. Los correspondientes a períodos anteriores y posteriores serán prorrateados en función de los días comprendidos en cada periodo tarifario
 
-CUADRO TARIFARIO (Resol.Enrese N°                     / 2026)
+CUADRO TARIFARIO (Resol.Enrese N° 90 / 2026)
 
-Categoria tarifaria                                              Unidad       Importe      Categoria tarifaria                             Unidad    Importe
+Categoria tarifaria                                             Unidad        Importe      Categoria tarifaria                             Unidad    Importe
 
 Tarifa N° 1 (Pequeñas Demandas < 10 kW)                                                   Media Tensión con 50 kW < Pot < 300 kW
 T1 R Residencial                                                                          T3-MT Cargo por Cap.de Sum.Cont. en Punta      $/kW-mes    20,606.34
@@ -196,7 +196,7 @@ T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh
      Cargo fijo                                      $/bim      90946.87
      Cargo variable por energía                      $/kWh       78.634
 T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh
-     Cargo fijo                                      $/bim      94625.90
+     Cargo fijo                                      $/bim     115912.68
      Cargo variable por energía                      $/kWh       79.004
 T1 R2 Consumo Bimestral mayor 2800 kWh
      Cargo fijo                                      $/bim     152469.76
@@ -224,18 +224,18 @@ Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)
 Tarifa N°3 (Grandes Demandas)
 
 Baja Tensión con 50 kW < Pot < 300 kW
-T3-BT Cargo por Cap.de Sum.Cont. en Punta                       $/kW-mes      34692.62
-T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                 $/kW-mes      15551.06
-T3-BT Cargo Variable por Energía en hs.Pico                       $/kWh        53.285
-T3-BT Cargo Variable por Energía en hs.Restantes                  $/kWh        52.391
-T3-BT Cargo Variable por Energía en hs.Valle                      $/kWh        52.179
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                      $/kW-mes       34692.62
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                $/kW-mes       15551.06
+T3-BT Cargo Variable por Energía en hs.Pico                      $/kWh         53.285
+T3-BT Cargo Variable por Energía en hs.Restantes                 $/kWh         52.391
+T3-BT Cargo Variable por Energía en hs.Valle                     $/kWh         52.179
 
 Baja Tensión con Pot > ó = 300 kW
-T3-BT Cargo por Cap.de Sum.Cont. en Punta                       $/kW-mes      34692.62
-T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                 $/kW-mes      15551.06
-T3-BT Cargo Variable por Energía en hs.Pico                       $/kWh        53.276
-T3-BT Cargo Variable por Energía en hs.Restantes                  $/kWh        52.383
-T3-BT Cargo Variable por Energía en hs.Valle                      $/kWh        52.171
+T3-BT Cargo por Cap.de Sum.Cont. en Punta                      $/kW-mes       34692.62
+T3-BT Cargo por Cap.de Sum.Cont. Fuera de Punta                $/kW-mes       15551.06
+T3-BT Cargo Variable por Energía en hs.Pico                      $/kWh         53.276
+T3-BT Cargo Variable por Energía en hs.Restantes                 $/kWh         52.383
+T3-BT Cargo Variable por Energía en hs.Valle                     $/kWh         52.171
 
    Los precios indicados no incluyen el Impuesto al Valor Agregado ni demás Tributos e Impuestos establecidos en la legislación vigente
 
