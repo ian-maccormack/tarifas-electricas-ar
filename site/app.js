@@ -113,6 +113,7 @@ function renderList() {
   const cnt = (s) => DATA.distribuidoras.filter((e) => (s === "viejo" ? e.desactualizado : e.estado === s)).length;
   $("#stats").innerHTML = [["ok", "con valores extraídos"], ["documento", "solo documento oficial"], ["sin_datos", "sin fuente disponible"], ["viejo", "documento de hace más de 2 meses"]]
     .map(([k, l]) => `<button class="stat s-${k}${est === k ? " sel" : ""}" data-est="${k}"><b>${cnt(k)}</b><span>${l}</span></button>`).join("");
+  $("#stats-about").innerHTML = $("#stats").innerHTML.replaceAll("<button", "<div").replaceAll("</button>", "</div>");
   document.querySelectorAll("#stats .stat").forEach((b) => b.addEventListener("click", () => { $("#f-estado").value = $("#f-estado").value === b.dataset.est ? "" : b.dataset.est; renderList(); }));
   $("#summary").textContent = `Mostrando ${items.length} de ${DATA.distribuidoras.length} distribuidoras`;
   $("#list").innerHTML = items.map(card).join("") || '<p class="note">Sin resultados.</p>';
@@ -354,8 +355,8 @@ function renderSim() {
 // ---- Mapa ----
 let MAP = null;
 const MAPNAME = { "Ciudad Autónoma de Buenos Aires": "Ciudad de Buenos Aires y GBA", "Tierra del Fuego, Antártida e Islas del Atlántico Sur": "Tierra del Fuego" };
-const RAMP = ["#fff1c1", "#fdd17a", "#f9a24b", "#e8642f", "#b9301c"];
-const AVAIL = { ok: ["#5cb87a", "Con valores extraídos"], documento: ["#f4b860", "Solo documento oficial"], sin_datos: ["#e98b80", "Sin fuente disponible"] };
+const RAMP = ["#dbe7f5", "#a9c4e6", "#6f9bd1", "#3b6fb0", "#173f73"];
+const AVAIL = { ok: ["#2f62a3", "Con valores extraídos"], documento: ["#9db7d8", "Solo documento oficial"], sin_datos: ["#c3cad4", "Sin fuente disponible"] };
 function renderMap(all) {
   if (!MAP) return;
   const modo = $("#m-modo").value;
@@ -402,16 +403,25 @@ function renderHist() {
   $("#hist").innerHTML = h + "</tbody>";
 }
 
-window.openCard = (id) => { show("dist"); const d = $("#d-" + id); if (d) { d.open = true; d.scrollIntoView(); } };
-function show(v) {
-  document.querySelectorAll("nav button").forEach((b) => b.classList.toggle("active", b.dataset.view === v));
+window.openCard = (id) => { show("dist", false); const d = $("#d-" + id); if (d) { d.open = true; d.scrollIntoView(); } };
+const SLUG = { home: "inicio", dist: "distribuidoras", ctx: "contexto", comp: "comparacion", sim: "simulador", hist: "historial", about: "metodologia", contact: "contacto" };
+function show(v, top = true) {
+  document.querySelectorAll("[data-view]").forEach((b) => b.classList.toggle("active", b.dataset.view === v && !b.classList.contains("tile")));
   document.querySelectorAll("main>section").forEach((s) => (s.hidden = s.id !== "view-" + v));
+  document.body.classList.remove("menu-open");
+  if (location.hash.slice(1) !== SLUG[v] && !(v === "dist" && location.hash.startsWith("#d-"))) history.pushState(null, "", "#" + SLUG[v]);
+  if (top) window.scrollTo(0, 0);
+}
+function route() {
+  const h = location.hash.slice(1);
+  if (h.startsWith("d-")) return openCard(h.slice(2));
+  show(Object.keys(SLUG).find((k) => SLUG[k] === h) || "home");
 }
 
 async function init() {
   DATA = await (await fetch("data/tarifas.json", { cache: "no-store" })).json();
   try { HIST = await (await fetch("data/historial.json", { cache: "no-store" })).json(); } catch { HIST = []; }
-  $("#generado").textContent = "Última actualización: " + dfmt(DATA.generado);
+  $("#generado").textContent = $("#generado-f").textContent = "Última actualización: " + dfmt(DATA.generado);
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#f-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#c-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   ["#f-prov", "#f-estado", "#f-q"].forEach((s) => $(s).addEventListener("input", renderList));
@@ -425,8 +435,10 @@ async function init() {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();
   });
-  document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => show(b.dataset.view)));
-  renderList(); renderComp(); renderHist(); renderSim();
+  document.querySelectorAll("a[data-view]").forEach((b) => b.addEventListener("click", (ev) => { ev.preventDefault(); show(b.dataset.view); }));
+  $(".menu-btn").addEventListener("click", () => document.body.classList.toggle("menu-open"));
+  window.addEventListener("popstate", route);
+  renderList(); renderComp(); renderHist(); renderSim(); route();
   try { MAP = await (await fetch("data/provincias.json")).json(); renderSim(); } catch { $("#map-wrap").hidden = true; }
 }
 init();

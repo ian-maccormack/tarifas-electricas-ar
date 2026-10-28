@@ -4,26 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cuadros tarifarios eléctricos de Argentina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="hwrap">
-  <h1><span class="bolt" aria-hidden="true">⚡</span>Cuadros tarifarios eléctricos de Argentina</h1>
-  <p class="sub">Valores tomados de documentos oficiales (distribuidoras, entes reguladores, Boletín Oficial y Secretaría de Energía).
-    Si un valor no se pudo extraer y verificar, se deja <span class="empty">vacío</span>. Siempre revisá el documento original enlazado.</p>
-  <p class="meta" id="generado"></p>
+<header class="topbar"><div class="hwrap">
+  <a class="brand" href="#inicio" data-view="home"><span class="mark" aria-hidden="true">T</span><span><b>Tarifas Eléctricas</b><small>Cuadros tarifarios de Argentina</small></span></a>
+  <button class="menu-btn" aria-label="Menú" aria-expanded="false">☰</button>
   <nav>
-    <button data-view="dist" class="active">Distribuidoras</button>
-    <button data-view="ctx">Contexto</button>
-    <button data-view="comp">Comparación</button>
-    <button data-view="sim">Simulador y mapa</button>
-    <button data-view="hist">Historial</button>
-    <button data-view="about">Metodología</button>
+      <a href="#distribuidoras" data-view="dist">Distribuidoras</a>
+      <a href="#contexto" data-view="ctx">Contexto</a>
+      <a href="#comparacion" data-view="comp">Comparación</a>
+      <a href="#simulador" data-view="sim">Simulador y mapa</a>
+      <a href="#historial" data-view="hist">Historial</a>
+      <a href="#metodologia" data-view="about">Metodología</a>
+      <a href="#contacto" data-view="contact" class="btn-outline">Solicitar asesoría</a>
   </nav>
 </div></header>
 <main>
-  <section id="view-dist">
-    <div id="stats" class="stats"></div>
+  <section id="view-home" class="home">
+    <div class="hero">
+      <p class="eyebrow">Consultoría y comercialización de energía</p>
+      <h1>Cuadros tarifarios eléctricos de Argentina</h1>
+      <p class="lead">Tarifas vigentes de las distribuidoras eléctricas del país, organizadas para comparar, simular costos y seguir su evolución.</p>
+      <div class="hero-cta"><a class="btn" href="#comparacion" data-view="comp">Comparar tarifas</a><a class="btn btn-ghost" href="#simulador" data-view="sim">Simular un consumo</a></div>
+      <p class="disclaimer">Valores tomados de documentos oficiales (distribuidoras, entes reguladores, Boletín Oficial y Secretaría de Energía). Si un valor no se pudo extraer y verificar, se deja <span class="empty">vacío</span>. Siempre revisá el documento original enlazado.</p>
+      <p class="meta" id="generado"></p>
+    </div>
+    <div class="tiles">
+      <a class="tile" href="#distribuidoras" data-view="dist"><span class="tnum">01</span><h3>Distribuidoras</h3><p>Cuadro vigente de cada distribuidora del país, con documento oficial, vigencia y cuadro normalizado.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#contexto" data-view="ctx"><span class="tnum">02</span><h3>Contexto</h3><p>Guía para entender tipos de tarifa, categorías, escalones y cómo se compone la factura de luz.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#comparacion" data-view="comp"><span class="tnum">03</span><h3>Comparación</h3><p>Cargos fijos y de energía de todas las distribuidoras con una misma estructura, por consumo o potencia.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#simulador" data-view="sim"><span class="tnum">04</span><h3>Simulador y mapa</h3><p>Costo mensual estimado para un consumo residencial o comercial e industrial, y mapa por provincia.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#historial" data-view="hist"><span class="tnum">05</span><h3>Historial</h3><p>Registro de cada cambio detectado en los documentos oficiales.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#metodologia" data-view="about"><span class="tnum">06</span><h3>Metodología</h3><p>Fuentes, criterios de selección y reglas de verificación de los datos.</p><span class="go">Ingresar →</span></a>
+    </div>
+    <div class="cta-band"><div><h3>¿Necesitás un análisis para tu empresa?</h3><p>Revisamos tu tarifa, tu consumo y las alternativas de contratación de energía.</p></div><a class="btn" href="#contacto" data-view="contact">Solicitar asesoría</a></div>
+  </section>
+  <section id="view-dist" hidden>
+    <div class="phead"><h2>Distribuidoras</h2><p>Cuadro tarifario vigente de cada distribuidora, con su documento oficial, vigencia y cuadro normalizado.</p></div>
     <div class="filters">
       <select id="f-prov"><option value="">Todas las provincias</option></select>
       <select id="f-estado">
@@ -37,9 +57,13 @@
     </div>
     <div id="summary" class="summary"></div>
     <div id="list"></div>
+    <h3 class="sec-title">Cobertura de datos</h3>
+    <p class="note">Hacé clic en un indicador para filtrar el listado.</p>
+    <div id="stats" class="stats"></div>
   </section>
-  <section id="view-ctx" hidden class="about">
-    <h2>Contexto: cómo funciona la tarifa de luz</h2>
+  <section id="view-ctx" hidden>
+    <div class="phead"><h2>Contexto</h2><p>Cómo funciona la tarifa de luz: quién la fija, tipos de tarifa, categorías y composición de la factura.</p></div>
+    <div class="about">
     <p class="note">Una guía corta para entender los cuadros tarifarios y tu factura. Cada afirmación normativa enlaza a su fuente oficial.</p>
 
     <h3>¿Quién fija la tarifa?</h3>
@@ -91,8 +115,10 @@
       <dt>Cuadro tarifario</dt><dd>Documento oficial con los precios vigentes de cada categoría.</dd>
       <dt>Vigencia</dt><dd>Período en el que se aplica un cuadro tarifario.</dd>
     </dl>
+    </div>
   </section>
   <section id="view-comp" hidden>
+    <div class="phead"><h2>Comparación</h2><p>Cargos de todas las distribuidoras con una misma estructura.</p></div>
     <p class="note">Misma estructura para todas las distribuidoras, armada con los cuadros que usa el simulador. Elegí la tarifa y el criterio:
       con "Primer escalón" se ve el primer tramo de cada cuadro; con "A un consumo de…" se ve la categoría y el tramo en que cae ese consumo en cada distribuidora,
       porque cada una define sus categorías con límites distintos. Los valores se muestran tal como figuran en el cuadro ($/mes o $/bim), salvo que actives la conversión.
@@ -116,6 +142,7 @@
     <div class="tablewrap"><table id="comp"></table></div>
   </section>
   <section id="view-sim" hidden>
+    <div class="phead"><h2>Simulador y mapa</h2><p>Costo estimado de un consumo en cada distribuidora y su distribución por provincia.</p></div>
     <p class="note" id="s-res-note">Costo mensual estimado de un consumo residencial, <b>sin impuestos ni tasas</b>, calculado con los valores del cuadro oficial
   de cada distribuidora (tarifa plena, sin subsidio). Si el cuadro es bimestral (el consumo se mide cada dos meses), el cálculo se hace con el consumo del bimestre y se divide por 2:
   es una equivalencia mensual y la tabla original no se modifica. Si falta algún cargo o escalón, el resultado queda vacío.</p>
@@ -155,11 +182,13 @@
     </div>
   </section>
   <section id="view-hist" hidden>
+    <div class="phead"><h2>Historial</h2><p>Cambios detectados en los documentos oficiales.</p></div>
     <p class="note">Cada vez que cambia el documento oficial de una distribuidora (hash distinto) se registra una entrada.</p>
     <div class="tablewrap"><table id="hist"></table></div>
   </section>
-  <section id="view-about" hidden class="about">
-    <h2>Metodología</h2>
+  <section id="view-about" hidden>
+    <div class="phead"><h2>Metodología</h2><p>Fuentes, criterios y reglas de verificación.</p></div>
+    <div class="about">
     <ul>
       <li>Un proceso automático (GitHub Actions, diario) busca el cuadro vigente de cada distribuidora en este orden: sitio de la distribuidora o ente regulador → URL conocida del último cuadro → archivo de la Secretaría de Energía de la Nación.</li>
       <li>Se descarga el documento, se calcula su hash SHA-256 y se extrae el texto. Para un subconjunto de distribuidoras hay un extractor específico que transcribe las filas de la tarifa residencial (T1-R) sin hacer cálculos.</li>
@@ -172,9 +201,23 @@
       <li>Cada ficha muestra primero el "Cuadro normalizado", con la misma estructura para todas las distribuidoras (sección, categoría, concepto, tramo o franja, unidad y valor). Se arma solo con las estructuras revisadas que usa el simulador; si el cuadro no trae un valor, queda vacío. Debajo está el cuadro original completo. Las distribuidoras cuya estructura no se pudo armar con seguridad muestran solo el cuadro original.</li>
       <li>El simulador usa solo las distribuidoras cuya estructura tarifaria residencial (categorías por consumo, cargo fijo, cargo variable y escalones) se cargó y revisó explícitamente; se toma la tarifa sin subsidio. Las categorías y precios salen de las mismas filas que se muestran en cada ficha. La categoría se elige por el consumo del período de facturación. Las fichas OCR no se simulan. No incluye impuestos, tasas municipales ni fondos provinciales.</li>
     </ul>
+      <h3>Cobertura de datos</h3>
+      <div id="stats-about" class="stats static"></div>
+    </div>
+  </section>
+  <section id="view-contact" hidden>
+    <div class="phead"><h2>Solicitar asesoría</h2><p>Contanos qué necesitás y te contactamos.</p></div>
+    <form class="contact" onsubmit="return false">
+      <p class="alert">Formulario en preparación: todavía no envía mensajes.</p>
+      <div class="frow"><label>Nombre<input type="text" disabled></label><label>Empresa<input type="text" disabled></label></div>
+      <div class="frow"><label>Correo electrónico<input type="email" disabled></label><label>Teléfono<input type="tel" disabled></label></div>
+      <label>Tipo de consulta<select disabled><option>Análisis de tarifa</option><option>Comercialización de energía</option><option>Otro</option></select></label>
+      <label>Mensaje<textarea rows="5" disabled></textarea></label>
+      <button class="btn" type="submit" disabled>Enviar</button>
+    </form>
   </section>
 </main>
-<footer>Datos: documentos oficiales enlazados en cada ficha. Este sitio no es oficial.</footer>
+<footer><div class="hwrap"><div><b>Tarifas Eléctricas</b><p>Datos tomados de documentos oficiales enlazados en cada ficha. Si un valor no se pudo verificar, queda vacío. Este sitio no es oficial.</p></div><div><a href="#metodologia" data-view="about">Metodología</a> · <a href="#contacto" data-view="contact">Solicitar asesoría</a><p id="generado-f"></p></div></div></footer>
 <script src="app.js"></script>
 </body>
 </html>
