@@ -6361,5 +6361,644 @@
     ]
    }
   ]
+ },
+ {
+  "id": "secheep",
+  "detectado": "2026-10-29T15:51:54+00:00",
+  "sha256": "d5c977c0ac6a99035ec79ed32fff4a31025afb8cc54e3689524c5e1816b8cc0a",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SECHEEP/2026_06_SECHEEP.xlsx",
+  "titulo": "Cuadro Tarifario del 06-2026",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ejesa",
+  "detectado": "2026-10-29T15:51:54+00:00",
+  "sha256": "efb0dc17dbc462c1573041ef191643de4b813de16a6eb9bf68bdfb9d4538bf28",
+  "url": "https://www.ejesa.com.ar/info/pwa/alerts/GetFile?fileId=8wzns3Umg5U=",
+  "titulo": "Cuadro tarifario 2025 Resolución N°071-SUSEPU/2025",
+  "vigencia": null,
+  "tablas": [
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Cargo Fijo ago Pol",
+      "concepto": "| 3.336 62,180 | Primeros 150 kWh/mes",
+      "unidad": null,
+      "valores": [
+       100.4615,
+       null,
+       null,
+       -60.9197,
+       -46.4183
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "tE Tl - TARIFA GENERAL",
+      "concepto": "61 Primeros 350 kWh/mes",
+      "unidad": null,
+      "valores": [
+       7780.0,
+       56.7148,
+       100.5814
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       9181.0,
+       57.525,
+       100.4959
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       14867.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "ana eu por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       59.0964
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "S/kwWh $/mes S/kwh S/kwh",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       100.4536
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       29680.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "ana eu por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       60.908,
+       100.4631
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       66746.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "ana eu por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       62.617
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "S/kwWh $/mes S/kwh S/kwh",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       100.4305
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       91806.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "ana eu por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       66.7738,
+       100.4305
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       7780.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo por Uso de Red",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       56.7148
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "argo por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       100.5814,
+       -61.0052,
+       -60.4661,
+       -59.927
+      ],
+      "columnas": [
+       "coda",
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       9181.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo por Uso de Red",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       57.525
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "argo por Consumo",
+      "concepto": "| 100,4959",
+      "unidad": null,
+      "valores": [
+       -60.9443,
+       -60.4057,
+       -59.8671
+      ],
+      "columnas": [
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "GCBYP2 | Mayor a 350 y menor o igual a 500 kWh/mes",
+      "concepto": "GCBYP3 | Mayor a 500 y menor o igual a 1000 kWh/mes",
+      "unidad": null,
+      "valores": [
+       14867.0,
+       59.0964
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de Red"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "argo por Consumo",
+      "concepto": "| 100,4536",
+      "unidad": null,
+      "valores": [
+       -60.902,
+       -60.3634,
+       -59.8248
+      ],
+      "columnas": [
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       29680.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo por Uso de Red",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       60.908
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "argo por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       100.4631,
+       -62.7219,
+       -62.223,
+       -61.7242
+      ],
+      "columnas": [
+       "coda",
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "5 Mayor a 250 y menor o igual a 350 kWh/mes 100,5105 a",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       66746.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo por Uso de Red",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       62.617
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "argo por Consumo",
+      "concepto": "|",
+      "unidad": null,
+      "valores": [
+       100.4305,
+       -62.6986,
+       -62.2,
+       -61.7014
+      ],
+      "columnas": [
+       "coda",
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "GCBYP5 | Mayor a 2000 y menor o igual a 4500 kWh/mes",
+      "concepto": "GCBYP6 | Mayores a 4500 kWh/mes",
+      "unidad": null,
+      "valores": [
+       91806.0,
+       66.7738,
+       100.4305,
+       -62.6986,
+       -62.2,
+       -61.7014
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de Red",
+       "coda",
+       "FEBRERO",
+       "MARZO.",
+       "ABR"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "ff T1- TARIFA ALUMBRADO PÚBLICO",
+      "concepto": "AP 1",
+      "unidad": null,
+      "valores": [
+       null,
+       68.2416,
+       100.051
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de Red",
+       "coda"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Industrias y Clubes de",
+      "concepto": "T2 CBYP",
+      "unidad": null,
+      "valores": [
+       76505.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Industrias y Clubes de",
+      "concepto": "T2 E-T",
+      "unidad": null,
+      "valores": [
+       76505.0,
+       104.3373,
+       101.8237,
+       100.3666,
+       99.2152
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Industrias y Clubes de",
+      "concepto": "T2 E-CyRA",
+      "unidad": null,
+      "valores": [
+       null,
+       113.2311,
+       101.8237,
+       100.3666,
+       99.2152
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "17.027 101,8237 | 100,3666 99,2152 -61,8909 | -60,8521 -60,0313 | -61,3439 -60,3143 | -59,5008 | -60,7970 -59,7766 -58,9702",
+      "concepto": "76.505 |",
+      "unidad": null,
+      "valores": [
+       17027.0,
+       15.1122,
+       14.8984,
+       14.7295
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "T3BT__| menora 300 kW",
+      "unidad": null,
+      "valores": [
+       130059.0,
+       25051.0,
+       101.8237,
+       100.3666,
+       99.2152
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "S/kWh S/kWh S/kWwh",
+      "concepto": "T3MT | menor a 300 kW",
+      "unidad": null,
+      "valores": [
+       214214.0,
+       13872.0,
+       91.4673,
+       90.1585,
+       89.1242
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "T3BT_ mayor o igual a 300 kW",
+      "unidad": null,
+      "valores": [
+       130059.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "T3 BTSZ.E mayor o igual a 300 kW",
+      "unidad": null,
+      "valores": [
+       130059.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "S/kWh S/kWh S/kWwh",
+      "concepto": "T3MT | mayor o igual a 300 kW",
+      "unidad": null,
+      "valores": [
+       214214.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "13 BTPFTT | menor a 300 kW",
+      "unidad": null,
+      "valores": [
+       130059.0,
+       25051.0
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "15,1122 | 148984 147295",
+      "concepto": "T3 MTPFTT [menor a 300 kW",
+      "unidad": null,
+      "valores": [
+       214214.0,
+       13872.0
+      ],
+      "columnas": [
+       "FEBRERO",
+       "MARZO."
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "13 BTPFTT | mayor o igual a 300 kW 130.059",
+      "unidad": null,
+      "valores": [
+       25051.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "15,1122 | 148984 | 14,7295",
+      "concepto": "T3 MTPFTT [mayoroiguala300kW 214.214",
+      "unidad": null,
+      "valores": [
+       13872.0,
+       4.7611,
+       4.6955,
+       4.6437
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BTRA menor a 300 kW · 130.059 91,2693 101,8237 | 100,3666 | 99,2152",
+      "concepto": "23.281 |",
+      "unidad": null,
+      "valores": [
+       73320.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Conexiones Comunes",
+      "concepto": "T 1 Servicio Monofásico Tarifa Social",
+      "unidad": null,
+      "valores": [
+       11509.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BTRA menor a 300 kW · 130.059 91,2693 101,8237 | 100,3666 | 99,2152",
+      "concepto": "27.937 |",
+      "unidad": null,
+      "valores": [
+       129210.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Conexiones Comunes",
+      "concepto": "T 1 Servicio Monofásico",
+      "unidad": null,
+      "valores": [
+       11509.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BTRA menor a 300 kW · 130.059 91,2693 101,8237 | 100,3666 | 99,2152",
+      "concepto": "52.879 | | Subterráneas Monofásicas",
+      "unidad": null,
+      "valores": [
+       235954.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Conexiones Comunes",
+      "concepto": "T 1 Servicio Trifásico",
+      "unidad": null,
+      "valores": [
+       54449.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BTRA menor a 300 kW · Aéreas Trifásicas",
+      "concepto": "Subterráneas Monofásicas",
+      "unidad": null,
+      "valores": [
+       86305.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Conexiones Comunes",
+      "concepto": "T2-T3-T14-T5",
+      "unidad": null,
+      "valores": [
+       54449.0
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
  }
 ]

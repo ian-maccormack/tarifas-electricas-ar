@@ -1,0 +1,314 @@
+=== Hoja: CT junio 26 (2-AP26) ===
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Cód. Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ |  | RESIDENCIAL | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ | 0111 | Familiar | Primeros 50 Kwh | $/KWh | 156.9462 | 25.3733 | 182.3195
+ | 0114 | (hasta 20 Kw) | Siguientes 100 Kwh | $/KWh | 156.9462 | 40.2756 | 197.2218
+ |  | Sin Subsidios Energéticos Focalizados | Siguientes 150 Kwh | $/KWh | 156.9462 | 86.6383 | 243.5845
+ |  |  | Excedente 300 Kwh | $/KWh | 156.9462 | 109.8196 | 266.7658
+ |  | RESIDENCIAL | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ | 0111 | Familiar | Primeros 50 Kwh | $/KWh | 69.9653 | 25.3733 | 95.3386
+ | 0114 | (hasta 20 Kw) | Siguientes 100 Kwh | $/KWh | 69.9653 | 40.2756 | 110.2409
+ |  | Decreto PEN 943/2025 | Siguientes 150 Kwh | $/KWh | 69.9653 | 86.6383 | 156.6036
+ |  | Con Subsidios Energéticos Focalizados | Excedente 300 Kwh | $/KWh | 156.9462 | 109.8196 | 266.7658
+ | 0112 | RESIDENCIAL | Cgo.fijo s/Res. Sech. 9759 | $-mes | 0 | 2959.82 | 2959.82
+ |  | Especial | Excedente s/Res. Sech. 9759 | $/KWh | 39.2366 | 27.4549 | 66.6915
+ | 0112 | RESIDENCIAL | Cgo.fijo s/Res. Sech. 9759 | $-mes | 0 | 2959.82 | 2959.82
+ |  | Especial  - Dto PEN 943/25 - SEF | Excedente s/Res. Sech. 9759 | $/KWh | 39.2366 | 27.4549 | 66.6915
+ |  | RESIDENCIAL | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ | 0113 | Consorcio | Primeros 50 Kwh | $/KWh | 156.9462 | 25.3733 | 182.3195
+ |  |  | Excedente | $/KWh | 156.9462 | 40.2756 | 197.2218
+ |  | RESIDENCIAL | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ | 0113 | Consorcio | Primeros 50 Kwh | $/KWh | 69.9653 | 25.3733 | 95.3386
+ |  | Dto PEN 943/25 - SEF | Excedente | $/KWh | 69.9653 | 40.2756 | 110.2409
+ | 0116 | RESIDENCIAL | Cuota Unica mensual | $-mes | 0 | 4081.33 | 4081.33
+ |  | Tarifa Interes Social | Con medidor comunitario
+ |  | RESIDENCIAL | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ |  | Tarifa Social electro-dependiente | Primeros 50 Kwh | $/KWh | 3.0287 | 25.3733 | 28.402
+ | 0118 |  | Siguientes 100 Kwh | $/KWh | 3.0287 | 40.2756 | 43.3043
+ |  |  | Siguientes 150 Kwh | $/KWh | 3.0287 | 86.6383 | 89.667
+ |  |  | Excedente 300 Kwh | $/KWh | 3.0287 | 109.8196 | 112.8483
+ |  | RESIDENCIAL SIN MEDICIÓN | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ |  | A - Vivienda precaria paredes de chapa o cartón | Primeros 50 Kwh | $/KWh | 34.9827 | 12.6867 | 47.6693
+ |  | Consumo fijo 100 KWh/mes | Siguientes 50 Kwh | $/KWh | 34.9827 | 20.1378 | 55.1205
+ |  | RESIDENCIAL SIN MEDICIÓN | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ | 0119 | B-Vivienda de mampostería precaria | Primeros 50 Kwh | $/KWh | 69.9653 | 25.3733 | 95.3386
+ |  | Consumo fijo 180 KWh/mes | Siguientes 100 Kwh | $/KWh | 69.9653 | 40.2756 | 110.2409
+ |  |  | Siguientes 30 Kwh | $/KWh | 69.9653 | 86.6383 | 156.6036
+ |  | RESIDENCIAL SIN MEDICIÓN | Cargo Fijo | $-mes | 0 | 2959.82 | 2959.82
+ |  | C-Vivienda de mampostería NO precaria | Primeros 50 Kwh | $/KWh | 69.9653 | 25.3733 | 95.3386
+ |  | Consumo fijo 250 KWh/mes | Siguientes 100 Kwh | $/KWh | 69.9653 | 40.2756 | 110.2409
+ |  |  | Siguientes 100 Kwh | $/KWh | 69.9653 | 86.6383 | 156.6036
+ |  | COMERCIAL | Cargo Fijo | $-mes | 0 | 6783.81 | 6783.81
+ | 2A | <50KW-Particulares.y Oficiales. | Primeros 250 Kwh. | $/KWh | 151.0281 | 71.8721 | 222.9002
+ |  |  | Excedente de 2500 KWh | $/KWh | 151.0281 | 78.0292 | 229.0573
+ |  | INDUSTRIALES | Cargo Fijo | $-mes | 0 | 6783.81 | 6783.81
+ | 2B | <50KW-Particulares.y Oficiales. | Primeros 1000 kwh | $/KWh | 154.559 | 76.9121 | 231.4711
+ |  |  | Stes 1000 kwh | $/KWh | 154.559 | 76.9121 | 231.4711
+ |  |  | Excedente de 2000 KWh | $/KWh | 154.559 | 85.3958 | 239.9548
+ | 04 | AUTOR.- ENT.S.F.LUCRO | Cargo Fijo | $-mes | 0 | 6783.81 | 6783.81
+ |  | Rep. Nac. y Part. <50KW | Todo el consumo | $/KWh | 153.3593 | 86.095 | 239.4543
+ | 04 | AUTOR.- ENT.S.F.LUCRO | Cargo Fijo | $-mes | 0 | 7647.96 | 7647.96
+ |  | Rep. Prov. y Munic. <50KW | Todo el consumo | $/KWh | 153.3593 | 91.3542 | 244.7135
+ | 04 | ENTIDADES DEPORTIVAS | Cargo Fijo | $-mes | 0 | 6783.81 | 6783.81
+ |  | Rep. Nac. y Part. <50KW | Todo el consumo | $/KWh | 153.3593 | 86.095 | 239.4543
+ | 04 | ENTIDADES DEPORTIVAS - Ley N° 27.098 | Cargo Fijo | $-mes | 0 | 6783.81 | 6783.81
+ |  | Rep. Nac. y Part. <50KW | Todo el Consumo | $/KWh | 68.4352 | 86.095 | 154.5302
+ | 04 | SERV.PUBLICO | Cargo Fijo | $-mes |  | 6783.81 | 6783.81
+ |  | SANITARIO PART.<50 KW | Todo el consumo | $/KWh | 140.2885 | 48.3176 | 188.6061
+ | 04 | SERV.PUBLICO | Cargo Fijo | $-mes | 0 | 7647.96 | 7647.96
+ |  | SANITARIO PROV. <50 KW | Todo el consumo | $/KWh | 140.2885 | 52.8176 | 193.1061
+ | R0111 | RESIDENCIAL RURAL | Cargo Fijo | $-mes | 0 | 8297.43 | 8297.43
+ | R0114 | Familiar y con I.V.A. 27 % (Ley 23871) hasta 20 Kw | Todo el consumo | $/KWh | 153.6333 | 143.3742 | 297.0075
+ | R0111 | RESIDENCIAL RURAL | Cargo Fijo | $-mes | 0 | 8297.43 | 8297.43
+ | R0114 | Familiar y con I.V.A. 27 % (Ley 23871) hasta 20 Kw | Primeros 150 Kwh | $/KWh | 69.3204 | 143.3742 | 212.6946
+ | R0114 | Dto PEN 943/25 - Con SEF | Excedente 150 Kwh | $/KWh | 153.6333 | 143.3742 | 297.0075
+ | R0118 | RESIDENCIAL RURAL | Cargo Fijo | $-mes | 0 | 8297.43 | 8297.43
+ |  | Tarifa Social electro-dependiente | Todo el consumo | $/KWh | 3.21 | 143.3742 | 146.5842
+ | R2A | GENERAL RURAL - Particular y Nacional | Cargo Fijo | $-mes | 0 | 23068.53 | 23068.53
+ | R2B | Comercial - Industrial - Otros Servicios Rurales | Todo el consumo | $/KWh | 154.0959 | 143.3742 | 297.4701
+ | R2A | GENERAL RURAL - Provincial y Municipal | Cargo Fijo | $-mes | 0 | 23932.68 | 23932.68
+ | R2B | Comercial - Industrial - Otros Servicios Rurales | Todo el consumo | $/KWh | 154.0959 | 148.6334 | 302.7293
+ |  | GRAVAMENES | El Cargo Tarifario Específico estará constituido por un monto fijo de $ 859 (Pesos ochoscientos cincuenta y nueve) más un cargo variable por cada KWh de energía consumida de $ 4,5 (Pesos cuatro con cincuenta centavos) para los usuarios sin medición de potencia y, un cargo fijo de $ 260 (Pesos doscientos sesenta) por Kw de Potencia facturada más un cargo variable de $ 3,2 (Pesos tres con veinte centavos) por cada KWh de energía consumida para los grandes usuarios con medición de potencia, todos ellos por mes y más IVA. Estan exceptuados Asentamientos comprendidos en el Convenio entre el Ex Ministerio de Infraestructura y Serv. Público y SECHEEP (Decreto N° 1702/19), usuarios residenciales sin medición con viviendas precaria de paredes de chapa o cartón, según Resolución MIySP N°1150/18, Gobierno Provincial, Municipal, la Empresa SAMEEP y la tarifa de Peaje.
+ | 10,74%-Ley Provincial-3052/85
+ | 21,00%-IVA-        Tarifas : | 0111-0112-0113-0115-0116-0441-0451-0461
+ |  | 0442-0452-0462-0472-0443-0453-0463-0473
+ |  | 501/2-3-4/07-502/2-3-4/07-5021/05-502/3/115H
+ | 27.00%-   IVA  Para resto de los Usuarios
+ | Pequeños, medianos y grandes establecimientos industriales, y aquellos que produzcan y distribuyan agua potable, así como establecimientos del Estado Provincial que presten los servicios de salud, educación y seguridad, y la electrificación rural, están exentos de la tasa del 10,74 %-Ley 7993.
+ | Bonificación 30-40-50% sobre valores del cuadro tarifario a usuarios pequeños industriales (2B23). Resolución Nº 5305/99 |  | A los pescadores se bonificara 50% sobre tarifa Residencial 0111 hasta  500kwh-mes, lo que exceda se facturará al precio excedente de dicha tarifa. Res.7986/08
+ | Bonificacion  residencia estudiantil Nº1 y Nº2 s/Decretos 1248/02 y 199/03 al precio excedente de dicha tarifa.- Res.7986/08
+ | Ex combatientes y movilizados: descuentos del 50 % de tar. 0111 hasta 150 kwh-mes sin límites de consumo. Res. 8216/09 y Res. 9455/13
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Código Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 8579.5181 | 0 | 8579.5181
+ |  | Particulares y Oficiales Nacionales | Cargo Potencia Contratada Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6528.42 | 6528.42
+ | 60 y 65 | Baja Tensión < 300 KW | Cargo Energía Pico | $/KWh | 118.9627 | 3.5597 | 122.5224
+ |  |  | Cargo Energía Resto | $/KWh | 115.719 | 3.5597 | 119.2787
+ |  |  | Cargo Energía Valle | $/KWh | 114.2091 | 3.5597 | 117.7688
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 8579.5181 | 0 | 8579.5181
+ |  | Oficiales Provinciales, Municipales y SAMEEP | Cargo Potencia Contratada Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6788.42 | 6788.42
+ | 60 y 65 | Baja Tensión < 300 KW | Cargo Energía Pico | $/KWh | 118.9627 | 6.7597 | 125.7224
+ |  |  | Cargo Energía Resto | $/KWh | 115.719 | 6.7597 | 122.4787
+ |  |  | Cargo Energía Valle | $/KWh | 114.2091 | 6.7597 | 120.9688
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 3262.7907 | 0 | 3262.7907
+ |  | ENTIDADES DEPORTIVAS - Ley N° 27.098 | Cargo Potencia Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 | 50 Kw o más | Cargo Potencia Fuera de Punta | $/KW | 0 | 6528.42 | 6528.42
+ |  | Baja Tensión < 300 KW | Cargo Energía Pico | $/KWh | 55.0124 | 3.5597 | 58.5721
+ |  |  | Cargo Energía Resto | $/KWh | 53.7844 | 3.5597 | 57.3441
+ |  |  | Cargo Energía Valle | $/KWh | 53.2123 | 3.5597 | 56.772
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 4289.7591 | 0 | 4289.7591
+ |  | RIEGO AGRICOLA | Cargo Potencia Contratada Punta | $/KW | 0 | 2805.13 | 2805.13
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 3264.21 | 3264.21
+ |  | Baja Tensión < 300 KW | Cargo Energía Pico | $/KWh | 118.9627 | 3.5597 | 122.5224
+ |  |  | Cargo Energía Resto | $/KWh | 115.719 | 3.5597 | 119.2787
+ |  |  | Cargo Energía Valle | $/KWh | 114.2091 | 3.5597 | 117.7688
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8599.6433 | 0 | 8599.6433
+ |  | Particulares y Oficiales Nacionales | Cargo Potencia Contratada Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 5799.46 | 5799.46
+ | 60 y 65 | Media tensión < 300 KW | Cargo Energía Pico | $/KWh | 115.8072 | 2.8293 | 118.6365
+ |  |  | Cargo Energía Resto | $/KWh | 112.6495 | 2.8293 | 115.4788
+ |  |  | Cargo Energía Valle | $/KWh | 111.1797 | 2.8293 | 114.009
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8599.6433 | 0 | 8599.6433
+ |  | Oficiales Provinciales, Municipales y SAMEEP | Cargo Potencia Contratada Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6059.46 | 6059.46
+ | 60 y 65 | Media tensión < 300 KW | Cargo Energía Pico | $/KWh | 115.8072 | 6.0293 | 121.8365
+ |  |  | Cargo Energía Resto | $/KWh | 112.6495 | 6.0293 | 118.6788
+ |  |  | Cargo Energía Valle | $/KWh | 111.1797 | 6.0293 | 117.209
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 3270.4443 | 0 | 3270.4443
+ |  | ENTIDADES DEPORTIVAS - Ley N° 27.098 | Cargo Potencia Contratada Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 5799.46 | 5799.46
+ |  | Media tensión < 300 KW | Cargo Energía Pico | $/KWh | 53.5532 | 2.8293 | 56.3825
+ |  |  | Cargo Energía Resto | $/KWh | 52.3577 | 2.8293 | 55.187
+ |  |  | Cargo Energía Valle | $/KWh | 51.8008 | 2.8293 | 54.6301
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 4299.8217 | 0 | 4299.8217
+ |  | RIEGO AGRICOLA | Cargo Potencia Contratada Punta | $/KW | 0 | 2156.395 | 2156.395
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 2899.73 | 2899.73
+ |  | Media tensión < 300 KW | Cargo Energía Pico | $/KWh | 115.8072 | 2.8293 | 118.6365
+ |  |  | Cargo Energía Resto | $/KWh | 112.6495 | 2.8293 | 115.4788
+ |  |  | Cargo Energía Valle | $/KWh | 111.1797 | 2.8293 | 114.009
+ |  | GRAVAMENES | El Cargo Tarifario Específico estará constituido por un monto fijo de $ 859 (Pesos ochoscientos cincuenta y nueve) más un cargo variable por cada KWh de energía consumida de $ 4,5 (Pesos cuatro con cincuenta centavos) para los usuarios sin medición de potencia y, un cargo fijo de $ 260 (Pesos doscientos sesenta) por Kw de Potencia facturada más un cargo variable de $ 3,2 (Pesos tres con veinte centavos) por cada KWh de energía consumida para los grandes usuarios con medición de potencia, todos ellos por mes y más IVA. Estan exceptuados Asentamientos comprendidos en el Convenio entre el Ex Ministerio de Infraestructura y Serv. Público y SECHEEP (Decreto N° 1702/19), usuarios residenciales sin medición con viviendas precaria de paredes de chapa o cartón, según Resolución MIySP N°1150/18, Gobierno Provincial, Municipal, la Empresa SAMEEP y la tarifa de Peaje.
+ | 10,74%-Ley Provincial-3052/85
+ | 21,00%-IVA-        Tarifas : | 0111-0112-0113-0115-0116-0441-0451-0461
+ |  | 0442-0452-0462-0472-0443-0453-0463-0473
+ |  | 501/2-3-4/07-502/2-3-4/07-5021/05-502/3/115H
+ | 27.00%-   IVA  Para resto de los Usuarios
+ | Pequeños, medianos y grandes establecimientos industriales, y aquellos que produzcan y distribuyan agua potable, así como establecimientos del Estado Provincial que presten los servicios de salud, educación y seguridad, y la electrificación rural, están exentos de la tasa del 10,74 %-Ley 7993.
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Código Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 8579.5181 | 0 | 8579.5181
+ |  | Particulares y Oficiales Nacionales | Cargo Potencia Contratada Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6528.42 | 6528.42
+ | 60 y 65 | Baja Tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 119.1911 | 3.5597 | 122.7508
+ |  |  | Cargo Energía Resto | $/KWh | 115.9395 | 3.5597 | 119.4992
+ |  |  | Cargo Energía Valle | $/KWh | 114.4251 | 3.5597 | 117.9848
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes |  | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 8579.5181 | 0 | 8579.5181
+ |  | Oficiales Provinciales, Municipales y SAMEEP | Cargo Potencia Contratada Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6788.42 | 6788.42
+ | 60 y 65 | Baja Tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 119.1911 | 6.7597 | 125.9508
+ |  |  | Cargo Energía Resto | $/KWh | 115.9395 | 6.7597 | 122.6992
+ |  |  | Cargo Energía Valle | $/KWh | 114.4251 | 6.7597 | 121.1848
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 3262.7907 | 0 | 3262.7907
+ |  | ENTIDADES DEPORTIVAS - Ley N° 27.098 | Cargo Potencia Contratada Punta | $/KW | 0 | 5610.26 | 5610.26
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6528.42 | 6528.42
+ |  | Baja Tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 55.0124 | 3.5597 | 58.5721
+ |  |  | Cargo Energía Resto | $/KWh | 53.7844 | 3.5597 | 57.3441
+ |  |  | Cargo Energía Valle | $/KWh | 53.2123 | 3.5597 | 56.772
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  |  | Cargo Potencia Adquirida | $/KW | 4289.7591 | 0 | 4289.7591
+ |  | RIEGO AGRICOLA | Cargo Potencia Contratada Punta | $/KW | 0 | 2805.13 | 2805.13
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 3264.21 | 3264.21
+ |  | Baja Tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 119.1911 | 3.5597 | 122.7508
+ |  |  | Cargo Energía Resto | $/KWh | 115.9395 | 3.5597 | 119.4992
+ |  |  | Cargo Energía Valle | $/KWh | 114.4251 | 3.5597 | 117.9848
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8599.6433 | 0 | 8599.6433
+ |  | Particulares y Oficiales Nacionales | Cargo Potencia Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Fuera de Punta | $/KW | 0 | 5799.46 | 5799.46
+ | 60 y 65 | Media tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 116.0296 | 2.8293 | 118.8589
+ |  |  | Cargo Energía Resto | $/KWh | 112.8642 | 2.8293 | 115.6935
+ |  |  | Cargo Energía Valle | $/KWh | 111.39 | 2.8293 | 114.2193
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8599.6433 | 0 | 8599.6433
+ |  | Oficiales Provinciales, Municipales y SAMEEP | Cargo Potencia Contratada Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 y 55 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6059.46 | 6059.46
+ | 60 y 65 | Media tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 116.0296 | 6.0293 | 122.0589
+ |  |  | Cargo Energía Resto | $/KWh | 112.8642 | 6.0293 | 118.8935
+ |  |  | Cargo Energía Valle | $/KWh | 111.39 | 6.0293 | 117.4193
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 3270.4443 | 0 | 3270.4443
+ |  | ENTIDADES DEPORTIVAS - Ley N° 27.098 | Cargo Potencia Contratada Punta | $/KW | 0 | 4312.79 | 4312.79
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 5799.46 | 5799.46
+ |  | Media tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 53.5532 | 2.8293 | 56.3825
+ |  |  | Cargo Energía Resto | $/KWh | 52.3577 | 2.8293 | 55.187
+ |  |  | Cargo Energía Valle | $/KWh | 51.8008 | 2.8293 | 54.6301
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 4299.8217 | 0 | 4299.8217
+ |  | RIEGO AGRICOLA | Cargo Potencia Contratada Punta | $/KW | 0 | 2156.395 | 2156.395
+ | 50 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 2899.73 | 2899.73
+ |  | Media tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 116.0296 | 2.8293 | 118.8589
+ |  |  | Cargo Energía Resto | $/KWh | 112.8642 | 2.8293 | 115.6935
+ |  |  | Cargo Energía Valle | $/KWh | 111.39 | 2.8293 | 114.2193
+ |  | GRAVAMENES | El Cargo Tarifario Específico estará constituido por un monto fijo de $ 859 (Pesos ochoscientos cincuenta y nueve) más un cargo variable por cada KWh de energía consumida de $ 4,5 (Pesos cuatro con cincuenta centavos) para los usuarios sin medición de potencia y, un cargo fijo de $ 260 (Pesos doscientos sesenta) por Kw de Potencia facturada más un cargo variable de $ 3,2 (Pesos tres con veinte centavos) por cada KWh de energía consumida para los grandes usuarios con medición de potencia, todos ellos por mes y más IVA. Estan exceptuados Asentamientos comprendidos en el Convenio entre el Ex Ministerio de Infraestructura y Serv. Público y SECHEEP (Decreto N° 1702/19), usuarios residenciales sin medición con viviendas precaria de paredes de chapa o cartón, según Resolución MIySP N°1150/18, Gobierno Provincial, Municipal, la Empresa SAMEEP y la tarifa de Peaje.
+ | 10,74%-Ley Provincial-3052/85
+ | 21,00%-IVA-        Tarifas : | 0111-0112-0113-0115-0116-0441-0451-0461
+ |  | 0442-0452-0462-0472-0443-0453-0463-0473
+ |  | 501/2-3-4/07-502/2-3-4/07-5021/05-502/3/115H
+ | 27.00%-   IVA  Para resto de los Usuarios
+ | Pequeños, medianos y grandes establecimientos industriales, y aquellos que produzcan y distribuyan agua potable, así como establecimientos del Estado Provincial que presten los servicios de salud, educación y seguridad, y la electrificación rural, están exentos de la tasa del 10,74 %-Ley 7993.
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Código Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8452.5747 | 0 | 8452.5747
+ |  | ELECTR. RURAL COOPERATIVAS y | Cargo Potencia Contratada Punta | $/KW | 0 | 3375.75 | 3375.75
+ | 50 | DISTRIBUIDORES Fuera de la Provincia | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 3460.07 | 3460.07
+ | 502115H | Media tensión | Cargo Energía Pico | $/KWh | 114.1243 | 2.6479 | 116.7722
+ |  |  | Cargo Energía Resto | $/KWh | 111.0125 | 2.6479 | 113.6604
+ |  |  | Cargo Energía Valle | $/KWh | 109.564 | 2.6479 | 112.2119
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 3214.5141 | 0 | 3214.5141
+ |  | ELECTR. RURAL COOPERATIVAS y | Cargo Potencia Contratada Punta | $/KW | 0 | 3375.75 | 3375.75
+ |  | DISTRIBUIDORES Fuera de la Provincia | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 3460.07 | 3460.07
+ |  | Residencial - Dto PEN 943/25 - SEF | Cargo Energía Pico | $/KWh | 52.7751 | 2.6479 | 55.423
+ |  | Consumos hasta 150 KWh-mes | Cargo Energía Resto | $/KWh | 51.597 | 2.6479 | 54.2449
+ |  |  | Cargo Energía Valle | $/KWh | 51.0482 | 2.6479 | 53.6961
+ |  | GDES. POTENCIAS | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  |  | Cargo Potencia Adquirida | $/KW | 8452.5747 | 0 | 8452.5747
+ |  | ELECTR. RURAL COOPERATIVAS y | Cargo Potencia Contratada Punta | $/KW | 0 | 3375.75 | 3375.75
+ |  | DISTRIBUIDORES Fuera de la Provincia | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 3460.07 | 3460.07
+ |  | Residencial sin SEF y | Cargo Energía Pico | $/KWh | 113.7076 | 2.6479 | 116.3555
+ |  | Residencial - Dto PEN 943/25 - SEF - excedente | Cargo Energía Resto | $/KWh | 110.61 | 2.6479 | 113.2579
+ |  |  | Cargo Energía Valle | $/KWh | 109.1669 | 2.6479 | 111.8148
+ |  | GRAVAMENES | El Cargo Tarifario Específico estará constituido por un monto fijo de $ 859 (Pesos ochoscientos cincuenta y nueve) más un cargo variable por cada KWh de energía consumida de $ 4,5 (Pesos cuatro con cincuenta centavos) para los usuarios sin medición de potencia y, un cargo fijo de $ 260 (Pesos doscientos sesenta) por Kw de Potencia facturada más un cargo variable de $ 3,2 (Pesos tres con veinte centavos) por cada KWh de energía consumida para los grandes usuarios con medición de potencia, todos ellos por mes y más IVA. Estan exceptuados Asentamientos comprendidos en el Convenio entre el Ex Ministerio de Infraestructura y Serv. Público y SECHEEP (Decreto N° 1702/19), usuarios residenciales sin medición con viviendas precaria de paredes de chapa o cartón, según Resolución MIySP N°1150/18, Gobierno Provincial, Municipal, la Empresa SAMEEP y la tarifa de Peaje.
+ | 10,74%-Ley Provincial-3052/85
+ | 21,00%-IVA-        Tarifas : | 0111-0112-0113-0115-0116-0441-0451-0461
+ |  | 0442-0452-0462-0472-0443-0453-0463-0473
+ |  | 501/2-3-4/07-502/2-3-4/07-5021/05-502/3/115H
+ | 27.00%-   IVA  Para resto de los Usuarios
+ | Pequeños, medianos y grandes establecimientos industriales, y aquellos que produzcan y distribuyan agua potable, así como establecimientos del Estado Provincial que presten los servicios de salud, educación y seguridad, y la electrificación rural, están exentos de la tasa del 10,74 %-Ley 7993.
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Código Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ |  | PEAJE POR TRANSPORTE FIRME | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  | Particulares, Oficiales Prov., Mun. y Nac. | Cargo Potencia Contratada Punta | $/KW | 1060.22 | 5610.26 | 6670.48
+ | 80 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6788.42 | 6788.42
+ |  | Baja tensión < 300 KW | Cargo Energía Pico | $/KWh | 11.9219 | 6.7597 | 18.6816
+ |  |  | Cargo Energía Resto | $/KWh | 11.5462 | 6.7597 | 18.3059
+ |  |  | Cargo Energía Valle | $/KWh | 11.3713 | 6.7597 | 18.131
+ |  | PEAJE POR TRANSPORTE FIRME | Cargo Fijo | $-mes | 0 | 30591.87 | 30591.87
+ |  | Particulares, Oficiales Prov., Mun. y Nac. | Cargo Potencia Contratada Punta | $/KW | 1060.22 | 5610.26 | 6670.48
+ | 80 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6788.42 | 6788.42
+ |  | Baja Tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 11.9483 | 6.7597 | 18.708
+ |  |  | Cargo Energía Resto | $/KWh | 11.5717 | 6.7597 | 18.3314
+ |  |  | Cargo Energía Valle | $/KWh | 11.3963 | 6.7597 | 18.156
+ |  | PEAJE POR TRANSPORTE FIRME | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  | Particulares, Oficiales Prov., Mun. y Nac. | Cargo Potencia Contratada Punta | $/KW | 859.19 | 4312.79 | 5171.98
+ | 80 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6059.46 | 6059.46
+ |  | Media tensión < 300 KW | Cargo Energía Pico | $/KWh | 9.1917 | 6.0293 | 15.221
+ |  |  | Cargo Energía Resto | $/KWh | 8.9021 | 6.0293 | 14.9314
+ |  |  | Cargo Energía Valle | $/KWh | 8.7672 | 6.0293 | 14.7965
+ |  | PEAJE POR TRANSPORTE FIRME | Cargo Fijo | $-mes | 0 | 57359.75 | 57359.75
+ |  | Particulares, Oficiales Prov., Mun. y Nac. | Cargo Potencia Contratada Punta | $/KW | 859.19 | 4312.79 | 5171.98
+ | 80 | 50 Kw o más | Cargo Potencia Contratada Fuera de Punta | $/KW | 0 | 6059.46 | 6059.46
+ |  | Media tensión ≥ 300 KW | Cargo Energía Pico | $/KWh | 9.2121 | 6.0293 | 15.2414
+ |  |  | Cargo Energía Resto | $/KWh | 8.9218 | 6.0293 | 14.9511
+ |  |  | Cargo Energía Valle | $/KWh | 8.7865 | 6.0293 | 14.8158
+ |  | GRAVAMENES | El Cargo Tarifario Específico estará constituido por un monto fijo de $ 859 (Pesos ochoscientos cincuenta y nueve) más un cargo variable por cada KWh de energía consumida de $ 4,5 (Pesos cuatro con cincuenta centavos) para los usuarios sin medición de potencia y, un cargo fijo de $ 260 (Pesos doscientos sesenta) por Kw de Potencia facturada más un cargo variable de $ 3,2 (Pesos tres con veinte centavos) por cada KWh de energía consumida para los grandes usuarios con medición de potencia, todos ellos por mes y más IVA. Estan exceptuados Asentamientos comprendidos en el Convenio entre el Ex Ministerio de Infraestructura y Serv. Público y SECHEEP (Decreto N° 1702/19), usuarios residenciales sin medición con viviendas precaria de paredes de chapa o cartón, según Resolución MIySP N°1150/18, Gobierno Provincial, Municipal, la Empresa SAMEEP y la tarifa de Peaje.
+ | 10,74%-Ley Provincial-3052/85
+ | 21,00%-IVA-        Tarifas : | 0111-0112-0113-0115-0116-0441-0451-0461
+ |  | 0442-0452-0462-0472-0443-0453-0463-0473
+ |  | 501/2-3-4/07-502/2-3-4/07-5021/05-502/3/115H
+ | 27.00%-   IVA  Para resto de los Usuarios
+ | Pequeños, medianos y grandes establecimientos industriales, y aquellos que produzcan y distribuyan agua potable, así como establecimientos del Estado Provincial que presten los servicios de salud, educación y seguridad, y la electrificación rural, están exentos de la tasa del 10,74 %-Ley 7993.
+ |  |  |  |  |  | ANEXO I - Cuadro Tarifario de aplicación
+ |  |  |  |  |  | Resolución SECHEEP N°
+ |  |  |  |  |  |  | Tarifa a aplicar a partir de los consumos del ...de junio 2026
+ |  |  |  |  |  |  | Audiencia Pública 18/02/26 - Res.MIOySP N°479/26, Dto. PEN 943/25 y Res. SE Nros 13/26-109/26
+ | Código Tarifario | Categorías | Escala Mensual | Unidad | Abastecimiento | VAD Anexo II Res.MIOySP N°479/26 | Total Neto
+ | 0111-0114 | Usuario - Generador RESIDENCIAL
+ | 0112-0113 |  | Por cada KWh inyectado a la red | $/KWh | 89.9122 | 0 | 89.9122
+ | 0111-0114 | Usuario - Generador RESIDENCIAL
+ | 0112-0113 | Decreto PEN 943/25 - SEF | Por cada KWh inyectado a la red | $/KWh | 39.9617 | 0 | 39.9617
+ |  | Usuario - Generador NO RESIDENCIAL
+ | 2A-2B-04 | <50KW - Part. Nac. Prov. Mun. | Por cada KWh inyectado a la red | $/KWh | 90.2979 | 0 | 90.2979
+ |  | Usuario - Generador RESIDENCIAL RURAL
+ | R0111-0114 |  | Por cada KWh inyectado | $/KWh | 89.9058 | 0 | 89.9058
+ |  | Usuario - Generador RESIDENCIAL RURAL
+ | R0111-0114 | Decreto PEN 943/25 - SEF | Por cada KWh inyectado | $/KWh | 39.9594 | 0 | 39.9594
+ |  | Usuario - Generador GENERAL RURAL
+ | R2A-2B | Comercial - Industrial - Otros Servicios | Por cada KWh inyectado | $/KWh | 90.2788 | 0 | 90.2788
+ |  | Usuario - Generador GDES. POTENCIAS
+ | 50 y 55 | 50 Kw o más | Energía inyectada en Pico | $/KWh | 92.743 | 0 | 92.743
+ | 60 y 65 | Baja Tensión y Media tensión < 300 KW | Energía inyectada en Resto | $/KWh | 89.875 | 0 | 89.875
+ |  |  | Energía inyectada en Valle | $/KWh | 88.54 | 0 | 88.54
+ |  | Usuario - Generador GDES. POTENCIAS
+ | 50 y 55 | 50 Kw o más | Energía inyectada en Pico | $/KWh | 92.945 | 0 | 92.945
+ | 60 y 65 | Baja Tensión y Media tensión ≥ 300 KW | Energía inyectada en Resto | $/KWh | 90.07 | 0 | 90.07
+ |  |  | Energía inyectada en Valle | $/KWh | 88.731 | 0 | 88.731
