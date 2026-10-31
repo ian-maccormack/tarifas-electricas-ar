@@ -7000,5 +7000,30 @@
     ]
    }
   ]
+ },
+ {
+  "id": "refsa",
+  "detectado": "2026-10-31T15:02:21+00:00",
+  "sha256": "7fa4de9fcd3b1078707248ec8cc1d8f992899db8651e4d2c74808eb4caca130c",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf",
+  "titulo": "Cuadro Tarifario del 02-2026",
+  "vigencia": null,
+  "tablas": [
+   {
+    "titulo": "Página 3 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "(5)",
+      "unidad": null,
+      "valores": [
+       null,
+       11169.55
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
  }
 ]
