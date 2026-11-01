@@ -7025,5 +7025,135 @@
     ]
    }
   ]
+ },
+ {
+  "id": "edea",
+  "detectado": "2026-11-01T15:45:17+00:00",
+  "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+  "titulo": "Cuadro Tarifario del 11-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edelap",
+  "detectado": "2026-11-01T15:45:17+00:00",
+  "sha256": "d3335035f952aaf92d56cc95c10b6a7f7a3398bcb0dfb3aed3cebbb8c01063cb",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
+  "titulo": "Cuadro Tarifario del 11-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "ejsed",
+  "detectado": "2026-11-01T15:45:17+00:00",
+  "sha256": "1f7789ffd30713f57cc72a5925a5f0cc2b3a2c6f0672010c0423f4e59ce50f39",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2025_10_EJSEDSA.xlsx",
+  "titulo": "Cuadro Tarifario del 10-2025",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "edersa",
+  "detectado": "2026-11-01T15:45:17+00:00",
+  "sha256": "7019dfebf557715ea9cfbe2800c2516cdb100d0d636abc66a62c7f739aa2c83f",
+  "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
+  "titulo": "Cuadro Tarifario del 06-2026",
+  "vigencia": "JUNIO 2026",
+  "tablas": [
+   {
+    "titulo": "Tarifa Residencial (cargos bimestrales)",
+    "filas": [
+     {
+      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/bimes",
+      "valores": [
+       8955.21,
+       10591.83,
+       9029.56,
+       10666.18
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "concepto": "CARGO VARIABLE",
+      "unidad": "$/kWh",
+      "valores": [
+       192.154,
+       200.161,
+       263.547,
+       271.554
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/bim",
+      "valores": [
+       25447.53,
+       28393.45,
+       27225.99,
+       30171.91
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO VARIABLE BASE",
+      "unidad": "$/kWh",
+      "valores": [
+       188.309,
+       189.628,
+       264.175,
+       265.494
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO VARIABLE excedente (*)",
+      "unidad": "$/KWh",
+      "valores": [
+       264.175,
+       265.494
+      ],
+      "columnas": null
+     }
+    ],
+    "tope_subsidio": 300
+   }
+  ]
+ },
+ {
+  "id": "edesa",
+  "detectado": "2026-11-01T15:45:17+00:00",
+  "sha256": "f72742c8a6053c01135305d54893da10cf86265a29767261abd280e21be56484",
+  "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
+  "titulo": "Cuadro Tarifario del 06-2026",
+  "vigencia": null,
+  "tablas": []
  }
 ]
