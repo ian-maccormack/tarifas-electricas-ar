@@ -7155,5 +7155,251 @@
   "titulo": "Cuadro Tarifario del 06-2026",
   "vigencia": null,
   "tablas": []
+ },
+ {
+  "id": "enersa",
+  "detectado": "2026-11-03T16:50:25+00:00",
+  "sha256": "314b1a1e55f91c68ae8da4625edca6f281874b671fb0d6b5c5db4c258ab911fa",
+  "url": "https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-183-26-anexo1.xlsx",
+  "titulo": "actualizacion-cuadro-tarifario-noviembre-2026",
+  "vigencia": "Vigente a partir del 1° de Noviembre de 2026 al 30 de Noviembre de 2026",
+  "tablas": [
+   {
+    "titulo": "T 1-R Uso residencial — Sin Subsidio",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3193.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       245.55
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       277.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       320.65
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       346.03
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Con Subsidio Provincial y Nacional",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3001.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       116.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       146.65
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       146.65
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       187.23
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 70 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       346.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       346.03
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Con Subsidio Nacional",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3193.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       120.45
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       152.39
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       152.39
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       195.55
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 70 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       346.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       346.03
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Electrodependientes",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3193.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       65.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       97.85
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       141.01
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       166.4
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
  }
 ]

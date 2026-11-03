@@ -1,50 +1,51 @@
 === Hoja: Anexo CT-T1-T2 ===
- |  |  | ANEXO |  |  |  |  |  |  |  | RESOLUCIÓN EPRE Nº 166/26
+ |  |  | ANEXO |  |  |  |  |  |  |  | RESOLUCIÓN EPRE Nº 183/26
  |  |  | CUADRO TARIFARIO PROVINCIAL
  |  |  | Vigente a partir del  1° de Noviembre de 2026 al 30 de Noviembre de 2026
 TARIFA 1 - PEQUEÑAS DEMANDAS |  |  | Residencial
  |  |  | Sin Subsidio |  | Con Subsidio Provincial y Nacional |  |  | Con Subsidio Nacional |  |  | Electrodependientes
- |  |  |  |  |  | ZONA CÁLIDA1 |  |  | ZONA CÁLIDA1
-T 1-R Uso residencial |  |  |  |  |  | y RESTO2 |  |  | y RESTO2
- | Cargo fijo (haya o no consumo) $/mes |  | 3193.22 |  | Cargo fijo (haya o no consumo) $/mes | 3001.63 |  | Cargo fijo (haya o no consumo) $/mes | 3193.22 |  | Cargo fijo (haya o no consumo) $/mes | 3193.22
+ |  |  |  |  |  | ZONA CÁLIDA1 | ZONA RESTO2 |  | ZONA CÁLIDA1 | ZONA RESTO2
+T 1-R Uso residencial
+ | Cargo fijo (haya o no consumo) $/mes |  | 3193.22 |  | Cargo fijo (haya o no consumo) $/mes | 3001.63 | 3001.63 | Cargo fijo (haya o no consumo) $/mes | 3193.22 | 3193.22 | Cargo fijo (haya o no consumo) $/mes | 3193.22
  | Cargo Variable por energía:       $/kWh |  |  |  | Cargo Variable por energía:          $/kWh |  |  | Cargo Variable por energía:          $/kWh |  |  | Cargo Variable por energía:          $/kWh
- | Primeros 100 kWh/mes |  | 243.94 |  | Primeros 100 kWh/mes | 153.43 |  | Primeros 100 kWh/mes | 157.25 |  | Primeros 100 kWh/mes | 65.92
- | Siguientes 100 kWh/mes |  | 275.87 |  | Siguientes 50 kWh/mes | 183.44 |  | Siguientes 50 kWh/mes | 189.18 |  | Siguientes 100 kWh/mes | 97.85
- | Siguientes 100 kWh/mes |  | 319.04 |  | Siguientes 50 kWh/mes | 270.14 |  | Siguientes 50 kWh/mes | 275.87 |  | Siguientes 100 kWh/mes | 141.01
- | Excedente de 300 kWh/mes |  | 344.42 |  | Siguientes 100 kWh/mes | 310.71 |  | Siguientes 100 kWh/mes | 319.04 |  | Excedente de 300 kWh/mes | 166.4
- |  |  |  |  | Siguientes 70 kWh/mes | 344.42 |  | Siguientes 70 kWh/mes | 344.42
- |  |  |  |  | Excedente de 370 kWh/mes | 344.42 |  | Excedente de 370 kWh/mes | 344.42
+ | Primeros 100 kWh/mes |  | 245.55 |  | Primeros 100 kWh/mes | 116.63 | 116.63 | Primeros 100 kWh/mes | 120.45 | 120.45 | Primeros 100 kWh/mes | 65.92
+ | Siguientes 100 kWh/mes |  | 277.48 |  | Siguientes 50 kWh/mes | 146.65 | 146.65 | Siguientes 50 kWh/mes | 152.39 | 152.39 | Siguientes 100 kWh/mes | 97.85
+ | Siguientes 100 kWh/mes |  | 320.65 |  | Siguientes 50 kWh/mes | 146.65 | 146.65 | Siguientes 50 kWh/mes | 152.39 | 152.39 | Siguientes 100 kWh/mes | 141.01
+ | Excedente de 300 kWh/mes |  | 346.03 |  | Siguientes 100 kWh/mes | 187.23 | 312.32 | Siguientes 100 kWh/mes | 195.55 | 320.65 | Excedente de 300 kWh/mes | 166.4
+ |  |  |  |  | Siguientes 70 kWh/mes | 346.03 | 346.03 | Siguientes 70 kWh/mes | 346.03 | 346.03
+ |  |  |  |  | Excedente de 370 kWh/mes | 346.03 | 346.03 | Excedente de 370 kWh/mes | 346.03 | 346.03
  |  |  | Sin Subsidio |  | Con Subsidio Provincial y Nacional |  |  | Con Subsidio Nacional |  |  | Electrodependientes
- |  |  |  |  |  | ZONA CÁLIDA1 |  |  | ZONA CÁLIDA1
-T 1-Rural Residencial |  |  |  |  |  | y RESTO2 |  |  | y RESTO2
- | Cargo fijo (haya o no consumo) $/mes |  | 8846.8 |  | Cargo fijo (haya o no consumo) $/mes | 8315.99 |  | Cargo fijo (haya o no consumo) $/mes | 8846.8 |  | Cargo fijo (haya o no consumo) $/mes | 8846.8
+ |  |  |  |  |  | ZONA CÁLIDA1 | ZONA RESTO2 |  | ZONA CÁLIDA1 | ZONA RESTO2
+T 1-Rural Residencial
+ | Cargo fijo (haya o no consumo) $/mes |  | 8846.8 |  | Cargo fijo (haya o no consumo) $/mes | 8315.99 | 8315.99 | Cargo fijo (haya o no consumo) $/mes | 8846.8 | 8846.8 | Cargo fijo (haya o no consumo) $/mes | 8846.8
  | Cargo Variable por energía:       $/kWh |  |  |  | Cargo Variable por energía:          $/kWh |  |  | Cargo Variable por energía:          $/kWh |  |  | Cargo Variable por energía:       $/kWh
- | Primeros 150 kWh/mes |  | 283.51 |  | Primeros 150 kWh/mes | 190.21 |  | Prim 150 kWh/mes | 196.35 |  | Primeros 150 kWh/mes | 104.6
- | Siguientes 150 kWh/mes |  | 344.97 |  | Siguientes 150 kWh/mes | 335.14 |  | Sig 150 kWh/mes | 344.97 |  | Siguientes 150 kWh/mes | 166.06
- | Excedente de 300 kWh/mes |  | 411.52 |  | Siguientes 70 kWh/mes | 411.52 |  | Siguientes 70 kWh/mes | 411.52 |  | Excedente de 300 kWh/mes | 232.61
- |  |  |  |  | Excedente de 370 kWh/mes | 411.52 |  | Excedente de 370 kWh/mes | 411.52
+ | Primeros 150 kWh/mes |  | 285.12 |  | Primeros 150 kWh/mes | 153.22 | 153.22 | Primeros 150 kWh/mes | 159.36 | 159.36 | Primeros 150 kWh/mes | 104.6
+ | Siguientes 150 kWh/mes |  | 346.59 |  | Siguientes 50 kWh/mes | 210.99 | 210.99 | Siguientes 50 kWh/mes | 220.82 | 220.82 | Siguientes 150 kWh/mes | 166.06
+ | Excedente de 300 kWh/mes |  | 413.14 |  | Siguientes 100 kWh/mes | 210.99 | 336.76 | Siguientes 100 kWh/mes | 220.82 | 346.59 | Excedente de 300 kWh/mes | 232.61
+ |  |  |  |  | Siguientes 70 kWh/mes | 413.14 | 413.14 | Siguientes 70 kWh/mes | 413.14 | 413.14
+ |  |  |  |  | Excedente de 370 kWh/mes | 413.14 | 413.14 | Excedente de 370 kWh/mes | 413.14 | 413.14
  |  |  | No Residencial
 T 1-Rural General |  |  | Sin Subsidio |  |  |  |  | T1-Entidades de Bien Público y Clubes de Barrio  Nacionales
  | Cargo fijo (haya o no consumo) $/mes |  | 8846.8 |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 8846.8
  | Cargo Variable por energía:       $/kWh |  |  |  |  |  |  | Cargo Variable por energía:       $/kWh
- | Primeros 150 kWh/mes |  | 312.22 |  |  |  |  | Primeros 150 kWh/mes | 196.35
- | Siguientes 150 kWh/mes |  | 373.68 |  |  |  |  | Siguientes 150 kWh/mes | 257.81
- | Excedente de 300 kWh/mes |  | 408.24 |  |  |  |  | Excedente de 300 kWh/mes | 324.37
+ | Primeros 150 kWh/mes |  | 322.05 |  |  |  |  | Primeros 150 kWh/mes | 159.36
+ | Siguientes 150 kWh/mes |  | 383.52 |  |  |  |  | Siguientes 150 kWh/mes | 220.82
+ | Excedente de 300 kWh/mes |  | 418.07 |  |  |  |  | Excedente de 300 kWh/mes | 287.38
 T 1-G Uso General |  |  | Sin Subsidio |  |  |  |  | T1-Entidades de Bien Público y Clubes de Barrio  Nacionales |  |  | Bomberos Voluntarios Nacionales
  | Cargo fijo (haya o no consumo) $/mes |  | 7881.3 |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 3193.22 |  | Cargo fijo (haya o no consumo) $/mes | 7881.3
  | Cargo Variable por energía:       $/kWh |  |  |  |  |  |  | Cargo Variable por energía:       $/kWh |  |  | Cargo Variable por energía:       $/kWh
- | Primeros 125 kWh/mes |  | 301.63 |  |  |  |  | Primeros 100 kWh/mes | 157.25 |  | Primeros 125 kWh/mes | 97.22
- | Siguientes 225 kWh/mes |  | 322.79 |  |  |  |  | Siguientes 100 kWh/mes | 189.18 |  | Siguientes 225 kWh/mes | 118.37
- | Excedente de 350 kWh/mes |  | 343.93 |  |  |  |  | Siguientes 100 kWh/mes | 232.35 |  | Excedente de 350 kWh/mes | 139.52
- |  |  |  |  |  |  |  | Excedente de 300 kWh/mes | 257.73
+ | Primeros 125 kWh/mes |  | 311.39 |  |  |  |  | Primeros 100 kWh/mes | 120.45 |  | Primeros 125 kWh/mes | 97.22
+ | Siguientes 225 kWh/mes |  | 332.55 |  |  |  |  | Siguientes 100 kWh/mes | 152.39 |  | Siguientes 225 kWh/mes | 118.37
+ | Excedente de 350 kWh/mes |  | 353.69 |  |  |  |  | Siguientes 100 kWh/mes | 195.55 |  | Excedente de 350 kWh/mes | 139.52
+ |  |  |  |  |  |  |  | Excedente de 300 kWh/mes | 220.94
 TARIFA 2 - MEDIANAS DEMANDAS |  |  | T2
  |  |  | Sin Subsidio |  | T2-Entidades de Bien Público y Clubes de Barrio  Nacionales
-Por capacidad de suministro contratada $/kW-mes |  |  | 23804.1 |  | 18492.94
- | Cargo Variable por energía:            $/kWh |  | 240.02 |  | 143.11
+Por capacidad de suministro contratada $/kW-mes |  |  | 24008.2 |  | 16234.36
+ | Cargo Variable por energía:            $/kWh |  | 249.1 |  | 114.16
 1:     Colón, Concordia, Diamante, Federal, Federación, Feliciano, La Paz, Nogoyá, Paraná, San Salvador, Tala, Uruguay  y Villaguay
 2:  Victoria, Gualeguay, Gualeguaychú, Islas del Ibicuy
 === Hoja: Anexo CT-T3-T4-T5 ===
- |  |  |  | ANEXO |  |  |  | RESOLUCIÓN EPRE Nº 166/26
+ |  |  |  | ANEXO |  |  |  | RESOLUCIÓN EPRE Nº 183/26
  |  |  |  | CUADRO TARIFARIO PROVINCIAL
  |  |  |  | Vigente a partir del  1° de Noviembre de 2026 al 30 de Noviembre de 2026
  |  |  |  |  | No Residencial
@@ -55,216 +56,216 @@ Por capacidad de suministro contratada en hs de punta |  |  |  | $/kW-mes |  |  
 Por capacidad de suministro contratada en hs fuera de punta
  | Por capacidad de suministro
 Por capacidad de suministro contratada en hs fuera de punta |  |  |  | $/kW-mes |  |  |  |  | 1790.86 | 1790.86
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 10796.39 | 10796.39
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 11000.28 | 11000.28
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  |  |  |  |  | 143.42 | 162.53
- |  | Período horas de valle nocturno |  |  |  |  |  |  | 142.35 | 161.3
- |  | Período horas de punta |  |  |  |  |  |  | 147.93 | 167.75
+ |  | Período horas restantes |  |  |  |  |  |  | 150.94 | 166.82
+ |  | Período horas de valle nocturno |  |  |  |  |  |  | 149.98 | 165.75
+ |  | Período horas de punta |  |  |  |  |  |  | 155.93 | 172.42
 Vinculación Inferior en Alta Tensión
  | Cargo fijo |  |  | $/mes |  |  |  |  | 497255.83 | 497255.83
 Por capacidad de suministro contratada en hs de punta |  |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
 Por capacidad de suministro contratada en hs fuera de punta |  |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 11114.24 | 11114.24
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 11324.13 | 11324.13
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  |  |  |  |  | 147.09 | 166.69
- |  | Período horas de valle nocturno |  |  |  |  |  |  | 145.99 | 165.42
- |  | Período horas de punta |  |  |  |  |  |  | 151.72 | 172.04
+ |  | Período horas restantes |  |  |  |  |  |  | 154.79 | 171.09
+ |  | Período horas de valle nocturno |  |  |  |  |  |  | 153.82 | 169.99
+ |  | Período horas de punta |  |  |  |  |  |  | 159.91 | 176.83
 Vinculación Inferior en Media Tensión
  | Cargo fijo |  |  | $/mes |  |  |  |  | 497255.83 | 497255.83
 Por capacidad de suministro contratada en hs de punta |  |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
 Por capacidadde suministro contratada en hs fuera de punta |  |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 11114.24 | 11114.24
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  |  |  |  | 11324.13 | 11324.13
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  |  |  |  |  | 147.09 | 166.69
- |  | Período horas de valle nocturno |  |  |  |  |  |  | 145.99 | 165.42
- |  | Período horas de punta |  |  |  | Clubes de Barrio Nacionales |  |  | 151.72 | 172.04
+ |  | Período horas restantes |  |  |  |  |  |  | 154.79 | 171.09
+ |  | Período horas de valle nocturno |  |  |  |  |  |  | 153.82 | 169.99
+ |  | Período horas de punta |  |  |  | Clubes de Barrio Nacionales |  |  | 159.91 | 176.83
 Vinculación Inferior en Baja Tensión
  | Cargo fijo |  |  | $/mes |  | 156370.68 |  |  | 156370.68 | 156370.68
 Por capacidad de suministro contratada en hs de punta |  |  |  | $/kW-mes |  | 12244.68 |  |  | 12244.68 | 12244.68
 Por capacidadde suministro contratada en hs fuera de punta |  |  |  | $/kW-mes |  | 12244.68 |  |  | 12244.68 | 12244.68
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  | 6665.49 |  |  | 13106.12 | 13106.12
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes |  | 3926.61 |  |  | 13353.62 | 13353.62
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  |  | 74.14 |  |  | 170.5 | 193.22
- |  | Período horas de valle nocturno |  |  |  | 73.65 |  |  | 169.23 | 191.75
- |  | Período horas de punta |  |  |  | 76.2 |  |  | 175.86 | 199.42
+ |  | Período horas restantes |  |  |  | 45.33 |  |  | 179.43 | 198.31
+ |  | Período horas de valle nocturno |  |  |  | 45.12 |  |  | 178.3 | 197.04
+ |  | Período horas de punta |  |  |  | 46.47 |  |  | 185.36 | 204.97
  |  |  |  |  | Residencial |  |  |  | No Residencial
 Usuario  Generador -  T1, T2 y T3 |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  |  | (<300 kW) | GUDIs (>= 300 kW)
-Credito por Energia Ingresada a la Red |  |  |  | $/kWh | 101.71 | 51.9 |  |  | 122.61 | 139.29
+Credito por Energia Ingresada a la Red |  |  |  | $/kWh | 102.68 | 31.14 |  |  | 129.55 | 143.41
 TARIFA 4 - ALUMBRADO PÚBLICO
  | T 4-AP1 Suministro de energía
- |  | Cargo variable por energía |  | $/kWh |  |  |  |  | 343.17
+ |  | Cargo variable por energía |  | $/kWh |  |  |  |  | 352.78
  |  |  |  |  | Residencial |  |  |  | No Residencial
 TARIFA 5 - OTROS DISTRIBUIDORES PROVINCIALES |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  | Electrodependientes(ED) | ( < 300 KW ) | GUDIs( >= 300 KW)
 Vinculación Superior
  | Cargo fijo |  |  | $/mes | 618910.56 | 618910.56 |  | 618910.56 | 618910.56 | 618910.56
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 1683.45 | 1683.45 |  | 1683.45 | 1683.45 | 1683.45
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 1683.45 | 1683.45 |  | 1683.45 | 1683.45 | 1683.45
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10148.85 | 5161.49 |  | 607.31 | 10148.85 | 10148.85
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10340.51 | 3040.61 |  | 607.31 | 10340.51 | 10340.51
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 112.29 | 58.63 |  | 0 | 134.82 | 152.79
- |  | Período horas de valle nocturno |  |  | 111.48 | 58.24 |  | 0 | 133.81 | 151.62
- |  | Período horas de punta |  |  | 115.71 | 60.26 |  | 0 | 139.06 | 157.69
+ |  | Período horas restantes |  |  | 112.93 | 35.85 |  | 0 | 141.88 | 156.82
+ |  | Período horas de valle nocturno |  |  | 112.25 | 35.68 |  | 0 | 140.99 | 155.81
+ |  | Período horas de punta |  |  | 116.51 | 36.74 |  | 0 | 146.57 | 162.08
 Vinculación Inferior en Alta Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10447.64 | 5313.45 |  | 625.19 | 10447.64 | 10447.64
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10644.94 | 3130.13 |  | 625.19 | 10644.94 | 10644.94
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 115.16 | 60.12 |  | 0 | 138.27 | 156.69
- |  | Período horas de valle nocturno |  |  | 114.33 | 59.73 |  | 0 | 137.24 | 155.5
- |  | Período horas de punta |  |  | 118.66 | 61.8 |  | 0 | 142.62 | 161.72
+ |  | Período horas restantes |  |  | 115.82 | 36.76 |  | 0 | 145.51 | 160.82
+ |  | Período horas de valle nocturno |  |  | 115.12 | 36.59 |  | 0 | 144.59 | 159.79
+ |  | Período horas de punta |  |  | 119.49 | 37.68 |  | 0 | 150.32 | 166.22
 Vinculación Inferior en Media Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10447.64 | 5313.45 |  | 625.19 | 10447.64 | 10447.64
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10644.94 | 3130.13 |  | 625.19 | 10644.94 | 10644.94
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 115.16 | 60.12 |  | 0 | 138.27 | 156.69
- |  | Período horas de valle nocturno |  |  | 114.33 | 59.73 |  | 0 | 137.24 | 155.5
- |  | Período horas de punta |  |  | 118.66 | 61.8 |  | 0 | 142.62 | 161.72
+ |  | Período horas restantes |  |  | 115.82 | 36.76 |  | 0 | 145.51 | 160.82
+ |  | Período horas de valle nocturno |  |  | 115.12 | 36.59 |  | 0 | 144.59 | 159.79
+ |  | Período horas de punta |  |  | 119.49 | 37.68 |  | 0 | 150.32 | 166.22
 Vinculación Inferior en Baja Tensión, Potencia Registrada >= 50
  | Cargo fijo |  |  | $/mes | 146992.04 | 146992.04 |  | 146992.04 | 146992.04 | 146992.04
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 12320.05 | 6265.72 |  | 737.24 | 12320.05 | 12320.05
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 12552.71 | 3691.11 |  | 737.24 | 12552.71 | 12552.71
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 133.49 | 69.69 |  | 0 | 160.27 | 181.63
- |  | Período horas de valle nocturno |  |  | 132.53 | 69.23 |  | 0 | 159.08 | 180.25
- |  | Período horas de punta |  |  | 137.55 | 71.63 |  | 0 | 165.31 | 187.46
+ |  | Período horas restantes |  |  | 134.25 | 42.62 |  | 0 | 168.67 | 186.42
+ |  | Período horas de valle nocturno |  |  | 133.44 | 42.41 |  | 0 | 167.61 | 185.23
+ |  | Período horas de punta |  |  | 138.5 | 43.68 |  | 0 | 174.25 | 192.68
 Vinculación Inferior en Baja Tensión, Potencia Registrada < 50
  | Cargo fijo |  |  | $/mes | 24083.67 | 24083.67 |  | 24083.67 | 24083.67 | 24083.67
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 12320.05 | 6265.72 |  | 737.24 | 12320.05 | 12320.05
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 12552.71 | 3691.11 |  | 737.24 | 12552.71 | 12552.71
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 133.49 | 69.69 |  | 0 | 160.27 | 181.63
- |  | Período horas de valle nocturno |  |  | 132.53 | 69.23 |  | 0 | 159.08 | 180.25
- |  | Período horas de punta |  |  | 137.55 | 71.63 |  | 0 | 165.31 | 187.46
+ |  | Período horas restantes |  |  | 134.25 | 42.62 |  | 0 | 168.67 | 186.42
+ |  | Período horas de valle nocturno |  |  | 133.44 | 42.41 |  | 0 | 167.61 | 185.23
+ |  | Período horas de punta |  |  | 138.5 | 43.68 |  | 0 | 174.25 | 192.68
 TARIFA DE PEAJE COOPERATIVAS |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  | Electrodependientes(ED) | ( < 300 KW ) | GUDIs( >= 300 KW)
 Vinculación Superior
  | Cargo fijo |  |  | $/mes | 618910.56 | 618910.56 |  | 618910.56 | 618910.56 | 618910.56
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 1683.45 | 1683.45 |  | 1683.45 | 1683.45 | 1683.45
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 1683.45 | 1683.45 |  | 1683.45 | 1683.45 | 1683.45
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 785.22 | 692.23 |  | 607.31 | 785.22 | 785.22
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 788.8 | 652.68 |  | 607.31 | 788.8 | 788.8
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 1.88 | 0.98 |  | 0 | 2.25 | 2.55
- |  | Período horas de valle nocturno |  |  | 1.86 | 0.97 |  | 0 | 2.24 | 2.53
- |  | Período horas de punta |  |  | 1.93 | 1.01 |  | 0 | 2.32 | 2.64
+ |  | Período horas restantes |  |  | 1.89 | 0.6 |  | 0 | 2.37 | 2.62
+ |  | Período horas de valle nocturno |  |  | 1.88 | 0.6 |  | 0 | 2.36 | 2.6
+ |  | Período horas de punta |  |  | 1.95 | 0.61 |  | 0 | 2.45 | 2.71
 Vinculación Inferior en Alta Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1084.01 | 844.19 |  | 625.19 | 1084.01 | 1084.01
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1093.23 | 742.2 |  | 625.19 | 1093.23 | 1093.23
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 4.75 | 2.48 |  | 0 | 5.7 | 6.46
- |  | Período horas de valle nocturno |  |  | 4.71 | 2.46 |  | 0 | 5.66 | 6.41
- |  | Período horas de punta |  |  | 4.89 | 2.55 |  | 0 | 5.88 | 6.67
+ |  | Período horas restantes |  |  | 4.77 | 1.52 |  | 0 | 6 | 6.63
+ |  | Período horas de valle nocturno |  |  | 4.75 | 1.51 |  | 0 | 5.96 | 6.59
+ |  | Período horas de punta |  |  | 4.93 | 1.55 |  | 0 | 6.2 | 6.85
 Vinculación Inferior en Media Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 7374.17 | 7374.17 |  | 7374.17 | 7374.17 | 7374.17
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1084.01 | 844.19 |  | 625.19 | 1084.01 | 1084.01
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1093.23 | 742.2 |  | 625.19 | 1093.23 | 1093.23
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  | $/kWh | 4.75 | 2.48 |  | 0 | 5.7 | 6.46
- |  | Período horas de valle nocturno |  | $/kWh | 4.71 | 2.46 |  | 0 | 5.66 | 6.41
- |  | Período horas de punta |  | $/kWh | 4.89 | 2.55 |  | 0 | 5.88 | 6.67
+ |  | Período horas restantes |  | $/kWh | 4.77 | 1.52 |  | 0 | 6 | 6.63
+ |  | Período horas de valle nocturno |  | $/kWh | 4.75 | 1.51 |  | 0 | 5.96 | 6.59
+ |  | Período horas de punta |  | $/kWh | 4.93 | 1.55 |  | 0 | 6.2 | 6.85
 Vinculación Inferior en Baja Tensión
  | Cargo fijo |  |  | $/mes | 146992.04 | 146992.04 |  | 146992.04 | 146992.04 | 146992.04
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 11510.29 | 11510.29 |  | 11510.29 | 11510.29 | 11510.29
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 2956.42 | 1796.45 |  | 737.24 | 2956.42 | 2956.42
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 3001 | 1303.18 |  | 737.24 | 3001 | 3001
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  | $/kWh | 23.08 | 12.05 |  | 0 | 27.71 | 31.4
- |  | Período horas de valle nocturno |  | $/kWh | 22.91 | 11.97 |  | 0 | 27.5 | 31.16
- |  | Período horas de punta |  | $/kWh | 23.78 | 12.38 |  | 0 | 28.58 | 32.41
+ |  | Período horas restantes |  | $/kWh | 23.21 | 7.37 |  | 0 | 29.16 | 32.23
+ |  | Período horas de valle nocturno |  | $/kWh | 23.07 | 7.33 |  | 0 | 28.97 | 32.02
+ |  | Período horas de punta |  | $/kWh | 23.94 | 7.55 |  | 0 | 30.12 | 33.31
  |  |  |  |  | Residencial |  |  |  | No Residencial
 TARIFA DE PEAJE GRANDES DEMANDAS |  |  |  |  |  |  |  |  | No Residencial  (<300 kW) | GUDIs (>= 300 kW)
 Vinculación Superior
  | Cargo fijo |  |  | $/mes |  |  |  |  | 658399.33 | 658399.33
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes |  |  |  |  | 1790.86 | 1790.86
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes |  |  |  |  | 1790.86 | 1790.86
- | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 835.32 | 835.32
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 839.12 | 839.12
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes | Período horas restantes |  |  |  |  |  | 2.4 | 2.72
- |  | Período horas de valle nocturno | Período horas de valle nocturno |  |  |  |  |  | 2.38 | 2.7
- |  | Período horas de punta | Período horas de punta |  |  |  |  |  | 2.47 | 2.8
+ |  | Período horas restantes | Período horas restantes |  |  |  |  |  | 2.52 | 2.79
+ |  | Período horas de valle nocturno | Período horas de valle nocturno |  |  |  |  |  | 2.51 | 2.77
+ |  | Período horas de punta | Período horas de punta |  |  |  |  |  | 2.61 | 2.88
 Vinculación Inferior en Alta Tensión
  | Cargo fijo |  |  | $/mes |  |  |  |  | 497255.83 | 497255.83
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
- | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 1153.17 | 1153.17
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 1162.98 | 1162.98
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes | Período horas restantes |  |  |  |  |  | 6.06 | 6.87
- |  | Período horas de valle nocturno | Período horas de valle nocturno |  |  |  |  |  | 6.02 | 6.82
- |  | Período horas de punta | Período horas de punta |  |  |  |  |  | 6.25 | 7.09
+ |  | Período horas restantes | Período horas restantes |  |  |  |  |  | 6.38 | 7.05
+ |  | Período horas de valle nocturno | Período horas de valle nocturno |  |  |  |  |  | 6.34 | 7.01
+ |  | Período horas de punta | Período horas de punta |  |  |  |  |  | 6.59 | 7.29
 Vinculación Inferior en Media Tensión
  | Cargo fijo |  |  | $/mes |  |  |  |  | 497255.83 | 497255.83
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes |  |  |  |  | 7844.67 | 7844.67
- | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 1153.17 | 1153.17
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 1162.98 | 1162.98
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes | Período horas restantes | $/kWh |  |  |  |  | 6.06 | 6.87
- |  | Período horas de valle nocturno | Período horas de valle nocturno | $/kWh |  |  |  |  | 6.02 | 6.82
- |  | Período horas de punta | Período horas de punta | $/kWh |  |  |  |  | 6.25 | 7.09
+ |  | Período horas restantes | Período horas restantes | $/kWh |  |  |  |  | 6.38 | 7.05
+ |  | Período horas de valle nocturno | Período horas de valle nocturno | $/kWh |  |  |  |  | 6.34 | 7.01
+ |  | Período horas de punta | Período horas de punta | $/kWh |  |  |  |  | 6.59 | 7.29
 Vinculación Inferior en Baja Tensión
  | Cargo fijo |  |  | $/mes |  |  |  |  | 156370.68 | 156370.68
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes |  |  |  |  | 12244.68 | 12244.68
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes |  |  |  |  | 12244.68 | 12244.68
- | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 3145.05 | 3145.05
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes |  |  |  |  | 3192.47 | 3192.47
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes | Período horas restantes | $/kWh |  |  |  |  | 29.47 | 33.4
- |  | Período horas de valle nocturno | Período horas de valle nocturno | $/kWh |  |  |  |  | 29.25 | 33.15
- |  | Período horas de punta | Período horas de punta | $/kWh |  |  |  |  | 30.4 | 34.47
+ |  | Período horas restantes | Período horas restantes | $/kWh |  |  |  |  | 31.02 | 34.28
+ |  | Período horas de valle nocturno | Período horas de valle nocturno | $/kWh |  |  |  |  | 30.82 | 34.06
+ |  | Período horas de punta | Período horas de punta | $/kWh |  |  |  |  | 32.04 | 35.43
  |  |  |  |  | Residencial |  |  |  | No Residencial
 TARIFA PARA LA PRESTACIÓN DE LA FUNCIÓN TÉCNICA DE TRANSPORTE (PFTT) REALIZADA MEDIANTE LA UTILIZACIÓN DE INSTALACIONES CORRESPONDIENTES A UN SOLO NIVEL DE TENSIÓN A OTROS DISTRIBUIDORES. |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  | Electrodependientes(ED) | ( <300 KW ) | GUDIs (>= 300 KW)
 PFTT solo en Alta Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 5690.72 | 5690.72 |  | 5690.72 | 5690.72 | 5690.72
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 5690.72 | 5690.72 |  | 5690.72 | 5690.72 | 5690.72
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 298.79 | 151.96 |  | 17.88 | 298.79 | 298.79
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 304.43 | 89.52 |  | 17.88 | 304.43 | 304.43
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  | $/kWh | 2.87 | 1.5 |  | 0 | 3.45 | 3.91
- |  | Período horas de valle nocturno |  | $/kWh | 2.85 | 1.49 |  | 0 | 3.42 | 3.88
- |  | Período horas de punta |  | $/kWh | 2.96 | 1.54 |  | 0 | 3.56 | 4.03
+ |  | Período horas restantes |  | $/kWh | 2.89 | 0.92 |  | 0 | 3.63 | 4.01
+ |  | Período horas de valle nocturno |  | $/kWh | 2.87 | 0.91 |  | 0 | 3.6 | 3.98
+ |  | Período horas de punta |  | $/kWh | 2.98 | 0.94 |  | 0 | 3.75 | 4.14
 PFTT solo en Media Tensión
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 5690.72 | 5690.72 |  | 5690.72 | 5690.72 | 5690.72
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 5690.72 | 5690.72 |  | 5690.72 | 5690.72 | 5690.72
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 298.79 | 151.96 |  | 17.88 | 298.79 | 298.79
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 304.43 | 89.52 |  | 17.88 | 304.43 | 304.43
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  | $/kWh | 2.87 | 1.5 |  | 0 | 3.45 | 3.91
- |  | Período horas de valle nocturno |  | $/kWh | 2.85 | 1.49 |  | 0 | 3.42 | 3.88
- |  | Período horas de punta |  | $/kWh | 2.96 | 1.54 |  | 0 | 3.56 | 4.03
+ |  | Período horas restantes |  | $/kWh | 2.89 | 0.92 |  | 0 | 3.63 | 4.01
+ |  | Período horas de valle nocturno |  | $/kWh | 2.87 | 0.91 |  | 0 | 3.6 | 3.98
+ |  | Período horas de punta |  | $/kWh | 2.98 | 0.94 |  | 0 | 3.75 | 4.14
 PFTT solo en Baja Tensión
  | Cargo fijo |  |  | $/mes | 146992.04 | 146992.04 |  | 146992.04 | 146992.04 | 146992.04
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 4136.12 | 4136.12 |  | 4136.12 | 4136.12 | 4136.12
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 4136.12 | 4136.12 |  | 4136.12 | 4136.12 | 4136.12
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1872.41 | 952.27 |  | 112.05 | 1872.41 | 1872.41
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1907.77 | 560.98 |  | 112.05 | 1907.77 | 1907.77
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes |  | $/kWh | 18.33 | 9.57 |  | 0 | 22.01 | 24.94
- |  | Período horas de valle nocturno |  | $/kWh | 18.2 | 9.51 |  | 0 | 21.84 | 24.75
- |  | Período horas de punta |  | $/kWh | 18.89 | 9.84 |  | 0 | 22.7 | 25.74
+ |  | Período horas restantes |  | $/kWh | 18.43 | 5.85 |  | 0 | 23.16 | 25.6
+ |  | Período horas de valle nocturno |  | $/kWh | 18.32 | 5.82 |  | 0 | 23.01 | 25.43
+ |  | Período horas de punta |  | $/kWh | 19.02 | 6 |  | 0 | 23.92 | 26.46
  |  |  |  |  | Residencial |  |  |  | No Residencial
 TARIFA OTROS DISTRIBUIDORES PROVINCIALES PARA CONEXIONES EN BORNES DE ESTACIONES TRANSFORMADORAS |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  | Electrodependientes(ED) | ( <300 KW ) | GUDIs (>= 300 KW)
 T5 -  Vinculación Inferior en Alta  y Media Tensión (Conexión en bornes de EETT)
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por potencia registrada en hs de punta |  |  | $/kW-mes | 3857.94 | 3857.94 |  | 3857.94 | 3857.94 | 3857.94
  | Por potencia registrada en hs fuera de punta |  |  | $/kW-mes | 3857.94 | 3857.94 |  | 3857.94 | 3857.94 | 3857.94
- | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10447.64 | 5313.45 |  | 625.19 | 10447.64 | 10447.64
+ | Cargo fijo por potencia adquirida |  |  | $/kW-mes | 10644.94 | 3130.13 |  | 625.19 | 10644.94 | 10644.94
  | Por consumo de energía |  |  | $/kWh
- |  | Período horas restantes |  |  | 115.16 | 60.12 |  | 0 | 138.27 | 156.69
- |  | Período horas de valle nocturno |  |  | 114.33 | 59.73 |  | 0 | 137.24 | 155.5
- |  | Período horas de punta |  |  | 118.66 | 61.8 |  | 0 | 142.62 | 161.72
+ |  | Período horas restantes |  |  | 115.82 | 36.76 |  | 0 | 145.51 | 160.82
+ |  | Período horas de valle nocturno |  |  | 115.12 | 36.59 |  | 0 | 144.59 | 159.79
+ |  | Período horas de punta |  |  | 119.49 | 37.68 |  | 0 | 150.32 | 166.22
 Peaje OTROS DISTRIBUIDORES PROVINCIALES
 - Vinculación Inferior en Alta  y Media Tensión (Conexión en bornes de EETT)
  | Cargo fijo |  |  | $/mes | 467431.95 | 467431.95 |  | 467431.95 | 467431.95 | 467431.95
  | Por capacidad de transporte en hs de punta |  |  | $/kW-mes | 3857.94 | 3857.94 |  | 3857.94 | 3857.94 | 3857.94
  | Por capacidad de transporte en hs fuera de punta |  |  | $/kW-mes | 3857.94 | 3857.94 |  | 3857.94 | 3857.94 | 3857.94
- | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1084.01 | 844.19 |  | 625.19 | 1084.01 | 1084.01
+ | Cargo fijo por potencia transportada |  |  | $/kW-mes | 1093.23 | 742.2 |  | 625.19 | 1093.23 | 1093.23
  | Cargo variable por energía |  |  | $/kWh
- |  | Período horas restantes | Período horas restantes |  | 4.75 | 2.48 |  | 0 | 5.7 | 6.46
- |  | Período horas de valle nocturno | Período horas de valle nocturno |  | 4.71 | 2.46 |  | 0 | 5.66 | 6.41
- |  | Período horas de punta | Período horas de punta |  | 4.89 | 2.55 |  | 0 | 5.88 | 6.67
+ |  | Período horas restantes | Período horas restantes |  | 4.77 | 1.52 |  | 0 | 6 | 6.63
+ |  | Período horas de valle nocturno | Período horas de valle nocturno |  | 4.75 | 1.51 |  | 0 | 5.96 | 6.59
+ |  | Período horas de punta | Período horas de punta |  | 4.93 | 1.55 |  | 0 | 6.2 | 6.85
  |  |  |  |  | Valores
 TASAS DE CONEXIÓN, COLOCACIÓN DE MEDIDOR, REHABILITACIÓN, ENVÍOS DE AVISOS DE SUSPENSIÓN Y GASTOS DE VERIFICACIÓN DEL SERVICIO.
 Cargos Varios
@@ -287,15 +288,15 @@ VALORES TARIFARIOS PARA EL CÁLCULO DE LOS REINTEGROS (Res.EPRE N° 210/97 y 235
  |  |  |  |  | Residencial |  |  |  | No Residencial
 VALORES TARIFARIOS PARA EL CÁLCULO DE LOS REINTEGROS (Res.EPRE N° 210/97 y 235/02 ) |  |  |  |  | Sin Subsidio Nacional | Con Subsidio Nacional |  | Electrodependientes(ED) | ( <300 KW ) | GUDIs (>= 300 KW)
 Valores Vigentes
-Ppm * FV |  |  |  | $/KW | 11059.58 | 5624.67 |  | 661.81 | 11059.58 | 11059.58
+Ppm * FV |  |  |  | $/KW | 11268.44 | 3313.47 |  | 661.81 | 11268.44 | 11268.44
 T 1-R Uso residencial
-Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes | 234.86 | 147.31 |  | 55.2
+Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes | 236.5 | 110.16 |  | 55.2
 T 1-Rural Residencial
-Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes | 234.88 | 147.32 |  | 55.2
+Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes | 236.52 | 110.16 |  | 55.2
 T 1-G Uso General
-Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes |  |  |  |  | 263.56
+Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes |  |  |  |  | 273.39
 T 1-Rural General
-Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes |  |  |  |  | 263.6
+Cargo Variable bonificado por energía : |  |  |  | $/KWh-mes |  |  |  |  | 273.45
 T 2
 Cargo Fijo mensual por capac. de suministro contratada |  |  |  | $/KW-mes |  |  |  |  | 7008.12
 T 3 - Vinculación Inferior en Alta Tensión
@@ -314,29 +315,28 @@ T 3 - Vinculación Inferior en Baja Tensión
  | Cargo fijo mensual bonificado por unidad de potencia
  | contratada en hs fuera de punta |  |  | $/KW-mes |  |  |  |  | 9250.57
 T 4-AP1 Suministro de energía
- | Cargo variable bonificado por energía |  |  | $/KWh-mes |  |  |  |  | 283.49
+ | Cargo variable bonificado por energía |  |  | $/KWh-mes |  |  |  |  | 293.1
 PARÁMETRO TARIFARIO PARA EL CÁLCULO DE ESTACIONALIDAD
 Según el Régimen Tarifario Punto 4.8
 T 2
  | Costo propio de distribución asignado al cargo fijo de esta tarifa (CDFMD * FV) |  |  | $/kW-mes |  |  |  |  | 12996.34
 === Hoja:  Anexo CT -T1 SIN SUBSIDIO PROV ===
- |  |  |  | ANEXO |  |  |  | RESOLUCIÓN EPRE Nº 166/26
+ |  |  |  | ANEXO |  |  |  | RESOLUCIÓN EPRE Nº 183/26
  |  |  |  | Cuadro Tarifario                                                                                                                                                     Valores sin Subsidio Provincial
  |  |  |  | Vigente a partir del  1° de Noviembre de 2026 al 30 de Noviembre de 2026
  | TARIFA 1 - PEQUEÑAS DEMANDAS
- | T 1-R Uso residencial |  |  |  |  | ZONA CÁLIDA1 | RESTO
- |  |  |  |  |  | y RESTO2
- |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 3193.22 | 2624.5
- |  |  |  |  | Primeros 100 kWh/mes | 157.25 | 100.9
- |  |  |  |  | Siguientes 50 kWh/mes | 189.18 | 127.14
- |  |  |  |  | Siguientes 50 kWh/mes | 275.87 | 127.14
- |  |  |  |  | Siguientes 100 kWh/mes | 319.04 | 162.62
- |  |  |  |  | Siguientes 70 kWh/mes | 344.42 | 285.13
- |  |  |  |  | Excedente de 370 kWh/mes | 344.42 | 285.13
- | T 1-Rural Residencial |  |  |  |  | ZONA CÁLIDA1 | RESTO
- |  |  |  |  |  | y RESTO2
- |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 8846.8 | 7271.15
- |  |  |  |  | Primeros 150 kWh/mes | 196.35 | 132.86
- |  |  |  |  | Siguientes 150 kWh/mes | 344.97 | 183.37
- |  |  |  |  | Siguientes 70 kWh/mes | 411.52 | 340.29
- |  |  |  |  | Excedente de 370 kWh/mes | 411.52 | 340.29
+ | T 1-R Uso residencial |  |  |  |  | ZONA CÁLIDA1 | ZONA RESTO2
+ |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 3193.22 | 3193.22
+ |  |  |  |  | Primeros 100 kWh/mes | 120.45 | 120.45
+ |  |  |  |  | Siguientes 50 kWh/mes | 152.39 | 152.39
+ |  |  |  |  | Siguientes 50 kWh/mes | 152.39 | 152.39
+ |  |  |  |  | Siguientes 100 kWh/mes | 195.55 | 320.65
+ |  |  |  |  | Siguientes 70 kWh/mes | 346.03 | 346.03
+ |  |  |  |  | Excedente de 370 kWh/mes | 346.03 | 346.03
+ | T 1-Rural Residencial |  |  |  |  | ZONA CÁLIDA1 | ZONA RESTO2
+ |  |  |  |  | Cargo fijo (haya o no consumo) $/mes | 8846.8 | 8846.8
+ |  |  |  |  | Primeros 150 kWh/mes | 159.36 | 159.36
+ |  |  |  |  | Siguientes 50 kWh/mes | 220.82 | 220.82
+ |  |  |  |  | Siguientes 100 kWh/mes | 220.82 | 346.59
+ |  |  |  |  | Siguientes 70 kWh/mes | 413.14 | 413.14
+ |  |  |  |  | Excedente de 370 kWh/mes | 413.14 | 413.14
