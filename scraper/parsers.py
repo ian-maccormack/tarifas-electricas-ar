@@ -248,8 +248,127 @@ def consumo_base(text):
 
 # ---------------------------------------------------------------- per-source
 
+NUM_EDENOR = r"\d{1,3}(?:\.\d{3})*,\d+"
+
+
+def _rango(desc):
+    """'Consumo mensual de 151 kWh a 400 kWh' -> '151-400'; 'inferior o igual a 150' -> '0-150'; 'mayor a 700' -> '+700'."""
+    desc = squeeze(desc)
+    m = re.search(r"de (\d+) kWh a (\d+) kWh", desc) or re.search(r"superior a (\d+) kWh e inferior o igual a (\d+) kWh", desc)
+    if m:
+        a = int(m.group(1))
+        return f"{a + 1 if 'superior' in desc else a}-{m.group(2)}"
+    m = re.search(r"inferior o igual a (\d+) kWh", desc)
+    if m:
+        return f"0-{m.group(1)}"
+    m = re.search(r"mayor a (\d+) kWh", desc)
+    return f"+{m.group(1)}" if m else None
+
+
+def p_edenor_pdf(text):
+    """EDENOR's own one-page PDF (pdftotext -layout). Tables are rebuilt with the same titles and labels as
+    the ENRE cuadro so the simulators read both the same way. The left block (T1, T2) ends where the
+    'Tarifa 3 (Grandes Demandas)' block starts."""
+    lines = text.splitlines()
+    cut = next(l.index("Tarifa 3 (Grandes Demandas)") for l in lines if "Tarifa 3 (Grandes Demandas)" in l) - 2
+    left = [l[:cut] for l in lines]
+    nums = lambda l: re.findall(NUM_EDENOR + r"|-\s?-\s?-", l)
+    val = lambda x: None if "-" in x else parse_num(x, ",")
+    tablas, sin, con, cbn, gen = [], [], [], [], []
+    cat = rng = None
+    sec = "R"
+    i = 0
+    while i < len(left):
+        l = left[i]
+        if re.match(r"\s*T1-\s?G\b", l):
+            sec = "G"
+        elif re.match(r"\s*T1-A\.P\.", l):
+            sec = "AP"
+        elif "Tarifa 2 (Medianas Demandas)" in l:
+            sec = "T2"
+        elif "Tarifa 2 (Servicio de Peaje)" in l:
+            break
+        m = re.match(r"\s*([RG]\d)\s+(Consumo mensual.*)$", l)
+        if m:
+            cat, desc = m.group(1), m.group(2)
+            if not _rango(desc) and i + 1 < len(left):
+                desc += " " + left[i + 1].strip()
+            rng = _rango(desc)
+        m = re.match(r"\s*•\s*(Cargo ﬁjo|Cargo fijo|Cargo variable por energía|Cargo Fijo|Cargo por Potencia Contratada|Cargo por Potencia Adquirida)\b", l)
+        if m:
+            v = nums(l)
+            j = i + 1
+            while not v and j < len(left) and j <= i + 2:
+                v = nums(left[j])
+                j += 1
+            kind = m.group(1).lower().replace("ﬁ", "fi")
+            if sec in ("R", "G") and cat:
+                fijo = "fijo" in kind
+                lab = f"Cargo {'Fijo' if fijo else 'Variable'} {rng}"
+                unit = "$/mes" if fijo else "$/kWh"
+                if sec == "R":
+                    vv = [val(x) for x in v]
+                    if len(vv) == 3:
+                        vv = [vv[0], None, vv[1], vv[2]]
+                    if len(vv) == 4:
+                        sin.append((cat, _fila(lab, unit, [vv[2]])))
+                        cbn.append((cat, _fila(lab, unit, [vv[3]])))
+                        if fijo:
+                            con.append((cat, _fila(lab, unit, [vv[0]])))
+                        elif vv[1] is None:
+                            con.append((cat, _fila(lab, unit, [vv[0]])))
+                        else:
+                            con.append((cat, _fila("Cargo Variable primeros 200 kWh", unit, [vv[0]])))
+                            con.append((cat, _fila("Cargo Variable excedente a 200 kWh", unit, [vv[1]])))
+                elif len(v) == 2:
+                    gen.append((cat, _fila(lab, unit, [val(v[0])])))
+                    cbn.append((cat, _fila(lab, unit, [val(v[1])])))
+            elif sec == "T2" and v:
+                lab = {"cargo fijo": "Cargo Fijo", "cargo por potencia contratada": "Cargo por Potencia Contratada",
+                       "cargo por potencia adquirida": "Cargo por Potencia Adquirida"}.get(kind, "Cargo Variable")
+                unit = next((u for u in (re.search(r"\$/\S+", x) for x in (l, left[i - 1], left[i + 1])) if u), None)
+                t2 = tablas[-1] if tablas and tablas[-1]["titulo"] == "Tarifa 2" else None
+                if not t2:
+                    t2 = {"titulo": "Tarifa 2", "filas": []}
+                    tablas.append(t2)
+                t2["filas"].append(_fila(lab, unit.group(0) if unit else None, [val(v[0])]))
+            elif sec == "AP" and "variable" in kind and v:
+                tablas.append({"titulo": "Tarifa 1 -AP", "filas": [_fila("Cargo Variable", "$/kWh", [val(v[0])])]})
+        i += 1
+    group = lambda rows, suffix: [{"titulo": f"{c} — {suffix}", "filas": [f for cc, f in rows if cc == c]}
+                                  for c in dict.fromkeys(cc for cc, _ in rows)]
+    t1 = group(sin, "Tarifa 1 - R sin subsidio") + group(con, "Tarifa 1 - R con subsidio") + group(gen, "Tarifa 1 - G")
+    t1 += group([x for x in cbn if x[0].startswith("R")], "Tarifa 1 - R CBN (club de barrio)")
+    t1 += group([x for x in cbn if x[0].startswith("G")], "Tarifa 1 - G CBN (club de barrio)")
+    # Tarifa 3: right block, columns 'Pot. < a 300 kW', 'Pot. => a 300 kW' (and CBN, not used).
+    t3, ten, on = {}, None, False
+    for r in lines:
+        if "Tarifa 3 (Grandes Demandas)" in r:
+            on = True
+        if "Tarifa 3 (Servicio de Peaje)" in r:
+            break
+        if not on:
+            continue
+        m = re.search(r"•\s*(Baja|Media|Alta) Tensión", r)
+        if m:
+            ten = {"Baja": "BT", "Media": "MT", "Alta": "AT"}[m.group(1)]
+        m = re.search(r"(Cargo Fijo|Cargo Potencia Contratada|Cargo Potencia Adquirida|Cargo Variable (?:Pico|Resto|Valle))\s+(\$/\S+)\s+(" + NUM_EDENOR + r")\s+(" + NUM_EDENOR + r")\s+(" + NUM_EDENOR + r")", r)
+        if m and ten:
+            lab = m.group(1).replace("Cargo Potencia", "Cargo por Potencia")
+            for k, op in ((3, "<"), (4, ">")):
+                t3.setdefault(f"Tarifa 3 - {ten} {op} 300", []).append(_fila(lab, m.group(2), [parse_num(m.group(k), ",")]))
+    tablas += [{"titulo": k, "filas": v} for k, v in t3.items()]
+    tablas = t1 + tablas
+    return {"vigencia": find(r"(Resoluci[óo]n ENReGE N° ?\d+/\d+ vigente a partir del \d{2}/\d{2}/\d{4})", squeeze(text)),
+            "tablas": tablas,
+            "comparable": comparable(tablas, (r"Cargo Fijo 0-150",), (r"Cargo Variable 0-150",),
+                                     "R1 (0-150 kWh/mes), PDF de EDENOR")}
+
+
 @parser("enre")
-def p_enre(text, source, **_):
+def p_enre(text, source, content=None, **_):
+    if content and content[:5] == b"%PDF-":
+        return p_edenor_pdf(text)
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(text, "html.parser")
     col_name = source["empresa"]

@@ -60,3 +60,19 @@ def test_dpe_manual_transcription():
     sim = BUILDERS["dpe"](man["tablas"])
     assert sim["categorias"][0]["fijo"] == 4412.16
     assert sim["categorias"][0]["escalones"] == [[150, 173.2748], [300, 191.2397], [None, 203.3643]]
+
+
+def test_edenor_own_pdf_matches_enre_layout():
+    from common import pdf_text
+    from parsers import PARSERS
+    from simulador import BUILDERS, DEMANDA
+    c = (Path(__file__).resolve().parent / "fixtures/edenor-2026-11.pdf").read_bytes()
+    r = PARSERS["enre"](pdf_text(c), source={"empresa": "EDENOR"}, content=c)
+    assert r["vigencia"] == "Resolución ENReGE N° 886/2026 vigente a partir del 01/11/2026"
+    cats = BUILDERS["edenor"](r["tablas"])["categorias"]
+    assert [(x["nombre"], x["hasta"], x["fijo"], x["escalones"][0][1]) for x in cats[:2]] == [
+        ("R1", 150, 1870.51, 163.597), ("R2", 400, 3989.51, 164.279)]
+    assert cats[-1] == {"nombre": "R6", "hasta": None, "fijo": 68900.6, "escalones": [[None, 197.755]]}
+    dem = {t["nombre"]: t for t in DEMANDA["edenor"](r["tablas"])["tarifas"]}
+    assert dem["Tarifa 2"]["fijo"] == 50443.95 and dem["Tarifa 2"]["energia"]["unica"] == 148.772
+    assert dem["Tarifa 3 - AT > 300"]["energia"] == {"pico": 154.086, "resto": 149.064, "valle": 148.106}
