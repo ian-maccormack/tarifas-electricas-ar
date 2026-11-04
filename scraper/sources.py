@@ -351,6 +351,74 @@ def entregado(archivo, titulo, oficial, nota):
                     "entregado": {"oficial": oficial, "nota": nota}}
 
 
+def epec_guess():
+    """EPEC's site renders its links client-side; the PDFs follow the pattern
+    cuadro-tarifario-publicado-DDMMYYYY-aplicacion-DDMMYY.pdf (application on the 1st). The publication
+    days around the 1st of the current and next month are tried, newest first."""
+    import datetime as _dt
+    base = "https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-{p}-aplicacion-{a}.pdf"
+    t = _dt.date.today()
+    firsts = [(t.replace(day=1) + _dt.timedelta(days=32)).replace(day=1), t.replace(day=1)]
+    for first in firsts:
+        for off in range(5, -13, -1):
+            pub = first + _dt.timedelta(days=off)
+            url = base.format(p=pub.strftime("%d%m%Y"), a=first.strftime("%d%m%y"))
+            try:
+                r = fetch(url, timeout=20)
+            except Exception:
+                continue
+            if r.content[:5] == b"%PDF-":
+                return {"url": url, "titulo": f"Cuadro tarifario EPEC (publicado {pub:%d/%m/%Y}, aplicación {first:%d/%m/%Y})",
+                        "pagina": "https://www.epec.com.ar/cuadro-tarifario"}
+    raise LookupError("EPEC: no se encontró el PDF del cuadro para este mes ni el siguiente")
+
+
+EMSA_PAGE = "https://energia.misiones.gob.ar/cuadro-tarifario/"
+
+
+def emsa_boletin():
+    """Misiones lists the Boletín Oficial issues with the cuadros, newest first; the newest titles carry no
+    date, so the highest issue number wins (peaje, balance neto, clubes de barrio and notes excluded)."""
+    page = fetch(EMSA_PAGE, timeout=40).text
+    best = None
+    for href, _, txt in re.findall(r'<a[^>]+href="([^"]*boletines/(\d+)\.pdf)"[^>]*>(.*?)</a>', page, re.S):
+        t = re.sub(r"<[^>]+>|\s+", " ", html.unescape(txt)).strip()
+        if not re.search(r"Cuadros? Tarifarios?", t) or re.search(r"peaje|balance|neto|club|bien p[úu]blico|aclaraci", t, re.I):
+            continue
+        n = int(re.search(r"boletines/(\d+)\.pdf", href).group(1))
+        if not best or n > best[0]:
+            best = (n, href, t)
+    if not best:
+        raise LookupError("EMSA: sin boletines con cuadros tarifarios")
+    return {"url": urljoin(EMSA_PAGE, best[1]), "titulo": best[2], "pagina": EMSA_PAGE}
+
+
+DPEC_PAGE = "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
+
+
+def dpec_descargas():
+    """DPEC lists its downloads as JSON inside the page (rendered client-side). The newest 'Anexo'/'Cuadro'
+    of the Boletín Oficial is used; these annexes are scans whose text layer is unreliable, so their
+    values are not read (the document is linked with its period)."""
+    page = fetch(DPEC_PAGE, timeout=40).text
+    items = re.findall(r'"articuloId":(\d+),"descargaId":(\d+),"titulo":"([^"]+)".*?"archivoUrl":"([^"]+)"', page)
+    best = None
+    for art, did, tit, arch in items:
+        if not re.search(r"anexo|cuadro", tit, re.I) or re.search(r"pass through", tit, re.I):
+            continue
+        m = re.search(r"(\d{2})[-.](\d{2})[-.](20\d\d)", tit)
+        if not m:
+            continue
+        key = (int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        if not best or key > best[0]:
+            best = (key, art, did, tit, arch)
+    if not best:
+        raise LookupError("DPEC: sin anexos fechados en la página")
+    (y, mo, d), art, did, tit, arch = best
+    return {"url": f"https://www.dpec.com.ar/es/articulo/{art}/descarga/{did}/{arch}", "titulo": html.unescape(tit),
+            "pagina": DPEC_PAGE, "vigencia": f"Boletín Oficial del {d:02d}/{mo:02d}/{y}", "sin_ocr": True}
+
+
 EDESUR_PAGE = "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
 
 
@@ -409,10 +477,11 @@ src("dgsp", "DGSP", "Dirección General de Servicios Públicos", "Chubut", None,
 src("epec", "EPEC", "Empresa Provincial de Energía de Córdoba", "Córdoba",
     page_latest("https://www.epec.com.ar/cuadro-tarifario", r"/docs/cuadro-tarifario/.*\.pdf$"), se="epec-0",
     known="https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
-    extra=[(fixed("https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf", "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)"), ORIGEN_DIST)])
+    extra=[(epec_guess, ORIGEN_DIST), (fixed("https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf", "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)"), ORIGEN_DIST)])
 src("dpec", "DPEC", "Dirección Provincial de Energía de Corrientes", "Corrientes",
     page_latest("https://www.dpec.com.ar/1500/Cuadro-Tarifario", r"/descarga/.*CUADRO", r"cuadro"), se="dpec",
-    known="https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf")
+    known="https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
+    extra=[(dpec_descargas, ORIGEN_DIST)])
 src("enersa", "ENERSA", "Energía de Entre Ríos S.A.", "Entre Ríos", epre_entre_rios, ORIGEN_ENTE, "enersa")
 src("refsa", "REFSA", "Recursos y Energía Formosa S.A.", "Formosa",
     refsa, se="refsa")
@@ -436,7 +505,7 @@ src("edeste", "EDESTE", "Empresa Distribuidora de Electricidad del Este S.A.", "
     parser="mendoza", nota="Mendoza publica un único cuadro tarifario (EPRE) para todas sus distribuidoras.",
     extra=[(fixed("https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf", "Cuadro tarifario vigente (EDESTE)"), ORIGEN_DIST)])
 src("emsa", "EMSA", "Energía de Misiones S.A.", "Misiones",
-    page_latest("https://energia.misiones.gob.ar/cuadro-tarifario/", r"boletines/\d+\.pdf$", exclude_re=r"peaje|balance|neto"),
+    emsa_boletin,
     "Boletín Oficial de Misiones", se="emsa")
 src("epen", "EPEN", "Ente Provincial de Energía del Neuquén", "Neuquén",
     page_latest("https://www.epen.gov.ar/index.php/cuadros-tarifarios/", r"/uploads/.*CT.*\.pdf$"), se="epen")
