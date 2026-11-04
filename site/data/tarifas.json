@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T20:06:03+00:00",
+ "generado": "2026-11-04T20:25:45+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1031,7 +1031,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf (2026-11, 32 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edenor.com/institucional/marco-regulatorio",
@@ -3488,7 +3488,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edesur.com.ar/wp-content/uploads/2026/11/CT_NOV26_WEB-1.jpg (2026-11, 0 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
@@ -5974,7 +5974,7 @@
     "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf (2026-06, 4 tablas)",
     "extra: OK https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf (2026-09, 5 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.infoedes.com/cuadro-tarifario/",
@@ -7501,7 +7501,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf (2026-09, 7 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edeaweb.com.ar/cuadro-tarifario/",
@@ -8214,7 +8214,7 @@
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf (2026-09, 1 tablas)",
     "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-03, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edelap.com.ar/cuadro-tarifario/",
@@ -9864,7 +9864,7 @@
     ]
    },
    "desactualizado": false,
-   "ultimo_intento": "2026-11-04T20:06:03+00:00",
+   "ultimo_intento": "2026-11-04T20:25:45+00:00",
    "ultimo_intento_fallido": true,
    "oficiales": {
     "links": [
@@ -10038,7 +10038,7 @@
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
     "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.ecsapem.com.ar/organization/rates"
@@ -13608,7 +13608,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/downloads/paginas/cuadros-tarifarios/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf (2026-10, 9 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.secheep.gob.ar/cuadros-tarifarios.html"
@@ -13753,7 +13753,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [],
     "nota": "La tabla de fuentes de referencia lista a DGSP como observación, sin links oficiales."
@@ -15158,7 +15158,7 @@
     "extra: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf (2026-11, 1 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.epec.com.ar/informacion-comercial/grandes-clientes",
@@ -15716,7 +15716,7 @@
     "parser: ValueError: no se encontró la sección /TARIFAS RESIDENCIALES/",
     "extra: OK https://www.dpec.com.ar/es/articulo/1500/descarga/179/Anexo-BO-2954526---08-09-2026---Epre---Dpecpdf (2026-09, 0 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
@@ -16025,7 +16025,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx (2026-12, 4 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [],
     "nota": "El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución."
@@ -16309,7 +16309,7 @@
     "primary: LookupError: REFSA: sin períodos",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.recursosyenergia.com.ar/tarifas"
@@ -16972,7 +16972,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/alerts/GetFile?fileId=8wzns3Umg5U= (sin fecha, 15 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio"
@@ -17680,7 +17680,7 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
@@ -21604,10 +21604,9 @@
    ],
    "intentos": [
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
-    "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)",
-    "se: ningún archivo descargable (1 enlaces con error)"
+    "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "docs/entregados/ape-res-41-26-cooperativas.pdf",
@@ -21623,18 +21622,14 @@
    "ocr": true,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-12",
+    "titulo": "Cuadro Tarifario del 12-2025",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ape",
-    "no_disponibles": [
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
-      "error": "ConnectionError"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -22287,7 +22282,7 @@
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf (2026-04, 9 tablas)",
     "extra: OK https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf (2026-04, 9 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edelar.com.ar/clientes/pequenas-demandas",
@@ -22797,7 +22792,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "pago_mensual": {
     "texto": "La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
     "url": "https://www.edemsa.com/informacion-comercial/"
@@ -23848,7 +23843,7 @@
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)",
     "extra: OK https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf (2026-08, 2 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "pago_mensual": {
     "texto": "La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
     "url": "https://www.edeste.com.ar/preguntasfrecuentes.html"
@@ -24919,7 +24914,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf (2026-08, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.energiademisiones.com.ar/cuadros-tarifarios-vigentes/"
@@ -25831,7 +25826,7 @@
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf (2026-09, 6 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.epen.gov.ar/index.php/cuadros-tarifarios/"
@@ -27006,7 +27001,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edersa.com.ar/usuarios/cuadro-tarifario/"
@@ -28101,7 +28096,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edesa.com.ar/cuadros-tarifarios/",
@@ -28744,7 +28739,7 @@
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf (2026-09, 3 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "pago_mensual": {
     "texto": "Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
     "url": "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"
@@ -29968,7 +29963,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "extra: OK docs/entregados/edesal-cuadro-tarifario-2026-09.pdf (2026-09, 3 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf"
@@ -31351,7 +31346,7 @@
     "extra: OK docs/entregados/spse-cuadro-tarifario-web-2026-11-04.pdf (2026-09, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://spse.ar/atencion-cliente#cuadroTarifario"
@@ -31502,13 +31497,113 @@
        ]
       }
      ]
+    },
+    {
+     "titulo": "Residencial con subsidio — Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+     "zona": "I",
+     "limite": 350,
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "1AE / 1NE Urbano / Servicio Oficial",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        142.23411,
+        165.15433,
+        261.40335,
+        440.80713,
+        3944.25564,
+        270.98873,
+        440.80713,
+        440.80713
+       ],
+       "columnas": [
+        "Hasta 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Hasta 350 kWh/mes: Primeros 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 150 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Excedente de 300 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Mayor a 350 kWh/mes: Primeros 350 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Siguientes 200 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Excedente de 550 kWh/mes ($/kWh)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Residencial con subsidio — Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+     "zona": "II",
+     "limite": 350,
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "1AF / 1NF Urbano / Servicio Oficial",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        142.23411,
+        165.15433,
+        261.40335,
+        440.80713,
+        3944.25564,
+        270.98873,
+        440.80713,
+        440.80713
+       ],
+       "columnas": [
+        "Hasta 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Hasta 350 kWh/mes: Primeros 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 150 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Excedente de 300 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Mayor a 350 kWh/mes: Primeros 350 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Siguientes 20 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Excedente de 370 kWh/mes ($/kWh)"
+       ]
+      }
+     ]
+    },
+    {
+     "titulo": "Residencial con subsidio — Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+     "zona": "III",
+     "limite": 350,
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "1AG / 1NG Urbano / Servicio Oficial",
+       "unidad": "$/mes; $/kWh",
+       "valores": [
+        3944.25564,
+        142.23411,
+        165.15433,
+        261.40335,
+        440.80713,
+        3944.25564,
+        270.98873,
+        440.80713
+       ],
+       "columnas": [
+        "Hasta 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Hasta 350 kWh/mes: Primeros 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 75 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Siguientes 150 kWh/mes ($/kWh)",
+        "Hasta 350 kWh/mes: Excedente de 300 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Cuota de Servicio ($/mes)",
+        "Mayor a 350 kWh/mes: Primeros 350 kWh/mes ($/kWh)",
+        "Mayor a 350 kWh/mes: Excedente de 350 kWh/mes ($/kWh)"
+       ]
+      }
+     ]
     }
    ],
    "intentos": [
-    "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f (2026-10, 2 tablas)",
+    "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f (2026-10, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [],
     "nota": "En las páginas de EPE hay que ir a Tarifas y después a Cuadro Tarifario (usuarios y grandes usuarios) o a Transparencia y después a Comparativas Tarifarias."
@@ -31582,7 +31677,156 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
+   "simulador_subsidio": {
+    "periodo": "mes",
+    "criterio": "Residencial urbano con subsidio (según zona bioambiental)",
+    "categorias": [],
+    "zonas": [
+     {
+      "id": "I",
+      "nombre": "Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categorias": [
+       {
+        "nombre": "1AE / 1NE Urbano / Servicio Oficial — hasta 350 kWh/mes",
+        "hasta": 350,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          75,
+          142.23411
+         ],
+         [
+          150,
+          165.15433
+         ],
+         [
+          300,
+          261.40335
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       },
+       {
+        "nombre": "1AE / 1NE Urbano / Servicio Oficial — más de 350 kWh/mes",
+        "hasta": null,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          350,
+          270.98873
+         ],
+         [
+          550,
+          440.80713
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       }
+      ],
+      "criterio": "Residencial urbano con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012."
+     },
+     {
+      "id": "II",
+      "nombre": "Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categorias": [
+       {
+        "nombre": "1AF / 1NF Urbano / Servicio Oficial — hasta 350 kWh/mes",
+        "hasta": 350,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          75,
+          142.23411
+         ],
+         [
+          150,
+          165.15433
+         ],
+         [
+          300,
+          261.40335
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       },
+       {
+        "nombre": "1AF / 1NF Urbano / Servicio Oficial — más de 350 kWh/mes",
+        "hasta": null,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          350,
+          270.98873
+         ],
+         [
+          370,
+          440.80713
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       }
+      ],
+      "criterio": "Residencial urbano con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012."
+     },
+     {
+      "id": "III",
+      "nombre": "Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categorias": [
+       {
+        "nombre": "1AG / 1NG Urbano / Servicio Oficial — hasta 350 kWh/mes",
+        "hasta": 350,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          75,
+          142.23411
+         ],
+         [
+          150,
+          165.15433
+         ],
+         [
+          300,
+          261.40335
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       },
+       {
+        "nombre": "1AG / 1NG Urbano / Servicio Oficial — más de 350 kWh/mes",
+        "hasta": null,
+        "fijo": 3944.25564,
+        "escalones": [
+         [
+          350,
+          270.98873
+         ],
+         [
+          null,
+          440.80713
+         ]
+        ]
+       }
+      ],
+      "criterio": "Residencial urbano con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012."
+     }
+    ]
+   },
    "normalizado": {
     "filas": [
      {
@@ -31634,10 +31878,273 @@
       "tramo": "excedente de 300 kWh/mes",
       "unidad": "$/kWh",
       "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 75 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 142.23411
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 75 a 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 165.15433
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 150 a 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 261.40335
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 350 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 270.98873
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 350 a 550 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 550 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 75 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 142.23411
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 75 a 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 165.15433
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 150 a 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 261.40335
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 350 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 270.98873
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 350 a 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 75 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 142.23411
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 75 a 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 165.15433
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 150 a 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 261.40335
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "hasta 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 3944.25564
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 350 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 270.98873
+     },
+     {
+      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
+      "categoria": "",
+      "condicion": "más de 350 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 350 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 440.80713
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio: Residencial urbano sin subsidio (1AA)"
+     "Residencial (T1) — sin subsidio: Residencial urbano sin subsidio (1AA)",
+     "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
+     "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
+     "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012."
     ]
    },
    "desactualizado": false
@@ -32746,7 +33253,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf (2026-10, 5 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
@@ -34657,7 +35164,7 @@
     "extra: OK https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t (2026-10, 14 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.dpe.com.ar/usuarios/cuadro_tarifario/",
@@ -34704,7 +35211,7 @@
       "periodo": "2025-07",
       "titulo": "Cuadro Tarifario del 07-2025",
       "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/tierra_del_fuego/2025_07_DPE.pdf",
-      "error": "ConnectionError"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -36345,7 +36852,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0= (2026-09, 59 tablas)"
    ],
-   "verificado": "2026-11-04T20:06:03+00:00",
+   "verificado": "2026-11-04T20:25:45+00:00",
    "oficiales": {
     "links": [
      "https://www.edetsa.com/info/pwa/institucional/costos-del-servicio",
