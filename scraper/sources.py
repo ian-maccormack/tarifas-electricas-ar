@@ -351,6 +351,23 @@ def entregado(archivo, titulo, oficial, nota):
                     "entregado": {"oficial": oficial, "nota": nota}}
 
 
+EDESUR_PAGE = "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
+
+
+def edesur_img():
+    """EDESUR publishes the cuadro only as an image (wp-content/uploads/AAAA/MM/CT_*.jpg): it is linked so
+    the newer period is reported, but its values are not read (no text and no verified OCR reader)."""
+    page = fetch(EDESUR_PAGE, timeout=40).text
+    imgs = sorted(set(re.findall(r"https://www\.edesur\.com\.ar/wp-content/uploads/(20\d\d)/(\d\d)/(CT_[A-Za-z0-9_-]+?)\.jpg", page)))
+    imgs = [i for i in imgs if not re.search(r"-\d+x\d+$", i[2])]
+    if not imgs:
+        raise LookupError("EDESUR: sin imagen de cuadro tarifario")
+    y, m, name = max(imgs)
+    vig = re.search(r"vigentes a partir del (\d{1,2} de [a-záéíóú]+ de 20\d\d)", html.unescape(page))
+    return {"url": f"https://www.edesur.com.ar/wp-content/uploads/{y}/{m}/{name}.jpg", "titulo": f"Cuadro tarifario EDESUR (imagen {name})",
+            "pagina": EDESUR_PAGE, "vigencia": f"Vigente a partir del {vig.group(1)}" if vig else None}
+
+
 ORIGEN_BO_TDF = "Boletín Oficial de Tierra del Fuego"
 BO_TDF = "https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6"
 
@@ -365,7 +382,8 @@ src("edenor", "EDENOR", "Empresa Distribuidora y Comercializadora Norte S.A.", "
     enre, "ENRE / ENReGE", "edenor", parser="enre",
     extra=[(edenor_pdf, ORIGEN_DIST)])
 src("edesur", "EDESUR", "Empresa Distribuidora Sur S.A.", "Ciudad de Buenos Aires y GBA",
-    enre, "ENRE / ENReGE", "edesur", parser="enre")
+    enre, "ENRE / ENReGE", "edesur", parser="enre",
+    extra=[(edesur_img, ORIGEN_DIST)])
 src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A.", "Buenos Aires",
     oceba("EDES"), ORIGEN_ENTE, "edessa", parser="oceba",
     nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
@@ -383,7 +401,8 @@ src("ecsapem", "EC SAPEM", "Energía Catamarca S.A.P.E.M.", "Catamarca",
     page_latest("https://www.ecsapem.com.ar/", r"/uploads/.*cuadro.*\.pdf$"), se="ecsapem",
     known="https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf")
 src("secheep", "SECHEEP", "Servicios Energéticos del Chaco Empresa del Estado Provincial", "Chaco",
-    page_latest("https://www.secheep.gob.ar/?page_id=5601", r"/uploads/.*(cuadro|tarifa).*\.pdf$", exclude_re=r"social|AP24|alumbrado"),
+    page_latest("https://www.secheep.gob.ar/cuadros-tarifarios.html", r"Anexo-I.*Cuadro.*\.pdf$",
+                exclude_re=r"Anexo-II-|credito|Mayorista|social|alumbrado"),
     se="secheep")
 src("dgsp", "DGSP", "Dirección General de Servicios Públicos", "Chubut", None, se="dgsp",
     nota="No se encontró publicación propia vigente; gran parte de Chubut es atendida por cooperativas.")
