@@ -412,6 +412,14 @@ def p_ecsapem(text, **_):
 def p_edese(text, **_):
     t = line_table(text, "T1 Residencial", r"T1 R Residencial", r"T1 G Uso General", dec=".",
                    cols=["Valor"], header_re=r"^\s*T1 R\d", maxvals=1, left_col_from=r"T3-MT")
+    extra = []
+    i = text.find("CLIENTES CON SUBSIDIO")
+    if i >= 0:
+        try:
+            extra.append(line_table(text[i:], "T1 Residencial con subsidio", r"T1 R Residencial", r"T1 G Uso General", dec=".",
+                                    cols=["Valor"], header_re=r"^\s*T1 R\d", maxvals=1, left_col_from=r"T3-MT"))
+        except ValueError:
+            pass
     dem = []
     m2 = re.search(r"Tarifa N.2 \(Medianas Demandas con 10 kW < Pot < 50 kW\)\n(.*)\n(.*)", text)
     if m2:
@@ -430,7 +438,7 @@ def p_edese(text, **_):
         tab["filas"].append(_fila(mm.group(2).strip(), mm.group(3), [parse_num(mm.group(4), ".")],
                                   "50 kW < Pot < 300 kW" if n == 0 else "Pot ≥ 300 kW"))
     dem += list(t3.values())
-    return {"vigencia": find(r"rigen a partir del ([^.]+?20\d\d)", text), "tablas": [t] + dem,
+    return {"vigencia": find(r"rigen a partir del ([^.]+?20\d\d)", text), "tablas": [t] + dem + extra,
             "comparable": comparable([t], (r"Cargo fijo", 0, r"T1 R1"), (r"Cargo variable", 0, r"T1 R1"),
                                      "T1 R1 (consumo bimestral ≤ 300 kWh), sin subsidio")}
 

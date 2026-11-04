@@ -781,6 +781,16 @@ def epen_sub(tablas):
     return {"periodo": "mes", "criterio": "T1-R con subsidio (tope del subsidio según el cuadro)", "categorias": cats}
 
 
+@sub_builder("edese")
+def edese_sub(tablas):
+    """Second cuadro of the document, 'CLIENTES CON SUBSIDIO': same categories, one price per category."""
+    t = [x for x in tablas if x["titulo"] == "T1 Residencial con subsidio"]
+    if not t:
+        raise ValueError("sin cuadro con subsidio")
+    return _grouped(t, r"^Cargo fijo", r"^Cargo variable", r"^T1 R\d", periodo="bimestre",
+                    criterio="T1 Residencial, clientes con subsidio")
+
+
 @sub_builder("edemsa", "edeste")
 def mendoza_sub(tablas):
     """'Con SEF' (second value). Residencial 2 and 3 split it into base and excedente with different fixed

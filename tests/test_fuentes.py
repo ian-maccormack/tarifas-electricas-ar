@@ -100,3 +100,13 @@ def test_epen_subsidy_rows():
     cats = SUB_BUILDERS["epen"](t)["categorias"]
     assert cats[0]["escalones"] == [[None, 195.632]]
     assert cats[1] == {"nombre": "T1-R4", "hasta": 500, "fijo": 17861.4, "escalones": [[200, 156.351], [None, 355.156]]}
+
+
+def test_edese_con_subsidio_section():
+    from parsers import PARSERS
+    from simulador import SUB_BUILDERS
+    import pathlib
+    t = (pathlib.Path(__file__).parent.parent / "site/data/textos/edese.txt").read_text()
+    r = PARSERS["edese"](t)
+    c = SUB_BUILDERS["edese"](r["tablas"])["categorias"][0]
+    assert c["hasta"] == 300 and c["fijo"] == 4383.42 and c["escalones"] == [[None, 110.098]]
