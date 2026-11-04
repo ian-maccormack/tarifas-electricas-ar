@@ -264,6 +264,7 @@ def process(s):
     if best:
         upd, text, ym, origen, _ = best
         entry.update(upd)
+        entry["periodo_documento"] = _ym(ym) if ym else None
         _save_text(s["id"], upd, text)
         if len(found) > 1:
             entry["candidatos"] = [{"url": u["documento"]["url"], "titulo": u["documento"].get("titulo"), "origen": o,
@@ -414,6 +415,7 @@ def main(only=None):
     prev_path = DATA / "tarifas.json"
     prev = {e["id"]: e for e in json.loads(prev_path.read_text())["distribuidoras"]} if prev_path.exists() else {}
     srcs = [s for s in SOURCES if not only or s["id"] in only]
+    old_texts = {s["id"]: (TEXTS / f"{s['id']}.txt").read_text() for s in srcs if (TEXTS / f"{s['id']}.txt").exists()}
     with cf.ThreadPoolExecutor(8) as ex:
         results = list(ex.map(lambda s: _safe(process, s), srcs))
     by_id = dict(prev)
@@ -423,6 +425,16 @@ def main(only=None):
                       and (e.get("documento") or {}).get("via") == "archivo nacional"
                       and (old.get("documento") or {}).get("via") != "archivo nacional"
                       and not e.get("se_mas_nuevo"))
+        ocr_only = (old and old.get("estado") == "ok" and not old.get("ocr") and e.get("ocr") and old.get("mes_referencia")
+                    and e.get("periodo_documento") and e["periodo_documento"] <= old["mes_referencia"])
+        if ocr_only:
+            # Same period, but only readable by OCR: keep the verified text document already published.
+            if e["id"] in old_texts:
+                (TEXTS / f"{e['id']}.txt").write_text(old_texts[e["id"]])
+            by_id[e["id"]] = {**old, "ultimo_intento": NOW, "intentos": e["intentos"] + [
+                f"se mantiene el documento publicado ({old['mes_referencia']}, texto extraíble): la fuente nueva es del mismo período y solo se lee por OCR"],
+                **{k: e[k] for k in ("oficiales", "no_oficiales") if k in e}}
+            continue
         if (e["estado"] == "sin_datos" and old and old.get("documento")) or downgraded:
             # Keep the last successfully verified document, flagged as stale.
             old = {**old, "ultimo_intento": NOW, "ultimo_intento_fallido": True, "intentos": e["intentos"]}
