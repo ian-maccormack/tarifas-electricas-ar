@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T17:52:16+00:00",
+ "generado": "2026-11-04T18:29:50+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -9,16 +9,16 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument",
-    "titulo": "Cuadro Tarifario del 10-2026",
-    "pagina": "https://www.enre.gov.ar/web/TARIFASD.nsf/todoscuadros?OpenView&collapseview",
-    "origen": "ENRE / ENReGE",
-    "tipo": "html",
-    "sha256": "d61d1535684ed1ca1b44579801bf9f1d92083f7f460a093cdbdd7eb86d12e00d",
-    "bytes": 39444,
-    "via": "búsqueda automática"
+    "url": "https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf",
+    "titulo": "Cuadro tarifario EDENOR (11-2026)",
+    "pagina": "https://www.edenor.com/institucional/marco-regulatorio",
+    "origen": "Distribuidora",
+    "tipo": "pdf",
+    "sha256": "d9567fdbc29ba786487305afa2f40d666c85c06c5afb6572d5d3105fc816085b",
+    "bytes": 148929,
+    "via": "fuente oficial de referencia"
    },
-   "vigencia": null,
+   "vigencia": "Resolución ENReGE N° 886/2026 vigente a partir del 01/11/2026",
    "tablas": [
     {
      "titulo": "R1 — Tarifa 1 - R sin subsidio",
@@ -28,7 +28,7 @@
        "concepto": "Cargo Fijo 0-150",
        "unidad": "$/mes",
        "valores": [
-        1812.81
+        1870.51
        ],
        "columnas": null
       },
@@ -37,7 +37,7 @@
        "concepto": "Cargo Variable 0-150",
        "unidad": "$/kWh",
        "valores": [
-        159.128
+        163.597
        ],
        "columnas": null
       }
@@ -51,7 +51,7 @@
        "concepto": "Cargo Fijo 151-400",
        "unidad": "$/mes",
        "valores": [
-        3866.44
+        3989.51
        ],
        "columnas": null
       },
@@ -60,7 +60,7 @@
        "concepto": "Cargo Variable 151-400",
        "unidad": "$/kWh",
        "valores": [
-        159.788
+        164.279
        ],
        "columnas": null
       }
@@ -74,7 +74,7 @@
        "concepto": "Cargo Fijo 401-500",
        "unidad": "$/mes",
        "valores": [
-        12696.53
+        13100.68
        ],
        "columnas": null
       },
@@ -83,7 +83,7 @@
        "concepto": "Cargo Variable 401-500",
        "unidad": "$/kWh",
        "valores": [
-        172.009
+        176.889
        ],
        "columnas": null
       }
@@ -97,7 +97,7 @@
        "concepto": "Cargo Fijo 501-600",
        "unidad": "$/mes",
        "valores": [
-        20311.59
+        20958.14
        ],
        "columnas": null
       },
@@ -106,7 +106,7 @@
        "concepto": "Cargo Variable 501-600",
        "unidad": "$/kWh",
        "valores": [
-        175.986
+        180.992
        ],
        "columnas": null
       }
@@ -120,7 +120,7 @@
        "concepto": "Cargo Fijo 601-700",
        "unidad": "$/mes",
        "valores": [
-        42811.07
+        44173.81
        ],
        "columnas": null
       },
@@ -129,7 +129,7 @@
        "concepto": "Cargo Variable 601-700",
        "unidad": "$/kWh",
        "valores": [
-        176.284
+        181.3
        ],
        "columnas": null
       }
@@ -143,7 +143,7 @@
        "concepto": "Cargo Fijo +700",
        "unidad": "$/mes",
        "valores": [
-        66775.06
+        68900.6
        ],
        "columnas": null
       },
@@ -152,7 +152,7 @@
        "concepto": "Cargo Variable +700",
        "unidad": "$/kWh",
        "valores": [
-        192.232
+        197.755
        ],
        "columnas": null
       }
@@ -166,7 +166,7 @@
        "concepto": "Cargo Fijo 0-150",
        "unidad": "$/mes",
        "valores": [
-        1812.81
+        1870.51
        ],
        "columnas": null
       },
@@ -175,24 +175,10 @@
        "concepto": "Cargo Variable 0-150",
        "unidad": "$/kWh",
        "valores": [
-        61.083
+        65.073
        ],
        "columnas": null
       }
-     ],
-     "consumo_base": [
-      300,
-      300,
-      150,
-      150,
-      300,
-      300,
-      300,
-      300,
-      150,
-      150,
-      150,
-      300
      ]
     },
     {
@@ -203,42 +189,28 @@
        "concepto": "Cargo Fijo 151-400",
        "unidad": "$/mes",
        "valores": [
-        3866.44
+        3989.51
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable consumo base",
+       "concepto": "Cargo Variable primeros 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        61.743
+        65.754
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable excedente a consumo base",
+       "concepto": "Cargo Variable excedente a 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        159.788
+        164.279
        ],
        "columnas": null
       }
-     ],
-     "consumo_base": [
-      300,
-      300,
-      150,
-      150,
-      300,
-      300,
-      300,
-      300,
-      150,
-      150,
-      150,
-      300
      ]
     },
     {
@@ -249,135 +221,121 @@
        "concepto": "Cargo Fijo 401-500",
        "unidad": "$/mes",
        "valores": [
-        12696.53
+        13100.68
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable consumo base",
+       "concepto": "Cargo Variable primeros 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        73.964
+        78.365
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable excedente a consumo base",
+       "concepto": "Cargo Variable excedente a 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        172.009
+        176.889
        ],
        "columnas": null
       }
-     ],
-     "consumo_base": [
-      300,
-      300,
-      150,
-      150,
-      300,
-      300,
-      300,
-      300,
-      150,
-      150,
-      150,
-      300
      ]
     },
     {
-     "titulo": "R4",
+     "titulo": "R4 — Tarifa 1 - R con subsidio",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo 501-600",
        "unidad": "$/mes",
        "valores": [
-        20311.59
+        20958.14
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable consumo base",
+       "concepto": "Cargo Variable primeros 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        77.941
+        82.468
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable excedente a consumo base",
+       "concepto": "Cargo Variable excedente a 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        175.986
+        180.992
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "R5",
+     "titulo": "R5 — Tarifa 1 - R con subsidio",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo 601-700",
        "unidad": "$/mes",
        "valores": [
-        42811.07
+        44173.81
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable consumo base",
+       "concepto": "Cargo Variable primeros 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        78.239
+        82.776
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable excedente a consumo base",
+       "concepto": "Cargo Variable excedente a 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        176.284
+        181.3
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "R6",
+     "titulo": "R6 — Tarifa 1 - R con subsidio",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo +700",
        "unidad": "$/mes",
        "valores": [
-        66775.06
+        68900.6
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable consumo base",
+       "concepto": "Cargo Variable primeros 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        94.187
+        99.231
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable excedente a consumo base",
+       "concepto": "Cargo Variable excedente a 200 kWh",
        "unidad": "$/kWh",
        "valores": [
-        192.232
+        197.755
        ],
        "columnas": null
       }
@@ -391,7 +349,7 @@
        "concepto": "Cargo Fijo 0-800",
        "unidad": "$/mes",
        "valores": [
-        19929.56
+        20563.94
        ],
        "columnas": null
       },
@@ -400,7 +358,7 @@
        "concepto": "Cargo Variable 0-800",
        "unidad": "$/kWh",
        "valores": [
-        272.557
+        286.739
        ],
        "columnas": null
       }
@@ -414,7 +372,7 @@
        "concepto": "Cargo Fijo 801-2000",
        "unidad": "$/mes",
        "valores": [
-        19929.56
+        20563.94
        ],
        "columnas": null
       },
@@ -423,7 +381,7 @@
        "concepto": "Cargo Variable 801-2000",
        "unidad": "$/kWh",
        "valores": [
-        298.796
+        313.813
        ],
        "columnas": null
       }
@@ -434,47 +392,254 @@
      "filas": [
       {
        "grupo": null,
-       "concepto": "Cargo Fijo + 2000",
+       "concepto": "Cargo Fijo +2000",
        "unidad": "$/mes",
        "valores": [
-        19929.56
+        20563.94
        ],
        "columnas": null
       },
       {
        "grupo": null,
-       "concepto": "Cargo Variable + 2000",
+       "concepto": "Cargo Variable +2000",
        "unidad": "$/kWh",
        "valores": [
-        301.653
+        316.761
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "Tarifa 1 -AP — Tarifa 1 - G",
+     "titulo": "R1 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 0-150",
+       "unidad": "$/mes",
+       "valores": [
+        1870.51
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 0-150",
+       "unidad": "$/kWh",
+       "valores": [
+        65.073
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "R2 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 151-400",
+       "unidad": "$/mes",
+       "valores": [
+        3989.51
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 151-400",
+       "unidad": "$/kWh",
+       "valores": [
+        65.754
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "R3 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 401-500",
+       "unidad": "$/mes",
+       "valores": [
+        13100.68
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 401-500",
+       "unidad": "$/kWh",
+       "valores": [
+        78.365
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "R4 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 501-600",
+       "unidad": "$/mes",
+       "valores": [
+        20958.14
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 501-600",
+       "unidad": "$/kWh",
+       "valores": [
+        82.468
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "R5 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 601-700",
+       "unidad": "$/mes",
+       "valores": [
+        44173.81
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 601-700",
+       "unidad": "$/kWh",
+       "valores": [
+        82.776
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "R6 — Tarifa 1 - R CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo +700",
+       "unidad": "$/mes",
+       "valores": [
+        68900.6
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable +700",
+       "unidad": "$/kWh",
+       "valores": [
+        99.231
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "G1 — Tarifa 1 - G CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 0-800",
+       "unidad": "$/mes",
+       "valores": [
+        20563.94
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 0-800",
+       "unidad": "$/kWh",
+       "valores": [
+        157.191
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "G2 — Tarifa 1 - G CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo 801-2000",
+       "unidad": "$/mes",
+       "valores": [
+        20563.94
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable 801-2000",
+       "unidad": "$/kWh",
+       "valores": [
+        184.265
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "G3 — Tarifa 1 - G CBN (club de barrio)",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo +2000",
+       "unidad": "$/mes",
+       "valores": [
+        20563.94
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable +2000",
+       "unidad": "$/kWh",
+       "valores": [
+        187.213
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa 1 -AP",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Variable",
        "unidad": "$/kWh",
        "valores": [
-        247.227
+        264.091
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "Tarifa 2 — Tarifa 1 - G",
+     "titulo": "Tarifa 2",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        48887.78
+        50443.95
        ],
        "columnas": null
       },
@@ -483,7 +648,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        22910.1
+        23639.36
        ],
        "columnas": null
       },
@@ -492,30 +657,30 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        10708.77
+        12111.72
        ],
        "columnas": null
       },
       {
        "grupo": null,
        "concepto": "Cargo Variable",
-       "unidad": "$/kW",
+       "unidad": "$/kWh",
        "valores": [
-        141.288
+        148.772
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "Tarifa 3 - BT < 300 — Tarifa 1 - G",
+     "titulo": "Tarifa 3 - BT < 300",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        193678.92
+        199844.0
        ],
        "columnas": null
       },
@@ -524,7 +689,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        20419.14
+        21069.11
        ],
        "columnas": null
       },
@@ -533,7 +698,7 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        11240.96
+        12713.63
        ],
        "columnas": null
       },
@@ -542,7 +707,7 @@
        "concepto": "Cargo Variable Pico",
        "unidad": "$/kWh",
        "valores": [
-        145.007
+        152.843
        ],
        "columnas": null
       },
@@ -551,7 +716,7 @@
        "concepto": "Cargo Variable Resto",
        "unidad": "$/kWh",
        "valores": [
-        140.567
+        147.933
        ],
        "columnas": null
       },
@@ -560,21 +725,21 @@
        "concepto": "Cargo Variable Valle",
        "unidad": "$/kWh",
        "valores": [
-        139.514
+        146.996
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "Tarifa 3 - MT < 300 — Tarifa 1 - G",
+     "titulo": "Tarifa 3 - BT > 300",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        193678.92
+        199844.0
        ],
        "columnas": null
       },
@@ -583,7 +748,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        9655.46
+        21069.11
        ],
        "columnas": null
       },
@@ -592,7 +757,7 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        12342.0
+        12713.63
        ],
        "columnas": null
       },
@@ -601,7 +766,7 @@
        "concepto": "Cargo Variable Pico",
        "unidad": "$/kWh",
        "valores": [
-        137.808
+        169.075
        ],
        "columnas": null
       },
@@ -610,7 +775,7 @@
        "concepto": "Cargo Variable Resto",
        "unidad": "$/kWh",
        "valores": [
-        133.588
+        163.565
        ],
        "columnas": null
       },
@@ -619,21 +784,21 @@
        "concepto": "Cargo Variable Valle",
        "unidad": "$/kWh",
        "valores": [
-        132.588
+        162.513
        ],
        "columnas": null
       }
      ]
     },
     {
-     "titulo": "Tarifa 3 - AT < 300 — Tarifa 1 - G",
+     "titulo": "Tarifa 3 - MT < 300",
      "filas": [
       {
        "grupo": null,
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        193678.92
+        199844.0
        ],
        "columnas": null
       },
@@ -642,7 +807,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        2534.61
+        9962.8
        ],
        "columnas": null
       },
@@ -651,7 +816,7 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        10014.31
+        13958.92
        ],
        "columnas": null
       },
@@ -660,7 +825,7 @@
        "concepto": "Cargo Variable Pico",
        "unidad": "$/kWh",
        "valores": [
-        132.151
+        145.255
        ],
        "columnas": null
       },
@@ -669,7 +834,7 @@
        "concepto": "Cargo Variable Resto",
        "unidad": "$/kWh",
        "valores": [
-        128.105
+        140.589
        ],
        "columnas": null
       },
@@ -678,66 +843,7 @@
        "concepto": "Cargo Variable Valle",
        "unidad": "$/kWh",
        "valores": [
-        127.146
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - BT > 300 — Tarifa 1 - G",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/kW-mes",
-       "valores": [
-        20419.14
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/kW-mes",
-       "valores": [
-        11240.96
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/kWh",
-       "valores": [
-        164.504
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/kWh",
-       "valores": [
-        159.375
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/kWh",
-       "valores": [
-        158.159
+        139.699
        ],
        "columnas": null
       }
@@ -751,7 +857,7 @@
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        193678.92
+        199844.0
        ],
        "columnas": null
       },
@@ -760,7 +866,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        9655.46
+        9962.8
        ],
        "columnas": null
       },
@@ -769,7 +875,7 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        12342.0
+        13958.92
        ],
        "columnas": null
       },
@@ -778,7 +884,7 @@
        "concepto": "Cargo Variable Pico",
        "unidad": "$/kWh",
        "valores": [
-        156.337
+        160.681
        ],
        "columnas": null
       },
@@ -787,7 +893,7 @@
        "concepto": "Cargo Variable Resto",
        "unidad": "$/kWh",
        "valores": [
-        151.463
+        155.444
        ],
        "columnas": null
       },
@@ -796,7 +902,66 @@
        "concepto": "Cargo Variable Valle",
        "unidad": "$/kWh",
        "valores": [
-        150.307
+        154.445
+       ],
+       "columnas": null
+      }
+     ]
+    },
+    {
+     "titulo": "Tarifa 3 - AT < 300",
+     "filas": [
+      {
+       "grupo": null,
+       "concepto": "Cargo Fijo",
+       "unidad": "$/mes",
+       "valores": [
+        199844.0
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Potencia Contratada",
+       "unidad": "$/kW-mes",
+       "valores": [
+        2615.29
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo por Potencia Adquirida",
+       "unidad": "$/kW-mes",
+       "valores": [
+        11326.28
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable Pico",
+       "unidad": "$/kWh",
+       "valores": [
+        139.293
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable Resto",
+       "unidad": "$/kWh",
+       "valores": [
+        134.818
+       ],
+       "columnas": null
+      },
+      {
+       "grupo": null,
+       "concepto": "Cargo Variable Valle",
+       "unidad": "$/kWh",
+       "valores": [
+        133.965
        ],
        "columnas": null
       }
@@ -810,7 +975,7 @@
        "concepto": "Cargo Fijo",
        "unidad": "$/mes",
        "valores": [
-        193678.92
+        199844.0
        ],
        "columnas": null
       },
@@ -819,7 +984,7 @@
        "concepto": "Cargo por Potencia Contratada",
        "unidad": "$/kW-mes",
        "valores": [
-        2534.61
+        2615.29
        ],
        "columnas": null
       },
@@ -828,7 +993,7 @@
        "concepto": "Cargo por Potencia Adquirida",
        "unidad": "$/kW-mes",
        "valores": [
-        10014.31
+        11326.28
        ],
        "columnas": null
       },
@@ -837,7 +1002,7 @@
        "concepto": "Cargo Variable Pico",
        "unidad": "$/kWh",
        "valores": [
-        149.92
+        154.086
        ],
        "columnas": null
       },
@@ -846,7 +1011,7 @@
        "concepto": "Cargo Variable Resto",
        "unidad": "$/kWh",
        "valores": [
-        145.246
+        149.064
        ],
        "columnas": null
       },
@@ -855,516 +1020,7 @@
        "concepto": "Cargo Variable Valle",
        "unidad": "$/kWh",
        "valores": [
-        144.138
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 2 — TARIFAS SERVICIO DE PEAJE",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        48887.78
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        22910098.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        1339768.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable",
-       "unidad": "$/MWh",
-       "valores": [
-        16033.0
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - BT < 300 — TARIFAS SERVICIO DE PEAJE",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        20419143.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        1406349.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        16454.66
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        15950.85
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        15831.42
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - MT < 300 — TARIFAS SERVICIO DE PEAJE",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        9655456.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        903631.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        9255.74
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        8972.35
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        8905.18
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - AT < 300 — TARIFAS SERVICIO DE PEAJE",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        2534611.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        291679.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        3599.46
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        3489.25
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        3463.12
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - BT > 300 — TARIFAS SERVICIO DE PEAJE",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        20419143.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        1406349.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        18667.14
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        18085.12
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        17947.14
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - MT > 300",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        9655456.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        903631.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        10500.26
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        10172.88
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        10095.26
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Tarifa 3 - AT > 300",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Cargo Fijo",
-       "unidad": "$/mes",
-       "valores": [
-        193678.92
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Contratada",
-       "unidad": "$/MW-mes",
-       "valores": [
-        2534611.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo por Potencia Adquirida",
-       "unidad": "$/MW-mes",
-       "valores": [
-        291679.0
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Pico",
-       "unidad": "$/MWh",
-       "valores": [
-        4083.44
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Resto",
-       "unidad": "$/MWh",
-       "valores": [
-        3956.12
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Cargo Variable Valle",
-       "unidad": "$/MWh",
-       "valores": [
-        3925.94
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "Tarifa 1 - R1",
-       "unidad": "$",
-       "valores": [
-        5259.37
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Tarifa 1 - G y AP",
-       "unidad": "$",
-       "valores": [
-        31810.11
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Tarifa 2 y Tarifa 3",
-       "unidad": "$",
-       "valores": [
-        84122.25
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Comunes",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "A�reas monof�sicas",
-       "unidad": "$",
-       "valores": [
-        64044.11
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Subterr�neas",
-       "unidad": "$",
-       "valores": [
-        198927.69
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "A�reas trif�sicas",
-       "unidad": "$",
-       "valores": [
-        121194.24
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Subterr�neas Trif�sicas",
-       "unidad": "$",
-       "valores": [
-        304124.45
-       ],
-       "columnas": null
-      }
-     ]
-    },
-    {
-     "titulo": "Especiales",
-     "filas": [
-      {
-       "grupo": null,
-       "concepto": "A�reas monof�sicas",
-       "unidad": "$",
-       "valores": [
-        168078.59
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Subterr�neas",
-       "unidad": "$",
-       "valores": [
-        540776.34
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "A�reas trif�sicas",
-       "unidad": "$",
-       "valores": [
-        296136.4
-       ],
-       "columnas": null
-      },
-      {
-       "grupo": null,
-       "concepto": "Subterr�neas Trif�sicas",
-       "unidad": "$",
-       "valores": [
-        559074.54
+        148.106
        ],
        "columnas": null
       }
@@ -1373,10 +1029,9 @@
    ],
    "intentos": [
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
-    "extra: OK https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf (2026-11, 0 tablas)",
-    "se: ningún archivo descargable (8 enlaces con error)"
+    "extra: OK https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf (2026-11, 32 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edenor.com/institucional/marco-regulatorio",
@@ -1386,25 +1041,25 @@
    },
    "comparable": {
     "cargo_fijo": {
-     "valor": 1812.81,
+     "valor": 1870.51,
      "unidad": "$/mes",
      "concepto": "Cargo Fijo 0-150",
      "grupo": null,
      "columna": null
     },
     "cargo_variable": {
-     "valor": 159.128,
+     "valor": 163.597,
      "unidad": "$/kWh",
      "concepto": "Cargo Variable 0-150",
      "grupo": null,
      "columna": null
     },
-    "nota": "R1 (0-150 kWh/mes), primera tabla del cuadro ENRE"
+    "nota": "R1 (0-150 kWh/mes), PDF de EDENOR"
    },
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "periodo_documento": "2026-10",
+   "periodo_documento": "2026-11",
    "candidatos": [
     {
      "url": "https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument",
@@ -1412,82 +1067,30 @@
      "origen": "ENRE / ENReGE",
      "periodo": "2026-10",
      "valores": true,
-     "usado": true
+     "usado": false
     },
     {
      "url": "https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf",
      "titulo": "Cuadro tarifario EDENOR (11-2026)",
      "origen": "Distribuidora",
      "periodo": "2026-11",
-     "valores": false,
-     "usado": false
+     "valores": true,
+     "usado": true
     }
    ],
-   "mas_nuevo_sin_valores": {
-    "url": "https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf",
-    "titulo": "Cuadro tarifario EDENOR (11-2026)",
-    "origen": "Distribuidora",
-    "periodo": "2026-11"
-   },
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edenor",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_06_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_04_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-03",
-      "titulo": "Cuadro Tarifario del 03-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_03_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-02",
-      "titulo": "Cuadro Tarifario del 02-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_02_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2026_01_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2025_12_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2025_11_EDENOR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-09",
-      "titulo": "Cuadro Tarifario del 09-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDENOR/2025_09_EDENOR.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-11"
     }
    },
-   "mes_referencia": "2026-10",
-   "mes_referencia_origen": "título",
+   "mes_referencia": "2026-11",
+   "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "mes",
     "criterio": "Tarifa 1-R sin subsidio",
@@ -1495,66 +1098,66 @@
      {
       "nombre": "R1",
       "hasta": 150,
-      "fijo": 1812.81,
+      "fijo": 1870.51,
       "escalones": [
        [
         null,
-        159.128
+        163.597
        ]
       ]
      },
      {
       "nombre": "R2",
       "hasta": 400,
-      "fijo": 3866.44,
+      "fijo": 3989.51,
       "escalones": [
        [
         null,
-        159.788
+        164.279
        ]
       ]
      },
      {
       "nombre": "R3",
       "hasta": 500,
-      "fijo": 12696.53,
+      "fijo": 13100.68,
       "escalones": [
        [
         null,
-        172.009
+        176.889
        ]
       ]
      },
      {
       "nombre": "R4",
       "hasta": 600,
-      "fijo": 20311.59,
+      "fijo": 20958.14,
       "escalones": [
        [
         null,
-        175.986
+        180.992
        ]
       ]
      },
      {
       "nombre": "R5",
       "hasta": 700,
-      "fijo": 42811.07,
+      "fijo": 44173.81,
       "escalones": [
        [
         null,
-        176.284
+        181.3
        ]
       ]
      },
      {
       "nombre": "R6",
       "hasta": null,
-      "fijo": 66775.06,
+      "fijo": 68900.6,
       "escalones": [
        [
         null,
-        192.232
+        197.755
        ]
       ]
      }
@@ -1568,19 +1171,19 @@
       "tension": null,
       "desde_kw": 10,
       "hasta_kw": 50,
-      "fijo": 48887.78,
+      "fijo": 50443.95,
       "potencia": [
        [
         "Potencia contratada",
-        22910.1
+        23639.36
        ],
        [
         "Potencia adquirida",
-        10708.77
+        12111.72
        ]
       ],
       "energia": {
-       "unica": 141.288
+       "unica": 148.772
       }
      },
      {
@@ -1588,65 +1191,21 @@
       "tension": "BT",
       "desde_kw": 50,
       "hasta_kw": 300,
-      "fijo": 193678.92,
+      "fijo": 199844.0,
       "potencia": [
        [
         "Potencia contratada",
-        20419.14
+        21069.11
        ],
        [
         "Potencia adquirida",
-        11240.96
+        12713.63
        ]
       ],
       "energia": {
-       "pico": 145.007,
-       "resto": 140.567,
-       "valle": 139.514
-      }
-     },
-     {
-      "nombre": "Tarifa 3 - MT < 300",
-      "tension": "MT",
-      "desde_kw": 50,
-      "hasta_kw": 300,
-      "fijo": 193678.92,
-      "potencia": [
-       [
-        "Potencia contratada",
-        9655.46
-       ],
-       [
-        "Potencia adquirida",
-        12342.0
-       ]
-      ],
-      "energia": {
-       "pico": 137.808,
-       "resto": 133.588,
-       "valle": 132.588
-      }
-     },
-     {
-      "nombre": "Tarifa 3 - AT < 300",
-      "tension": "AT",
-      "desde_kw": 50,
-      "hasta_kw": 300,
-      "fijo": 193678.92,
-      "potencia": [
-       [
-        "Potencia contratada",
-        2534.61
-       ],
-       [
-        "Potencia adquirida",
-        10014.31
-       ]
-      ],
-      "energia": {
-       "pico": 132.151,
-       "resto": 128.105,
-       "valle": 127.146
+       "pico": 152.843,
+       "resto": 147.933,
+       "valle": 146.996
       }
      },
      {
@@ -1654,21 +1213,43 @@
       "tension": "BT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 193678.92,
+      "fijo": 199844.0,
       "potencia": [
        [
         "Potencia contratada",
-        20419.14
+        21069.11
        ],
        [
         "Potencia adquirida",
-        11240.96
+        12713.63
        ]
       ],
       "energia": {
-       "pico": 164.504,
-       "resto": 159.375,
-       "valle": 158.159
+       "pico": 169.075,
+       "resto": 163.565,
+       "valle": 162.513
+      }
+     },
+     {
+      "nombre": "Tarifa 3 - MT < 300",
+      "tension": "MT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 199844.0,
+      "potencia": [
+       [
+        "Potencia contratada",
+        9962.8
+       ],
+       [
+        "Potencia adquirida",
+        13958.92
+       ]
+      ],
+      "energia": {
+       "pico": 145.255,
+       "resto": 140.589,
+       "valle": 139.699
       }
      },
      {
@@ -1676,21 +1257,43 @@
       "tension": "MT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 193678.92,
+      "fijo": 199844.0,
       "potencia": [
        [
         "Potencia contratada",
-        9655.46
+        9962.8
        ],
        [
         "Potencia adquirida",
-        12342.0
+        13958.92
        ]
       ],
       "energia": {
-       "pico": 156.337,
-       "resto": 151.463,
-       "valle": 150.307
+       "pico": 160.681,
+       "resto": 155.444,
+       "valle": 154.445
+      }
+     },
+     {
+      "nombre": "Tarifa 3 - AT < 300",
+      "tension": "AT",
+      "desde_kw": 50,
+      "hasta_kw": 300,
+      "fijo": 199844.0,
+      "potencia": [
+       [
+        "Potencia contratada",
+        2615.29
+       ],
+       [
+        "Potencia adquirida",
+        11326.28
+       ]
+      ],
+      "energia": {
+       "pico": 139.293,
+       "resto": 134.818,
+       "valle": 133.965
       }
      },
      {
@@ -1698,132 +1301,27 @@
       "tension": "AT",
       "desde_kw": 300,
       "hasta_kw": null,
-      "fijo": 193678.92,
+      "fijo": 199844.0,
       "potencia": [
        [
         "Potencia contratada",
-        2534.61
+        2615.29
        ],
        [
         "Potencia adquirida",
-        10014.31
+        11326.28
        ]
       ],
       "energia": {
-       "pico": 149.92,
-       "resto": 145.246,
-       "valle": 144.138
+       "pico": 154.086,
+       "resto": 149.064,
+       "valle": 148.106
       }
      }
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",
-    "base_mes": [
-     300,
-     300,
-     150,
-     150,
-     300,
-     300,
-     300,
-     300,
-     150,
-     150,
-     150,
-     300
-    ],
-    "categorias": [
-     {
-      "nombre": "R1",
-      "hasta": 150,
-      "fijo": 1812.81,
-      "escalones": [
-       [
-        null,
-        61.083
-       ]
-      ]
-     },
-     {
-      "nombre": "R2",
-      "hasta": 400,
-      "fijo": 3866.44,
-      "escalones": [
-       [
-        "base",
-        61.743
-       ],
-       [
-        null,
-        159.788
-       ]
-      ]
-     },
-     {
-      "nombre": "R3",
-      "hasta": 500,
-      "fijo": 12696.53,
-      "escalones": [
-       [
-        "base",
-        73.964
-       ],
-       [
-        null,
-        172.009
-       ]
-      ]
-     },
-     {
-      "nombre": "R4",
-      "hasta": 600,
-      "fijo": 20311.59,
-      "escalones": [
-       [
-        "base",
-        77.941
-       ],
-       [
-        null,
-        175.986
-       ]
-      ]
-     },
-     {
-      "nombre": "R5",
-      "hasta": 700,
-      "fijo": 42811.07,
-      "escalones": [
-       [
-        "base",
-        78.239
-       ],
-       [
-        null,
-        176.284
-       ]
-      ]
-     },
-     {
-      "nombre": "R6",
-      "hasta": null,
-      "fijo": 66775.06,
-      "escalones": [
-       [
-        "base",
-        94.187
-       ],
-       [
-        null,
-        192.232
-       ]
-      ]
-     }
-    ]
-   },
+   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -1834,7 +1332,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 1812.81
+      "valor": 1870.51
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1844,7 +1342,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 159.128
+      "valor": 163.597
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1854,7 +1352,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 3866.44
+      "valor": 3989.51
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1864,7 +1362,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 159.788
+      "valor": 164.279
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1874,7 +1372,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 12696.53
+      "valor": 13100.68
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1884,7 +1382,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 172.009
+      "valor": 176.889
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1894,7 +1392,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 20311.59
+      "valor": 20958.14
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1904,7 +1402,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 175.986
+      "valor": 180.992
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1914,7 +1412,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 42811.07
+      "valor": 44173.81
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1924,7 +1422,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 176.284
+      "valor": 181.3
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1934,7 +1432,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 66775.06
+      "valor": 68900.6
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -1944,177 +1442,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 192.232
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 1812.81
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 61.083
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3866.44
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 61.743
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 159.788
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 12696.53
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 73.964
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 172.009
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 20311.59
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 77.941
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 175.986
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 42811.07
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 78.239
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 176.284
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 66775.06
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 94.187
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 192.232
+      "valor": 197.755
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2124,7 +1452,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 48887.78
+      "valor": 50443.95
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2134,7 +1462,7 @@
       "concepto": "Potencia contratada",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 22910.1
+      "valor": 23639.36
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2144,7 +1472,7 @@
       "concepto": "Potencia adquirida",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 10708.77
+      "valor": 12111.72
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2154,7 +1482,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 141.288
+      "valor": 148.772
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2164,7 +1492,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 193678.92
+      "valor": 199844.0
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2174,7 +1502,7 @@
       "concepto": "Potencia contratada",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 20419.14
+      "valor": 21069.11
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2184,7 +1512,7 @@
       "concepto": "Potencia adquirida",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 11240.96
+      "valor": 12713.63
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2194,7 +1522,7 @@
       "concepto": "Energía",
       "tramo": "pico",
       "unidad": "$/kWh",
-      "valor": 145.007
+      "valor": 152.843
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2204,7 +1532,7 @@
       "concepto": "Energía",
       "tramo": "resto",
       "unidad": "$/kWh",
-      "valor": 140.567
+      "valor": 147.933
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2214,127 +1542,7 @@
       "concepto": "Energía",
       "tramo": "valle",
       "unidad": "$/kWh",
-      "valor": 139.514
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 193678.92
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Potencia contratada",
-      "tramo": "",
-      "unidad": "$/kW-mes",
-      "valor": 9655.46
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Potencia adquirida",
-      "tramo": "",
-      "unidad": "$/kW-mes",
-      "valor": 12342.0
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Energía",
-      "tramo": "pico",
-      "unidad": "$/kWh",
-      "valor": 137.808
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Energía",
-      "tramo": "resto",
-      "unidad": "$/kWh",
-      "valor": 133.588
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - MT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "MT",
-      "concepto": "Energía",
-      "tramo": "valle",
-      "unidad": "$/kWh",
-      "valor": 132.588
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 193678.92
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Potencia contratada",
-      "tramo": "",
-      "unidad": "$/kW-mes",
-      "valor": 2534.61
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Potencia adquirida",
-      "tramo": "",
-      "unidad": "$/kW-mes",
-      "valor": 10014.31
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Energía",
-      "tramo": "pico",
-      "unidad": "$/kWh",
-      "valor": 132.151
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Energía",
-      "tramo": "resto",
-      "unidad": "$/kWh",
-      "valor": 128.105
-     },
-     {
-      "seccion": "Medianas y grandes demandas (T2 y T3)",
-      "categoria": "Tarifa 3 - AT < 300",
-      "condicion": "desde 50 hasta menos de 300 kW",
-      "tension": "AT",
-      "concepto": "Energía",
-      "tramo": "valle",
-      "unidad": "$/kWh",
-      "valor": 127.146
+      "valor": 146.996
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2344,7 +1552,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 193678.92
+      "valor": 199844.0
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2354,7 +1562,7 @@
       "concepto": "Potencia contratada",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 20419.14
+      "valor": 21069.11
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2364,7 +1572,7 @@
       "concepto": "Potencia adquirida",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 11240.96
+      "valor": 12713.63
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2374,7 +1582,7 @@
       "concepto": "Energía",
       "tramo": "pico",
       "unidad": "$/kWh",
-      "valor": 164.504
+      "valor": 169.075
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2384,7 +1592,7 @@
       "concepto": "Energía",
       "tramo": "resto",
       "unidad": "$/kWh",
-      "valor": 159.375
+      "valor": 163.565
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2394,7 +1602,67 @@
       "concepto": "Energía",
       "tramo": "valle",
       "unidad": "$/kWh",
-      "valor": 158.159
+      "valor": 162.513
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 199844.0
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Potencia contratada",
+      "tramo": "",
+      "unidad": "$/kW-mes",
+      "valor": 9962.8
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Potencia adquirida",
+      "tramo": "",
+      "unidad": "$/kW-mes",
+      "valor": 13958.92
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Energía",
+      "tramo": "pico",
+      "unidad": "$/kWh",
+      "valor": 145.255
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Energía",
+      "tramo": "resto",
+      "unidad": "$/kWh",
+      "valor": 140.589
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - MT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "MT",
+      "concepto": "Energía",
+      "tramo": "valle",
+      "unidad": "$/kWh",
+      "valor": 139.699
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2404,7 +1672,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 193678.92
+      "valor": 199844.0
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2414,7 +1682,7 @@
       "concepto": "Potencia contratada",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 9655.46
+      "valor": 9962.8
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2424,7 +1692,7 @@
       "concepto": "Potencia adquirida",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 12342.0
+      "valor": 13958.92
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2434,7 +1702,7 @@
       "concepto": "Energía",
       "tramo": "pico",
       "unidad": "$/kWh",
-      "valor": 156.337
+      "valor": 160.681
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2444,7 +1712,7 @@
       "concepto": "Energía",
       "tramo": "resto",
       "unidad": "$/kWh",
-      "valor": 151.463
+      "valor": 155.444
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2454,7 +1722,67 @@
       "concepto": "Energía",
       "tramo": "valle",
       "unidad": "$/kWh",
-      "valor": 150.307
+      "valor": 154.445
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 199844.0
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Potencia contratada",
+      "tramo": "",
+      "unidad": "$/kW-mes",
+      "valor": 2615.29
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Potencia adquirida",
+      "tramo": "",
+      "unidad": "$/kW-mes",
+      "valor": 11326.28
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Energía",
+      "tramo": "pico",
+      "unidad": "$/kWh",
+      "valor": 139.293
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Energía",
+      "tramo": "resto",
+      "unidad": "$/kWh",
+      "valor": 134.818
+     },
+     {
+      "seccion": "Medianas y grandes demandas (T2 y T3)",
+      "categoria": "Tarifa 3 - AT < 300",
+      "condicion": "desde 50 hasta menos de 300 kW",
+      "tension": "AT",
+      "concepto": "Energía",
+      "tramo": "valle",
+      "unidad": "$/kWh",
+      "valor": 133.965
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2464,7 +1792,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/mes",
-      "valor": 193678.92
+      "valor": 199844.0
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2474,7 +1802,7 @@
       "concepto": "Potencia contratada",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 2534.61
+      "valor": 2615.29
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2484,7 +1812,7 @@
       "concepto": "Potencia adquirida",
       "tramo": "",
       "unidad": "$/kW-mes",
-      "valor": 10014.31
+      "valor": 11326.28
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2494,7 +1822,7 @@
       "concepto": "Energía",
       "tramo": "pico",
       "unidad": "$/kWh",
-      "valor": 149.92
+      "valor": 154.086
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2504,7 +1832,7 @@
       "concepto": "Energía",
       "tramo": "resto",
       "unidad": "$/kWh",
-      "valor": 145.246
+      "valor": 149.064
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -2514,13 +1842,11 @@
       "concepto": "Energía",
       "tramo": "valle",
       "unidad": "$/kWh",
-      "valor": 144.138
+      "valor": 148.106
      }
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: Tarifa 1-R sin subsidio",
-     "Residencial (T1) — con subsidio: Tarifa 1-R con subsidio (consumo base según el mes)",
-     "Residencial (T1) — con subsidio: consumo base subsidiado por mes (kWh/mes): ene 300, feb 300, mar 150, abr 150, may 300, jun 300, jul 300, ago 300, sep 150, oct 150, nov 150, dic 300.",
      "Medianas y grandes demandas (T2 y T3): Cuadro ENRE; T2 de 10 a 50 kW y T3 desde 50 kW según el régimen tarifario ENRE (no figura en el cuadro)"
     ]
    },
@@ -3897,10 +3223,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
-    "se: ningún archivo descargable (6 enlaces con error)"
+    "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
@@ -3929,48 +3254,14 @@
    "ocr": false,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesur",
-    "no_disponibles": [
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_05_EDESUR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_04_EDESUR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2026_01_EDESUR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2025_12_EDESUR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2025_11_EDESUR.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-10",
-      "titulo": "Cuadro Tarifario del 10-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESUR/2025_10_EDESUR.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -6394,10 +5685,9 @@
    ],
    "intentos": [
     "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf (2026-06, 4 tablas)",
-    "extra: OK https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf (2026-09, 5 tablas)",
-    "se: ningún archivo descargable (1 enlaces con error)"
+    "extra: OK https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf (2026-09, 5 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.infoedes.com/cuadro-tarifario/",
@@ -6429,18 +5719,14 @@
     }
    ],
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-11",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edessa",
-    "no_disponibles": [
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
     }
    },
    "mes_referencia": "2026-09",
@@ -7926,10 +7212,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf (2026-09, 7 tablas)",
-    "se: ningún archivo descargable (2 enlaces con error)"
+    "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf (2026-09, 7 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edeaweb.com.ar/cuadro-tarifario/",
@@ -7953,24 +7238,14 @@
    "ocr": true,
    "periodo_documento": "2026-09",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-11",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edea",
-    "no_disponibles": [
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-09",
-      "titulo": "Cuadro Tarifario del 09-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_09_EDEN_EDEA_EDELAP.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
     }
    },
    "mes_referencia": "2026-09",
@@ -8650,10 +7925,9 @@
    ],
    "intentos": [
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf (2026-09, 1 tablas)",
-    "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-03, 1 tablas)",
-    "se: ningún archivo descargable (2 enlaces con error)"
+    "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-03, 1 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edelap.com.ar/cuadro-tarifario/",
@@ -8685,24 +7959,14 @@
     }
    ],
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-11",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelap",
-    "no_disponibles": [
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_11_EDEN_EDES_EDEA_EDELAP.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-09",
-      "titulo": "Cuadro Tarifario del 09-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEN_EDEA_EDELAP/2025_09_EDEN_EDEA_EDELAP.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
     }
    },
    "mes_referencia": "2026-09",
@@ -9568,7 +8832,6 @@
    "intentos": [
     "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf (2026-06, 4 tablas)",
     "extra: OK https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf (2026-09, 5 tablas)",
-    "se: ningún archivo descargable (2 enlaces con error)",
     "se mantiene el documento publicado (2026-09, texto extraíble): la fuente nueva es del mismo período y solo se lee por OCR"
    ],
    "verificado": "2026-10-31T15:02:21+00:00",
@@ -10314,7 +9577,7 @@
     ]
    },
    "desactualizado": false,
-   "ultimo_intento": "2026-11-04T17:52:16+00:00",
+   "ultimo_intento": "2026-11-04T18:29:50+00:00",
    "ultimo_intento_fallido": true,
    "oficiales": {
     "links": [
@@ -10486,10 +9749,9 @@
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
-    "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf (2026-10, 1 tablas)",
-    "se: ningún archivo descargable (8 enlaces con error)"
+    "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.ecsapem.com.ar/organization/rates"
@@ -10502,60 +9764,14 @@
    "ocr": false,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_05_ECSAPEM.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ecsapem",
-    "no_disponibles": [
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_05_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_04_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-03",
-      "titulo": "Cuadro Tarifario del 03-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_03_ECSAPEM.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-02",
-      "titulo": "Cuadro Tarifario del 02-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_02_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2026_01_ECSAPEM.zip",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2025_12_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2025_11_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-10",
-      "titulo": "Cuadro Tarifario del 10-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ECSAPEM/2025_10_ECSAPEM.xlsx",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -14104,7 +13320,7 @@
    ],
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.secheep.gob.ar/?page_id=5601",
-    "se: ningún archivo descargable (9 enlaces con error)"
+    "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SECHEEP/2026_06_SECHEEP.xlsx"
    ],
    "verificado": "2026-10-28T15:44:13+00:00",
    "comparable": {
@@ -14230,7 +13446,7 @@
     ]
    },
    "desactualizado": false,
-   "ultimo_intento": "2026-11-04T17:52:16+00:00",
+   "ultimo_intento": "2026-11-04T18:29:50+00:00",
    "ultimo_intento_fallido": true
   },
   {
@@ -14246,7 +13462,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [],
     "nota": "La tabla de fuentes de referencia lista a DGSP como observación, sin links oficiales."
@@ -15651,7 +14867,7 @@
     "extra: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf (2026-11, 1 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.epec.com.ar/informacion-comercial/grandes-clientes",
@@ -15691,7 +14907,7 @@
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EPEC/2026_06_EPEC.pdf",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -16192,14 +15408,15 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
-    "titulo": "CUADRO-TARIFARIO-108-Dpdf",
-    "pagina": null,
-    "origen": "Distribuidora",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf",
+    "titulo": "Cuadro Tarifario del 04-2026",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpec",
+    "origen": "Secretaría de Energía de la Nación (archivo)",
     "tipo": "pdf",
-    "sha256": "694c62c9e75519b72babd4b022d03e73f0f3b129c6cdc9b04493af2450fcebfd",
-    "bytes": 712705,
-    "via": "URL conocida"
+    "sha256": "7c4e5ae4c08ad9bad122860f76da4b24364b11c8b0000f655a5da04ca47d4de6",
+    "bytes": 711225,
+    "via": "archivo nacional",
+    "motivo": "tiene el mismo texto que el documento de la fuente propia, pero el archivo nacional indica su período (2026-04); en la fuente propia solo se leyó 2026-01"
    },
    "vigencia": null,
    "tablas": [
@@ -18043,9 +17260,9 @@
    "intentos": [
     "primary: LookupError: sin enlaces candidatos en https://www.dpec.com.ar/1500/Cuadro-Tarifario",
     "known: OK https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf (2026-01, 6 tablas)",
-    "se: ningún archivo descargable (2 enlaces con error)"
+    "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
@@ -18073,29 +17290,15 @@
    "escaneado": false,
    "ocr": false,
    "periodo_documento": "2026-01",
-   "archivo_nacional": {
-    "url": null,
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-dpec",
-    "no_disponibles": [
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/DPEC/2026_04_DPEC.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-07",
-      "titulo": "Cuadro Tarifario del 07-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/corrientes/2025_07_DPEC.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
-    "comparacion": {
-     "resultado": "sin_archivo"
-    }
+   "se_mas_nuevo": true,
+   "fuente_reemplazada": {
+    "url": "https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
+    "titulo": "CUADRO-TARIFARIO-108-Dpdf",
+    "periodo": "2026-01",
+    "mismo_texto": true
    },
-   "mes_referencia": "2026-01",
-   "mes_referencia_origen": "texto del documento",
+   "mes_referencia": "2026-04",
+   "mes_referencia_origen": "título",
    "simulador": {
     "periodo": "bimestre",
     "criterio": "Urbano no bonificado, tarifa sin bonificación",
@@ -18690,10 +17893,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx (2026-12, 4 tablas)",
-    "se: ningún archivo descargable (4 enlaces con error)"
+    "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx (2026-12, 4 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [],
     "nota": "El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución."
@@ -18720,36 +17922,21 @@
    "ocr": false,
    "periodo_documento": "2026-12",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-enersa",
     "no_disponibles": [
      {
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_06_ENERSA.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2026_05_ENERSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2025_12_ENERSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ENERSA/2025_11_ENERSA.xlsx",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-12"
     }
    },
    "mes_referencia": "2026-12",
@@ -18990,9 +18177,15 @@
    ],
    "intentos": [
     "primary: LookupError: REFSA: sin períodos",
-    "se: ningún archivo descargable (5 enlaces con error)"
+    "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf"
    ],
-   "verificado": "2026-11-03T16:50:25+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
+   "oficiales": {
+    "links": [
+     "https://www.recursosyenergia.com.ar/tarifas"
+    ],
+    "nota": null
+   },
    "comparable": null,
    "texto": false,
    "escaneado": true,
@@ -19004,9 +18197,7 @@
    "simulador_ocr": null,
    "simulador_subsidio": null,
    "normalizado": null,
-   "desactualizado": true,
-   "ultimo_intento": "2026-11-04T17:52:16+00:00",
-   "ultimo_intento_fallido": true
+   "desactualizado": true
   },
   {
    "id": "ejesa",
@@ -19649,10 +18840,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.ejesa.com.ar/info/pwa/alerts/GetFile?fileId=8wzns3Umg5U= (sin fecha, 15 tablas)",
-    "se: ningún archivo descargable (3 enlaces con error)"
+    "primary: OK https://www.ejesa.com.ar/info/pwa/alerts/GetFile?fileId=8wzns3Umg5U= (sin fecha, 15 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio"
@@ -19665,30 +18855,14 @@
    "ocr": true,
    "periodo_documento": null,
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-01",
+    "titulo": "Cuadro Tarifario del 01-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2026_01_EJESA.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eje-sa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2026_01_EJESA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-10",
-      "titulo": "Cuadro Tarifario del 10-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2025_10_EJESA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-09",
-      "titulo": "Cuadro Tarifario del 09-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJESA/2025_09_EJESA.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -20374,10 +19548,9 @@
     }
    ],
    "intentos": [
-    "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf (2026-10, 1 tablas)",
-    "se: ningún archivo descargable (2 enlaces con error)"
+    "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
@@ -20391,24 +19564,21 @@
    "ocr": false,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-10",
+    "titulo": "Cuadro Tarifario del 10-2025",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2025_10_EJSEDSA.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ejsed-sa",
     "no_disponibles": [
      {
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2026_06_EJEDSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-10",
-      "titulo": "Cuadro Tarifario del 10-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EJSEDSA/2025_10_EJSEDSA.xlsx",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -24304,10 +23474,9 @@
    ],
    "intentos": [
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
-    "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)",
-    "se: ningún archivo descargable (1 enlaces con error)"
+    "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "docs/entregados/ape-res-41-26-cooperativas.pdf",
@@ -24323,18 +23492,14 @@
    "ocr": true,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2025-12",
+    "titulo": "Cuadro Tarifario del 12-2025",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ape",
-    "no_disponibles": [
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -24987,7 +24152,7 @@
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf (2026-04, 9 tablas)",
     "extra: OK https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf (2026-04, 9 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edelar.com.ar/clientes/pequenas-demandas",
@@ -25030,40 +24195,16 @@
     }
    ],
    "archivo_nacional": {
-    "periodo": "2025-11",
-    "titulo": "Cuadro Tarifario del 11-2025",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2025_11_EDELAR.xlsx",
+    "periodo": "2026-03",
+    "titulo": "Cuadro Tarifario del 03-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_03_EDELAR.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edelar",
     "no_disponibles": [
      {
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_06_EDELAR.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-03",
-      "titulo": "Cuadro Tarifario del 03-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_03_EDELAR.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-02",
-      "titulo": "Cuadro Tarifario del 02-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_02_EDELAR.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2026_01_EDELAR.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDELAR/2025_12_EDELAR.xlsx",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -25521,7 +24662,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "pago_mensual": {
     "texto": "La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
     "url": "https://www.edemsa.com/informacion-comercial/"
@@ -25555,42 +24696,11 @@
    "ocr": false,
    "periodo_documento": "2026-09",
    "archivo_nacional": {
-    "periodo": "2025-11",
-    "titulo": "Cuadro Tarifario del 11-2025",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2025_11_EDEMSA.xlsx",
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_05_EDEMSA.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edemsa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_05_EDEMSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_04_EDEMSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-02",
-      "titulo": "Cuadro Tarifario del 02-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_02_EDEMSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-01",
-      "titulo": "Cuadro Tarifario del 01-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2026_01_EDEMSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDEMSA/2025_12_EDEMSA.xlsx",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
      "periodo_propio": "2026-09"
@@ -26601,10 +25711,9 @@
    ],
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)",
-    "extra: OK https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf (2026-08, 2 tablas)",
-    "se: ningún archivo descargable (3 enlaces con error)"
+    "extra: OK https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf (2026-08, 2 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "pago_mensual": {
     "texto": "La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
     "url": "https://www.edeste.com.ar/preguntasfrecuentes.html"
@@ -26656,30 +25765,14 @@
     }
    ],
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-05",
+    "titulo": "Cuadro Tarifario del 05-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_05_EDESTE.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edeste",
-    "no_disponibles": [
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_05_EDESTE.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-03",
-      "titulo": "Cuadro Tarifario del 03-2026",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2026_03_EDESTE.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESTE/2025_11_EDESTE.xlsx",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-09"
     }
    },
    "mes_referencia": "2026-09",
@@ -27401,23 +26494,24 @@
    "nota": "",
    "estado": "documento",
    "documento": {
-    "url": "https://www.boletindigital.misiones.gov.ar/boletines/16326.pdf",
-    "titulo": "Vigente a partir del 12/2024 – Cuadros Tarifarios N°496-497 Clubes de Barrio y Pueblo (Ley 27.098) y Entidades de Bien Público (Ley 27.218).",
-    "pagina": "https://energia.misiones.gob.ar/cuadro-tarifario/",
-    "origen": "Boletín Oficial de Misiones",
-    "tipo": "pdf",
-    "sha256": "9246762c6e22833f32ba48ba96f7bd44d89fcf5b7f4146df41e3bc82db244caa",
-    "bytes": 534355,
-    "via": "búsqueda automática"
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
+    "titulo": "Cuadro Tarifario del 11-2025",
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-emsa",
+    "origen": "Secretaría de Energía de la Nación (archivo)",
+    "tipo": "zip",
+    "sha256": "37ad499929b8114c4c409aec12cfeceda22ac9547d7e2d12942cb3d1a2357a09",
+    "bytes": 84674,
+    "via": "archivo nacional",
+    "motivo": "la Secretaría de Energía tiene un cuadro más nuevo (2025-11) que la fuente propia (2024-12)"
    },
    "vigencia": null,
    "tablas": [],
    "intentos": [
     "parser: ValueError: no se encontró la sección /CUADRO TARIFARIO N[ºo°] 654\\s+Vigente/",
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16326.pdf (2024-12, 0 tablas)",
-    "se: ningún archivo descargable (1 enlaces con error)"
+    "se: OK http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.energiademisiones.com.ar/cuadros-tarifarios-vigentes/"
@@ -27425,26 +26519,18 @@
     "nota": null
    },
    "comparable": null,
-   "texto": true,
+   "texto": false,
    "escaneado": false,
    "ocr": false,
    "periodo_documento": "2024-12",
-   "archivo_nacional": {
-    "url": null,
-    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-emsa",
-    "no_disponibles": [
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EMSA/2025_11_EMSA.zip",
-      "error": "ConnectTimeout"
-     }
-    ],
-    "comparacion": {
-     "resultado": "sin_archivo"
-    }
+   "se_mas_nuevo": true,
+   "fuente_reemplazada": {
+    "url": "https://www.boletindigital.misiones.gov.ar/boletines/16326.pdf",
+    "titulo": "Vigente a partir del 12/2024 – Cuadros Tarifarios N°496-497 Clubes de Barrio y Pueblo (Ley 27.098) y Entidades de Bien Público (Ley 27.218).",
+    "periodo": "2024-12",
+    "mismo_texto": false
    },
-   "mes_referencia": "2024-12",
+   "mes_referencia": "2025-11",
    "mes_referencia_origen": "título",
    "simulador": null,
    "demanda": null,
@@ -28317,7 +27403,7 @@
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf (2026-09, 6 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.epen.gov.ar/index.php/cuadros-tarifarios/"
@@ -28353,7 +27439,7 @@
       "periodo": "2025-07",
       "titulo": "Cuadro Tarifario del 07-2025",
       "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/neuquen/2025_07_EPEN.pdf",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -29211,10 +28297,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf (2026-10, 1 tablas)",
-    "se: ningún archivo descargable (4 enlaces con error)"
+    "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edersa.com.ar/usuarios/cuadro-tarifario/"
@@ -29243,36 +28328,14 @@
    "ocr": false,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "url": null,
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edersa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_06_EDERSA.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_05_EDERSA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-03",
-      "titulo": "Cuadro Tarifario del 03-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2026_03_EDERSA.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-10",
-      "titulo": "Cuadro Tarifario del 10-2025",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDERSA/2025_10_EDERSA.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
-     "resultado": "sin_archivo"
+     "resultado": "mas_viejo",
+     "periodo_propio": "2026-10"
     }
    },
    "mes_referencia": "2026-10",
@@ -30331,7 +29394,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edesa.com.ar/cuadros-tarifarios/",
@@ -30361,36 +29424,11 @@
    "ocr": true,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "periodo": "2025-09",
-    "titulo": "Cuadro Tarifario del 09-2025",
-    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2025_09_EDESA.pdf",
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_06_EDESA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2026_05_EDESA.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-12",
-      "titulo": "Cuadro Tarifario del 12-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2025_12_EDESA.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2025-11",
-      "titulo": "Cuadro Tarifario del 11-2025",
-      "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESA/2025_11_EDESA.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
      "periodo_propio": "2026-10"
@@ -30999,7 +30037,7 @@
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf (2026-09, 3 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "pago_mensual": {
     "texto": "Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
     "url": "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"
@@ -31039,7 +30077,7 @@
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/ESJ/2026_06_ESJ.pdf",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -32223,7 +31261,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "extra: OK docs/entregados/edesal-cuadro-tarifario-2026-09.pdf (2026-09, 3 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf"
@@ -32252,30 +31290,11 @@
    "ocr": false,
    "periodo_documento": "2026-09",
    "archivo_nacional": {
-    "periodo": "2026-03",
-    "titulo": "Cuadro Tarifario del 03-2026",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_03_EDESAL.xlsx",
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edesal-sa",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_06_EDESAL.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_05_EDESAL.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-04",
-      "titulo": "Cuadro Tarifario del 04-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESAL/2026_04_EDESAL.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
      "periodo_propio": "2026-09"
@@ -33625,7 +32644,7 @@
     "extra: OK docs/entregados/spse-cuadro-tarifario-web-2026-11-04.pdf (2026-09, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://spse.ar/atencion-cliente#cuadroTarifario"
@@ -33645,7 +32664,7 @@
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -33782,7 +32801,7 @@
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f (2026-10, 2 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [],
     "nota": "En las páginas de EPE hay que ir a Tarifas y después a Cuadro Tarifario (usuarios y grandes usuarios) o a Transparencia y después a Comparativas Tarifarias."
@@ -33816,7 +32835,7 @@
       "periodo": "2025-07",
       "titulo": "Cuadro Tarifario del 07-2025",
       "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/santa_fe/2025_07_EPE.pdf",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -34355,7 +33374,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
@@ -34385,24 +33404,11 @@
    "ocr": false,
    "periodo_documento": "2026-10",
    "archivo_nacional": {
-    "periodo": "2026-04",
-    "titulo": "Cuadro Tarifario del 04-2026",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_04_EDESE.xlsx",
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_06_EDESE.xlsx",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edese",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_06_EDESE.xlsx",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_05_EDESE.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
      "periodo_propio": "2026-10"
@@ -35993,7 +34999,7 @@
     "extra: OK https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t (2026-10, 14 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.dpe.com.ar/usuarios/cuadro_tarifario/",
@@ -36040,7 +35046,7 @@
       "periodo": "2025-07",
       "titulo": "Cuadro Tarifario del 07-2025",
       "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/tierra_del_fuego/2025_07_DPE.pdf",
-      "error": "ConnectTimeout"
+      "error": "HTTP 404"
      }
     ],
     "comparacion": {
@@ -37681,7 +36687,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0= (2026-09, 59 tablas)"
    ],
-   "verificado": "2026-11-04T17:52:16+00:00",
+   "verificado": "2026-11-04T18:29:50+00:00",
    "oficiales": {
     "links": [
      "https://www.edetsa.com/info/pwa/institucional/costos-del-servicio",
@@ -37695,24 +36701,11 @@
    "ocr": true,
    "periodo_documento": "2026-09",
    "archivo_nacional": {
-    "periodo": "2026-04",
-    "titulo": "Cuadro Tarifario del 04-2026",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_04_EDET.pdf",
+    "periodo": "2026-06",
+    "titulo": "Cuadro Tarifario del 06-2026",
+    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet",
-    "no_disponibles": [
-     {
-      "periodo": "2026-06",
-      "titulo": "Cuadro Tarifario del 06-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
-      "error": "ConnectTimeout"
-     },
-     {
-      "periodo": "2026-05",
-      "titulo": "Cuadro Tarifario del 05-2026",
-      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_05_EDET.pdf",
-      "error": "ConnectTimeout"
-     }
-    ],
+    "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
      "periodo_propio": "2026-09"

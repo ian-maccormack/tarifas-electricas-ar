@@ -1,233 +1,101 @@
-##### Archivo: 2026_07_EDENOR 3.xlsx
-=== Hoja: anexo n2 ===
-Cuadro Tarifario
-vigencia a partir del 1° de junio de 2026
- |  |  | EDENOR
- |  |  | por los primeros 300 kWh/mes - con subsidio | por el excedente a los 300 kWh/mes - sin subsidio
-Tarifa 1 - R
-R1 | Cargo Fijo 0 -150 | $/mes | 1661.69 | -
- | Cargo Variable 0 -150 | $/kWh | 71.518 | -
-R2 | Cargo Fijo 151-400 | $/mes | 3544.12 | 3544.12
- | Cargo Variable 151-400 | $/kWh | 72.124 | 147.156
-R3 | Cargo Fijo 401-500 | $/mes | 11638.12 | 11638.12
- | Cargo Variable 401-500 | $/kWh | 83.326 | 158.359
-R4 | Cargo Fijo 501 a 600 | $/mes | 18618.38 | 18618.38
- | Cargo Variable 501 a 600 | $/kWh | 86.971 | 162.004
-R5 | Cargo Fijo 601 a 700 | $/mes | 39242.25 | 39242.25
- | Cargo Variable 601 a 700 | $/kWh | 87.244 | 162.277
-R6 | Cargo Fijo +700 | $/mes | 61208.56 | 61208.56
- | Cargo Variable +700 | $/kWh | 101.863 | 176.895
-##### Archivo: 2026_07_EDENOR 4.xlsx
-=== Hoja: anexo (2) ===
- | Valores Tarifarios Medidores Autoadministrados
- | vigencia a partir del 1° de junio de 2026
- | Tarifa Residencial |  |  | Sin subsidio
- | R1 | Cargo Variable 0 -150 | $/kWh | 157.629
- | R2 | Cargo Variable 151-400 | $/kWh | 155.049
- | R3 | Cargo Variable 401-500 | $/kWh | 284.108
- | R4 | Cargo Variable 501-600 | $/kWh | 250.032
- | R5 | Cargo Variable 601-700 | $/kWh | 370.154
- | R6 | Cargo Variable  701-1400 | $/kWh | 222.893
- | R7 | Cargo Variable +1400 | $/kWh | 176.895
- | Tarifa Residencial |  |  | Con subsidio
- | R1 | Cargo Variable 0 -150 | $/kWh | 82.596
- | R2 | Cargo Variable 151-400 | $/kWh | 110.03
- | R3 | Cargo Variable 401-500 | $/kWh | 284.108
- | R4 | Cargo Variable 501-600 | $/kWh | 250.032
- | R5 | Cargo Variable 601-700 | $/kWh | 370.154
- | R6 | Cargo Variable  701-1400 | $/kWh | 222.893
- | R7 | Cargo Variable +1400 | $/kWh | 176.895
- | Tarifa General |  |  | Plena
- | G1 | Cargo Variable 0 - 800 | $/kWh | 176.194
- | G2 | Cargo Variable 801 - 2000 | $/kWh | 193.444
- | G3 | Cargo Variable 2001 - 4000 | $/kWh | 182.648
- | G4 | Cargo Variable + 4000 | $/kWh | 180.029
-##### Archivo: 2026_07_EDENOR 1.xlsx
-=== Hoja: CdB ===
-Cuadro Tarifario
-Clubes de Barrio y de Pueblo-Resolución SE N° 742/2022
-vigencia a partir de 1° de junio de 2026
- |  |  | EDENOR
-Tarifa 1 - Residencial y Entidades de Bien Público
-R1 | Cargo Fijo 0 -150 | $/mes | 1661.69
- | Cargo Variable 0 -150 | $/kWh | 71.518
-R2 | Cargo Fijo 151-400 | $/mes | 3544.12
- | Cargo Variable 151-400 | $/kWh | 72.124
-R3 | Cargo Fijo 401-500 | $/mes | 11638.12
- | Cargo Variable 401-500 | $/kWh | 83.326
-R4 | Cargo Fijo 501 a 600 | $/mes | 18618.38
- | Cargo Variable 501 a 600 | $/kWh | 86.971
-R5 | Cargo Fijo 601 a 700 | $/mes | 39242.25
- | Cargo Variable 601 a 700 | $/kWh | 87.244
-R6 | Cargo Fijo +700 | $/mes | 61208.56
- | Cargo Variable +700 | $/kWh | 101.863
-Tarifa 1 - G
-G1 | Cargo Fijo 0 -800 | $/mes | 18268.19
- | Cargo Variable 0 -800 | $/kWh | 153.359
-G2 | Cargo Fijo 801-2000 | $/mes | 18268.19
- | Cargo Variable 801-2000 | $/kWh | 177.41
-G3 | Cargo Fijo +2000 | $/mes | 18268.19
- | Cargo Variable +2000 | $/kWh | 180.029
-Tarifa 2
- | Cargo Fijo | $/mes | 44812.4
- | Cargo por Potencia Contratada | $/kW-mes | 21000.27
- | Cargo por Potencia Adquirida | $/kW-mes | 4047.62
- | Cargo Variable | $/kWh | 46.745
-Tarifa 3 - BT
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 18716.96
- | Cargo por Potencia Adquirida | $/kW-mes | 4248.77
- | Cargo Variable Pico | $/kWh | 47.823
- | Cargo Variable Resto | $/kWh | 46.599
- | Cargo Variable Valle | $/kWh | 46.028
-Tarifa 3 - MT
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 8850.56
- | Cargo por Potencia Adquirida | $/kW-mes | 4664.93
- | Cargo Variable Pico | $/kWh | 45.474
- | Cargo Variable Resto | $/kWh | 44.31
- | Cargo Variable Valle | $/kWh | 43.768
-Tarifa 3 - AT
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 2323.32
- | Cargo por Potencia Adquirida | $/kW-mes | 3785.13
- | Cargo Variable Pico | $/kWh | 43.628
- | Cargo Variable Resto | $/kWh | 42.512
- | Cargo Variable Valle | $/kWh | 41.992
-##### Archivo: 2026_07_EDENOR 2.xlsx
-=== Hoja: anexo ct ===
-Cuadro Tarifario
-vigencia a partir del 1° de junio de 2026
- |  |  | EDENOR
-Tarifa 1 - R  sin subsidio
-R1 | Cargo Fijo 0 -150 | $/mes | 1661.69
- | Cargo Variable 0 -150 | $/kWh | 146.551
-R2 | Cargo Fijo 151-400 | $/mes | 3544.12
- | Cargo Variable 151-400 | $/kWh | 147.156
-R3 | Cargo Fijo 401-500 | $/mes | 11638.12
- | Cargo Variable 401-500 | $/kWh | 158.359
-R4 | Cargo Fijo 501 a 600 | $/mes | 18618.38
- | Cargo Variable 501 a 600 | $/kWh | 162.004
-R5 | Cargo Fijo 601 a 700 | $/mes | 39242.25
- | Cargo Variable 601 a 700 | $/kWh | 162.277
-R6 | Cargo Fijo +700 | $/mes | 61208.56
- | Cargo Variable +700 | $/kWh | 176.895
-Tarifa 1 - G
-G1 | Cargo Fijo 0 -800 | $/mes | 18268.19
- | Cargo Variable 0 -800 | $/kWh | 229.256
-G2 | Cargo Fijo 801-2000 | $/mes | 18268.19
- | Cargo Variable 801-2000 | $/kWh | 253.308
-G3 | Cargo Fijo +2000 | $/mes | 18268.19
- | CV + 2000 | $/kWh | 255.926
-Tarifa 1 - AP
- | Cargo variable | $/kWh | 201.349
-Tarifa 2
- | Cargo Fijo | $/mes | 44812.4
- | Cargo por Potencia Contratada | $/kW-mes | 21000.27
- | Cargo por Potencia Adquirida | $/kW-mes | 9882.09
- | Cargo variable | $/kWh | 108.756
-Tarifa 3 - BT <300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 18716.96
- | Cargo por Potencia Adquirida | $/kW-mes | 10373.18
- | Cargo Variable Pico | $/kWh | 111.604
- | Cargo Variable Resto | $/kWh | 108.369
- | Cargo Variable Valle | $/kWh | 106.863
-Tarifa 3 - MT <300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 8850.56
- | Cargo por Potencia Adquirida | $/kW-mes | 11389.23
- | Cargo Variable Pico | $/kWh | 106.088
- | Cargo Variable Resto | $/kWh | 103.014
- | Cargo Variable Valle | $/kWh | 101.583
-Tarifa 3 - AT<300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 2323.32
- | Cargo por Potencia Adquirida | $/kW-mes | 9241.24
- | Cargo Variable Pico | $/kWh | 101.755
- | Cargo Variable Resto | $/kWh | 98.806
- | Cargo Variable Valle | $/kWh | 97.434
-Tarifa 3 - BT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 18716.96
- | Cargo por Potencia Adquirida | $/kW-mes | 10373.18
- | Cargo Variable Pico | $/kWh | 111.832
- | Cargo Variable Resto | $/kWh | 108.589
- | Cargo Variable Valle | $/kWh | 107.078
-Tarifa 3 - MT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 8850.56
- | Cargo por Potencia Adquirida | $/kW-mes | 11389.23
- | Cargo Variable Pico | $/kWh | 106.305
- | Cargo Variable Resto | $/kWh | 103.223
- | Cargo Variable Valle | $/kWh | 101.787
-Tarifa 3 - AT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/kW-mes | 2323.32
- | Cargo por Potencia Adquirida | $/kW-mes | 9241.24
- | Cargo Variable Pico | $/kWh | 101.962
- | Cargo Variable Resto | $/kWh | 99.007
- | Cargo Variable Valle | $/kWh | 97.63
- | Tarifas Servicio de Peaje
-Tarifa 2
- | Cargo Fijo | $/mes | 44812.4
- | Cargo por Potencia Contratada | $/MW-mes | 21000267
- | Cargo por Potencia Adquirida | $/MW-mes | 1236341
- | Cargo Variable | $/MWh | 12790
-Tarifa 3 - BT <300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 18716963
- | Cargo por Potencia Adquirida | $/MW-mes | 1297782
- | Cargo Variable Pico | $/MWh | 13112.85
- | Cargo Variable Resto | $/MWh | 12745.74
- | Cargo Variable Valle | $/MWh | 12574.86
-Tarifa 3 - MT <300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 8850558
- | Cargo por Potencia Adquirida | $/MW-mes | 833873
- | Cargo Variable Pico | $/MWh | 7597.35
- | Cargo Variable Resto | $/MWh | 7390.86
- | Cargo Variable Valle | $/MWh | 7294.74
-Tarifa 3 - AT<300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 2323321
- | Cargo por Potencia Adquirida | $/MW-mes | 269162
- | Cargo Variable Pico | $/MWh | 3263.75
- | Cargo Variable Resto | $/MWh | 3183.44
- | Cargo Variable Valle | $/MWh | 3146.06
-Tarifa 3 - BT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 18716963
- | Cargo por Potencia Adquirida | $/MW-mes | 1297782
- | Cargo Variable Pico | $/MWh | 13138.7
- | Cargo Variable Resto | $/MWh | 12770.7
- | Cargo Variable Valle | $/MWh | 12599.31
-Tarifa 3 - MT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 8850558
- | Cargo por Potencia Adquirida | $/MW-mes | 833873
- | Cargo Variable Pico | $/MWh | 7611.9
- | Cargo Variable Resto | $/MWh | 7404.9
- | Cargo Variable Valle | $/MWh | 7308.49
-Tarifa 3 - AT >300
- | Cargo Fijo | $/mes | 177533.46
- | Cargo por Potencia Contratada | $/MW-mes | 2323321
- | Cargo por Potencia Adquirida | $/MW-mes | 269162
- | Cargo Variable Pico | $/MWh | 3269.4
- | Cargo Variable Resto | $/MWh | 3188.9
- | Cargo Variable Valle | $/MWh | 3151.41
-Servicio de rehabilitación
- | Tarifa 1 - R1 | $ | 4821.02
- | Tarifa 1 - G y AP | $ | 29158.84
- | Tarifa 2 y Tarifa 3 | $ | 77110.93
-Conexiones domiciliarias
- | Comunes
- | Aéreas monofásicas | $ | 58706.24
- | Subterráneas | $ | 182347.71
- | Aéreas trifásicas | $ | 111093.09
- | Subterráneas Trifásicas | $ | 278776.66
- | Especiales
- | Aéreas monofásicas | $ | 154069.78
- | Subterráneas | $ | 495704.36
- | Aéreas trifásicas | $ | 271454.38
- | Subterráneas Trifásicas | $ | 512477.46
+CUADRO TARIFARIO
+Resolución ENReGE N° 886/2026 vigente a partir del 01/11/2026.
+
+                  Tarifa 1 (Pequeñas Demandas)                               Con Subsidio                                                                     Tarifa 3 (Grandes Demandas)                  Pot. < a 300 kW    Pot. = > a 300 kW      CBN (club de barrio)
+                                                                                                                                                                                                                                                                                                                  Conexiones Domiciliarias
+                                                                                                                                       CBN
+                                                                                                          Sin Subsidio           (club de barrio)
+                                                                      Primeros        Excedente a
+Tarifa                 Rango de consumo                 Unidad        200 kWh          200 kWh                                                                 Concepto                   Unidad              Valor               Valor                     Valor                                       Concepto                                      Unidad                Valor
+
+T1-R      Uso Residencial                                                                                                                               •Baja Tensión
+                                                                                                                                                        Cargo Fijo                         $/mes          199.844,00         199.844,00                 199.844,00                   a) Conexiones comunes por usuario
+                                                                                                                                                        Cargo Potencia Contratada        $/kW-mes          21.069,11          21.069,11                  21.069,11                     • Aérea Monofásica                                           $/conexión         66.086,88
+ R1       Consumo mensual inferior o igual a 150 kWh
+                                                                                                                                                        Cargo Potencia Adquirida         $/kW-mes          12.713,63          12.713,63                   4.828,64                     • Subterránea Monofásica                                     $/conexión        205.272,75
+          • Cargo ﬁjo (haya o no consumo)               $/mes          1.870,51                                  1.870,51                 1.870,51
+                                                                                                                                                        Cargo Variable Pico                $/kWh            152,843            169,075                      37,866                     • Aérea Trifásica                                            $/conexión        125.059,89
+          • Cargo variable por energía                  $/kWh            65,073                                  163,597                    65,073                                                                                                                                     • Subterránea Trifásica                                      $/conexión        313.824,90
+                                                                                                                                                        Cargo Variable Resto               $/kWh            147,933            163,565                      36,929
+                                                                                                                                                        Cargo Variable Valle               $/kWh            146,996            162,513                      36,751
+ R2       Consumo mensual de 151 kWh a 400 kWh                                                                                                                                                                                                                                       b) Conexiones especiales por usuario
+          • Cargo ﬁjo                                   $/mes          3.989,51             ---                  3.989,51                 3.989,51      •Media Tensión                                                                                                                 • Aérea Monofásica                                           $/conexión        173.439,68
+          • Cargo variable por energía                  $/kWh            65,754         164,279                  164,279                    65,754      Cargo Fijo                         $/mes          199.844,00          199.844,00                199.844,00                     • Subterránea Monofásica                                     $/conexión        558.025,12
+                                                                                                                                                        Cargo Potencia Contratada        $/kW-mes           9.962,80            9.962,80                 9.962,800                     • Aérea Trifásica                                            $/conexión        305.582,06
+ R3       Consumo mensual de 401 kWh a 500 kWh                                                                                                          Cargo Potencia Adquirida         $/kW-mes          13.958,92           13.958,92                  5.301,60                     • Subterránea Trifásica                                      $/conexión        576.906,96
+          • Cargo ﬁjo                                   $/mes         13.100,68             ---                 13.100,68               13.100,68       Cargo Variable Pico                $/kWh            145,255             160,681                     35,986
+          • Cargo variable por energía                  $/kWh            78,365         176,889                  176,889                   78,365       Cargo Variable Resto               $/kWh            140,589             155,444                     35,096
+                                                                                                                                                        Cargo Variable Valle               $/kWh            139,699             154,445                     34,926
+                                                                                                                                                                                                                                                                                                                  Servicio de Rehabilitación
+ R4       Consumo mensual de 501 kWh a 600 kWh
+          • Cargo ﬁjo                                   $/mes         20.958,14             ---                 20.958,14               20.958,14       •Alta Tensión                                                                                                                                   Concepto                                      Unidad                Valor
+          • Cargo variable por energía                  $/kWh            82,468         180,992                  180,992                   82,468       Cargo Fijo                         $/mes          199.844,00          199.844,00                199.844,00
+                                                                                                                                                        Cargo Potencia Contratada        $/kW-mes           2.615,29            2.615,29                 2.615,290
+                                                                                                                                                        Cargo Potencia Adquirida         $/kW-mes          11.326,28           11.326,28                  4.301,72                   Por cada servicio interrumpido por falta de pago
+ R5       Consumo mensual de 601 kWh a 700 kWh                                                                                                          Cargo Variable Pico                $/kWh            139,293             154,086                     34,509                     • Tarifa 1 Uso Residencial                                    $/servicio         5.427,12
+          • Cargo ﬁjo                                   $/mes         44.173,81             ---                 44.173,81               44.173,81       Cargo Variable Resto               $/kWh            134,818             149,064                     33,655                                                                                                     32.824,74
+                                                                                                                                                                                                                                                                                       • Tarifa 1 Uso General y Alumbrado Público                    $/servicio
+          • Cargo variable por energía                  $/kWh            82,776         181,300                  181,300                   82,776       Cargo Variable Valle               $/kWh            133,965             148,106                     33,492                     • Tarifas 2 y 3                                               $/servicio        86.805,44
+ R6       Consumo mensual mayor a 700 kWh
+                                                        $/mes                                                                                                              Tarifa 3 (Servicio de Peaje)                      Pot. < a 300 kW            Pot. = > a 300 kW
+          • Cargo ﬁjo                                                 68.900,60             ---                 68.900,60               68.900,60                                                                                                                                                        Normas de Calidad del Producto Técnico
+          • Cargo variable por energía                  $/kWh            99,231         197,755                  197,755                   99,231                         Concepto                                             Unidad                      Unidad
+                                                                                                                                                                                                                                                                                                       Concepto                                                     Valor
+
+                                                                                                                                        CBN (club
+                                                                                                                                                        • Baja Tensión
+Tarifa                             Rango de consumo                                                  Unidad              Valor          de barrio)      Cargo Fijo                                          $/mes            199.844,00                 199.844,00
+                                                                                                                                                        Cargo Potencia Contratada                         $/kW-mes           21.069,114                 21.069,114           El suministro eléctrico deberá efectuarse dentro de los siguientes
+                                                                                                                                                        Cargo Potencia Adquirida                          $/kW-mes            1.590,594                  1.590,594           límites admisibles de tensión respecto al valor nominal:
+ T1- G      Uso General                                                                                                                                                                                                                                                        • Suministros en Alta Tensión                                                  +/-           5%
+  G1        Consumo mensual inferior o igual a 800 kWh                                                                                                  Cargo Variable Pico                                 $/kWh             17,34387                   19,18579
+                                                                                                                                                        Cargo Variable Resto                                $/kWh             16,78669                   18,56051              • Suministros en Media y Baja Tensión                                          +/-           8%
+            • Cargo ﬁjo (haya o no consumo)                                                          $/mes          20.563,94         20.563,94
+            • Cargo variable por energía                                                             $/kWh           286,739           157,191          Cargo Variable Valle                                $/kWh             16,68045                   18,44122
+  G2        Consumo mensual superior a 800 kWh e inferior
+            o igual a 2000 kWh                                                                                                                          • Media Tensión                                                                                                                            Valores Tarifarios para Medidores Autoadministrados
+            • Cargo ﬁjo                                                                              $/mes          20.563,94         20.563,94         Cargo Fijo                                          $/mes            199.844,00                 199.844,00
+            • Cargo variable por energía                                                             $/kWh                                              Cargo Potencia Contratada                         $/kW-mes            9.962,803                  9.962,803
+                                                                                                                     313,813           184,265                                                                                                                                                                       Tarifa Residencial
+                                                                                                                                                        Cargo Potencia Adquirida                          $/kW-mes            1.022,016                  1.022,016
+  G3        Consumo mensual mayor a 2000 kWh
+                                                                                                                                                        Cargo Variable Pico                                 $/kWh               9,75593                  10,79201
+            • Cargo ﬁjo                                                                              $/mes          20.563,94         20.563,94                                                                                                                             Tarifa        Energía comprada durante el mes       Unidad         Con Subsidio          Sin Subsidio
+                                                                                                                                                        Cargo Variable Resto                                $/kWh               9,44251                  10,44029
+            • Cargo variable por energía                                                             $/kWh           316,761           187,213
+                                                                                                                                                        Cargo Variable Valle                                $/kWh               9,38275                  10,37318
+
+T1-A.P.     Alumbrado Público                                                                                                                           • Alta Tensión
+            • Cargo variable por energía                                                             $/kWh           264,091                            Cargo Fijo                                          $/mes            199.844,00                 199.844,00
+                                                                                                                                                        Cargo Potencia Contratada                         $/kW-mes            2.615,291                  2.615,291            R1          Cargo variable 0 - 150 kWh            $/kWh            77,543                176,067
+                                              Tarifa 2 (Medianas Demandas)                                                             CBN (club        Cargo Potencia Adquirida                          $/kW-mes              329,892                    329,892            R2          Cargo variable 151 - 400 kWh          $/kWh            153,459               173,164
+                                                                                                                                       de barrio)       Cargo Variable Pico                                 $/kWh               3,79397                    4,19689            R3          Cargo variable 401 - 500 kWh          $/kWh            318,441               318,441
+                            Concepto                                                                 Unidad              Valor                          Cargo Variable Resto                                $/kWh               3,67209                    4,06011            R4          Cargo variable 501 - 600 kWh          $/kWh            280,082               280,082
+                                                                                                                                                        Cargo Variable Valle                                $/kWh               3,64885                    4,03402            R5          Cargo variable 601 - 700 kWh          $/kWh            415,305               415,305
+            • Cargo Fijo                                                                              $/mes         50.443,95         50.443,95                                                                                                                               R6          Cargo variable 701 - 1400 kWh         $/kWh            249,534               249,534
+            • Cargo por Potencia Contratada                                                         $/kW-mes        23.639,36         23.639,36                            Recargos por la Energía Reactiva
+            • Cargo por Potencia Adquirida                                                                                                                                                                                                                                    R7          Cargo variable + 1401 kWh             $/kWh            197,755               197,755
+                                                                                                    $/kW-mes        12.111,72          4.600,03      Tarifa                                   Concepto                                            Unidad          Valor
+            • Cargo variable por energía                                                              $/kWh          148,772             37,089
+                                                                                                                                                      T1          • Recargo por cada centésimo de coseno ﬁ menor de 0,95 aplicado                   %              1,50
+                                                       Tarifa 2 (Servicio de Peaje)                                                                               sobre el cargo ﬁjo y el total da la energía activa.                                                                                               Tarifa General
+                            Concepto                                                                            Unidad                 Valor          T2                                                                                                                    Tarifa               Energía comprada durante el mes                       Unidad               Plena
+                                                                                                                                                                  • Recargo por cada centésimo de coseno ﬁ menor de 0,95 aplicado                   %              1,50
+                                                                                                                                                                  sobre el cargo por pot. adquirida y el total da la energía activa.
+            • Cargo Fijo                                                                                         $/mes              50.443,95                                                                                                                                G1          Cargo variable 0 - 800 kWh                                    $/kWh            312,444
+            • Cargo por Potencia Contratada                                                                    $/kW-mes            23.639,359         T3          • Recargo por cada centésimo de Tg ﬁ mayor de 0,33 por la energía                                          G2          Cargo variable 801 - 2000 kWh                                 $/kWh            331,862
+            • Cargo por Potencia Adquirida                                                                     $/kW-mes             1.515,290                                                                                                       %              1,50
+                                                                                                                                                                  reactiva en exceso del 33%. Aplicado sobre el cargo por Pot                                                G3          Cargo variable 2001 - 4000 kWh                                $/kWh            319,709
+            • Cargo variable por energía                                                                         $/kWh                 16,882                     Adquirida y total de la energía activa.                                                                    G4          Cargo variable + 4000 kWh                                     $/kWh            316,761
+
+
+            Los clientes electrodependientes se facturan de acuerdo a la resolución ENRE N° 292/2017.                                                                                              -Los usuarios de CABA y PBA que actualmente tienen Tarifa Social, recibirán una boniﬁcación en $ de acuerdo con el escalón de consumo.
+            Las Entidades de Bien Público se facturan de acuerdo a la resolución ENRE N° 393/2017.
+
+
+
+
+LOS VALORES INDICADOS NO INCLUYEN EL IMPUESTO AL VALOR AGREGADO (IVA) NI DEMÁS TRIBUTOS E IMPUESTOS ESTABLECIDOS EN LA LEGISLACIÓN VIGENTE.
+La publicación y aplicación por parte de Edenor del Cuadro Tarifario aprobado por el ENReGE en la Resolución ENReGE N° 886/2026 sin que éste contenga los ajustes correspondientes al Contrato de Concesión y marco regulatorio aplicable no implica
+su consentimiento ni constituye renuncia alguna a los derechos que le asisten a Edenor.
+
