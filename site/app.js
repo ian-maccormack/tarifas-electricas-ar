@@ -129,9 +129,17 @@ function renderList() {
 const COMP = { sort: null, dir: 1 };
 const PER = (s) => (s.periodo === "bimestre" ? "bim" : "mes");
 const rango = (a, b, u) => (b === null ? `más de ${num(a, 0)} ${u}` : `${num(a, 0)}–${num(b, 0)} ${u}`);
+// Cuadros whose subsidised prices depend on the zona bioambiental publish one table per zone.
+function subOf(e, sel) {
+  const s = e.simulador_subsidio;
+  if (!s || !s.zonas) return s;
+  const z = s.zonas.find((z) => z.id === $(sel).value);
+  return z ? { ...s, categorias: z.categorias, criterio: z.criterio, zona: z.nombre, _sub: true } : null;
+}
 function compSim(e, modo, ocr) {
   const plain = e.simulador || (ocr ? e.simulador_ocr : null);
-  if (modo === "sub" && e.simulador_subsidio) return { s: e.simulador_subsidio, sub: true };
+  const ss = modo === "sub" ? subOf(e, "#c-zona") : null;
+  if (ss) return { s: ss, sub: true };
   return plain ? { s: plain, sub: false, ocr: !e.simulador } : null;
 }
 function compRes(e, x, crit, kwhMes, mes, aMes) {
@@ -178,7 +186,7 @@ function compDem(d, q) {
 const NA = '<td class="num"><span class="note" title="El cuadro tiene un único precio de energía para todas las horas">no aplica</span></td>';
 function renderComp() {
   const modo = $("#c-tarifa").value, dem = modo === "dem", crit = $("#c-crit").value;
-  $("#c-res-crit").hidden = dem; $("#c-dem-crit").hidden = !dem; $("#c-mes-l").hidden = dem; $("#c-kwh-l").hidden = crit !== "kwh";
+  $("#c-res-crit").hidden = dem; $("#c-dem-crit").hidden = !dem; $("#c-mes-l").hidden = dem; $("#c-zona-l").hidden = modo !== "sub"; $("#c-kwh-l").hidden = crit !== "kwh";
   const prov = $("#c-prov").value, onlyData = $("#c-data").checked, ocr = $("#c-ocr").checked, noOld = $("#c-old").checked;
   const kwh = Math.max(0, +$("#c-kwh").value || 0), mes = new Date().getMonth() + 1, aMes = $("#c-mes").checked;
   const q = { kw: Math.max(0, +$("#c-kw").value || 0), ten: $("#c-ten").value };
@@ -308,7 +316,7 @@ function simResults() {
   const kwh = Math.max(0, +$("#s-kwh").value || 0), sub = $("#s-sub").checked, mes = +$("#s-mes").value;
   return DATA.distribuidoras.map((e) => {
     let r = null, motivo = "";
-    const sim = (sub && e.simulador_subsidio) || e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
+    const sim = (sub && subOf(e, "#s-zona")) || e.simulador || ($("#s-ocr").checked ? e.simulador_ocr : null);
     if (sim) { r = simulate(sim, kwh, mes); if (r.total === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
     else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
@@ -341,6 +349,7 @@ function renderSim() {
   const q = demInputs();
   $("#d-resto").textContent = `Resto ${num(Math.max(0, 100 * (1 - q.pico - q.valle)), 0)} %`;
   $("#s-mes-l").hidden = !$("#s-sub").checked || $("#s-tipo").value === "dem";
+  $("#s-zona-l").hidden = $("#s-mes-l").hidden;
   const all = simResults(), showAll = $("#s-all").checked;
   let rows = all.filter((x) => (!SIM.prov || x.e.provincia === SIM.prov) && (showAll || x.total !== null));
   rows = sortBy(rows, (x) => x.total, 1);
@@ -348,7 +357,7 @@ function renderSim() {
   let h = "";
   for (const x of rows) {
     const bar = x.total !== null ? `<div class="bar"><span style="width:${(100 * x.total / max).toFixed(1)}%"></span><b>${money(x.total)}</b></div>` : `<span class="empty">sin resultado</span> <span class="note">${esc(x.motivo)}</span>`;
-    const badges = (!x.dem && x.sim && x.sim === x.e.simulador_subsidio ? '<span class="badge b-sub" title="Cargos con subsidio publicados en el cuadro">con subsidio</span> ' : "") + (!x.dem && x.sub && x.sim && x.sim !== x.e.simulador_subsidio ? '<span class="badge b-old" title="El cuadro no publica cargos con subsidio que se puedan aplicar con seguridad: se muestra el valor sin subsidio">sin subsidio publicado</span> ' : "") + (!x.dem && x.sim && x.sim === x.e.simulador_ocr ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
+    const badges = (!x.dem && x.sim && (x.sim === x.e.simulador_subsidio || x.sim._sub) ? '<span class="badge b-sub" title="Cargos con subsidio publicados en el cuadro">con subsidio</span> ' : "") + (!x.dem && x.sub && x.sim && x.sim !== x.e.simulador_subsidio && !x.sim._sub ? '<span class="badge b-old" title="El cuadro no publica cargos con subsidio que se puedan aplicar con seguridad: se muestra el valor sin subsidio">sin subsidio publicado</span> ' : "") + (!x.dem && x.sim && x.sim === x.e.simulador_ocr ? '<span class="badge b-ocr" title="Valores leídos por OCR: pueden tener errores">OCR</span> ' : "") + (!x.dem && x.sim?.periodo === "bimestre" ? '<span class="badge b-old" title="El cuadro es bimestral: se convirtió dentro del cálculo">bimestral → mes</span>' : "") + (x.e.desactualizado ? ' <span class="badge b-viejo">+2 meses</span>' : "");
     h += `<details class="simrow"${x.total === null ? ' data-empty=""' : ""}><summary><span class="sn"><a href="#d-${x.e.id}" onclick="openCard('${x.e.id}')">${esc(x.e.empresa)}</a><small>${esc(x.e.provincia)}</small></span>${bar}<span class="sb">${badges}</span></summary>${x.r ? detalle(x) : ""}</details>`;
   }
   const n = all.filter((x) => x.total !== null).length;
@@ -431,12 +440,12 @@ async function init() {
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#f-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#c-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
   ["#f-prov", "#f-estado", "#f-q"].forEach((s) => $(s).addEventListener("input", renderList));
-  ["#c-prov", "#c-data", "#c-ocr", "#c-old", "#c-tarifa", "#c-crit", "#c-kwh", "#c-kw", "#c-ten", "#c-mes"].forEach((s) => $(s).addEventListener("input", renderComp));
+  ["#c-prov", "#c-data", "#c-ocr", "#c-old", "#c-tarifa", "#c-crit", "#c-kwh", "#c-kw", "#c-ten", "#c-mes", "#c-zona"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
   $("#s-mes").innerHTML = MESES.map((m, i) => `<option value="${i + 1}">${m}</option>`).join("");
   $("#s-mes").value = new Date().getMonth() + 1;
-  ["#s-all", "#s-ocr", "#s-sub", "#s-mes", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  ["#s-all", "#s-ocr", "#s-sub", "#s-mes", "#s-zona", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
   $("#s-tipo").addEventListener("input", () => {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();

@@ -33,6 +33,13 @@ def _tramo(prev, hasta, u):
 
 
 def _residencial(sim, variante):
+    if sim.get("zonas"):
+        filas, notas = [], []
+        for z in sim["zonas"]:
+            f, n = _residencial({**sim, "zonas": None, "categorias": z["categorias"], "criterio": z["criterio"]},
+                                f"{variante}, {z['nombre']}")
+            filas += f; notas += n
+        return filas, notas
     per = "bim" if sim["periodo"] == "bimestre" else "mes"
     u = f"kWh/{per}"
     sec = f"Residencial (T1) — {variante}"

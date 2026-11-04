@@ -110,3 +110,16 @@ def test_edese_con_subsidio_section():
     r = PARSERS["edese"](t)
     c = SUB_BUILDERS["edese"](r["tablas"])["categorias"][0]
     assert c["hasta"] == 300 and c["fijo"] == 4383.42 and c["escalones"] == [[None, 110.098]]
+
+
+def test_epe_con_subsidio_por_zona():
+    import pathlib
+    from parsers import PARSERS
+    from simulador import SUB_BUILDERS
+    t = (pathlib.Path(__file__).parent.parent / "site/data/textos/epe.txt").read_text()
+    s = SUB_BUILDERS["epe"](PARSERS["epe"](t)["tablas"])
+    z = {x["id"]: x["categorias"] for x in s["zonas"]}
+    assert sorted(z) == ["I", "II", "III"]
+    assert z["I"][0]["escalones"] == [[75, 142.23411], [150, 165.15433], [300, 261.40335], [None, 440.80713]]
+    assert z["II"][1]["escalones"][1] == [370, 440.80713]
+    assert z["III"][1]["escalones"] == [[350, 270.98873], [None, 440.80713]]

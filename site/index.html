@@ -130,6 +130,7 @@
       <span id="c-dem-crit" hidden><label class="kwh">Potencia <input type="number" id="c-kw" min="0" step="1" value="30"> kW</label>
         <label class="kwh">Tensión <select id="c-ten"><option value="BT">Baja (BT)</option><option value="MT">Media (MT)</option><option value="AT">Alta (AT)</option></select></label></span>
       <label class="chk" id="c-mes-l" title="Divide por 2 los cargos fijos de los cuadros bimestrales"><input type="checkbox" id="c-mes"> Expresar cargos fijos bimestrales en $/mes</label>
+      <label class="chk" id="c-zona-l" title="Algunos cuadros (EPE, EDELAR) publican precios con subsidio distintos según la zona bioambiental (Norma IRAM 11603). Sin zona elegida, esas distribuidoras se muestran sin subsidio" hidden>Zona bioambiental <select id="c-zona"><option value="">Elegir zona</option><option value="I">Muy cálida (Ia–Ib)</option><option value="II">Cálida (IIa–IIb)</option><option value="III">Templada cálida (IIIa–IIIb) o resto</option></select></label>
     </div>
     <div class="filters">
       <select id="c-prov"><option value="">Todas las provincias</option></select>
@@ -169,7 +170,8 @@
     <div class="filters"><label class="chk"><input type="checkbox" id="s-all"> Mostrar también las que no tienen resultado</label>
       <label class="chk" title="Valores leídos por OCR de documentos escaneados: pueden tener errores de lectura"><input type="checkbox" id="s-ocr"> Incluir valores leídos por OCR</label>
       <label class="chk" title="Usuario inscripto en el régimen de subsidios. Solo para cuadros que publican los cargos con subsidio y sus topes de consumo"><input type="checkbox" id="s-sub"> Con subsidio</label>
-      <label class="chk" id="s-mes-l" title="Algunos cuadros (EDENOR, EDESUR) cambian el consumo subsidiado según el mes" hidden>Mes del subsidio <select id="s-mes"></select></label></div>
+      <label class="chk" id="s-mes-l" title="Algunos cuadros (EDENOR, EDESUR) cambian el consumo subsidiado según el mes" hidden>Mes del subsidio <select id="s-mes"></select></label>
+      <label class="chk" id="s-zona-l" title="Algunos cuadros (EPE, EDELAR) publican precios con subsidio distintos según la zona bioambiental (Norma IRAM 11603). Sin zona elegida, esas distribuidoras se muestran sin subsidio" hidden>Zona bioambiental <select id="s-zona"><option value="">Elegir zona</option><option value="I">Muy cálida (Ia–Ib)</option><option value="II">Cálida (IIa–IIb)</option><option value="III">Templada cálida (IIIa–IIIb) o resto</option></select></label></div>
     <div id="s-summary" class="summary"></div>
     <div class="simgrid">
       <div id="s-list"></div>

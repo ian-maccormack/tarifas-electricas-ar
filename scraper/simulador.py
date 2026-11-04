@@ -791,6 +791,39 @@ def edese_sub(tablas):
                     criterio="T1 Residencial, clientes con subsidio")
 
 
+def _cum(cols, vals):
+    esc, acc = [], 0
+    for col, v in zip(cols, vals):
+        m = re.search(r"(Primeros|Siguientes) (\d+) kWh", col)
+        if m:
+            acc += int(m.group(2))
+            esc.append([acc, v])
+        else:
+            esc.append([None, v])
+    return esc
+
+
+@sub_builder("epe")
+def epe_sub(tablas):
+    """Santa Fe: one 'con subsidio' cuadro per zona bioambiental; up to the stated limit the
+    first column group applies, above it the second (blocks read from each cuadro)."""
+    zonas = []
+    for t in tablas:
+        if not t.get("zona"):
+            continue
+        f = t["filas"][0]
+        cols, vals, lim = f["columnas"], f["valores"], t["limite"]
+        cut = next(i for i, c in enumerate(cols) if c.startswith("Mayor a"))
+        cats = [{"nombre": f"{f['concepto']} — hasta {lim} kWh/mes", "hasta": lim, "fijo": vals[0],
+                 "escalones": _cum(cols[1:cut], vals[1:cut])},
+                {"nombre": f"{f['concepto']} — más de {lim} kWh/mes", "hasta": None, "fijo": vals[cut],
+                 "escalones": _cum(cols[cut + 1:], vals[cut + 1:])}]
+        zonas.append({"id": t["zona"], "nombre": t["titulo"].split(" — ", 1)[1], "categorias": cats,
+                      "criterio": f"Residencial urbano con subsidio, {t['titulo'].split(' — ', 1)[1]}"})
+    return {"periodo": "mes", "criterio": "Residencial urbano con subsidio (según zona bioambiental)",
+            "categorias": [], "zonas": sorted(zonas, key=lambda z: z["id"])}
+
+
 @sub_builder("edemsa", "edeste")
 def mendoza_sub(tablas):
     """'Con SEF' (second value). Residencial 2 and 3 split it into base and excedente with different fixed
@@ -846,7 +879,7 @@ def build_subsidio(entry):
         sim = fn(entry["tablas"])
     except Exception:
         return None
-    return sim if sim["categorias"] else None
+    return sim if sim["categorias"] or sim.get("zonas") else None
 
 
 # ---- OCR documents: only used when the visitor turns on "Incluir OCR" ----

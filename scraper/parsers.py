@@ -991,6 +991,54 @@ def _epe_columns(header):
             + [f"Excedente de {exc.group(1)} kWh/mes ($/kWh)"])
 
 
+EPE_ZONAS = (("TEMPLADAS C", "III"), ("MUY C", "I"), ("C[ÁA]LIDAS", "II"))
+
+
+def _epe_con_subsidio(text):
+    """'TARIFA RESIDENCIAL - CON SUBSIDIO' sections, one per zona bioambiental. Only the first value row
+    (1AE Urbano / 1NE-1OE-1PE Servicio Oficial) is read: two column groups, 'Hasta N kWh/mes' and
+    'Mayor a N kWh/mes', whose tiers must add up to each 'Excedente de' limit."""
+    out = []
+    parts = re.split(r"TARIFA RESIDENCIAL - CON SUBSIDIO[^\n]*\n", text)[1:]
+    for part in parts:
+        part = re.split(r"TARIFA SOCIAL|TARIFA RESIDENCIAL", part)[0]
+        lines = part.splitlines()
+        zl = next((l for l in lines if "Zonas Bioambientales" in l), "")
+        key = next((k for pat, k in EPE_ZONAS if re.search(r"Localidades " + pat, zl)), None)
+        hasta = re.search(r"Hasta (\d+) kWh/mes\s+Mayor a (\d+) kWh/mes", part)
+        i0 = next((i for i, l in enumerate(lines) if re.search(r"Cuota de\s", l)), None)
+        if not key or not hasta or i0 is None or hasta.group(1) != hasta.group(2):
+            continue
+        i1 = next((i for i in range(i0, len(lines)) if "$/sum" in lines[i]), None)
+        if i1 is None:
+            continue
+        h = " ".join(lines[i0:i1 + 1])
+        tiers = [(w, int(n)) for w, n in re.findall(r"(Primeros|Siguientes) (\d+)", h)]
+        excs = [int(n) for n in re.findall(r"(\d+) kWh/mes", h)]
+        groups, cur, acc = [], [], 0
+        for w, n in tiers:
+            if w == "Primeros" and cur:
+                groups.append(cur); cur, acc = [], 0
+            cur.append((w, n)); acc += n
+        groups.append(cur)
+        if len(groups) != 2 or len(excs) != 2 or any(sum(n for _, n in g) != e for g, e in zip(groups, excs)):
+            continue
+        lim = int(hasta.group(1))
+        cols = []
+        for lab, g, e in ((f"Hasta {lim} kWh/mes", groups[0], excs[0]), (f"Mayor a {lim} kWh/mes", groups[1], excs[1])):
+            cols += [f"{lab}: Cuota de Servicio ($/mes)"] + [f"{lab}: {w} {n} kWh/mes ($/kWh)" for w, n in g] + \
+                    [f"{lab}: Excedente de {e} kWh/mes ($/kWh)"]
+        row = next((l for l in lines[i1 + 1:] if len(EPE_NUM.findall(l)) == len(cols)), None)
+        if not row:
+            continue
+        vals = [parse_num(x, ",") for x in EPE_NUM.findall(row)]
+        codes = re.findall(r"\b1[AN][A-Z]\b", part)[:2]
+        out.append({"titulo": f"Residencial con subsidio — {squeeze(zl)}", "zona": key, "limite": lim,
+                    "filas": [{"grupo": None, "concepto": " / ".join(codes) + " Urbano / Servicio Oficial", "unidad": "$/mes; $/kWh",
+                               "valores": vals, "columnas": cols}]})
+    return out
+
+
 @parser("epe")
 def p_epe(text, **_):
     """EPE 'residencial sin subsidio' tables. Values are vertically centred next to several tariff
@@ -1043,4 +1091,4 @@ def p_epe(text, **_):
                                        "columna": f["columnas"][1]},
                     "nota": f"Residencial urbano sin subsidio (1AA), {f['columnas'][1].split(' (')[0]}"}
             break
-    return {"vigencia": find(r"(Consumos registrados desde el [^\n]+?20\d\d)", text), "tablas": tablas, "comparable": comp}
+    return {"vigencia": find(r"(Consumos registrados desde el [^\n]+?20\d\d)", text), "tablas": tablas + _epe_con_subsidio(text), "comparable": comp}
