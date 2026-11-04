@@ -7404,7 +7404,7 @@
  },
  {
   "id": "edes",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "f550ee5259695d2aaed14c79027ff7de91fca93c586760965b456ad223d557d3",
   "url": "https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf",
   "titulo": "Cuadro tarifario",
@@ -8773,7 +8773,7 @@
  },
  {
   "id": "eden",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "629215c8a9a9616520b4fc577169d598f3fb9dbc9df0c34a4984fb4c1f5e6195",
   "url": "https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf",
   "titulo": "Cuadro tarifario",
@@ -10025,7 +10025,7 @@
  },
  {
   "id": "epec",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "ac5f061eae3b398f2958f15c7454b72a65441e51ab6fb3939a65dac21d92bd6b",
   "url": "https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf",
   "titulo": "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)",
@@ -11400,7 +11400,7 @@
  },
  {
   "id": "enersa",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "42d8e2a40b596d3f42de7148f19f4ab07e7d67c0f3463ea0ab5b02fff2597975",
   "url": "https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx",
   "titulo": "cuadro-tarifario-diciembre-2026",
@@ -11646,7 +11646,7 @@
  },
  {
   "id": "emsa",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "9246762c6e22833f32ba48ba96f7bd44d89fcf5b7f4146df41e3bc82db244caa",
   "url": "https://www.boletindigital.misiones.gov.ar/boletines/16326.pdf",
   "titulo": "Vigente a partir del 12/2024 – Cuadros Tarifarios N°496-497 Clubes de Barrio y Pueblo (Ley 27.098) y Entidades de Bien Público (Ley 27.218).",
@@ -11655,7 +11655,7 @@
  },
  {
   "id": "dpe",
-  "detectado": "2026-11-04T16:42:33+00:00",
+  "detectado": "2026-11-04T17:11:10+00:00",
   "sha256": "4f30c10a693df6d0d73540d1764926f541734512b1e355f9b1375869769686b6",
   "url": "https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t",
   "titulo": "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 258-259",
