@@ -11661,5 +11661,5694 @@
   "titulo": "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 258-259",
   "vigencia": null,
   "tablas": []
+ },
+ {
+  "id": "ape",
+  "detectado": "2026-11-04T17:52:16+00:00",
+  "sha256": "ee763209d2332a62306e8dc2b2ec46c053e59345f02734f823ed51aedcfc55c0",
+  "url": "docs/entregados/ape-res-42-26-usuarios-finales.pdf",
+  "titulo": "Anexo I, Resolución S.E.y M. 42/26: cuadro tarifario a usuarios finales (facturación desde octubre 2026)",
+  "vigencia": null,
+  "tablas": [
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       2782.63,
+       2782.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       107.13,
+       107.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       null,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       4956.11,
+       4956.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       178.56,
+       178.56
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       9922.64,
+       9922.64
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       374.97,
+       374.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       null,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       83.59,
+       83.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2266.66,
+       2266.66
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       22952.51,
+       22952.51
+      ],
+      "columnas": [
+       "A dl",
+       "Máximo"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       785.61,
+       785.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       35.82,
+       35.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       51.29,
+       51.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       70.89,
+       70.89
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       105.14,
+       105.14
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 2 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2461.35,
+       2461.35
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       37664.61,
+       37664.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1428.43,
+       1428.43
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       36.74,
+       36.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       53.37,
+       53.37
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       74.87,
+       74.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       112.5,
+       112.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3062.74,
+       3062.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       95991.76,
+       95991.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       3499.61,
+       3499.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       42.77,
+       42.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       63.43,
+       63.43
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       90.22,
+       90.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       136.63,
+       136.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       2771.91,
+       2771.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       89.29,
+       89.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       4923.97,
+       4923.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       124.99,
+       124.99
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Costo Compra de Energía primeros 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": ">",
+      "unidad": null,
+      "valores": [
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 3 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       9815.49,
+       9815.49
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       196.44,
+       196.44
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "Costo Compra de Energía primeros 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "S/KkWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R1-2 · Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       83.59,
+       83.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2266.66,
+       2266.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       22866.81,
+       22866.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       642.79,
+       642.79
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Costo Compra de Energía primeros 200 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       35.82,
+       35.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       51.29,
+       51.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       70.89,
+       70.89
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R3 · Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       105.14,
+       105.14
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2461.35,
+       2461.35
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       37600.32,
+       37600.32
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1321.28,
+       1321.28
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía primeros 200 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       36.74,
+       36.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       53.37,
+       53.37
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       74.87,
+       74.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R4 · Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       112.5,
+       112.5
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 4 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3062.74,
+       3062.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       94984.71,
+       94984.71
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1821.24,
+       1821.24
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía primeros 200 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       162.04,
+       162.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       42.77,
+       42.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/KkWh",
+      "valores": [
+       63.43,
+       63.43
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siquientes 100 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       90.22,
+       90.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R5 · Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       136.63,
+       136.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2AP_ CATEGORÍA ALUMBRADO PÚBLICO",
+      "concepto": "Costo Compra de Energía",
+      "unidad": null,
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2AP_ CATEGORÍA ALUMBRADO PÚBLICO",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       39.26,
+       39.26
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRC CATEGORÍA COMERCIALES · Consumos menores o iguales a 60 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3334.56,
+       3334.56
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRC CATEGORÍA COMERCIALES · Consumos menores o iguales a 60 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       1607.19,
+       1607.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRC CATEGORÍA COMERCIALES · Consumos menores o iguales a 60 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       107.13,
+       107.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRC CATEGORÍA COMERCIALES · Consumos menores o iguales a 60 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRC CATEGORÍA COMERCIALES · Consumos menores o iguales a 60 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "S/kWh",
+      "valores": [
+       48.11,
+       48.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3334.56,
+       3334.56
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       17086.0,
+       17086.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       803.5,
+       803.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/KWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       48.11,
+       48.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "VAD excedente de 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       66.45,
+       66.45
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3504.01,
+       3504.01
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       101201.86,
+       101201.86
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       2142.61,
+       2142.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KkWh",
+      "valores": [
+       51.93,
+       51.93
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1C · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "VAD excedente de 60 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       71.18,
+       71.18
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 5 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2C · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       222503.35,
+       222503.35
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2C · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2C · Consumos mayores a 4000 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       43.64,
+       43.64
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2C · Consumos mayores a 4000 kWh/mes",
+      "concepto": "VAD mayores a 60 y hasta 4000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       62.91,
+       62.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2C · Consumos mayores a 4000 kWh/mes",
+      "concepto": "VAD excedente de 4000 kWh",
+      "unidad": "$/KkWh",
+      "valores": [
+       51.93,
+       51.93
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRII · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       4296.6,
+       4296.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRII · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       20111.62,
+       20111.62
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRII · Consumos menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1071.31,
+       1071.31
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRII · Consumos menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NRII · Consumos menores a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       86.81,
+       86.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR2I · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       4515.59,
+       4515.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR2I · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       115283.12,
+       115283.12
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR2I · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       3571.04,
+       3571.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR2I · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR2I · Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "S/kWh",
+      "valores": [
+       88.6,
+       88.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       4505.63,
+       4505.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       337033.04,
+       337033.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "VAD primeros 4000 kWh",
+      "unidad": "S/KkWh",
+      "valores": [
+       84.01,
+       84.01
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos mayores a 4000 kWh/mes",
+      "concepto": "VAD excedente de 4000 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       null,
+       null,
+       74.41
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2116.09,
+       2116.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       10529.17,
+       10529.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       357.1,
+       357.1
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2I · Consumos menores a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/KWh",
+      "valores": [
+       55.45,
+       55.45
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 6 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2223.0,
+       2223.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       110317.9,
+       110317.9
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1785.5,
+       1785.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       59.46,
+       59.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       2771.91,
+       2771.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       89.29,
+       89.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/KWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       4923.97,
+       4923.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       124.99,
+       124.99
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KkWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO · TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       1929.09,
+       1929.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       9815.49,
+       9815.49
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       196.44,
+       196.44
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/KkWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       24.59,
+       24.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       37.76,
+       37.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       54.54,
+       54.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       83.59,
+       83.59
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 7 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2266.66,
+       2266.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       22866.81,
+       22866.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       642.79,
+       642.79
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       35.82,
+       35.82
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       51.29,
+       51.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "VAD siquientes 100 kWh",
+      "unidad": "S/KkWh",
+      "valores": [
+       70.89,
+       70.89
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       105.14,
+       105.14
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2461.35,
+       2461.35
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       37600.32,
+       37600.32
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1321.28,
+       1321.28
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       36.74,
+       36.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       53.37,
+       53.37
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       74.87,
+       74.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       112.5,
+       112.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       3062.74,
+       3062.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       94984.71,
+       94984.71
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1821.24,
+       1821.24
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       162.04,
+       98.38,
+       63.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       42.77,
+       42.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       63.43,
+       63.43
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "S/KWh",
+      "valores": [
+       90.22,
+       90.22
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes · TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       136.63,
+       136.63
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 8 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2116.09,
+       2116.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       10529.16,
+       10529.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       357.1,
+       357.1
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       152.66,
+       17.5,
+       0.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       55.45,
+       55.45
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       2223.0,
+       2223.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       110317.9,
+       110317.9
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1785.5,
+       1785.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       152.66,
+       17.5,
+       0.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       59.46,
+       59.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       5329.48,
+       5329.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       18648.66,
+       18648.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       714.19,
+       714.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR1BV · Consumos menores a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       87.98,
+       87.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       5601.59,
+       5601.59
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       202780.81,
+       202780.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       7142.06,
+       7142.06
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "valores": [
+       93.81,
+       93.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 5 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       9935.67,
+       9935.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       17934.48,
+       17934.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       714.19,
+       714.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       85.91,
+       85.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1INR20OF · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 9 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo transformador 5 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       9935.67,
+       9935.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       18577.25,
+       18577.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1785.5,
+       1785.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       85.91,
+       85.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       18577.25,
+       18577.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1785.5,
+       1785.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       91.79,
+       91.79
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       79.0,
+       79.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos mayores o iguales a 2000 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 10 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       16602.69,
+       16602.69
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       25954.68,
+       25954.68
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       857.04,
+       857.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       83.03,
+       83.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 10 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       16602.69,
+       16602.69
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "valores": [
+       26618.87,
+       26618.87
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       1964.09,
+       1964.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       83.03,
+       83.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       70.39,
+       70.39
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 10 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       19552.76,
+       19552.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       22507.58,
+       22507.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       25902.04,
+       25902.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       28359.58,
+       28359.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       36611.51,
+       36611.51
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       33581.33,
+       33581.33
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       50065.64,
+       50065.64
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       68040.58,
+       68040.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       83034.36,
+       83034.36
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       100880.86,
+       100880.86
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       1249.85,
+       1249.85
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       1785.5,
+       1785.5
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       2356.88,
+       2356.88
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       2856.81,
+       2856.81
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       3213.92,
+       3213.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "S/kWh",
+      "valores": [
+       83.03,
+       83.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos menores o iguales a 200 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       19552.76,
+       19552.76
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       22507.58,
+       22507.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       25902.04,
+       25902.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       28359.58,
+       28359.58
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       36611.51,
+       36611.51
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       34116.98,
+       34116.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       50387.02,
+       50387.02
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       68126.29,
+       68126.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       83141.52,
+       83141.52
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo por Potencia transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       100987.98,
+       100987.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 16 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       2142.61,
+       2142.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 25 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       2321.17,
+       2321.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 40 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       2499.72,
+       2499.72
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       3035.38,
+       3035.38
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Fondo Cooperativo Compensador transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "valores": [
+       3392.45,
+       3392.45
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/KWh",
+      "valores": [
+       83.03,
+       83.03
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "$/kWh",
+      "valores": [
+       70.39,
+       70.39
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RU · Consumos mayores a 200 kWh/mes",
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "valores": [
+       19364.96,
+       19364.96
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 11 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       50552.67,
+       50552.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KxW",
+      "valores": [
+       2801.61,
+       2801.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       45.54,
+       45.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       41.89,
+       41.89
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GUBT · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       32.15,
+       32.15
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       189407.05,
+       189407.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/W",
+      "valores": [
+       3501.6,
+       3501.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       48.17,
+       48.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       31.88,
+       31.88
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       447279.01,
+       447279.01
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/xW",
+      "valores": [
+       3501.6,
+       3501.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       48.17,
+       48.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       31.88,
+       31.88
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "saLub/epbuc. Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       189407.05,
+       189407.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KxW",
+      "valores": [
+       3501.6,
+       3501.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       48.17,
+       48.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "valores": [
+       31.88,
+       31.88
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 12 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       50552.67,
+       50552.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": null,
+      "valores": [
+       2594.3,
+       2594.3
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       41.52,
+       41.52
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       38.21,
+       38.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU13 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       28.93,
+       28.93
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       189407.05,
+       189407.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KW",
+      "valores": [
+       3242.31,
+       3242.31
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       43.07,
+       43.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       39.25,
+       39.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       28.23,
+       28.23
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       447279.01,
+       447279.01
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KW",
+      "valores": [
+       3242.31,
+       3242.31
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       43.07,
+       43.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       39.25,
+       39.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       28.23,
+       28.23
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "saLub/eDuc. Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       189407.05,
+       189407.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KxW",
+      "valores": [
+       3242.31,
+       3242.31
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       43.07,
+       43.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       39.25,
+       39.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "valores": [
+       28.23,
+       28.23
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 13 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       50552.67,
+       50552.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/xW",
+      "valores": [
+       2334.91,
+       2334.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       36.55,
+       36.55
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       33.63,
+       33.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2GU33 · Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "valores": [
+       25.28,
+       25.28
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       193692.29,
+       193692.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KxW",
+      "valores": [
+       2918.0,
+       2918.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       17855.13,
+       17855.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       37.1,
+       37.1
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/KkWh",
+      "valores": [
+       33.63,
+       33.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3GU33 · Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "S/kWh",
+      "valores": [
+       23.46,
+       23.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       451564.25,
+       451564.25
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KxW",
+      "valores": [
+       2918.0,
+       2918.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       17855.13,
+       17855.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/KkWh",
+      "valores": [
+       37.1,
+       37.1
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       33.63,
+       33.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33 · Potencias contratadas mayores o iguales a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "valores": [
+       23.46,
+       23.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "sarun/enie Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       189407.05,
+       189407.05
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Cargo por potencia",
+      "unidad": "$/KW",
+      "valores": [
+       2918.0,
+       2918.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/KWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "S/KWh",
+      "valores": [
+       37.1,
+       37.1
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/KWh",
+      "valores": [
+       33.63,
+       33.63
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "valores": [
+       23.46,
+       23.46
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 14 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       50552.67,
+       50552.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       10713.07,
+       10713.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "S/kWh",
+      "valores": [
+       170.16,
+       170.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "182a23hs",
+      "unidad": "$/kWh",
+      "valores": [
+       30.74,
+       30.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "23a 5hs",
+      "unidad": "S/KWh",
+      "valores": [
+       25.9,
+       25.9
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por energía en:",
+      "concepto": "5a18 hs",
+      "unidad": "$/kWh",
+      "valores": [
+       26.73,
+       26.73
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · VAD por potencia en:",
+      "concepto": "18a23hs",
+      "unidad": "$/KW",
+      "valores": [
+       2808.65,
+       2808.65
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2RA · Horas fuera de pico",
+      "concepto": "23218 hs",
+      "unidad": "$/KW",
+      "valores": [
+       1647.98,
+       1647.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "valores": [
+       193692.29,
+       193692.29
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "valores": [
+       17855.13,
+       17855.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "valores": [
+       188.97,
+       188.97
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "18a23hs",
+      "unidad": "$/kWh",
+      "valores": [
+       25.12,
+       25.12
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "23a 5hs",
+      "unidad": "$/kWh",
+      "valores": [
+       19.32,
+       19.32
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · VAD por energía en:",
+      "concepto": "5 a18 hs",
+      "unidad": "$/KWh",
+      "valores": [
+       20.68,
+       20.68
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "$IKW",
+      "unidad": null,
+      "valores": [
+       3146.88,
+       3146.88
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3RA · Horas fuera de pico",
+      "concepto": "23218 hs",
+      "unidad": "$/KW",
+      "valores": [
+       1846.18,
+       1846.18
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "edesal",
+  "detectado": "2026-11-04T17:52:16+00:00",
+  "sha256": "efa2b0a5be41f75863033d9096ac2a285d85ecbdcbd817092a7d485132a0d889",
+  "url": "docs/entregados/edesal-cuadro-tarifario-2026-09.pdf",
+  "titulo": "Cuadro tarifario EDESAL septiembre 2026 (Res. SE 222/2026 y CRPEE 330/2026)",
+  "vigencia": "CUADRO TARIFARIO SEPTIEMBRE 2026",
+  "tablas": [
+   {
+    "titulo": "Tarifa 1-R Residencial",
+    "unidades": [
+     "$/Usuario-mes",
+     "$/Usuario-mes",
+     "$/kWh",
+     "$/Usuario-mes",
+     "$/Usuario-mes",
+     "$/kWh",
+     "$/kWh"
+    ],
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "T1R-1 Desde 0kWh hasta 160kWh",
+      "unidad": null,
+      "valores": [
+       6448.4817,
+       10668.3161,
+       143.5892,
+       3506.6446,
+       10668.3161,
+       57.408,
+       143.5892
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-2 Desde 161kWh hasta 200kWh",
+      "unidad": null,
+      "valores": [
+       10269.4451,
+       19405.3751,
+       142.6428,
+       4918.3239,
+       19405.3751,
+       56.398,
+       142.6428
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-3 Desde 201kWh hasta 400kWh",
+      "unidad": null,
+      "valores": [
+       11438.2063,
+       22077.8777,
+       140.4387,
+       5350.1302,
+       22077.8777,
+       54.2575,
+       140.4387
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-4 Desde 401kWh hasta 700kWh",
+      "unidad": null,
+      "valores": [
+       19866.8222,
+       41350.848,
+       137.1577,
+       8464.1361,
+       41350.848,
+       50.948,
+       137.1577
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-5 Desde 701kWh hasta 1400kWh",
+      "unidad": null,
+      "valores": [
+       26728.1669,
+       57040.078,
+       135.6187,
+       10999.1037,
+       57040.078,
+       49.5012,
+       135.6187
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-6 Desde 1401kWh",
+      "unidad": null,
+      "valores": [
+       54813.6859,
+       121260.7494,
+       135.6187,
+       21375.4779,
+       121260.7494,
+       49.5012,
+       135.6187
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-1 Desde 0kWh hasta 160kWh",
+      "unidad": null,
+      "valores": [
+       6448.4817,
+       10668.3161,
+       143.5892,
+       3506.6446,
+       10168.3161,
+       57.408,
+       143.5892
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "T1R-2 Desde 161kWh hasta 200kWh",
+      "unidad": null,
+      "valores": [
+       10269.4451,
+       19405.3751,
+       142.6428,
+       4918.3239,
+       18905.3751,
+       56.398,
+       142.6428
+      ],
+      "columnas": [
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable",
+       "Cargo Fijo",
+       "Cargo por Uso de la Red",
+       "Cargo Variable Primeros 200kWh",
+       "Cargo Variable Excedente"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora < 300 kW",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo Comercial",
+      "unidad": "$/Usuario mes",
+      "valores": [
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       121292.897
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Uso de la Red",
+      "unidad": "$/kW mes",
+      "valores": [
+       22448.5725,
+       20404.3538,
+       17440.8314,
+       20022.2673,
+       20022.2673,
+       16543.1205,
+       16543.1205,
+       14098.0727,
+       7460.1363
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Consumo Potencia",
+      "unidad": "$/kW mes",
+      "valores": [
+       9672.1809,
+       9008.8567,
+       8622.0966,
+       12269.3329,
+       25666.5964,
+       9874.3821,
+       13492.2609,
+       10657.862,
+       7568.943
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       162.601,
+       154.2048,
+       147.3205,
+       148.9835,
+       150.2794,
+       144.624,
+       147.1626,
+       142.439,
+       141.933
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Resto",
+      "unidad": "$/kWh",
+      "valores": [
+       157.8863,
+       149.7182,
+       142.9353,
+       144.5822,
+       145.878,
+       140.2919,
+       142.8305,
+       138.1424,
+       137.7653
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       156.7687,
+       148.6547,
+       141.8958,
+       143.5389,
+       144.8347,
+       139.265,
+       141.8036,
+       137.1239,
+       136.7774
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora ≥ 300 kW",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo Comercial",
+      "unidad": "$/Usuario mes",
+      "valores": [
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       31974.3469,
+       121292.897
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Uso de la Red",
+      "unidad": "$/kW mes",
+      "valores": [
+       22448.5725,
+       20404.3538,
+       17440.8314,
+       20022.2673,
+       20022.2673,
+       16543.1205,
+       16543.1205,
+       14098.0727,
+       7460.1363
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Consumo Potencia",
+      "unidad": "$/kW mes",
+      "valores": [
+       9672.1809,
+       9008.8567,
+       8622.0966,
+       12269.3329,
+       25666.5964,
+       9874.3821,
+       13492.2609,
+       10657.862,
+       7568.943
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       183.3059,
+       173.9076,
+       166.5782,
+       168.3121,
+       169.6079,
+       163.6486,
+       166.1872,
+       161.3076,
+       160.2356
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Resto",
+      "unidad": "$/kWh",
+      "valores": [
+       177.8593,
+       168.7246,
+       161.5122,
+       163.2275,
+       164.5233,
+       158.644,
+       161.1826,
+       156.344,
+       155.4209
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por Cons. de Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       176.568,
+       167.4958,
+       160.3112,
+       162.022,
+       163.3179,
+       157.4575,
+       159.9961,
+       155.1673,
+       154.2795
+      ],
+      "columnas": [
+       "T2 BT",
+       "T2 BTSRG",
+       "T2 BTSRI",
+       "T2 MT13,2",
+       "T2 MT13,2 Riego",
+       "T2 MT33G",
+       "T2 MT33G Riego",
+       "T2 MT33I",
+       "T2 AT"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "spse",
+  "detectado": "2026-11-04T17:52:16+00:00",
+  "sha256": "4797da4d8e3999dd74392341c68948a9d0d5a81e8243d2b55adcc4af7b8412bc",
+  "url": "docs/entregados/spse-cuadro-tarifario-web-2026-11-04.pdf",
+  "titulo": "Cuadro tarifario SPSE: página \"Tarifaria Vigente\" (impresa el 04/11/2026)",
+  "vigencia": "Valores vigentes a partir del martes, 1 de septiembre de 2026",
+  "tablas": [
+   {
+    "titulo": "COMERCIALES — categorías 11 - 22 - 91",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Tramo primero: 0 a 150 kWh",
+      "unidad": null,
+      "valores": [
+       26000.0,
+       123.11
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo segundo: 151 a 500 kWh",
+      "unidad": null,
+      "valores": [
+       31000.0,
+       127.4
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo tercero: 501 a 1500 kWh",
+      "unidad": null,
+      "valores": [
+       35500.0,
+       128.03
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo cuarto: 1501 a 2500 kWh",
+      "unidad": null,
+      "valores": [
+       40600.0,
+       129.8
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo quinto: 2501 a 99999 kWh",
+      "unidad": null,
+      "valores": [
+       48500.0,
+       130.22
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "GENERALES — categorías 31 - 41 - 51",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Tramo primero: 0 a 300 kWh",
+      "unidad": null,
+      "valores": [
+       28430.77,
+       204.7
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo segundo: 301 a 500 kWh",
+      "unidad": null,
+      "valores": [
+       38818.93,
+       204.7
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo tercero: 501 a 5000 kWh",
+      "unidad": null,
+      "valores": [
+       44395.73,
+       204.7
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo cuarto: 5001 a 99999 kWh",
+      "unidad": null,
+      "valores": [
+       51940.82,
+       204.7
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Paraje Punta Bandera - Comerciales — categorías 11 - 22 - 91",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Tramo primero: 0 a 150 kWh",
+      "unidad": null,
+      "valores": [
+       26000.0,
+       209.29
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo segundo: 151 a 500 kWh",
+      "unidad": null,
+      "valores": [
+       31000.0,
+       216.59
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo tercero: 501 a 1500 kWh",
+      "unidad": null,
+      "valores": [
+       35500.0,
+       217.64
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo cuarto: 1501 a 2500 kWh",
+      "unidad": null,
+      "valores": [
+       40600.0,
+       220.66
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo quinto: 2501 a 99999 kWh",
+      "unidad": null,
+      "valores": [
+       48500.0,
+       221.37
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "RESIDENCIALES CON SUBSIDIO — categorías 1 - 3 - 4 - 5",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Tramo primero: 0 a 100 kWh",
+      "unidad": null,
+      "valores": [
+       15000.0,
+       60.928
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo segundo: 101 a 150 kWh",
+      "unidad": null,
+      "valores": [
+       16000.0,
+       63.154
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo tercero: 151 a 300 kWh",
+      "unidad": null,
+      "valores": [
+       17000.0,
+       78.261
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo cuarto: 301 a 400 kWh",
+      "unidad": null,
+      "valores": [
+       18000.0,
+       121.856
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo quinto: 401 a 99999 kWh",
+      "unidad": null,
+      "valores": [
+       19000.0,
+       126.308
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "RESIDENCIALES SIN SUBSIDIO — categorías 1 - 3 - 4 - 5",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Tramo primero: 0 a 100 kWh",
+      "unidad": null,
+      "valores": [
+       16000.0,
+       127.659
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo segundo: 101 a 200 kWh",
+      "unidad": null,
+      "valores": [
+       17000.0,
+       132.323
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo tercero: 201 a 300 kWh",
+      "unidad": null,
+      "valores": [
+       18000.0,
+       136.647
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo cuarto: 301 a 400 kWh",
+      "unidad": null,
+      "valores": [
+       19000.0,
+       139.999
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Tramo quinto: 401 a 99999 kWh",
+      "unidad": null,
+      "valores": [
+       23000.0,
+       141.658
+      ],
+      "columnas": [
+       "Cargo Fijo ($)",
+       "Valor del tramo ($)"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dpe",
+  "detectado": "2026-11-04T17:52:16+00:00",
+  "sha256": "5b782b4df2dde659e9d749396ebae10b0c7edff3b72f7db6b88e1e83a82f19a1",
+  "url": "https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t",
+  "titulo": "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 257-258",
+  "vigencia": "Facturación con vencimiento en octubre de 2026 (CT Decr. Prov. 2489/2024 + Res. SE#MEC 190/2026, septiembre 2026)",
+  "tablas": [
+   {
+    "titulo": "TR1 - Uso residencial NIVEL 1",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       4412.16
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       173.2748
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       191.2397
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       203.3643
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "TR2 - Uso residencial NIVEL 2 (SEF)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       2936.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       68.5608
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       80.5091
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Entre 200 y 300: siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       146.8284
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Entre 200 y 300: siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       149.7456
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       179.0879
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "TR3 - Uso residencial NIVEL 3 (SEF)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3374.66
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       75.604
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       87.344
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Entre 200 y 250: siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       153.6632
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Entre 200 y 250: siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       163.0833
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       179.0879
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "TRE - Usuarios electrodependientes",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       2936.21
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       59.2689
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 150 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       71.3824
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       81.5487
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T1-G - Uso general",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       5748.8
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 1000 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       197.6871
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 1300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       230.7406
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 2300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       248.0451
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 2 — Medianas demandas (potencia contratada mayor a 10 y menor a 30 kW)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       43926.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada",
+      "unidad": "$/kW-mes",
+      "valores": [
+       36495.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       112.3639
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Media tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       674829.17,
+       674829.17
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4605.5,
+       5624.96
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4060.95,
+       4848.07
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11173.59,
+       11217.33
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       101.5746,
+       110.7734
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       95.519,
+       105.4736
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       94.2891,
+       104.5814
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Media tensión — O.P. Salud/Educación",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       674829.17,
+       674829.17
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4605.5,
+       5624.96
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       4060.95,
+       4848.07
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11173.59,
+       11217.33
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       101.5746,
+       110.7734
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       95.519,
+       105.4736
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       94.2891,
+       104.5814
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Bornes trafo media a baja tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       208852.92,
+       208852.92
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       9888.54,
+       9938.06
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       7499.08,
+       7759.18
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11516.04,
+       11040.91
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       103.5512,
+       117.1176
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       98.5309,
+       111.7983
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       98.7107,
+       112.3084
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Bornes trafo media a baja tensión — O.P. Salud/Educación",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       208852.92,
+       208852.92
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       9888.54,
+       9938.06
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       7499.08,
+       7759.18
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11516.04,
+       11040.91
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       103.5512,
+       117.1176
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       98.5309,
+       111.7983
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       98.7107,
+       112.3084
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Baja tensión",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       208852.92,
+       208852.92
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       14990.1,
+       15677.54
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11711.46,
+       12465.59
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       12113.13,
+       11573.38
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       108.0179,
+       120.7003
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       102.5337,
+       114.5447
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       101.7378,
+       114.1083
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Baja tensión — O.P. Salud/Educación",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       208852.92,
+       208852.92
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       14990.1,
+       15677.54
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       11711.46,
+       12465.59
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por suministro de potencia",
+      "unidad": "$/kW-mes",
+      "valores": [
+       12113.13,
+       11573.38
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de punta",
+      "unidad": "$/kWh",
+      "valores": [
+       108.0179,
+       120.7003
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de resto",
+      "unidad": "$/kWh",
+      "valores": [
+       102.5337,
+       114.5447
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo por consumo de energía: período horas de valle",
+      "unidad": "$/kWh",
+      "valores": [
+       101.7378,
+       114.1083
+      ],
+      "columnas": [
+       "Potencia desde 30 hasta 300 kW",
+       "Potencia >= 300 kW"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 4 — Alumbrado público — AP1 Suministro de energía y mantenimiento",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       296.5917
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifas transitorias",
+    "filas": [
+     {
+      "grupo": "T2 - Tarifa transitoria",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       43926.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2 - Tarifa transitoria",
+      "concepto": "Cargo variable",
+      "unidad": "$/kWh",
+      "valores": [
+       312.1344
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 MT - Tarifa transitoria",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       674829.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 MT - Tarifa transitoria",
+      "concepto": "Cargo variable",
+      "unidad": "$/kWh",
+      "valores": [
+       268.622
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 BT - Tarifa transitoria",
+      "concepto": "Cargo fijo",
+      "unidad": "$/mes",
+      "valores": [
+       208852.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 BT - Tarifa transitoria",
+      "concepto": "Cargo variable",
+      "unidad": "$/kWh",
+      "valores": [
+       349.5005
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
  }
 ]
