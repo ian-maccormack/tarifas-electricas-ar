@@ -754,6 +754,33 @@ def enre_sub(tablas):
             "base_mes": base, "categorias": cats}
 
 
+@sub_builder("epen")
+def epen_sub(tablas):
+    """'CON SUBSIDIO' rows of each T1-Rn; from R4 the cuadro splits them into 'primeros N KWh' and
+    'excedente de N KWh' (N read from the cuadro)."""
+    cats, seen = [], set()
+    for t in tablas:
+        for f in t["filas"]:
+            g = f.get("grupo") or ""
+            if g in seen or not re.match(r"^T1-R\d", g):
+                continue
+            seen.add(g)
+            rows = [x for x in t["filas"] if x.get("grupo") == g]
+            fijo = _row(rows, r"^Cargo fijo")
+            pb = next((x for x in rows if re.search(r"CON SUBSIDIO primeros (\d+) KWh$", x["concepto"])), None)
+            pe = next((x for x in rows if re.search(r"CON SUBSIDIO excedente de \d+", x["concepto"])), None)
+            one = next((x for x in rows if re.search(r"CON SUBSIDIO$", x["concepto"])), None)
+            if pb and pe:
+                n = int(re.search(r"primeros (\d+) KWh$", pb["concepto"]).group(1))
+                esc = [[n, _val(pb)], [None, _val(pe)]]
+            elif one:
+                esc = [[None, _val(one)]]
+            else:
+                esc = [[None, None]]
+            cats.append({"nombre": g.split("-Consumo")[0], "hasta": _limit(g), "fijo": _val(fijo), "escalones": esc})
+    return {"periodo": "mes", "criterio": "T1-R con subsidio (tope del subsidio según el cuadro)", "categorias": cats}
+
+
 @sub_builder("edemsa", "edeste")
 def mendoza_sub(tablas):
     """'Con SEF' (second value). Residencial 2 and 3 split it into base and excedente with different fixed

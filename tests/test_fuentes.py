@@ -86,3 +86,17 @@ def test_edenor_pdf_subsidy_limit_from_cuadro():
     sub = SUB_BUILDERS["edenor"](PARSERS["enre"](pdf_text(c), source={"empresa": "EDENOR"}, content=c)["tablas"])
     assert "base_mes" not in sub
     assert sub["categorias"][1] == {"nombre": "R2", "hasta": 400, "fijo": 3989.51, "escalones": [[200, 65.754], [None, 164.279]]}
+
+
+def test_epen_subsidy_rows():
+    import json
+    from simulador import SUB_BUILDERS
+    t = [{"titulo": "T1 Residencial", "filas": [
+        {"grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh", "concepto": "Cargo fijo", "unidad": "$/mes", "valores": [9940.22]},
+        {"grupo": "T1-R1-Consumo mensual inferior o igual a 50 KWh", "concepto": "Cargo variable por energía - CON SUBSIDIO", "unidad": "$/KWh", "valores": [195.632]},
+        {"grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh", "concepto": "Cargo fijo", "unidad": "$/mes", "valores": [17861.4]},
+        {"grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh", "concepto": "Cargo variable por energía - CON SUBSIDIO primeros 200 KWh", "unidad": "$/KWh", "valores": [156.351]},
+        {"grupo": "T1-R4-Consumo mensual mayor a 250 KWh e inferior o igual a 500 KWh", "concepto": "Cargo variable por energía - CON SUBSIDIO excedente de 200 KWh", "unidad": "$/KWh", "valores": [355.156]}]}]
+    cats = SUB_BUILDERS["epen"](t)["categorias"]
+    assert cats[0]["escalones"] == [[None, 195.632]]
+    assert cats[1] == {"nombre": "T1-R4", "hasta": 500, "fijo": 17861.4, "escalones": [[200, 156.351], [None, 355.156]]}
