@@ -13,7 +13,7 @@ from simulador import build as build_sim, build_demanda, build_ocr, build_subsid
 from normalizado import normalizar
 import re
 
-from sources import _SE_BYTES, OFICIALES, OFICIALES_NOTA, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
+from sources import _SE_BYTES, NO_OFICIALES, OFICIALES, OFICIALES_NOTA, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -157,7 +157,10 @@ def validate(tablas):
 
 
 def _read(s, kind, d, origen, intentos):
-    content, ctype = get_doc(d["url"], d.get("headers"))
+    if d.get("archivo"):
+        content, ctype = (ROOT / "site" / d["url"]).read_bytes(), "application/pdf"
+    else:
+        content, ctype = get_doc(d["url"], d.get("headers"))
     if d.get("paginas"):
         content = pdf_pages(content, d["paginas"])
     tipo, text, sheets = document_text(content, d["url"], ctype)
@@ -166,8 +169,9 @@ def _read(s, kind, d, origen, intentos):
     doc = dict(url=d["url"], titulo=d.get("titulo"), pagina=d.get("pagina"), origen=origen,
                tipo=tipo, sha256=hashlib.sha256(content).hexdigest(), bytes=len(content),
                via={"primary": "búsqueda automática", "known": "URL conocida",
-                    "extra": "fuente oficial de referencia", "se": "archivo nacional"}[kind])
-    for k in ("archivado", "resolucion", "paginas"):
+                    "extra": "copia entregada del documento oficial" if d.get("archivo") else "fuente oficial de referencia",
+                    "se": "archivo nacional"}[kind])
+    for k in ("archivado", "resolucion", "paginas", "entregado"):
         if d.get(k):
             doc[k] = d[k]
     parsed = {"vigencia": None, "tablas": []}
@@ -177,6 +181,11 @@ def _read(s, kind, d, origen, intentos):
             parsed = fn(text, content=content, source=s, sheets=sheets) or parsed
         except Exception as e:
             intentos.append(f"parser: {type(e).__name__}: {e}")
+    if d.get("manual"):
+        man = json.loads((ROOT / "scraper" / "manual" / d["manual"]).read_text())
+        parsed = {"vigencia": man["vigencia"], "tablas": man["tablas"]}
+        doc["transcripcion_manual"] = {"fuente": man["fuente"], "nota": man["nota"],
+                                       "archivo": f"https://github.com/ian-maccormack/tarifas-electricas-ar/blob/main/scraper/manual/{d['manual']}"}
     tablas = validate(parsed.get("tablas", []))
     used_ocr = False
     if not tablas and tipo == "pdf" and not d.get("sin_ocr") and (s.get("ocr") or len(text.strip()) < 200):
@@ -234,6 +243,8 @@ def process(s):
         entry["pago_mensual"] = dict(zip(("texto", "url"), PAGO_MENSUAL[s["id"]]))
     if s["id"] in OFICIALES:
         entry["oficiales"] = {"links": OFICIALES[s["id"]], "nota": OFICIALES_NOTA.get(s["id"])}
+    if s["id"] in NO_OFICIALES:
+        entry["no_oficiales"] = NO_OFICIALES[s["id"]]
     elif s["id"] in OFICIALES_NOTA:
         entry["oficiales"] = {"links": [], "nota": OFICIALES_NOTA[s["id"]]}
     found, seen = [], set()

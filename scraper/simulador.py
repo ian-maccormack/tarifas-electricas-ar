@@ -623,7 +623,7 @@ def edesal_demanda(tablas):
                           _pk(rows, r"^cargocomercial", c),
                           [["Uso de la red", _pk(rows, r"^cargoporusodelared", c)], ["Consumo de potencia", _pk(rows, r"^cargoporconsumopotencia", c)]],
                           {k: _pk(rows, rf"energíaenhs\.{k}", c) for k in FRANJAS3}))
-    return {"criterio": "T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV); cuadro de 06/2026", "tarifas": out}
+    return {"criterio": "T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV)", "tarifas": out}
 
 
 @demanda_builder("edese")
@@ -776,13 +776,15 @@ def edesal_sub(tablas):
             continue
         seen.add(m.group(1))
         cols = f.get("columnas") or []
-        if cols[5:7] != ["Cargo Variable Primeros 300kWh", "Cargo Variable Excedente"]:
+        m300 = re.fullmatch(r"Cargo Variable Primeros (\d+)kWh", cols[5] if len(cols) > 5 else "")
+        if not m300 or cols[6:7] != ["Cargo Variable Excedente"]:
             raise ValueError(f"columnas no reconocidas: {cols}")
+        tope = int(m300.group(1))
         v = (f["valores"] + [None] * 7)[:7]
         cats.append({"nombre": m.group(1), "hasta": int(m.group(2)) if m.group(2) else None,
                      "fijo": v[3] + v[4] if v[3] is not None and v[4] is not None else None,
-                     "escalones": [[300, v[5]], [None, v[6]]]})
-    return {"periodo": "mes", "criterio": "T1-R 'Subsidio Resef' (primeros 300 kWh subsidiados)", "categorias": cats}
+                     "escalones": [[tope, v[5]], [None, v[6]]]})
+    return {"periodo": "mes", "criterio": f"T1-R 'Subsidio Resef' (primeros {tope} kWh subsidiados)", "categorias": cats}
 
 
 def build_subsidio(entry):
@@ -843,6 +845,19 @@ def secheep_ocr(tablas):
     esc = [[50, tot(filas[1])], [150, tot(filas[2])], [300, tot(filas[3])], [None, tot(filas[4])]]
     return {"periodo": "mes", "criterio": "Residencial sin SEF, columna Total (OCR)",
             "categorias": [{"nombre": "Residencial", "hasta": None, "fijo": tot(filas[0]), "escalones": esc}]}
+
+
+@builder("dpe")
+def dpe(tablas):
+    """TR1 Nivel 1 (manual transcription of the Boletín Oficial): fixed charge plus cumulative blocks 150 / 150 / excedente de 300."""
+    t = next(t for t in tablas if t["titulo"].startswith("TR1 - Uso residencial NIVEL 1"))
+    f = t["filas"]
+    labels = [r"^Cargo fijo", r"^Primeros 150 kWh/mes$", r"^Siguientes 150 kWh/mes$", r"^Excedente de 300 kWh/mes$"]
+    if len(f) != 4 or not all(re.search(rx, x["concepto"]) for rx, x in zip(labels, f)) or f[0]["unidad"] != "$/mes":
+        raise ValueError("estructura inesperada")
+    v = [x["valores"][0] for x in f]
+    return {"periodo": "mes", "criterio": "TR1 Nivel 1 (transcripción manual del Boletín Oficial)",
+            "categorias": [{"nombre": "TR1 Nivel 1", "hasta": None, "fijo": v[0], "escalones": [[150, v[1]], [300, v[2]], [None, v[3]]]}]}
 
 
 @ocr_builder("dpe")

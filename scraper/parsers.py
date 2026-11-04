@@ -546,8 +546,78 @@ def p_ape(text, sheets=None, **_):
                                      "T1R1-2 Nivel 1 (≤ 120 kWh/mes), precio de venta máximo; el cargo variable tiene varios componentes (ver tabla)")}
 
 
+EDESAL_T1R_COLS = ["Cargo Fijo", "Cargo por Uso de la Red", "Cargo Variable", "Cargo Fijo", "Cargo por Uso de la Red"]
+EDESAL_T2_COLS = ["T2 BT", "T2 BTSRG", "T2 BTSRI", "T2 MT13,2", "T2 MT13,2 Riego", "T2 MT33G", "T2 MT33G Riego", "T2 MT33I", "T2 AT"]
+
+
+def _edesal_pdf(text):
+    """EDESAL's own PDF (pdftotext -layout): T1-R rows on one line; T2 rows can wrap, so the numbers of
+    a row are put back in column order by their position on the line."""
+    lines = text.splitlines()
+    i0 = next(i for i, l in enumerate(lines) if "Tarifa 1-R: Pequeñas Demandas Residenciales" in l)
+    head = " ".join(lines[i0:i0 + 8])
+    n = find(r"Cargo Variable\s+Primeros (\d+)kWh", head) or find(r"Primeros (\d+)kWh", head)
+    unit_line = next(l for l in lines[i0:i0 + 10] if l.count("$/") >= 7)
+    cols = EDESAL_T1R_COLS + [f"Cargo Variable Primeros {n}kWh", "Cargo Variable Excedente"]
+    t = {"titulo": "Tarifa 1-R Residencial", "unidades": re.findall(r"\$/\S+", unit_line)[:7], "filas": []}
+    for l in lines[i0:]:
+        if l.strip().startswith("Tarifas T2"):
+            break
+        m = re.match(r"\s*(T1R-\d)\s+(Desde \d+kWh(?: hasta \d+kWh)?)\s+(.*)$", l)
+        if m:
+            vals = [parse_num(x, ",") for x in m.group(3).split()]
+            if len(vals) == 7:
+                t["filas"].append(_fila(f"{m.group(1)} {m.group(2)}", None, vals, cols=cols))
+    dem = []
+    j0 = next((i for i, l in enumerate(lines) if "Usuarios de la Distribuidora <300kW" in l and "Usuarios de la Distribuidora >=300kW" in l), None)
+    if j0 is not None and all(c in " ".join(lines[j0:j0 + 4]) for c in ("BTSRG", "MT33I", "T2 AT")):
+        blocks, cur = [], None
+        for l in lines[j0 + 4:]:
+            if l.strip().startswith("Tarifas T2"):
+                break
+            if l.strip().startswith("Cargo"):
+                cur = []
+                blocks.append(cur)
+            if cur is not None:
+                cur.append(l)
+        tabs = [{"titulo": f"Tarifas T2 (potencia mayor a 10 kW) — Usuarios de la Distribuidora {x}", "filas": []} for x in ("< 300 kW", "≥ 300 kW")]
+        for b in blocks:
+            nums = sorted((m.start(), parse_num(m.group(0), ",")) for l in b for m in re.finditer(r"(?<!\S)\d{1,3}(?:\.\d{3})*,\d+(?!\S)", l))
+            joined = " ".join(b)
+            label = squeeze(re.sub(r"\[[^\]]*\]|\[\$/|Usuario mes\]|(?<!\S)\d{1,3}(?:\.\d{3})*,\d+(?!\S)", " ", joined))
+            unit = find(r"\[\s*(\$/[^\]]*?)\s*\]", joined) or ("$/Usuario mes" if "Usuario mes]" in joined else None)
+            vals = [v for _, v in nums] if len(nums) == 18 else [None] * 18
+            for k, tab in enumerate(tabs):
+                tab["filas"].append(_fila(label, unit, vals[9 * k:9 * k + 9], cols=EDESAL_T2_COLS))
+        dem = [x for x in tabs if x["filas"]]
+    return {"vigencia": find(r"(CUADRO TARIFARIO [A-Z]+ 20\d\d)", text), "tablas": [t] + dem,
+            "comparable": comparable([t], (r"^T1R-1", 0), (r"^T1R-1", 2), "T1R-1, 'Cuadro Resolución' (primera tabla)")}
+
+
+@parser("spse")
+def p_spse(text, **_):
+    """SPSE (Santa Cruz) web page 'Tarifaria Vigente': one block per category, a row per tramo with
+    desde/hasta kWh, cargo fijo and valor of the tramo (the page states no unit or billing period)."""
+    tabs, cur = [], None
+    lines = text.splitlines()
+    for k, l in enumerate(lines):
+        s = l.strip()
+        if re.fullmatch(r"[A-ZÁÉÍÓÚÑ][A-Za-zÁÉÍÓÚÑáéíóúñ \-]+", s) and k + 1 < len(lines) and "Comprendida por Categoria" in lines[k + 1]:
+            cats = find(r"Categoria:\s*([\d -]+)", lines[k + 1]) or ""
+            cur = {"titulo": f"{s} — categorías {cats.strip()}", "filas": []}
+            tabs.append(cur)
+            continue
+        m = re.match(r"\s*(Primero|Segundo|Tercero|Cuarto|Quinto|Sexto)\s+(\d+)\s+(\d+)\s+\$ ([\d.,]+)\s+\$ ([\d.,]+)", l)
+        if m and cur is not None:
+            cur["filas"].append(_fila(f"Tramo {m.group(1).lower()}: {m.group(2)} a {m.group(3)} kWh", None,
+                                      [parse_num(m.group(4), ","), parse_num(m.group(5), ",")], cols=["Cargo Fijo ($)", "Valor del tramo ($)"]))
+    return {"vigencia": find(r"(Valores vigentes a partir del [^.]+20\d\d)", text), "tablas": [t for t in tabs if t["filas"]]}
+
+
 @parser("edesal")
 def p_edesal(text, sheets=None, **_):
+    if not sheets:
+        return _edesal_pdf(text)
     t = sheet_table(sheets or [], "Tarifa 1-R Residencial", r"Tarifa 1-R:", r"Tarifa 1-G", dec=".", header_re=r"Cargo Fijo")
     dem = []
     rows = [r for sh in sheets or [] for r in sh["filas"]]

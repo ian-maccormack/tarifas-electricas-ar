@@ -1,0 +1,929 @@
+{
+ "fuente": "Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 257-258: Resolución D.P.E. N° 595/26 y su Anexo I (escaneados)",
+ "vigencia": "Facturación con vencimiento en octubre de 2026 (CT Decr. Prov. 2489/2024 + Res. SE#MEC 190/2026, septiembre 2026)",
+ "nota": "Transcripción manual del Anexo I escaneado: cada valor se leyó dos veces sobre la imagen del Boletín Oficial (a 220 y 300 dpi). El OCR automático no lee bien este escaneo.",
+ "tablas": [
+  {
+   "titulo": "TR1 - Uso residencial NIVEL 1",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo (haya o no consumo)",
+     "unidad": "$/mes",
+     "valores": [
+      4412.16
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Primeros 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      173.2748
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Siguientes 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      191.2397
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Excedente de 300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      203.3643
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "TR2 - Uso residencial NIVEL 2 (SEF)",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo (haya o no consumo)",
+     "unidad": "$/mes",
+     "valores": [
+      2936.21
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Primeros 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      68.5608
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Siguientes 50 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      80.5091
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Entre 200 y 300: siguientes 100 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      146.8284
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Entre 200 y 300: siguientes 50 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      149.7456
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Excedente de 300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      179.0879
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "TR3 - Uso residencial NIVEL 3 (SEF)",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo (haya o no consumo)",
+     "unidad": "$/mes",
+     "valores": [
+      3374.66
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Primeros 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      75.604
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Siguientes 50 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      87.344
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Entre 200 y 250: siguientes 50 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      153.6632
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Entre 200 y 250: siguientes 50 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      163.0833
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Excedente de 300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      179.0879
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "TRE - Usuarios electrodependientes",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo (haya o no consumo)",
+     "unidad": "$/mes",
+     "valores": [
+      2936.21
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Primeros 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      59.2689
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Siguientes 150 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      71.3824
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Excedente de 300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      81.5487
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "T1-G - Uso general",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo (haya o no consumo)",
+     "unidad": "$/mes",
+     "valores": [
+      5748.8
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Primeros 1000 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      197.6871
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Siguientes 1300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      230.7406
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Excedente de 2300 kWh/mes",
+     "unidad": "$/kWh",
+     "valores": [
+      248.0451
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 2 — Medianas demandas (potencia contratada mayor a 10 y menor a 30 kW)",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      43926.61
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Por capacidad de suministro contratada",
+     "unidad": "$/kW-mes",
+     "valores": [
+      36495.48
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo variable por energía",
+     "unidad": "$/kWh",
+     "valores": [
+      112.3639
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Media tensión",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      674829.17,
+      674829.17
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      4605.5,
+      5624.96
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      4060.95,
+      4848.07
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11173.59,
+      11217.33
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      101.5746,
+      110.7734
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      95.519,
+      105.4736
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      94.2891,
+      104.5814
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Media tensión — O.P. Salud/Educación",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      674829.17,
+      674829.17
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      4605.5,
+      5624.96
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      4060.95,
+      4848.07
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11173.59,
+      11217.33
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      101.5746,
+      110.7734
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      95.519,
+      105.4736
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      94.2891,
+      104.5814
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Bornes trafo media a baja tensión",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      208852.92,
+      208852.92
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      9888.54,
+      9938.06
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      7499.08,
+      7759.18
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11516.04,
+      11040.91
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      103.5512,
+      117.1176
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      98.5309,
+      111.7983
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      98.7107,
+      112.3084
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Bornes trafo media a baja tensión — O.P. Salud/Educación",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      208852.92,
+      208852.92
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      9888.54,
+      9938.06
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      7499.08,
+      7759.18
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11516.04,
+      11040.91
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      103.5512,
+      117.1176
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      98.5309,
+      111.7983
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      98.7107,
+      112.3084
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Baja tensión",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      208852.92,
+      208852.92
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      14990.1,
+      15677.54
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11711.46,
+      12465.59
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      12113.13,
+      11573.38
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      108.0179,
+      120.7003
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      102.5337,
+      114.5447
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      101.7378,
+      114.1083
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 3 — Grandes demandas (potencia contratada igual o mayor a 30 kW) — Baja tensión — O.P. Salud/Educación",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      208852.92,
+      208852.92
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      14990.1,
+      15677.54
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por potencia: capacidad de suministro contratada en hs fuera de punta",
+     "unidad": "$/kW-mes",
+     "valores": [
+      11711.46,
+      12465.59
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por suministro de potencia",
+     "unidad": "$/kW-mes",
+     "valores": [
+      12113.13,
+      11573.38
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de punta",
+     "unidad": "$/kWh",
+     "valores": [
+      108.0179,
+      120.7003
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de resto",
+     "unidad": "$/kWh",
+     "valores": [
+      102.5337,
+      114.5447
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    },
+    {
+     "grupo": null,
+     "concepto": "Cargo por consumo de energía: período horas de valle",
+     "unidad": "$/kWh",
+     "valores": [
+      101.7378,
+      114.1083
+     ],
+     "columnas": [
+      "Potencia desde 30 hasta 300 kW",
+      "Potencia >= 300 kW"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifa 4 — Alumbrado público — AP1 Suministro de energía y mantenimiento",
+   "filas": [
+    {
+     "grupo": null,
+     "concepto": "Cargo variable por energía",
+     "unidad": "$/kWh",
+     "valores": [
+      296.5917
+     ],
+     "columnas": null
+    }
+   ]
+  },
+  {
+   "titulo": "Tarifas transitorias",
+   "filas": [
+    {
+     "grupo": "T2 - Tarifa transitoria",
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      43926.61
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": "T2 - Tarifa transitoria",
+     "concepto": "Cargo variable",
+     "unidad": "$/kWh",
+     "valores": [
+      312.1344
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": "T3 MT - Tarifa transitoria",
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      674829.17
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": "T3 MT - Tarifa transitoria",
+     "concepto": "Cargo variable",
+     "unidad": "$/kWh",
+     "valores": [
+      268.622
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": "T3 BT - Tarifa transitoria",
+     "concepto": "Cargo fijo",
+     "unidad": "$/mes",
+     "valores": [
+      208852.92
+     ],
+     "columnas": null
+    },
+    {
+     "grupo": "T3 BT - Tarifa transitoria",
+     "concepto": "Cargo variable",
+     "unidad": "$/kWh",
+     "valores": [
+      349.5005
+     ],
+     "columnas": null
+    }
+   ]
+  }
+ ]
+}

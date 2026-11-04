@@ -344,14 +344,21 @@ def edenor_pdf():
     raise LookupError("EDENOR: sin cuadro en /files/ para los últimos meses")
 
 
+def entregado(archivo, titulo, oficial, nota):
+    """A copy of an official document supplied by the site owner, for sources that block automated
+    downloads. It only wins while it is the most recent cuadro; the live source keeps being tried."""
+    return lambda: {"url": f"docs/entregados/{archivo}", "titulo": titulo, "pagina": oficial, "archivo": True,
+                    "entregado": {"oficial": oficial, "nota": nota}}
+
+
 ORIGEN_BO_TDF = "Boletín Oficial de Tierra del Fuego"
 BO_TDF = "https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6"
 
 
-def bo_tdf(file_id, titulo, paginas):
+def bo_tdf(file_id, titulo, paginas, manual=None):
     """A resolution inside a full Boletín Oficial issue (Drive folder of the provincial Boletín): only its pages are read."""
     return lambda: {"url": f"https://drive.usercontent.google.com/download?id={file_id}&export=download&confirm=t",
-                    "titulo": titulo, "pagina": BO_TDF, "paginas": paginas, "sin_ocr": True}
+                    "titulo": titulo, "pagina": BO_TDF, "paginas": paginas, "sin_ocr": True, "manual": manual}
 
 
 src("edenor", "EDENOR", "Empresa Distribuidora y Comercializadora Norte S.A.", "Ciudad de Buenos Aires y GBA",
@@ -397,7 +404,8 @@ src("ejsed", "EJSED S.A.", "Empresa Jujeña de Sistemas Energéticos Dispersos S
     known="https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf")
 src("ape", "APE", "Administración Provincial de Energía", "La Pampa",
     page_latest("https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026", r"Cuadro-Tarifario.*\.pdf"),
-    ORIGEN_ENTE, "ape")
+    ORIGEN_ENTE, "ape",
+    extra=[(entregado("ape-res-42-26-usuarios-finales.pdf", "Anexo I, Resolución S.E.y M. 42/26: cuadro tarifario a usuarios finales (facturación desde octubre 2026)", "https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026", "El sitio de la Secretaría de Energía y Minería de La Pampa no responde al servidor del scraper; copia guardada desde ese sitio por Venergy."), ORIGEN_ENTE)])
 src("edelar", "EDELAR", "Empresa Distribuidora de Electricidad de La Rioja S.A.", "La Rioja",
     fixed("https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf", "Cuadro tarifario vigente (EDELAR)"), se="edelar",
     extra=[(fixed("https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf", "Cuadro tarifario vigente (EDELAR)"), ORIGEN_DIST)])
@@ -422,15 +430,17 @@ src("edesa", "EDESA", "Empresa Distribuidora de Electricidad de Salta S.A.", "Sa
 src("esj", "ESJ", "Energía San Juan S.A. (Naturgy San Juan)", "San Juan",
     page_latest("https://www.naturgysj.com.ar/hogar/cuadro-tarifario/", r"uploads/.*CT.*ESJ.*\.pdf$"), se="esj-0")
 src("edesal", "EDESAL", "Empresa Distribuidora San Luis S.A.", "San Luis",
-    page_latest("https://edesalenergia.com.ar/eener/cuadro_tarifario.html", r"\.pdf$"), se="edesal-sa")
+    page_latest("https://edesalenergia.com.ar/eener/cuadro_tarifario.html", r"\.pdf$"), se="edesal-sa",
+    extra=[(entregado("edesal-cuadro-tarifario-2026-09.pdf", "Cuadro tarifario EDESAL septiembre 2026 (Res. SE 222/2026 y CRPEE 330/2026)", "https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf", "El PDF oficial responde 403 al servidor del scraper; copia descargada del sitio de EDESAL por Venergy."), ORIGEN_DIST)])
 src("spse", "SPSE", "Servicios Públicos Sociedad del Estado", "Santa Cruz", None, se="spse-0",
-    nota="El sitio de SPSE no responde desde el servidor del scraper.")
+    nota="El sitio de SPSE no responde desde el servidor del scraper.",
+    extra=[(entregado("spse-cuadro-tarifario-web-2026-11-04.pdf", "Cuadro tarifario SPSE: página \"Tarifaria Vigente\" (impresa el 04/11/2026)", "https://spse.ar/atencion-cliente#cuadroTarifario", "El sitio de SPSE no responde al servidor del scraper; impresión de la página oficial hecha por Venergy."), ORIGEN_DIST)])
 src("epe", "EPE", "Empresa Provincial de la Energía de Santa Fe", "Santa Fe", epe, se="epe", parser="epe")
 src("edese", "EDESE", "Empresa Distribuidora de Electricidad de Santiago del Estero S.A.", "Santiago del Estero",
     fixed("https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf", "Cuadro tarifario vigente (EDESE)"), se="edese")
 src("dpe", "DPE", "Dirección Provincial de Energía de Tierra del Fuego", "Tierra del Fuego",
     page_latest("https://www.dpe.com.ar/usuarios/cuadro_tarifario/", r"assets/usuarios/.*Tarifa.*\.pdf$"), se="dpe",
-    extra=[(bo_tdf("1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW", "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 258-259", (258, 259)), ORIGEN_BO_TDF)])
+    extra=[(bo_tdf("1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW", "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 257-258", (257, 258), "dpe-res-595-26.json"), ORIGEN_BO_TDF)])
 src("edet", "EDET", "Empresa de Distribución Eléctrica de Tucumán S.A.", "Tucumán",
     getfile_page("https://www.edetsa.com/info/pwa/institucional/costos-del-servicio", r"cuadro tarifario vigente"), se="edet")
 
@@ -453,7 +463,7 @@ OFICIALES = {
     'refsa': ['https://www.recursosyenergia.com.ar/tarifas'],
     'ejesa': ['https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio'],
     'ejsed': ['https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf', 'https://ejsedsa.com.ar/'],
-    'ape': ['https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-a-usuarios-finales-resolucion-42-26', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-ape-a-cooperativas-resolucion-41-26'],
+    'ape': ['docs/entregados/ape-res-41-26-cooperativas.pdf', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-a-usuarios-finales-resolucion-42-26', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-ape-a-cooperativas-resolucion-41-26'],
     'edelar': ['https://www.edelar.com.ar/clientes/pequenas-demandas', 'https://www.edelar.com.ar/clientes/grandes-demandas', 'https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf'],
     'edemsa': ['https://www.edemsa.com/segmentacion-tarifaria/', 'https://www.edemsa.com/wp-content/uploads/2026/09/Cuadro-tarifario-edemsa-DESDE-EL-1-DE-SETIEMBRE-DE-2026.pdf'],
     'edeste': ['https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf?v=1786120617', 'https://www.edeste.com.ar/normativa.php#'],
@@ -468,6 +478,12 @@ OFICIALES = {
     'edese': ['https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf', 'https://www.edese.com.ar/#'],
     'dpe': ['https://www.dpe.com.ar/usuarios/cuadro_tarifario/', 'https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6'],
     'edet': ['https://www.edetsa.com/info/pwa/institucional/costos-del-servicio', 'https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0='],
+}
+NO_OFICIALES = {
+    "dpe": [{"url": "https://www.infofueguina.com/tu-ciudad/2026/9/17/la-dpe-aprobo-nuevos-valores-tarifarios-para-el-servicio-electrico-y-modifico-cargos-82160.html",
+             "copia": "docs/entregados/infofueguina-dpe-res-595-26.pdf", "titulo": "Infofueguina (17/09/2026): nota sobre la Res. DPE 595/26",
+             "nota": "Medio periodístico, no es una fuente oficial. Dos valores de T1-R1 no coinciden con la Res. 595/26 del Boletín Oficial: "
+                     "primeros 150 kWh 170,2740 (Boletín: 173,2748) y siguientes 150 kWh 191,2997 (Boletín: 191,2397)."}],
 }
 OFICIALES_NOTA = {
     'enersa': 'El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución.',

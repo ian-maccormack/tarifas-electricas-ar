@@ -34,3 +34,29 @@ def test_choose_newest_with_values_then_ente():
     old = ({"tablas": t}, "", (2025, 9), ORIGEN_DIST, 0)
     bo_empty = ({"tablas": []}, "", (2026, 9), ORIGEN_ENTE, 1)
     assert choose([old, bo_empty]) == (bo_empty, None)
+
+
+def test_edesal_pdf_text_layout():
+    from common import pdf_text
+    from parsers import PARSERS
+    from simulador import DEMANDA, SUB_BUILDERS
+    root = Path(__file__).resolve().parents[1]
+    r = PARSERS["edesal"](pdf_text((root / "site/docs/entregados/edesal-cuadro-tarifario-2026-09.pdf").read_bytes()))
+    t1 = r["tablas"][0]
+    assert t1["filas"][0]["valores"] == [6448.4817, 10668.3161, 143.5892, 3506.6446, 10668.3161, 57.408, 143.5892]
+    sub = SUB_BUILDERS["edesal"](r["tablas"])
+    assert sub["categorias"][0]["escalones"] == [[200, 57.408], [None, 143.5892]]
+    valle = r["tablas"][2]["filas"][-1]
+    assert valle["concepto"].endswith("hs.Valle") and valle["valores"][0] == 176.568 and valle["valores"][-1] == 154.2795
+    assert r["tablas"][1]["filas"][0]["concepto"] == "Cargo Comercial"
+    assert len(DEMANDA["edesal"](r["tablas"])["tarifas"]) == 6
+
+
+def test_dpe_manual_transcription():
+    import json
+    from simulador import BUILDERS
+    root = Path(__file__).resolve().parents[1]
+    man = json.loads((root / "scraper/manual/dpe-res-595-26.json").read_text())
+    sim = BUILDERS["dpe"](man["tablas"])
+    assert sim["categorias"][0]["fijo"] == 4412.16
+    assert sim["categorias"][0]["escalones"] == [[150, 173.2748], [300, 191.2397], [None, 203.3643]]
