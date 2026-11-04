@@ -719,7 +719,7 @@ def edersa_sub(tablas):
 def enre_sub(tablas):
     """'Tarifa 1 - R con subsidio': the consumption sets the category; the consumo base is billed at the
     subsidised price and the rest at the excedente price. The consumo base depends on the month."""
-    cats, on, base = [], False, None
+    cats, on, base, tope = [], False, None, None
     for t in tablas:
         if re.match(r"R\d+ — Tarifa 1 - R con subsidio$", t["titulo"]):
             on = True
@@ -731,9 +731,23 @@ def enre_sub(tablas):
         fijo = _row(t["filas"], r"^Cargo Fijo")
         m = re.search(r"(\d+)\s*-\s*(\d+)", fijo["concepto"]) if fijo else None
         b, ex = _row(t["filas"], r"consumo base$"), _row(t["filas"], r"excedente a consumo base")
-        esc = [["base", _val(b)], [None, _val(ex)]] if b and ex else [[None, _val(_row(t["filas"], r"^Cargo Variable"))]]
+        # Distributor PDFs print the subsidised block with its own limit ('primeros 200 kWh').
+        pb, pe = _row(t["filas"], r"^Cargo Variable primeros \d+ kWh$"), _row(t["filas"], r"^Cargo Variable excedente a \d+ kWh$")
+        if pb and pe:
+            n = int(re.search(r"(\d+) kWh$", pb["concepto"]).group(1))
+            if int(re.search(r"(\d+) kWh$", pe["concepto"]).group(1)) != n or (tope and tope != n):
+                raise ValueError("los topes de consumo subsidiado no coinciden")
+            tope = n
+            esc = [[n, _val(pb)], [None, _val(pe)]]
+        elif b and ex:
+            esc = [["base", _val(b)], [None, _val(ex)]]
+        else:
+            esc = [[None, _val(_row(t["filas"], r"^Cargo Variable"))]]
         cats.append({"nombre": t["titulo"].split(" ")[0], "hasta": int(m.group(2)) if m else None,
                      "fijo": _val(fijo), "escalones": esc})
+    if tope:
+        return {"periodo": "mes", "criterio": f"Tarifa 1-R con subsidio (primeros {tope} kWh subsidiados, según el cuadro)",
+                "categorias": cats}
     if not base:
         raise ValueError("sin consumo base por mes")
     return {"periodo": "mes", "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",

@@ -76,3 +76,13 @@ def test_edenor_own_pdf_matches_enre_layout():
     dem = {t["nombre"]: t for t in DEMANDA["edenor"](r["tablas"])["tarifas"]}
     assert dem["Tarifa 2"]["fijo"] == 50443.95 and dem["Tarifa 2"]["energia"]["unica"] == 148.772
     assert dem["Tarifa 3 - AT > 300"]["energia"] == {"pico": 154.086, "resto": 149.064, "valle": 148.106}
+
+
+def test_edenor_pdf_subsidy_limit_from_cuadro():
+    from common import pdf_text
+    from parsers import PARSERS
+    from simulador import SUB_BUILDERS
+    c = (Path(__file__).resolve().parent / "fixtures/edenor-2026-11.pdf").read_bytes()
+    sub = SUB_BUILDERS["edenor"](PARSERS["enre"](pdf_text(c), source={"empresa": "EDENOR"}, content=c)["tablas"])
+    assert "base_mes" not in sub
+    assert sub["categorias"][1] == {"nombre": "R2", "hasta": 400, "fijo": 3989.51, "escalones": [[200, 65.754], [None, 164.279]]}
