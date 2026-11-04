@@ -13,7 +13,7 @@ from simulador import build as build_sim, build_demanda, build_ocr, build_subsid
 from normalizado import normalizar
 import re
 
-from sources import _SE_BYTES, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
+from sources import _SE_BYTES, OFICIALES, OFICIALES_NOTA, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -27,6 +27,27 @@ def candidates(s):
         yield "primary", s["primary"], s["origen"]
     if s.get("known"):
         yield "known", lambda: {"url": s["known"], "titulo": s["known"].rsplit("/", 1)[-1]}, s["origen"]
+    for disc, origen in s.get("extra") or ():
+        yield "extra", disc, origen
+
+
+def origin_rank(origen):
+    """Tie-break for the same period: ente / Boletín Oficial > distributor > national archive."""
+    if origen == ORIGEN_SE:
+        return 0
+    return 2 if re.search(r"ente|enre|bolet[ií]n|epre|oceba", origen or "", re.I) else 1
+
+
+def pdf_pages(content, pages):
+    """Only the given 1-based pages of a PDF (a resolution inside a full Boletín Oficial issue)."""
+    import io
+    from pypdf import PdfReader, PdfWriter
+    r, w = PdfReader(io.BytesIO(content)), PdfWriter()
+    for n in pages:
+        w.add_page(r.pages[n - 1])
+    buf = io.BytesIO()
+    w.write(buf)
+    return buf.getvalue()
 
 
 def get_doc(url, headers=None):
@@ -83,7 +104,8 @@ def ocr_tables(id, content, dpi=None):
     else:
         pages = read_pages(content, dpi or DPI, max(MAX_PX, int(11.7 * (dpi or DPI))))
         cache.parent.mkdir(exist_ok=True)
-        for old in cache.parent.glob(f"{id}-*.json"):
+        # A distributor can have several OCR'd candidates (one per source): keep the newest few.
+        for old in sorted(cache.parent.glob(f"{id}-*.json"), key=lambda f: f.stat().st_mtime)[:-3]:
             old.unlink()
         cache.write_text(json.dumps(pages, ensure_ascii=False, separators=(",", ":")))
     rows = ocr_rows(pages)
@@ -136,14 +158,16 @@ def validate(tablas):
 
 def _read(s, kind, d, origen, intentos):
     content, ctype = get_doc(d["url"], d.get("headers"))
+    if d.get("paginas"):
+        content = pdf_pages(content, d["paginas"])
     tipo, text, sheets = document_text(content, d["url"], ctype)
     if tipo in ("html",) and s["parser"] != "enre":
         raise ValueError("el enlace devolvió una página HTML en vez del documento")
     doc = dict(url=d["url"], titulo=d.get("titulo"), pagina=d.get("pagina"), origen=origen,
                tipo=tipo, sha256=hashlib.sha256(content).hexdigest(), bytes=len(content),
                via={"primary": "búsqueda automática", "known": "URL conocida",
-                    "se": "archivo nacional"}[kind])
-    for k in ("archivado", "resolucion"):
+                    "extra": "fuente oficial de referencia", "se": "archivo nacional"}[kind])
+    for k in ("archivado", "resolucion", "paginas"):
         if d.get(k):
             doc[k] = d[k]
     parsed = {"vigencia": None, "tablas": []}
@@ -155,7 +179,7 @@ def _read(s, kind, d, origen, intentos):
             intentos.append(f"parser: {type(e).__name__}: {e}")
     tablas = validate(parsed.get("tablas", []))
     used_ocr = False
-    if not tablas and tipo == "pdf" and (s.get("ocr") or len(text.strip()) < 200):
+    if not tablas and tipo == "pdf" and not d.get("sin_ocr") and (s.get("ocr") or len(text.strip()) < 200):
         tablas = validate(ocr_tables(s["id"], content, s.get("ocr_dpi")))
         used_ocr = bool(tablas)
         parsed["comparable"] = ocr_comparable(s["id"], tablas)
@@ -165,9 +189,12 @@ def _read(s, kind, d, origen, intentos):
                comparable=parsed.get("comparable"), texto=bool(text.strip()),
                escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr,
                estado="ok" if tablas else "documento")
-    if text.strip() and tipo != "html":
-        (TEXTS / f"{s['id']}.txt").write_text(text)
     return upd, text
+
+
+def _save_text(id, upd, text):
+    if text.strip() and upd["documento"]["tipo"] != "html":
+        (TEXTS / f"{id}.txt").write_text(text)
 
 
 def _interpret(t):
@@ -205,18 +232,69 @@ def process(s):
     entry.update(estado="sin_datos", documento=None, vigencia=None, tablas=[], intentos=[], verificado=NOW)
     if s["id"] in PAGO_MENSUAL:
         entry["pago_mensual"] = dict(zip(("texto", "url"), PAGO_MENSUAL[s["id"]]))
-    for kind, disc, origen in candidates(s):
+    if s["id"] in OFICIALES:
+        entry["oficiales"] = {"links": OFICIALES[s["id"]], "nota": OFICIALES_NOTA.get(s["id"])}
+    elif s["id"] in OFICIALES_NOTA:
+        entry["oficiales"] = {"links": [], "nota": OFICIALES_NOTA[s["id"]]}
+    found, seen = [], set()
+    for i, (kind, disc, origen) in enumerate(candidates(s)):
         try:
             d = disc()
-            upd, _ = _read(s, kind, d, origen, entry["intentos"])
-            entry.update(upd)
-            entry["intentos"].append(f"{kind}: OK {d['url']}")
-            break
+            if d["url"] in seen:
+                continue
+            seen.add(d["url"])
+            upd, text = _read(s, kind, d, origen, entry["intentos"])
+            ym = candidate_month(upd, text)
+            found.append((upd, text, ym, origen, i))
+            entry["intentos"].append(f"{kind}: OK {d['url']} ({_ym(ym) if ym else 'sin fecha'}, {len(upd['tablas'])} tablas)")
         except Exception as e:
             entry["intentos"].append(f"{kind}: {type(e).__name__}: {str(e)[:200]}")
+    best, newer = choose(found)
+    if best:
+        upd, text, ym, origen, _ = best
+        entry.update(upd)
+        _save_text(s["id"], upd, text)
+        if len(found) > 1:
+            entry["candidatos"] = [{"url": u["documento"]["url"], "titulo": u["documento"].get("titulo"), "origen": o,
+                                    "periodo": _ym(y) if y else None, "valores": bool(u["tablas"]),
+                                    "usado": u is upd} for u, _, y, o, _ in found]
+        if newer:
+            nu, _, nym, no, _ = newer
+            entry["mas_nuevo_sin_valores"] = {"url": nu["documento"]["url"], "titulo": nu["documento"].get("titulo"),
+                                              "origen": no, "periodo": _ym(nym)}
     if s["se"]:
         _secretaria(s, entry)
     return entry
+
+
+def candidate_month(upd, text):
+    from common import norm
+    ym = reference_month({"id": "", **upd})[0]
+    if not ym:
+        k = _date_key(norm(text[:3000]))
+        ym = k[:2] if k != (0, 0, 0) else None
+    return ym
+
+
+def choose(found):
+    """Source rule: the most recent period with extracted values wins; on the same period the ente /
+    Boletín Oficial wins over the distributor, then the listing order. A newer document whose values
+    could not be read is not used (nothing is invented) but is reported."""
+    key = lambda f: (f[2] or (0, 0), origin_rank(f[3]), -f[4])
+    with_values = [f for f in found if f[0]["tablas"]]
+    best = max(with_values or found, key=key, default=None)
+    newer = None
+    if best and with_values:
+        cands = [f for f in found if not f[0]["tablas"] and f[2] and best[2] and f[2] > best[2]]
+        newer = max(cands, key=key, default=None)
+        if newer and months(newer[2]) - months(best[2]) > 2:
+            # The cuadro with values is long superseded: show the newest one as document only.
+            return newer, None
+    return best, newer
+
+
+def months(ym):
+    return ym[0] * 12 + ym[1]
 
 
 def _secretaria(s, entry):

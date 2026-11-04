@@ -499,7 +499,8 @@ def p_epec(text, **_):
     t = {"titulo": "Tarifa Nº 1 - Residencial", "filas": filas}
     m = find(r"Energ[ií]a M[ií]nima Mensual a facturar\s*=\s*(\d+)\s*kWh por mes", text)
     t["energia_minima"] = int(m) if m else None
-    return {"vigencia": find(r"(PUBLICACION WEB EPEC - [0-9/]+)", text), "tablas": [t]}
+    return {"vigencia": find(r"(CUADRO TARIFARIO EPEC\s*-\s*[A-Z]+\s+20\d\d)", text) or find(r"(PUBLICACION WEB EPEC - [0-9/]+)", text),
+            "tablas": [t]}
 
 
 @parser("enersa")

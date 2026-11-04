@@ -72,6 +72,7 @@ function card(e) {
     : d && d.archivado ? `<span class="badge b-old" title="El sitio oficial no responde: el documento es la copia guardada por el Internet Archive">Copia archivada</span>` : "";
   let body = "";
   if (e.desactualizado) body += `<div class="alert viejo"><b>Documento de hace más de 2 meses.</b> El mes de referencia (${esc(mesfmt(e.mes_referencia))}, según ${esc(e.mes_referencia_origen)}) es de hace más de 2 meses. No se encontró un cuadro más nuevo en las fuentes consultadas; puede seguir vigente, pero conviene confirmarlo con la distribuidora o el ente regulador.</div>`;
+  if (e.mas_nuevo_sin_valores) { const n = e.mas_nuevo_sin_valores; body += `<div class="alert viejo"><b>Hay un cuadro más nuevo (${esc(mesfmt(n.periodo))}).</b> ${link(n.url, n.titulo || "Ver documento")} (${esc(n.origen)}). Sus valores todavía no se pudieron extraer y verificar, así que la ficha muestra el cuadro anterior. Consultá el documento original.</div>`; }
   if (e.ocr) body += `<div class="alert ocr"><b>Valores leídos por OCR</b> del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; los nombres de columna se muestran solo cuando el encabezado se leyó claramente. Verificá contra el documento antes de usar un valor.</div>`;
   body += `<dl class="kv">
     <dt>Razón social</dt><dd>${esc(e.nombre)}</dd>
@@ -85,6 +86,8 @@ function card(e) {
   if (d && d.archivado) body += `<dt>Copia archivada</dt><dd>El sitio oficial no responde desde el servidor del scraper. El documento se descargó de la copia guardada por el ${esc(d.archivado.servicio)} el ${esc(d.archivado.captura)}. <a href="${esc(d.archivado.url_original)}" target="_blank" rel="noopener">URL original</a>${d.archivado.pagina_captura ? ` · <a href="${esc(d.archivado.pagina_captura)}" target="_blank" rel="noopener">página archivada</a>` : ""}. Puede existir un cuadro más nuevo que no fue archivado.</dd>`;
   if (d && d.resolucion) body += `<dt>Resolución</dt><dd><a href="${esc(d.resolucion)}" target="_blank" rel="noopener">${esc(d.resolucion.split("/").pop())}</a></dd>`;
   body += seHTML(e);
+  if (e.candidatos?.length) body += `<dt>Fuentes comparadas</dt><dd>${e.candidatos.map((c) => `${link(c.url, c.titulo || c.url)} <span class="note">(${esc(c.origen)} · ${c.periodo ? esc(mesfmt(c.periodo)) : "sin fecha"}${c.valores ? "" : " · sin valores extraídos"})</span>${c.usado ? ' <span class="badge b-ok">usada</span>' : ""}`).join("<br>")}<br><span class="note">Se usa la de vigencia más reciente con valores; si dos son del mismo período, primero el ente regulador o Boletín Oficial y después la distribuidora.</span></dd>`;
+  if (e.oficiales) body += `<dt>Fuentes oficiales de referencia</dt><dd>${e.oficiales.links.map((u) => link(u, u.replace(/^https?:\/\/(www\.)?/, "").split(/[?#]/)[0].slice(0, 90))).join("<br>")}${e.oficiales.nota ? `${e.oficiales.links.length ? "<br>" : ""}<span class="note">${esc(e.oficiales.nota)}</span>` : ""}</dd>`;
   if (e.nota) body += `<dt>Nota</dt><dd>${esc(e.nota)}</dd>`;
   if (!e.ocr && e.escaneado) body += `<dt>Aviso</dt><dd>El PDF es una imagen escaneada y el OCR no obtuvo valores coincidentes.</dd>`;
   body += "</dl>";

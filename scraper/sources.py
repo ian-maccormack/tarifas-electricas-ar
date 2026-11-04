@@ -322,19 +322,47 @@ def epe():
     return {**best[1], "headers": _epe_headers(EPE_PAGE, component)}
 
 
-def src(id, empresa, nombre, provincia, primary=None, origen=ORIGEN_DIST, se=None, parser=None, nota="", known=None, ocr=False):
+def src(id, empresa, nombre, provincia, primary=None, origen=ORIGEN_DIST, se=None, parser=None, nota="", known=None, ocr=False,
+        extra=()):
     S.append(dict(id=id, empresa=empresa, nombre=nombre, provincia=provincia,
                   primary=primary, origen=origen, se=se, parser=parser or id, nota=nota, known=known,
-        ocr=ocr))
+                  ocr=ocr, extra=list(extra)))
+
+
+def edenor_pdf():
+    """EDENOR publishes the cuadro on its own site under /files/YYYY-MM/ (the month it takes effect)."""
+    import datetime as _dt
+    t = _dt.date.today()
+    for y, m in ((t.year + (t.month == 12), t.month % 12 + 1), (t.year, t.month), (t.year - (t.month == 1), (t.month - 2) % 12 + 1)):
+        url = f"https://www.edenor.com/files/{y}-{m:02d}/Cuadro-Tarifario.pdf"
+        try:
+            r = fetch(url, timeout=30)
+        except Exception:
+            continue
+        if r.content[:5] == b"%PDF-":
+            return {"url": url, "titulo": f"Cuadro tarifario EDENOR ({m:02d}-{y})", "pagina": "https://www.edenor.com/institucional/marco-regulatorio"}
+    raise LookupError("EDENOR: sin cuadro en /files/ para los últimos meses")
+
+
+ORIGEN_BO_TDF = "Boletín Oficial de Tierra del Fuego"
+BO_TDF = "https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6"
+
+
+def bo_tdf(file_id, titulo, paginas):
+    """A resolution inside a full Boletín Oficial issue (Drive folder of the provincial Boletín): only its pages are read."""
+    return lambda: {"url": f"https://drive.usercontent.google.com/download?id={file_id}&export=download&confirm=t",
+                    "titulo": titulo, "pagina": BO_TDF, "paginas": paginas, "sin_ocr": True}
 
 
 src("edenor", "EDENOR", "Empresa Distribuidora y Comercializadora Norte S.A.", "Ciudad de Buenos Aires y GBA",
-    enre, "ENRE / ENReGE", "edenor", parser="enre")
+    enre, "ENRE / ENReGE", "edenor", parser="enre",
+    extra=[(edenor_pdf, ORIGEN_DIST)])
 src("edesur", "EDESUR", "Empresa Distribuidora Sur S.A.", "Ciudad de Buenos Aires y GBA",
     enre, "ENRE / ENReGE", "edesur", parser="enre")
 src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A.", "Buenos Aires",
     oceba("EDES"), ORIGEN_ENTE, "edessa", parser="oceba",
-    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.")
+    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
+    extra=[(page_latest("https://www.infoedes.com/cuadro-tarifario/", r"/uploads/.*[Cc]uadro.*\.pdf$"), ORIGEN_DIST)])
 src("edea", "EDEA", "Empresa Distribuidora de Energía Atlántica S.A.", "Buenos Aires",
     page_latest("https://www.edeaweb.com.ar/cuadro-tarifario/", r"/uploads/.*\.pdf$"), se="edea")
 src("edelap", "EDELAP", "Empresa Distribuidora La Plata S.A.", "Buenos Aires",
@@ -342,7 +370,8 @@ src("edelap", "EDELAP", "Empresa Distribuidora La Plata S.A.", "Buenos Aires",
     known="https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf")
 src("eden", "EDEN", "Empresa Distribuidora de Energía Norte S.A.", "Buenos Aires",
     oceba("EDEN"), ORIGEN_ENTE, "eden", parser="oceba",
-    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.")
+    nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
+    extra=[(page_latest("https://www.edensa.com.ar/cuadro-tarifario/", r"/uploads/.*[Cc]uadro.*\.pdf$"), ORIGEN_DIST)])
 src("ecsapem", "EC SAPEM", "Energía Catamarca S.A.P.E.M.", "Catamarca",
     page_latest("https://www.ecsapem.com.ar/", r"/uploads/.*cuadro.*\.pdf$"), se="ecsapem",
     known="https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf")
@@ -353,13 +382,12 @@ src("dgsp", "DGSP", "Dirección General de Servicios Públicos", "Chubut", None,
     nota="No se encontró publicación propia vigente; gran parte de Chubut es atendida por cooperativas.")
 src("epec", "EPEC", "Empresa Provincial de Energía de Córdoba", "Córdoba",
     page_latest("https://www.epec.com.ar/cuadro-tarifario", r"/docs/cuadro-tarifario/.*\.pdf$"), se="epec-0",
-    known="https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf")
+    known="https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
+    extra=[(fixed("https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf", "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)"), ORIGEN_DIST)])
 src("dpec", "DPEC", "Dirección Provincial de Energía de Corrientes", "Corrientes",
     page_latest("https://www.dpec.com.ar/1500/Cuadro-Tarifario", r"/descarga/.*CUADRO", r"cuadro"), se="dpec",
     known="https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf")
 src("enersa", "ENERSA", "Energía de Entre Ríos S.A.", "Entre Ríos", epre_entre_rios, ORIGEN_ENTE, "enersa")
-src("die", "DIE", "Dirección de Infraestructura Eléctrica", "Formosa", None, se=None,
-    nota="No se encontró una fuente pública de cuadro tarifario.")
 src("refsa", "REFSA", "Recursos y Energía Formosa S.A.", "Formosa",
     refsa, se="refsa")
 src("ejesa", "EJE S.A.", "Empresa Jujeña de Energía S.A.", "Jujuy",
@@ -371,13 +399,15 @@ src("ape", "APE", "Administración Provincial de Energía", "La Pampa",
     page_latest("https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026", r"Cuadro-Tarifario.*\.pdf"),
     ORIGEN_ENTE, "ape")
 src("edelar", "EDELAR", "Empresa Distribuidora de Electricidad de La Rioja S.A.", "La Rioja",
-    fixed("https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf", "Cuadro tarifario vigente (EDELAR)"), se="edelar")
+    fixed("https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf", "Cuadro tarifario vigente (EDELAR)"), se="edelar",
+    extra=[(fixed("https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf", "Cuadro tarifario vigente (EDELAR)"), ORIGEN_DIST)])
 src("edemsa", "EDEMSA", "Empresa Distribuidora de Electricidad de Mendoza S.A.", "Mendoza",
     page_latest("https://epremendoza.gob.ar/home/", r"cuadrosT-Vigentes/CT.*20\d\d\.pdf$"), ORIGEN_ENTE, "edemsa",
     parser="mendoza", nota="Mendoza publica un único cuadro tarifario (EPRE) para todas sus distribuidoras.")
 src("edeste", "EDESTE", "Empresa Distribuidora de Electricidad del Este S.A.", "Mendoza",
     page_latest("https://epremendoza.gob.ar/home/", r"cuadrosT-Vigentes/CT.*20\d\d\.pdf$"), ORIGEN_ENTE, "edeste",
-    parser="mendoza", nota="Mendoza publica un único cuadro tarifario (EPRE) para todas sus distribuidoras.")
+    parser="mendoza", nota="Mendoza publica un único cuadro tarifario (EPRE) para todas sus distribuidoras.",
+    extra=[(fixed("https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf", "Cuadro tarifario vigente (EDESTE)"), ORIGEN_DIST)])
 src("emsa", "EMSA", "Energía de Misiones S.A.", "Misiones",
     page_latest("https://energia.misiones.gob.ar/cuadro-tarifario/", r"boletines/\d+\.pdf$", exclude_re=r"peaje|balance|neto"),
     "Boletín Oficial de Misiones", se="emsa")
@@ -399,16 +429,59 @@ src("epe", "EPE", "Empresa Provincial de la Energía de Santa Fe", "Santa Fe", e
 src("edese", "EDESE", "Empresa Distribuidora de Electricidad de Santiago del Estero S.A.", "Santiago del Estero",
     fixed("https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf", "Cuadro tarifario vigente (EDESE)"), se="edese")
 src("dpe", "DPE", "Dirección Provincial de Energía de Tierra del Fuego", "Tierra del Fuego",
-    page_latest("https://www.dpe.com.ar/usuarios/cuadro_tarifario/", r"assets/usuarios/.*Tarifa.*\.pdf$"), se="dpe")
+    page_latest("https://www.dpe.com.ar/usuarios/cuadro_tarifario/", r"assets/usuarios/.*Tarifa.*\.pdf$"), se="dpe",
+    extra=[(bo_tdf("1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW", "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 258-259", (258, 259)), ORIGEN_BO_TDF)])
 src("edet", "EDET", "Empresa de Distribución Eléctrica de Tucumán S.A.", "Tucumán",
     getfile_page("https://www.edetsa.com/info/pwa/institucional/costos-del-servicio", r"cuadro tarifario vigente"), se="edet")
 
 SOURCES = S
 
 
+# Official pages and documents per distributor, from the reference table of sources supplied by the site owner.
+OFICIALES = {
+    'edenor': ['https://www.edenor.com/institucional/marco-regulatorio', 'https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf'],
+    'edesur': ['https://www.edesur.com.ar/tarifas-cuadro-tarifario/'],
+    'edes': ['https://www.infoedes.com/cuadro-tarifario/', 'https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf'],
+    'edea': ['https://www.edeaweb.com.ar/cuadro-tarifario/', 'https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf'],
+    'edelap': ['https://www.edelap.com.ar/cuadro-tarifario/', 'https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf'],
+    'eden': ['https://www.edensa.com.ar/cuadro-tarifario/', 'https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf'],
+    'ecsapem': ['https://www.ecsapem.com.ar/organization/rates'],
+    'secheep': ['https://www.secheep.gob.ar/cuadros-tarifarios.html'],
+    'epec': ['https://www.epec.com.ar/informacion-comercial/grandes-clientes', 'https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf', 'https://www.epec.com.ar/docs/cuadro-tarifario/CT_Resumido_publicado-30102026-aplicacion-011126.pdf'],
+    'dpec': ['https://www.dpec.com.ar/1500/Cuadro-Tarifario'],
+    'enersa': ['https://www.enersa.com.ar/informacion-comercial/#SituacionTarifaria', 'https://energiadeentreriossa.sharepoint.com/sites/enersaweb/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2Fenersaweb%2FDocumentos%20compartidos%2FArchivos%20P%C3%BAblicos%20de%20la%20web%2FSituaci%C3%B3n%20Tarifaria%2F26%2E11%20Cuadro%20Tarifario%20Res%20183%2E26%2Epdf&parent=%2Fsites%2Fenersaweb%2FDocumentos%20compartidos%2FArchivos%20P%C3%BAblicos%20de%20la%20web%2FSituaci%C3%B3n%20Tarifaria&p=true&ga=1', 'https://energiadeentreriossa.sharepoint.com/sites/enersaweb/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2Fenersaweb%2FDocumentos%20compartidos%2FArchivos%20P%C3%BAblicos%20de%20la%20web%2FSituaci%C3%B3n%20Tarifaria%2F26%2E11%20Resolucio%CC%81n%20EPRE%20183%2E26%2Epdf&parent=%2Fsites%2Fenersaweb%2FDocumentos%20compartidos%2FArchivos%20P%C3%BAblicos%20de%20la%20web%2FSituaci%C3%B3n%20Tarifaria&p=true&ga=1'],
+    'refsa': ['https://www.recursosyenergia.com.ar/tarifas'],
+    'ejesa': ['https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio'],
+    'ejsed': ['https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf', 'https://ejsedsa.com.ar/'],
+    'ape': ['https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-a-usuarios-finales-resolucion-42-26', 'https://seym.lapampa.gob.ar/informacion-publica/tarifas-electricas/2026/cuadro-tarifario-ape-a-cooperativas-resolucion-41-26'],
+    'edelar': ['https://www.edelar.com.ar/clientes/pequenas-demandas', 'https://www.edelar.com.ar/clientes/grandes-demandas', 'https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf'],
+    'edemsa': ['https://www.edemsa.com/segmentacion-tarifaria/', 'https://www.edemsa.com/wp-content/uploads/2026/09/Cuadro-tarifario-edemsa-DESDE-EL-1-DE-SETIEMBRE-DE-2026.pdf'],
+    'edeste': ['https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf?v=1786120617', 'https://www.edeste.com.ar/normativa.php#'],
+    'emsa': ['https://www.energiademisiones.com.ar/cuadros-tarifarios-vigentes/'],
+    'epen': ['https://www.epen.gov.ar/index.php/cuadros-tarifarios/'],
+    'edersa': ['https://www.edersa.com.ar/usuarios/cuadro-tarifario/'],
+    'edesa': ['https://www.edesa.com.ar/cuadros-tarifarios/', 'https://www.edesa.com.ar/wp-content/uploads/2026/10/Cuadro_Tarifario_Octubre_2026_EDESA.pdf'],
+    'esj': ['https://www.naturgysj.com.ar/hogar/cuadro-tarifario/'],
+    'edesal': ['https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf'],
+    'spse': ['https://spse.ar/atencion-cliente#cuadroTarifario'],
+    'epe': ['https://epe.santafe.gov.ar/institucional/informacion-institucional', 'https://epe.santafe.gov.ar/institucional/grandes-usuarios', 'https://www.epe.santafe.gov.ar/institucional/usuarios/'],
+    'edese': ['https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf', 'https://www.edese.com.ar/#'],
+    'dpe': ['https://www.dpe.com.ar/usuarios/cuadro_tarifario/', 'https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6'],
+    'edet': ['https://www.edetsa.com/info/pwa/institucional/costos-del-servicio', 'https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0='],
+}
+OFICIALES_NOTA = {
+    'enersa': 'El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución.',
+    'epe': 'En las páginas de EPE hay que ir a Tarifas y después a Cuadro Tarifario (usuarios y grandes usuarios) o a Transparencia y después a Comparativas Tarifarias.',
+    'dpe': 'Los portales de la DPE y de Nación cargan las resoluciones con retraso y todavía muestran la documentación de 2025. La resolución vigente se toma del Boletín Oficial de Tierra del Fuego.',
+    'dgsp': 'La tabla de fuentes de referencia lista a DGSP como observación, sin links oficiales.',
+}
+
+
 # PDFs whose text layer is unusable (images, or fonts without a character map): use OCR.
 for _s in SOURCES:
     if _s["id"] in ("edelap", "dpe", "edesa"):
         _s["ocr"] = True
+    if _s["id"] == "dpe":
+        _s["ocr_dpi"] = 400
     if _s["id"] == "edesa":
         _s["ocr_dpi"] = 400  # small table text; at 300 dpi the engines disagree on the T1R1 row
