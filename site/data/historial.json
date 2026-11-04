@@ -7401,5 +7401,4265 @@
     ]
    }
   ]
+ },
+ {
+  "id": "edes",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "f550ee5259695d2aaed14c79027ff7de91fca93c586760965b456ad223d557d3",
+  "url": "https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf",
+  "titulo": "Cuadro tarifario",
+  "vigencia": null,
+  "tablas": [
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "(consumo en KWH-Mes < 100)",
+      "unidad": null,
+      "valores": [
+       5852.09,
+       229.2413
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8977.07,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R3 (200 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       12259.05,
+       255.2269
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R4 (400 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       15227.62,
+       263.2928
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo RE2 (600 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       26399.34,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo RE3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       null,
+       284.253
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo RE4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       32650.44,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicios generales Bajos Consumos",
+      "concepto": "Cargo GBC (consumo en KWH-Mes s 1000)",
+      "unidad": null,
+      "valores": [
+       22736.6,
+       344.5906
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional",
+      "concepto": "Cargo GE1 (0 < consumo en kWH-Mes < 2000)",
+      "unidad": null,
+      "valores": [
+       39668.68,
+       317.5234
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional",
+      "concepto": "Cargo GE2 (consumo en KWH-Mes > 2000)",
+      "unidad": null,
+      "valores": [
+       null,
+       400.1394
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional · TIAP: Alumbrado Público",
+      "concepto": "Cargo",
+      "unidad": null,
+      "valores": [
+       10290.74,
+       279.5928,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa TIRE",
+      "unidad": null,
+      "valores": [
+       8257.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa T1G BC y AC",
+      "unidad": null,
+      "valores": [
+       32513.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa TIGE",
+      "unidad": null,
+      "valores": [
+       32513.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa 1AP",
+      "unidad": null,
+      "valores": [
+       32513.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa 2",
+      "unidad": null,
+      "valores": [
+       79916.78
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa 3",
+      "unidad": null,
+      "valores": [
+       99891.17
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Para servicio interrumpido por falta de pago",
+      "concepto": "Tarifa 4",
+      "unidad": null,
+      "valores": [
+       32513.27
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 - Grandes demandas (Suministros > 50 KW de demanda) · Suministros > 300 KW de demanda (usuarios finales)",
+      "concepto": ".",
+      "unidad": null,
+      "valores": [
+       null,
+       90804.15
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa TIRE",
+      "unidad": null,
+      "valores": [
+       46634.08,
+       126228.71
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa T1G BO",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa T1G AC",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa 1AP",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa 2",
+      "unidad": null,
+      "valores": [
+       241200.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa 3",
+      "unidad": null,
+      "valores": [
+       361800.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Cargo por servicio de conexión",
+      "concepto": "Tarifa 4",
+      "unidad": null,
+      "valores": [
+       58289.05,
+       157745.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa TIR",
+      "unidad": null,
+      "valores": [
+       null,
+       132662.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa TIRE",
+      "unidad": null,
+      "valores": [
+       126228.71,
+       152759.74
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa T1G B",
+      "unidad": null,
+      "valores": [
+       null,
+       212738.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa T1G AC",
+      "unidad": null,
+      "valores": [
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa TIGE",
+      "unidad": null,
+      "valores": [
+       202449.78,
+       244976.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales · Cargo Variable 1 - (consumo en KWH-Mes < 500)",
+      "concepto": "Cargo Variable 2. (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       229.8717
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa 1AP",
+      "unidad": null,
+      "valores": [
+       160559.95,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales · Cargo Variable 3. (700 < consumo en les < 1400)",
+      "concepto": "Cargo Variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       256.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T6 - Servicio de peaje medianas demandas · Conexiones subterraneas",
+      "concepto": "Tarifa 3",
+      "unidad": null,
+      "valores": [
+       514560.86
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial",
+      "concepto": "Cargo Variable 1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial",
+      "concepto": "Cargo Variable 2 . (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       248.3686
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial",
+      "concepto": "Cargo Variable 3. (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       260.3024
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial",
+      "concepto": "Cargo Variable 4. (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 4 · Cargos por contraste de medidores de energía",
+      "concepto": "equeñas In situ",
+      "unidad": null,
+      "valores": [
+       6714.19
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 4 · Pequeñas en Laboratorio",
+      "concepto": "Medianas y grandes demandas in situ",
+      "unidad": null,
+      "valores": [
+       37299.56
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 4 · Pequeñas en Laboratorio",
+      "concepto": "Medianas y grandes demandas en Laboratorio",
+      "unidad": null,
+      "valores": [
+       50355.12
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 2 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 1 (consumo en KWH-Mes < 100)",
+      "unidad": null,
+      "valores": [
+       5852.09,
+       143.2552,
+       229.2413
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 2 (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8977.07,
+       158.6384,
+       243.0037
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 3 (200 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       12259.05,
+       172.123,
+       255.2269
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 4 (400 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       15227.62,
+       181.4421,
+       263.2928
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 5 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       24448.12,
+       195.8066,
+       277.6572
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 6 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       39606.03,
+       212.2812,
+       294.1319
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 7 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       48356.83,
+       234.6366,
+       316.4873
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · TIRE: Residencial Estacional",
+      "concepto": "Cargo variable 1 (consumo en KWh-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       23273.94,
+       137.0474,
+       256.2373
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · TIRE: Residencial Estacional",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       26399.34,
+       153.0424,
+       272.637
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · TIRE: Residencial Estacional",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       29681.65,
+       164.4831,
+       284.253
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · TIRE: Residencial Estacional",
+      "concepto": "Cargo variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       32650.44,
+       187.283,
+       307.2883
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       133.7621,
+       218.0558
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       145.5779,
+       229.8717
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       null,
+       156.032,
+       240.3257
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       172.4763,
+       null
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 3 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Tarifa Social Y EBP · (menos de 10 KW de demanda)",
+      "concepto": "Cargo variable R1 (consumo en KWH-Mes hasta 100)",
+      "unidad": null,
+      "valores": [
+       2095.71,
+       104.7921,
+       190.7782,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 2. (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8977.07,
+       158.6384
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · (menos de 10 KW de demanda)",
+      "concepto": "Cargo variable R2 (300 < consumo en kWH-Mes s 200)",
+      "unidad": null,
+      "valores": [
+       8977.07,
+       null,
+       null,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 3. (200 < consumo en KWH-Mos < 400)",
+      "unidad": null,
+      "valores": [
+       null,
+       172.123
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 4 (400 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       181.4421
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · Cargo variable R3 (200 < consumo en kWH-Mes < 300 o segundos 150) 12259,05 255,2269 255,2269 12,000.00",
+      "concepto": "Cargo variable 3. (300 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       12259.05,
+       null,
+       null,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · Cargo variable R3 (200 < consumo en kWH-Mes < 300 o segundos 150) 12259,05 255,2269 255,2269 12,000.00",
+      "concepto": "Cargo variable 4 (400 < consumo en KWH-Mes <500)",
+      "unidad": null,
+      "valores": [
+       15227.62,
+       263.2928,
+       263.2928,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 7 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       null,
+       234.6366
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · Cargo variable R6 700 < consumo en KWH-Mes < 1400 (excedente) 39606,08 294,1319 294,119 27,000.00",
+      "concepto": "Cargo variable R7 consumo en KWH-Mes > 1400 (excedente)",
+      "unidad": null,
+      "valores": [
+       48356.83,
+       316.4873,
+       316.4873,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       133.7621
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · TAR: Residencial",
+      "concepto": "(consumo en kWH-Mes primeros 100)",
+      "unidad": null,
+      "valores": [
+       null,
+       102.0894,
+       null,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       156.032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4G-EBP - Entidad de bien público",
+      "concepto": "Cargo variable 4 (400 < consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       172.4763
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · TAR: Residencial",
+      "concepto": "(800 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       218.0558,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa Social Y EBP · TAR: Residencial",
+      "concepto": "(200 < consumo en KWH-Mes <300)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       218.0558,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "300 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       218.0558,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(400 < consumo en KWH-Mes <500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       218.0558,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R2",
+      "concepto": "(500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       null,
+       229.8717,
+       229.8717,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R2",
+      "concepto": "(700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       240.3257,
+       240.3257,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R2",
+      "concepto": "(consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       256.77,
+       256.77,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable R1 (consumo en KWH-Mes hasta 100)",
+      "unidad": null,
+      "valores": [
+       2095.71,
+       null,
+       1000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable R2 (100 < consumo en KWH-Mes < 150 o primeros 150) 3293,28 194,4403 3600,00",
+      "concepto": "Cargo variable R2 (150 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8977.07,
+       243.0037,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable R3 (200 < consumo en KWH-Mes < 300 o segundos 150) 12259,05 255,269 12000,00",
+      "concepto": "Cargo variable 3. (300 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       12259.05,
+       255.2269,
+       12000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable R3 (200 < consumo en KWH-Mes < 300 o segundos 150) 12259,05 255,269 12000,00",
+      "concepto": "Cargo variable 4 (400 < consumo en KWH-Mes <500)",
+      "unidad": null,
+      "valores": [
+       15227.62,
+       263.2928,
+       17500.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable R6 700 < consumo en KWH-Mes < 1400 (excedente) 39606,03 294,1319 27000,00",
+      "concepto": "Cargo variable R7 consumo en KWH-Mes > 1400 (excedente)",
+      "unidad": null,
+      "valores": [
+       null,
+       null,
+       27000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(consumo en kWH-Mes primeros 100)",
+      "unidad": null,
+      "valores": [
+       7337.74,
+       186.3831,
+       1000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(100 < consumo en KWH-Mes < 150)",
+      "unidad": null,
+      "valores": [
+       7337.74,
+       186.3831,
+       3600.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(150 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       4400.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(200 < consumo en KWH-Mes <350)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       12000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "350 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       218.0558,
+       12000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(400 < consumo en KWH-Mes <500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       null,
+       17500.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R1",
+      "concepto": "(500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       null,
+       229.8717,
+       27000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R3",
+      "concepto": "(700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       240.3257,
+       27000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R3",
+      "concepto": "(consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       256.77,
+       27000.0
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 4 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 1 - (consumo en KWH-Mes < 100)",
+      "unidad": null,
+      "valores": [
+       5852.09,
+       143.2552
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 2. (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       null,
+       158.6384
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "'argo variable 3 (200 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       12259.05,
+       172.123
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo variable 4 (400 < consumo en KWwH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       15227.62,
+       181.4421
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable 5 (500 < consumo en KWH-Mes < 700)",
+      "concepto": "Cargo variable 6 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       null,
+       212.2812
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo variable 5 (500 < consumo en KWH-Mes < 700)",
+      "concepto": "Cargo variable 7 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       48356.83,
+       234.6366
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1RE: Residencial Estacional Club",
+      "concepto": "Cargo variable 1 (400 < consumo en KWH-Mes s 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       137.0474
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1RE: Residencial Estacional Club",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       null,
+       153.0424
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1RE: Residencial Estacional Club",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       29681.65,
+       164.4831
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1RE: Residencial Estacional Club",
+      "concepto": "Cargo variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       32650.44,
+       187.283
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G: Servicio General Bajos Consumos",
+      "concepto": "Cargo variable (consumo en KWH-Mes < 1000)",
+      "unidad": null,
+      "valores": [
+       22736.6,
+       246.6071
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G: Servicio General Altos Consumos",
+      "concepto": "Cargo variable (1000 < consumo en KWH-Mes <2000)",
+      "unidad": null,
+      "valores": [
+       109022.83,
+       185.6912
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1GE: Servicio General Estacional Club",
+      "concepto": "Cargo variable (consumo en KWH-Mes < 2000)",
+      "unidad": null,
+      "valores": [
+       null,
+       182.8307
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial Club",
+      "concepto": "Cargo variable 1 (400 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       133.7621
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial Club",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       145.5779
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial Club",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial Club",
+      "concepto": "Cargo variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       172.4763
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial Club",
+      "concepto": "Cargo variable 1 (400 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21764.29,
+       141.5975
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial Club",
+      "concepto": "Cargo variable 2 (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       30046.74,
+       154.9508
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial Club",
+      "concepto": "Cargo variable 3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       38641.4,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residencial Club",
+      "concepto": "Cargo variable 4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       44110.58,
+       186.034
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 7 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "Tarifa de inyección para Usuarios-Generadores · TAR y TIRE: Residencial y residencial estacional",
+      "concepto": "Precio variable por energía",
+      "unidad": null,
+      "valores": [
+       125.1162
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa de inyección para Usuarios-Generadores · TAR y TIRE: Residencial y residencial estacional",
+      "concepto": "Precio variable por energía (hasta 150 kwh/mes para beneficiarios del SEF",
+      "unidad": null,
+      "valores": [
+       62.3271
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G y T1GE: Servicio general y general estacional",
+      "concepto": "Precio variable por energía",
+      "unidad": null,
+      "valores": [
+       134.3566
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT Suministros en baja tensión",
+      "concepto": "Precio variable por energía en pico",
+      "unidad": null,
+      "valores": [
+       126.9041
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT Suministros en baja tensión",
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": null,
+      "valores": [
+       123.9631
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT Suministros en media tensión",
+      "concepto": "pro paren por energía o pico",
+      "unidad": null,
+      "valores": [
+       123.8089
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT Suministros en media tensión",
+      "concepto": "recio variable por energía fuera de pico",
+      "unidad": null,
+      "valores": [
+       120.9396
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial",
+      "concepto": "Precio variable por energía N2 hasta 150 kwh/mes para beneficiarios del SEF",
+      "unidad": null,
+      "valores": [
+       56.082
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial y residencial estacional",
+      "concepto": "Precio variable por energía N2",
+      "unidad": null,
+      "valores": [
+       62.3271
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G: Servicio general y servicio general estacional",
+      "concepto": "Precio variable por energía",
+      "unidad": null,
+      "valores": [
+       62.0828
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT: Suministros en baja tensión",
+      "concepto": "Precio variable por energía en pico",
+      "unidad": null,
+      "valores": [
+       58.4653
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2BT: Suministros en baja tensión",
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": null,
+      "valores": [
+       57.3109
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT: Suministros en media tensión",
+      "concepto": "Precio variable por energía en pico",
+      "unidad": null,
+      "valores": [
+       57.0393
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T2MT: Suministros en media tensión",
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": null,
+      "valores": [
+       55.9131
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BT: Suministros en baja tensión",
+      "concepto": "Precio variable por energía en pico",
+      "unidad": null,
+      "valores": [
+       58.4653
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BT: Suministros en baja tensión",
+      "concepto": "Precio variable por energía en resto",
+      "unidad": null,
+      "valores": [
+       57.3343
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BT: Suministros en baja tensión",
+      "concepto": "Precio variable por energía en valle",
+      "unidad": null,
+      "valores": [
+       57.2018
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3MT: Suministros en media tensión",
+      "concepto": "Precio variable por energía en valle",
+      "unidad": null,
+      "valores": [
+       55.8066
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eden",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "629215c8a9a9616520b4fc577169d598f3fb9dbc9df0c34a4984fb4c1f5e6195",
+  "url": "https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf",
+  "titulo": "Cuadro tarifario",
+  "vigencia": null,
+  "tablas": [
+   {
+    "titulo": "Página 1 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "(eonsumo en KWH-Mes < 100)",
+      "unidad": null,
+      "valores": [
+       5240.4,
+       227.7806
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       220.6827
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8049.7,
+       235.0049
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR2 (600 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       29536.36,
+       229.5851
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R3 (200 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       10997.62,
+       249.1032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR3 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       37426.77,
+       236.2712
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R4 (400 < consumo en KWH-Mes s 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       260.0835
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "CargoT4R4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       42448.15,
+       250.2679
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R5 (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       21951.19,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa TIR",
+      "concepto": "Tarifa TIRE",
+      "unidad": null,
+      "valores": [
+       null,
+       8257.11
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R6 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       35571.83,
+       285.0233
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales no residenciales · Cargo TANR1 (consumo en KWH-Mes < 500)",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       21931.11,
+       237.6421
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · Cargo RE1 (consumo en KWH-Mes < 500)",
+      "concepto": "Cargo RE2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       23940.02,
+       275.6542,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales no residenciales · Cargo TANR2 (500 < consumo en KWH-Mes s 700)",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       29536.36,
+       248.082
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales no residenciales · Cargo TANR3 (700 < consumo en KWH-Mes < 1400)",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       37426.77,
+       256.2479
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales no residenciales · CargoTANR4 (consumo en KWH-Mes > 1400)",
+      "concepto": "> 1400)",
+      "unidad": null,
+      "valores": [
+       42448.15,
+       272.9496
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicios generales Bajos Consumos",
+      "concepto": "Cargo GBC (consumo en KWH-Mes < 1000)",
+      "unidad": null,
+      "valores": [
+       21048.95,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa TIR",
+      "unidad": null,
+      "valores": [
+       43842.54,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa TIRE",
+      "unidad": null,
+      "valores": [
+       null,
+       126228.71
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa TIG BC",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa T1G AC",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa T1GE",
+      "unidad": null,
+      "valores": [
+       null,
+       202449.78
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional",
+      "concepto": "Cargo GE1 (0 < consumo en kWH-Mes < 2000)",
+      "unidad": null,
+      "valores": [
+       35445.88,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa 1AP",
+      "unidad": null,
+      "valores": [
+       52744.47,
+       160559.95
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional",
+      "concepto": "Cargo GE2 (consumo en KWH-Mes > 2000)",
+      "unidad": null,
+      "valores": [
+       43815.73,
+       367.9353
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa 2",
+      "unidad": null,
+      "valores": [
+       241200.07
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 3 · Conexiones aéreas",
+      "concepto": "Tarifa 3",
+      "unidad": null,
+      "valores": [
+       361800.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1-G: Servicio general Estacional · TIAP: Alumbrado Público",
+      "concepto": "Cargo",
+      "unidad": null,
+      "valores": [
+       9175.69,
+       244.0304
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa 4 · Conexiones subterraneas",
+      "concepto": "Tarifa T1R",
+      "unidad": null,
+      "valores": [
+       100100.37,
+       132662.77
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC",
+      "concepto": "Tarifa T1G AC",
+      "unidad": null,
+      "valores": [
+       160559.95,
+       212738.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC",
+      "concepto": "Tarifa T1GE",
+      "unidad": null,
+      "valores": [
+       202449.78,
+       244976.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC · 11.547,06 17.398,72 $/mes",
+      "concepto": "Tarifa 1AP",
+      "unidad": null,
+      "valores": [
+       160559.95,
+       212738.61
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T5 - Servicio de peaje grandes demandas · 11.547,06 17.398,72 $/mes",
+      "concepto": "11.334,08 8.204,22 $w-mes Tarifa 3",
+      "unidad": null,
+      "valores": [
+       514560.86
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC · 11.547,06 17.398,72 $/mes",
+      "concepto": "Tarifa 4",
+      "unidad": null,
+      "valores": [
+       157745.61,
+       190951.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC · Cargos por contraste de medidores de energía",
+      "concepto": "Pequeñas in situ",
+      "unidad": null,
+      "valores": [
+       6714.19,
+       10070.52
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC · Cargos por contraste de medidores de energía",
+      "concepto": "Pequeñas en Laboratorio",
+      "unidad": null,
+      "valores": [
+       8392.86,
+       15106.54
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Tarifa T1G BC · Cargos por contraste de medidores de energía",
+      "concepto": "Medianas y grandes demandas in situ",
+      "unidad": null,
+      "valores": [
+       37299.56
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 2 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "(consumo en KWH-Mes < 100)",
+      "unidad": null,
+      "valores": [
+       5240.4,
+       141.0851
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8049.7,
+       149.9842
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R3 (200 < consumo en KWH-Mes < 400)",
+      "unidad": null,
+      "valores": [
+       10997.62,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R4 (400 < consumo en KWH-Mes s 500)",
+      "unidad": null,
+      "valores": [
+       13665.46,
+       177.661
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R5 (600 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       21951.19,
+       187.8505
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R6 (700 < consumo en KWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       35571.83,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda)",
+      "concepto": "Cargo R7 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       43435.19,
+       222.747
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIRE: Residencial Estacional",
+      "concepto": "Cargo RE1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21131.54,
+       140.1265
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIRE: Residencial Estacional",
+      "concepto": "Cargo RE2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       23940.02,
+       154.2563
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIRE: Residencial Estacional",
+      "concepto": "Cargo RES (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       26889.42,
+       165.6228
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · Cargo TAR2 (800 < consumo en KWH-Mes s 700)",
+      "concepto": "Cargo T4R3 (700 < consumo en KWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       37426.77,
+       null
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 3 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R1 — (consumo en KWH-Mes < 100)",
+      "unidad": "$/mes",
+      "valores": [
+       1000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "(consumo en kWH-Mes hasta 100)",
+      "unidad": null,
+      "valores": [
+       2044.82,
+       192.771
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R2 — (100 < consumo en KWH-Mes s 150) $/mes",
+      "unidad": null,
+      "valores": [
+       3600.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo R2 (100 < consumo en KWH-Mes < 150)",
+      "unidad": null,
+      "valores": [
+       3215.63,
+       194.4931
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R2 — (150 < consumo en KWH-Mes < 200) $/mes",
+      "unidad": null,
+      "valores": [
+       4400.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo R2 (150 < consumo en KWH-Mes s 200)",
+      "unidad": null,
+      "valores": [
+       8049.7,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R3— (200 < consumo en KWH-Mes < 350) $/mes",
+      "unidad": null,
+      "valores": [
+       11000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo R3 (200 < consumo en KWH-Mes < 300)",
+      "unidad": null,
+      "valores": [
+       10997.62,
+       249.1032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R3 (350 < consumo en KWH-Mes < 400) $/mes",
+      "unidad": null,
+      "valores": [
+       11000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial",
+      "concepto": "Cargo R3 (800 < consumo en KWH-Mes 400)",
+      "unidad": null,
+      "valores": [
+       249.1032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R4 — (400 < consumo en KWH-Mes < 500) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R5 (500 < consumo en KWH-Mes < 700) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo Rá4 (400 < consumo en KWH-Mes s 500)",
+      "concepto": "Cargo R5 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       21951.19,
+       270.273
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación RG (700 < consumo en KWH-Mes < 1400) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · Cargo Rá4 (400 < consumo en KWH-Mes s 500)",
+      "concepto": "Cargo R6 (700 < consumo en KWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       35571.83,
+       285.0233
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Bonificación R7 — (consumo en KWH-Mes > 1400)",
+      "unidad": "$/mes",
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial",
+      "concepto": "Bonificación TR1 (consumo en KWH-Mes < 100)",
+      "unidad": "$/mes",
+      "valores": [
+       1000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial",
+      "concepto": "Bonificación TRI (100 < consumo en KWH-Mes < 150) $/mes",
+      "unidad": null,
+      "valores": [
+       3600.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · 45.893,41 69.535,94 Yes",
+      "concepto": "Bonificación TRI (150 < consumo en KWH-Mes < 200) $/mes",
+      "unidad": null,
+      "valores": [
+       4400.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BT T3MT · 45.893,41 69.535,94 Yes",
+      "concepto": "12.615,27 9.790,11 $KW-mes",
+      "unidad": null,
+      "valores": [
+       11000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3BT T3MT · 45.893,41 69.535,94 Yes",
+      "concepto": "5.406,55 4.195,76 $/KW-mes",
+      "unidad": null,
+      "valores": [
+       11000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Bonificación TRI (350 < consumo en KWH-Mes < 400) $/mes",
+      "concepto": "Bonificación TR1 (400 < consumo en KWH-Mes < 500) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Bonificación TRI (350 < consumo en KWH-Mes < 400) $/mes",
+      "concepto": "Bonificación TR2 (500 < consumo en KWH-Mes s 700) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Bonificación TRI (350 < consumo en KWH-Mes < 400) $/mes",
+      "concepto": "Bonificación TRS_ (700 < consumo en KWH-Mes < 1400) $/mes",
+      "unidad": null,
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Bonificación TRI (350 < consumo en KWH-Mes < 400) $/mes",
+      "concepto": "Bonificación TR4 (consumo en KWH-Mes < 1400)",
+      "unidad": "$/mes",
+      "valores": [
+       24000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR1 (consumo en KWH-Mes < 150)",
+      "unidad": null,
+      "valores": [
+       8038.03,
+       188.7254
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR1 (150 < consumo en KWH-Mes < 300)",
+      "unidad": null,
+      "valores": [
+       21931.11,
+       220.6827
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR1 (800 < consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       220.6827
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo T4R2 (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       29536.36,
+       229.5851
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo T4R3 (700 < consumo en KWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       37426.77,
+       236.2712
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "CargoT4R4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       42448.15,
+       250.2679
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 4 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R2 (150 < consumo en KWH-Mes < 200)",
+      "unidad": null,
+      "valores": [
+       8049.7,
+       235.0049
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · TIR: Residencial",
+      "concepto": "Cargo R3 (800 < consumo en kWH-Mes s 400)",
+      "unidad": null,
+      "valores": [
+       249.1032
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T5 - Servicio de peaje grandes demandas · rgo vartable por energl!",
+      "concepto": "pl",
+      "unidad": null,
+      "valores": [
+       3.6198,
+       2.1938
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · 2.044,82 — 106,0755",
+      "concepto": ".",
+      "unidad": null,
+      "valores": [
+       260.0835
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1 - Pequeñas demandas (menos de 10 KW de demanda) · Cargo R6 (700 < consumo en KWH-Mes s 1400)",
+      "concepto": "Cargo R7 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       43435.19,
+       305.1694
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T3 - Grandes demandas (Suministros > 50 KW de demanda) · Suministros 2 50 KW de demanda (distribuidores municipales) excedentes 300",
+      "concepto": "Cargo fijo",
+      "unidad": null,
+      "valores": [
+       null,
+       69535.94
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 12.615,27 9.790,11 WWmes",
+      "concepto": "Bonificación Ri — (consumo en KWH-Mes < 100)",
+      "unidad": "$/mes",
+      "valores": [
+       1.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 5.406,55 4.195,76 MOWmes",
+      "concepto": "Bonificación R2 — (100 < consumo en KWH-Mes < 150) $/mes",
+      "unidad": null,
+      "valores": [
+       3.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 5.406,55 4.195,76 MOWmes",
+      "concepto": "Bonificación R2_ (150 < consumo en KWH-Mes < 200) S/mes",
+      "unidad": null,
+      "valores": [
+       4.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 5.406,55 4.195,76 MOWmes",
+      "concepto": "Bonificación R3 (200 < consumo en KWH-Mes < 350) $/mes",
+      "unidad": null,
+      "valores": [
+       11.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 114,9777 112,:1734. sx",
+      "concepto": "Bonificación R3 — (850 < consumo en KWH-Mes s 400) S/mes",
+      "unidad": null,
+      "valores": [
+       11.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 114,6707 —111,8738 ¿rar",
+      "concepto": "Bonificación R4 (400 < consumo en KWH-Mes < 500) $/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 114,6707 —111,8738 ¿rar",
+      "concepto": "Bonificación RS (500 < consumo en KWH-Mes s 700) S/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 117,5969 —444,7286 Sin",
+      "concepto": "Bonificación R6 (700 < consumo en KWH-Mes < 1400) $/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1R: Residencial · 114,9777 —112,1784. sim",
+      "concepto": "Bonificación R7 — (consumo en KWH-Mes > 1400)",
+      "unidad": "$/mes",
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR1 (consumo en KWH-Mes < 100)",
+      "unidad": "$/mes",
+      "valores": [
+       1.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Cargo TAR1 (consumo en KwH-Mes s 150",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       8038.03,
+       104.4316
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR1- (100 < consumo en KWH-Mes < 150) $/mes",
+      "unidad": null,
+      "valores": [
+       3.6
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Cargo TAR1 150 < consumo en KWH-Mes s 300)",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       21931.11,
+       220.6827
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR1 (150 < consumo en KWH-Mes < 200) $/mes",
+      "unidad": null,
+      "valores": [
+       4.4
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TRI (200 < consumo en KWH-Mes s 350) $/mes",
+      "unidad": null,
+      "valores": [
+       11.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · Cargo TAR1 (800 < consumo en KWH-Mes < 500)",
+      "concepto": "(500 < consumo en les s 700)",
+      "unidad": null,
+      "valores": [
+       null,
+       229.5851
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TRI (350 < consumo en KWH-Mes < 400) $/mes",
+      "unidad": null,
+      "valores": [
+       11.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TRI (400 < consumo en KWH-Mes < 500) $/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4R: Residencial · (700 < consumo en les < 1400)",
+      "concepto": ")",
+      "unidad": null,
+      "valores": [
+       42448.15,
+       250.2679
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR2 (500 < consumo en KWH-Mes s 700) S/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR3_ (700 < consumo en KWH-Mes s 1400) $/mes",
+      "unidad": null,
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Bonificación TR4 (consumo en KWH-Mes < 1400)",
+      "unidad": "$/mes",
+      "valores": [
+       24.0
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Página 5 — transcripción por OCR",
+    "filas": [
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo T4R1 (consumo en KWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       21931.11,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4 - Pequeñas demandas rurales (menos de 10 KW potencia) · TAR: Residencial",
+      "concepto": "Cargo TAR2 (600 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       29536.36,
+       145.2914
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "concepto": "Cargo R4 (400 < consumo en kWH-Mes < 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       177.661
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "concepto": "Cargo R5 (600 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       21951.19,
+       187.8505
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "concepto": "Cargo R6 (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       null,
+       202.6008
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residenciales",
+      "concepto": "Cargo TANR1 (consumo en KWH-Mes 500)",
+      "unidad": null,
+      "valores": [
+       21931.11,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Cargo R2 (100 < consumo en KWH-Mes < 200)",
+      "concepto": "Cargo R7 (Consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       43435.19,
+       222.747
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residenciales",
+      "concepto": "Cargo TANR2 (500 < consumo en KWH-Mes s 700)",
+      "unidad": null,
+      "valores": [
+       29536.36,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T4NR: No Residenciales · Cargo TANR3 (700 < consumo en KWH-Mes s 1400)",
+      "concepto": "CargoT4NR4 (consumo en KWH-Mes > 1400)",
+      "unidad": null,
+      "valores": [
+       42448.15,
+       179.5318
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TIRE: Residencial Estacional",
+      "concepto": "Cargo RE1 (consumo en kWH-Mes hasta 500)",
+      "unidad": null,
+      "valores": [
+       null,
+       140.1265
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TIRE: Residencial Estacional",
+      "concepto": "Cargo RE2 (500 < consumo en KWH-Mes < 700)",
+      "unidad": null,
+      "valores": [
+       23940.02,
+       154.2563
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TIRE: Residencial Estacional",
+      "concepto": "Cargo RES (700 < consumo en KWH-Mes < 1400)",
+      "unidad": null,
+      "valores": [
+       26889.42,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "TIRE: Residencial Estacional",
+      "concepto": "Cargo RE4 (consumo en kWH-Mes s 1400)",
+      "unidad": null,
+      "valores": [
+       29556.89,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G: Servicios General Bajos Consumos",
+      "concepto": "Cargo Fijo GBC (consumo en kWH-Mes hasta 1000)",
+      "unidad": null,
+      "valores": [
+       21048.95,
+       233.9408
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1G: Servicios General Altos Consumos · Cargo GAC1 (1000 < consumo en kWH-Mes hasta 2000) 99.830,78 179,3058",
+      "concepto": "Cargo GAC2 (consumo en kWH-Mes hasta 2000)",
+      "unidad": null,
+      "valores": [
+       129880.08,
+       179.9599
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1GE: Servicios General Estacional",
+      "concepto": "Cargo GE1 (0< consumo en kWH-Mes hasta 2000)",
+      "unidad": null,
+      "valores": [
+       35445.88,
+       188.5759
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T1GE: Servicios General Estacional",
+      "concepto": "KVWH-Mes hasta 2000)",
+      "unidad": null,
+      "valores": [
+       43815.73,
+       206.8976
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T5 - Servicio de peaje (para distribuidores municipales) · Cargo por potencia en pico",
+      "concepto": "Cargo por potencia fuera pico",
+      "unidad": null,
+      "valores": [
+       2736.26,
+       null
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "T5 - Servicio de peaje (para distribuidores municipales) · go variable por energl",
+      "concepto": "pl",
+      "unidad": null,
+      "valores": [
+       3.6198,
+       null
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "epec",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "ac5f061eae3b398f2958f15c7454b72a65441e51ab6fb3939a65dac21d92bd6b",
+  "url": "https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf",
+  "titulo": "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)",
+  "vigencia": "CUADRO TARIFARIO EPEC - NOVIEMBRE 2026",
+  "tablas": [
+   {
+    "titulo": "Tarifa Nº 1 - Residencial",
+    "filas": [
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       1927.2312
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Por cada kWh consumido",
+      "unidad": "$/kWh",
+      "valores": [
+       115.60184
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       2676.3537
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       143.22182
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 30 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       189.23116
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       189.23116
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3889.1725
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       171.34513
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 30 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       219.13451
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       219.13451
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       317.11587
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       317.11587
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3889.1725
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       193.85123
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Los siguientes 30 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       247.95736
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       247.95736
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       345.93872
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       345.93872
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       1927.2312
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       116.31547
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       78.5793
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       115.37895
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       2676.3537
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       189.94479
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       92.38929
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       189.00826
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       189.94479
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       115.39396
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       189.00826
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       189.94479
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       115.39396
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       189.00826
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       290.06704
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       212.17029
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       286.32095
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       290.06704
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       212.17029
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       286.32095
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       290.06704
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       285.6058
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       286.32095
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3889.1725
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       219.84813
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       106.45095
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       218.91161
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       219.84813
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       130.34564
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       218.91161
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       219.84813
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       130.34564
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       218.91161
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       319.97039
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       227.12196
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       316.2243
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       319.97039
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       227.12196
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       316.2243
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       319.97039
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       315.50915
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       316.2243
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3889.1725
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       248.67098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       117.704
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       247.73446
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       248.67098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       144.75706
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       247.73446
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       248.67098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       144.75706
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       247.73446
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       348.79324
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       241.53339
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       345.04715
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       348.79324
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       241.53339
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       345.04715
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       348.79324
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       344.332
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       345.04715
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite k) se aplicará",
+      "concepto": "Por 200 kWh al mes",
+      "unidad": "$/kWh",
+      "valores": [
+       25047.5995
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       2173.5805
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Por cada kWh consumido",
+      "unidad": "$/kWh",
+      "valores": [
+       222.94537
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3018.4599
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       254.09588
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "El excedente de 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       305.98638
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       4386.3079
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       285.81406
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "El excedente de 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       339.71214
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       4386.3079
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Los primeros 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       311.19702
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "El excedente de 120 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       372.21929
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       2173.5805
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       225.79988
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       180.03671
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       222.05379
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       3018.4599
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       308.8409
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       195.61196
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       305.09481
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       308.8409
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       221.55722
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       305.09481
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       308.8409
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       304.37966
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       305.09481
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       4386.3079
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       342.56666
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       211.47106
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       338.82057
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       342.56666
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       238.4201
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       338.82057
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       342.56666
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       338.10542
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       338.82057
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       4386.3079
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       375.0738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       224.16254
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       371.32772
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       375.0738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       254.67367
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       371.32772
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Pico",
+      "unidad": null,
+      "valores": [
+       375.0738
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Valle",
+      "unidad": null,
+      "valores": [
+       370.61256
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
+      "concepto": "En Horario de Horas Restantes",
+      "unidad": null,
+      "valores": [
+       371.32772
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       0.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite i) ELECTRODEPENDIENTES, se aplicará",
+      "concepto": "Por cada kWh consumido",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Sin Subsidio Energetico Focalizado — Para los servicios comprendidos en el acápite k) se aplicará",
+      "concepto": "Por 200 kWh al mes",
+      "unidad": "$/kWh",
+      "valores": [
+       46762.6537
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para todo nivel de consumo",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       963.6156
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los primeros 150 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       78.98098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       189.23116
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los primeros 150 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       78.98098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       219.13451
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       317.11587
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       317.11587
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los primeros 150 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       78.98098
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       247.95736
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       345.93872
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       345.93872
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Para todo nivel de consumo",
+      "concepto": "Cargo Fijo Mensual (CFM)",
+      "unidad": "$/mes",
+      "valores": [
+       0.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los primeros 150 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       42.36013
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       189.23116
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean menores o iguales a 500 kWh por mes, en la totalidad del consumo será de",
+      "concepto": "El excedente de 300 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       287.21252
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los primeros 150 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       42.36013
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los siguientes 50 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       219.13451
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residenciales Con Subsidio Energetico Focalizado — Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la",
+      "concepto": "Los siguientes 100 kWh por mes",
+      "unidad": "$/kWh",
+      "valores": [
+       317.11587
+      ],
+      "columnas": null
+     }
+    ],
+    "energia_minima": 20
+   }
+  ]
+ },
+ {
+  "id": "enersa",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "42d8e2a40b596d3f42de7148f19f4ab07e7d67c0f3463ea0ab5b02fff2597975",
+  "url": "https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx",
+  "titulo": "cuadro-tarifario-diciembre-2026",
+  "vigencia": "Vigente a partir del 1° de Diciembre de 2026 al 31 de Diciembre de 2026",
+  "tablas": [
+   {
+    "titulo": "T 1-R Uso residencial — Sin Subsidio",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3279.44
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       247.3
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       280.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       324.43
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       350.49
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Con Subsidio Provincial y Nacional",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3082.68
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       159.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       190.8
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       190.8
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       232.48
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 70 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       267.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       350.49
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Con Subsidio Nacional",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3279.44
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       163.91
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       196.7
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 50 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       196.7
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       241.04
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 70 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       267.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 370 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       350.49
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T 1-R Uso residencial — Electrodependientes",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Cargo fijo (haya o no consumo)",
+      "unidad": "$/mes",
+      "valores": [
+       3279.44
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Primeros 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       67.67
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       100.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Siguientes 100 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       144.8
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Excedente de 300 kWh/mes",
+      "unidad": "$/kWh",
+      "valores": [
+       170.86
+      ],
+      "columnas": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "emsa",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "9246762c6e22833f32ba48ba96f7bd44d89fcf5b7f4146df41e3bc82db244caa",
+  "url": "https://www.boletindigital.misiones.gov.ar/boletines/16326.pdf",
+  "titulo": "Vigente a partir del 12/2024 – Cuadros Tarifarios N°496-497 Clubes de Barrio y Pueblo (Ley 27.098) y Entidades de Bien Público (Ley 27.218).",
+  "vigencia": null,
+  "tablas": []
+ },
+ {
+  "id": "dpe",
+  "detectado": "2026-11-04T16:42:33+00:00",
+  "sha256": "4f30c10a693df6d0d73540d1764926f541734512b1e355f9b1375869769686b6",
+  "url": "https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t",
+  "titulo": "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 258-259",
+  "vigencia": null,
+  "tablas": []
  }
 ]
