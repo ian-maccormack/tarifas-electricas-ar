@@ -123,3 +123,17 @@ def test_epe_con_subsidio_por_zona():
     assert z["I"][0]["escalones"] == [[75, 142.23411], [150, 165.15433], [300, 261.40335], [None, 440.80713]]
     assert z["II"][1]["escalones"][1] == [370, 440.80713]
     assert z["III"][1]["escalones"] == [[350, 270.98873], [None, 440.80713]]
+
+
+def test_edelar_con_subsidio_por_zona():
+    import pathlib
+    from parsers import PARSERS
+    from simulador import SUB_BUILDERS
+    t = (pathlib.Path(__file__).parent.parent / "site/data/textos/edelar.txt").read_text()
+    s = SUB_BUILDERS["edelar"](PARSERS["edelar"](t)["tablas"])
+    z = {x["id"]: x["categorias"] for x in s["zonas"]}
+    assert sorted(z) == ["I", "II", "III"]
+    assert all(c["fijo"] == 2124.71 for cs in z.values() for c in cs)
+    assert z["I"][0]["escalones"] == [[150, 75.676], [200, 150.4463]]
+    assert z["I"][2]["escalones"][-1] == [None, 158.2839]
+    assert z["II"][2]["escalones"][-1] == [None, 168.1767]

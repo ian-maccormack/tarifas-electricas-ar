@@ -824,6 +824,24 @@ def epe_sub(tablas):
             "categorias": [], "zonas": sorted(zonas, key=lambda z: z["id"])}
 
 
+@sub_builder("edelar")
+def edelar_sub(tablas):
+    """La Rioja: one subsidised column per zona bioambiental (ZM, ZC, ZR); the monthly consumption sets
+    the category and each tier's price is cargo variable + subsidio + F.E.P., as listed in the cuadro."""
+    by = {}
+    for t in tablas:
+        if not t.get("zona"):
+            continue
+        z = by.setdefault(t["zona"], {"id": t["zona"], "nombre": t["zona_nombre"], "categorias": [],
+                                      "criterio": f"T1-R con subsidio, {t['zona_nombre']} (precio por tramo = cargo variable "
+                                                  "+ subsidio Estado Nacional + F.E.P., según el cuadro)"})
+        esc = [[f["tope"], f["valores"][0]] for f in t["filas"] if f["concepto"].startswith("Precio con subsidio")]
+        z["categorias"].append({"nombre": t["titulo"].split(" ")[0], "hasta": t["hasta"],
+                                "fijo": t["filas"][0]["valores"][0], "escalones": esc})
+    return {"periodo": "mes", "criterio": "T1-R con subsidio (según zona bioambiental)", "categorias": [],
+            "zonas": sorted(by.values(), key=lambda z: z["id"])}
+
+
 @sub_builder("edemsa", "edeste")
 def mendoza_sub(tablas):
     """'Con SEF' (second value). Residencial 2 and 3 split it into base and excedente with different fixed

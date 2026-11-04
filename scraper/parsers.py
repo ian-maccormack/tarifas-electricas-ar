@@ -779,6 +779,75 @@ def _nearest(cols, pos):
 NUM_ES = re.compile(r"-?\d[\d.]*,\d+")
 
 
+EDELAR_TRAMO = re.compile(r"(Primeros (\d+) kWh|entre \d+ y (\d+) KWh|Siguientes kWh)\s+(-?\d[\d.]*,\d+)", re.I)
+EDELAR_ZONAS = {"ZM": "I", "ZC": "II", "ZR": "III"}
+EDELAR_COMP = ["Cargo Variable", "Subsidio Estado Nacional", "F.E.P Cargo Fijo:Cargo Variable por Energia"]
+
+
+def edelar_zonas(text):
+    """Subsidised columns (T1-Rn-ZM/ZC/ZR, one per zona bioambiental). Each block prints, per column, three
+    tiered components ($/kWh): cargo variable, subsidio del Estado Nacional (negative) and F.E.P.; each
+    'Primeros' tier starts the next component. A column is kept only if it has exactly those three
+    components with the same tiers. The price per tier is their sum, as the cuadro lists them."""
+    out = []
+    for b in text.split("PEQUEÑAS DEMANDAS")[1:]:
+        lines = b.splitlines()
+        hi = next((i for i, l in enumerate(lines) if re.search(r"T1-R\d-NS\b", l)), None)
+        if hi is None:
+            continue
+        cols = [c for c in _chunks(lines[hi]) if re.fullmatch(r"T\d+-[A-Z]+\d*(-[A-Z0-9]+)?", c[2])]
+        labs = [squeeze(m.group(1)) for l in lines if (m := re.match(r"^(\S.*?)\s{2,}\$/kWh", l))]
+        tipo = next((l for l in lines if "Tipo usuario" in l), "")
+        names = {_nearest(cols, (a + z) / 2): s for a, z, s in _chunks(tipo) if s != "Tipo usuario"}
+        lim = next((m for l in lines[hi:hi + 6] if (m := re.search(r"(menor a|entre \d+ y|mayor a) (\d+) kWh", l))), None)
+        if labs != EDELAR_COMP or not lim:
+            continue
+        cat_hasta = None if lim.group(1) == "mayor a" else int(lim.group(2))
+
+        def row_vals(label):
+            i = next((k for k, l in enumerate(lines) if l.startswith(label)), None)
+            if i is None:
+                return {}
+            for l in lines[i:i + 2]:
+                f = [(m.start(), m.end(), m.group(0)) for m in NUM_ES.finditer(l)]
+                if f:
+                    return {_nearest(cols, (x + y) / 2): parse_num(v, ",") for x, y, v in f}
+            return {}
+        cf, fep = row_vals("Cargo Fijo s/ cmo"), row_vals("F.E.P Cargo Fijo:Con consumo")
+        groups = {i: [] for i in range(len(cols))}
+        for l in lines[hi + 1:]:
+            for m in EDELAR_TRAMO.finditer(l):
+                c = _nearest(cols, (m.start(4) + m.end(4)) / 2)
+                if m.group(1).lower().startswith("primeros"):
+                    groups[c].append([])
+                if groups[c] is None or not groups[c]:
+                    groups[c] = None
+                    continue
+                tope = int(m.group(2) or m.group(3)) if (m.group(2) or m.group(3)) else None
+                groups[c][-1].append((m.group(1), tope, parse_num(m.group(4), ",")))
+        for i, (_, _, code) in enumerate(cols):
+            z = EDELAR_ZONAS.get(code.rsplit("-", 1)[1])
+            g = groups[i]
+            if not z or not g or len(g) != 3 or len({tuple(t for _, t, _ in x) for x in g}) != 1:
+                continue
+            tiers = [t for _, t, _ in g[0]]
+            if (tiers[-1] is not None) != (cat_hasta is not None) or (cat_hasta and tiers[-1] != cat_hasta):
+                continue
+            if cf.get(i) is None or fep.get(i) is None:
+                continue
+            filas = [{"grupo": squeeze(lim.group(0)), "concepto": "Cargo fijo (con consumo, incluye F.E.P.)", "unidad": "$/mes",
+                      "valores": [round(cf[i] + fep[i], 2)]}]
+            for k, (lab, tope, _) in enumerate(g[0]):
+                for comp, x in zip(EDELAR_COMP, g):
+                    filas.append({"grupo": squeeze(lim.group(0)), "concepto": f"{comp} — {lab}", "unidad": "$/kWh",
+                                  "valores": [x[k][2]], "tope": tope})
+                filas.append({"grupo": squeeze(lim.group(0)), "concepto": f"Precio con subsidio (suma) — {lab}",
+                              "unidad": "$/kWh", "valores": [round(sum(x[k][2] for x in g), 4)], "tope": tope})
+            out.append({"titulo": f"{code} — {names.get(i, code)} (tramos con subsidio)", "zona": z,
+                        "zona_nombre": names.get(i, code), "hasta": cat_hasta, "filas": filas})
+    return out
+
+
 def edelar_ns(text):
     """'Sin Subsidio' columns (T1-Rn-NS) with their consumption blocks, which the column grid skips.
     Every value must lie under the NS header and the Subsidio Estado Nacional half must be all zero."""
@@ -890,7 +959,7 @@ def p_edelar(text, **_):
         add(label, unit, found)
     for x in tablas:
         x.pop("_keep", None)
-    tablas += edelar_ns(text)
+    tablas += edelar_ns(text) + edelar_zonas(text)
     return {"vigencia": find(r"CUADRO TARIFARIO DE APLICACI[ÓO]N A LOS USUARIOS\s+(\S.*?20\d\d)", text),
             "tablas": tablas,
             "comparable": comparable(tablas, None, (r"^Cargo Variable$", 0, None),
