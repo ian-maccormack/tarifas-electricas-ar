@@ -6,6 +6,7 @@ on:
   push:
     branches: [main]
     paths: ["site/**", ".github/workflows/deploy.yml"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -20,7 +21,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Latest main, not the pushed commit: when a push also triggers update.yml, the data it commits
+      # must not be overwritten by this run's older copy.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
