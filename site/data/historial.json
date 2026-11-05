@@ -18375,5 +18375,125 @@
   "titulo": "Anexo BO 29.545.26 - 08-09-2026 - Epre - Dpec",
   "vigencia": "Boletín Oficial del 08/09/2026",
   "tablas": []
+ },
+ {
+  "id": "ecsapem",
+  "detectado": "2026-11-05T12:57:05+00:00",
+  "sha256": "51d56da45e645b964d42ee087a3f1ff577a048b1ab53253462ac65dce9fac617",
+  "url": "https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_NO_SUBSIDIADO_Res_DP_341_26_6645b45857.pdf",
+  "titulo": "Cuadro Tarifario Octubre 2026 NO SUBSIDIADO-Res DP 341-26.pdf",
+  "vigencia": "CUADRO TARIFARIO OCTUBRE 2026",
+  "tablas": [
+   {
+    "titulo": "T1 Residencial / General / AP",
+    "filas": [
+     {
+      "grupo": "RESTO",
+      "concepto": "Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo(*)",
+      "unidad": "$/MES",
+      "valores": [
+       1809.26,
+       27822.71,
+       29631.97
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo Variable por todo Consumo de Energía RESIDENCIAL NO BONIFICADO (*)",
+      "unidad": "$/KWh.",
+      "valores": [
+       45.152,
+       114.2063,
+       159.3583
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo fijo",
+      "unidad": "$/MES",
+      "valores": [
+       1809.26,
+       0.0,
+       1809.26
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energia",
+      "unidad": "$/KWh.",
+      "valores": [
+       45.152,
+       0.0,
+       45.152
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo fijo",
+      "unidad": "$/MES",
+      "valores": [
+       2291.89,
+       123449.88,
+       125741.77
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energía",
+      "unidad": "$/KWh.",
+      "valores": [
+       55.3944,
+       139.8519,
+       195.2463
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - AP ALUMBRADO PÚBLICO UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energía",
+      "unidad": "$/KWh.",
+      "valores": [
+       58.7762,
+       189.217,
+       247.9932
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

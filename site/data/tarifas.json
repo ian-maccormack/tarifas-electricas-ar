@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T20:28:04+00:00",
+ "generado": "2026-11-05T12:57:05+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1031,7 +1031,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf (2026-11, 32 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edenor.com/institucional/marco-regulatorio",
@@ -1321,98 +1321,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "Tarifa 1-R con subsidio (primeros 200 kWh subsidiados, según el cuadro)",
-    "categorias": [
-     {
-      "nombre": "R1",
-      "hasta": 150,
-      "fijo": 1870.51,
-      "escalones": [
-       [
-        null,
-        65.073
-       ]
-      ]
-     },
-     {
-      "nombre": "R2",
-      "hasta": 400,
-      "fijo": 3989.51,
-      "escalones": [
-       [
-        200,
-        65.754
-       ],
-       [
-        null,
-        164.279
-       ]
-      ]
-     },
-     {
-      "nombre": "R3",
-      "hasta": 500,
-      "fijo": 13100.68,
-      "escalones": [
-       [
-        200,
-        78.365
-       ],
-       [
-        null,
-        176.889
-       ]
-      ]
-     },
-     {
-      "nombre": "R4",
-      "hasta": 600,
-      "fijo": 20958.14,
-      "escalones": [
-       [
-        200,
-        82.468
-       ],
-       [
-        null,
-        180.992
-       ]
-      ]
-     },
-     {
-      "nombre": "R5",
-      "hasta": 700,
-      "fijo": 44173.81,
-      "escalones": [
-       [
-        200,
-        82.776
-       ],
-       [
-        null,
-        181.3
-       ]
-      ]
-     },
-     {
-      "nombre": "R6",
-      "hasta": null,
-      "fijo": 68900.6,
-      "escalones": [
-       [
-        200,
-        99.231
-       ],
-       [
-        null,
-        197.755
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -1532,176 +1440,6 @@
       "tension": null,
       "concepto": "Energía",
       "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 197.755
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 1870.51
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 65.073
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3989.51
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 65.754
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 164.279
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 13100.68
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 78.365
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 176.889
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 20958.14
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 82.468
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 180.992
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 44173.81
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 82.776
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 181.3
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 68900.6
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 99.231
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
       "unidad": "$/kWh",
       "valor": 197.755
      },
@@ -2108,7 +1846,6 @@
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: Tarifa 1-R sin subsidio",
-     "Residencial (T1) — con subsidio: Tarifa 1-R con subsidio (primeros 200 kWh subsidiados, según el cuadro)",
      "Medianas y grandes demandas (T2 y T3): Cuadro ENRE; T2 de 10 a 50 kW y T3 desde 50 kW según el régimen tarifario ENRE (no figura en el cuadro)"
     ]
    },
@@ -3488,7 +3225,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edesur.com.ar/wp-content/uploads/2026/11/CT_NOV26_WEB-1.jpg (2026-11, 0 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
@@ -3783,112 +3520,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "Tarifa 1-R con subsidio (consumo base según el mes)",
-    "base_mes": [
-     300,
-     300,
-     150,
-     150,
-     300,
-     300,
-     300,
-     300,
-     150,
-     150,
-     150,
-     300
-    ],
-    "categorias": [
-     {
-      "nombre": "R1",
-      "hasta": 150,
-      "fijo": 1771.06,
-      "escalones": [
-       [
-        null,
-        59.251
-       ]
-      ]
-     },
-     {
-      "nombre": "R2",
-      "hasta": 400,
-      "fijo": 3717.51,
-      "escalones": [
-       [
-        "base",
-        59.827
-       ],
-       [
-        null,
-        157.692
-       ]
-      ]
-     },
-     {
-      "nombre": "R3",
-      "hasta": 500,
-      "fijo": 12168.59,
-      "escalones": [
-       [
-        "base",
-        72.057
-       ],
-       [
-        null,
-        169.922
-       ]
-      ]
-     },
-     {
-      "nombre": "R4",
-      "hasta": 600,
-      "fijo": 19843.84,
-      "escalones": [
-       [
-        "base",
-        76.191
-       ],
-       [
-        null,
-        174.056
-       ]
-      ]
-     },
-     {
-      "nombre": "R5",
-      "hasta": 700,
-      "fijo": 42905.86,
-      "escalones": [
-       [
-        "base",
-        88.728
-       ],
-       [
-        null,
-        186.593
-       ]
-      ]
-     },
-     {
-      "nombre": "R6",
-      "hasta": null,
-      "fijo": 65106.92,
-      "escalones": [
-       [
-        "base",
-        105.74
-       ],
-       [
-        null,
-        203.605
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -4008,176 +3639,6 @@
       "tension": null,
       "concepto": "Energía",
       "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 203.605
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 1771.06
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R1",
-      "condicion": "hasta 150 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 59.251
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3717.51
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 59.827
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R2",
-      "condicion": "más de 150 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 157.692
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 12168.59
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 72.057
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R3",
-      "condicion": "más de 400 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 169.922
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 19843.84
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 76.191
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R4",
-      "condicion": "más de 500 y hasta 600 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 174.056
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 42905.86
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 88.728
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R5",
-      "condicion": "más de 600 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
-      "unidad": "$/kWh",
-      "valor": 186.593
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 65106.92
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "consumo base subsidiado",
-      "unidad": "$/kWh",
-      "valor": 105.74
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "R6",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente del consumo base",
       "unidad": "$/kWh",
       "valor": 203.605
      },
@@ -4584,8 +4045,6 @@
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: Tarifa 1-R sin subsidio",
-     "Residencial (T1) — con subsidio: Tarifa 1-R con subsidio (consumo base según el mes)",
-     "Residencial (T1) — con subsidio: consumo base subsidiado por mes (kWh/mes): ene 300, feb 300, mar 150, abr 150, may 300, jun 300, jul 300, ago 300, sep 150, oct 150, nov 150, dic 300.",
      "Medianas y grandes demandas (T2 y T3): Cuadro ENRE; T2 de 10 a 50 kW y T3 desde 50 kW según el régimen tarifario ENRE (no figura en el cuadro)"
     ]
    },
@@ -5974,7 +5433,7 @@
     "primary: OK https://web.archive.org/web/20260613052704id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15834670-GDEBA-GMOCEBA.pdf (2026-06, 4 tablas)",
     "extra: OK https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf (2026-09, 5 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.infoedes.com/cuadro-tarifario/",
@@ -6021,7 +5480,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -7501,7 +6959,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf (2026-09, 7 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edeaweb.com.ar/cuadro-tarifario/",
@@ -7540,7 +6998,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -8214,7 +7671,7 @@
     "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf (2026-09, 1 tablas)",
     "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-03, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edelap.com.ar/cuadro-tarifario/",
@@ -8261,7 +7718,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -9119,6 +8575,7 @@
    "intentos": [
     "primary: OK https://web.archive.org/web/20260613053857id_/https://oceba.gba.gov.ar/nueva_web/adjuntos/ct202606/IF-2026-15833682-GDEBA-GMOCEBA.pdf (2026-06, 4 tablas)",
     "extra: OK https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf (2026-09, 5 tablas)",
+    "se: HTTPError: 502 Server Error: Bad Gateway for url: https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-eden",
     "se mantiene el documento publicado (2026-09, texto extraíble): la fuente nueva es del mismo período y solo se lee por OCR"
    ],
    "verificado": "2026-10-31T15:02:21+00:00",
@@ -9374,7 +8831,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -9864,7 +9320,7 @@
     ]
    },
    "desactualizado": false,
-   "ultimo_intento": "2026-11-04T20:28:04+00:00",
+   "ultimo_intento": "2026-11-05T12:57:05+00:00",
    "ultimo_intento_fallido": true,
    "oficiales": {
     "links": [
@@ -9882,14 +9338,14 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf",
-    "titulo": "Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf",
-    "pagina": null,
+    "url": "https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_NO_SUBSIDIADO_Res_DP_341_26_6645b45857.pdf",
+    "titulo": "Cuadro Tarifario Octubre 2026 NO SUBSIDIADO-Res DP 341-26.pdf",
+    "pagina": "https://www.ecsapem.com.ar/organization/rates",
     "origen": "Distribuidora",
     "tipo": "pdf",
-    "sha256": "48919dfa88329e133a230376376cbe690b9476d79779fb1b4c4e4949da071ff3",
-    "bytes": 27853,
-    "via": "URL conocida"
+    "sha256": "51d56da45e645b964d42ee087a3f1ff577a048b1ab53253462ac65dce9fac617",
+    "bytes": 27473,
+    "via": "búsqueda automática"
    },
    "vigencia": "CUADRO TARIFARIO OCTUBRE 2026",
    "tablas": [
@@ -9898,22 +9354,7 @@
      "filas": [
       {
        "grupo": "RESTO",
-       "concepto": "Cargo fijo RESIDENCIAL BONIFICADO consumos base según zona (*)",
-       "unidad": "$/MES",
-       "valores": [
-        1809.26,
-        18062.38,
-        19871.64
-       ],
-       "columnas": [
-        "VAD",
-        "MEM",
-        "TOTAL"
-       ]
-      },
-      {
-       "grupo": "RESTO",
-       "concepto": "Cargo fijo RESIDENCIAL BONIFICADO excedente consumos base según zona (*)",
+       "concepto": "Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo(*)",
        "unidad": "$/MES",
        "valores": [
         1809.26,
@@ -9928,22 +9369,7 @@
       },
       {
        "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
-       "concepto": "RESIDENCIAL BONIFICADO consumos base según zona (*)",
-       "unidad": "$/KWh.",
-       "valores": [
-        45.152,
-        53.4961,
-        98.6481
-       ],
-       "columnas": [
-        "VAD",
-        "MEM",
-        "TOTAL"
-       ]
-      },
-      {
-       "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
-       "concepto": "RESIDENCIAL BONIFICADO excedente consumos base según zona (*)",
+       "concepto": "Cargo Variable por todo Consumo de Energía RESIDENCIAL NO BONIFICADO (*)",
        "unidad": "$/KWh.",
        "valores": [
         45.152,
@@ -10003,7 +9429,7 @@
       },
       {
        "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
-       "concepto": "Cargo variable por consumo de energia",
+       "concepto": "Cargo variable por consumo de energía",
        "unidad": "$/KWh.",
        "valores": [
         55.3944,
@@ -10035,10 +9461,9 @@
     }
    ],
    "intentos": [
-    "primary: LookupError: sin enlaces candidatos en https://www.ecsapem.com.ar/",
-    "known: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf (2026-10, 1 tablas)"
+    "primary: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_NO_SUBSIDIADO_Res_DP_341_26_6645b45857.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.ecsapem.com.ar/organization/rates"
@@ -10063,11 +9488,52 @@
    },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "T1-R no bonificado (cuadro NO SUBSIDIADO), columna TOTAL",
+    "categorias": [
+     {
+      "nombre": "T1-R",
+      "hasta": null,
+      "fijo": 29631.97,
+      "escalones": [
+       [
+        null,
+        159.3583
+       ]
+      ]
+     }
+    ]
+   },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "T1-R",
+      "condicion": "todos los consumos",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 29631.97
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "T1-R",
+      "condicion": "todos los consumos",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 159.3583
+     }
+    ],
+    "notas": [
+     "Residencial (T1) — sin subsidio: T1-R no bonificado (cuadro NO SUBSIDIADO), columna TOTAL"
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -13608,7 +13074,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/downloads/paginas/cuadros-tarifarios/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf (2026-10, 9 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.secheep.gob.ar/cuadros-tarifarios.html"
@@ -13680,7 +13146,6 @@
      }
     ]
    },
-   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -13753,7 +13218,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [],
     "nota": "La tabla de fuentes de referencia lista a DGSP como observación, sin links oficiales."
@@ -13763,7 +13228,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -15158,7 +14622,7 @@
     "extra: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf (2026-11, 1 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.epec.com.ar/informacion-comercial/grandes-clientes",
@@ -15272,105 +14736,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "Tarifa Nº 1 residencial con SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes",
-    "categorias": [
-     {
-      "nombre": "Suministros cuyos consumos sean menores o iguales a 120 kWh por mes, se aplicará",
-      "hasta": 120,
-      "fijo": 1927.2312,
-      "escalones": [
-       [
-        null,
-        115.60184
-       ]
-      ]
-     },
-     {
-      "nombre": "Suministros cuyos consumos sean mayores a 120 kWh por mes y menores o iguales a 500 kWh por mes, en la totalidad del",
-      "hasta": 500,
-      "fijo": 2676.3537,
-      "escalones": [
-       [
-        120,
-        143.22182
-       ],
-       [
-        150,
-        189.23116
-       ],
-       [
-        200,
-        189.23116
-       ],
-       [
-        300,
-        287.21252
-       ],
-       [
-        null,
-        287.21252
-       ]
-      ]
-     },
-     {
-      "nombre": "Suministros cuyos consumos sean mayores a 500 kWh por mes y menores o iguales a 700 kWh por mes, en la totalidad del",
-      "hasta": 700,
-      "fijo": 3889.1725,
-      "escalones": [
-       [
-        120,
-        171.34513
-       ],
-       [
-        150,
-        219.13451
-       ],
-       [
-        200,
-        219.13451
-       ],
-       [
-        300,
-        317.11587
-       ],
-       [
-        null,
-        317.11587
-       ]
-      ]
-     },
-     {
-      "nombre": "Suministros cuyos consumos sean mayores a 700 kWh por mes, en la totalidad del consumo será de aplicación",
-      "hasta": null,
-      "fijo": 3889.1725,
-      "escalones": [
-       [
-        120,
-        193.85123
-       ],
-       [
-        150,
-        247.95736
-       ],
-       [
-        200,
-        247.95736
-       ],
-       [
-        300,
-        345.93872
-       ],
-       [
-        null,
-        345.93872
-       ]
-      ]
-     }
-    ],
-    "minimo_kwh": 20
-   },
    "normalizado": {
     "filas": [
      {
@@ -15482,211 +14847,10 @@
       "tramo": "excedente de 120 kWh/mes",
       "unidad": "$/kWh",
       "valor": 372.21929
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 120 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 1927.2312
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 120 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 115.60184
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2676.3537
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 120 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 143.22182
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 120 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 189.23116
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 189.23116
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 287.21252
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 120 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 287.21252
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3889.1725
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 120 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 171.34513
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 120 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 219.13451
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 219.13451
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 317.11587
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 317.11587
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3889.1725
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 120 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 193.85123
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 120 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 247.95736
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 247.95736
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 345.93872
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 345.93872
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio: Tarifa Nº 1 residencial sin SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes",
-     "Residencial (T1) — con subsidio: Tarifa Nº 1 residencial con SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes"
+     "Residencial (T1) — sin subsidio: Tarifa Nº 1 residencial sin SEF, acápites a), b), c), e), f) y h); energía mínima facturada 20 kWh/mes"
     ]
    },
    "desactualizado": false
@@ -15716,7 +14880,7 @@
     "parser: ValueError: no se encontró la sección /TARIFAS RESIDENCIALES/",
     "extra: OK https://www.dpec.com.ar/es/articulo/1500/descarga/179/Anexo-BO-2954526---08-09-2026---Epre---Dpecpdf (2026-09, 0 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
@@ -15762,7 +14926,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -16025,7 +15188,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx (2026-12, 4 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [],
     "nota": "El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución."
@@ -16102,43 +15265,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "T1-R uso residencial con subsidio nacional",
-    "categorias": [
-     {
-      "nombre": "T1-R",
-      "hasta": null,
-      "fijo": 3279.44,
-      "escalones": [
-       [
-        100,
-        163.91
-       ],
-       [
-        150,
-        196.7
-       ],
-       [
-        200,
-        196.7
-       ],
-       [
-        300,
-        241.04
-       ],
-       [
-        370,
-        267.09
-       ],
-       [
-        null,
-        350.49
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -16190,81 +15316,10 @@
       "tramo": "excedente de 300 kWh/mes",
       "unidad": "$/kWh",
       "valor": 350.49
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3279.44
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 100 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 163.91
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 100 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 196.7
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 196.7
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 241.04
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 300 a 370 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 267.09
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R",
-      "condicion": "todos los consumos",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 370 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 350.49
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio: T1-R uso residencial sin subsidio",
-     "Residencial (T1) — con subsidio: T1-R uso residencial con subsidio nacional"
+     "Residencial (T1) — sin subsidio: T1-R uso residencial sin subsidio"
     ]
    },
    "desactualizado": false
@@ -16309,7 +15364,7 @@
     "primary: LookupError: REFSA: sin períodos",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.recursosyenergia.com.ar/tarifas"
@@ -16325,7 +15380,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": true
   },
@@ -16972,7 +16026,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/alerts/GetFile?fileId=8wzns3Umg5U= (sin fecha, 15 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio"
@@ -17000,7 +16054,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -17680,7 +16733,7 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
@@ -17716,7 +16769,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -21605,9 +20657,9 @@
    "intentos": [
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)",
-    "se: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "docs/entregados/ape-res-41-26-cooperativas.pdf",
@@ -21622,12 +20674,26 @@
    "escaneado": true,
    "ocr": true,
    "periodo_documento": "2026-10",
+   "archivo_nacional": {
+    "url": null,
+    "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-ape",
+    "no_disponibles": [
+     {
+      "periodo": "2025-12",
+      "titulo": "Cuadro Tarifario del 12-2025",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/APE/2025_12_APE.zip",
+      "error": "ConnectionError"
+     }
+    ],
+    "comparacion": {
+     "resultado": "sin_archivo"
+    }
+   },
    "mes_referencia": "2026-10",
    "mes_referencia_origen": "título",
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   },
@@ -23388,7 +22454,7 @@
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf (2026-04, 18 tablas)",
     "extra: OK https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf (2026-04, 18 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edelar.com.ar/clientes/pequenas-demandas",
@@ -23503,205 +22569,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "T1-R con subsidio (según zona bioambiental)",
-    "categorias": [],
-    "zonas": [
-     {
-      "id": "I",
-      "nombre": "Zona Muy Calida",
-      "categorias": [
-       {
-        "nombre": "T1-R1-ZM",
-        "hasta": 200,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R2-ZM",
-        "hasta": 430,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R3-ZM",
-        "hasta": null,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ],
-         [
-          null,
-          158.2839
-         ]
-        ]
-       }
-      ],
-      "criterio": "T1-R con subsidio, Zona Muy Calida (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)"
-     },
-     {
-      "id": "II",
-      "nombre": "Zona Calida",
-      "categorias": [
-       {
-        "nombre": "T1-R1-ZC",
-        "hasta": 200,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R2-ZC",
-        "hasta": 430,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R3-ZC",
-        "hasta": null,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ],
-         [
-          null,
-          168.1767
-         ]
-        ]
-       }
-      ],
-      "criterio": "T1-R con subsidio, Zona Calida (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)"
-     },
-     {
-      "id": "III",
-      "nombre": "Zona Resto",
-      "categorias": [
-       {
-        "nombre": "T1-R1-ZR",
-        "hasta": 200,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R2-ZR",
-        "hasta": 430,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ]
-        ]
-       },
-       {
-        "nombre": "T1-R3-ZR",
-        "hasta": null,
-        "fijo": 2124.71,
-        "escalones": [
-         [
-          150,
-          75.676
-         ],
-         [
-          200,
-          150.4463
-         ],
-         [
-          430,
-          112.9203
-         ],
-         [
-          null,
-          168.1767
-         ]
-        ]
-       }
-      ],
-      "criterio": "T1-R con subsidio, Zona Resto (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)"
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -23793,373 +22660,10 @@
       "tramo": "excedente de 430 kWh/mes",
       "unidad": "$/kWh",
       "valor": 197.8549
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R1-ZM",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R1-ZM",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R1-ZM",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R2-ZM",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R2-ZM",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R2-ZM",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R2-ZM",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R3-ZM",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R3-ZM",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R3-ZM",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R3-ZM",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Muy Calida",
-      "categoria": "T1-R3-ZM",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 158.2839
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R1-ZC",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R1-ZC",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R1-ZC",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R2-ZC",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R2-ZC",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R2-ZC",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R2-ZC",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R3-ZC",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R3-ZC",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R3-ZC",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R3-ZC",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Calida",
-      "categoria": "T1-R3-ZC",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 168.1767
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R1-ZR",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R1-ZR",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R1-ZR",
-      "condicion": "hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R2-ZR",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R2-ZR",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R2-ZR",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R2-ZR",
-      "condicion": "más de 200 y hasta 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R3-ZR",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 2124.71
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R3-ZR",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 75.676
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R3-ZR",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 150.4463
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R3-ZR",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 200 a 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 112.9203
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Zona Resto",
-      "categoria": "T1-R3-ZR",
-      "condicion": "más de 430 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 430 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 168.1767
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio: T1-R sin subsidio (columnas NS)",
-     "Residencial (T1) — con subsidio, Zona Muy Calida: T1-R con subsidio, Zona Muy Calida (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)",
-     "Residencial (T1) — con subsidio, Zona Calida: T1-R con subsidio, Zona Calida (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)",
-     "Residencial (T1) — con subsidio, Zona Resto: T1-R con subsidio, Zona Resto (precio por tramo = cargo variable + subsidio Estado Nacional + F.E.P., según el cuadro)"
+     "Residencial (T1) — sin subsidio: T1-R sin subsidio (columnas NS)"
     ]
    },
    "desactualizado": true
@@ -24459,7 +22963,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "pago_mensual": {
     "texto": "La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
     "url": "https://www.edemsa.com/informacion-comercial/"
@@ -24682,45 +23186,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "bimestre",
-    "criterio": "Residencial con SEF (solo Residencial 1)",
-    "categorias": [
-     {
-      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "hasta": 299,
-      "fijo": 6929.321,
-      "escalones": [
-       [
-        null,
-        165.7523
-       ]
-      ]
-     },
-     {
-      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "hasta": 599,
-      "fijo": null,
-      "escalones": [
-       [
-        null,
-        null
-       ]
-      ]
-     },
-     {
-      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "hasta": null,
-      "fijo": null,
-      "escalones": [
-       [
-        null,
-        null
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -24782,66 +23247,6 @@
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
       "valor": 241.6774
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "condicion": "hasta 299 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 6929.321
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "condicion": "hasta 299 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 165.7523
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "condicion": "más de 299 y hasta 599 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "condicion": "más de 299 y hasta 599 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "condicion": "más de 599 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "condicion": "más de 599 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": null
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -25207,8 +23612,6 @@
     "notas": [
      "Residencial (T1) — sin subsidio: Residencial sin SEF (primera columna)",
      "Residencial (T1) — sin subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
-     "Residencial (T1) — con subsidio: Residencial con SEF (solo Residencial 1)",
-     "Residencial (T1) — con subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
      "Medianas y grandes demandas (T2 y T3): T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')"
     ]
    },
@@ -25510,7 +23913,7 @@
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)",
     "extra: OK https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf (2026-08, 2 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "pago_mensual": {
     "texto": "La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
     "url": "https://www.edeste.com.ar/preguntasfrecuentes.html"
@@ -25751,45 +24154,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "bimestre",
-    "criterio": "Residencial con SEF (solo Residencial 1)",
-    "categorias": [
-     {
-      "nombre": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "hasta": 299,
-      "fijo": 6929.321,
-      "escalones": [
-       [
-        null,
-        165.7523
-       ]
-      ]
-     },
-     {
-      "nombre": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "hasta": 599,
-      "fijo": null,
-      "escalones": [
-       [
-        null,
-        null
-       ]
-      ]
-     },
-     {
-      "nombre": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "hasta": null,
-      "fijo": null,
-      "escalones": [
-       [
-        null,
-        null
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -25851,66 +24215,6 @@
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
       "valor": 241.6774
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "condicion": "hasta 299 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 6929.321
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 1 (Hasta 299 kWh/Bim)",
-      "condicion": "hasta 299 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 165.7523
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "condicion": "más de 299 y hasta 599 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 2 (entre 300 y 599 kWh/Bim)",
-      "condicion": "más de 299 y hasta 599 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "condicion": "más de 599 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": null
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
-      "condicion": "más de 599 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": null
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -26276,8 +24580,6 @@
     "notas": [
      "Residencial (T1) — sin subsidio: Residencial sin SEF (primera columna)",
      "Residencial (T1) — sin subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
-     "Residencial (T1) — con subsidio: Residencial con SEF (solo Residencial 1)",
-     "Residencial (T1) — con subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
      "Medianas y grandes demandas (T2 y T3): T2 conectado a la red de distribución (columnas 'R'); no incluye suministros en bornes de transformador ('B')"
     ]
    },
@@ -26581,7 +24883,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf (2026-08, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.energiademisiones.com.ar/cuadros-tarifarios-vigentes/"
@@ -26622,11 +24924,453 @@
    },
    "mes_referencia": "2026-08",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Categoría 1 Residencial, Cuadro N° 654 (sin subsidio)",
+    "categorias": [
+     {
+      "nombre": "RESIDENCIAL hasta 500 kwh-mes",
+      "hasta": 500,
+      "fijo": 2309.1,
+      "escalones": [
+       [
+        30,
+        272.997
+       ],
+       [
+        120,
+        272.997
+       ],
+       [
+        200,
+        276.333
+       ],
+       [
+        400,
+        278.926
+       ],
+       [
+        500,
+        278.926
+       ]
+      ]
+     },
+     {
+      "nombre": "RESIDENCIAL hasta 700 kwh-mes",
+      "hasta": 700,
+      "fijo": 2309.1,
+      "escalones": [
+       [
+        30,
+        274.643
+       ],
+       [
+        120,
+        274.643
+       ],
+       [
+        200,
+        279.066
+       ],
+       [
+        400,
+        279.984
+       ],
+       [
+        550,
+        279.984
+       ],
+       [
+        700,
+        279.984
+       ]
+      ]
+     },
+     {
+      "nombre": "RESIDENCIAL hasta 1400 kwh-mes",
+      "hasta": 1400,
+      "fijo": 2640.9,
+      "escalones": [
+       [
+        30,
+        275.593
+       ],
+       [
+        120,
+        275.593
+       ],
+       [
+        200,
+        280.08
+       ],
+       [
+        400,
+        280.965
+       ],
+       [
+        550,
+        280.965
+       ],
+       [
+        700,
+        280.965
+       ],
+       [
+        1400,
+        280.965
+       ]
+      ]
+     },
+     {
+      "nombre": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "hasta": null,
+      "fijo": 2640.9,
+      "escalones": [
+       [
+        30,
+        277.522
+       ],
+       [
+        120,
+        277.522
+       ],
+       [
+        200,
+        282.137
+       ],
+       [
+        400,
+        283.132
+       ],
+       [
+        550,
+        283.132
+       ],
+       [
+        700,
+        283.132
+       ],
+       [
+        1400,
+        283.132
+       ],
+       [
+        null,
+        283.132
+       ]
+      ]
+     }
+    ]
+   },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 2309.1
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 30 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 272.997
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 30 a 120 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 272.997
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 120 a 200 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 276.333
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 200 a 400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 278.926
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 500 kwh-mes",
+      "condicion": "hasta 500 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 400 a 500 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 278.926
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 2309.1
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 30 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 274.643
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 30 a 120 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 274.643
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 120 a 200 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 279.066
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 200 a 400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 279.984
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 400 a 550 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 279.984
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 700 kwh-mes",
+      "condicion": "más de 500 y hasta 700 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 550 a 700 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 279.984
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 2640.9
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 30 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 275.593
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 30 a 120 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 275.593
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 120 a 200 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 280.08
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 200 a 400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 280.965
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 400 a 550 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 280.965
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 550 a 700 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 280.965
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL hasta 1400 kwh-mes",
+      "condicion": "más de 700 y hasta 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 700 a 1400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 280.965
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 2640.9
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "primeros 30 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 277.522
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 30 a 120 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 277.522
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 120 a 200 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 282.137
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 200 a 400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 283.132
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 400 a 550 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 283.132
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 550 a 700 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 283.132
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "de 700 a 1400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 283.132
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "RESIDENCIAL mayor a 1400 kwh-mes",
+      "condicion": "más de 1400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "excedente de 1400 kWh/mes",
+      "unidad": "$/kWh",
+      "valor": 283.132
+     }
+    ],
+    "notas": [
+     "Residencial (T1) — sin subsidio: Categoría 1 Residencial, Cuadro N° 654 (sin subsidio)"
+    ]
+   },
    "desactualizado": true
   },
   {
@@ -27493,7 +26237,7 @@
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf (2026-09, 6 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.epen.gov.ar/index.php/cuadros-tarifarios/"
@@ -27791,105 +26535,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "T1-R con subsidio (tope del subsidio según el cuadro)",
-    "categorias": [
-     {
-      "nombre": "T1-R1",
-      "hasta": 50,
-      "fijo": 9940.22,
-      "escalones": [
-       [
-        null,
-        195.632
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R2",
-      "hasta": 100,
-      "fijo": 10094.07,
-      "escalones": [
-       [
-        null,
-        173.833
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R3",
-      "hasta": 250,
-      "fijo": 11800.72,
-      "escalones": [
-       [
-        null,
-        161.987
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R4",
-      "hasta": 500,
-      "fijo": 17861.4,
-      "escalones": [
-       [
-        200,
-        156.351
-       ],
-       [
-        null,
-        355.156
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R5",
-      "hasta": 700,
-      "fijo": 31332.26,
-      "escalones": [
-       [
-        200,
-        151.556
-       ],
-       [
-        null,
-        350.853
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R6",
-      "hasta": 1400,
-      "fijo": 38202.48,
-      "escalones": [
-       [
-        200,
-        146.818
-       ],
-       [
-        null,
-        346.605
-       ]
-      ]
-     },
-     {
-      "nombre": "T1-R7",
-      "hasta": null,
-      "fijo": 59671.13,
-      "escalones": [
-       [
-        200,
-        141.414
-       ],
-       [
-        null,
-        341.757
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -28029,186 +26674,6 @@
       "tension": null,
       "concepto": "Energía",
       "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 341.757
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R1",
-      "condicion": "hasta 50 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 9940.22
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R1",
-      "condicion": "hasta 50 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 195.632
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R2",
-      "condicion": "más de 50 y hasta 100 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 10094.07
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R2",
-      "condicion": "más de 50 y hasta 100 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 173.833
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R3",
-      "condicion": "más de 100 y hasta 250 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 11800.72
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R3",
-      "condicion": "más de 100 y hasta 250 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 161.987
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R4",
-      "condicion": "más de 250 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 17861.4
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R4",
-      "condicion": "más de 250 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 156.351
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R4",
-      "condicion": "más de 250 y hasta 500 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 355.156
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R5",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 31332.26
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R5",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 151.556
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R5",
-      "condicion": "más de 500 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 350.853
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R6",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 38202.48
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R6",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 146.818
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R6",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 346.605
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R7",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 59671.13
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R7",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 141.414
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1-R7",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
       "unidad": "$/kWh",
       "valor": 341.757
      },
@@ -28555,7 +27020,6 @@
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: T1-R sin subsidio",
-     "Residencial (T1) — con subsidio: T1-R con subsidio (tope del subsidio según el cuadro)",
      "Medianas y grandes demandas (T2 y T3): Límites de potencia del cuadro EPEN; el cuadro no tiene cargo fijo en T2/T3; T3 ≥ 300 kW: categoría 'Resto'"
     ]
    },
@@ -28668,7 +27132,7 @@
    "intentos": [
     "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edersa.com.ar/usuarios/cuadro-tarifario/"
@@ -28739,38 +27203,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "bimestre",
-    "criterio": "Con subsidio, monofásico (excedente desde 400 kWh/bim)",
-    "categorias": [
-     {
-      "nombre": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
-      "hasta": 300,
-      "fijo": 9621.78,
-      "escalones": [
-       [
-        null,
-        193.765
-       ]
-      ]
-     },
-     {
-      "nombre": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
-      "hasta": null,
-      "fijo": 27555.82,
-      "escalones": [
-       [
-        400,
-        190.015
-       ],
-       [
-        null,
-        289.656
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -28812,63 +27244,11 @@
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
       "valor": 289.656
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 300 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 9621.78
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 300 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 193.765
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 300 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 27555.82
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 300 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 400 kWh/bim",
-      "unidad": "$/kWh",
-      "valor": 190.015
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 300 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 400 kWh/bim",
-      "unidad": "$/kWh",
-      "valor": 289.656
      }
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: Sin subsidio, monofásico",
-     "Residencial (T1) — sin subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
-     "Residencial (T1) — con subsidio: Con subsidio, monofásico (excedente desde 400 kWh/bim)",
-     "Residencial (T1) — con subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre."
+     "Residencial (T1) — sin subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre."
     ]
    },
    "desactualizado": false
@@ -29763,7 +28143,7 @@
    "intentos": [
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edesa.com.ar/cuadros-tarifarios/",
@@ -29868,7 +28248,6 @@
      }
     ]
    },
-   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -30406,7 +28785,7 @@
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf (2026-09, 3 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "pago_mensual": {
     "texto": "Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
     "url": "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"
@@ -30648,7 +29027,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -31630,7 +30008,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "extra: OK docs/entregados/edesal-cuadro-tarifario-2026-09.pdf (2026-09, 3 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf"
@@ -31881,102 +30259,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "T1-R 'Subsidio Resef' (primeros 200 kWh subsidiados)",
-    "categorias": [
-     {
-      "nombre": "T1R-1",
-      "hasta": 160,
-      "fijo": 14174.9607,
-      "escalones": [
-       [
-        200,
-        57.408
-       ],
-       [
-        null,
-        143.5892
-       ]
-      ]
-     },
-     {
-      "nombre": "T1R-2",
-      "hasta": 200,
-      "fijo": 24323.699,
-      "escalones": [
-       [
-        200,
-        56.398
-       ],
-       [
-        null,
-        142.6428
-       ]
-      ]
-     },
-     {
-      "nombre": "T1R-3",
-      "hasta": 400,
-      "fijo": 27428.0079,
-      "escalones": [
-       [
-        200,
-        54.2575
-       ],
-       [
-        null,
-        140.4387
-       ]
-      ]
-     },
-     {
-      "nombre": "T1R-4",
-      "hasta": 700,
-      "fijo": 49814.9841,
-      "escalones": [
-       [
-        200,
-        50.948
-       ],
-       [
-        null,
-        137.1577
-       ]
-      ]
-     },
-     {
-      "nombre": "T1R-5",
-      "hasta": 1400,
-      "fijo": 68039.1817,
-      "escalones": [
-       [
-        200,
-        49.5012
-       ],
-       [
-        null,
-        135.6187
-       ]
-      ]
-     },
-     {
-      "nombre": "T1R-6",
-      "hasta": null,
-      "fijo": 142636.2273,
-      "escalones": [
-       [
-        200,
-        49.5012
-       ],
-       [
-        null,
-        135.6187
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -32096,186 +30378,6 @@
       "tension": null,
       "concepto": "Energía",
       "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 135.6187
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-1",
-      "condicion": "hasta 160 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 14174.9607
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-1",
-      "condicion": "hasta 160 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 57.408
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-1",
-      "condicion": "hasta 160 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 143.5892
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-2",
-      "condicion": "más de 160 y hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 24323.699
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-2",
-      "condicion": "más de 160 y hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 56.398
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-2",
-      "condicion": "más de 160 y hasta 200 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 142.6428
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-3",
-      "condicion": "más de 200 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 27428.0079
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-3",
-      "condicion": "más de 200 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 54.2575
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-3",
-      "condicion": "más de 200 y hasta 400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 140.4387
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-4",
-      "condicion": "más de 400 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 49814.9841
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-4",
-      "condicion": "más de 400 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 50.948
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-4",
-      "condicion": "más de 400 y hasta 700 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 137.1577
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-5",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 68039.1817
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-5",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 49.5012
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-5",
-      "condicion": "más de 700 y hasta 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 135.6187
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-6",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 142636.2273
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-6",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 200 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 49.5012
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1R-6",
-      "condicion": "más de 1400 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 200 kWh/mes",
       "unidad": "$/kWh",
       "valor": 135.6187
      },
@@ -32642,7 +30744,6 @@
     ],
     "notas": [
      "Residencial (T1) — sin subsidio: T1-R 'Cuadro Resolución' (cargo fijo + cargo por uso de la red)",
-     "Residencial (T1) — con subsidio: T1-R 'Subsidio Resef' (primeros 200 kWh subsidiados)",
      "Medianas y grandes demandas (T2 y T3): T2 BT, MT 13,2 kV y AT (sin variantes de riego ni 33 kV)"
     ]
    },
@@ -33013,7 +31114,7 @@
     "extra: OK docs/entregados/spse-cuadro-tarifario-web-2026-11-04.pdf (2026-09, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://spse.ar/atencion-cliente#cuadroTarifario"
@@ -33033,7 +31134,7 @@
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/SPSE/2026_06_SPSE.xlsx",
-      "error": "HTTP 404"
+      "error": "ConnectionError"
      }
     ],
     "comparacion": {
@@ -33042,11 +31143,176 @@
    },
    "mes_referencia": "2026-09",
    "mes_referencia_origen": "vigencia",
-   "simulador": null,
+   "simulador": {
+    "periodo": "mes",
+    "criterio": "Residenciales sin subsidio (cargo fijo y valor del tramo según el consumo)",
+    "categorias": [
+     {
+      "nombre": "Tramo primero",
+      "hasta": 100,
+      "fijo": 16000.0,
+      "escalones": [
+       [
+        null,
+        127.659
+       ]
+      ]
+     },
+     {
+      "nombre": "Tramo segundo",
+      "hasta": 200,
+      "fijo": 17000.0,
+      "escalones": [
+       [
+        null,
+        132.323
+       ]
+      ]
+     },
+     {
+      "nombre": "Tramo tercero",
+      "hasta": 300,
+      "fijo": 18000.0,
+      "escalones": [
+       [
+        null,
+        136.647
+       ]
+      ]
+     },
+     {
+      "nombre": "Tramo cuarto",
+      "hasta": 400,
+      "fijo": 19000.0,
+      "escalones": [
+       [
+        null,
+        139.999
+       ]
+      ]
+     },
+     {
+      "nombre": "Tramo quinto",
+      "hasta": null,
+      "fijo": 23000.0,
+      "escalones": [
+       [
+        null,
+        141.658
+       ]
+      ]
+     }
+    ]
+   },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo primero",
+      "condicion": "hasta 100 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 16000.0
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo primero",
+      "condicion": "hasta 100 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 127.659
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo segundo",
+      "condicion": "más de 100 y hasta 200 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 17000.0
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo segundo",
+      "condicion": "más de 100 y hasta 200 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 132.323
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo tercero",
+      "condicion": "más de 200 y hasta 300 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 18000.0
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo tercero",
+      "condicion": "más de 200 y hasta 300 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 136.647
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo cuarto",
+      "condicion": "más de 300 y hasta 400 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 19000.0
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo cuarto",
+      "condicion": "más de 300 y hasta 400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 139.999
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo quinto",
+      "condicion": "más de 400 kWh/mes",
+      "tension": null,
+      "concepto": "Cargo fijo",
+      "tramo": "",
+      "unidad": "$/mes",
+      "valor": 23000.0
+     },
+     {
+      "seccion": "Residencial (T1) — sin subsidio",
+      "categoria": "Tramo quinto",
+      "condicion": "más de 400 kWh/mes",
+      "tension": null,
+      "concepto": "Energía",
+      "tramo": "todo el consumo",
+      "unidad": "$/kWh",
+      "valor": 141.658
+     }
+    ],
+    "notas": [
+     "Residencial (T1) — sin subsidio: Residenciales sin subsidio (cargo fijo y valor del tramo según el consumo)"
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -33270,7 +31536,7 @@
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f (2026-10, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [],
     "nota": "En las páginas de EPE hay que ir a Tarifas y después a Cuadro Tarifario (usuarios y grandes usuarios) o a Transparencia y después a Comparativas Tarifarias."
@@ -33344,156 +31610,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "mes",
-    "criterio": "Residencial urbano con subsidio (según zona bioambiental)",
-    "categorias": [],
-    "zonas": [
-     {
-      "id": "I",
-      "nombre": "Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categorias": [
-       {
-        "nombre": "1AE / 1NE Urbano / Servicio Oficial — hasta 350 kWh/mes",
-        "hasta": 350,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          75,
-          142.23411
-         ],
-         [
-          150,
-          165.15433
-         ],
-         [
-          300,
-          261.40335
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       },
-       {
-        "nombre": "1AE / 1NE Urbano / Servicio Oficial — más de 350 kWh/mes",
-        "hasta": null,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          350,
-          270.98873
-         ],
-         [
-          550,
-          440.80713
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       }
-      ],
-      "criterio": "Residencial urbano con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012."
-     },
-     {
-      "id": "II",
-      "nombre": "Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categorias": [
-       {
-        "nombre": "1AF / 1NF Urbano / Servicio Oficial — hasta 350 kWh/mes",
-        "hasta": 350,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          75,
-          142.23411
-         ],
-         [
-          150,
-          165.15433
-         ],
-         [
-          300,
-          261.40335
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       },
-       {
-        "nombre": "1AF / 1NF Urbano / Servicio Oficial — más de 350 kWh/mes",
-        "hasta": null,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          350,
-          270.98873
-         ],
-         [
-          370,
-          440.80713
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       }
-      ],
-      "criterio": "Residencial urbano con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012."
-     },
-     {
-      "id": "III",
-      "nombre": "Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categorias": [
-       {
-        "nombre": "1AG / 1NG Urbano / Servicio Oficial — hasta 350 kWh/mes",
-        "hasta": 350,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          75,
-          142.23411
-         ],
-         [
-          150,
-          165.15433
-         ],
-         [
-          300,
-          261.40335
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       },
-       {
-        "nombre": "1AG / 1NG Urbano / Servicio Oficial — más de 350 kWh/mes",
-        "hasta": null,
-        "fijo": 3944.25564,
-        "escalones": [
-         [
-          350,
-          270.98873
-         ],
-         [
-          null,
-          440.80713
-         ]
-        ]
-       }
-      ],
-      "criterio": "Residencial urbano con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012."
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -33545,273 +31661,10 @@
       "tramo": "excedente de 300 kWh/mes",
       "unidad": "$/kWh",
       "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 75 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 142.23411
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 75 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 165.15433
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 261.40335
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 350 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 270.98873
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 350 a 550 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 550 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 75 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 142.23411
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 75 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 165.15433
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 261.40335
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 350 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 270.98873
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 350 a 370 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 370 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 75 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 142.23411
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 75 a 150 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 165.15433
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "de 150 a 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 261.40335
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "hasta 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 300 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/mes",
-      "valor": 3944.25564
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "primeros 350 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 270.98873
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.",
-      "categoria": "",
-      "condicion": "más de 350 kWh/mes",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "excedente de 350 kWh/mes",
-      "unidad": "$/kWh",
-      "valor": 440.80713
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio: Residencial urbano sin subsidio (1AA)",
-     "Residencial (T1) — con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades MUY CÁLIDAS - Zonas Bioambientales Ia y Ib - Norma IRAM 11603:2012.",
-     "Residencial (T1) — con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades CÁLIDAS - Zonas Bioambientales IIa y IIb - Norma IRAM 11603:2012.",
-     "Residencial (T1) — con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012.: Residencial urbano con subsidio, Localidades TEMPLADAS CÁLIDAS - Zonas Bioambientales IIIa y IIIb - Norma IRAM 11603:2012."
+     "Residencial (T1) — sin subsidio: Residencial urbano sin subsidio (1AA)"
     ]
    },
    "desactualizado": false
@@ -34920,7 +32773,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf (2026-10, 5 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
@@ -35177,111 +33030,6 @@
     ]
    },
    "simulador_ocr": null,
-   "simulador_subsidio": {
-    "periodo": "bimestre",
-    "criterio": "T1 Residencial, clientes con subsidio",
-    "categorias": [
-     {
-      "nombre": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
-      "hasta": 300,
-      "fijo": 4383.42,
-      "escalones": [
-       [
-        null,
-        110.098
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
-      "hasta": 650,
-      "fijo": 17832.72,
-      "escalones": [
-       [
-        null,
-        78.244
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
-      "hasta": 800,
-      "fijo": 31742.24,
-      "escalones": [
-       [
-        null,
-        78.274
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
-      "hasta": 900,
-      "fijo": 42798.53,
-      "escalones": [
-       [
-        null,
-        78.324
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
-      "hasta": 1000,
-      "fijo": 65981.06,
-      "escalones": [
-       [
-        null,
-        78.374
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
-      "hasta": 1200,
-      "fijo": 69190.95,
-      "escalones": [
-       [
-        null,
-        78.404
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
-      "hasta": 1400,
-      "fijo": 90946.87,
-      "escalones": [
-       [
-        null,
-        78.634
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
-      "hasta": 2800,
-      "fijo": 115912.68,
-      "escalones": [
-       [
-        null,
-        79.004
-       ]
-      ]
-     },
-     {
-      "nombre": "T1 R2 Consumo Bimestral mayor 2800 kWh",
-      "hasta": null,
-      "fijo": 152469.76,
-      "escalones": [
-       [
-        null,
-        79.254
-       ]
-      ]
-     }
-    ]
-   },
    "normalizado": {
     "filas": [
      {
@@ -35463,186 +33211,6 @@
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
       "valor": 174.328
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 300 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 4383.42
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "hasta 300 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 110.098
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 300 y hasta 650 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 17832.72
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 300 y hasta 650 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.244
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 650 y hasta 800 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 31742.24
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 650 y hasta 800 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.274
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 800 y hasta 900 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 42798.53
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 800 y hasta 900 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.324
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 900 y hasta 1000 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 65981.06
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 900 y hasta 1000 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.374
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1000 y hasta 1200 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 69190.95
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1000 y hasta 1200 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.404
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1200 y hasta 1400 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 90946.87
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1200 y hasta 1400 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 78.634
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1400 y hasta 2800 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 115912.68
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "",
-      "condicion": "más de 1400 y hasta 2800 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 79.004
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1 R2 Consumo Bimestral mayor 2800 kWh",
-      "condicion": "más de 2800 kWh/bim",
-      "tension": null,
-      "concepto": "Cargo fijo",
-      "tramo": "",
-      "unidad": "$/bim",
-      "valor": 152469.76
-     },
-     {
-      "seccion": "Residencial (T1) — con subsidio",
-      "categoria": "T1 R2 Consumo Bimestral mayor 2800 kWh",
-      "condicion": "más de 2800 kWh/bim",
-      "tension": null,
-      "concepto": "Energía",
-      "tramo": "todo el consumo",
-      "unidad": "$/kWh",
-      "valor": 79.254
      },
      {
       "seccion": "Medianas y grandes demandas (T2 y T3)",
@@ -35868,8 +33436,6 @@
     "notas": [
      "Residencial (T1) — sin subsidio: T1 Residencial",
      "Residencial (T1) — sin subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
-     "Residencial (T1) — con subsidio: T1 Residencial, clientes con subsidio",
-     "Residencial (T1) — con subsidio: el cuadro factura por bimestre; los límites de consumo son por bimestre.",
      "Medianas y grandes demandas (T2 y T3): Límites de potencia del cuadro EDESE; el cuadro no tiene cargo fijo en T2/T3"
     ]
    },
@@ -36831,7 +34397,7 @@
     "extra: OK https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t (2026-10, 14 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.dpe.com.ar/usuarios/cuadro_tarifario/",
@@ -36914,7 +34480,6 @@
    },
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": {
     "filas": [
      {
@@ -38519,7 +36084,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0= (2026-09, 59 tablas)"
    ],
-   "verificado": "2026-11-04T20:28:04+00:00",
+   "verificado": "2026-11-05T12:57:05+00:00",
    "oficiales": {
     "links": [
      "https://www.edetsa.com/info/pwa/institucional/costos-del-servicio",
@@ -38533,15 +36098,33 @@
    "ocr": true,
    "periodo_documento": "2026-09",
    "archivo_nacional": {
-    "periodo": "2026-05",
-    "titulo": "Cuadro Tarifario del 05-2026",
-    "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_05_EDET.pdf",
+    "periodo": "2026-02",
+    "titulo": "Cuadro Tarifario del 02-2026",
+    "url": "http://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDESE/2026_02_EDESE.pdf",
     "pagina": "https://www.argentina.gob.ar/economia/energia/energia-electrica/estadisticas/cuadros-tarifarios-edet",
     "no_disponibles": [
      {
       "periodo": "2026-06",
       "titulo": "Cuadro Tarifario del 06-2026",
       "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_06_EDET.pdf",
+      "error": "ConnectionError"
+     },
+     {
+      "periodo": "2026-05",
+      "titulo": "Cuadro Tarifario del 05-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_05_EDET.pdf",
+      "error": "ConnectionError"
+     },
+     {
+      "periodo": "2026-04",
+      "titulo": "Cuadro Tarifario del 04-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_04_EDET.pdf",
+      "error": "ConnectionError"
+     },
+     {
+      "periodo": "2026-03",
+      "titulo": "Cuadro Tarifario del 03-2026",
+      "url": "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/EDET/2026_03_EDET.pdf",
       "error": "ConnectionError"
      }
     ],
@@ -38555,7 +36138,6 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "simulador_subsidio": null,
    "normalizado": null,
    "desactualizado": false
   }
