@@ -137,3 +137,36 @@ def test_edelar_con_subsidio_por_zona():
     assert z["I"][0]["escalones"] == [[150, 75.676], [200, 150.4463]]
     assert z["I"][2]["escalones"][-1] == [None, 158.2839]
     assert z["II"][2]["escalones"][-1] == [None, 168.1767]
+
+
+def _txt(name):
+    return (Path(__file__).resolve().parents[1] / "site/data/textos" / f"{name}.txt").read_text()
+
+
+def test_emsa_sin_subsidio():
+    from parsers import PARSERS
+    from simulador import BUILDERS
+    cats = BUILDERS["emsa"](PARSERS["emsa"](_txt("emsa"))["tablas"])["categorias"]
+    assert [c["hasta"] for c in cats] == [500, 700, 1400, None]
+    assert cats[0]["fijo"] == 2309.1 and cats[0]["escalones"][0] == [30, 272.997]
+    assert cats[0]["escalones"][-1] == [500, 278.926]
+    assert cats[-1]["escalones"][-1] == [None, 283.132]
+
+
+def test_spse_sin_subsidio():
+    from parsers import PARSERS
+    from simulador import BUILDERS
+    cats = BUILDERS["spse"](PARSERS["spse"](_txt("spse"))["tablas"])["categorias"]
+    assert cats[0] == {"nombre": "Tramo primero", "hasta": 100, "fijo": 16000.0, "escalones": [[None, 127.659]]}
+    assert cats[-1]["hasta"] is None and len(cats) == 5
+
+
+def test_ecsapem_no_subsidiado():
+    import pytest
+    from parsers import PARSERS
+    from simulador import BUILDERS
+    t = (Path(__file__).parent / "fixtures/ecsapem_no_subsidiado.txt").read_text()
+    c = BUILDERS["ecsapem"](PARSERS["ecsapem"](t)["tablas"])["categorias"]
+    assert c == [{"nombre": "T1-R", "hasta": None, "fijo": 29631.97, "escalones": [[None, 159.3583]]}]
+    with pytest.raises(ValueError):  # the subsidised cuadro has no 'todo consumo' rows
+        BUILDERS["ecsapem"](PARSERS["ecsapem"](t.replace("NO BONIFICADO todo consumo", "BONIFICADO consumos base"))["tablas"])

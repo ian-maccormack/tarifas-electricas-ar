@@ -9,7 +9,7 @@ import traceback
 
 from common import document_text, fetch
 from parsers import PARSERS
-from simulador import build as build_sim, build_demanda, build_ocr, build_subsidio
+from simulador import build as build_sim, build_demanda, build_ocr
 from normalizado import normalizar
 import re
 
@@ -404,7 +404,7 @@ def mark_staleness(e):
     e["simulador"] = build_sim(e)
     e["demanda"] = build_demanda(e)
     e["simulador_ocr"] = build_ocr(e)
-    e["simulador_subsidio"] = build_subsidio(e)
+    e.pop("simulador_subsidio", None)
     e["normalizado"] = normalizar(e)
     e["desactualizado"] = bool(ym) and (now.year * 12 + now.month) - (ym[0] * 12 + ym[1]) > STALE_MONTHS
     return e

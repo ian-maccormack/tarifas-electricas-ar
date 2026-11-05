@@ -91,7 +91,6 @@
       <li>Algunos cuadros, además, cobran el kWh a precios distintos dentro de una categoría: los primeros kWh a un precio y el <b>excedente</b> a otro. A eso le llamamos <b>escalones</b> o tramos.</li>
       <li><b>Mensual o bimestral:</b> algunas distribuidoras leen el medidor todos los meses y otras cada dos meses; el cuadro lo refleja en sus unidades ($/mes o $/bim, kWh/mes o kWh/bim). Que el consumo se mida por bimestre no siempre significa que se pague una vez cada dos meses: <a href="https://www.edemsa.com/informacion-comercial/" target="_blank" rel="noopener">EDEMSA</a> y <a href="https://www.edeste.com.ar/preguntasfrecuentes.html" target="_blank" rel="noopener">EDESTE</a> dividen la factura en dos vencimientos de la mitad cada uno, y <a href="https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/" target="_blank" rel="noopener">Naturgy San Juan (ESJ)</a> emite dos facturas mensuales (cuota 1 y cuota 2). En el resto de las bimestrales no encontramos esa información en una fuente oficial, así que el sitio solo indica que el cuadro es bimestral. EDENOR y EDESUR pasaron a medir todos los meses (<a href="https://www.argentina.gob.ar/noticias/modificacion-en-la-frecuencia-de-medicion-del-consumo-de-energia-electrica" target="_blank" rel="noopener">Resolución ENRE 730/2025</a>).</li>
       <li>El simulador y la opción "Expresar en $/mes" de la Comparación convierten los cuadros bimestrales a una <b>equivalencia mensual</b> (consumo × 2 para buscar la categoría, total ÷ 2). Los valores originales del cuadro no se modifican.</li>
-      <li><b>Zona bioambiental:</b> algunos cuadros publican precios con subsidio distintos según la zona climática del usuario. EPE (Santa Fe) los separa por zonas bioambientales de la Norma IRAM 11603:2012 (muy cálidas, cálidas y templadas cálidas) y EDELAR (La Rioja) en zona muy cálida, cálida y resto. En el simulador y la Comparación, con la opción "con subsidio", se elige la zona; sin zona elegida esas distribuidoras se muestran sin subsidio.</li>
     </ul>
 
 
@@ -135,13 +134,12 @@
       porque cada una define sus categorías con límites distintos. Los valores se muestran tal como figuran en el cuadro ($/mes o $/bim), salvo que actives la conversión.
       Para el costo total de un consumo usá el <a href="#" onclick="show('sim');return false">Simulador</a>.</p>
     <div class="filters">
-      <label class="kwh">Tarifa <select id="c-tarifa"><option value="res">Residencial (T1) sin subsidio</option><option value="sub">Residencial (T1) con subsidio</option><option value="dem">Medianas y grandes demandas (T2 y T3)</option></select></label>
+      <label class="kwh">Tarifa <select id="c-tarifa"><option value="res">Residencial (T1) sin subsidio</option><option value="dem">Medianas y grandes demandas (T2 y T3)</option></select></label>
       <span id="c-res-crit"><label class="kwh">Criterio <select id="c-crit"><option value="primero">Primer escalón de cada cuadro</option><option value="kwh">A un consumo de…</option></select></label>
         <label class="kwh" id="c-kwh-l" hidden><input type="number" id="c-kwh" min="0" step="10" value="250"> kWh/mes</label></span>
       <span id="c-dem-crit" hidden><label class="kwh">Potencia <input type="number" id="c-kw" min="0" step="1" value="30"> kW</label>
         <label class="kwh">Tensión <select id="c-ten"><option value="BT">Baja (BT)</option><option value="MT">Media (MT)</option><option value="AT">Alta (AT)</option></select></label></span>
       <label class="chk" id="c-mes-l" title="Divide por 2 los cargos fijos de los cuadros bimestrales"><input type="checkbox" id="c-mes"> Expresar cargos fijos bimestrales en $/mes</label>
-      <label class="chk" id="c-zona-l" title="Algunos cuadros (EPE, EDELAR) publican precios con subsidio distintos según la zona bioambiental (Norma IRAM 11603). Sin zona elegida, esas distribuidoras se muestran sin subsidio" hidden>Zona bioambiental <select id="c-zona"><option value="">Elegir zona</option><option value="I">Muy cálida (Ia–Ib)</option><option value="II">Cálida (IIa–IIb)</option><option value="III">Templada cálida (IIIa–IIIb) o resto</option></select></label>
     </div>
     <div class="filters">
       <select id="c-prov"><option value="">Todas las provincias</option></select>
@@ -179,10 +177,7 @@
       <input type="range" id="s-range" min="0" max="1000" step="10" value="250" aria-label="Consumo en kWh por mes">
     </div>
     <div class="filters"><label class="chk"><input type="checkbox" id="s-all"> Mostrar también las que no tienen resultado</label>
-      <label class="chk" title="Valores leídos por OCR de documentos escaneados: pueden tener errores de lectura"><input type="checkbox" id="s-ocr"> Incluir valores leídos por OCR</label>
-      <label class="chk" title="Usuario inscripto en el régimen de subsidios. Solo para cuadros que publican los cargos con subsidio y sus topes de consumo"><input type="checkbox" id="s-sub"> Con subsidio</label>
-      <label class="chk" id="s-mes-l" title="Algunos cuadros (EDENOR, EDESUR) cambian el consumo subsidiado según el mes" hidden>Mes del subsidio <select id="s-mes"></select></label>
-      <label class="chk" id="s-zona-l" title="Algunos cuadros (EPE, EDELAR) publican precios con subsidio distintos según la zona bioambiental (Norma IRAM 11603). Sin zona elegida, esas distribuidoras se muestran sin subsidio" hidden>Zona bioambiental <select id="s-zona"><option value="">Elegir zona</option><option value="I">Muy cálida (Ia–Ib)</option><option value="II">Cálida (IIa–IIb)</option><option value="III">Templada cálida (IIIa–IIIb) o resto</option></select></label></div>
+      <label class="chk" title="Valores leídos por OCR de documentos escaneados: pueden tener errores de lectura"><input type="checkbox" id="s-ocr"> Incluir valores leídos por OCR</label></div>
     <div id="s-summary" class="summary"></div>
     <div class="simgrid">
       <div id="s-list"></div>
@@ -231,6 +226,6 @@
   </section>
 </main>
 <footer><div class="hwrap"><div><img src="img/venergy-blanco.png" alt="Venergy" width="53" height="28"><p>Datos tomados de documentos oficiales enlazados en cada ficha. Si un valor no se pudo verificar, queda vacío. Este sitio no es oficial.</p></div><div><a href="#metodologia" data-view="about">Metodología</a> · <a href="#contacto" data-view="contact">Solicitar asesoría</a><p id="generado-f"></p></div></div></footer>
-<script src="app.js?v=z1793825074"></script>
+<script src="app.js?v=ns1793883364"></script>
 </body>
 </html>

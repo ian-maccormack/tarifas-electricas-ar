@@ -393,6 +393,22 @@ def emsa_boletin():
     return {"url": urljoin(EMSA_PAGE, best[1]), "titulo": best[2], "pagina": EMSA_PAGE}
 
 
+ECSAPEM_PAGE = "https://www.ecsapem.com.ar/organization/rates"
+
+
+def ecsapem_rates():
+    """EC SAPEM's rates page is rendered client-side from its CMS API; the newest 'No subsidiado' cuadro
+    (period, then publication date) is used."""
+    api = "https://www.ecsapem.com.ar/api/cms/rates?sort[0]=endYear:desc&sort[1]=endMonth:desc&pagination[pageSize]=30"
+    items = [r["attributes"] for r in fetch(api, timeout=40).json()["data"]]
+    items = [a for a in items if (a.get("type") or "").lower() == "no subsidiado" and (a.get("file") or {}).get("data")]
+    if not items:
+        raise LookupError("EC SAPEM: sin cuadros 'No subsidiado' en la API")
+    a = max(items, key=lambda a: (a["startYear"], a["startMonth"], a.get("publishedAt") or a["createdAt"]))
+    f = a["file"]["data"]["attributes"]
+    return {"url": urljoin(ECSAPEM_PAGE, f["url"]), "titulo": f["name"],
+            "pagina": ECSAPEM_PAGE, "publicado": a["createdAt"][:10]}
+
 DPEC_PAGE = "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
 
 
@@ -466,8 +482,8 @@ src("eden", "EDEN", "Empresa Distribuidora de Energía Norte S.A.", "Buenos Aire
     nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
     extra=[(page_latest("https://www.edensa.com.ar/cuadro-tarifario/", r"/uploads/.*[Cc]uadro.*\.pdf$"), ORIGEN_DIST)])
 src("ecsapem", "EC SAPEM", "Energía Catamarca S.A.P.E.M.", "Catamarca",
-    page_latest("https://www.ecsapem.com.ar/", r"/uploads/.*cuadro.*\.pdf$"), se="ecsapem",
-    known="https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_SUBSIDIADO_Res_DP_301_26_34088daf9f.pdf")
+    ecsapem_rates, se="ecsapem",
+    known="https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_NO_SUBSIDIADO_Res_DP_341_26_6645b45857.pdf")
 src("secheep", "SECHEEP", "Servicios Energéticos del Chaco Empresa del Estado Provincial", "Chaco",
     page_latest("https://www.secheep.gob.ar/cuadros-tarifarios.html", r"Anexo-I.*Cuadro.*\.pdf$",
                 exclude_re=r"Anexo-II-|credito|Mayorista|social|alumbrado"),

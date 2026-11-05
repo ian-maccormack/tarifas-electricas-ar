@@ -354,6 +354,67 @@ def epec(tablas):
     return _epec(tablas, "Sin")
 
 
+@builder("emsa")
+def emsa(tablas):
+    """Misiones: Cuadro N° 654 (Anexo I, without subsidy). The monthly consumption sets the category
+    ('hasta N kwh-mes') and energy is billed in its cumulative blocks; the cuota de servicio carries no
+    unit in the cuadro and is taken as $/mes, like the kwh-mes categories."""
+    t = next(t for t in tablas if re.search(r"N. ?654", t["titulo"]))
+    cats = []
+    for g in dict.fromkeys(f["grupo"] for f in t["filas"] if f.get("grupo")):
+        if not g.startswith("RESIDENCIAL"):
+            continue
+        rows = [f for f in t["filas"] if f.get("grupo") == g]
+        hasta, esc, acc = _limit(g), [], 0
+        for f in rows:
+            m = re.fullmatch(r"(Primeros|Siguientes|Excedente de) (\d+) kWh", f["concepto"])
+            if not m:
+                continue
+            if m.group(1) == "Excedente de":
+                if int(m.group(2)) != acc:
+                    raise ValueError("EMSA: el excedente no coincide con los tramos")
+                esc.append([None, _val(f)])
+            else:
+                acc += int(m.group(2))
+                esc.append([acc, _val(f)])
+        if not esc or (hasta is not None and acc != hasta) or (hasta is None and esc[-1][0] is not None):
+            raise ValueError(f"EMSA: tramos incompletos en {g}")
+        cats.append({"nombre": g, "hasta": hasta, "fijo": _val(_row(rows, r"^Cuota de servicio$")), "escalones": esc})
+    return {"periodo": "mes", "criterio": "Categoría 1 Residencial, Cuadro N° 654 (sin subsidio)", "categorias": cats}
+
+
+@builder("spse")
+def spse(tablas):
+    """Santa Cruz: 'Residenciales sin subsidio'. The monthly consumption sets the tramo; each tramo has its
+    own cargo fijo ($/mes) and valor del tramo ($/kWh), applied to the whole consumption."""
+    t = next(t for t in tablas if t["titulo"].startswith("RESIDENCIALES SIN SUBSIDIO"))
+    cats, prev = [], -1
+    for f in t["filas"]:
+        m = re.fullmatch(r"Tramo \w+: (\d+) a (\d+) kWh", f["concepto"])
+        if not m or int(m.group(1)) != prev + 1 or f.get("columnas") != ["Cargo Fijo ($)", "Valor del tramo ($)"]:
+            raise ValueError(f"SPSE: tramo no reconocido: {f['concepto']}")
+        prev = int(m.group(2))
+        cats.append({"nombre": f["concepto"].split(":")[0], "hasta": None if prev >= 99999 else prev,
+                     "fijo": _val(f, 0), "escalones": [[None, _val(f, 1)]]})
+    if not cats or cats[-1]["hasta"] is not None:
+        raise ValueError("SPSE: falta el último tramo")
+    return {"periodo": "mes", "criterio": "Residenciales sin subsidio (cargo fijo y valor del tramo según el consumo)",
+            "categorias": cats}
+
+
+@builder("ecsapem")
+def ecsapem(tablas):
+    """Catamarca: 'NO SUBSIDIADO' cuadro: one residential cargo fijo ($/MES) and one price for all the
+    consumption (TOTAL column = VAD + MEM)."""
+    rows = tablas[0]["filas"]
+    fijo = _row(rows, r"^Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo")
+    var = _row(rows, r"^Cargo Variable por todo Consumo de Energ.a RESIDENCIAL NO BONIFICADO")
+    if not fijo or not var or fijo["unidad"] != "$/MES" or not var["unidad"].startswith("$/KWh"):
+        raise ValueError("EC SAPEM: no es el cuadro no subsidiado")
+    return {"periodo": "mes", "criterio": "T1-R no bonificado (cuadro NO SUBSIDIADO), columna TOTAL",
+            "categorias": [{"nombre": "T1-R", "hasta": None, "fijo": _val(fijo, 2), "escalones": [[None, _val(var, 2)]]}]}
+
+
 def build(entry):
     fn = BUILDERS.get(entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
