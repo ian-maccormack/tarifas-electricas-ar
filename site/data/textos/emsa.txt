@@ -40,7 +40,7 @@ AÑO LXIX Nº 16681           POSADAS, JUEVES 24 DE SEPTIEMBRE DE 2026          
                Ministro de Educación,
                  Ciencia y Tecnología
            Sr. JOSÉ MARTÍN SCHUAP
-           Secretario de Estado de Cultura      Decreto Completo N°: 982........................... Pág. 2 a 4.
+           Secretario de Estado de Cultura      Decreto Completo N°: 982. ......................... Pág. 2 a 4.
       Sr. ALDO FACUNDO STEINHORST
                  Ministro de Deportes           Decretos Sintetizados N°s.:
        Dr. HÉCTOR JAVIER GONZÁLEZ               986, 987, 989 y 991....................................... Pág. 4 y 5.
@@ -52,7 +52,7 @@ AÑO LXIX Nº 16681           POSADAS, JUEVES 24 DE SEPTIEMBRE DE 2026          
                 Ministro de Hacienda,           Sociedades:................................................... Pág. 18 a 22.
         Finanzas, Obras y Servicios Públicos
        Sr. FEDERICO RAÚL FACHINELO              Edictos:......................................................... Pág. 22 a 28.
-                 Ministro de Industria          Convocatorias:.............................................. Pág. 29 y 30.
+                 Ministro de Industria          Convocatorias:. ............................................ Pág. 29 y 30.
      Arq. MARTÍN ANTONIO RECAMAN
                 Ministro de Ecología y
            Recursos Naturales Renovables
@@ -458,11 +458,10 @@ Cooperativas de Electricidad de la Provincia de Misiones. Publíquese en el Bole
                        700 kwh-mes       Siguientes              200 KWH                        279,984
                                          Siguientes              150 KWH                        279,984
                                          Siguientes              150 KWH                        279,984
+
+
+
     Categoría 1
-
-
-
-
                                           Primeros                30 KWH                        275,593
                                           Siguientes              90 KWH                        275,593
                                           Siguientes              80 KWH                        280,080    2.640,9
@@ -527,11 +526,10 @@ Cooperativas de Electricidad de la Provincia de Misiones. Publíquese en el Bole
                                           Energía                                                   292,587     11.825,9
                       RESIDENCIAL         Primeros              30 KWH                              203,474     2.309,1
                        JUBILADOS Y        Siguientes          90 KWH                                203,474     2.309,1
+
+
+
     Categoría 5
-
-
-
-
                       PENSIONADOS         Siguientes          80 KWH                                208,896     2.309,1
                         (LEY 2620)        Siguientes         200 KWH                                275,921     2.309,1
                                           Siguientes         100 KWH                                279,984     2.309,1
@@ -718,11 +716,11 @@ TARIFA         DEL                                          DE                  
                           MEDIA TENSIÓN               Cargo por Energía
                         Suministro en 13,2 KV         Energía en horas Pico                         51,73520     47.010,4
                            Menor a 300KW              Energía en horas Resto                        50,27843
+
+
+
+
     TARIFAS DE PEAJE
-
-
-
-
                                                       Energía en horas Valle                        47,65309
                                                       Cargo de Potencia                             3741,18
                           MEDIA TENSIÓN               Cargo por Energía
@@ -773,11 +771,10 @@ TARIFA         DEL                                          DE                  
                          hasta 700 kwh-mes   Siguientes 100 KWH                   106,923
                                              Siguientes 250 KWh                   208,287
                                              Siguientes 150 KWH                   279,984
+
+
+
      Categoría 1
-
-
-
-
                                              Primeros 30 KWH                      103,445
                                              Siguientes 90 KWH                    103,445
                                              Siguientes 80 KWH                    107,936       2640,9
@@ -797,11 +794,10 @@ TARIFA         DEL                                          DE                  
                                             Excedente 1400 KWH                    283,132
                           RESIDENCIAL        Primeros 30 KWH                       66,862       2309,1
                            JUBILADOS Y       Siguientes 90 KWH                     66,862       2309,1
+
+
+
      Categoría 5
-
-
-
-
                           PENSIONADOS        Siguientes 80 KWH                     71,926       2309,1
                             (LEY 2620)       Siguientes 100 KWH                    74,013       2309,1
                                              Siguientes 250 KWh                   208,287       2309,1
@@ -829,22 +825,22 @@ TARIFA         DEL                                          DE                  
                                                         Primeros            120 KWH               177,868
                                       RESIDENCIAL
                                                         Siguientes           80 KWH               181,204    2309,1
+
+
+
+
    Clubes de Barrio y de Pueblo
-
-
-
-
                                     hasta 500 kwh-mes
-    Entidades de Bien Público
-
-
-
-
                                                         Excedente de         200 KWH              183,797
                                                         Primeros            120 KWH               179,514
                                       RESIDENCIAL
                                     hasta 700 kwh-mes   Siguientes           80 KWH               183,937    2309,1
                                                         Excedente de         200 KWH              184,855
+
+
+
+
+    Entidades de Bien Público
                                                         Primeros            120 KWH               180,464
                                      RESIDENCIAL
                                    hasta 1400 kwh-mes   Siguientes           80 KWH               184,951    2640,9
@@ -882,11 +878,10 @@ TARIFA         DEL                                          DE                  
                      hasta 700 kwh-mes
                                           Siguientes        350 KWH              208,287
                                           Siguientes        150 KWH              279,984
+
+
+
      Categoría 1
-
-
-
-
                                           Primeros           30 KWH              202,266
                                           Siguientes         90 KWH              202,266
                        RESIDENCIAL        Siguientes         80 KWH              206,757       2640,9
@@ -904,11 +899,10 @@ TARIFA         DEL                                          DE                  
                                          Excedente de 1400 KWH                   283,132
                        RESIDENCIAL        Primeros            30 KWH             165,683       2309,1
                        JUBILADOS Y        Siguientes          90 KWH             165,683       2309,1
+
+
+
      Categoría 5
-
-
-
-
                       PENSIONADOS         Siguientes          30 KWH             170,747       2309,1
                                           Siguientes          50 KWH             170,747       2309,1
                                           Siguientes         350 KWH             208,287       2309,1
@@ -937,22 +931,22 @@ TARIFA         DEL                                          DE                  
                                                         Primeros            120 KWH               272,997
                                       RESIDENCIAL
                                                         Siguientes           80 KWH               276,333    2309,1
+
+
+
+
    Clubes de Barrio y de Pueblo
-
-
-
-
                                     hasta 500 kwh-mes
-    Entidades de Bien Público
-
-
-
-
                                                         Excedente de         200 KWH              278,926
                                                         Primeros            120 KWH               274,643
                                       RESIDENCIAL
                                     hasta 700 kwh-mes   Siguientes           80 KWH               279,066    2309,1
                                                         Excedente de         200 KWH              279,984
+
+
+
+
+    Entidades de Bien Público
                                                         Primeros            120 KWH               275,593
                                      RESIDENCIAL
                                    hasta 1400 kwh-mes   Siguientes           80 KWH               280,080    2640,9
