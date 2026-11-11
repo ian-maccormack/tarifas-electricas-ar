@@ -19,19 +19,18 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
+    # Debian image: the runners' Ubuntu apt mirrors stopped resolving (Nov 2026); deb.debian.org is separate.
+    container: python:3.12-bookworm
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
       - name: Instalar poppler y tesseract
         timeout-minutes: 12
         run: |
           for i in 1 2 3; do
-            timeout 180 sudo apt-get update && timeout 300 sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-spa && exit 0
+            timeout 180 apt-get update && timeout 300 apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-spa libgl1 libglib2.0-0 && exit 0
             sleep 30
           done
           exit 1
@@ -40,6 +39,7 @@ jobs:
       - run: python scraper/run.py
       - name: Commit data
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add site/data
