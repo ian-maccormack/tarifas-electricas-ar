@@ -28,7 +28,7 @@ function tableHTML(t) {
 
 function normHTML(e) {
   const n = e.normalizado, d = e.documento;
-  let h = `<div class="tbl norm"><h4>Cuadro normalizado</h4><p class="note">Misma estructura para todas las distribuidoras: los valores salen de las filas del documento oficial${d ? ` (<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo || "documento")}</a>)` : ""} que usa el simulador. Lo que el cuadro no trae queda vacío.</p>`;
+  let h = `<div class="tbl norm"><h4>Cuadro normalizado</h4><p class="note">Misma estructura para todas las distribuidoras: los valores salen de las filas del documento oficial${d ? ` (<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo || "documento")}</a>)` : ""} que usa el simulador. Lo que el cuadro no trae queda vacío.${e.ocr ? " Las secciones «Transcripción por OCR» salen del escaneo: no entran al simulador y valen solo como referencia del documento." : ""}</p>`;
   h += `<div class="tablewrap"><table><thead><tr><th>Concepto</th><th>Tramo / franja</th><th>Unidad</th><th>Valor</th></tr></thead><tbody>`;
   let sec = null, cat = null;
   for (const f of n.filas) {

@@ -7189,7 +7189,453 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Transcripción por OCR — T5 - Servicio de peaje grandes demandas",
+      "categoria": "Suministros > 300kw de demanda (usuarios finales)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 14544.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T5 - Servicio de peaje grandes demandas",
+      "categoria": "Usuarios finales suministros > 300kw de demanda",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo variable por energía demandada en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 16.3471
+     },
+     {
+      "seccion": "Transcripción por OCR — T5 - Servicio de peaje grandes demandas",
+      "categoria": "Usuarios finales suministros > 300kw de demanda",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo variable por energía demandada en resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 16.1934
+     },
+     {
+      "seccion": "Transcripción por OCR — T5 - Servicio de peaje grandes demandas",
+      "categoria": "Usuarios finales suministros > 300kw de demanda",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo variable por energía demandada en valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 16.1682
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Suministros en media tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Suminist Ita tensió",
+      "unidad": "",
+      "tramo": "",
+      "valor": 29.8352
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa T1R",
+      "unidad": "",
+      "tramo": "",
+      "valor": 5509.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa TIRE",
+      "unidad": "",
+      "tramo": "",
+      "valor": 8257.11
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa T1G BC y AC",
+      "unidad": "",
+      "tramo": "",
+      "valor": 32513.27
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 1AP",
+      "unidad": "",
+      "tramo": "",
+      "valor": 32513.27
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 2",
+      "unidad": "",
+      "tramo": "",
+      "valor": 79916.78
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "arta 3",
+      "unidad": "",
+      "tramo": "",
+      "valor": 99891.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T6 - Servicio de peaje mediana demanda",
+      "categoria": "Para servicio interrumpido por falta de pago",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 4",
+      "unidad": "",
+      "tramo": "",
+      "valor": 32513.27
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa T1R",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa TIRE",
+      "unidad": "",
+      "tramo": "",
+      "valor": 126228.71
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa T1R",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa T1G BC",
+      "unidad": "",
+      "tramo": "",
+      "valor": 160559.95
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa T1R",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa T1G AC",
+      "unidad": "",
+      "tramo": "",
+      "valor": 160559.95
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Pequeñas in situ",
+      "unidad": "",
+      "tramo": "Monofásicas",
+      "valor": 6714.19
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Pequeñas in situ",
+      "unidad": "",
+      "tramo": "Trifásicas",
+      "valor": 10070.52
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Pequeñas en Laboratorio",
+      "unidad": "",
+      "tramo": "Monofásicas",
+      "valor": 8392.86
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Pequeñas en Laboratorio",
+      "unidad": "",
+      "tramo": "Trifásicas",
+      "valor": 15106.54
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "edianas y grandes demandas in situ",
+      "unidad": "",
+      "tramo": "",
+      "valor": 37299.56
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2",
+      "categoria": "Cargos por contraste de medidores de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Medianas y grandes demandas en Laboratorio",
+      "unidad": "",
+      "tramo": "",
+      "valor": 50355.12
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa de inyección para Usuarios-Generadores",
+      "categoria": "TIR y TIRE: Residencial y residencial estacional",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía N1",
+      "unidad": "",
+      "tramo": "",
+      "valor": 125.6167
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa de inyección para Usuarios-Generadores",
+      "categoria": "TIR y TIRE: Residencial y residencial estacional",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía N2 (hasta 300 kwh/mes para beneficiarios del SEF",
+      "unidad": "",
+      "tramo": "",
+      "valor": 62.5764
+     },
+     {
+      "seccion": "Transcripción por OCR — T1G y T1GE: Servicio general y general estacional",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 134.894
+     },
+     {
+      "seccion": "Transcripción por OCR — T2BT Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 127.4117
+     },
+     {
+      "seccion": "Transcripción por OCR — T2BT Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 124.4589
+     },
+     {
+      "seccion": "Transcripción por OCR — T2MT Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 124.3041
+     },
+     {
+      "seccion": "Transcripción por OCR — T4: Pequeñas demandas rurales",
+      "categoria": "TAR: Residencial",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 112.9618
+     },
+     {
+      "seccion": "Transcripción por OCR — T4NR: No Residencial",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 121.8555
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R: Residencial y residencial estacional",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 62.5764
+     },
+     {
+      "seccion": "Transcripción por OCR — T1G: Servicio general y servicio general estacional",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 62.3311
+     },
+     {
+      "seccion": "Transcripción por OCR — T2BT: Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 58.6992
+     },
+     {
+      "seccion": "Transcripción por OCR — T2BT: Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 56.1367
+     },
+     {
+      "seccion": "Transcripción por OCR — T2MT: Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 57.2675
+     },
+     {
+      "seccion": "Transcripción por OCR — T2MT: Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía fuera de pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 56.1367
+     },
+     {
+      "seccion": "Transcripción por OCR — T3BT: Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 58.6992
+     },
+     {
+      "seccion": "Transcripción por OCR — T3BT: Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 57.5636
+     },
+     {
+      "seccion": "Transcripción por OCR — T3BT: Suministros en baja tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 57.4306
+     },
+     {
+      "seccion": "Transcripción por OCR — T3MT: Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 57.2675
+     },
+     {
+      "seccion": "Transcripción por OCR — T3MT: Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 56.1596
+     },
+     {
+      "seccion": "Transcripción por OCR — T3MT: Suministros en media tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 56.0298
+     },
+     {
+      "seccion": "Transcripción por OCR — T3AT: Suministros en alta tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en pico",
+      "unidad": "",
+      "tramo": "",
+      "valor": 55.0649
+     },
+     {
+      "seccion": "Transcripción por OCR — T3AT: Suministros en alta tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 53.9996
+     },
+     {
+      "seccion": "Transcripción por OCR — T3AT: Suministros en alta tensión",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Precio variable por energía en valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 53.8748
+     }
+    ],
+    "notas": [
+     "Transcripción por OCR: solo se muestran los montos que leyeron igual los dos motores de OCR y cuya columna es segura. Los conceptos sin un monto seguro figuran solo en el cuadro original completo. Los nombres de conceptos salen del OCR y pueden tener errores de tipeo. Ante cualquier duda, vale el documento original."
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -13642,10 +14088,221 @@
       "tramo": "excedente de 300 kWh/mes",
       "unidad": "$/kWh",
       "valor": null
+     },
+     {
+      "seccion": "Transcripción por OCR — Cuadro Tarifario de Aplicación consumos a partir del 05 de septiembre 2026",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. 300 KWh-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable stes, 100 KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. 300 KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4081.33
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable stes. 150 KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 3.0287
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. 300 KWh-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3.0287
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Siguientes 30 Kwh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 58.3811
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Siguientes 50 Kwh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 168.6426
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable KWh-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 194.7514
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 100 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 194.7514
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable 1ros. 250 KWH",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable Exce. 2000 kwh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 193.3261
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable 1ros. 250 KWH",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 192.075
+     },
+     {
+      "seccion": "Transcripción por OCR — Por cada KWh inyectado a la red",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Por cada KWh inyectado a la red",
+      "unidad": "",
+      "tramo": "",
+      "valor": 120.6752
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 150 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable stes. 50 KWh-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 150 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. 300 KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 150 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable stes. 150 KWh-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable stes. 150 KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable exc. 300 KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 171.6302
+     },
+     {
+      "seccion": "Transcripción por OCR — Cargo Variable KWh-mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 194.7514
+     },
+     {
+      "seccion": "Transcripción por OCR — INDUSTRIAL PEQUEÑO 2B",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable Exce. 2000 kwh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 193.3261
+     },
+     {
+      "seccion": "Transcripción por OCR — INDUSTRIAL PEQUEÑO 2B",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Variable KWh-mes",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 192.075
      }
     ],
     "notas": [
-     "Residencial (T1) — sin subsidio (OCR): Residencial sin SEF, columna Total (OCR)"
+     "Residencial (T1) — sin subsidio (OCR): Residencial sin SEF, columna Total (OCR)",
+     "Transcripción por OCR: solo se muestran los montos que leyeron igual los dos motores de OCR y cuya columna es segura. Los conceptos sin un monto seguro figuran solo en el cuadro original completo. Los nombres de conceptos salen del OCR y pueden tener errores de tipeo. Ante cualquier duda, vale el documento original."
     ]
    },
    "desactualizado": false
@@ -23690,7 +24347,3573 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2782.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 107.13
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4956.11
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 178.56
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 9922.64
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 374.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2266.66
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 22952.51
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 785.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 35.82
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 51.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 70.89
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 105.14
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2461.35
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 37664.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1428.43
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 36.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 53.37
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 74.87
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 112.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3062.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 95991.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3499.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 42.77
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 63.43
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 90.22
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 136.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2771.91
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 89.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4923.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 124.99
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 120 kWh/mes y menores o iguales a 220 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 9815.49
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 196.44
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R1-2",
+      "categoria": "Consumos mayores a 220 kWh/mes y menores o iguales a 500 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2266.66
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 22866.81
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 642.79
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 35.82
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 51.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 70.89
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R3",
+      "categoria": "Consumos mayores a 500 kWh/mes y menores o iguales a 700 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 105.14
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2461.35
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 37600.32
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1321.28
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 36.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 53.37
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 74.87
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R4",
+      "categoria": "Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 112.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3062.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 94984.71
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1821.24
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía excedente de 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 162.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 42.77
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 63.43
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siquientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 90.22
+     },
+     {
+      "seccion": "Transcripción por OCR — T1R5",
+      "categoria": "Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 136.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T2AP_ CATEGORÍA ALUMBRADO PÚBLICO",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2AP_ CATEGORÍA ALUMBRADO PÚBLICO",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 39.26
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRC CATEGORÍA COMERCIALES",
+      "categoria": "Consumos menores o iguales a 60 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3334.56
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRC CATEGORÍA COMERCIALES",
+      "categoria": "Consumos menores o iguales a 60 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1607.19
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRC CATEGORÍA COMERCIALES",
+      "categoria": "Consumos menores o iguales a 60 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 107.13
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRC CATEGORÍA COMERCIALES",
+      "categoria": "Consumos menores o iguales a 60 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRC CATEGORÍA COMERCIALES",
+      "categoria": "Consumos menores o iguales a 60 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 48.11
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3334.56
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 17086.0
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 803.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 48.11
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores a 60 kWh/mes y menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 66.45
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3504.01
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 101201.86
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2142.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 51.93
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1C",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 71.18
+     },
+     {
+      "seccion": "Transcripción por OCR — T2C",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 222503.35
+     },
+     {
+      "seccion": "Transcripción por OCR — T2C",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2C",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 43.64
+     },
+     {
+      "seccion": "Transcripción por OCR — T2C",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD mayores a 60 y hasta 4000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 62.91
+     },
+     {
+      "seccion": "Transcripción por OCR — T2C",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 4000 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 51.93
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRII",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4296.6
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRII",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 20111.62
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRII",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1071.31
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRII",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NRII",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 86.81
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR2I",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4515.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR2I",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 115283.12
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR2I",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3571.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR2I",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR2I",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes y menores o iguales a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 88.6
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4505.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 337033.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos mayores a 4000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 4000 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 84.01
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2116.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10529.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 357.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2I",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 55.45
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2223.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 110317.9
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1785.5
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 59.46
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2771.91
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 89.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos menores o iguales a 120 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 4923.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 124.99
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NREBP CATEGORÍA ENTIDADES DE BIEN PUBLICO",
+      "categoria": "TINR1EBP-2 Consumos mayores a 120 kWh/mes y menores o iguales a 220 kKWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1929.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 9815.49
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 196.44
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 24.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 54.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1EBP-2 Consumos mayores a 220 kWh/mes y menores o iguales a 500 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.59
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2266.66
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 22866.81
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 642.79
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 35.82
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 51.29
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siquientes 100 kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": 70.89
+     },
+     {
+      "seccion": "Transcripción por OCR — TINR1EBP-3 Consumos mayores a 500 kWh/mes y menores o iguales a 700 kKWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 105.14
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2461.35
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 37600.32
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1321.28
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 36.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 53.37
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 74.87
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 112.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3062.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 94984.71
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1821.24
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 42.77
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 60 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 63.43
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 100 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 90.22
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1EBP-4 Consumos mayores a 700 kWh/mes y menores o iguales a 1400 kWh/mes",
+      "categoria": "TINR1EBP-5 Consumos mayores a 1400 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 220 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 136.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2116.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10529.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 357.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 55.45
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2223.0
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 110317.9
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1785.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 59.46
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 5329.48
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 18648.66
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 714.19
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR1BV",
+      "categoria": "Consumos menores a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 87.98
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 5601.59
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 202780.81
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 7142.06
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos mayores o iguales a 2000 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD Cooperativa",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 93.81
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 5 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 9935.67
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 17934.48
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 714.19
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 85.91
+     },
+     {
+      "seccion": "Transcripción por OCR — T1INR20OF",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 5 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 9935.67
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 18577.25
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1785.5
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 85.91
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores a 200 kWh/mes y menores a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 18577.25
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1785.5
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 91.79
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 79.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos mayores o iguales a 2000 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 10 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 16602.69
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 25954.68
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 857.04
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.03
+     },
+     {
+      "seccion": "Transcripción por OCR — Consumos menores o iguales a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 10 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 16602.69
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 26618.87
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1964.09
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.03
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 70.39
+     },
+     {
+      "seccion": "Transcripción por OCR — T1NR1-2RU Consumos mayores a 200 kWh/mes",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19552.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 22507.58
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 25902.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 28359.58
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 36611.51
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 33581.33
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50065.64
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 68040.58
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 83034.36
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 100880.86
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1249.85
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 1785.5
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2356.88
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2856.81
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3213.92
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 200 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.03
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos menores o iguales a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19552.76
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 22507.58
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 25902.04
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 28359.58
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 36611.51
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 34116.98
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50387.02
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 68126.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 83141.52
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Potencia transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 100987.98
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 16 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2142.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 25 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2321.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 40 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 2499.72
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3035.38
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador transformador mayor a 63 kVA",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 3392.45
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 83.03
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 2000 kWh",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 70.39
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RU",
+      "categoria": "Consumos mayores a 200 kWh/mes",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo Servicio Rural Optimizado",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 19364.96
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50552.67
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2801.61
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 45.54
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 41.89
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GUBT",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 32.15
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 189407.05
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3501.6
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 48.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 31.88
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 447279.01
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3501.6
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 48.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 31.88
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "saLub/epbuc. Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 189407.05
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3501.6
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 48.17
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GUBT-OP Potencias contratadas mayores o iquales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 31.88
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50552.67
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2594.3
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 41.52
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 38.21
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU13",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 28.93
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 189407.05
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "$/kW",
+      "tramo": "",
+      "valor": 3242.31
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 43.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 39.25
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 28.23
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 447279.01
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "$/kW",
+      "tramo": "",
+      "valor": 3242.31
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 43.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 39.25
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 28.23
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "saLub/eDuc. Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 189407.05
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3242.31
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 43.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 39.25
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU13-OP Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 28.23
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50552.67
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2334.91
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 36.55
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 33.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T2GU33",
+      "categoria": "Potencias contratadas mayores a 50 kW y menores a 300 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 25.28
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 193692.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2918.0
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 17855.13
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "",
+      "tramo": "",
+      "valor": 33.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T3GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 23.46
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 451564.25
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2918.0
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 17855.13
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "",
+      "tramo": "",
+      "valor": 37.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 33.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33",
+      "categoria": "Potencias contratadas mayores o iguales a 3000 kW",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 23.46
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "sarun/enie Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 189407.05
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por potencia",
+      "unidad": "$/kW",
+      "tramo": "",
+      "valor": 2918.0
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD primeros 100 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 37.1
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD siguientes 200 kWh/kW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 33.63
+     },
+     {
+      "seccion": "Transcripción por OCR — T13GU33-0P Potencias contratadas mayores o iguales a 300 kW y menores a 3000 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "VAD excedente de 300 kWh/kwW",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 23.46
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 50552.67
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10713.07
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 170.16
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "182a23hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 30.74
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "23a 5hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 25.9
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "5a18 hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 26.73
+     },
+     {
+      "seccion": "Transcripción por OCR — T2RA",
+      "categoria": "VAD por potencia en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "18a23hs",
+      "unidad": "$/kW",
+      "tramo": "",
+      "valor": 2808.65
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 193692.29
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Fondo Cooperativo Compensador",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 17855.13
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Costo Compra de Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 188.97
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "18a23hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 25.12
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "23a 5hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 19.32
+     },
+     {
+      "seccion": "Transcripción por OCR — T3RA",
+      "categoria": "VAD por energía en:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "5 a18 hs",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 20.68
+     },
+     {
+      "seccion": "Transcripción por OCR — sin título",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "IKW",
+      "unidad": "",
+      "tramo": "",
+      "valor": 3146.88
+     }
+    ],
+    "notas": [
+     "Transcripción por OCR: solo se muestran los montos que leyeron igual los dos motores de OCR y cuya columna es segura. Los conceptos sin un monto seguro figuran solo en el cuadro original completo. Los nombres de conceptos salen del OCR y pueden tener errores de tipeo. Ante cualquier duda, vale el documento original."
+    ]
+   },
    "desactualizado": false
   },
   {
@@ -38449,7 +42672,903 @@
    "simulador": null,
    "demanda": null,
    "simulador_ocr": null,
-   "normalizado": null,
+   "normalizado": {
+    "filas": [
+     {
+      "seccion": "Transcripción por OCR — sin título",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta",
+      "unidad": "",
+      "tramo": "",
+      "valor": 164.35
+     },
+     {
+      "seccion": "Transcripción por OCR — Por consumo de energía:",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 161.19
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión ——",
+      "unidad": "$/kW-mes",
+      "tramo": "Relerencia",
+      "valor": 38109.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión ——",
+      "unidad": "$/kW-mes",
+      "tramo": "Aplicación",
+      "valor": 34336.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Por consumo de energía:",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 160.6
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "eríodo Horas de Punta",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Reslo",
+      "unidad": "",
+      "tramo": "",
+      "valor": 24.34
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "eríodo Horas de Punta",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Vall",
+      "unidad": "",
+      "tramo": "",
+      "valor": 24.25
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R (Pequeñas demandas uso residencial)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C. Enero",
+      "unidad": "",
+      "tramo": "",
+      "valor": 176.77
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R (Pequeñas demandas uso residencial)",
+      "categoria": "caro de Eliencia Energética",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Son",
+      "unidad": "",
+      "tramo": "",
+      "valor": 24.36
+     },
+     {
+      "seccion": "Transcripción por OCR — CUADRO TARIFARIO DE EDET S.A.",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "SAVA",
+      "unidad": "",
+      "tramo": "",
+      "valor": 29.36
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Bonificación portg phi<0,32 por la energía reactiva inuctiva en defecto del 32% de la energía activa",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Baja Tensión",
+      "unidad": "$/kVArh",
+      "tramo": "",
+      "valor": 35.38
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Recarao por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa",
+      "condicion": "",
+      "tension": null,
+      "concepto": "SAVATA",
+      "unidad": "",
+      "tramo": "",
+      "valor": 176.91
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "SAVAI",
+      "unidad": "",
+      "tramo": "",
+      "valor": 158.04
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RC (Pequeñas demandas uso residencial colectiva)",
+      "categoria": "Cargos por Disponibilidad de Red",
+      "condicion": "",
+      "tension": null,
+      "concepto": "(aplicable según consumo promedio de los últimos 12 meses, Incluyendo el actual, y adecuándose al En Baja Tensión.",
+      "unidad": "",
+      "tramo": "Referencia",
+      "valor": 50968.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RC (Pequeñas demandas uso residencial colectiva)",
+      "categoria": "Cargos por Disponibilidad de Red",
+      "condicion": "",
+      "tension": null,
+      "concepto": "(aplicable según consumo promedio de los últimos 12 meses, Incluyendo el actual, y adecuándose al En Baja Tensión.",
+      "unidad": "",
+      "tramo": "Aplicación",
+      "valor": 46776.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "Referencia",
+      "valor": 48939.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "Aplicación",
+      "valor": 45166.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Servicio de suspensión y rehabilitación",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 1R",
+      "unidad": "",
+      "tramo": "",
+      "valor": 15448.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Servicio de suspensión y rehabilitación",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 1RC, 116",
+      "unidad": "",
+      "tramo": "",
+      "valor": 42595.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Servicio de suspensión y rehabilitación",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 2, Tarifa 5",
+      "unidad": "",
+      "tramo": "",
+      "valor": 103152.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por consumo de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 176.91
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Servicio de suspensión y rehabilitación",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Tarifa 4, Tarifa 6",
+      "unidad": "",
+      "tramo": "",
+      "valor": 180542.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por consumo de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 173.39
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por consumo de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta",
+      "unidad": "",
+      "tramo": "",
+      "valor": 158.04
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por consumo de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 154.9
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "importe que corresponda según el cuadro siguiente:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Con. monof. tarifa 1RC, T1G",
+      "unidad": "",
+      "tramo": "",
+      "valor": 98689.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Por consumo de energía",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 154.34
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "importe que corresponda según el cuadro siguiente:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Conexión trifásica tarifa 1 R",
+      "unidad": "",
+      "tramo": "",
+      "valor": 171643.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "importe que corresponda según el cuadro siguiente:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Con. tif. tarifa 1 RF T1GR 12",
+      "unidad": "",
+      "tramo": "",
+      "valor": 399657.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 kW)",
+      "categoria": "Bonificación por tg phi<0,32 por la energía reactiva inductiva en defecto del 32% de la energía activa.",
+      "condicion": "",
+      "tension": null,
+      "concepto": "S/KVA DN",
+      "unidad": "",
+      "tramo": "",
+      "valor": 35.38
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 5 - Peaje (Medianas demandas)",
+      "categoria": "Por capacidad de sum",
+      "condicion": "",
+      "tension": null,
+      "concepto": "LES",
+      "unidad": "",
+      "tramo": "Referencia",
+      "valor": 38831.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 5 - Peaje (Medianas demandas)",
+      "categoria": "Por capacidad de sum",
+      "condicion": "",
+      "tension": null,
+      "concepto": "LES",
+      "unidad": "",
+      "tramo": "Aplicación",
+      "valor": 35107.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 6 (Pequeñas demandas uso general)",
+      "categoria": "Por capacidad de suministro",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo de Eficiencia Energética",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 21.19
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RC (Pequeñas demandas uso residencial colectiva)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía Activa Inyectada",
+      "unidad": "",
+      "tramo": "",
+      "valor": 125.95
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 G y 1 GP (Pequeñas demandas uso general)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía Activa Inyectada",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 135.52
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "Referencia",
+      "valor": 38109.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "Aplicación",
+      "valor": 34336.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2 (Medianas demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía Activa Inyectada",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 135.4
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 GP (Pequeñas demandas uso general con medición de Potencia)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo sin derecho a consumo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 10907.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 GP (Pequeñas demandas uso general con medición de Potencia)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 161.86
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Por consumo de energía:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 23.07
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Por consumo de energía:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 22.62
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Por consumo de energía:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Valle",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 22.54
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2 (Medianas demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo sin derecho a consumo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 54523.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2 (Medianas demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía",
+      "unidad": "",
+      "tramo": "",
+      "valor": 161.73
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "Tala. Potencias iguales O mayores a 300 kW) Cargo por Energía. Acne vereda",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 149.32
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demawmlas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo sin derecho a consumo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 214123.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "Tala. Potencias iguales O mayores a 300 kW) Cargo por Energía. Acne vereda",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": 148.92
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "SAA",
+      "unidad": "",
+      "tramo": "",
+      "valor": 29.36
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta",
+      "unidad": "",
+      "tramo": "",
+      "valor": 141.58
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto",
+      "unidad": "",
+      "tramo": "",
+      "valor": 138.38
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Baja Tensión",
+      "unidad": "",
+      "tramo": "",
+      "valor": 164.35
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "",
+      "tramo": "",
+      "valor": 146.82
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo sin derecho a consumo $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -1596.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 KW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Bonificación Energía - Sin Sub. — S/xWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": -176.77
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R Descuentos Valores Destinados a Inv. Obligatorias de Distribución Tarita 1 RP (Pequeñas demandas uso residencial con medición de Potencia) | Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "Cargos por Disponibilidad de Red",
+      "condicion": "",
+      "tension": null,
+      "concepto": "03 Consumo entre 276 y 500 KWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -3348.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "Ól actual, yadecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C2 Consumo entre 151 y 300 kWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2946.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R Descuentos Valores Destinados a Inv. Obligatorias de Distribución Tarita 1 RP (Pequeñas demandas uso residencial con medición de Potencia) | Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "Cargos por Disponibilidad de Red",
+      "condicion": "",
+      "tension": null,
+      "concepto": "04 Consumo >500 kWh/mes",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": -7004.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "Ól actual, yadecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C3 Consumo entre 301 y 1000 kWh/mes $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 7779.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "VALORES DESTINADOS A INV. OBLIGATORIAS DE DISTRIBUCIÓN",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cd) C4_ Consumo entre 1001 y 1100 kWtvmes $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 18919.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 KW",
+      "categoria": "Tarita 1 RP (Pequeñas demandas uso residencial con medición de Potencia) | rapigz y pp (Pequeñas demandas uso residencial con medición de Potencia) | Tarifa 1 R (Peu. dem. uso residenc.) [tisemeia",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Bonif. Capacidad de suministro — $/kW-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -11612.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R Descuentos Valores Destinados a Inv. Obligatorias de Distribución Tarita 1 RP (Pequeñas demandas uso residencial con medición de Potencia) | Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "Cargos por Disponibilidad de Red",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo Fijo sin derecho a consumo",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": -4908.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 KW",
+      "categoria": "Tarita 1 RP (Pequeñas demandas uso residencial con medición de Potencia) | rapigz y pp (Pequeñas demandas uso residencial con medición de Potencia) | Tarifa 1 R (Peu. dem. uso residenc.) [tisemeia",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Bonificación Energía - Sin Sub. — S/kWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": -153.74
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "Ól actual, yadecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Por capacidad de suministro",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": 2623.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "Recargo por tg phi>0,42 por la energía reactiva inductiva en exceso del 42% de la energía activa.",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Estos precios no incluyen impuestos. C2 Consumo entre 151 y 275 kWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 1173.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "BENEFICIO TARIFA SOCIAL",
+      "condicion": "",
+      "tension": null,
+      "concepto": "00) Por capacidad de suministro",
+      "unidad": "",
+      "tramo": "",
+      "valor": 1446.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2 y Tarifa 5 (Medianas demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Cargo por Energía",
+      "unidad": "$/kWh",
+      "tramo": "",
+      "valor": 21.59
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 y Tarifa 6 (Grandes demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Baja Tensión",
+      "unidad": "",
+      "tramo": "",
+      "valor": 4192.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 y Tarifa 6 (Grandes demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": 3773.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 6 - Peaje (Grandes demandas)",
+      "categoria": "BENEFICIO TARIFA SOCIAL",
+      "condicion": "",
+      "tension": null,
+      "concepto": "ES $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -3299.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RC (Pequeñas demandas uso residencial colectiva)",
+      "categoria": "pe bleatle según consuno promedio de los últimos 12 meses, Incluyendo el pa e sumiso enuncian",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C2 Consumo entre 151 y 300 kWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": 2564.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 R (Peg. ddas. uso res.) COC",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C3 Consumo entre 276 y 500 kWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -40713.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RP Descuentos Valores Destinados a Inv. Obligatorias de Distribución | — actual, y adecuándose al período de facturación correspondiente)",
+      "categoria": "actual, y adecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C4_ Consumo >500 KWh/mes",
+      "unidad": "$/mes",
+      "tramo": "",
+      "valor": 28172.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 kW)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Baja Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -4615.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 kW)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -5645.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RP Descuentos Valores Destinados a Inv. Obligatorias de Distribución | — actual, y adecuándose al período de facturación correspondiente)",
+      "categoria": "Período Horas de Resto",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Valle",
+      "unidad": "",
+      "tramo": "",
+      "valor": -160.6
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "actual, y adecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C2 Cons. entre 151 y 300 kWh/mes $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -2946.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 kW)",
+      "categoria": "Por consumo de energía:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta S/xWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": -61.6
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "actual, y adecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "C4 Cons. entre 1001 y 1100 KWh/mes — $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -18919.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias menores a 300 kW)",
+      "categoria": "Por consumo de energía:",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto S/KWh",
+      "unidad": "",
+      "tramo": "",
+      "valor": -60.05
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 G (Pequeñas demandas uso general)",
+      "categoria": "actual, y adecuándose al período de facturación correspondiente)",
+      "condicion": "",
+      "tension": null,
+      "concepto": "05 Consumo >1100 KWh/mes $/mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -33968.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 GP (Pequeñas demandas uso general con medición de Potencia)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Por capacidad de suministro S/KW-mes",
+      "unidad": "",
+      "tramo": "",
+      "valor": -2623.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 GP (Pequeñas demandas uso general con medición de Potencia) Tarita 4 (Potencias iguales o mayores a 300 kW",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Por capacidad de suministro",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -35077.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 1 RP Descuentos Valores Destinados a Inv. Obligatorias de Distribución | — actual, y adecuándose al período de facturación correspondiente)",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -45166.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 KW.",
+      "categoria": "Por capacidad de suministro equivalente",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Baja Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -4615.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Grandes demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "En Media Tensión",
+      "unidad": "$/kW-mes",
+      "tramo": "",
+      "valor": -3773.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 2 (Medianas demandas)",
+      "categoria": "",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Por capacidad de suministro",
+      "unidad": "",
+      "tramo": "",
+      "valor": -44091.0
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 KW.",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Punta S/n",
+      "unidad": "",
+      "tramo": "",
+      "valor": -55.03
+     },
+     {
+      "seccion": "Transcripción por OCR — Tarifa 4 (Potencias iguales o mayores a 300 KW.",
+      "categoria": "En Media Tensión",
+      "condicion": "",
+      "tension": null,
+      "concepto": "Período Horas de Resto S/n",
+      "unidad": "",
+      "tramo": "",
+      "valor": -53.64
+     }
+    ],
+    "notas": [
+     "Transcripción por OCR: solo se muestran los montos que leyeron igual los dos motores de OCR y cuya columna es segura. Los conceptos sin un monto seguro figuran solo en el cuadro original completo. Los nombres de conceptos salen del OCR y pueden tener errores de tipeo. Ante cualquier duda, vale el documento original."
+    ]
+   },
    "desactualizado": false
   }
  ]

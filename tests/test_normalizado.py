@@ -37,3 +37,24 @@ def test_subsidy_variant_is_not_published_and_demand_rows():
 
 def test_no_structure_gives_none():
     assert normalizar({"tablas": [{"titulo": "x", "filas": []}]}) is None
+
+
+def test_ocr_rows_only_keep_certain_columns():
+    e = {"ocr": True, "tablas": [{"titulo": "Página 1", "filas": [
+        {"grupo": "T1R1 · Hasta 120 kWh/mes", "concepto": "Cargo Fijo", "unidad": "$/mes",
+         "valores": [1929.09, 1929.09], "columnas": None},
+        {"grupo": "T1 · Residencial", "concepto": "Cargo variable 1", "unidad": None,
+         "valores": [4184.62, None], "columnas": None},
+        {"grupo": "T1 · Residencial", "concepto": "Cargo variable 3", "unidad": "S/KWh",
+         "valores": [8795.2, 226.995], "columnas": None},
+        {"grupo": "Tarifa 2 · Contraste", "concepto": "Pequeñas in situ", "unidad": None,
+         "valores": [6714.19, 10070.52], "columnas": ["Monofásicas", "Trifásicas"]},
+        {"grupo": None, "concepto": "(5)", "unidad": None, "valores": [11169.55], "columnas": None},
+    ]}]}
+    filas = normalizar(e)["filas"]
+    got = [(f["seccion"], f["categoria"], f["concepto"], f["tramo"], f["unidad"], f["valor"]) for f in filas]
+    assert got == [
+        ("Transcripción por OCR — T1R1", "Hasta 120 kWh/mes", "Cargo Fijo", "", "$/mes", 1929.09),
+        ("Transcripción por OCR — Tarifa 2", "Contraste", "Pequeñas in situ", "Monofásicas", "", 6714.19),
+        ("Transcripción por OCR — Tarifa 2", "Contraste", "Pequeñas in situ", "Trifásicas", "", 10070.52),
+    ]

@@ -5,6 +5,8 @@ simulador_ocr, demanda): nothing here reads the raw
 document, so a missing value stays None.
 """
 
+import re
+
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 FRANJA = {"unica": "todo el consumo", "pico": "pico", "fuera_pico": "fuera de pico",
           "resto": "resto", "valle": "valle"}
@@ -88,6 +90,43 @@ def _demanda(d):
     return filas, [f"{sec}: {d['criterio']}"]
 
 
+_UNIDAD = {"kwh": "$/kWh", "kw-mes": "$/kW-mes", "kwmes": "$/kW-mes", "kw": "$/kW", "mes": "$/mes",
+           "bim": "$/bim", "kvarh": "$/kVArh", "kwh-mes": "$/kWh"}
+
+
+def _unidad_ocr(u):
+    m = re.fullmatch(r"[S$]\s*/\s*([A-Za-z-]+)\.?", (u or "").strip())
+    return _UNIDAD.get(m.group(1).lower(), "") if m else ""
+
+
+def _ocr(e):
+    """Rows of the OCR transcription. A value goes in only when its column is certain: the row has a single
+    amount, or every column was read with the same amount, or the columns have a header; rows without a
+    certain amount are left to the original table."""
+    filas = []
+    for t in e.get("tablas") or []:
+        for f in t["filas"]:
+            concepto = re.sub(r"^(?:[^\w(]+|\w\s+(?=[A-ZÁÉÍÓÚ]))+", "", f.get("concepto") or "").strip()
+            if len(re.findall(r"[A-Za-zÁÉÍÓÚáéíóúÑñ]", concepto)) < 3:
+                continue
+            grupo = (f.get("grupo") or "").split(" · ", 1)
+            base = dict(seccion=f"Transcripción por OCR — {grupo[0] or 'sin título'}",
+                        categoria=grupo[1] if len(grupo) > 1 else "", condicion="", tension=None,
+                        concepto=concepto, unidad=_unidad_ocr(f.get("unidad")))
+            vals, cols = f["valores"], f.get("columnas")
+            if cols and len(cols) == len(vals) and len(vals) > 1 and len(set(vals) - {None}) > 1:
+                filas += [{**base, "tramo": c, "valor": v} for c, v in zip(cols, vals)]
+            else:
+                certain = len(vals) == 1 or (None not in vals and len(set(vals)) == 1)
+                if certain and vals[0] is not None:
+                    filas.append({**base, "tramo": "", "valor": vals[0]})
+    if not filas:
+        return [], []
+    return filas, ["Transcripción por OCR: solo se muestran los montos que leyeron igual los dos motores de OCR "
+                   "y cuya columna es segura. Los conceptos sin un monto seguro figuran solo en el cuadro original completo. Los nombres de conceptos salen del OCR y "
+                   "pueden tener errores de tipeo. Ante cualquier duda, vale el documento original."]
+
+
 def normalizar(e):
     filas, notas = [], []
     for campo, variante in VARIANTES:
@@ -97,6 +136,10 @@ def normalizar(e):
             notas += n
     if e.get("demanda"):
         f, n = _demanda(e["demanda"])
+        filas += f
+        notas += n
+    if e.get("ocr"):
+        f, n = _ocr(e)
         filas += f
         notas += n
     return {"filas": filas, "notas": notas} if filas else None
