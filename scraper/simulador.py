@@ -218,7 +218,7 @@ def ejesa(tablas):
         hasta = int(m.group(1) or m.group(2)) if (m.group(1) or m.group(2)) else None
         red, energia = f["valores"][1], f["valores"][2]
         cats.append({"nombre": c.split(" ")[0], "hasta": hasta, "fijo": f["valores"][0],
-                     "escalones": [[None, red + energia if red is not None and energia is not None else None]]})
+                     "escalones": [[None, round(red + energia, 6) if red is not None and energia is not None else None]]})
     return {"periodo": "mes", "criterio": "T1 residencial, cargos plenos (uso de red + energía)", "categorias": cats}
 
 
@@ -413,6 +413,56 @@ def ecsapem(tablas):
         raise ValueError("EC SAPEM: no es el cuadro no subsidiado")
     return {"periodo": "mes", "criterio": "T1-R no bonificado (cuadro NO SUBSIDIADO), columna TOTAL",
             "categorias": [{"nombre": "T1-R", "hasta": None, "fijo": _val(fijo, 2), "escalones": [[None, _val(var, 2)]]}]}
+
+
+@builder("edesa")
+def edesa(tablas):
+    """Salta (cuadro with text): T1R categories by monthly consumption ('[ 0 <= E <= 192]', '(192 < E <= 500KWh/mes)',
+    ..., '( E > 1400KWh/mes)'); each has one cargo fijo ($/Mes) and one cargo variable ($/KWh) for all the consumption."""
+    t = next(t for t in tablas if t["titulo"] == "T1 - Pequeñas demandas residenciales")
+    cats, prev = [], 0
+    for f in t["filas"]:
+        c = f["concepto"]
+        m = (re.search(r"\[\s*(0)\s*<=\s*E\s*<=\s*(\d+)\s*\]", c) or re.search(r"\(\s*(\d+)\s*<\s*E\s*<=\s*(\d+)\s*KWh/mes\)", c, re.I)
+             or re.search(r"\(\s*E\s*>\s*(\d+)\s*KWh/mes\)()", c, re.I))
+        if not m or int(m.group(1)) != prev or (cats and cats[-1]["hasta"] is None):
+            raise ValueError(f"EDESA: categoría no reconocida: {c}")
+        prev = int(m.group(2)) if m.group(2) else None
+        cats.append({"nombre": c, "hasta": prev, "fijo": _val(f, 0), "escalones": [[None, _val(f, 1)]]})
+    if not cats or cats[-1]["hasta"] is not None:
+        raise ValueError("EDESA: falta la última categoría")
+    return {"periodo": "mes", "criterio": "T1R, categoría según consumo mensual (cargo fijo y variable de la categoría)",
+            "categorias": cats}
+
+
+@builder("edelap")
+def edelap(tablas):
+    """La Plata: T1-R category by monthly consumption ('Consumo Mensual mayor a 150 kWh e inferior o igual a 325 kWh');
+    its cargo fijo and cargo variable (NO SEF column) apply to all the consumption."""
+    t = next(t for t in tablas if t["titulo"].startswith("T1-R"))
+    grupos = {}
+    for f in t["filas"]:
+        grupos.setdefault(f["grupo"], []).append(f)
+    cats, prev = [], 0
+    for g, fs in grupos.items():
+        txt = re.sub(r"\s", "", g or "")
+        m = re.search(r"(?:mayora(\d+)kWh)?(?:e)?inferioroiguala(\d+)kWh|mayora(\d+)kWh$", txt)
+        desde = int(m.group(1) or m.group(3) or 0) if m else -1
+        hasta = int(m.group(2)) if m and m.group(2) else None
+        fijo = [f for f in fs if re.match(r"Cargo (?:ﬁ|fi)jo", f["concepto"]) and f["unidad"] == "$/mes"]
+        var = [f for f in fs if re.match(r"Cargo variable", f["concepto"]) and f["unidad"] == "$/kWh"]
+        if desde != prev or len(fijo) != 1 or len(var) != 1 or (cats and cats[-1]["hasta"] is None):
+            raise ValueError(f"EDELAP: categoría no reconocida: {g}")
+        prev = hasta
+        cats.append({"nombre": squeeze_cat(g), "hasta": hasta, "fijo": _val(fijo[0], 0),
+                     "escalones": [[None, _val(var[0], 0)]]})
+    if not cats or cats[-1]["hasta"] is not None:
+        raise ValueError("EDELAP: falta la última categoría")
+    return {"periodo": "mes", "criterio": "T1-R, categoría según consumo mensual (columna NO SEF)", "categorias": cats}
+
+
+def squeeze_cat(g):
+    return re.sub(r"\s+", " ", re.sub(r"(\d)\s*k\s*Wh", r"\1 kWh", g)).strip()
 
 
 def build(entry):

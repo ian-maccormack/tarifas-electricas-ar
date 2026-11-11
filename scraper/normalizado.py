@@ -1,14 +1,14 @@
 """Common, source-independent view of each distribuidora's tariff.
 
 Built only from the structures the simulators already verified (simulador,
-simulador_subsidio, simulador_ocr, demanda): nothing here reads the raw
+simulador_ocr, demanda): nothing here reads the raw
 document, so a missing value stays None.
 """
 
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 FRANJA = {"unica": "todo el consumo", "pico": "pico", "fuera_pico": "fuera de pico",
           "resto": "resto", "valle": "valle"}
-VARIANTES = (("simulador", "sin subsidio"), ("simulador_subsidio", "con subsidio"),
+VARIANTES = (("simulador", "sin subsidio"),
              ("simulador_ocr", "sin subsidio (OCR)"))
 
 

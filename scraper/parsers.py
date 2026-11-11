@@ -533,7 +533,17 @@ def p_epen(text, **_):
 
 @parser("dpec")
 def p_dpec(text, **_):
-    cols = {1: ["Tarifa sin bonif."], 4: ["Tarifa sin bonif.", "Con bonif. FEB/2026", "Con bonif. MAR/2026", "Con bonif. ABR/2026"]}
+    meses = list(dict.fromkeys(re.findall(r"\b(?:ENE|FEB|MAR|ABR|MAY|JUN|JUL|AGO|SEP|OCT|NOV|DIC)/20\d\d\b", text)))[:3]
+    cols = {1: ["Tarifa sin bonif."]}
+    if len(meses) == 3:
+        cols[4] = ["Tarifa sin bonif."] + [f"Con bonif. {m}" for m in meses]
+    num = re.search(r"CUADRO TARIFARIO N\S*\s*(\d+\s*-\s*[A-Z])\b", text)
+    vigencia = None
+    if num and meses:
+        nombre = dict(zip("ENE FEB MAR ABR MAY JUN JUL AGO SEP OCT NOV DIC".split(), MESES_ES))
+        n_ct = re.sub(r"\s", "", num.group(1))
+        vigencia = (f"Cuadro Tarifario N° {n_ct}: {nombre[meses[0][:3]]} a "
+                    f"{nombre[meses[-1][:3]]} de {meses[-1][4:]}")
     t = line_table(text, "Tarifas residenciales (bimestral)", r"TARIFAS RESIDENCIALES", r"TARIFAS? (GENERAL|COMERCIAL)|PEQUE[ÑN]AS DEMANDAS GENERALES",
                    dec=",", cols=cols)
     dem = []
@@ -556,9 +566,160 @@ def p_dpec(text, **_):
                 cur["filas"].append(_fila(re.sub(r"^Generales ", "", label), unit, vals))
     except ValueError:
         pass
-    return {"vigencia": None, "tablas": [t] + dem,
+    return {"vigencia": vigencia, "tablas": [t] + dem,
             "comparable": comparable([t], (r"URBANOS NO BONIFICADOS|Cuota Fija", 0), (r"Primeros 600", 0),
                                      "Residencial urbano no bonificado")}
+
+
+MESES_ES = "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split()
+
+
+@parser("edesa")
+def p_edesa(text, **_):
+    """EDESA's monthly 'Cuadro_Tarifario_<Mes>_<Año>_EDESA.pdf' (pdftotext -layout): several tables sit side by
+    side on one page, so rows are read by their own codes (T1R1, T1R2 - ED, T1G1, ...); the SEF rows are not
+    read. The scanned ENRESP resolution has none of these rows and goes to OCR."""
+    n = r"(\d[\d.]*,\d+)"
+    cols = ["Cargo fijo ($/Mes)", "Cargo variable ($/KWh)"]
+    specs = [("T1 - Pequeñas demandas residenciales", r"(T1R[12]) - ([\[(][^\])]*[\])])"),
+             ("T1 - Residenciales electrodependientes", r"(T1R[12]) - ED ([\[(][^\])]*[\])])"),
+             ("T1 - Pequeñas demandas no residenciales", r"(T1G\d) ?(\([^)]*\))")]
+    tablas = []
+    for titulo, rx in specs:
+        filas = [{"grupo": None, "concepto": f"{m.group(1)} {squeeze(m.group(2))}", "unidad": None,
+                  "valores": [parse_num(m.group(3), ","), parse_num(m.group(4), ",")], "columnas": cols}
+                 for m in re.finditer(rx + r"\s+" + n + r"\s+" + n, text)]
+        if filas:
+            tablas.append({"titulo": titulo, "filas": filas})
+    m = re.search(r"^(BT- ?MD)\s+" + n + r"\s+" + n + r"\s+" + n, text, re.M)
+    if m:
+        tablas.append({"titulo": "Tarifa 2 - Demandas > 10 < 50 kW", "filas": [{
+            "grupo": None, "concepto": "BT - MD", "unidad": None,
+            "valores": [parse_num(m.group(i), ",") for i in (2, 3, 4)],
+            "columnas": ["Cargo por máxima capacidad de suministro contratada ($/KW-mes)", "Cargo fijo ($/Mes)",
+                         "Cargo variable ($/KWh)"]}]})
+    res = re.search(r"Resoluci[oó]n ENRESP N\S*\s*([\d/]+)", text)
+    return {"vigencia": f"Resolución ENRESP N° {res.group(1)}" if res else None, "tablas": tablas,
+            "comparable": None}
+
+
+def _pdf_lines(content, page=0, tol=2.5):
+    """Characters of a PDF page grouped into lines by their vertical position."""
+    import io
+    import pdfplumber
+    with pdfplumber.open(io.BytesIO(content)) as pdf:
+        chars = sorted(pdf.pages[page].chars, key=lambda c: c["top"])
+    lines = []
+    for c in chars:
+        if lines and c["top"] - lines[-1]["top"] <= tol:
+            lines[-1]["chars"].append(c)
+        else:
+            lines.append({"top": c["top"], "chars": [c]})
+    return lines
+
+
+def _band(line, lo, hi):
+    return squeeze("".join(c["text"] for c in sorted(line["chars"], key=lambda c: c["x0"]) if lo <= c["x0"] < hi))
+
+
+_EDELAP_BLOCKS = (  # x of label, unit and the three value columns, for the two halves of the page
+    dict(label=(0, 165), unit=(165, 212), cols=((212, 240), (240, 264), (264, 300))),
+    dict(label=(300, 452), unit=(452, 478), cols=((476, 516), (516, 539), (539, 600))),
+)
+
+
+def _tokens(line, lo, hi, gap=4):
+    """Words of a line between x=lo and x=hi, as [x0, text, x1]."""
+    toks = []
+    for c in sorted((c for c in line["chars"] if lo <= c["x0"] < hi and c["text"].strip()), key=lambda c: c["x0"]):
+        if toks and c["x0"] - toks[-1][2] <= gap:
+            toks[-1][1] += re.sub(r"\s", "", c["text"])
+            toks[-1][2] = c["x1"]
+        else:
+            toks.append([c["x0"], re.sub(r"\s", "", c["text"]), c["x1"]])
+    return toks
+
+
+@parser("edelap")
+def p_edelap(text, content=None, **_):
+    """EDELAP's one-page PDF has a text layer, but its two halves and their columns interleave in pdftotext. The
+    characters are read by position instead: label, unit and value columns of each half. A value can sit a few
+    points above or below its label: it is paired with the nearest free value line whose decimals match the unit
+    ($/mes: 2, $/kWh: 4); a label with no such value keeps its values empty."""
+    if not content or not content.startswith(b"%PDF"):
+        return None
+    lines = _pdf_lines(content)
+    tablas = []
+    for b in _EDELAP_BLOCKS:
+        lo, hi = b["cols"][0][0], b["cols"][-1][1]
+        centers = [c[0] + 4 for c in b["cols"]]
+        rows = []
+        for ln in lines:
+            toks = _tokens(ln, lo, hi)
+            rows.append({"top": ln["top"], "label": re.sub(r"\s*\$$", "", _band(ln, *b["label"])),
+                         "unit": re.sub(r"\s", "", _band(ln, *b["unit"])), "toks": toks,
+                         "num": any(re.fullmatch(r"\d[\d.]*,\d+", t[1]) for t in toks)})
+            r = rows[-1]
+            if r["unit"] == "Unidad":
+                hdr = [t for t in toks if not re.search(r"\d", t[1])]
+                centers = [t[0] for t in hdr] or centers
+                r["cols"] = [{"NOSEF": "NO SEF"}.get(t[1], t[1]) for t in hdr]
+                if r["cols"][1:3] == ["SEF", "SEF"]:
+                    r["cols"][2] = "SEF (excedente de 150 kWh)"
+            r["vals"] = [None] * len(centers)
+            for t in toks:
+                if re.fullmatch(r"\d[\d.]*,\d+", t[1]):
+                    k = min(range(len(centers)), key=lambda k: abs(centers[k] - t[0]))
+                    r["vals"][k] = t[1] if r["vals"][k] is None else "?"
+        cur, cols, grupo, sub, used = None, None, None, "", set()
+        for i, r in enumerate(rows):
+            lab = r["label"]
+            if re.match(r"Servicio de Rehabilitaci", lab):
+                break
+            if "cols" in r:
+                cols = r["cols"]
+            m = re.match(r"^(T\d-[A-Z]+\d?:|Tarifas? (?:N.\s?\d|por peaje))\s*(.*)", lab)
+            if m and (m.group(2) or not re.fullmatch(r"T\d-[A-Z]+\d:", m.group(1))):
+                if b is _EDELAP_BLOCKS[0] and tablas:
+                    break  # the left half goes on with the Tarifa Social and general tariffs, not read
+                if not cur or cur["filas"]:
+                    cur = {"titulo": lab, "filas": []}
+                    tablas.append(cur)
+                grupo, sub = None, ""
+                continue
+            if m:
+                sub = m.group(1).rstrip(":")
+                continue
+            if re.match(r"Consumo Mensual", lab):
+                grupo = squeeze(f"{sub} {lab}")
+                continue
+            if cur is None or not re.match(r"(Cargo|Por capacidad)", lab):
+                continue
+            unit = r["unit"] or ""
+            cand = [j for j in range(max(0, i - 3), min(len(rows), i + 4))
+                    if rows[j]["num"] and j not in used and abs(rows[j]["top"] - r["top"]) <= 7.5]
+            def ok(j):
+                if "?" in rows[j]["vals"]:
+                    return False  # two numbers fell in one column: the layout was not understood
+                v = next(v for v in rows[j]["vals"] if v)
+                d = len(v.split(",")[-1])
+                u = unit or rows[j]["unit"]
+                return {"$/mes": d == 2, "$/kWh": d == 4}.get(u, True)
+            cand = sorted((j for j in cand if ok(j)), key=lambda j: abs(rows[j]["top"] - r["top"]))
+            vals = []
+            if cand:
+                j = cand[0]
+                used.add(j)
+                unit = unit or rows[j]["unit"]
+                vals = [parse_num(v, ",") if v else None for v in rows[j]["vals"]]
+                while vals and vals[-1] is None:
+                    vals.pop()
+            cur["filas"].append({"grupo": grupo, "concepto": lab, "unidad": unit or None, "valores": vals,
+                                 "columnas": (cols or [])[:len(vals)] or None})
+    # T4-R (tarifa social) and the peaje tables are not kept: their column layout was not read reliably
+    tablas = [t for t in tablas if t["filas"] and re.match(r"T1-R|T4-NR|T1-AP|Tarifa N.\s?[23]", t["titulo"])]
+    vig = re.search(r"vigente a partir del\D{0,80}?(\d{2}/\d{2}/20\d\d)", text)
+    return {"vigencia": f"Vigente a partir del {vig.group(1)}" if vig else None, "tablas": tablas, "comparable": None}
 
 
 @parser("ejesa")
@@ -597,7 +758,11 @@ def p_ejesa(text, **_):
             continue
         for lab, u, v in zip(labels, units, m.groups()[2:]):
             tab["filas"].append(_fila(lab, u, [parse_num(v, ",")], m.group(2)))
-    return {"vigencia": None, "tablas": [t] + list(dem.values()),
+    mes = re.search(r"CUADRO TARIFARIO\s*-\s*([A-ZÁÉÍÓÚ]+)\s+(20\d\d)", text)
+    res = re.search(r"(\d+\s*-\s*SUSEPU\s*-\s*20\d\d)", text)
+    res = re.sub(r"\s", "", res.group(1)) if res else None
+    vig = (f"{mes.group(1).capitalize()} {mes.group(2)}" + (f" (Res. {res})" if res else "")) if mes else None
+    return {"vigencia": vig, "tablas": [t] + list(dem.values()),
             "comparable": comparable([t], (r"^R1 ", 0), None, "R1 (primeros 150 kWh/mes); el variable se compone de uso de red + energía (ver tabla)")}
 
 

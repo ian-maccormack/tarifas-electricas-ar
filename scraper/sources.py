@@ -152,16 +152,20 @@ def epre_entre_rios():
     raise LookupError("EPRE ER: publicación sin anexo")
 
 
-def getfile_page(page, text_re, exclude_re=r"dispers|permer"):
-    """EJESA/EDET portals: links say 'DESCARGAR'; the title is the text right before."""
+def getfile_page(page, text_re, exclude_re=r"dispers|permer", back=600, window=80):
+    """EJESA/EDET portals: links say 'DESCARGAR'; the title is the text right before. text_re is searched in
+    the last `window` characters of text before the link (EJESA puts its heading further up)."""
     def disc():
         import html as htmlmod
         r = fetch(page)
         for m in re.finditer(r'href="([^"]*GetFile\?fileId=[^"]+)"', r.text):
-            ctx = htmlmod.unescape(re.sub(r"<[^>]+>", " ", r.text[max(0, m.start() - 600):m.start()]))
+            ctx = htmlmod.unescape(re.sub(r"<[^>]+>", " ", r.text[max(0, m.start() - back):m.start()]))
+            near = re.sub(r"\s+", " ", ctx).strip()[-window:]
             title = re.sub(r"\s+", " ", ctx).strip()[-80:]
             title = re.sub(r"^.*?>\s*|\s*<a$", "", title).strip()
-            if re.search(text_re, title, re.I) and not re.search(exclude_re, title, re.I):
+            if window > 80:
+                title = re.sub(r"^\S*\s", "", near[-160:]).strip()
+            if re.search(text_re, near, re.I) and not re.search(exclude_re, title, re.I):
                 return {"url": urljoin(r.url, htmlmod.unescape(m.group(1))), "titulo": title, "pagina": page}
         raise LookupError("sin archivos de cuadro tarifario")
     return disc
@@ -412,6 +416,26 @@ def ecsapem_rates():
 DPEC_PAGE = "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
 
 
+def _dpec_items():
+    page = fetch(DPEC_PAGE, timeout=40).text
+    return re.findall(r'"articuloId":(\d+),"descargaId":(\d+),"titulo":"([^"]+)".*?"archivoUrl":"([^"]+)"', page)
+
+
+def dpec_cuadro():
+    """DPEC's own cuadros ('Cuadro Tarifario 108-G', ...) are text PDFs listed in the same JSON as the Boletín
+    annexes; the highest number, then letter, is the newest."""
+    best = None
+    for art, did, tit, arch in _dpec_items():
+        m = re.fullmatch(r"\s*Cuadro Tarifario\s*(?:N\S*\s*)?(\d+)\s*-\s*([A-Z])\s*", html.unescape(tit), re.I)
+        if m and (not best or (int(m.group(1)), m.group(2).upper()) > best[0]):
+            best = ((int(m.group(1)), m.group(2).upper()), art, did, tit, arch)
+    if not best:
+        raise LookupError("DPEC: sin cuadros tarifarios en la página")
+    _, art, did, tit, arch = best
+    return {"url": f"https://www.dpec.com.ar/es/articulo/{art}/descarga/{did}/{arch}", "titulo": html.unescape(tit),
+            "pagina": DPEC_PAGE}
+
+
 def dpec_descargas():
     """DPEC lists its downloads as JSON inside the page (rendered client-side). The newest 'Anexo'/'Cuadro'
     of the Boletín Oficial is used; these annexes are scans whose text layer is unreliable, so their
@@ -495,14 +519,15 @@ src("epec", "EPEC", "Empresa Provincial de Energía de Córdoba", "Córdoba",
     known="https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-02102026-aplicacion-011026.pdf",
     extra=[(epec_guess, ORIGEN_DIST), (fixed("https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf", "Cuadro tarifario EPEC noviembre 2026 (publicado 30/10/2026)"), ORIGEN_DIST)])
 src("dpec", "DPEC", "Dirección Provincial de Energía de Corrientes", "Corrientes",
-    page_latest("https://www.dpec.com.ar/1500/Cuadro-Tarifario", r"/descarga/.*CUADRO", r"cuadro"), se="dpec",
-    known="https://www.dpec.com.ar/es/articulo/1500/descarga/165/CUADRO-TARIFARIO-108-Dpdf",
-    extra=[(dpec_descargas, ORIGEN_DIST)])
+    dpec_cuadro, se="dpec",
+    known="https://www.dpec.com.ar/es/articulo/1500/descarga/176/CUADRO-TARIFARIO-108-Gpdf",
+    extra=[(dpec_descargas, ORIGEN_ENTE)])
 src("enersa", "ENERSA", "Energía de Entre Ríos S.A.", "Entre Ríos", epre_entre_rios, ORIGEN_ENTE, "enersa")
 src("refsa", "REFSA", "Recursos y Energía Formosa S.A.", "Formosa",
     refsa, se="refsa")
 src("ejesa", "EJE S.A.", "Empresa Jujeña de Energía S.A.", "Jujuy",
-    getfile_page("https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio", r"cuadro tarif"), se="eje-sa")
+    getfile_page("https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio", r"cuadro tarif",
+                back=2500, window=600), se="eje-sa")
 src("ejsed", "EJSED S.A.", "Empresa Jujeña de Sistemas Energéticos Dispersos S.A.", "Jujuy",
     None, se="ejsed-sa",
     known="https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf")
@@ -529,8 +554,10 @@ src("edersa", "EDERSA", "Empresa de Energía de Río Negro S.A.", "Río Negro",
     page_latest("https://www.edersa.com.ar/usuarios/cuadro-tarifario/", r"/uploads/.*(CT|cuadro).*\.pdf$", exclude_re=r"anexo"),
     se="edersa")
 src("edesa", "EDESA", "Empresa Distribuidora de Electricidad de Salta S.A.", "Salta",
-    page_latest("https://www.edesa.com.ar/informacion-regulatoria/", r"/uploads/.*(CT|cuadro).*\.pdf$", exclude_re=r"ESED"), se="edesa",
-    nota="El PDF usa fuentes sin mapa de caracteres (el texto no se puede extraer): los valores se leen por OCR, con las tablas apaisadas giradas.")
+    wp_media("https://www.edesa.com.ar", "Cuadro_Tarifario", r"/uploads/.*Cuadro_Tarifario_.*EDESA.*\.pdf$"), se="edesa",
+    extra=[(page_latest("https://www.edesa.com.ar/informacion-regulatoria/", r"/uploads/.*(CT|cuadro).*\.pdf$",
+                        exclude_re=r"ESED|Cuadro_Tarifario_"), ORIGEN_DIST)],
+    nota="Cada mes EDESA publica la resolución del ENRESP (escaneada, solo legible por OCR) y un cuadro tarifario con texto: se usa el cuadro con texto; la resolución se lee por OCR solo si es más nueva.")
 src("esj", "ESJ", "Energía San Juan S.A. (Naturgy San Juan)", "San Juan",
     page_latest("https://www.naturgysj.com.ar/hogar/cuadro-tarifario/", r"uploads/.*CT.*ESJ.*\.pdf$"), se="esj-0")
 src("edesal", "EDESAL", "Empresa Distribuidora San Luis S.A.", "San Luis",
