@@ -1,180 +1,180 @@
                                                             CUADRO TARIFARIO
-Periodo: OCTUBRE 2026
+Periodo: NOVIEMBRE 2026
 
-TARIFA RESIDENCIAL                                                                                   Cargos Bimestrales
-                                                                                      Con Subsidio                         Sin Subsidio
-Hasta 300 kWh/bimestre                                                        T1R1 m                  T1R1 t          T1R1 m          T1R1 t
-CARGO FIJO                                                    $/bimes         9621,78                11258,41         9715,62        11352,24
-CARGO VARIABLE                                                $/kWh           193,765                 201,772         287,765        295,772
+TARIFA RESIDENCIAL                                                                                 Cargos Bimestrales
+                                                                                    Con Subsidio                         Sin Subsidio
+Hasta 300 kWh/bimestre                                                        T1R1 m                T1R1 t          T1R1 m           T1R1 t
+CARGO FIJO                                                    $/bimes         9798,24              11434,86         9894,03         11530,65
+CARGO VARIABLE                                                $/kWh           196,986               204,993         290,407         298,414
 
-Mayor a 300 kWh/bimestre                                                      T1R2 m                  T1R2 t          T1R2 m          T1R2 t
-CARGO FIJO                                                     $/bim          27555,82               30501,74        29800,46        32746,38
-CARGO VARIABLE BASE                                           $/kWh            190,015                191,334         289,656        290,974
-CARGO VARIABLE excedente (*)                                  $/KWh           289,656                290,974
+Mayor a 300 kWh/bimestre                                                      T1R2 m                T1R2 t         T1R2 m           T1R2 t
+CARGO FIJO                                                     $/bim          28337,79             31283,71        30629,07        33574,99
+CARGO VARIABLE BASE                                           $/kWh            193,796              195,114         292,974        294,293
+CARGO VARIABLE excedente (*)                                  $/KWh            292,974              294,293
 (*) Con Subsidio Excedente consumos mayores a 400 kWh/bim
 
 
 
 
 TARIFA GENERAL                                                                   Cargos Bimestrales
-Hasta 1000 kWh                                                                T1G1.m                 T1G1.t
-CARGO FIJO                                                     $/bim          25998,69               27913,87
-CARGO VARIABLE                                                $/kWh            322,392                328,593
+Hasta 1000 kWh                                                                T1G1.m                T1G1.t
+CARGO FIJO                                                     $/bim          26722,45             28637,63
+CARGO VARIABLE                                                $/kWh            332,262              338,463
 
-                                                                                 Cargos Bimestrales
-Mayor a 1000 kWh                                                              T1G2.m                 T1G2.t
-CARGO FIJO                                                     $/bim          57619,34               60834,58
-CARGO VARIABLE                                                $/kWh            338,102                338,249
+                                                                                  Cargos Bimestrales
+Mayor a 1000 kWh                                                              T1G2.m              T1G2.t
+CARGO FIJO                                                     $/bim          59106,29           62321,53
+CARGO VARIABLE                                                $/kWh            348,953            349,100
 
 
                                                                         Cargos Bimestrales
-                                                                                T1A
-CARGO FIJO                                                     $/bim          81999,07
-CARGO VARIABLE                                                $/kWh            267,849
 
+                                                                                 T1A
+CARGO FIJO                                                     $/bim          84191,45
+CARGO VARIABLE                                                $/kWh            276,707
 
 
 
                                                                         Cargos Mensuales
                                                                              T2A_1BTb
-CGC AP                                                        $/mes          111691,36
-CARGO USO DE RED                                             $/kW-mes        35133,39
-CARGO POTENCIA EN PUNTA                                      $/kW-mes         7381,09
-CARGO TRANSP. OTROS AGENTES                                   $/kWh            11,09
-CARGO ENERGIA (P)                                             $/kWh           157,886
-CARGO ENERGIA (R)                                             $/kWh           155,298
-CARGO ENERGIA (V)                                             $/kWh           154,275
-T2 con Potencias entre 10 y 50 Kw                                    Cargos Mensuales
-                                                                 T2N_1BTb         T2N_1BTr
-CGC T2                                                 $/mes     111691,36        111691,36
-CARGO USO DE RED * kfv                                $/kW-mes   26241,13         42724,48
-CARGO POTENCIA EN PUNTA                               $/kW-mes    6229,60          6531,21
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50
-CARGO ENERGIA (P)                                      $/kWh      157,886          163,802
-CARGO ENERGIA (R)                                      $/kWh      155,298          161,117
-CARGO ENERGIA (V)                                      $/kWh      154,275          160,056
+CGC AP                                                        $/mes          113680,32
+CARGO USO DE RED                                             $/kW-mes         36425,98
+CARGO POTENCIA EN PUNTA                                      $/kW-mes          7529,42
+CARGO TRANSP. OTROS AGENTES                                   $/kWh             14,71
+CARGO ENERGIA (P)                                             $/kWh            159,843
+CARGO ENERGIA (R)                                             $/kWh            156,558
+CARGO ENERGIA (V)                                             $/kWh            156,231
+T2 con Potencias entre 10 y 50 Kw                                      Cargos Mensuales
+                                                                 T2N_1BTb           T2N_1BTr
+CGC T2                                                 $/mes     113680,32          113680,32
+CARGO USO DE RED * kfv                                $/kW-mes    27206,56           44258,73
+CARGO POTENCIA EN PUNTA                               $/kW-mes     6354,79            6662,46
+CARGO TRANSP. OTROS AGENTES                            $/kWh        14,71              15,26
+CARGO ENERGIA (P)                                      $/kWh       159,843            165,833
+CARGO ENERGIA (R)                                      $/kWh       156,558            162,424
+CARGO ENERGIA (V)                                      $/kWh       156,231            162,085
 
 
 
 
-T2 con Potencias entre 50 y 300 Kw                                           Cargos Mensuales
-                                                                 T2N_2BTb         T2N_2BTr        T2N_2MTr
-CGC T2                                                 $/mes     388558,43        388558,43       510708,60
-CARGO USO DE RED * kfv                                $/kW-mes   29610,42         48210,20        16778,25
-CARGO POTENCIA EN PUNTA                               $/kW-mes    5773,39          6052,91         6119,38
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50           10,88
-CARGO ENERGIA (P)                                      $/kWh      157,886          163,802         154,868
-CARGO ENERGIA (R)                                      $/kWh      155,298          161,117         152,329
-CARGO ENERGIA (V)                                      $/kWh      154,275          160,056         151,326
+T2 con Potencias entre 50 y 300 Kw                                            Cargos Mensuales
+                                                                 T2N_2BTb          T2N_2BTr        T2N_2MTr
+CGC T2                                                 $/mes     396183,74         396183,74       520820,60
+CARGO USO DE RED * kfv                                $/kW-mes    30699,81          49941,44        17450,22
+CARGO POTENCIA EN PUNTA                               $/kW-mes     5889,41           6174,55         6242,36
+CARGO TRANSP. OTROS AGENTES                            $/kWh        14,71             15,26           14,43
+CARGO ENERGIA (P)                                      $/kWh       159,843           165,833         156,787
+CARGO ENERGIA (R)                                      $/kWh       156,558           162,424         153,565
+CARGO ENERGIA (V)                                      $/kWh       156,231           162,085         153,244
 
 
-T2 con Potencias >300 Kw                                                                 Cargos Mensuales
-                                                                 T2N_3BTb         T2N_3BTr        T2N_3MTb    T2N_3MTr    T2N_3STr
-CGC T2 >= 300 kW                                       $/mes     510708,60        510708,60       510708,60   510708,60   510708,60
-CARGO USO DE RED * kfv                                $/kW-mes   29610,42         48210,20         9532,83     19617,48    7142,93
-CARGO POTENCIA EN PUNTA                               $/kW-mes    5773,39          6052,91         5381,60     5671,24     6875,01
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50           10,40       10,88       10,39
-CARGO ENERGIA (P)                                      $/kWh      177,577          184,231         166,557     174,182     166,379
-CARGO ENERGIA (R)                                      $/kWh      174,293          180,824         163,477     170,961     163,302
-CARGO ENERGIA (V)                                      $/kWh      173,105          179,592         162,363     169,796     162,189
+T2 con Potencias >300 Kw                                                                   Cargos Mensuales
+                                                                 T2N_3BTb          T2N_3BTr         T2N_3MTb    T2N_3MTr    T2N_3STr
+CGC T2 >= 300 kW                                       $/mes     520820,60         520820,60        520820,60   520820,60   520820,60
+CARGO USO DE RED * kfv                                $/kW-mes    30699,81         49941,44          9927,60     20403,15    7419,65
+CARGO POTENCIA EN PUNTA                               $/kW-mes     5889,41          6174,55          5489,75     5785,21     7013,17
+CARGO TRANSP. OTROS AGENTES                            $/kWh        14,71            15,26            13,80       14,43       13,79
+CARGO ENERGIA (P)                                      $/kWh       176,061          182,659          165,135     172,696     164,959
+CARGO ENERGIA (R)                                      $/kWh       172,177          178,628          161,491     168,885     161,319
+CARGO ENERGIA (V)                                      $/kWh       171,734          178,169          161,077     168,451     160,905
 
 
-T2 con Potencias >300 Kw OPSE                                                            Cargos Mensuales
-                                                                 T2N_3BTb         T2N_3BTr        T2N_3MTb    T2N_3MTr    T2N_3STr
-CGC T2 >= 300 kW                                       $/mes     510708,60        510708,60       510708,60   510708,60   510708,60
-CARGO USO DE RED * kfv                                $/kW-mes   29610,42         48210,20         9532,83     19617,48    7142,93
-CARGO POTENCIA EN PUNTA                               $/kW-mes    5773,39          6052,91         5381,60     5671,24     6875,01
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50           10,40       10,88       10,39
-CARGO ENERGIA (P)                                      $/KWh      177,577          184,231         166,557     174,182     166,379
-CARGO ENERGIA (R)                                      $/KWh      174,293          180,824         163,477     170,961     163,302
-CARGO ENERGIA (V)                                      $/KWh      173,105          179,592         162,363     169,796     162,189
+T2 con Potencias >300 Kw OPSE                                                              Cargos Mensuales
+                                                                 T2N_3BTb          T2N_3BTr         T2N_3MTb    T2N_3MTr    T2N_3STr
+CGC T2 >= 300 kW                                       $/mes     520820,60         520820,60        520820,60   520820,60   520820,60
+CARGO USO DE RED * kfv                                $/kW-mes    30699,81         49941,44          9927,60     20403,15    7419,65
+CARGO POTENCIA EN PUNTA                               $/kW-mes     5889,41          6174,55          5489,75     5785,21     7013,17
+CARGO TRANSP. OTROS AGENTES                            $/kWh        14,71            15,26            13,80       14,43       13,79
+CARGO ENERGIA (P)                                      $/KWh       176,061          182,659          165,135     172,696     164,959
+CARGO ENERGIA (R)                                      $/KWh       172,177          178,628          161,491     168,885     161,319
+CARGO ENERGIA (V)                                      $/KWh       171,734          178,169          161,077     168,451     160,905
 
 
 T2 Tarifas de Riego con Potencias entre 10 y 50 Kw
-                                                                     Cargos Mensuales
-                                                                 T2R_1BTb         T2R_1BTr
-CGC T2                                                 $/mes     111691,36        111691,36
-CARGO USO DE RED * kfv                                $/kW-mes    6394,28         10410,84
-CARGO POTENCIA EN PUNTA                               $/kW-mes    4637,84          4862,38
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50
-CARGO ENERGIA (P)                                      $/KWh      157,886          163,802
-CARGO ENERGIA (R)                                      $/KWh      155,298          161,117
-CARGO ENERGIA (V)                                      $/KWh      154,275          160,056
+                                                                      Cargos Mensuales
+                                                                 T2R_1BTb          T2R_1BTr
+CGC T2                                                 $/mes     113680,32         113680,32
+CARGO USO DE RED * kfv                                $/kW-mes    6629,53           10784,70
+CARGO POTENCIA EN PUNTA                               $/kW-mes    4731,04            4960,09
+CARGO TRANSP. OTROS AGENTES                            $/kWh       14,71              15,26
+CARGO ENERGIA (P)                                      $/KWh      159,843            165,833
+CARGO ENERGIA (R)                                      $/KWh      156,558            162,424
+CARGO ENERGIA (V)                                      $/KWh      156,231            162,085
 
 
 T2 Tarifas de Riego con Potencias entre 50 y 300 Kw
-                                                                                    Cargos Mensuales
-                                                                 T2R_2BTb         T2R_2BTr        T2R_2MTb    T2R_2MTr
-CGC T2                                                 $/mes     388558,43        388558,43       510708,60   510708,60
-CARGO USO DE RED * kfv                                $/kW-mes    6394,28         10410,84         2315,45     4764,93
-CARGO POTENCIA EN PUNTA                               $/kW-mes    4637,84          4862,38         3374,18     3555,78
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50           10,40       10,88
-CARGO ENERGIA (P)                                      $/KWh      157,886          163,802         148,088     154,868
-CARGO ENERGIA (R)                                      $/KWh      155,298          161,117         145,660     152,329
-CARGO ENERGIA (V)                                      $/KWh      154,275          160,056         144,701     151,326
+                                                                                     Cargos Mensuales
+                                                                 T2R_2BTb          T2R_2BTr        T2R_2MTb     T2R_2MTr
+CGC T2                                                 $/mes     396183,74         396183,74        520820,60   520820,60
+CARGO USO DE RED * kfv                                $/kW-mes    6629,53          10784,70          2411,34     4955,77
+CARGO POTENCIA EN PUNTA                               $/kW-mes    4731,04           4960,09          3441,99     3627,24
+CARGO TRANSP. OTROS AGENTES                            $/kWh       14,71             15,26            13,80       14,43
+CARGO ENERGIA (P)                                      $/KWh      159,843           165,833          149,923     156,787
+CARGO ENERGIA (R)                                      $/KWh      156,558           162,424          146,842     153,565
+CARGO ENERGIA (V)                                      $/KWh      156,231           162,085          146,535     153,244
 
 
 T2 Tarifas de Riego con potencia >300 kW
-                                                                                         Cargos Mensuales
-                                                                 T2R_3BTb         T2R_3BTr        T2R_3MTb    T2R_3MTr    T2R_3STr
-CARGO GESTION COMERCIAL                                $/mes     510708,60        510708,60       510708,60   510708,60   510708,60
-CARGO USO DE RED * kfv                                $/kW-mes    6394,28         10410,84         2315,45     4764,93     1565,70
-CARGO POTENCIA EN PUNTA                               $/kW-mes    4637,84          4862,38         3374,18     3555,78     3371,63
-CARGO TRANSP. OTROS AGENTES                            $/kWh       11,09            11,50           10,40       10,88       10,39
-CONSUMO DE ENERGIA (P)                                 $/KWh      177,577          184,231         166,557     174,182     166,379
-CONSUMO DE ENERGIA (R)                                 $/KWh      174,293          180,824         163,477     170,961     163,302
-CONSUMO DE ENERGIA (V)                                 $/KWh      173,105          179,592         162,363     169,796     162,189
+                                                                                           Cargos Mensuales
+                                                                 T2R_3BTb          T2R_3BTr         T2R_3MTb    T2R_3MTr    T2R_3STr
+CARGO GESTION COMERCIAL                                $/mes     520820,60         520820,60        520820,60   520820,60   520820,60
+CARGO USO DE RED * kfv                                $/kW-mes    6629,53          10784,70          2411,34     4955,77     1626,35
+CARGO POTENCIA EN PUNTA                               $/kW-mes    4731,04           4960,09          3441,99     3627,24     3439,39
+CARGO TRANSP. OTROS AGENTES                            $/kWh       14,71             15,26            13,80       14,43       13,79
+CONSUMO DE ENERGIA (P)                                 $/KWh      176,061           182,659          165,135     172,696     164,959
+CONSUMO DE ENERGIA (R)                                 $/KWh      172,177           178,628          161,491     168,885     161,319
+CONSUMO DE ENERGIA (V)                                 $/KWh      171,734           178,169          161,077     168,451     160,905
 T2 J: Servicio de peaje con potencias de 10 a 50 kW
-                                                                          Cargos Mensuales
-                                                                      T2J_1BTb            T2J_1BTr
-CGC T2                                                   $/mes        111691,36           111691,36
-CARGO USO DE RED * kfv                                  $/kW-mes      26241,13            42724,48
-CARGO POTENCIA EN PUNTA                                 $/kW-mes       460,16              761,77
-CARGO TRANSP. OTROS AGENTES                              $/kWh          0,07                0,11
-CONSUMO DE ENERGIA (P)                                   $/KWh         10,6428             16,5590
-CONSUMO DE ENERGIA (R)                                   $/KWh         10,4684             16,2875
-CONSUMO DE ENERGIA (V)                                   $/KWh         10,3994             16,1803
+                                                                            Cargos Mensuales
+                                                                      T2J_1BTb           T2J_1BTr
+CGC T2                                                   $/mes        113680,32          113680,32
+CARGO USO DE RED * kfv                                  $/kW-mes       27206,56           44258,73
+CARGO POTENCIA EN PUNTA                                 $/kW-mes        469,41             777,08
+CARGO TRANSP. OTROS AGENTES                              $/kWh           0,06               0,10
+CONSUMO DE ENERGIA (P)                                   $/KWh          10,7748            16,7642
+CONSUMO DE ENERGIA (R)                                   $/KWh          10,5533            16,4197
+CONSUMO DE ENERGIA (V)                                   $/KWh          10,5313            16,3854
 
 
 T2 J: Servicio de peaje con potencias de 50 a 300 kW
                                                                                      Cargos Mensuales
                                                                       T2J_2BTb            T2J_2BTr         T2J_2MTr
-CGC T2                                                   $/mes        388558,43           388558,43        510708,60
-CARGO USO DE RED * kfv                                  $/kW-mes      29610,42            48210,20         16778,25
-CARGO POTENCIA EN PUNTA                                 $/kW-mes       426,46              705,98           349,94
-CARGO TRANSP. OTROS AGENTES                              $/kWh          0,07                0,11             0,05
-CONSUMO DE ENERGIA (P)                                   $/KWh         10,6428             16,5590          7,6245
-CONSUMO DE ENERGIA (R)                                   $/KWh         10,4684             16,2875          7,4995
-CONSUMO DE ENERGIA (V)                                   $/KWh         10,3994             16,1803          7,4501
+CGC T2                                                   $/mes        396183,74           396183,74        520820,60
+CARGO USO DE RED * kfv                                  $/kW-mes       30699,81            49941,44        17450,22
+CARGO POTENCIA EN PUNTA                                 $/kW-mes        435,03              720,17          356,97
+CARGO TRANSP. OTROS AGENTES                              $/kWh           0,06                0,10            0,05
+CONSUMO DE ENERGIA (P)                                   $/KWh          10,7748             16,7642         7,7190
+CONSUMO DE ENERGIA (R)                                   $/KWh          10,5533             16,4197         7,5603
+CONSUMO DE ENERGIA (V)                                   $/KWh          10,5313             16,3854         7,5445
 
 
 T2 J: Servicio de peaje con potencia >300 kW
-                                                                                                 Cargos Mensuales
+                                                                                                  Cargos Mensuales
                                                                       T2J_3BTb            T2J_3BTr         T2J_3MTb       T2J_3MTr    T2J_3ATr
-CARGO GESTION COMERCIAL                                  $/mes        510708,60           510708,60        510708,60      510708,60   510708,60
-CARGO USO DE RED * kfv                                  $/kW-mes      29610,42            48210,20          9532,83        19617,48    7142,93
-CARGO POTENCIA EN PUNTA                                 $/kW-mes       426,459             705,981          34,673         324,314      39,135
-CARGO TRANSP. OTROS AGENTES                              $/kWh          0,067               0,105            0,005          0,048       0,004
-CONSUMO DE ENERGIA (P)                                   $/KWh         11,9702             18,6242          0,9497          8,5754      0,7722
-CONSUMO DE ENERGIA (R)                                   $/KWh         11,7488             18,2797          0,9322          8,4168      0,7579
-CONSUMO DE ENERGIA (V)                                   $/KWh         11,6687             18,1552          0,9258          8,3594      0,7528
+CARGO GESTION COMERCIAL                                  $/mes        520820,60           520820,60        520820,60      520820,60   520820,60
+CARGO USO DE RED * kfv                                  $/kW-mes       30699,81           49941,44          9927,60        20403,15    7419,65
+CARGO POTENCIA EN PUNTA                                 $/kW-mes        435,029            720,169           35,370        330,832      39,922
+CARGO TRANSP. OTROS AGENTES                              $/kWh           0,063              0,099             0,005         0,045       0,004
+CONSUMO DE ENERGIA (P)                                   $/KWh          11,8680            18,4652           0,9416         8,5022      0,7656
+CONSUMO DE ENERGIA (R)                                   $/KWh          11,6061            18,0578           0,9208         8,3146      0,7487
+CONSUMO DE ENERGIA (V)                                   $/KWh          11,5763            18,0114           0,9185         8,2932      0,7468
 
 
 
 
 Tasas de Conexión del Medidor
-T1 Conexión Monofasica                                                      $/Unidad          37009,67
-T1 Conexión Trifasica                                                       $/Unidad          46262,13
-T2 BT Conexión Aerea                                                        $/Unidad         111029,19
-T2 BT Conexión Subterranea                                                  $/Unidad         138786,58
-T2 MT                                                                       $/Unidad         629791,04
+T1 Conexión Monofasica                                                      $/Unidad          38140,53
+T1 Conexión Trifasica                                                       $/Unidad          47675,71
+T2 BT Conexión Aerea                                                        $/Unidad         114421,78
+T2 BT Conexión Subterranea                                                  $/Unidad         143027,32
+T2 MT                                                                       $/Unidad         649034,83
 Tasas por Rehabiliación
-Tasa por Envio Aviso Suspensión                                             $/Unidad           1423,15
-Tasa Rehabilitación PD                                                      $/Unidad           8572,90
-Tasa Rehabilitación GD                                                      $/Unidad          39909,99
+Tasa por Envio Aviso Suspensión                                             $/Unidad           1466,64
+Tasa Rehabilitación PD                                                      $/Unidad           8834,85
+Tasa Rehabilitación GD                                                      $/Unidad          41129,47
 Tasas por Reconexión
-Tasa Re Conexión del Servicio PD                                            $/Unidad          25713,86
-Tasa Re Conexión del Servicio GD                                            $/Unidad         139692,55
+Tasa Re Conexión del Servicio PD                                            $/Unidad          26499,57
+Tasa Re Conexión del Servicio GD                                            $/Unidad         143960,97
 
 
 
@@ -184,31 +184,31 @@ Cargos Por la Energía Reactiva Inductiva
                                                                    &inst T2BTR> 50     &inst T2BTB< 50 &inst T2BTB> 50
                                                        T2BTR< 50
 
-Bonificaciones Tg fi <= 0,426                           11919,69      10567,96             8967,67          7950,74        $/kW-mes
-Recargos Tg fi > 0,62                                   11919,69      10567,96             8967,67          7950,74        $/kW-mes
+Bonificaciones Tg fi <= 0,426                           12018,82      10655,85             9042,25          8016,86        $/kW-mes
+Recargos Tg fi > 0,62                                   12018,82      10655,85             9042,25          8016,86        $/kW-mes
 
 
                                                          &inst
                                                                    &inst T2MT>300      &inst T2MR<300    &inst T2MR>300
                                                        T2MT<300
-Bonificaciones Tg fi <= 0,426                           6144,13        5501,14             2874,22          2573,44        $/kW-mes
-Recargos Tg fi > 0,62                                   6144,13        5501,14             2874,22          2573,44        $/kW-mes
-                               CUADRO TARIFARIO
- Periodo: OCTUBRE 2026
+Bonificaciones Tg fi <= 0,426                           6195,23        5546,89             2898,13          2594,85        $/kW-mes
+Recargos Tg fi > 0,62                                   6195,23        5546,89             2898,13          2594,85        $/kW-mes
+                            CUADRO TARIFARIO
+ Periodo: NOVIEMBRE 2026
  TARIFA SOCIAL
 
 
-T1R - RESIDENCIAL                                     Cargos Bimestrales
- Hasta 300 kWh/bimestre                    T1R1 m        T1R1 t
- CARGO FIJO                      $/bimes   9621,78      11258,41
- CARGO VARIABLE                  $/kWh     167,994      176,000
- Mayor a 300 kWh/bimestre                  T1R2 m       T1R2 t
- CARGO FIJO                       $/bim    27555,82    30501,74
- C. V PRIMEROS 300 KWh/bim       $/kWh     164,261     165,580
- C. V SIGUIENTES 100 KWh/bim     $/kWh     190,015     191,334
- C. V EXCEDENTE 400 KWh/bim      $/kWh     289,656     290,974
+T1R - RESIDENCIAL                                   Cargos Bimestrales
+ Hasta 300 kWh/bimestre                   T1R1 m      T1R1 t
+ CARGO FIJO                     $/bimes   9798,24    11434,86
+ CARGO VARIABLE                  $/kWh    171,453    179,460
+ Mayor a 300 kWh/bimestre                 T1R2 m    T1R2 t
+ CARGO FIJO                      $/bim    28337,79 31283,71
+ C. V PRIMEROS 300 KWh/bim       $/kWh    168,282  169,601
+ C. V SIGUIENTES 100 KWh/bim     $/kWh    193,796  195,114
+ C. V EXCEDENTE 400 KWh/bim      $/kWh    292,974  294,293
                                      CUADRO TARIFARIO
-Periodo: OCTUBRE 2026
+Periodo: NOVIEMBRE 2026
                                       ELECTRODEPENDIENTES
 
 TARIFA 1 - PEQUEÑAS DEMANDAS - (POTENCIAS MENORES O IGUALES A 10 kW)
@@ -217,15 +217,14 @@ T1ED                                            Cargos Bimestrales
 
 
 Hasta 300 kWh/bimestre               T1ED1 m       T1ED1 t
-CARGO FIJO                 $/bimes   9589,35       11225,98
-CARGO VARIABLE             $/kWh     151,859        159,866
-
+CARGO FIJO                 $/bimes    9765,22      11401,84
+CARGO VARIABLE             $/kWh      151,454       159,461
 
 Mayor a 300 kWh/bimestre             T1ED2 m       T1ED2 t
-CARGO FIJO                  $/bim    26780,06      29725,98
-CARGO VARIABLE             $/kWh     146,158        147,477
+CARGO FIJO                  $/bim    27547,98      30493,90
+CARGO VARIABLE             $/kWh      146,279       147,597
                                       CUADRO TARIFARIO
-Periodo: OCTUBRE 2026
+Periodo: NOVIEMBRE 2026
 ENTIDADES DE BIEN PÚBLICO Y CLUBES DE BARRIO
 
 TARIFA 1 - PEQUEÑAS DEMANDAS - (POTENCIAS MENORES O IGUALES A 10 kW)
@@ -234,13 +233,12 @@ T1 EBPyCB                                              Cargos Bimestrales
 
 
 Hasta 300 kWh/bimestre                   T1EBPCB1 m      T1EBPCB1 t
-CARGO FIJO                  $/bimes         9621,78       11258,41
-CARGO VARIABLE              $/kWh           193,765        201,772
-
+CARGO FIJO                  $/bimes        9798,24        11434,86
+CARGO VARIABLE              $/kWh          196,986         204,993
 
 Mayor a 300 kWh/bimestre                 T1EBPCB2 m      T1EBPCB2 t
-CARGO FIJO                   $/bim          27555,82      30501,74
-CARGO VARIABLE              $/kWh           190,015        191,334
+CARGO FIJO                   $/bim         28337,79       31283,71
+CARGO VARIABLE              $/kWh          193,796         195,114
 
 
 
@@ -248,163 +246,163 @@ CARGO VARIABLE              $/kWh           190,015        191,334
 beneficioso para el usuario la categoría general, deberán aplicarse los valores correspondientes a
 
 Solo Clubes de Barrio
-T2 con Potencias entre 10 y 50 Kw             Cargos Mensuales
-                                           T2N_1BTb       T2N_1BTr
-CGC T2                    $/mes            111691,36      111691,36
-CARGO USO DE RED * kfv  $/kW-mes            26241,13      42724,48
-CARGO POTENCIA EN PUNTA $/kW-mes            1600,01        1677,48
+T2 con Potencias entre 10 y 50 Kw              Cargos Mensuales
+                                           T2N_1BTb      T2N_1BTr
+CGC T2                    $/mes            113680,32      113680,32
+CARGO USO DE RED * kfv  $/kW-mes            27206,56      44258,73
+CARGO POTENCIA EN PUNTA $/kW-mes            1629,00        1707,87
 CARGO TRANSP. OTROS AGENTES
-                          $/kWh              11,09          11,50
-CARGO ENERGIA (P)         $/kWh              49,07          50,91
-CARGO ENERGIA (R)         $/kWh              50,07          51,94
-CARGO ENERGIA (V)         $/kWh              49,89          51,76
+                          $/kWh              14,71          15,26
+CARGO ENERGIA (P)         $/kWh              44,96          46,65
+CARGO ENERGIA (R)         $/kWh              45,65          47,36
+CARGO ENERGIA (V)         $/kWh              46,08          47,80
 
 
-T2 con Potencias entre 50 y 300 Kw            Cargos Mensuales
-                                           T2N_2BTb       T2N_2BTr      T2N_2MTr
-CGC T2                    $/mes            388558,43      388558,43     510708,60
-CARGO USO DE RED * kfv  $/kW-mes            29610,42      48210,20       16778,25
-CARGO POTENCIA EN PUNTA $/kW-mes            1482,84        1554,63       1571,70
+T2 con Potencias entre 50 y 300 Kw                     Cargos Mensuales
+                                           T2N_2BTb      T2N_2BTr       T2N_2MTr
+CGC T2                    $/mes            396183,74     396183,74      520820,60
+CARGO USO DE RED * kfv  $/kW-mes            30699,81      49941,44       17450,22
+CARGO POTENCIA EN PUNTA $/kW-mes            1509,70        1582,80       1600,18
 CARGO TRANSP. OTROS AGENTES
-                          $/kWh              11,09          11,50         10,88
-CARGO ENERGIA (P)         $/kWh              49,073        50,912         48,135
-CARGO ENERGIA (R)         $/kWh              50,067        51,943         49,109
-CARGO ENERGIA (V)         $/kWh              49,893        51,762         48,939
+                          $/kWh              14,71          15,26         14,43
+CARGO ENERGIA (P)         $/kWh              44,963        46,648         44,104
+CARGO ENERGIA (R)         $/kWh              45,649        47,359         44,776
+CARGO ENERGIA (V)         $/kWh              46,078        47,805         45,197
 
 
-T2 con Potencias >300 Kw                      Cargos Mensuales
-                                           T2N_3BTb       T2N_3BTr      T2N_3MTb       T2N_3MTr
-CGC T2 >= 300 kW          $/mes            510708,60      510708,60     510708,60       510708,60
-CARGO USO DE RED * kfv  $/kW-mes            29610,42      48210,20       9532,83        19617,48
-CARGO POTENCIA EN PUNTA $/kW-mes            1482,84        1554,63       1382,21         1456,60
+T2 con Potencias >300 Kw                       Cargos Mensuales
+                                           T2N_3BTb      T2N_3BTr       T2N_3MTb       T2N_3MTr
+CGC T2 >= 300 kW          $/mes            520820,60      520820,60     520820,60      520820,60
+CARGO USO DE RED * kfv  $/kW-mes            30699,81      49941,44       9927,60        20403,15
+CARGO POTENCIA EN PUNTA $/kW-mes            1509,70        1582,80       1407,25         1482,99
 CARGO TRANSP. OTROS AGENTES
-                          $/kWh              11,09          11,50         10,40           10,88
-CARGO ENERGIA (P)         $/kWh              49,073        50,912         46,028         48,135
-CARGO ENERGIA (R)         $/kWh              50,067        51,943         46,959         49,109
-CARGO ENERGIA (V)         $/kWh              49,893        51,762         46,796         48,939
+                          $/kWh              14,71          15,26         13,80           14,43
+CARGO ENERGIA (P)         $/kWh              44,963        46,648         42,173         44,104
+CARGO ENERGIA (R)         $/kWh              45,649        47,359         42,816         44,776
+CARGO ENERGIA (V)         $/kWh              46,078        47,805         43,219         45,197
                                              CUADRO TARIFARIO
-Periodo: OCTUBRE 2026                                 UGER
+Periodo: NOVIEMBRE 2026                               UGER
 
 Decreto Reglamentario Ley Prov. N°5.617
 
 TARIFA RESIDENCIAL
-                                                                        Cargos Mensuales
-                                                             Con Subsidio                  Sin Subsidio
+                                                                         Cargos Mensuales
+                                                             Con Subsidio                 Sin Subsidio
 
-Hasta 150 kWh                                           T1R1 m          T1R1 t      T1R1 m           T1R1 t
-CARGO FIJO                                    $/mes     4810,89        5629,20      4857,81         5676,12
-CARGO VARIABLE                                $/kWh     193,765        201,772      287,765         295,772
-TARIFA INYECCIÓN                              $/kWh      63,110         63,110      148,235         148,235
+Hasta 150 kWh                                           T1R1 m          T1R1 t       T1R1 m         T1R1 t
+CARGO FIJO                                    $/mes     4899,12        5717,43       4947,01        5765,32
+CARGO VARIABLE                                $/kWh     196,986        204,993       290,407        298,414
+TARIFA INYECCIÓN                              $/kWh      62,517         62,517       146,880        146,880
 
 
-Mayor a 150 kWh                                         T1R2 m          T1R2 t      T1R2 m           T1R2 t
-CARGO FIJO                                    $/mes     13777,91       15250,87     14900,23        16373,19
-CARGO VARIABLE BASE                           $/kWh     190,015        191,334      289,656         290,974
-CARGO VARIABLE excedente (*)                  $/KWh     289,656        290,974
-TARIFA INYECCIÓN BASE                         $/KWh      63,130         63,130      148,202         148,202
-TARIFA INYECCIÓN excedente (*)                $/KWh     148,202        148,202
+Mayor a 150 kWh                                         T1R2 m          T1R2 t       T1R2 m         T1R2 t
+CARGO FIJO                                    $/mes     14168,90       15641,85      15314,53      16787,49
+CARGO VARIABLE BASE                           $/kWh     193,796        195,114       292,974        294,293
+CARGO VARIABLE excedente (*)                  $/KWh     292,974        294,293
+TARIFA INYECCIÓN BASE                         $/KWh      62,530         62,530       146,837        146,837
+TARIFA INYECCIÓN excedente (*)                $/KWh     146,837        146,837
 (*) CON SUBSIDIO: excedente de 200 KWh/mes
 
 
 
 TARIFA GENERAL
-                                                          Cargos Mensuales
-Hasta 500 kWh/mes                                       T1G1.m        T1G1.t
-CARGO FIJO                                    $/mes     12999,35       13956,93
-CARGO VARIABLE                                $/kWh     322,392        328,593
-TARIFA INYECCIÓN                              $/kWh     173,078        173,078
+                                                           Cargos Mensuales
+Hasta 500 kWh/mes                                       T1G1.m          T1G1.t
+CARGO FIJO                                    $/mes     13361,23       14318,81
+CARGO VARIABLE                                $/kWh     332,262        338,463
+TARIFA INYECCIÓN                              $/kWh     178,453        178,453
 
 Mayor a 500 kWh/mes                                     T1G2.m          T1G2.t
-CARGO FIJO                                    $/mes     28809,67       30417,29
-CARGO VARIABLE                                $/kWh     338,102        338,249
-TARIFA INYECCIÓN                              $/kWh     173,274        173,274
+CARGO FIJO                                    $/mes     29553,15       31160,77
+CARGO VARIABLE                                $/kWh     348,953        349,100
+TARIFA INYECCIÓN                              $/kWh     178,664        178,664
 T2 con Potencias entre 10 y 50 Kw
                                                        T2N_1BTb    T2N_1BTr
-CGC T2                                       $/mes     111691,36   111691,36
-CARGO USO DE RED * kfv                       $/kW       26241,13    42724,48
-CARGO POTENCIA EN PUNTA                      $/kW       6229,60     6531,21
-CARGO TRANSP. OTROS AGENTES                  $/kWh       11,09       11,50
-CARGO ENERGIA (P)                            $/kWh      157,886     163,802
-CARGO ENERGIA (R)                            $/kWh      155,298     161,117
-CARGO ENERGIA (V)                            $/kWh      154,275     160,056
-Tarifa de Inyección (P)                      $/KWh      168,974     175,306
-Tarifa de Inyección (R)                      $/KWh      166,386     172,621
-Tarifa de Inyección (V)                      $/KWh      165,363     171,560
+CGC T2                                       $/mes     113680,32   113680,32
+CARGO USO DE RED * kfv                       $/kW       27206,56    44258,73
+CARGO POTENCIA EN PUNTA                      $/kW       6354,79     6662,46
+CARGO TRANSP. OTROS AGENTES                  $/kWh       14,71       15,26
+CARGO ENERGIA (P)                            $/kWh      159,843     165,833
+CARGO ENERGIA (R)                            $/kWh      156,558     162,424
+CARGO ENERGIA (V)                            $/kWh      156,231     162,085
+Tarifa de Inyección (P)                      $/KWh      174,557     181,097
+Tarifa de Inyección (R)                      $/KWh      171,271     177,689
+Tarifa de Inyección (V)                      $/KWh      170,944     177,350
 
 
 T2 con Potencias entre 50 y 300 Kw
                                                        T2N_2BTb    T2N_2BTr    T2N_2MTr
-CGC T2                                       $/mes     388558,43   388558,43   510708,60
-CARGO USO DE RED * kfv                       $/kW       29610,42    48210,20    16778,25
-CARGO POTENCIA EN PUNTA                      $/kW       5773,39     6052,91     6119,38
-CARGO TRANSP. OTROS AGENTES                  $/kWh       11,09       11,50       10,88
-CARGO ENERGIA (P)                            $/kWh      157,886     163,802     154,868
-CARGO ENERGIA (R)                            $/kWh      155,298     161,117     152,329
-CARGO ENERGIA (V)                            $/kWh      154,275     160,056     151,326
-Tarifa de Inyección (P)                      $/KWh      168,974     175,306     165,744
-Tarifa de Inyección (R)                      $/KWh      166,386     172,621     163,205
-Tarifa de Inyección (V)                      $/KWh      165,363     171,560     162,202
+CGC T2                                       $/mes     396183,74   396183,74   520820,60
+CARGO USO DE RED * kfv                       $/kW       30699,81    49941,44    17450,22
+CARGO POTENCIA EN PUNTA                      $/kW       5889,41     6174,55     6242,36
+CARGO TRANSP. OTROS AGENTES                  $/kWh       14,71       15,26       14,43
+CARGO ENERGIA (P)                            $/kWh      159,843     165,833     156,787
+CARGO ENERGIA (R)                            $/kWh      156,558     162,424     153,565
+CARGO ENERGIA (V)                            $/kWh      156,231     162,085     153,244
+Tarifa de Inyección (P)                      $/KWh      174,557     181,097     171,220
+Tarifa de Inyección (R)                      $/KWh      171,271     177,689     167,997
+Tarifa de Inyección (V)                      $/KWh      170,944     177,350     167,676
 
 
 T2 con Potencias >300 Kw
                                                        T2N_3BTb    T2N_3BTr    T2N_3MTb    T2N_3MTr    T2N_3STr
-CGC T2 >= 300 kW                             $/mes     510708,60   510708,60   510708,60   510708,60   497251,83
-CARGO USO DE RED * kfv                       $/kW       29610,42    48210,20    9532,83     19617,48    6771,24
-CARGO POTENCIA EN PUNTA                      $/kW       5773,39     6052,91     5381,60     5671,24     7278,65
-CARGO TRANSP. OTROS AGENTES                  $/kWh       11,09       11,50       10,40       10,88       10,39
-CARGO ENERGIA (P)                            $/kWh      177,577     184,231     166,557     174,182     147,184
-CARGO ENERGIA (R)                            $/kWh      174,293     180,824     163,477     170,961     145,653
-CARGO ENERGIA (V)                            $/kWh      173,105     179,592     162,363     169,796     145,308
-Tarifa de Inyección (P)                      $/KWh      188,665     195,735     176,957     185,059     157,573
-Tarifa de Inyección (R)                      $/KWh      185,381     192,328     173,877     181,837     156,042
-Tarifa de Inyección (V)                      $/KWh      184,193     191,095     172,762     180,672     155,697
+CGC T2 >= 300 kW                             $/mes     520820,60   520820,60   520820,60   520820,60   520820,60
+CARGO USO DE RED * kfv                       $/kW       30699,81    49941,44    9927,60     20403,15    7419,65
+CARGO POTENCIA EN PUNTA                      $/kW       5889,41     6174,55     5489,75     5785,21     7013,17
+CARGO TRANSP. OTROS AGENTES                  $/kWh       14,71       15,26       13,80       14,43       13,79
+CARGO ENERGIA (P)                            $/kWh      176,061     182,659     165,135     172,696     164,959
+CARGO ENERGIA (R)                            $/kWh      172,177     178,628     161,491     168,885     161,319
+CARGO ENERGIA (V)                            $/kWh      171,734     178,169     161,077     168,451     160,905
+Tarifa de Inyección (P)                      $/KWh      190,775     197,923     178,935     187,128     178,745
+Tarifa de Inyección (R)                      $/KWh      186,890     193,893     175,292     183,317     175,105
+Tarifa de Inyección (V)                      $/KWh      186,448     193,434     174,877     182,883     174,691
 
 
 T2 Tarifas de Riego con Potencias entre 10 y 50 Kw
 
                                                        T2R_1BTb    T2R_1BTr
-CGC T2                                       $/mes     111691,36   111691,36
-CARGO USO DE RED * kfv                       $/kW       6394,28     10410,84
-CARGO POTENCIA EN PUNTA                      $/kW       4637,84     4862,38
-CARGO TRANSP. OTROS AGENTES                  $/kWh       11,09       11,50
-CARGO ENERGIA (P)                            $/kWh      157,886     163,802
-CARGO ENERGIA (R)                            $/kWh      155,298     161,117
-CARGO ENERGIA (V)                            $/kWh      154,275     160,056
-Tarifa de Inyección (P)                      $/KWh      168,974     175,306
-Tarifa de Inyección (R)                      $/KWh      166,386     172,621
-Tarifa de Inyección (V)                      $/KWh      165,363     171,560
+CGC T2                                       $/mes     113680,32   113680,32
+CARGO USO DE RED * kfv                       $/kW       6629,53     10784,70
+CARGO POTENCIA EN PUNTA                      $/kW       4731,04     4960,09
+CARGO TRANSP. OTROS AGENTES                  $/kWh       14,71       15,26
+CARGO ENERGIA (P)                            $/kWh      159,843     165,833
+CARGO ENERGIA (R)                            $/kWh      156,558     162,424
+CARGO ENERGIA (V)                            $/kWh      156,231     162,085
+Tarifa de Inyección (P)                      $/KWh      174,557     181,097
+Tarifa de Inyección (R)                      $/KWh      171,271     177,689
+Tarifa de Inyección (V)                      $/KWh      170,944     177,350
 
 
 T2 Tarifas de Riego con Potencias entre 50 y 300 Kw
 
                                                        T2R_2BTb    T2R_2BTr    T2R_2MTb    T2R_2MTr
-CGC T2                                       $/mes     388558,43   388558,43   510708,60   510708,60
-CARGO USO DE RED * kfv                       $/kW       6394,28     10410,84    2315,45     4764,93
-CARGO POTENCIA EN PUNTA                      $/kW       4637,84     4862,38     3374,18     3555,78
-CARGO TRANSP. OTROS AGENTES                  $/kWh       11,09       11,50       10,40       10,88
-CARGO ENERGIA (P)                            $/kWh      157,886     163,802     148,088     154,868
-CARGO ENERGIA (R)                            $/kWh      155,298     161,117     145,660     152,329
-CARGO ENERGIA (V)                            $/kWh      154,275     160,056     144,701     151,326
-Tarifa de Inyección (P)                      $/KWh      168,974     175,306     158,487     165,744
-Tarifa de Inyección (R)                      $/KWh      166,386     172,621     156,060     163,205
-Tarifa de Inyección (V)                      $/KWh      165,363     171,560     155,101     162,202
+CGC T2                                       $/mes     396183,74   396183,74   520820,60   520820,60
+CARGO USO DE RED * kfv                       $/kW       6629,53     10784,70    2411,34     4955,77
+CARGO POTENCIA EN PUNTA                      $/kW       4731,04     4960,09     3441,99     3627,24
+CARGO TRANSP. OTROS AGENTES                  $/kWh       14,71       15,26       13,80       14,43
+CARGO ENERGIA (P)                            $/kWh      159,843     165,833     149,923     156,787
+CARGO ENERGIA (R)                            $/kWh      156,558     162,424     146,842     153,565
+CARGO ENERGIA (V)                            $/kWh      156,231     162,085     146,535     153,244
+Tarifa de Inyección (P)                      $/KWh      174,557     181,097     163,724     171,220
+Tarifa de Inyección (R)                      $/KWh      171,271     177,689     160,642     167,997
+Tarifa de Inyección (V)                      $/KWh      170,944     177,350     160,335     167,676
 
 
 T2 Tarifas de Riego con potencia >300 kW
 
                                                        T2R_3BTb    T2R_3BTr    T2R_3MTb    T2R_3MTr    T2R_3STr
-CARGO GESTION COMERCIAL                      $/mes     510708,60   510708,60   510708,60   510708,60   497251,83
-CARGO USO DE RED * kfv                      $/kW-mes    6394,28     10410,84    2315,45     4764,93     1523,79
-CARGO POTENCIA EN PUNTA                     $/kW-mes    4637,84     4862,38     3374,18     3555,78     3371,63
-CARGO TRANSP. OTROS AGENTES                  $/KWh       11,09       11,50       10,40       10,88       10,39
-CONSUMO DE ENERGIA (P)                       $/KWh      177,577     184,231     166,557     174,182     166,350
-CONSUMO DE ENERGIA (R)                       $/KWh      174,293     180,824     163,477     170,961     163,268
-CONSUMO DE ENERGIA (V)                       $/KWh      173,105     179,592     162,363     169,796     162,154
-Tarifa de Inyección (P)                      $/KWh      188,665     195,735     176,957     185,059     176,739
-Tarifa de Inyección (R)                      $/KWh      185,381     192,328     173,877     181,837     173,656
-Tarifa de Inyección (V)                      $/KWh      184,193     191,095     172,762     180,672     172,543
+CARGO GESTION COMERCIAL                      $/mes     520820,60   520820,60   520820,60   520820,60   520820,60
+CARGO USO DE RED * kfv                      $/kW-mes    6629,53     10784,70    2411,34     4955,77     1626,35
+CARGO POTENCIA EN PUNTA                     $/kW-mes    4731,04     4960,09     3441,99     3627,24     3439,39
+CARGO TRANSP. OTROS AGENTES                  $/KWh       14,71       15,26       13,80       14,43       13,79
+CONSUMO DE ENERGIA (P)                       $/KWh      176,061     182,659     165,135     172,696     164,959
+CONSUMO DE ENERGIA (R)                       $/KWh      172,177     178,628     161,491     168,885     161,319
+CONSUMO DE ENERGIA (V)                       $/KWh      171,734     178,169     161,077     168,451     160,905
+Tarifa de Inyección (P)                      $/KWh      190,775     197,923     178,935     187,128     178,745
+Tarifa de Inyección (R)                      $/KWh      186,890     193,893     175,292     183,317     175,105
+Tarifa de Inyección (V)                      $/KWh      186,448     193,434     174,877     182,883     174,691
                                        CUADRO TARIFARIO
-Periodo: OCTUBRE 2026                              ENTIDAD INTEGRANTE DEL SISTEMA NACIONAL
+Periodo: NOVIEMBRE 2026                            ENTIDAD INTEGRANTE DEL SISTEMA NACIONAL
                                                          DE BOMBEROS VOLUNTARIOS
 
 
@@ -414,11 +412,10 @@ TARIFA 1 - PEQUEÑAS DEMANDAS - (POTENCIAS MENORES O IGUALES A 10 kW)
 
 
 Hasta 300 kWh/bimestre               T1BV1 m       T1BV1 t
-CARGO FIJO                 $/bimes   22670,30      24585,48
-CARGO VARIABLE             $/kWh     151,112        157,313
-
+CARGO FIJO                 $/bimes   23327,18      25242,35
+CARGO VARIABLE             $/kWh      150,957       157,158
 
 Mayor a 300 kWh/bimestre             T1BV2 m       T1BV2 t
-CARGO FIJO                  $/bim    52669,09      55884,33
-CARGO VARIABLE             $/kWh     136,032        136,032
+CARGO FIJO                  $/bim    54056,56      57271,80
+CARGO VARIABLE             $/kWh      140,917       140,917
 

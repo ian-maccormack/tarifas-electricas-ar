@@ -445,107 +445,89 @@ T4-PSPEE
 Prestadores del Servicio Público de Energía Eléctrica
      Por capacidad de suministro contratada                                                           33.803,72 $/KW-mes
      Capacidad de suministro menor a 300 KW
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                      184,9323
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                      183,1739
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                      190,2001
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo184,9323
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo183,1739
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo190,2001
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
      Demanda Alumbrado Público
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                      184,4381
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                      182,6741
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                      189,7154
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo184,4381
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo182,6741
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo189,7154
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
      Residencial SIN SUBSIDIO
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                      174,4049
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                      172,6392
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                      178,7989
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo174,4049
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo172,6392
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo178,7989
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
      Residencial CON SUBSIDIO hasta 300 KWh
      Por consumo de energía en período horas restante                                      Por consumo de
                                                                                                        70,0454
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+                                                                                                          energía$/KWh
+                                                                                                                  en período horas
      Por consumo de energía en período horas valle/nocturno                                Por consumo de
                                                                                                        69,8997
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+                                                                                                          energía$/KWh
+                                                                                                                  en período horas
      Por consumo de energía en período horas pico                                          Por consumo de
                                                                                                        71,4528
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+                                                                                                          energía$/KWh
+                                                                                                                  en período horas
      Residencial CON SUBSIDIO excedente de 300 KWh
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                       174,4049
-                                                                                                           energía en
-                                                                                                                 $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                       172,6392
-                                                                                                           energía en
-                                                                                                                 $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                       178,7989
-                                                                                                           energía en
-                                                                                                                 $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo174,4049
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo172,6392
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
+     Por consumo de energía en período horas pico                                          Por consumo178,7989
+                                                                                                         de energía$/KWh
+                                                                                                                    en período horas
      Bonificación Residencial Tarifa Electrodependiente - Todo el Consumo                  Bonificación Residencial Tarifa Electrode
      Bonificación Electrodependientes horas restantes                                      Bonificación -32,6323
                                                                                                         Electrodependientes
-                                                                                                                 $/KWh       horas r
+                                                                                                                   $/KWh     horas r
      Bonificación Electrodependientes horas valle/nocturno                                 Bonificación -32,4443
                                                                                                         Electrodependientes
-                                                                                                                 $/KWh       horas v
+                                                                                                                   $/KWh     horas v
      Bonificación Electrodependientes horas pico                                           Bonificación -33,4245
                                                                                                         Electrodependientes
-                                                                                                                 $/KWh       horas p
+                                                                                                                   $/KWh     horas p
      Capacidad de suministro igual o mayor a 300 KW Organismo Públicos Salud / Educación
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                      188,0259
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                      186,1779
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                      193,4169
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo188,0259
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo186,1779
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo193,4169
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
      Clientes con Potencias Iguales o Superiores a 300 KW Resto
      Por capacidad de suministro contratada                                                          33.803,72 $/KW-mes
-     Por consumo de energía en período horas restante                                      Por consumo de
-                                                                                                      209,4845
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                                Por consumo de
-                                                                                                      207,6306
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                          Por consumo de
-                                                                                                      215,3086
-                                                                                                          energía en
-                                                                                                                $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                      Por consumo209,4845
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas valle/nocturno                                Por consumo207,6306
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
+     Por consumo de energía en período horas pico                                          Por consumo215,3086
+                                                                                                       de energía$/KWh
+                                                                                                                  en período horas
 
 
 
@@ -567,18 +549,15 @@ Prestadores del Servicio Público de Energía Eléctrica
      Por consumo de energía en período horas valle/nocturno                                          142,4030 $/KWh
      Por consumo de energía en período horas pico                                                    148,0052 $/KWh
      Demanda Alumbrado Público
-     Por consumo de energía en período horas restante                                     Por consumo de
-                                                                                                     143,4221
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                               Por consumo de
-                                                                                                     142,4030
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                         Por consumo de
-                                                                                                     148,0052
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                     Por consumo143,4221
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
+     Por consumo de energía en período horas valle/nocturno                               Por consumo142,4030
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
+     Por consumo de energía en período horas pico                                         Por consumo148,0052
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
      Residencial SIN SUBSIDIO
      Por consumo de energía en período horas restante                                                120,3093 $/KWh
      Por consumo de energía en período horas valle/nocturno                                          119,4819 $/KWh
@@ -588,21 +567,18 @@ Prestadores del Servicio Público de Energía Eléctrica
      Por consumo de energía en período horas valle/nocturno                                           42,8522 $/KWh
      Por consumo de energía en período horas pico                                         Por consumo de
                                                                                                       44,0447
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
+                                                                                                         energía$/KWh
+                                                                                                                 en período horas
      Residencial CON SUBSIDIO excedente de 300 KWh
-     Por consumo de energía en período horas restante                                     Por consumo de
-                                                                                                     120,3093
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
-     Por consumo de energía en período horas valle/nocturno                               Por consumo de
-                                                                                                     119,4819
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
-     Por consumo de energía en período horas pico                                         Por consumo de
-                                                                                                     124,0597
-                                                                                                         energía en
-                                                                                                               $/KWhperíodo horas
+     Por consumo de energía en período horas restante                                     Por consumo120,3093
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
+     Por consumo de energía en período horas valle/nocturno                               Por consumo119,4819
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
+     Por consumo de energía en período horas pico                                         Por consumo124,0597
+                                                                                                      de energía$/KWh
+                                                                                                                 en período horas
 
      Bonificación Electrodependientes horas restantes                                    Bonificación -32,6323
                                                                                                       Electrodependientes

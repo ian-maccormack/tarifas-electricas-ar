@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-11T17:27:33+00:00",
+ "generado": "2026-11-11T16:49:20+00:00",
  "distribuidoras": [
   {
    "id": "edenor",
@@ -1031,7 +1031,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edenor.com/files/2026-11/Cuadro-Tarifario.pdf (2026-11, 32 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edenor.com/institucional/marco-regulatorio",
@@ -3225,7 +3225,7 @@
     "primary: OK https://www.enre.gov.ar/web/tarifasd.nsf/todoscuadros/937BAA27CA170F3503258E820069D790?opendocument (2026-10, 33 tablas)",
     "extra: OK https://www.edesur.com.ar/wp-content/uploads/2026/11/CT_NOV26_WEB-1.jpg (2026-11, 0 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edesur.com.ar/tarifas-cuadro-tarifario/"
@@ -4905,7 +4905,7 @@
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27779022-GDEBA-GMOCEBA.pdf (2026-09, 4 tablas)",
     "extra: OK https://www.infoedes.com/wp-content/uploads/2026/09/EDES-Cuadro-Tarifario-Septiembre-1.pdf (2026-09, 5 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.infoedes.com/cuadro-tarifario/",
@@ -7150,7 +7150,7 @@
    "intentos": [
     "primary: OK https://www.edeaweb.com.ar/wp-content/uploads/2026/09/Edea_CuadroTarifario_Septiembre-1.pdf (2026-09, 7 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edeaweb.com.ar/cuadro-tarifario/",
@@ -8254,8 +8254,11 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf (2026-09, 5 tablas)",
-    "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-02, 1 tablas)"
+    "parser: ModuleNotFoundError: No module named 'pdfplumber'",
+    "primary: OK https://www.edelap.com.ar/wp-content/uploads/2026/09/EDELAP-Cuadro-tarifario-Septiembre.pdf (2026-09, 1 tablas)",
+    "parser: ModuleNotFoundError: No module named 'pdfplumber'",
+    "known: OK https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf (2026-03, 1 tablas)",
+    "se mantiene el documento publicado (2026-09, texto extraíble): la fuente nueva es del mismo período y solo se lee por OCR"
    ],
    "verificado": "2026-11-11T17:26:37+00:00",
    "oficiales": {
@@ -8595,7 +8598,8 @@
      "Residencial (T1) — sin subsidio: T1-R, categoría según consumo mensual (columna NO SEF)"
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "ultimo_intento": "2026-11-11T16:49:20+00:00"
   },
   {
    "id": "eden",
@@ -9452,7 +9456,7 @@
     "primary: OK https://www.oceba.gba.gov.ar/nueva_web/adjuntos/ct202609/IF-2026-27778714-GDEBA-GMOCEBA.pdf (2026-09, 4 tablas)",
     "extra: OK https://www.edensa.com.ar/wp-content/uploads/2026/09/EDEN-Cuadro-Tarifario-Septiembre.pdf (2026-09, 5 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edensa.com.ar/cuadro-tarifario/",
@@ -10354,7 +10358,7 @@
    "intentos": [
     "primary: OK https://www.ecsapem.com.ar/uploads/Cuadro_Tarifario_Octubre_2026_NO_SUBSIDIADO_Res_DP_341_26_6645b45857.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.ecsapem.com.ar/organization/rates"
@@ -13965,7 +13969,7 @@
    "intentos": [
     "primary: OK https://www.secheep.gob.ar/downloads/paginas/cuadros-tarifarios/Anexo-I-y-II-Cuadros-Tarifarios-de-aplicacion-y-sin-Subsidio-Septiembre-y-Octubre-2026.pdf (2026-10, 9 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.secheep.gob.ar/cuadros-tarifarios.html"
@@ -14320,7 +14324,7 @@
    "intentos": [
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [],
     "nota": "La tabla de fuentes de referencia lista a DGSP como observación, sin links oficiales."
@@ -15724,7 +15728,7 @@
     "extra: OK https://www.epec.com.ar/docs/cuadro-tarifario/cuadro-tarifario-publicado-30102026-aplicacion-011126.pdf (2026-11, 1 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.epec.com.ar/informacion-comercial/grandes-clientes",
@@ -17818,7 +17822,7 @@
     "parser: ValueError: no se encontró la sección /TARIFAS RESIDENCIALES/",
     "extra: OK https://www.dpec.com.ar/es/articulo/1500/descarga/179/Anexo-BO-2954526---08-09-2026---Epre---Dpecpdf (2026-09, 0 tablas)"
    ],
-   "verificado": "2026-11-11T17:26:37+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.dpec.com.ar/1500/Cuadro-Tarifario"
@@ -18472,7 +18476,7 @@
    "intentos": [
     "primary: OK https://epre.gov.ar/web/wp-content/uploads/2026/11/resolucion-epre-184-26-anexo1.xlsx (2026-12, 4 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [],
     "nota": "El SharePoint de ENERSA no permite descargar el PDF sin iniciar sesión; el EPRE publica la misma resolución."
@@ -18648,7 +18652,7 @@
     "primary: LookupError: REFSA: sin períodos",
     "se: OK https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_del_mercado/publicaciones/mercado_electrico/cuadros_tarifarios_desde_2025/REFSA/2026_02_REFSA.pdf"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.recursosyenergia.com.ar/tarifas"
@@ -19070,7 +19074,7 @@
    "intentos": [
     "primary: OK https://www.ejesa.com.ar/info/pwa/blog/GetFile?fileId=UkgRLDps50w= (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-11T17:27:33+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.ejesa.com.ar/info/pwa/institucional/costos-del-servicio"
@@ -20391,7 +20395,7 @@
    "intentos": [
     "known: OK https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf (2026-10, 1 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://ejsedsa.com.ar/wp-content/uploads/2026/06/CT-EJSEDSA-WEB-_-Res-198-2026-_-Mayo-a-Octubre-2026.pdf",
@@ -24316,7 +24320,7 @@
     "primary: ConnectTimeout: HTTPSConnectionPool(host='seym.lapampa.gob.ar', port=443): Max retries exceeded with url: /informacion-publica/tarifas-electricas/2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='seym.lapamp",
     "extra: OK docs/entregados/ape-res-42-26-usuarios-finales.pdf (2026-10, 16 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "docs/entregados/ape-res-41-26-cooperativas.pdf",
@@ -29673,7 +29677,7 @@
     "primary: OK https://www.edelar.com.ar/files.php?f=cuadro-tarifario.pdf (2026-04, 18 tablas)",
     "extra: OK https://www.edelar.com.ar/documentos/cuadro-tarifario.pdf (2026-04, 18 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edelar.com.ar/clientes/pequenas-demandas",
@@ -30182,7 +30186,7 @@
    "intentos": [
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "pago_mensual": {
     "texto": "La factura presenta dos vencimientos, cada uno correspondiente a la mitad del monto total.",
     "url": "https://www.edemsa.com/informacion-comercial/"
@@ -31132,7 +31136,7 @@
     "primary: OK https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20189-2026.pdf (2026-09, 2 tablas)",
     "extra: OK https://www.edeste.com.ar/assets/pdf/cuadro-tarifario/CT-Vigente.pdf (2026-08, 2 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "pago_mensual": {
     "texto": "La factura se encuentra desdoblada con 2 vencimientos, cada uno corresponde a una mitad del monto total.",
     "url": "https://www.edeste.com.ar/preguntasfrecuentes.html"
@@ -32102,7 +32106,7 @@
    "intentos": [
     "primary: OK https://www.boletindigital.misiones.gov.ar/boletines/16681.pdf (2026-08, 1 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.energiademisiones.com.ar/cuadros-tarifarios-vigentes/"
@@ -33456,7 +33460,7 @@
     "primary: OK https://www.epen.gov.ar/wp-content/uploads/2026/10/CT-consumos-09_2026.pdf (2026-09, 6 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.epen.gov.ar/index.php/cuadros-tarifarios/"
@@ -34252,16 +34256,16 @@
    "nota": "",
    "estado": "ok",
    "documento": {
-    "url": "https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf",
-    "titulo": "CT Octubre 2026",
+    "url": "https://www.edersa.com.ar/wp-content/uploads/2026/11/Cuadro-Tarifario-EdERSA-NOVIEMBRE-2026.pdf",
+    "titulo": "CT Noviembre 2026",
     "pagina": "https://www.edersa.com.ar/usuarios/cuadro-tarifario/",
     "origen": "Distribuidora",
     "tipo": "pdf",
-    "sha256": "76f4b374a4fd10357f4af403c087f9642929f8937b3ab4b09d391404637489f1",
-    "bytes": 454124,
+    "sha256": "455642a236643897eb6ef3f30a1294108b5e95fa70b119bb46f47253590002f2",
+    "bytes": 453175,
     "via": "búsqueda automática"
    },
-   "vigencia": "OCTUBRE 2026",
+   "vigencia": "NOVIEMBRE 2026",
    "tablas": [
     {
      "titulo": "Tarifa Residencial (cargos bimestrales)",
@@ -34271,10 +34275,10 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/bimes",
        "valores": [
-        9621.78,
-        11258.41,
-        9715.62,
-        11352.24
+        9798.24,
+        11434.86,
+        9894.03,
+        11530.65
        ],
        "columnas": [
         "Con Subsidio (m)",
@@ -34288,10 +34292,10 @@
        "concepto": "CARGO VARIABLE",
        "unidad": "$/kWh",
        "valores": [
-        193.765,
-        201.772,
-        287.765,
-        295.772
+        196.986,
+        204.993,
+        290.407,
+        298.414
        ],
        "columnas": [
         "Con Subsidio (m)",
@@ -34305,10 +34309,10 @@
        "concepto": "CARGO FIJO",
        "unidad": "$/bim",
        "valores": [
-        27555.82,
-        30501.74,
-        29800.46,
-        32746.38
+        28337.79,
+        31283.71,
+        30629.07,
+        33574.99
        ],
        "columnas": [
         "Con Subsidio (m)",
@@ -34322,10 +34326,10 @@
        "concepto": "CARGO VARIABLE BASE",
        "unidad": "$/kWh",
        "valores": [
-        190.015,
-        191.334,
-        289.656,
-        290.974
+        193.796,
+        195.114,
+        292.974,
+        294.293
        ],
        "columnas": [
         "Con Subsidio (m)",
@@ -34339,8 +34343,8 @@
        "concepto": "CARGO VARIABLE excedente (*)",
        "unidad": "$/KWh",
        "valores": [
-        289.656,
-        290.974
+        292.974,
+        294.293
        ],
        "columnas": null
       }
@@ -34349,9 +34353,9 @@
     }
    ],
    "intentos": [
-    "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/10/Cuadro-Tarifario-EdERSA-OCTUBRE-2026.pdf (2026-10, 1 tablas)"
+    "primary: OK https://www.edersa.com.ar/wp-content/uploads/2026/11/Cuadro-Tarifario-EdERSA-NOVIEMBRE-2026.pdf (2026-11, 1 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edersa.com.ar/usuarios/cuadro-tarifario/"
@@ -34360,14 +34364,14 @@
    },
    "comparable": {
     "cargo_fijo": {
-     "valor": 9715.62,
+     "valor": 9894.03,
      "unidad": "$/bimes",
      "concepto": "CARGO FIJO",
      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
      "columna": "Sin Subsidio (m)"
     },
     "cargo_variable": {
-     "valor": 287.765,
+     "valor": 290.407,
      "unidad": "$/kWh",
      "concepto": "CARGO VARIABLE",
      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
@@ -34378,7 +34382,7 @@
    "texto": true,
    "escaneado": false,
    "ocr": false,
-   "periodo_documento": "2026-10",
+   "periodo_documento": "2026-11",
    "archivo_nacional": {
     "periodo": "2026-06",
     "titulo": "Cuadro Tarifario del 06-2026",
@@ -34387,10 +34391,10 @@
     "no_disponibles": [],
     "comparacion": {
      "resultado": "mas_viejo",
-     "periodo_propio": "2026-10"
+     "periodo_propio": "2026-11"
     }
    },
-   "mes_referencia": "2026-10",
+   "mes_referencia": "2026-11",
    "mes_referencia_origen": "vigencia",
    "simulador": {
     "periodo": "bimestre",
@@ -34399,22 +34403,22 @@
      {
       "nombre": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
       "hasta": 300,
-      "fijo": 9715.62,
+      "fijo": 9894.03,
       "escalones": [
        [
         null,
-        287.765
+        290.407
        ]
       ]
      },
      {
       "nombre": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
       "hasta": null,
-      "fijo": 29800.46,
+      "fijo": 30629.07,
       "escalones": [
        [
         null,
-        289.656
+        292.974
        ]
       ]
      }
@@ -34432,7 +34436,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/bim",
-      "valor": 9715.62
+      "valor": 9894.03
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -34442,7 +34446,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 287.765
+      "valor": 290.407
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -34452,7 +34456,7 @@
       "concepto": "Cargo fijo",
       "tramo": "",
       "unidad": "$/bim",
-      "valor": 29800.46
+      "valor": 30629.07
      },
      {
       "seccion": "Residencial (T1) — sin subsidio",
@@ -34462,7 +34466,7 @@
       "concepto": "Energía",
       "tramo": "todo el consumo",
       "unidad": "$/kWh",
-      "valor": 289.656
+      "valor": 292.974
      }
     ],
     "notas": [
@@ -34700,7 +34704,7 @@
     "primary: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Cuadro_Tarifario_Octubre_2026_EDESA.pdf (2026-10, 4 tablas)",
     "extra: OK https://www.edesa.com.ar/wp-content/uploads/2026/10/Resol-Ente-1770-26-CT-EDESA-Octubre-2026.pdf (2026-10, 4 tablas)"
    ],
-   "verificado": "2026-11-11T17:26:37+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edesa.com.ar/cuadros-tarifarios/",
@@ -35344,7 +35348,7 @@
     "primary: OK https://www.naturgysj.com.ar/wp-content/uploads/2026/09/CT-01-09-2026-al-30-09-2026-ESJ.pdf (2026-09, 3 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "pago_mensual": {
     "texto": "Medición bimestral; se emiten dos facturas mensuales (cuota 1 y cuota 2) que en conjunto representan el costo total del período.",
     "url": "https://www.naturgysj.com.ar/info-util/preguntas-frecuentes/"
@@ -36567,7 +36571,7 @@
     "primary: HTTPError: 403 Client Error: Forbidden for url: https://edesalenergia.com.ar/eener/cuadro_tarifario.html",
     "extra: OK docs/entregados/edesal-cuadro-tarifario-2026-09.pdf (2026-09, 3 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://oficinavirtualedesal.com.ar/ove/upload/CuadroTarifario.pdf"
@@ -37673,7 +37677,7 @@
     "extra: OK docs/entregados/spse-cuadro-tarifario-web-2026-11-04.pdf (2026-09, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://spse.ar/atencion-cliente#cuadroTarifario"
@@ -38095,7 +38099,7 @@
     "primary: OK https://epe.santafe.gov.ar/institucional-api/download/5acb3ae9-59e6-4c7b-a2b1-cad481ff0f7f (2026-10, 5 tablas)",
     "se: ningún archivo descargable (1 enlaces con error)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [],
     "nota": "En las páginas de EPE hay que ir a Tarifas y después a Cuadro Tarifario (usuarios y grandes usuarios) o a Transparencia y después a Comparativas Tarifarias."
@@ -39332,7 +39336,7 @@
    "intentos": [
     "primary: OK https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf (2026-10, 5 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
@@ -40953,8 +40957,9 @@
    ],
    "intentos": [
     "primary: OK https://www.dpe.com.ar/assets/usuarios/Res. DPE 559-2025 - Tarifa Consumo - Decreto Prov. 2489-24 - Res. SEN 334-25.pdf (2025-09, 3 tablas)",
-    "extra: OK https://drive.usercontent.google.com/download?id=1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW&export=download&confirm=t (2026-10, 14 tablas)",
-    "se: ningún archivo descargable (1 enlaces con error)"
+    "extra: PdfStreamError: Stream has ended unexpectedly",
+    "se: ningún archivo descargable (1 enlaces con error)",
+    "se mantiene el documento publicado (2026-10, texto extraíble): la fuente nueva es del mismo período y solo se lee por OCR"
    ],
    "verificado": "2026-11-10T16:47:50+00:00",
    "oficiales": {
@@ -41086,7 +41091,8 @@
      "Residencial (T1) — sin subsidio: TR1 Nivel 1 (transcripción manual del Boletín Oficial)"
     ]
    },
-   "desactualizado": false
+   "desactualizado": false,
+   "ultimo_intento": "2026-11-11T16:49:20+00:00"
   },
   {
    "id": "edet",
@@ -42643,7 +42649,7 @@
    "intentos": [
     "primary: OK https://www.edetsa.com/info/pwa/blog/GetFile?fileId=gUDk5szwrI0= (2026-09, 59 tablas)"
    ],
-   "verificado": "2026-11-10T16:47:50+00:00",
+   "verificado": "2026-11-11T16:49:20+00:00",
    "oficiales": {
     "links": [
      "https://www.edetsa.com/info/pwa/institucional/costos-del-servicio",

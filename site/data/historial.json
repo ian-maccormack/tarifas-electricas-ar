@@ -20555,5 +20555,99 @@
     ]
    }
   ]
+ },
+ {
+  "id": "edersa",
+  "detectado": "2026-11-11T16:49:20+00:00",
+  "sha256": "455642a236643897eb6ef3f30a1294108b5e95fa70b119bb46f47253590002f2",
+  "url": "https://www.edersa.com.ar/wp-content/uploads/2026/11/Cuadro-Tarifario-EdERSA-NOVIEMBRE-2026.pdf",
+  "titulo": "CT Noviembre 2026",
+  "vigencia": "NOVIEMBRE 2026",
+  "tablas": [
+   {
+    "titulo": "Tarifa Residencial (cargos bimestrales)",
+    "filas": [
+     {
+      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/bimes",
+      "valores": [
+       9798.24,
+       11434.86,
+       9894.03,
+       11530.65
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Hasta 300 kWh/bimestre T1R1 m T1R1 t T1R1 m T1R1 t",
+      "concepto": "CARGO VARIABLE",
+      "unidad": "$/kWh",
+      "valores": [
+       196.986,
+       204.993,
+       290.407,
+       298.414
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO FIJO",
+      "unidad": "$/bim",
+      "valores": [
+       28337.79,
+       31283.71,
+       30629.07,
+       33574.99
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO VARIABLE BASE",
+      "unidad": "$/kWh",
+      "valores": [
+       193.796,
+       195.114,
+       292.974,
+       294.293
+      ],
+      "columnas": [
+       "Con Subsidio (m)",
+       "Con Subsidio (t)",
+       "Sin Subsidio (m)",
+       "Sin Subsidio (t)"
+      ]
+     },
+     {
+      "grupo": "Mayor a 300 kWh/bimestre T1R2 m T1R2 t T1R2 m T1R2 t",
+      "concepto": "CARGO VARIABLE excedente (*)",
+      "unidad": "$/KWh",
+      "valores": [
+       292.974,
+       294.293
+      ],
+      "columnas": null
+     }
+    ],
+    "tope_subsidio": 400
+   }
+  ]
  }
 ]
