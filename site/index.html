@@ -18,6 +18,8 @@
       <a href="#contexto" data-view="ctx">Contexto</a>
       <a href="#comparacion" data-view="comp">Comparación</a>
       <a href="#simulador" data-view="sim">Simulador y mapa</a>
+      <a href="#impuestos" data-view="imp">Impuestos</a>
+      <a href="#autogeneracion" data-view="auto">Autogeneración</a>
       <a href="#historial" data-view="hist">Historial</a>
       <a href="#metodologia" data-view="about">Metodología</a>
       <a href="#contacto" data-view="contact" class="btn-outline">Solicitar asesoría</a>
@@ -37,8 +39,10 @@
       <a class="tile" href="#contexto" data-view="ctx"><span class="tnum">02</span><h3>Contexto</h3><p>Guía para entender tipos de tarifa, categorías, escalones y cómo se compone la factura de luz.</p><span class="go">Ingresar →</span></a>
       <a class="tile" href="#comparacion" data-view="comp"><span class="tnum">03</span><h3>Comparación</h3><p>Cargos fijos y de energía de todas las distribuidoras con una misma estructura, por consumo o potencia.</p><span class="go">Ingresar →</span></a>
       <a class="tile" href="#simulador" data-view="sim"><span class="tnum">04</span><h3>Simulador y mapa</h3><p>Costo mensual estimado para un consumo residencial o comercial e industrial, y mapa por provincia.</p><span class="go">Ingresar →</span></a>
-      <a class="tile" href="#historial" data-view="hist"><span class="tnum">05</span><h3>Historial</h3><p>Registro de cada cambio detectado en los documentos oficiales.</p><span class="go">Ingresar →</span></a>
-      <a class="tile" href="#metodologia" data-view="about"><span class="tnum">06</span><h3>Metodología</h3><p>Fuentes, criterios de selección y reglas de verificación de los datos.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#impuestos" data-view="imp"><span class="tnum">05</span><h3>Impuestos y tasas</h3><p>Impuestos y tasas nacionales y provinciales de la factura, con su norma, y el ente regulador de cada distribuidora.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#autogeneracion" data-view="auto"><span class="tnum">06</span><h3>Autogeneración</h3><p>Ahorro estimado con paneles solares y baterías, sin y con impuestos, para hogares, comercios e industrias.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#historial" data-view="hist"><span class="tnum">07</span><h3>Historial</h3><p>Registro de cada cambio detectado en los documentos oficiales.</p><span class="go">Ingresar →</span></a>
+      <a class="tile" href="#metodologia" data-view="about"><span class="tnum">08</span><h3>Metodología</h3><p>Fuentes, criterios de selección y reglas de verificación de los datos.</p><span class="go">Ingresar →</span></a>
     </div>
     <div class="cta-band"><div><h3>¿Necesitás un análisis para tu empresa?</h3><p>Revisamos tu tarifa, tu consumo y las alternativas de contratación de energía.</p></div><a class="btn" href="#contacto" data-view="contact">Solicitar asesoría</a></div>
   </section>
@@ -158,7 +162,8 @@
   es una equivalencia mensual y la tabla original no se modifica. Si falta algún cargo o escalón, el resultado queda vacío.</p>
     <div class="filters">
       <label class="kwh">Tipo de suministro <select id="s-tipo"><option value="res">Residencial (T1)</option><option value="dem">Comercial / industrial (T2 y T3)</option></select></label>
-      <label class="kwh" title="IVA según la Ley 23.349, art. 28. No incluye impuestos provinciales ni tasas municipales">Impuestos <select id="s-iva"><option value="0">Sin impuestos</option><option value="0.21">Con IVA 21 %</option><option value="0.27">Con IVA 27 % (responsable inscripto, fuera de vivienda)</option></select></label>
+      <label class="kwh" title="IVA según la Ley 23.349, art. 28">IVA <select id="s-iva"><option value="0">Sin IVA</option><option value="0.21">Con IVA 21 %</option><option value="0.27">Con IVA 27 % (responsable inscripto, fuera de vivienda)</option></select></label>
+      <label class="chk" title="Impuestos y tasas provinciales verificados de cada distribuidora (ver la sección Impuestos). No incluye tasas municipales"><input type="checkbox" id="s-prov"> Sumar impuestos y tasas provinciales</label>
     </div>
     <p id="s-dem-note" class="note" hidden>Medianas y grandes demandas (10 kW o más). La tarifa (T2 o T3) se elige según la potencia y la tensión que ingreses,
       con los límites de cada cuadro. <b>Supuestos:</b> todos los cargos por potencia se aplican a la potencia ingresada (contratada = registrada,
@@ -188,6 +193,43 @@
         <p class="note small">Hacé clic en una provincia para filtrar la lista. Límites provinciales: IGN (simplificados).</p>
       </div>
     </div>
+  </section>
+  <section id="view-imp" hidden>
+    <div class="phead"><h2>Impuestos y tasas</h2><p>Impuestos y tasas nacionales y provinciales que se suman a la factura de electricidad, con su norma oficial.</p></div>
+    <p class="note" id="i-nota"></p>
+    <div class="filters"><label class="kwh">Provincia <select id="i-prov"><option value="">Todas</option></select></label></div>
+    <div id="i-list"></div>
+    <h3>Entes reguladores</h3>
+    <p class="note">Ente u organismo que aprueba el cuadro tarifario de cada distribuidora. Fuente: <a href="https://www.argentina.gob.ar/energia/entes-reguladores-provinciales-de-energia-electrica-y-gas-natural" target="_blank" rel="noopener">lista oficial de entes reguladores provinciales (Secretaría de Energía)</a>.</p>
+    <div id="i-entes"></div>
+  </section>
+  <section id="view-auto" hidden>
+    <div class="phead"><h2>Autogeneración</h2><p>Cuánto ahorrás si generás tu propia energía (por ejemplo, con paneles solares y baterías).</p></div>
+    <p class="note">El ahorro se calcula con el cuadro oficial de la distribuidora (tarifa plena, sin subsidio). La energía que usás en el momento o desde la batería deja de comprarse a la red.
+      La energía que inyectás a la red solo suma un crédito si el cuadro oficial publica su precio; si no, queda como «no verificable» y no se cuenta. Si falta algún dato, el resultado queda vacío.</p>
+    <div class="filters">
+      <label class="kwh">Provincia <select id="a-prov"></select></label>
+      <label class="kwh">Distribuidora <select id="a-dist"></select></label>
+      <label class="kwh">Tipo de usuario <select id="a-tipo"><option value="res">Residencial (T1)</option><option value="com">Comercio (T2/T3)</option><option value="ind">Industria (T2/T3)</option></select></label>
+    </div>
+    <h3>a) Consumo antes de autogenerar</h3>
+    <div class="filters" id="a-res"><label class="kwh">Consumo <input type="number" id="a-kwh" min="0" step="10" value="300"> kWh/mes</label></div>
+    <div class="filters" id="a-dem" hidden>
+      <label class="kwh">Potencia <input type="number" id="a-kw" min="0" step="1" value="30"> kW</label>
+      <label class="kwh">Tensión <select id="a-ten"><option value="BT">Baja (BT)</option><option value="MT">Media (MT)</option><option value="AT">Alta (AT)</option></select></label>
+      <label class="kwh">Consumo <input type="number" id="a-dkwh" min="0" step="100" value="6000"> kWh/mes</label>
+      <label class="kwh">Pico <input type="number" id="a-pico" min="0" max="100" step="1" value="25"> %</label>
+      <label class="kwh">Valle <input type="number" id="a-valle" min="0" max="100" step="1" value="30"> %</label>
+    </div>
+    <h3>b) Energía que generás</h3>
+    <div class="filters">
+      <label class="kwh">Generación <input type="number" id="a-gen" min="0" step="10" value="200"> kWh/mes</label>
+      <label class="kwh" title="Parte de la generación que se consume en el mismo momento en que se produce">Usada en el momento <input type="number" id="a-auto" min="0" max="100" step="5" value="40"> %</label>
+      <label class="kwh" title="Energía generada que se guarda en baterías">A baterías <input type="number" id="a-bat" min="0" step="10" value="0"> kWh/mes</label>
+      <label class="kwh" title="Parte de la energía guardada que después se usa (pérdidas de carga y descarga)">Rendimiento de la batería <input type="number" id="a-ef" min="0" max="100" step="1" value="90"> %</label>
+    </div>
+    <h3>c) Ahorro</h3>
+    <div id="a-out"></div>
   </section>
   <section id="view-hist" hidden>
     <div class="phead"><h2>Historial</h2><p>Cambios detectados en los documentos oficiales.</p></div>

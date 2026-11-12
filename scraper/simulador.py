@@ -126,7 +126,7 @@ def dpec(tablas):
                             "escalones": [[int(m.group(1)), _val(base)], [None, _val(exc)]] if ok else [[None, None]]}]}
 
 
-@builder("eden", "edes")
+@builder("eden", "edes", "oceba")
 def oceba(tablas):
     """Buenos Aires T1R: the monthly consumption sets the category, whose charges apply to all kWh."""
     filas, cats = tablas[0]["filas"], []
@@ -466,7 +466,7 @@ def squeeze_cat(g):
 
 
 def build(entry):
-    fn = BUILDERS.get(entry["id"])
+    fn = BUILDERS.get(entry.get("parser") or entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
         return None
     try:
@@ -516,7 +516,7 @@ def _pick(rows, rx):
     return f["valores"][0] if f and f["valores"] else None
 
 
-@demanda_builder("eden", "edes")
+@demanda_builder("eden", "edes", "oceba")
 def oceba_demanda(tablas):
     """OCEBA: T2 (10 to <50 kW) and T3 (>= 50 kW, energy split at 300 kW), usuarios finales only."""
     tarifas = []
@@ -758,7 +758,7 @@ def edese_demanda(tablas):
 
 
 def build_demanda(entry):
-    fn = DEMANDA.get(entry["id"])
+    fn = DEMANDA.get(entry.get("parser") or entry["id"])
     if not fn or entry.get("estado") != "ok" or entry.get("ocr"):
         return None
     try:

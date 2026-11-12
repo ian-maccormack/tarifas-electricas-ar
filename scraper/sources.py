@@ -274,7 +274,7 @@ def oceba(empresa):
         def result(vig, reso, pdf, url, archivado=None):
             titulo = f"Cuadro tarifario {empresa} S.A. (OCEBA), consumos desde el {vig}"
             return {"url": url, "titulo": titulo + (" — copia archivada" if archivado else ""), "pagina": OCEBA_PAGE,
-                    "vigencia": f"Consumos desde el {vig}", "resolucion": reso, "archivado": archivado}
+                    "vigencia": f"Consumos desde el {vig}", "resolucion": reso, "archivado": archivado, "parser": "oceba"}
         try:
             blocks = _oceba_blocks(fetch(OCEBA_PAGE, timeout=30).text, empresa)
             if blocks:
@@ -477,6 +477,7 @@ def edesur_img():
 
 
 ORIGEN_BO_TDF = "Boletín Oficial de Tierra del Fuego"
+ORIGEN_OCEBA = "Ente regulador (OCEBA)"
 BO_TDF = "https://drive.google.com/drive/folders/12GrKybtm4cWyS6Ib_DnbwKAQ6JvQHCU6"
 
 
@@ -497,10 +498,12 @@ src("edes", "EDES", "Empresa Distribuidora de Energía Sur S.A.", "Buenos Aires"
     nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
     extra=[(page_latest("https://www.infoedes.com/cuadro-tarifario/", r"/uploads/.*[Cc]uadro.*\.pdf$"), ORIGEN_DIST)])
 src("edea", "EDEA", "Empresa Distribuidora de Energía Atlántica S.A.", "Buenos Aires",
-    page_latest("https://www.edeaweb.com.ar/cuadro-tarifario/", r"/uploads/.*\.pdf$"), se="edea")
+    page_latest("https://www.edeaweb.com.ar/cuadro-tarifario/", r"/uploads/.*\.pdf$"), se="edea",
+    extra=[(oceba("EDEA"), ORIGEN_OCEBA)])
 src("edelap", "EDELAP", "Empresa Distribuidora La Plata S.A.", "Buenos Aires",
     wp_media("https://www.edelap.com.ar", "tarifario", r"/uploads/.*cuadro-tarifario.*\.pdf$"), se="edelap",
-    known="https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf")
+    known="https://www.edelap.com.ar/wp-content/uploads/2026/03/EDELAP-CT-102-2026.pdf",
+    extra=[(oceba("EDELAP"), ORIGEN_OCEBA)])
 src("eden", "EDEN", "Empresa Distribuidora de Energía Norte S.A.", "Buenos Aires",
     oceba("EDEN"), ORIGEN_ENTE, "eden", parser="oceba",
     nota="OCEBA no responde desde el servidor del scraper: se usa la copia más reciente guardada por el Internet Archive.",
@@ -556,7 +559,9 @@ src("edersa", "EDERSA", "Empresa de Energía de Río Negro S.A.", "Río Negro",
 src("edesa", "EDESA", "Empresa Distribuidora de Electricidad de Salta S.A.", "Salta",
     wp_media("https://www.edesa.com.ar", "Cuadro_Tarifario", r"/uploads/.*Cuadro_Tarifario_.*EDESA.*\.pdf$"), se="edesa",
     extra=[(page_latest("https://www.edesa.com.ar/informacion-regulatoria/", r"/uploads/.*(CT|cuadro).*\.pdf$",
-                        exclude_re=r"ESED|Cuadro_Tarifario_"), ORIGEN_DIST)],
+                        exclude_re=r"ESED|Cuadro_Tarifario_"), ORIGEN_DIST),
+           (page_latest("https://ente.gob.ar/cuadros-tarifarios/", r"/uploads/.*(Cuadro-Tarifario|Resolucion).*\.pdf$",
+                        exclude_re=r"COSAySA|agua|sin-subsidio"), "Ente regulador (ENRESP)")],
     nota="Cada mes EDESA publica la resolución del ENRESP (escaneada, solo legible por OCR) y un cuadro tarifario con texto: se usa el cuadro con texto; la resolución se lee por OCR solo si es más nueva.")
 src("esj", "ESJ", "Energía San Juan S.A. (Naturgy San Juan)", "San Juan",
     page_latest("https://www.naturgysj.com.ar/hogar/cuadro-tarifario/", r"uploads/.*CT.*ESJ.*\.pdf$"), se="esj-0")
@@ -568,14 +573,56 @@ src("spse", "SPSE", "Servicios Públicos Sociedad del Estado", "Santa Cruz", Non
     extra=[(entregado("spse-cuadro-tarifario-web-2026-11-04.pdf", "Cuadro tarifario SPSE: página \"Tarifaria Vigente\" (impresa el 04/11/2026)", "https://spse.ar/atencion-cliente#cuadroTarifario", "El sitio de SPSE no responde al servidor del scraper; impresión de la página oficial hecha por Venergy."), ORIGEN_DIST)])
 src("epe", "EPE", "Empresa Provincial de la Energía de Santa Fe", "Santa Fe", epe, se="epe", parser="epe")
 src("edese", "EDESE", "Empresa Distribuidora de Electricidad de Santiago del Estero S.A.", "Santiago del Estero",
-    fixed("https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf", "Cuadro tarifario vigente (EDESE)"), se="edese")
+    fixed("https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf", "Cuadro tarifario vigente (EDESE)"), se="edese",
+    extra=[(page_latest("http://enrese.com.ar/Cuadrotarifario.html", r"cuadrostarifarios/.*\.pdf$"), "Ente regulador (ENRESE)")])
 src("dpe", "DPE", "Dirección Provincial de Energía de Tierra del Fuego", "Tierra del Fuego",
     page_latest("https://www.dpe.com.ar/usuarios/cuadro_tarifario/", r"assets/usuarios/.*Tarifa.*\.pdf$"), se="dpe",
     extra=[(bo_tdf("1BsRmjbJiGuBky0H5a1-vjgWG8S95g8YW", "Resolución D.P.E. N° 595/26, Anexo I — Boletín Oficial de Tierra del Fuego N° 6169 (17/09/2026), págs. 257-258", (257, 258), "dpe-res-595-26.json"), ORIGEN_BO_TDF)])
 src("edet", "EDET", "Empresa de Distribución Eléctrica de Tucumán S.A.", "Tucumán",
     getfile_page("https://www.edetsa.com/info/pwa/institucional/costos-del-servicio", r"cuadro tarifario vigente"), se="edet")
 
+ENTES_SE = "https://www.argentina.gob.ar/energia/entes-reguladores-provinciales-de-energia-electrica-y-gas-natural"
+_OCEBA = ("OCEBA", "Organismo de Control de Energía Eléctrica de la Provincia de Buenos Aires", "https://www.oceba.gba.gov.ar/", "")
+_SUSEPU = ("SUSEPU", "Superintendencia de Servicios Públicos y Otras Concesiones (Jujuy)", "https://susepu.jujuy.gob.ar/", "")
+_EPRE_MZA = ("EPRE Mendoza", "Ente Provincial Regulador Eléctrico de Mendoza", "https://epremendoza.gob.ar/", "")
+_PROPIO = "La lista oficial de entes reguladores provinciales nombra a la propia empresa: no hay un ente regulador independiente."
+# Regulator of each distributor: (sigla, nombre, sitio, nota). Source: ENTES_SE, the Secretaría de Energía list of
+# provincial regulators, plus the ente or the approval cited in the cuadro itself. None = the list names no one.
+REGULADORES = {
+    "edenor": ("ENReGE", "Ente Nacional Regulador del Gas y la Electricidad (ex ENRE)", "https://www.argentina.gob.ar/enrege",
+               "Concesión de jurisdicción nacional: el ente nacional aprueba sus cuadros tarifarios."),
+    "edesur": ("ENReGE", "Ente Nacional Regulador del Gas y la Electricidad (ex ENRE)", "https://www.argentina.gob.ar/enrege",
+               "Concesión de jurisdicción nacional: el ente nacional aprueba sus cuadros tarifarios."),
+    "edes": _OCEBA, "edea": _OCEBA, "edelap": _OCEBA, "eden": _OCEBA,
+    "ecsapem": ("ENRE Catamarca", "Ente Regulador de Servicios Públicos y Otras Concesiones (Catamarca)", "https://enre.catamarca.gob.ar/", ""),
+    "secheep": (None, "SECHEEP (sin ente independiente)", None, _PROPIO),
+    "dgsp": ("EPRESP", "Ente Regulador de Servicios Públicos de la Provincia del Chubut", "https://eprespchubut.gob.ar/", ""),
+    "epec": ("ERSeP", "Ente Regulador de los Servicios Públicos (Córdoba)", "https://ersep.cba.gov.ar/", ""),
+    "dpec": ("EPRE Corrientes", "Ente Provincial Regulador Eléctrico (Corrientes)", None,
+             "Según el propio cuadro, lo aprueban una resolución del EPRE y un decreto provincial. La lista oficial de entes nombra a la DPEC; el EPRE no tiene sitio web propio localizado."),
+    "enersa": ("EPRE Entre Ríos", "Ente Provincial Regulador de la Energía de Entre Ríos", "https://epre.gov.ar/", ""),
+    "refsa": ("EROSP", "Ente Regulador de Obras y Servicios Públicos (Formosa)", None, "No se localizó un sitio web propio del EROSP."),
+    "ejesa": _SUSEPU, "ejsed": _SUSEPU,
+    "ape": ("SEyM La Pampa", "Secretaría de Energía y Minería de La Pampa", "https://seym.lapampa.gob.ar/",
+            "La lista oficial de entes nombra a la propia APE; los cuadros los aprueba por resolución la Secretaría de Energía y Minería provincial."),
+    "edelar": ("EUCOP", "Ente Único de Control de Privatizaciones (La Rioja)", None, "El sitio web del EUCOP no responde."),
+    "edemsa": _EPRE_MZA, "edeste": _EPRE_MZA,
+    "emsa": (None, "Gobierno de Misiones (sin ente en la lista oficial)", "https://energia.misiones.gob.ar/cuadro-tarifario/",
+             "La lista oficial de entes no nombra a ninguno en Misiones. La Secretaría de Energía de Misiones publica los cuadros."),
+    "epen": (None, "EPEN (sin ente independiente)", None, _PROPIO),
+    "edersa": ("EPRE Río Negro", "Ente Provincial Regulador de la Electricidad de Río Negro", "https://www.eprern.gov.ar/", ""),
+    "edesa": ("ENRESP", "Ente Regulador de los Servicios Públicos (Salta)", "https://ente.gob.ar/", ""),
+    "esj": ("EPRE San Juan", "Ente Provincial Regulador de la Electricidad de San Juan", "https://epresanjuan.gob.ar/", ""),
+    "edesal": ("CRPEE", "Comisión Reguladora Provincial de la Energía Eléctrica (San Luis)", None, "No se localizó un sitio web propio de la CRPEE."),
+    "spse": (None, "Sin ente en la lista oficial", None, "La lista oficial de entes no nombra a ninguno en Santa Cruz."),
+    "epe": (None, "EPE (sin ente independiente)", None, _PROPIO),
+    "edese": ("ENRESE", "Ente Regulador de Energía Eléctrica de Santiago del Estero", "http://enrese.com.ar/", ""),
+    "dpe": (None, "DPE (sin ente independiente)", None, _PROPIO),
+    "edet": ("ERSEPT", "Ente Único de Control y Regulación de los Servicios Públicos Provinciales de Tucumán", "https://ersept.gob.ar/", ""),
+}
+
 SOURCES = S
+assert {x["id"] for x in S} == set(REGULADORES)
 
 
 # Official pages and documents per distributor, from the reference table of sources supplied by the site owner.

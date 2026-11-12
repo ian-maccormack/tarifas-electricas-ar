@@ -1,0 +1,310 @@
+{
+ "nota": "Solo impuestos y tasas nacionales y provinciales que gravan la factura eléctrica. Se excluyen tasas y contribuciones municipales. Un concepto sin norma oficial verificada queda sin alícuota y no se aplica en los cálculos.",
+ "actualizado": "2026-11-12",
+ "conceptos": [
+  {
+   "id": "iva21",
+   "nivel": "nacional",
+   "jurisdiccion": "Nación",
+   "distribuidoras": "todas",
+   "nombre": "IVA (alícuota general)",
+   "tipo": "Impuesto",
+   "alicuota": 0.21,
+   "base": "Importe neto facturado por el servicio",
+   "alcance": "Domicilios destinados exclusivamente a vivienda, y usuarios consumidores finales o exentos",
+   "categorias": [
+    "residencial"
+   ],
+   "recauda": "ARCA (ex AFIP), por medio de la distribuidora",
+   "en_cuadro": false,
+   "norma": "Ley de IVA (t.o. 1997), art. 28",
+   "fuente": "https://archivo.consejo.org.ar/Bib_elect/BD_Dic/documentos/art28_IVA.htm",
+   "estado": "verificado"
+  },
+  {
+   "id": "iva27",
+   "nivel": "nacional",
+   "jurisdiccion": "Nación",
+   "distribuidoras": "todas",
+   "nombre": "IVA (alícuota incrementada)",
+   "tipo": "Impuesto",
+   "alicuota": 0.27,
+   "base": "Importe neto facturado por el servicio",
+   "alcance": "Suministros fuera de vivienda cuando el usuario es responsable inscripto, no inscripto o monotributista",
+   "categorias": [
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "ARCA (ex AFIP), por medio de la distribuidora",
+   "en_cuadro": false,
+   "norma": "Ley de IVA (t.o. 1997), art. 28",
+   "fuente": "https://archivo.consejo.org.ar/Bib_elect/BD_Dic/documentos/art28_IVA.htm",
+   "estado": "verificado"
+  },
+  {
+   "id": "ley23681",
+   "nivel": "nacional",
+   "jurisdiccion": "Nación",
+   "distribuidoras": "todas",
+   "nombre": "Recargo Ley 23.681 (6 ‰)",
+   "tipo": "Recargo",
+   "alicuota": 0,
+   "base": "Tarifa a consumidores finales",
+   "alcance": "Sin efecto",
+   "categorias": [],
+   "recauda": "—",
+   "en_cuadro": false,
+   "norma": "Ley 23.681; dejado sin efecto por el Decreto 695/2016",
+   "fuente": "https://www.argentina.gob.ar/normativa/nacional/ley-23681-83/texto",
+   "estado": "sin efecto",
+   "nota": "Algunas páginas oficiales todavía lo mencionan (por ejemplo, el EPRE de Río Negro), pero el Decreto 695/2016 lo dejó sin efecto."
+  },
+  {
+   "id": "ba7290",
+   "nivel": "provincial",
+   "jurisdiccion": "Buenos Aires",
+   "distribuidoras": [
+    "edes",
+    "edea",
+    "edelap",
+    "eden",
+    "edenor",
+    "edesur"
+   ],
+   "nombre": "Impuesto al Servicio de Electricidad (Decreto-Ley 7290/67)",
+   "tipo": "Impuesto",
+   "alicuota_por_categoria": {
+    "residencial": 0.04,
+    "comercial": 0.01,
+    "industrial": 0.01
+   },
+   "base": "Monto total facturado por el servicio",
+   "alcance": "Usuarios de la Provincia de Buenos Aires. En EDENOR y EDESUR solo los partidos del conurbano, no la Ciudad de Buenos Aires",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "Provincia de Buenos Aires, por medio de la distribuidora",
+   "en_cuadro": false,
+   "norma": "Decreto-Ley 7290/67, art. 4 (texto según Ley 15.479)",
+   "fuente": "https://normas.gba.gob.ar/documentos/jxpgpt30.html",
+   "fuente2": "https://www.edesur.com.ar/novedades/11899/",
+   "estado": "verificado",
+   "nota": "Se cobra de nuevo desde el 1 de enero de 2024, según EDESUR. En EDENOR y EDESUR depende del domicilio: no se aplica en la Ciudad de Buenos Aires.",
+   "excepto": {
+    "edenor": "Depende del domicilio: se cobra en los partidos del conurbano, no en la Ciudad de Buenos Aires.",
+    "edesur": "Depende del domicilio: se cobra en los partidos del conurbano, no en la Ciudad de Buenos Aires."
+   }
+  },
+  {
+   "id": "ba9038",
+   "nivel": "provincial",
+   "jurisdiccion": "Buenos Aires",
+   "distribuidoras": [
+    "edes",
+    "edea",
+    "edelap",
+    "eden",
+    "edenor",
+    "edesur"
+   ],
+   "nombre": "Adicional Decreto-Ley 9038/78",
+   "tipo": "Impuesto adicional",
+   "alicuota": 0,
+   "base": "Total facturado por el suministro",
+   "alcance": "Alícuota fijada en 0 %",
+   "categorias": [],
+   "recauda": "—",
+   "en_cuadro": false,
+   "norma": "Decreto-Ley 9038/78, art. 1; Decreto 351/18 (alícuota 0 %)",
+   "fuente": "https://normas.gba.gob.ar/documentos/AB79qtR0.html",
+   "estado": "alícuota 0 %"
+  },
+  {
+   "id": "cba_ersep",
+   "nivel": "provincial",
+   "jurisdiccion": "Córdoba",
+   "distribuidoras": [
+    "epec"
+   ],
+   "nombre": "Tasa de regulación ERSeP (Ley 8835)",
+   "tipo": "Tasa",
+   "alicuota": 0.004,
+   "base": "Neto EPEC",
+   "alcance": "Usuarios de EPEC",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "ERSeP, por medio de EPEC",
+   "en_cuadro": false,
+   "norma": "Ley Provincial 8835",
+   "fuente": "https://ersep.cba.gov.ar/energia-electrica/factura-epec/",
+   "estado": "verificado"
+  },
+  {
+   "id": "cba_10281",
+   "nivel": "provincial",
+   "jurisdiccion": "Córdoba",
+   "distribuidoras": [
+    "epec"
+   ],
+   "nombre": "Tasa Ley 10.281 (seguridad eléctrica)",
+   "tipo": "Tasa",
+   "alicuota": 0.001,
+   "base": "Neto EPEC",
+   "alcance": "Usuarios de EPEC",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "ERSeP, por medio de EPEC",
+   "en_cuadro": false,
+   "norma": "Ley Provincial 10.281 y resolución general del ERSeP",
+   "fuente": "https://ersep.cba.gov.ar/energia-electrica/factura-epec/",
+   "estado": "verificado"
+  },
+  {
+   "id": "mza_ccce",
+   "nivel": "provincial",
+   "jurisdiccion": "Mendoza",
+   "distribuidoras": [
+    "edemsa",
+    "edeste"
+   ],
+   "nombre": "Contribución para la Compensación de Costos Eléctricos (CCCE)",
+   "tipo": "Contribución",
+   "alicuota": 0.09,
+   "base": "Facturación total del servicio eléctrico, sin impuestos",
+   "alcance": "Usuarios de Mendoza (riego agrícola: 6 %)",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "Fondo Provincial Compensador de Tarifas, por medio de la distribuidora",
+   "en_cuadro": false,
+   "norma": "Ley 6497, art. 74 inc. d); Resolución 120/2024 del Ministerio de Energía y Ambiente",
+   "fuente": "https://boe.mendoza.gov.ar/publico/pdf_pedido/d8ad7f760a13a9783d2b08e5a126de49413f739d25",
+   "estado": "verificado",
+   "nota": "Alícuota fijada en abril de 2024. No se encontró una resolución posterior que la cambie."
+  },
+  {
+   "id": "sf_7797",
+   "nivel": "provincial",
+   "jurisdiccion": "Santa Fe",
+   "distribuidoras": [
+    "epe"
+   ],
+   "nombre": "Ley 7797 (6 % para municipios y comunas)",
+   "tipo": "Contribución",
+   "alicuota": 0.06,
+   "base": "Importe básico facturado",
+   "alcance": "Usuarios de la EPE",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "EPE, que lo transfiere a municipios y comunas",
+   "en_cuadro": false,
+   "norma": "Ley Provincial 7797 (vigencia restablecida por Ley 12.920)",
+   "fuente": "https://www.santafe.gov.ar/normativa/item.php?cod=6c49f4cd9da61443592f9d382b6d365e&id=105781",
+   "estado": "verificado",
+   "nota": "La crea una ley provincial, pero lo recaudado va a los municipios."
+  },
+  {
+   "id": "sf_fer",
+   "nivel": "provincial",
+   "jurisdiccion": "Santa Fe",
+   "distribuidoras": [
+    "epe"
+   ],
+   "nombre": "Fondo de Electrificación Rural (FER, Ley 6604)",
+   "tipo": "Gravamen",
+   "alicuota": 0.015,
+   "base": "Monto facturado por el servicio de distribución",
+   "alcance": "Usuarios de la EPE",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "Provincia de Santa Fe, por medio de la EPE",
+   "en_cuadro": false,
+   "norma": "Ley 6604 (texto según Ley 14.269/2024)",
+   "fuente": "https://www.santafe.gob.ar/boletinoficial/ver.php?seccion=2024%2F2024-07-04ley14269-2024.html",
+   "estado": "verificado"
+  },
+  {
+   "id": "rn_iibb",
+   "nivel": "provincial",
+   "jurisdiccion": "Río Negro",
+   "distribuidoras": [
+    "edersa"
+   ],
+   "nombre": "Ingresos Brutos discriminado en factura",
+   "tipo": "Impuesto",
+   "alicuota": 0.018,
+   "base": "Facturación de EDERSA",
+   "alcance": "Usuarios de EDERSA (las cooperativas están exentas)",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "Agencia de Recaudación de Río Negro, por medio de EDERSA",
+   "en_cuadro": false,
+   "norma": "Ley Provincial 2902, art. 35; Decreto 1291/95",
+   "fuente": "https://www.eprern.gov.ar/tarifas.html",
+   "estado": "verificado"
+  },
+  {
+   "id": "sj_iibb",
+   "nivel": "provincial",
+   "jurisdiccion": "San Juan",
+   "distribuidoras": [
+    "esj"
+   ],
+   "nombre": "Ingresos Brutos (distribución de energía)",
+   "tipo": "Impuesto",
+   "alicuota": 0.01,
+   "base": "Componente de distribución (servicio de red)",
+   "alcance": "Usuarios de San Juan",
+   "categorias": [
+    "residencial",
+    "comercial",
+    "industrial"
+   ],
+   "recauda": "Rentas de San Juan, por medio de la distribuidora",
+   "en_cuadro": false,
+   "norma": "Ley 2134-I (Acuerdo San Juan)",
+   "fuente": "https://epresanjuan.gob.ar/wp-content/uploads/2021/06/acuerdo-san-juan-2.pdf",
+   "estado": "verificado",
+   "nota": "Se aplica solo sobre el componente de red, que el cuadro no separa: no se suma en los cálculos.",
+   "suma": false
+  },
+  {
+   "id": "sj_piede",
+   "nivel": "provincial",
+   "jurisdiccion": "San Juan",
+   "distribuidoras": [
+    "esj"
+   ],
+   "nombre": "Fondo PIEDE y Fondo Línea 500 kV",
+   "tipo": "Fondo",
+   "alicuota": null,
+   "base": "Factura de electricidad",
+   "alcance": "Reducidos un 60 % desde 2023; se eliminan desde el 1/1/2028",
+   "categorias": [],
+   "recauda": "Provincia de San Juan",
+   "en_cuadro": false,
+   "norma": "Acuerdo San Juan",
+   "fuente": "https://epresanjuan.gob.ar/wp-content/uploads/2022/11/16-FONDO-PIEDE.pdf",
+   "estado": "sin alícuota verificada"
+  }
+ ]
+}

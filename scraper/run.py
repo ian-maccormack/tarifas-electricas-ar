@@ -10,10 +10,11 @@ import traceback
 from common import document_text, fetch
 from parsers import PARSERS
 from simulador import build as build_sim, build_demanda, build_ocr
+from inyeccion import build_inyeccion
 from normalizado import normalizar
 import re
 
-from sources import _SE_BYTES, NO_OFICIALES, OFICIALES, OFICIALES_NOTA, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
+from sources import _SE_BYTES, ENTES_SE, NO_OFICIALES, REGULADORES, OFICIALES, OFICIALES_NOTA, ORIGEN_SE, PAGO_MENSUAL, SOURCES, WAYBACK, SEUnavailable, _date_key, _wayback, date_key, se_archive
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
@@ -175,7 +176,7 @@ def _read(s, kind, d, origen, intentos):
         if d.get(k):
             doc[k] = d[k]
     parsed = {"vigencia": None, "tablas": []}
-    fn = PARSERS.get(s["parser"])
+    fn = PARSERS.get(d.get("parser") or s["parser"])
     if fn and text.strip():
         try:
             parsed = fn(text, content=content, source=s, sheets=sheets) or parsed
@@ -198,6 +199,8 @@ def _read(s, kind, d, origen, intentos):
                comparable=parsed.get("comparable"), texto=bool(text.strip()),
                escaneado=(tipo == "pdf" and len(text.strip()) < 200), ocr=used_ocr,
                estado="ok" if tablas else "documento")
+    if d.get("parser"):
+        upd["parser"] = d["parser"]
     return upd, text
 
 
@@ -338,6 +341,7 @@ def _secretaria(s, entry):
                     f"({info['periodo']}); en la fuente propia solo se leyó {_ym(ours)}" if same else
                     f"la Secretaría de Energía tiene un cuadro más nuevo ({info['periodo']}) que la fuente propia ({_ym(ours)})"
                     if prev else "la fuente propia no respondió")
+                entry.pop("parser", None)
                 entry.update(upd)
                 entry["intentos"].append(f"se: OK {info['url']}")
                 if prev:
@@ -401,9 +405,12 @@ def mark_staleness(e):
     now = dt.datetime.now(dt.timezone.utc)
     e["mes_referencia"] = f"{ym[0]}-{ym[1]:02d}" if ym else None
     e["mes_referencia_origen"] = origin
+    sig, nom, url, nota = REGULADORES[e["id"]]
+    e["regulador"] = dict(sigla=sig, nombre=nom, url=url, nota=nota or None, fuente=ENTES_SE)
     e["simulador"] = build_sim(e)
     e["demanda"] = build_demanda(e)
     e["simulador_ocr"] = build_ocr(e)
+    e["inyeccion"] = build_inyeccion(e)
     e.pop("simulador_subsidio", None)
     e["normalizado"] = normalizar(e)
     e["desactualizado"] = bool(ym) and (now.year * 12 + now.month) - (ym[0] * 12 + ym[1]) > STALE_MONTHS

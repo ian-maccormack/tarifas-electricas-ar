@@ -65,6 +65,13 @@ function seHTML(e) {
   return h + "</dd>";
 }
 
+function reguladorHTML(e) {
+  const r = e.regulador;
+  if (!r) return "";
+  const nom = (r.sigla ? `<b>${esc(r.sigla)}</b> — ` : "") + esc(r.nombre);
+  return `<dt>Ente regulador</dt><dd>${r.url ? link(r.url, nom) : nom}${r.nota ? `<br><span class="note">${esc(r.nota)}</span>` : ""}<br><span class="note">Fuente: ${link(r.fuente, "lista oficial de entes reguladores provinciales (Secretaría de Energía)")}</span></dd>`;
+}
+
 function card(e) {
   const d = e.documento;
   const stale = e.ultimo_intento_fallido ? `<span class="badge b-stale">Último intento fallido</span>` : "";
@@ -76,6 +83,7 @@ function card(e) {
   if (e.ocr) body += `<div class="alert ocr"><b>Valores leídos por OCR</b> del PDF escaneado. Solo se muestra un número si dos motores de OCR independientes (Tesseract y RapidOCR) leen exactamente lo mismo; si no coinciden, la celda queda vacía. Los textos de filas, encabezados y unidades son la lectura de Tesseract y pueden tener errores; los nombres de columna se muestran solo cuando el encabezado se leyó claramente. Verificá contra el documento antes de usar un valor.</div>`;
   body += `<dl class="kv">
     <dt>Razón social</dt><dd>${esc(e.nombre)}</dd>
+    ${reguladorHTML(e)}
     <dt>Vigencia (según documento)</dt><dd>${e.vigencia ? esc(e.vigencia) : '<span class="empty">sin dato</span>'}</dd>
     <dt>Mes de referencia</dt><dd>${e.mes_referencia ? `${esc(mesfmt(e.mes_referencia))} <span class="note">(según ${esc(e.mes_referencia_origen)})</span>` : '<span class="empty">sin dato</span>'}</dd>`;
   if (d) body += `<dt>Documento oficial</dt><dd><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.titulo || d.url)}</a> (${esc(d.tipo)})</dd>
@@ -284,11 +292,26 @@ function ivaRate() {
   if (res && o.value === "0.27") o.value = "0.21";
   return +o.value || 0;
 }
-const withIva = (x, iva) => Object.assign(x, { iva, base: x.total, total: x.total === null ? null : x.total * (1 + iva) });
+let IMP = { conceptos: [] }, AUTO = { provincias: {} };
+const pct = (r) => num(100 * r, 2) + " %";
+function provTax(e, cat) {
+  return IMP.conceptos.filter((c) => c.nivel === "provincial" && Array.isArray(c.distribuidoras) && c.distribuidoras.includes(e.id) && c.suma !== false && !(c.excepto || {})[e.id])
+    .map((c) => ({ nombre: `${c.nombre} ${pct(c.alicuota_por_categoria ? c.alicuota_por_categoria[cat] || 0 : c.alicuota || 0)}`, rate: c.alicuota_por_categoria ? c.alicuota_por_categoria[cat] || 0 : c.alicuota || 0 }))
+    .filter((t) => t.rate > 0);
+}
+function taxList(e, cat, iva, prov) {
+  const L = iva ? [{ nombre: `IVA ${num(100 * iva, 0)} % (Ley de IVA, art. 28)`, rate: iva }] : [];
+  return prov ? L.concat(provTax(e, cat)) : L;
+}
+const taxRate = (L) => L.reduce((a, t) => a + t.rate, 0);
+function withTax(x, iva) {
+  x.taxes = taxList(x.e, x.dem ? "comercial" : "residencial", iva, $("#s-prov").checked);
+  return Object.assign(x, { iva, base: x.total, total: x.total === null ? null : x.total * (1 + taxRate(x.taxes)) });
+}
 function ivaRows(x) {
-  if (!x.iva || x.base === null) return "";
-  return `<tr><td>IVA ${num(100 * x.iva, 0)} % (Ley 23.349, art. 28)</td><td class="num">${money(x.base * x.iva)}</td></tr>` +
-    `<tr><td><b>Total mensual con IVA</b> (sin impuestos provinciales ni tasas municipales)</td><td class="num"><b>${money(x.total)}</b> /mes</td></tr>`;
+  if (!x.taxes?.length || x.base === null) return "";
+  return x.taxes.map((t) => `<tr><td>${esc(t.nombre)}</td><td class="num">${money(x.base * t.rate)}</td></tr>`).join("") +
+    `<tr><td><b>Total mensual con impuestos</b> (sin tasas municipales)</td><td class="num"><b>${money(x.total)}</b> /mes</td></tr>`;
 }
 function simResults() {
   const iva = ivaRate();
@@ -301,7 +324,7 @@ function simResults() {
         if (!r.t) motivo = "El cuadro no tiene una tarifa T2/T3 para esa potencia y tensión";
         else if (r.total === null) motivo = "Al cuadro le faltan cargos para esta tarifa";
       } else motivo = e.estado !== "ok" ? "Sin valores extraídos" : e.ocr ? "Valores leídos por OCR: no se usan en el simulador" : "Las tarifas T2/T3 de este cuadro todavía no están cargadas en el simulador";
-      return withIva({ e, r, total: r ? r.total : null, motivo, dem: true }, iva);
+      return withTax({ e, r, total: r ? r.total : null, motivo, dem: true }, iva);
     });
   }
   const kwh = Math.max(0, +$("#s-kwh").value || 0), mes = new Date().getMonth() + 1;
@@ -312,7 +335,7 @@ function simResults() {
     else if (e.estado !== "ok") motivo = e.estado === "documento" ? "Sin valores extraídos (solo documento)" : "Sin fuente disponible";
     else if (e.ocr) motivo = e.simulador_ocr ? "Valores leídos por OCR: activá «Incluir valores leídos por OCR»" : "Valores leídos por OCR: la estructura del cuadro no se pudo armar con seguridad";
     else motivo = "La estructura de este cuadro todavía no está cargada en el simulador";
-    return withIva({ e, r, total: r ? r.total : null, motivo, sim, mes }, iva);
+    return withTax({ e, r, total: r ? r.total : null, motivo, sim, mes }, iva);
   });
 }
 function detalleDem(x) {
@@ -351,7 +374,7 @@ function renderSim() {
   }
   const n = all.filter((x) => x.total !== null).length;
   $("#s-list").innerHTML = h || '<p class="note">Ninguna distribuidora con resultado para este filtro.</p>';
-  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (all[0]?.iva ? ` · <b>con IVA ${num(100 * all[0].iva, 0)} %</b>, sin impuestos provinciales ni tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
+  $("#s-summary").innerHTML = `${n} de ${all.length} distribuidoras con resultado para ${esc(simLabel())}` + (all[0]?.iva || $("#s-prov").checked ? ` · <b>${all[0]?.iva ? `con IVA ${num(100 * all[0].iva, 0)} %` : "sin IVA"}${$("#s-prov").checked ? " y con impuestos y tasas provinciales" : ", sin impuestos provinciales"}</b>, sin tasas municipales` : " · sin impuestos") + (SIM.prov ? ` · provincia: <b>${esc(SIM.prov)}</b> <button class="link" id="s-clear">quitar filtro</button>` : "");
   $("#s-clear")?.addEventListener("click", () => { SIM.prov = ""; renderSim(); });
   renderMap(all);
 }
@@ -408,7 +431,7 @@ function renderHist() {
 }
 
 window.openCard = (id) => { show("dist", false); const d = $("#d-" + id); if (d) { d.open = true; d.scrollIntoView(); } };
-const SLUG = { home: "inicio", dist: "distribuidoras", ctx: "contexto", comp: "comparacion", sim: "simulador", hist: "historial", about: "metodologia", contact: "contacto" };
+const SLUG = { home: "inicio", dist: "distribuidoras", ctx: "contexto", comp: "comparacion", sim: "simulador", imp: "impuestos", auto: "autogeneracion", hist: "historial", about: "metodologia", contact: "contacto" };
 function show(v, top = true) {
   document.querySelectorAll("[data-view]").forEach((b) => b.classList.toggle("active", b.dataset.view === v && !b.classList.contains("tile")));
   document.querySelectorAll("main>section").forEach((s) => (s.hidden = s.id !== "view-" + v));
@@ -422,6 +445,76 @@ function route() {
   show(Object.keys(SLUG).find((k) => SLUG[k] === h) || "home");
 }
 
+// ---- Impuestos y tasas + entes ----
+function renderImp() {
+  const prov = $("#i-prov").value;
+  $("#i-nota").textContent = IMP.nota || "";
+  const L = IMP.conceptos.filter((c) => c.nivel === "nacional" || !prov || c.jurisdiccion === prov);
+  const groups = [...new Set(L.map((c) => c.jurisdiccion))];
+  const rate = (c) => c.alicuota_por_categoria ? Object.entries(c.alicuota_por_categoria).map(([k, v]) => `${esc(k)}: ${pct(v)}`).join("<br>") : c.alicuota == null ? '<span class="empty">sin dato verificado</span>' : pct(c.alicuota);
+  let h = "";
+  for (const g of groups) {
+    h += `<h4>${esc(g)}</h4><div class="twrap"><table><thead><tr><th>Concepto</th><th>Tipo</th><th>Alícuota</th><th>Base</th><th>A quién se aplica</th><th>Cobra</th><th>Norma</th><th>Estado</th></tr></thead><tbody>`;
+    for (const c of L.filter((c) => c.jurisdiccion === g)) {
+      const dist = Array.isArray(c.distribuidoras) ? `<br><span class="note">${esc(c.distribuidoras.map((i) => DATA.distribuidoras.find((e) => e.id === i)?.empresa || i).join(", "))}</span>` : "";
+      h += `<tr><td><b>${esc(c.nombre)}</b>${dist}${c.nota ? `<br><span class="note">${esc(c.nota)}</span>` : ""}</td><td>${esc(c.tipo)}</td><td class="num">${rate(c)}</td><td>${esc(c.base)}</td><td>${esc(c.alcance)}</td><td>${esc(c.recauda)}</td><td>${link(c.fuente, c.norma)}${c.fuente2 ? `<br>${link(c.fuente2, "fuente complementaria")}` : ""}</td><td>${esc(c.estado)}${c.suma === false ? '<br><span class="note">no se suma en los cálculos</span>' : ""}</td></tr>`;
+    }
+    h += "</tbody></table></div>";
+  }
+  const sin = [...new Set(DATA.distribuidoras.map((e) => e.provincia))].filter((p) => (!prov || p === prov) && !IMP.conceptos.some((c) => c.nivel === "provincial" && Array.isArray(c.distribuidoras) && DATA.distribuidoras.some((e) => e.provincia === p && c.distribuidoras.includes(e.id))));
+  if (sin.length) h += `<p class="note"><b>Sin impuestos o tasas provinciales verificados en una norma oficial:</b> ${esc(sin.sort().join(", "))}. Se dejan vacíos hasta encontrar la fuente oficial.</p>`;
+  $("#i-list").innerHTML = h;
+  const E = DATA.distribuidoras.filter((e) => !prov || e.provincia === prov);
+  $("#i-entes").innerHTML = `<div class="twrap"><table><thead><tr><th>Distribuidora</th><th>Provincia</th><th>Ente regulador</th><th>Nota</th></tr></thead><tbody>${E.map((e) => { const r = e.regulador || {}; const nom = (r.sigla ? `<b>${esc(r.sigla)}</b> — ` : "") + esc(r.nombre || "sin dato"); return `<tr><td><a href="#d-${e.id}" onclick="openCard('${e.id}')">${esc(e.empresa)}</a></td><td>${esc(e.provincia)}</td><td>${r.url ? link(r.url, nom) : nom}</td><td class="note">${esc(r.nota || "")}</td></tr>`; }).join("")}</tbody></table></div>`;
+}
+// ---- Autogeneración ----
+const CAT = { res: "residencial", com: "comercial", ind: "industrial" };
+function autoFill() {
+  const provs = [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort();
+  $("#a-prov").innerHTML = provs.map((p) => `<option>${esc(p)}</option>`).join("");
+  autoDist();
+}
+function autoDist() {
+  $("#a-dist").innerHTML = DATA.distribuidoras.filter((e) => e.provincia === $("#a-prov").value).map((e) => `<option value="${e.id}">${esc(e.empresa)}</option>`).join("");
+}
+function renderAuto() {
+  const e = DATA.distribuidoras.find((x) => x.id === $("#a-dist").value);
+  if (!e) return;
+  const tipo = $("#a-tipo").value, dem = tipo !== "res", cat = CAT[tipo];
+  $("#a-res").hidden = dem; $("#a-dem").hidden = !dem;
+  const v = (id) => Math.max(0, +$(id).value || 0);
+  const pico = Math.min(100, v("#a-pico")) / 100, q = { kw: v("#a-kw"), ten: $("#a-ten").value, kwh: v("#a-dkwh"), pico, valle: Math.min(1 - pico, v("#a-valle") / 100) };
+  const cons = dem ? q.kwh : v("#a-kwh"), gen = v("#a-gen"), ef = Math.min(100, v("#a-ef")) / 100;
+  const direct = Math.min(gen * Math.min(100, v("#a-auto")) / 100, cons);
+  const bat = Math.min(v("#a-bat"), gen - direct), batUse = Math.min(bat * ef, cons - direct);
+  const iny = Math.max(0, gen - direct - bat), compra = Math.max(0, cons - direct - batUse);
+  const mes = new Date().getMonth() + 1;
+  let antes = null, despues = null, motivo = "";
+  if (dem) {
+    if (!e.demanda) motivo = "Las tarifas T2/T3 de este cuadro no están cargadas en el simulador";
+    else { antes = simulateDem(e.demanda, q).total; despues = simulateDem(e.demanda, { ...q, kwh: compra }).total; if (antes === null) motivo = "El cuadro no tiene una tarifa T2/T3 completa para esa potencia y tensión"; }
+  } else if (!e.simulador) motivo = e.ocr ? "Valores leídos por OCR: no se usan en el cálculo" : "La estructura de este cuadro no está cargada en el simulador";
+  else { antes = simulate(e.simulador, cons, mes).total; despues = simulate(e.simulador, compra, mes).total; if (antes === null || despues === null) motivo = "Al cuadro le faltan cargos o escalones para este consumo"; }
+  const iv = e.inyeccion, precio = iv ? iv[dem ? "no_residencial" : "residencial"] : null;
+  const credito = precio == null ? null : iny * precio;
+  const reg = AUTO.provincias[e.provincia] || {};
+  const taxes = taxList(e, cat, dem ? 0.27 : 0.21, true), r = taxRate(taxes);
+  const row = (t, val, cls = "") => `<tr${cls}><td>${t}</td><td class="num">${val}</td></tr>`;
+  const kw = (x) => `${num(x, 1)} kWh/mes`;
+  let h = `<div class="sim-det"><table><tbody>${row("Consumo antes de autogenerar", kw(cons))}${row("Generación", kw(gen))}${row("Usada en el momento", kw(direct))}${row("Guardada en baterías", kw(bat))}${row("Usada desde las baterías", kw(batUse))}${row("<b>Comprada a la red después de autogenerar</b>", `<b>${kw(compra)}</b>`)}${row("Inyectada a la red", kw(iny))}</tbody></table>`;
+  h += `<p><b>Régimen:</b> ${reg.regimen ? esc(reg.regimen) : '<span class="empty">sin dato</span>'}${reg.fuente ? ` (${link(reg.fuente, "fuente")})` : ""}${reg.nota ? ` <span class="note">${esc(reg.nota)}</span>` : ""}</p>`;
+  h += `<p><b>Precio de la energía inyectada:</b> ${precio == null ? '<span class="empty">no verificable</span> <span class="note">El cuadro oficial de esta distribuidora no publica un precio legible para la energía inyectada: no se calcula crédito.</span>' : `${num(precio)} $/kWh <span class="note">(${esc(iv.detalle)}${iv.documento ? `, ${link(iv.documento, "cuadro oficial")}` : ""})</span>`}</p>`;
+  if (antes === null || despues === null) { $("#a-out").innerHTML = h + `<p class="note">${esc(motivo || "Sin resultado")}.</p></div>`; return; }
+  const ah = antes - despues + (credito || 0), cr = credito == null ? '<span class="empty">no verificable</span>' : `− ${money(credito)}`;
+  h += `<div class="twrap"><table><thead><tr><th></th><th>Sin impuestos</th><th>Con impuestos nacionales y provinciales</th></tr></thead><tbody>
+    <tr><td>Factura antes de autogenerar</td><td class="num">${money(antes)}</td><td class="num">${money(antes * (1 + r))}</td></tr>
+    <tr><td>Factura por la energía comprada después de autogenerar</td><td class="num">${money(despues)}</td><td class="num">${money(despues * (1 + r))}</td></tr>
+    <tr><td>Crédito por energía inyectada</td><td class="num">${cr}</td><td class="num">${cr}</td></tr>
+    <tr><td><b>Ahorro mensual</b></td><td class="num"><b>${money(ah)}</b></td><td class="num"><b>${money(antes * (1 + r) - despues * (1 + r) + (credito || 0))}</b></td></tr></tbody></table></div>`;
+  h += `<p class="note"><b>Impuestos aplicados:</b> ${taxes.map((t) => esc(t.nombre)).join(" · ")}. ${dem ? "En comercios e industrias se toma IVA 27 % (responsable inscripto); si sos consumidor final o exento corresponde 21 %. " : ""}No incluye tasas municipales. El crédito por inyección se muestra sin impuestos: su tratamiento impositivo en la factura no está verificado.${dem ? " Los cargos por potencia no cambian: se supone la misma potencia contratada." : " Si el consumo comprado baja de escalón o categoría, se usa la que corresponde."}</p></div>`;
+  $("#a-out").innerHTML = h;
+}
+
 async function init() {
   DATA = await (await fetch("data/tarifas.json", { cache: "no-store" })).json();
   try { HIST = await (await fetch("data/historial.json", { cache: "no-store" })).json(); } catch { HIST = []; }
@@ -432,7 +525,7 @@ async function init() {
   ["#c-prov", "#c-data", "#c-ocr", "#c-old", "#c-tarifa", "#c-crit", "#c-kwh", "#c-kw", "#c-ten", "#c-mes"].forEach((s) => $(s).addEventListener("input", renderComp));
   $("#s-kwh").addEventListener("input", () => { $("#s-range").value = $("#s-kwh").value; renderSim(); });
   $("#s-range").addEventListener("input", () => { $("#s-kwh").value = $("#s-range").value; renderSim(); });
-  ["#s-all", "#s-ocr", "#s-iva", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
+  ["#s-all", "#s-ocr", "#s-iva", "#s-prov", "#m-modo", "#d-kw", "#d-ten", "#d-kwh", "#d-pico", "#d-valle"].forEach((s) => $(s).addEventListener("input", renderSim));
   $("#s-tipo").addEventListener("input", () => {
     const dem = $("#s-tipo").value === "dem";
     $("#s-dem").hidden = $("#s-dem-note").hidden = !dem; $("#s-res").hidden = $("#s-res-note").hidden = dem; renderSim();
@@ -440,7 +533,14 @@ async function init() {
   document.querySelectorAll("a[data-view]").forEach((b) => b.addEventListener("click", (ev) => { ev.preventDefault(); show(b.dataset.view); }));
   $(".menu-btn").addEventListener("click", () => document.body.classList.toggle("menu-open"));
   window.addEventListener("popstate", route);
-  renderList(); renderComp(); renderHist(); renderSim(); route();
+  try { IMP = await (await fetch("data/impuestos.json", { cache: "no-store" })).json(); } catch { }
+  try { AUTO = await (await fetch("data/autogeneracion.json", { cache: "no-store" })).json(); } catch { }
+  [...new Set(DATA.distribuidoras.map((e) => e.provincia))].sort().forEach((p) => $("#i-prov").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
+  $("#i-prov").addEventListener("input", renderImp);
+  autoFill();
+  $("#a-prov").addEventListener("input", () => { autoDist(); renderAuto(); });
+  ["#a-dist", "#a-tipo", "#a-kwh", "#a-kw", "#a-ten", "#a-dkwh", "#a-pico", "#a-valle", "#a-gen", "#a-auto", "#a-bat", "#a-ef"].forEach((id) => $(id).addEventListener("input", renderAuto));
+  renderList(); renderComp(); renderHist(); renderSim(); renderImp(); renderAuto(); route();
   try { MAP = await (await fetch("data/provincias.json")).json(); renderSim(); } catch { $("#map-wrap").hidden = true; }
 }
 init();
