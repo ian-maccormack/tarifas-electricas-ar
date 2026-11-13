@@ -28474,5 +28474,1780 @@
     ]
    }
   ]
+ },
+ {
+  "id": "ecsapem",
+  "detectado": "2026-11-13T16:57:26+00:00",
+  "sha256": "1141a056f92bfe65a8fbc035023a1fcc958af42fa082367e12a14585491550c6",
+  "url": "https://www.ecsapem.com.ar/uploads/Cuadros_Tarifarios_Noviembre_2026_NO_SUBSIDIADO_Res_DP_374_26_8182ef395e.pdf",
+  "titulo": "Cuadros Tarifarios Noviembre 2026 - NO SUBSIDIADO-Res DP 374-26.pdf",
+  "vigencia": "CUADRO TARIFARIO NOVIEMBRE 2026",
+  "tablas": [
+   {
+    "titulo": "T1 Residencial / General / AP",
+    "filas": [
+     {
+      "grupo": "RESTO",
+      "concepto": "Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo(*)",
+      "unidad": "$/MES",
+      "valores": [
+       1809.26,
+       34736.54,
+       36545.8
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "Cargo variable por consumo de energia UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo Variable por todo Consumo de Energía RESIDENCIAL NO BONIFICADO (*)",
+      "unidad": "$/KWh.",
+      "valores": [
+       45.152,
+       113.9541,
+       159.1061
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo fijo",
+      "unidad": "$/MES",
+      "valores": [
+       1809.26,
+       0.0,
+       1809.26
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "ELECTRODEPENDIENTES UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energia",
+      "unidad": "$/KWh.",
+      "valores": [
+       45.152,
+       0.0,
+       45.152
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo fijo",
+      "unidad": "$/MES",
+      "valores": [
+       2291.89,
+       154126.65,
+       156418.54
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - G USO GENERAL UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energía",
+      "unidad": "$/KWh.",
+      "valores": [
+       55.3944,
+       146.6554,
+       202.0498
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     },
+     {
+      "grupo": "T1 - AP ALUMBRADO PÚBLICO UNIDAD VAD MEM TOTAL",
+      "concepto": "Cargo variable por consumo de energía",
+      "unidad": "$/KWh.",
+      "valores": [
+       58.7762,
+       208.4289,
+       267.2051
+      ],
+      "columnas": [
+       "VAD",
+       "MEM",
+       "TOTAL"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "edemsa",
+  "detectado": "2026-11-13T16:57:26+00:00",
+  "sha256": "d044f4cd73bb93d8a5dd9da2344947936323f30e6355ebe84b845050bb18ef6b",
+  "url": "https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20221-2026.pdf",
+  "titulo": "CUADROS TARIFARIOS. Vigencia 01 Noviembre 2026",
+  "vigencia": "desde el 01 de Noviembre 2026",
+  "tablas": [
+   {
+    "titulo": "Residencial (R) y General",
+    "filas": [
+     {
+      "grupo": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       8526621.0,
+       7893019.0,
+       7681791.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       9299861.0,
+       7640151.0,
+       9299861.0,
+       7086843.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2978234.0,
+       1828933.0,
+       1297573.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2894315.0,
+       1823271.0,
+       2894315.0,
+       1318000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       54659736.0,
+       41234213.0,
+       54659736.0,
+       36758465.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "GENERAL (G)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       19954529.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2593782.0,
+       1651047.0,
+       2593782.0,
+       1188551.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "GENERAL (G)",
+      "concepto": "C. Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       3348079.0
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 2 (T2) - Grandes demandas (más de 10 kW), conectado a la red",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO COMERCIALIZACIÓN",
+      "unidad": "$/mes",
+      "valores": [
+       44163855.0,
+       44163855.0,
+       65293666.0,
+       65293666.0,
+       643319909.0,
+       643319909.0,
+       868409562.0,
+       868409562.0,
+       2834182484.0,
+       2834182484.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "USO DE RED",
+      "unidad": "$/kW-mes",
+      "valores": [
+       65474663.0,
+       65474663.0,
+       55075170.0,
+       55075170.0,
+       50809195.0,
+       50809195.0,
+       39095629.0,
+       39095629.0,
+       28017405.0,
+       28017405.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "CONSUMO DE POTENCIA",
+      "unidad": "$/kW-mes",
+      "valores": [
+       10454284.0,
+       10454284.0,
+       10233507.0,
+       10233507.0,
+       10038096.0,
+       10038096.0,
+       9781617.0,
+       9781617.0,
+       9633820.0,
+       9633820.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "PICO (P) - 18 a 23hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1592557.0,
+       1756717.0,
+       1506393.0,
+       1661671.0,
+       1489086.0,
+       1642580.0,
+       1451022.0,
+       1600593.0,
+       1430679.0,
+       1578153.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "RESTO (R) - 05 a 18hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1542898.0,
+       1700989.0,
+       1459421.0,
+       1608958.0,
+       1442654.0,
+       1590473.0,
+       1405777.0,
+       1549818.0,
+       1386068.0,
+       1528090.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "VALLE (V) - 23 a 05hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1533430.0,
+       1690357.0,
+       1450464.0,
+       1598901.0,
+       1433800.0,
+       1580532.0,
+       1397150.0,
+       1540131.0,
+       1377562.0,
+       1518538.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "edeste",
+  "detectado": "2026-11-13T16:57:26+00:00",
+  "sha256": "d044f4cd73bb93d8a5dd9da2344947936323f30e6355ebe84b845050bb18ef6b",
+  "url": "https://epremendoza.gob.ar/2019/informesT/cuadrosT-Vigentes/CT%20Res%20221-2026.pdf",
+  "titulo": "CUADROS TARIFARIOS. Vigencia 01 Noviembre 2026",
+  "vigencia": "desde el 01 de Noviembre 2026",
+  "tablas": [
+   {
+    "titulo": "Residencial (R) y General",
+    "filas": [
+     {
+      "grupo": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       8526621.0,
+       7893019.0,
+       7681791.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       9299861.0,
+       7640151.0,
+       9299861.0,
+       7086843.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 1 (Hasta 299 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2978234.0,
+       1828933.0,
+       1297573.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 2 (entre 300 y 599 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2894315.0,
+       1823271.0,
+       2894315.0,
+       1318000.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       54659736.0,
+       41234213.0,
+       54659736.0,
+       36758465.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "GENERAL (G)",
+      "concepto": "Cargo Fijo",
+      "unidad": "$/Bim",
+      "valores": [
+       19954529.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Residencial 3 (Mayor o igual a 600 kWh/Bim)",
+      "concepto": "Cargo Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       2593782.0,
+       1651047.0,
+       2593782.0,
+       1188551.0
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "GENERAL (G)",
+      "concepto": "C. Variable",
+      "unidad": "$/kWh",
+      "valores": [
+       3348079.0
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa 2 (T2) - Grandes demandas (más de 10 kW), conectado a la red",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "CARGO COMERCIALIZACIÓN",
+      "unidad": "$/mes",
+      "valores": [
+       44163855.0,
+       44163855.0,
+       65293666.0,
+       65293666.0,
+       643319909.0,
+       643319909.0,
+       868409562.0,
+       868409562.0,
+       2834182484.0,
+       2834182484.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "USO DE RED",
+      "unidad": "$/kW-mes",
+      "valores": [
+       65474663.0,
+       65474663.0,
+       55075170.0,
+       55075170.0,
+       50809195.0,
+       50809195.0,
+       39095629.0,
+       39095629.0,
+       28017405.0,
+       28017405.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "CONSUMO DE POTENCIA",
+      "unidad": "$/kW-mes",
+      "valores": [
+       10454284.0,
+       10454284.0,
+       10233507.0,
+       10233507.0,
+       10038096.0,
+       10038096.0,
+       9781617.0,
+       9781617.0,
+       9633820.0,
+       9633820.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "PICO (P) - 18 a 23hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1592557.0,
+       1756717.0,
+       1506393.0,
+       1661671.0,
+       1489086.0,
+       1642580.0,
+       1451022.0,
+       1600593.0,
+       1430679.0,
+       1578153.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "RESTO (R) - 05 a 18hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1542898.0,
+       1700989.0,
+       1459421.0,
+       1608958.0,
+       1442654.0,
+       1590473.0,
+       1405777.0,
+       1549818.0,
+       1386068.0,
+       1528090.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     },
+     {
+      "grupo": null,
+      "concepto": "VALLE (V) - 23 a 05hs.",
+      "unidad": "$/kWh",
+      "valores": [
+       1533430.0,
+       1690357.0,
+       1450464.0,
+       1598901.0,
+       1433800.0,
+       1580532.0,
+       1397150.0,
+       1540131.0,
+       1377562.0,
+       1518538.0
+      ],
+      "columnas": [
+       "T2 R BT 10–300 kW",
+       "T2 R BT ≥ 300 kW",
+       "T2 B MT/BT 10–300 kW",
+       "T2 B MT/BT ≥ 300 kW",
+       "T2 R MT 10–300 kW",
+       "T2 R MT ≥ 300 kW",
+       "T2 B AT/MT 10–300 kW",
+       "T2 B AT/MT ≥ 300 kW",
+       "T2 R AT 10–300 kW",
+       "T2 R AT ≥ 300 kW"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "edese",
+  "detectado": "2026-11-13T16:57:26+00:00",
+  "sha256": "28d20d88bf0bb3f5d71df03ec5ea8e1987928d2d74e4d96aa7687f1ca71b1b51",
+  "url": "https://www.edese.com.ar/public/assets/archivos/CuadroTarifarioVigente.pdf",
+  "titulo": "Cuadro tarifario vigente (EDESE)",
+  "vigencia": "1 de NOVIEMBRE del 2026",
+  "tablas": [
+   {
+    "titulo": "T1 Residencial",
+    "filas": [
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       4526.25
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       219.465
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       18332.55
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.444
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       32631.94
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.474
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       43998.12
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.524
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       67830.44
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.574
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       71130.29
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.604
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       93496.01
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       173.834
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       119161.58
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       174.204
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       156743.3
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       174.454
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa N°2 (Medianas Demandas con 10 kW < Pot < 50 kW)",
+    "filas": [
+     {
+      "grupo": null,
+      "concepto": "Por capacidad de suministro contratada",
+      "unidad": "$/kw-mes",
+      "valores": [
+       31750.13
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": null,
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kwh",
+      "valores": [
+       266.359
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa N°3 (Grandes Demandas) — T3-MT",
+    "filas": [
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       21141.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       6861.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       159.001
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Restantes",
+      "unidad": "$/kWh",
+      "valores": [
+       154.334
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       153.444
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       21141.83
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       6861.98
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       174.349
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Restantes",
+      "unidad": "$/kWh",
+      "valores": [
+       169.112
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       168.113
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "Tarifa N°3 (Grandes Demandas) — T3-BT",
+    "filas": [
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       35665.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       16040.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       167.307
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Restantes",
+      "unidad": "$/kWh",
+      "valores": [
+       162.396
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "50 kW < Pot < 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       161.46
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       35665.09
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo por Cap.de Sum.Cont. Fuera de Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       16040.92
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Pico",
+      "unidad": "$/kWh",
+      "valores": [
+       183.457
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Restantes",
+      "unidad": "$/kWh",
+      "valores": [
+       177.946
+      ],
+      "columnas": null
+     },
+     {
+      "grupo": "Pot ≥ 300 kW",
+      "concepto": "Cargo Variable por Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       176.895
+      ],
+      "columnas": null
+     }
+    ]
+   },
+   {
+    "titulo": "T1 Residencial con subsidio",
+    "filas": [
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       4526.25
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       111.002
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       18332.55
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.201
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       32631.94
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.231
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       43998.12
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.281
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       67830.44
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.331
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       71130.29
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.361
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       93496.01
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.591
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       119161.58
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.961
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       156743.3
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       79.211
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       4526.25
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       18332.55
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       32631.94
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       43998.12
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       67830.44
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       71130.29
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       93496.01
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       119161.58
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       156743.3
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       0.0
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "T1 R Residencial T3-MT Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       21141.83
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "T1 R1 Consumo Bimestral inferior o igual a 300 kWh T3-MT Cargo por Cap.de Sum.Cont. Fuera de Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       6861.98
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       4526.25
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       111.002
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "T1 R2 Consumo Bimestral mayor 300 kWh e inferior e igual 650 kWh T3-MT Cargo Variable por Energía en hs.Valle",
+      "unidad": "$/kWh",
+      "valores": [
+       48.837
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       18332.55
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.201
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "T1 R2 Consumo Bimestral mayor 650 kWh e inferior e igual 800 kWh T3-MT Cargo por Cap.de Sum.Cont. en Punta",
+      "unidad": "$/kW-mes",
+      "valores": [
+       21141.83
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       32631.94
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.231
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "T1 R2 Consumo Bimestral mayor 800 kWh e inferior e igual 900 kWh T3-MT Cargo Variable por Energía en hs.Restantes",
+      "unidad": "$/kWh",
+      "valores": [
+       48.764
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       43998.12
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.281
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       67830.44
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.331
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "T1 R2 Consumo Bimestral mayor 1000 kWh e inferior e igual 1200 kWh Por capacidad de suministro contratada",
+      "unidad": "$/kW-mes",
+      "valores": [
+       31750.13
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       71130.29
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 900 kWh e inferior e igual 1000 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.361
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       93496.01
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1200 kWh e inferior e igual 1400 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.591
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       119161.58
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 1400 kWh e inferior e igual 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       78.961
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo fijo",
+      "unidad": "$/bim",
+      "valores": [
+       156743.3
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     },
+     {
+      "grupo": "T1 R2 Consumo Bimestral mayor 2800 kWh",
+      "concepto": "Cargo variable por energía",
+      "unidad": "$/kWh",
+      "valores": [
+       79.211
+      ],
+      "columnas": [
+       "Valor"
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -1,4 +1,4 @@
-CUADRO TARIFARIO OCTUBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301-26
+CUADRO TARIFARIO NOVIEMBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374-26
 
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
 
@@ -7,16 +7,15 @@ LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUID
 
                                                            TARIFA PEQUEÑAS DEMANDAS
 
-  T1-R                                     USO RESIDENCIAL                                           UNIDAD          VAD           MEM            TOTAL
-
+  T1-R                                      USO RESIDENCIAL                                          UNIDAD          VAD           MEM            TOTAL
 
                                                    RESTO
 
-          Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo(*)                                        $/MES         1,809.26      27,822.71      29,631.97
+          Cargo fijo RESIDENCIAL NO BONIFICADO todo consumo(*)                                        $/MES         1,809.26      34,736.54      36,545.80
 
                                  Cargo variable por consumo de energia                               UNIDAD          VAD           MEM            TOTAL
 
-          Cargo Variable por todo Consumo de Energía RESIDENCIAL NO BONIFICADO (*)                    $/KWh.       45.1520       114.2063        159.3583
+          Cargo Variable por todo Consumo de Energía RESIDENCIAL NO BONIFICADO (*)                    $/KWh.       45.1520       113.9541        159.1061
 
 
                                         ELECTRODEPENDIENTES                                          UNIDAD          VAD           MEM            TOTAL
@@ -24,103 +23,102 @@ LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUID
           Cargo fijo                                                                                  $/MES         1,809.26      0.0000          1,809.26
           Cargo variable por consumo de energia                                                       $/KWh.       45.1520        0.0000          45.1520
 
- T1 - G                                      USO GENERAL                                             UNIDAD          VAD           MEM            TOTAL
+ T1 - G                                       USO GENERAL                                            UNIDAD          VAD           MEM            TOTAL
 
-          Cargo fijo                                                                                  $/MES         2,291.89    123,449.88      125,741.77
-          Cargo variable por consumo de energía                                                       $/KWh.       55.3944       139.8519        195.2463
+          Cargo fijo                                                                                  $/MES         2,291.89    154,126.65      156,418.54
+          Cargo variable por consumo de energía                                                       $/KWh.       55.3944       146.6554        202.0498
 
 
 T1 - AP                                  ALUMBRADO PÚBLICO                                           UNIDAD          VAD           MEM            TOTAL
 
-          Cargo variable por consumo de energía                                                       $/KWh.       58.7762       189.2170        247.9932
+          Cargo variable por consumo de energía                                                       $/KWh.       58.7762       208.4289        267.2051
 
    T2                                    MEDIANAS DEMANDAS                                           UNIDAD          VAD           MEM            TOTAL
 
-          Por capacidad de Suministro Contratada                                                    $/KW-MES       12,899.34     12,538.54       25,437.88
-          Cargo variable por consumo de energía                                                       $/KWh         0.0000       114.1176        114.1176
-          Cargo Fijo                                                                                  $/MES        7,028.28       0.0000         7,028.28
+          Por capacidad de Suministro Contratada                                                    $/KW-MES       12,899.34     15,654.31       28,553.65
+          Cargo variable por consumo de energía                                                       $/KWh          0.0000      119.6420        119.6420
+          Cargo Fijo                                                                                  $/MES         7,028.28      0.0000         7,028.28
 
-                                                                                 TARIFA GRANDES DEMANDAS
+                                                                                  TARIFA GRANDES DEMANDAS
 
    T3                                                                    GRANDES DEMANDAS CON CONSUMOS MENORES A 300 KW
-                                                                Nivel de Tensión de Suministro:                Baja Tensión                                                  Media Tensión
-                                                                                                UNIDAD VAD       MEM                              TOTAL            VAD          MEM           TOTAL
+                                                                Nivel de Tensión de Suministro:                 Baja Tensión                                                 Media Tensión
+                                                                                                UNIDAD VAD        MEM                             TOTAL            VAD          MEM           TOTAL
 
-          Por Capacidad de Suministro Contratada en Hs.Pico                                         $/KW-MES       19,351.45     13,914.51       33,265.96        7,723.43    12,975.52      20,698.95
-          Por Capacidad de Suministro Contratada en Hs. F. de Pico                                  $/KW-MES       11,809.78       0.00          11,809.78        8,982.04       0.00        8,982.04
-          Cargo Fijo                                                                                  $/MES        35,569.98       0.00          35,569.98       36,494.65       0.00        36,494.65
-                                  Cargo Variable por Consumo de Energía
-          Período Horas Punta                                                                         $/KWh.        0.0000       143.8519        143.8519         0.0000      130.7417       130.7417
-          Período Horas Resto                                                                         $/KWh.        0.0000       139.2351        139.2351         0.0000      126.5457       126.5457
-          Período Horas Valle Nocturno                                                                $/KWh.        0.0000       138.1407        138.1407         0.0000      125.5510       125.5510
-                                     Por Consumo de Energía Reactiva
+          Por Capacidad de Suministro Contratada en Hs.Pico                                          $/KW-MES      19,351.45     17,372.21       36,723.66        7,723.43    16,199.88      23,923.31
+          Por Capacidad de Suministro Contratada en Hs. F. de Pico                                   $/KW-MES      11,809.78       0.00          11,809.78        8,982.04      0.00          8,982.04
+          Cargo Fijo                                                                                   $/MES       35,569.98       0.00          35,569.98       36,494.65      0.00         36,494.65
+                                 Cargo Variable por Consumo de Energía
+          Período Horas Punta                                                                         $/KWh.        0.0000       150.9999        150.9999         0.0000      137.2382       137.2382
+          Período Horas Resto                                                                         $/KWh.        0.0000       145.8939        145.8939         0.0000      132.5976       132.5976
+          Período Horas Valle Nocturno                                                                $/KWh.        0.0000       144.9204        144.9204         0.0000      131.7128       131.7128
+                                    Por Consumo de Energía Reactiva
           Recargo por cada centésimo de Tg> 0,62 por la
           energía reactiva en exceso del 62% de la E. Activa                                            %
 
    T4                                                                      RIEGO AGRÍCOLA CON CONSUMOS MENORES A 300 KW
                                                                 Nivel de Tensión de Suministro:                   Baja Tensión                                               Media Tensión
-                                                                                                UNIDAD   VAD       MEM                            TOTAL            VAD          MEM           TOTAL
+                                                                                                UNIDAD   VAD        MEM                           TOTAL            VAD          MEM           TOTAL
 
-          Por Capacidad de Suministro Contratada en Hs.Pico MEM                                     $/KW-MES        0.0000       16,012.87       16,012.87          0.00       13,206.13     13,206.13
-          Por Capacidad de Suministro Contratada en Hs.Pico Exced.                                  $/KW-MES       20,199.84        0.00         20,199.84        7,857.00       0.00        7,857.00
-          Por Capacidad de Suministro Contratada en Hs. F. de Pico Exced.                           $/KW-MES       12,550.25        0.00         12,550.25        9,146.68       0.00        9,146.68
-          Cargo Fijo                                                                                  $/MES        35,569.98        0.00         35,569.98       36,494.65       0.00        36,494.65
+          Por Capacidad de Suministro Contratada en Hs.Pico MEM                                      $/KW-MES       0.0000       19,992.00       19,992.00          0.00      16,487.80      16,487.80
+          Por Capacidad de Suministro Contratada en Hs.Pico Exced.                                   $/KW-MES      20,199.84       0.00          20,199.84        7,857.00      0.00          7,857.00
+          Por Capacidad de Suministro Contratada en Hs. F. de Pico Exced.                            $/KW-MES      12,550.25       0.00          12,550.25        9,146.68      0.00          9,146.68
+          Cargo Fijo                                                                                   $/MES       35,569.98       0.00          35,569.98       36,494.65      0.00         36,494.65
 
                                 Cargo Variable por Consumo de Energía
-          Período Horas Punta                                                                         $/KWh.       104.4280      143.8519        248.2799        36.0903      130.7417       166.8320
-          Período Horas Resto                                                                         $/KWh.       104.4280      139.2351        243.6631        36.0903      126.5456       162.6359
-          Período Horas Valle Nocturno                                                                $/KWh.       104.4280      138.1407        242.5687        36.0903      125.5510       161.6413
+          Período Horas Punta                                                                         $/KWh.       104.4280      150.9998        255.4278        36.0903      137.2382       173.3285
+          Período Horas Resto                                                                         $/KWh.       104.4280      145.8939        250.3219        36.0903      132.5976       168.6879
+          Período Horas Valle Nocturno                                                                $/KWh.       104.4280      144.9204        249.3484        36.0903      131.7128       167.8031
 
-                                  Por Consumo de Energía Reactiva
-          Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,85                                         $/kVAR                                              0.01
-          Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,95                                         $/kVAR                                              0.01
-CUADRO TARIFARIO OCTUBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301-26
+                                 Por Consumo de Energía Reactiva
+         Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,85                      $/kVAR                                                                  0.01
+         Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,95                      $/kVAR                                                                  0.01
+(*) RESIDENCIALES CALIFICADOS P/SUBSIDIOS ENERGETICOS FOCALIZADOS S/ANEXO I- DECRETO 943/2025
+CUADRO TARIFARIO NOVIEMBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374-26
 
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
 
 
 
-
-CUADRO TARIFARIO OCTUBRE 2026 - NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301 -26
+CUADRO TARIFARIO NOVIEMBRE 2026 - NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374 -26
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
 
 
-
-TARIFA ENTIDADES DE BIEN PÚBLICO                                                                                             SEGÚN LEY NACIONALN°27218,
-                                                      LEY PROVINCIAL N° 5859, RES. EN.RE N°106/24
+          TARIFA ENTIDADES DE BIEN PÚBLICO                                                                                             SEGÚN LEY
+                                           NACIONALN°27218, LEY PROVINCIAL N° 5859, RES. EN.RE N°106/24
 
  T1-R                                                                 PEQUEÑAS DEMANDAS
 
                                      ENTIDADES DE BIEN PÚBLICO                                       UNIDAD          VAD           MEM            TOTAL
 
-         Cargo fijo                                                                                   $/MES        1809.26       27,822.71       29,631.97
-         Cargo variable por consumo de energía (*)                                                    $/KWh.       45.1520       114.2063        159.3583
+         Cargo fijo                                                                                   $/MES        1809.26       34,736.54       36,545.80
+         Cargo variable por consumo de energía (*)                                                    $/KWh.       45.1520       113.9541        159.1061
 
    T2                                                                  MEDIANAS DEMANDAS
 
                                      ENTIDADES DE BIEN PÚBLICO                                       UNIDAD          VAD           MEM            TOTAL
 
-         Por capacidad de Suministro Contratada                                                       $/MES        12,899.34     12,538.54       25,437.88
-         Cargo variable por consumo de energía (*)                                                    $/MES          0.0000      114.2063        114.2063
+         Por capacidad de Suministro Contratada                                                       $/MES        12,899.34     15,654.31       28,553.65
+         Cargo variable por consumo de energía (*)                                                    $/MES         0.0000       113.9541        113.9541
          Cargo Fijo                                                                                   $/MES         7028.28         0.00         7,028.28
 
    T3                                                                                       GRANDES DEMANDAS
                                      Nivel de Tensión de Suministro:                                                             Baja Tensión                            Media Tensión
                                                                                                      UNIDAD          VAD          MEM             TOTAL        VAD          MEM           TOTAL
 
-         Por Capacidad de Suministro Contratada en Hs.Pico                                          $/KW-MES       19,351.45     13,914.51       33,265.96    7,723.43    12,975.52      20,698.95
-         Por Capacidad de Suministro Contratada en Hs. F. de Pico                                   $/KW-MES       11,809.78       0.00          11,809.78    8,982.04       0.00        8,982.04
-         Cargo Fijo                                                                                   $/MES        35,569.98       0.00          35,569.98   36,494.65       0.00        36,494.65
+         Por Capacidad de Suministro Contratada en Hs.Pico                                           $/KW-MES      19,351.45     17,372.21       36,723.66    7,723.43    16,199.88      23,923.31
+         Por Capacidad de Suministro Contratada en Hs. F. de Pico                                    $/KW-MES      11,809.78       0.00          11,809.78    8,982.04      0.00          8,982.04
+         Cargo Fijo                                                                                    $/MES       35,569.98       0.00          35,569.98   36,494.65      0.00         36,494.65
 
                                 Cargo Variable por Consumo de Energía
-         Período Horas Punta(*)                                                                       $/KWh.        0.0000       114.2063        114.2063     0.0000      114.2063       114.2063
-         Período Horas Resto(*)                                                                       $/KWh.        0.0000       114.2063        114.2063     0.0000      114.2063       114.2063
-         Período Horas Valle Nocturno(*)                                                              $/KWh.        0.0000       114.2063        114.2063     0.0000      114.2063       114.2063
+         Período Horas Punta(*)                                                                       $/KWh.        0.0000       113.9541        113.9541     0.0000      113.9541       113.9541
+         Período Horas Resto(*)                                                                       $/KWh.        0.0000       113.9541        113.9541     0.0000      113.9541       113.9541
+         Período Horas Valle Nocturno(*)                                                              $/KWh.        0.0000       113.9541        113.9541     0.0000      113.9541       113.9541
 
                                    Por Consumo de Energía Reactiva
          Recargo por cada centésimo de Tg> 0,62 por la
          energía reactiva en exceso del 62% de la E. Activa                                             %
-CUADRO TARIFARIO OCTUBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301-26
+CUADRO TARIFARIO NOVIEMBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374-26
 
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
 
@@ -128,94 +126,92 @@ LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUID
 
 
                                                                    TARIFA GRANDES DEMANDAS
-   T3                                             GRANDES DEMANDAS CON CONSUMOS IGUALES O MAYORES A 300 KW
-                                                            ORGANISMOS PUBLICOS SALUD / EDUCACION
-                          Nivel de Tensión de Suministro:                             Baja Tensión                                               Media Tensión
-                                                                            UNIDAD          VAD            MEM          TOTAL          VAD               MEM             TOTAL
+   T3                                              GRANDES DEMANDAS CON CONSUMOS IGUALES O MAYORES A 300 KW
+                                                             ORGANISMOS PUBLICOS SALUD / EDUCACION
+                          Nivel de Tensión de Suministro:                               Baja Tensión                                             Media Tensión
+                                                                            UNIDAD          VAD            MEM          TOTAL          VAD               MEM          TOTAL
 
-           Por Capacidad de Suministro Contratada en Hs.Pico               $/KW-MES        19,351.45      13,914.51    33,265.96     7,723.43          12,975.52        20,698.95
-           Por Capacidad de Suministro Contratada en Hs. F. de Pico        $/KW-MES        11,809.78       0.00        11,809.78     8,982.04            0.00           8,982.04
-           Cargo Fijo                                                        $/MES         35,569.98       0.00        35,569.98     36,494.65           0.00           36,494.65
+           Por Capacidad de Suministro Contratada en Hs.Pico               $/KW-MES       19,351.45       17,372.21    36,723.66      7,723.43         16,199.88     23,923.31
+           Por Capacidad de Suministro Contratada en Hs. F. de Pico        $/KW-MES       11,809.78        0.00        11,809.78      8,982.04            0.00        8,982.04
+           Cargo Fijo                                                        $/MES        35,569.98        0.00        35,569.98     36,494.65            0.00       36,494.65
 
                       Cargo Variable por Consumo de Energía
 
 
-           Período Horas Punta                                               $/KWh.       0.0000         164.1266      164.1266       0.0000           149.1686         149.1686
-           Período Horas Resto                                               $/KWh.       0.0000         158.7931      158.7931       0.0000           144.3212         144.3212
-           Período Horas Valle Nocturno                                      $/KWh.       0.0000         157.5287      157.5287       0.0000           143.1720         143.1720
+           Período Horas Punta                                               $/KWh.        0.0000        167.8788      167.8788       0.0000           152.5789      152.5789
+           Período Horas Resto                                               $/KWh.        0.0000        162.1489      162.1489       0.0000           147.3711      147.3711
+           Período Horas Valle Nocturno                                      $/KWh.        0.0000        161.0557      161.0557       0.0000           146.3776      146.3776
 
                           Por Consumo de Energía Reactiva
            Recargo por cada centésimo de Tg> 0,62 por la
-           energía reactiva en exceso del 62% de la E. Activa                  %                                                                                  1.5         0.01
+           energía reactiva en exceso del 62% de la E. Activa                  %                                                                               1.5        0.01
 
    T3                                              GRANDES DEMANDAS CON CONSUMOS IGUALES O MAYORES A 300 KW
                                                                                 GENERALES
                                         Nivel de Tensión de Suministro:          Baja Tensión                     Media Tensión
-                                                                         UNIDAD      VAD      MEM        TOTAL        VAD                                MEM             TOTAL
-           Por Capacidad de Suministro Contratada en Hs.Pico            $/KW-MES   19,351.45  13,914.51 33,265.96   7,723.43                           12,975.52        20,698.95
-           Por Capacidad de Suministro Contratada en Hs. F. de Pico     $/KW-MES   11,809.78   0.00     11,809.78   8,982.04                             0.00           8,982.04
-           Cargo Fijo                                                     $/MES    35,569.98   0.00     35,569.98   36,494.65                            0.00           36,494.65
+                                                                         UNIDAD      VAD       MEM       TOTAL         VAD                               MEM          TOTAL
+           Por Capacidad de Suministro Contratada en Hs.Pico            $/KW-MES   19,351.45  17,372.21 36,723.66    7,723.43                          16,199.88     23,923.31
+           Por Capacidad de Suministro Contratada en Hs. F. de Pico     $/KW-MES   11,809.78   0.00     11,809.78    8,982.04                             0.00        8,982.04
+           Cargo Fijo                                                     $/MES    35,569.98   0.00     35,569.98   36,494.65                             0.00       36,494.65
 
                      Cargo Variable por Consumo de Energía
-           Período Horas Punta                                               $/KWh.       0.0000         164.1266      164.1266       0.0000           149.1686         149.1686
-           Período Horas Resto                                               $/KWh.       0.0000         158.7931      158.7931       0.0000           144.3212         144.3212
-           Período Horas Valle Nocturno                                      $/KWh.       0.0000         157.5287      157.5287       0.0000           143.1720         143.1720
+           Período Horas Punta                                               $/KWh.        0.0000        167.8788      167.8788       0.0000           152.5789      152.5789
+           Período Horas Resto                                               $/KWh.        0.0000        162.1489      162.1489       0.0000           147.3711      147.3711
+           Período Horas Valle Nocturno                                      $/KWh.        0.0000        161.0557      161.0557       0.0000           146.3776      146.3776
 
                          Por Consumo de Energía Reactiva
            Recargo por cada centésimo de Tg> 0,62 por la
-           energía reactiva en exceso del 62% de la E. Activa                  %                                                                                  1.5         0.01
+           energía reactiva en exceso del 62% de la E. Activa                  %                                                                               1.5        0.01
 
    T4                                                   RIEGO AGRÍCOLACON CONSUMOS IGUALES O MAYORES A 300 KW
                                           Nivel de Tensión de Suministro:                Baja Tensión                                            Media Tensión
-                                                                          UNIDAD VAD          MEM      TOTAL                           VAD           MEM                 TOTAL
+                                                                          UNIDAD VAD          MEM      TOTAL                           VAD           MEM              TOTAL
 
-           Por Capacidad de Suministro Contratada en Hs.Pico MEM          $/KW-MES         0.00         16,012.87      16,012.87       0.00             13,206.13       13,206.13
-           Por Capacidad de Suministro Contratada en Hs.Pico Exced.       $/KW-MES       20,199.84         0.00        20,199.84     7,857.00            0.00           7,857.00
-           Por Capacidad de Suministro Contratada en Hs. F. de Pico Exced. $/KW-MES      12,550.25         0.00        12,550.25     9,146.68            0.00           9,146.68
-           Cargo Fijo                                                        $/MES       35,569.98         0.00        35,569.98     36,494.65           0.00           36,494.65
+           Por Capacidad de Suministro Contratada en Hs.Pico MEM          $/KW-MES          0.00        19,992.00      19,992.00        0.00            16,487.80    16,487.80
+           Por Capacidad de Suministro Contratada en Hs.Pico Exced.       $/KW-MES       20,199.84        0.00         20,199.84      7,857.00           0.00         7,857.00
+           Por Capacidad de Suministro Contratada en Hs. F. de Pico Exced. $/KW-MES      12,550.25         0.00        12,550.25      9,146.68           0.00         9,146.68
+           Cargo Fijo                                                        $/MES       35,569.98         0.00        35,569.98     36,494.65           0.00        36,494.65
                       Cargo Variable por Consumo de Energía
-           Período Horas Punta                                               $/KWh.      104.4280        164.1266      268.5546       36.0903          149.1686         185.2589
-           Período Horas Resto                                               $/KWh.      104.4280        158.7931      263.2211       36.0903          144.3212         180.4115
-           Período Horas Valle Nocturno                                      $/KWh.      104.4280        157.5286      261.9566       36.0903          143.1720         179.2623
-                         Por Consumo de Energía Reactiva
+           Período Horas Punta                                               $/KWh.      104.4280        167.8788      272.3068       36.0903          152.5788      188.6691
+           Período Horas Resto                                               $/KWh.      104.4280        162.1489      266.5769       36.0903          147.3711      183.4614
+           Período Horas Valle Nocturno                                      $/KWh.      104.4280        161.0557      265.4837       36.0903          146.3775      182.4678
+                        Por Consumo de Energía Reactiva
            Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,85               $/kVAR                                           0.01
            Rec. por C/KVAR excedido P/Pot.>100kW cos fi>= 0,95               $/kVAR                                           0.01
 
 
 
 
-  Tarifa                   SERVICIO DE REHABILITACION                       UNIDAD          VAD            MEM          TOTAL
-           Por cada servicio interrumpido por f. de pago
-  T1 - R   Residencial                                                          $        3,135.14          0.00         3,135.14
-  T1 - G   General                                                              $        19,679.97         0.00        19,679.97
- T1 - AP   Alumbrado Público                                                    $        19,679.97         0.00        19,679.97
-   T2      Medianas Demandas                                                    $        50,170.23         0.00        50,170.23
-   T3      Grandes Demandas                                                     $        50,170.23         0.00        50,170.23
+  Tarifa                SERVICIO DE REHABILITACION                          UNIDAD          VAD            MEM          TOTAL
+         Por cada servicio interrumpido por f. de pago
+  T1 - R Residencial                                                            $         3,135.14         0.00        3,135.14
+ T1 - G General                                                                 $        19,679.97         0.00        19,679.97
+ T1 - AP Alumbrado Público                                                      $        19,679.97         0.00        19,679.97
+   T2    Medianas Demandas                                                      $        50,170.23         0.00        50,170.23
+   T3    Grandes Demandas                                                       $        50,170.23         0.00        50,170.23
 
 
-               CARGOS POR DERECHOS DE CONEXION                              UNIDAD        TOTAL            MEM          TOTAL
+                CARGOS POR DERECHOS DE CONEXION                             UNIDAD        TOTAL            MEM          TOTAL
 
                    Conexiones comunes por usuario.
- Aéreas Monofásicas                                                             $        37,661.40         0.00       37,661.40
- Subterráneas Monofásicas                                                       $        94,169.38         0.00       94,169.38
- Aéreas Trifásicas                                                              $        72,274.97         0.00       72,274.97
+ Aéreas Monofásicas                                                             $       37,661.40          0.00        37,661.40
+ Subterráneas Monofásicas                                                       $       94,169.38          0.00        94,169.38
+ Aéreas Trifásicas                                                              $       72,274.97          0.00        72,274.97
  Subterráneas Trifásicas                                                        $       181,385.89         0.00       181,385.89
 
                   Conexiones especiales por usuario.
- Aéreas Monofásicas                                                             $        95,467.09         0.00       95,467.09
+ Aéreas Monofásicas                                                             $       95,467.09          0.00        95,467.09
  Subterráneas Monofásicas                                                       $       274,602.82         0.00       274,602.82
  Aéreas Trifásicas                                                              $       176,579.99         0.00       176,579.99
  Subterráneas Trifásicas                                                        $       333,452.23         0.00       333,452.23
-CUADRO TARIFARIO OCTUBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301-26
+CUADRO TARIFARIO NOVIEMBRE 2026 NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374-26
 
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
 
 
 
-
-CUADRO TARIFARIO OCTUBRE 2026 - NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 301 -26
+CUADRO TARIFARIO NOVIEMBRE 2026 - NO SUBSIDIADO CON APLICACIÓN DE RES. MIN. D.P. N° 374 -26
 LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUIDORA FACTURARÁ A SUS USUARIOS, ESTABLECIDOS EN LA LEGISLACION VIGENTE.
-
 
 
                                      TARIFA DE CLUBES DE BARRIO Y PUEBLO
@@ -225,29 +221,29 @@ LOS VALORES INDICADOS CONSTITUYEN VALORES MÁXIMOS DENTRO DEL CUAL LA DISTRIBUID
 
                           ENTIDADES DE BIEN PÚBLICO                         UNIDAD          VAD            MEM          TOTAL
 
-          Cargo fijo                                                         $/MES        1809.26       27,822.71      29,631.97
-          Cargo variable por consumo de energía (*)                          $/KWh.       45.1520       114.2063       159.3583
+          Cargo fijo                                                         $/MES        1809.26       34,736.54      36,545.80
+          Cargo variable por consumo de energía (*)                          $/KWh.       45.1520       113.9541       159.1061
 
    T2                                                    MEDIANAS DEMANDAS
 
                           ENTIDADES DE BIEN PÚBLICO                         UNIDAD          VAD            MEM          TOTAL
 
-          Por capacidad de Suministro Contratada                             $/MES       12,899.34      12,538.54      25,437.88
-          Cargo variable por consumo de energía (*)                          $/MES         0.0000       114.2063       114.2063
-          Cargo Fijo                                                         $/MES        7028.28          0.00         7,028.28
+          Por capacidad de Suministro Contratada                             $/MES       12,899.34      15,654.31      28,553.65
+          Cargo variable por consumo de energía (*)                          $/MES         0.0000       113.9541       113.9541
+          Cargo Fijo                                                         $/MES        7028.28          0.00        7,028.28
 
    T3                                                                         GRANDES DEMANDAS
-                         Nivel de Tensión de Suministro:                                              Baja Tensión                               Media Tensión
+                          Nivel de Tensión de Suministro:                                             Baja Tensión                               Media Tensión
                                                                             UNIDAD          VAD            MEM          TOTAL          VAD           MEM            TOTAL
 
-          Por Capacidad de Suministro Contratada en Hs.Pico                $/KW-MES      19,351.45      13,914.51      33,265.96     7,723.43          12,975.52   20,698.95
-          Por Capacidad de Suministro Contratada en Hs. F. de Pico         $/KW-MES      11,809.78        0.00         11,809.78     8,982.04            0.00      8,982.04
-          Cargo Fijo                                                         $/MES       35,569.98        0.00         35,569.98     36,494.65           0.00      36,494.65
+          Por Capacidad de Suministro Contratada en Hs.Pico                $/KW-MES      19,351.45      17,372.21      36,723.66      7,723.43         16,199.88   23,923.31
+          Por Capacidad de Suministro Contratada en Hs. F. de Pico         $/KW-MES      11,809.78        0.00         11,809.78      8,982.04            0.00      8,982.04
+          Cargo Fijo                                                         $/MES       35,569.98        0.00         35,569.98     36,494.65            0.00     36,494.65
 
                     Cargo Variable por Consumo de Energía
-          Período Horas Punta(*)                                             $/KWh.       0.0000         114.2063      114.2063       0.0000           114.2063    114.2063
-          Período Horas Resto(*)                                             $/KWh.       0.0000         114.2063      114.2063       0.0000           114.2063    114.2063
-          Período Horas Valle Nocturno(*)                                    $/KWh.       0.0000         114.2063      114.2063       0.0000           114.2063    114.2063
+          Período Horas Punta(*)                                             $/KWh.        0.0000        113.9541      113.9541       0.0000           113.9541    113.9541
+          Período Horas Resto(*)                                             $/KWh.        0.0000        113.9541      113.9541       0.0000           113.9541    113.9541
+          Período Horas Valle Nocturno(*)                                    $/KWh.        0.0000        113.9541      113.9541       0.0000           113.9541    113.9541
 
                          Por Consumo de Energía Reactiva
           Recargo por cada centésimo de Tg> 0,62 por la
